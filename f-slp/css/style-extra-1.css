@@ -9453,6 +9453,24 @@ table.visa-event-table {
       border-bottom: #000 solid 1px; }
     .school-landing-ctas.school-landing-ctas--sass a:focus, .school-landing-ctas.school-landing-ctas--sass a:active {
       border-color: #f15f22; }
+  .school-landing-ctas.school-landing-ctas--smcse a {
+    display: block;
+    margin-bottom: 16px;
+    padding: 8px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background: #fff;
+    border: 2px solid #fff; }
+    .school-landing-ctas.school-landing-ctas--smcse a .fa, .school-landing-ctas.school-landing-ctas--smcse a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .school-landing-ctas.school-landing-ctas--smcse a .ui-icon, .school-landing-ctas.school-landing-ctas--smcse a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .school-landing-ctas.school-landing-ctas--smcse a .ui-icon, .school-landing-ctas.school-landing-ctas--smcse a .white-card__media .embed-container a:before, .white-card__media .embed-container .school-landing-ctas.school-landing-ctas--smcse a a:before, .school-landing-ctas.school-landing-ctas--smcse a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .school-landing-ctas.school-landing-ctas--smcse a .ui-icon {
+      color: #00444d;
+      margin-right: 10px; }
+    .school-landing-ctas.school-landing-ctas--smcse a:link, .school-landing-ctas.school-landing-ctas--smcse a:visited {
+      color: #333; }
+    .school-landing-ctas.school-landing-ctas--smcse a:hover .label {
+      border-bottom: #000 solid 1px; }
+    .school-landing-ctas.school-landing-ctas--smcse a:focus, .school-landing-ctas.school-landing-ctas--smcse a:active {
+      border-color: #00444d; }
   .school-landing-ctas.school-landing-ctas--health {
     background: #00284c; }
     .school-landing-ctas.school-landing-ctas--health h2 {
@@ -10339,32 +10357,3 @@ a.course__red-links__link {
   background-color: #a42833; }
   .course-ug .course__red-links__link:hover {
     background-color: #8d182a; }
-  .course-ug .course__red-links__link:focus, .course-ug .course__red-links__link:active {
-    background-color: #ae3c44; }
-
-.course-ug .course__news-item__cat,
-.course-ug .course__event__date {
-  background-color: #b91b1c; }
-
-.course-ug .course__testimonials__wrapper {
-  background-color: #a42833; }
-
-.course-ug .course__profiles__item__title a:active, .course-ug .course__profiles__item__title a:focus {
-  color: #a42833; }
-
-.course-pg .course__subheader:after,
-.course-pg .course__key-information {
-  background-color: #4d2a42; }
-
-.course-pg .course__key-information h3 {
-  border-bottom-color: #5e3b53; }
-
-.course-pg .course__red-links .row > :not(:first-child) .course__red-links:before {
-  background-color: #5e3b53; }
-
-.course-pg .course__red-links__link {
-  background-color: #4d2a42; }
-  .course-pg .course__red-links__link:hover {
-    background-color: #402337; }
-  .course-pg .course__red-links__link:focus, .course-pg .course__red-links__link:active {
-    background-color: #5e3b53; }

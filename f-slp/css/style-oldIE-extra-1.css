@@ -8617,6 +8617,24 @@ p.left-float-image {
       border-bottom: #000 solid 1px; }
     .school-landing-ctas.school-landing-ctas--sass a:focus, .school-landing-ctas.school-landing-ctas--sass a:active {
       border-color: #f15f22; }
+  .school-landing-ctas.school-landing-ctas--smcse a {
+    display: block;
+    margin-bottom: 16px;
+    padding: 8px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background: #fff;
+    border: 2px solid #fff; }
+    .school-landing-ctas.school-landing-ctas--smcse a .fa, .school-landing-ctas.school-landing-ctas--smcse a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .school-landing-ctas.school-landing-ctas--smcse a .ui-icon, .school-landing-ctas.school-landing-ctas--smcse a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .school-landing-ctas.school-landing-ctas--smcse a .ui-icon, .school-landing-ctas.school-landing-ctas--smcse a .white-card__media .embed-container a:before, .white-card__media .embed-container .school-landing-ctas.school-landing-ctas--smcse a a:before, .school-landing-ctas.school-landing-ctas--smcse a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .school-landing-ctas.school-landing-ctas--smcse a .ui-icon {
+      color: #00444d;
+      margin-right: 10px; }
+    .school-landing-ctas.school-landing-ctas--smcse a:link, .school-landing-ctas.school-landing-ctas--smcse a:visited {
+      color: #333; }
+    .school-landing-ctas.school-landing-ctas--smcse a:hover .label {
+      border-bottom: #000 solid 1px; }
+    .school-landing-ctas.school-landing-ctas--smcse a:focus, .school-landing-ctas.school-landing-ctas--smcse a:active {
+      border-color: #00444d; }
   .school-landing-ctas.school-landing-ctas--health {
     background: #00284c; }
     .school-landing-ctas.school-landing-ctas--health h2 {
@@ -10902,52 +10920,3 @@ a.course__red-links__link {
     .intranet-home__container .line-link__pointer {
       text-align: right;
       font-size: .8em; }
-    .intranet-home__container .line-link__text a:link, .intranet-home__container .line-link__text a:visited {
-      color: #222;
-      border-bottom: none; }
-    .intranet-home__container .line-link__text a:hover {
-      color: #b02a1a; }
-    .intranet-home__container .line-link__text a:focus, .intranet-home__container .line-link__text a:active {
-      color: #fff;
-      background: #b02a1a; }
-  .intranet-home__container .news-yammer-wrapper {
-    padding-left: 0;
-    padding-right: 0;
-    margin-bottom: 20px; }
-  .intranet-home__container .intranet-yammer {
-    height: 505px;
-    border: 10px #ddd solid;
-    background: #f3f5f8; }
-    .intranet-home__container .intranet-yammer__header {
-      background: #396b9a;
-      color: #fff;
-      border: 1px solid #dde0e6;
-      margin: 0 0 0.5em;
-      padding: 8px 8px 8px 12px;
-      font-family: Helvetica, Arial, sans-serif;
-      font-weight: 500; }
-    .intranet-home__container .intranet-yammer__skip {
-      left: -99999px;
-      position: absolute; }
-      .intranet-home__container .intranet-yammer__skip:focus {
-        font-size: 0.8em;
-        background-color: #ff0;
-        color: #000;
-        float: right;
-        padding: 0 5px;
-        position: static; }
-    .intranet-home__container .intranet-yammer__feed {
-      height: 430px; }
-  .intranet-home__container .intranet-news {
-    background: #ddd; }
-    .intranet-home__container .intranet-news__header {
-      padding: 0 5px 5px 1px;
-      background: #fff; }
-    .intranet-home__container .intranet-news__heading {
-      font-size: 1.8em;
-      line-height: 1em;
-      color: #222;
-      border: none; }
-      .intranet-home__container .intranet-news__heading:hover, .intranet-home__container .intranet-news__heading:focus {
-        text-decoration: underline;
-        border: none; }

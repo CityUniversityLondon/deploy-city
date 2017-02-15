@@ -1,4 +1,33 @@
 
+  .course-ug .course__red-links__link:focus, .course-ug .course__red-links__link:active {
+    background-color: #ae3c44; }
+
+.course-ug .course__news-item__cat,
+.course-ug .course__event__date {
+  background-color: #b91b1c; }
+
+.course-ug .course__testimonials__wrapper {
+  background-color: #a42833; }
+
+.course-ug .course__profiles__item__title a:active, .course-ug .course__profiles__item__title a:focus {
+  color: #a42833; }
+
+.course-pg .course__subheader:after,
+.course-pg .course__key-information {
+  background-color: #4d2a42; }
+
+.course-pg .course__key-information h3 {
+  border-bottom-color: #5e3b53; }
+
+.course-pg .course__red-links .row > :not(:first-child) .course__red-links:before {
+  background-color: #5e3b53; }
+
+.course-pg .course__red-links__link {
+  background-color: #4d2a42; }
+  .course-pg .course__red-links__link:hover {
+    background-color: #402337; }
+  .course-pg .course__red-links__link:focus, .course-pg .course__red-links__link:active {
+    background-color: #5e3b53; }
 
 .course-pg .course__news-item__cat,
 .course-pg .course__event__date {
