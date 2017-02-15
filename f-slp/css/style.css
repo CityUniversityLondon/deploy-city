@@ -20257,15 +20257,18 @@ table.visa-event-table {
   .school-landing-ctas.school-landing-ctas--smcse a {
     display: block;
     margin-bottom: 16px;
-    padding: 8px;
+    padding: 8px 8px 8px 2em;
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     background: #fff;
     border: 2px solid #fff; }
     .school-landing-ctas.school-landing-ctas--smcse a .fa, .school-landing-ctas.school-landing-ctas--smcse a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .school-landing-ctas.school-landing-ctas--smcse a .ui-icon, .school-landing-ctas.school-landing-ctas--smcse a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .school-landing-ctas.school-landing-ctas--smcse a .ui-icon, .school-landing-ctas.school-landing-ctas--smcse a .white-card__media .embed-container a:before, .white-card__media .embed-container .school-landing-ctas.school-landing-ctas--smcse a a:before, .school-landing-ctas.school-landing-ctas--smcse a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .school-landing-ctas.school-landing-ctas--smcse a .ui-icon {
+      position: absolute;
       color: #00444d;
-      margin-right: 10px; }
+      margin-right: 10px;
+      top: 15px;
+      left: 20px; }
     .school-landing-ctas.school-landing-ctas--smcse a:link, .school-landing-ctas.school-landing-ctas--smcse a:visited {
       color: #333; }
     .school-landing-ctas.school-landing-ctas--smcse a:hover .label {
