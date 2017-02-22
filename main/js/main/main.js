@@ -194,7 +194,6 @@ module.exports = function () {
                     initDropdowns();
                     initAzListing(azListings);
                     imageAccordion();
-                    imageCreditation();
                     initSeeMore();
                     initWhiteCards();
                     initNewsEventsStrip();
@@ -204,6 +203,9 @@ module.exports = function () {
                     initCookieNotice($);
                     popupDialog();
                     responsiveTables();
+                    // We need to wait for the DOM to be modified before
+                    // traversing for Image Credits
+                    imageCreditation();
 
 
                     $galleries.each(function () {
