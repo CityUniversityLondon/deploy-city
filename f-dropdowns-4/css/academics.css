@@ -417,7 +417,7 @@ h4 {
 .contact-list .email,
 .contact-list .website,
 .contact-list .twitter {
-  word-break: break-word; }
+  overflow-wrap: break-word; }
 
 ul.contact-list {
   list-style: none;

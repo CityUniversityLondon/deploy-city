@@ -18290,6 +18290,19 @@ a.ghost-cta {
     font-size: .7em;
     margin-top: .3em; }
 
+.home div > a > h2 {
+  margin-bottom: 0; }
+  .home div > a > h2 .fa, .home div > a > h2 .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home div > a > h2 .ui-icon, .home div > a > h2 #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home div > a > h2 .ui-icon, .home div > a > h2 .white-card__media .embed-container a:before, .white-card__media .embed-container .home div > a > h2 a:before, .home div > a > h2 .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .home div > a > h2 .ui-icon {
+    font-size: 0.8em; }
+
+.home div > a:hover > h2 span, .home div > a:focus > h2 span {
+  color: #b91b1b;
+  border-bottom: 2px solid;
+  border-bottom-color: #b91b1b; }
+
+.home div > a:hover > h2 .fa, .home div > a:hover > h2 .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home div > a:hover > h2 .ui-icon, .home div > a:hover > h2 #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home div > a:hover > h2 .ui-icon, .home div > a:hover > h2 .white-card__media .embed-container a:before, .white-card__media .embed-container .home div > a:hover > h2 a:before, .home div > a:hover > h2 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home div > a:hover > h2 .ui-icon, .home div > a:focus > h2 .fa, .home div > a:focus > h2 .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home div > a:focus > h2 .ui-icon, .home div > a:focus > h2 #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home div > a:focus > h2 .ui-icon, .home div > a:focus > h2 .white-card__media .embed-container a:before, .white-card__media .embed-container .home div > a:focus > h2 a:before, .home div > a:focus > h2 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home div > a:focus > h2 .ui-icon {
+  border-bottom: none; }
+
 .home .home-item a {
   border-bottom: 0; }
 
@@ -18588,14 +18601,6 @@ a.ghost-cta {
 
 .home-news-events {
   /* TODO: remove .bx-wrapper, replaced by .news-events-strip .bx-wrapper */ }
-  .home-news-events > div > h2 {
-    margin-bottom: 0; }
-    .home-news-events > div > h2 a:hover, .home-news-events > div > h2 a:hover span {
-      text-decoration: underline; }
-    .home-news-events > div > h2 > span a {
-      font-size: 14px;
-      float: right;
-      color: #b02a1a; }
   .home-news-events .submenu {
     height: 30px;
     font-style: italic; }
@@ -24278,58 +24283,52 @@ a.course__red-links__link {
       background-position: -312px 0; }
 
 .survey-message {
-  position: fixed;
-  width: 100%;
-  height: auto;
-  background: rgba(0, 0, 0, 0.9);
+  -webkit-transition-duration: 600ms;
+  transition-duration: 600ms;
+  background: #3a0133;
+  font-family: "ff-meta-web", 'Helvetica Neue', Arial, Helvetica, sans-serif;
   color: #FFFFFF;
-  padding: .8em 1.8em .8em;
+  padding: 1em;
   z-index: 10;
-  font-size: 15px;
-  bottom: 0;
-  left: 0; }
+  font-size: 1.3em;
+  line-height: 1.4em;
+  position: absolute;
+  left: 0;
+  top: 0; }
+  .survey-message .survey-message__title {
+    font-size: 1.5em; }
   @media only screen and (min-width: 768px) {
     .survey-message {
-      right: 0;
+      left: 2em;
+      top: 4.5em;
       width: 350px;
-      height: 240px;
-      bottom: 10%;
-      position: absolute;
-      right: 10%;
-      left: inherit; } }
-  @media only screen and (min-width: 768px) {
-    .survey-message {
-      right: 5%; } }
+      position: fixed; } }
+  .survey-message .survey-message__accept, .survey-message .survey-message__refuse {
+    float: right; }
+  .survey-message .survey-message__accept a, .survey-message .survey-message__refuse {
+    display: inline-block;
+    border-bottom-width: 2px;
+    border-bottom-style: dotted;
+    text-decoration: none;
+    cursor: pointer; }
+    .survey-message .survey-message__accept a:link, .survey-message .survey-message__accept a:visited, .survey-message .survey-message__refuse:link, .survey-message .survey-message__refuse:visited {
+      color: #eeeeee;
+      border-bottom-color: #cccccc; }
+    .survey-message .survey-message__accept a:hover, .survey-message .survey-message__refuse:hover {
+      color: #FFFFFF;
+      border-bottom-color: #FFFFFF;
+      border-bottom-style: solid; }
+    .survey-message .survey-message__accept a:focus, .survey-message .survey-message__accept a:active, .survey-message .survey-message__refuse:focus, .survey-message .survey-message__refuse:active {
+      background-color: #FFFFFF;
+      color: #666666;
+      border-bottom-color: transparent; }
+  .survey-message .survey-message__accept {
+    margin-left: 1em; }
 
-.survey-message__title {
-  line-height: 1.2em; }
-
-.survey-message__accept, .survey-message__refuse {
-  border: none;
-  padding: 7px 12px;
-  text-align: left;
-  cursor: pointer;
-  color: white;
-  background: #b91b1b;
-  border-radius: 10px;
-  -webkit-transition: color 100ms, background 100ms;
-  transition: color 100ms, background 100ms;
-  float: left;
-  font-weight: bold; }
-  .survey-message__accept:hover, .survey-message__refuse:hover {
-    background: #eee;
-    color: #333; }
-  .survey-message__accept:active, .survey-message__accept:focus, .survey-message__refuse:active, .survey-message__refuse:focus {
-    background: #eee;
-    color: #b91b1b; }
-  .survey-message__accept a, .survey-message__refuse a {
-    border: none;
-    color: inherit; }
-    .survey-message__accept a:active, .survey-message__accept a:focus, .survey-message__refuse a:active, .survey-message__refuse a:focus {
-      background-color: transparent; }
-
-.survey-message__accept {
-  margin-right: 1em; }
+.survey-message--loading {
+  -webkit-transform: translate(-115%);
+      -ms-transform: translate(-115%);
+          transform: translate(-115%); }
 
 @-ms-viewport {
   width: device-width; }
