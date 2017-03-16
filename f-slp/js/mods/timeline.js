@@ -10,12 +10,12 @@ var defer = require('./utils/defer'),
       if (openGroup) {
         openGroup.find('.timeline__content').removeClass('collapsed').addClass('expanded').end().find('.timeline__collection__header__icon').removeClass('fa-angle-down').addClass('fa-angle-up');
         header.find('a').attr('aria-selected','true').attr('aria-expanded','true');
-      };
+      }
   
-      accordion = function () {
+     var accordion = function () {
 
         var closeItems = function (item,title) {
-              item.find('.timeline__content').fadeOut('slow').removeClass('expanded').addClass('collapsed').find('.timeline__content__block').slideUp('slow');;
+              item.find('.timeline__content').fadeOut('slow').removeClass('expanded').addClass('collapsed').find('.timeline__content__block').slideUp('slow');
               item.removeClass('open').addClass('closed').find('.timeline__content').slideUp("slow");
               title.find('a').attr('aria-selected','false').attr('aria-expanded','false');
               title.find('.timeline__collection__header__icon').removeClass('fa-angle-up').addClass('fa-angle-down');

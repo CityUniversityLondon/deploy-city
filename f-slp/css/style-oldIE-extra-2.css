@@ -5597,22 +5597,6 @@ input[type="submit"].btn {
 /**
  * Select Element Replacement Dropdowns
  */
-.news-filters__select {
-  width: 100%;
-  height: auto;
-  position: relative;
-  z-index: 1000;
-  color: #b02a1a;
-  display: block;
-  padding: 0.5em 0.75em;
-  overflow: hidden;
-  font-weight: bold;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  background: white;
-  border-radius: 0;
-  border: 1px solid #cccccc; }
-
 .dropdown-select {
   width: 100%;
   height: auto;
@@ -11192,3 +11176,5 @@ or until modernizr tests for it (version 3?).
 
 .article-listing {
   overflow: hidden; }
+  .article-listing.ul {
+    list-style-type: none; }

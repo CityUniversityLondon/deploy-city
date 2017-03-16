@@ -5603,22 +5603,6 @@ input[type="submit"].btn {
 /**
  * Select Element Replacement Dropdowns
  */
-.news-filters__select {
-  width: 100%;
-  height: auto;
-  position: relative;
-  z-index: 1000;
-  color: #b02a1a;
-  display: block;
-  padding: 0.5em 0.75em;
-  overflow: hidden;
-  font-weight: bold;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  background: white;
-  border-radius: 0;
-  border: 1px solid #cccccc; }
-
 .dropdown-select {
   width: 100%;
   height: auto;
@@ -10792,3 +10776,6 @@ a.city-vision-widget:hover hr {
 
 #spotlight-research-widget .bx-wrapper {
   margin: 0 5px 0 0; }
+
+#spotlight-research-widget h3 {
+  margin: 0 5px 0 5px; }

@@ -8655,8 +8655,10 @@ img[align="right"] {
     border-color: #b91b1c; }
   .filter-box__open h2 {
     margin: 0; }
-  .filter-box__open h2, .filter-box__open span, .filter-box__open i {
+  .filter-box__open h2, .filter-box__open h2 span, .filter-box__open h2 i {
     line-height: 40px; }
+  .filter-box__open h3, .filter-box__open h3 span, .filter-box__open h3 i {
+    line-height: 29px; }
   .filter-box__open i {
     float: right; }
 
@@ -8706,9 +8708,14 @@ img[align="right"] {
 
 .filter-box__filter__content select {
   width: 100%;
+  font-size: 16px;
   padding: 11px;
   height: 45px;
-  border: 1px solid #a9a9a9; }
+  border: 1px solid #a9a9a9;
+  border-radius: 0;
+  background: #fff; }
+  .filter-box__filter__content select:hover, .filter-box__filter__content select:focus, .filter-box__filter__content select:active {
+    background: #eee; }
 
 .filter-box__filter__content input {
   position: relative;

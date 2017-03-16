@@ -213,7 +213,8 @@ i.loading-fa-icon {
 
 */
 h4 {
-  font-weight: normal; }
+  font-weight: normal;
+  clear: left; }
 
 .academic i {
   color: #666; }
@@ -239,6 +240,18 @@ h4 {
 .top-info {
   overflow: hidden; }
 
+.brief-info__cass-academic-logo {
+  text-align: center;
+  margin-bottom: 20px; }
+  .brief-info__cass-academic-logo img {
+    width: 150px;
+    max-width: 100%; }
+  @media only screen and (min-width: 600px) {
+    .brief-info__cass-academic-logo {
+      float: right; }
+      .brief-info__cass-academic-logo img {
+        width: 120px; } }
+
 .photo {
   margin: 0 auto;
   overflow: auto;
@@ -263,9 +276,16 @@ h4 {
 
 .job-title {
   clear: left;
-  font-family: georgia;
-  font-style: italic;
-  font-size: 1.2em; }
+  font-family: ff-meta-web, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 1.4em;
+  font-size: 1.6em;
+  color: #666;
+  margin: 0 0 10px 0; }
+
+.who .job-title {
+  color: #000;
+  font-weight: normal; }
 
 .person-meta {
   margin: 0 0 10px 0; }
@@ -397,7 +417,7 @@ h4 {
 .contact-list .email,
 .contact-list .website,
 .contact-list .twitter {
-  word-break: break-word; }
+  overflow-wrap: break-word; }
 
 ul.contact-list {
   list-style: none;
@@ -422,6 +442,24 @@ ul.contact-list {
   .expertise p {
     font-size: .9em; }
 
+#overview ol {
+  margin-left: 0; }
+  #overview ol li {
+    margin-left: 0;
+    margin-bottom: 1em;
+    list-style: none; }
+
+#overview ul.expertise-list {
+  clear: left;
+  margin-left: 0; }
+  #overview ul.expertise-list li {
+    float: left;
+    display: block;
+    padding: 4px;
+    border: 1px solid black;
+    margin-right: 8px;
+    margin-bottom: 8px; }
+
 .pull-out {
   background-color: #e3f0fd;
   padding: 10px;
@@ -442,6 +480,19 @@ ul.contact-list {
     padding: 5px; }
   .research-list li:nth-child(even) {
     background: #f6f6f6; }
+
+dl#research-topics dt {
+  font-weight: normal;
+  clear: left;
+  margin: 6px 0px 8px 0px;
+  background: none;
+  font-size: 1.2em;
+  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  line-height: 1.3em;
+  padding: 0; }
+
+dl#research-topics dd {
+  margin: 0 0 14px; }
 
 .read-more,
 .read-less {
@@ -550,7 +601,7 @@ ul.contact-list {
   .academic #students dt {
     font-weight: bold;
     font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
     background: transparent;
     float: left;
     clear: left;
@@ -761,10 +812,10 @@ ul.contact-list {
     .academic-listing .academic h2 {
       font-size: 1em;
       margin-bottom: 5px;
-      font-family: arial; }
+      font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
     .academic-listing .academic .job-title {
       font-style: normal;
-      font-family: arial;
+      font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
       font-size: 1em; }
     .academic-listing .academic:hover, .academic-listing .academic:focus {
       height: auto; }
