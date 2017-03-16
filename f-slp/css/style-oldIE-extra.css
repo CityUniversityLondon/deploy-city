@@ -1,4 +1,202 @@
 
+
+.strategic .accordion.internationalism td, .strategic .accordion.internationalism th {
+  border-color: #f57215; }
+
+/* Code from Fabrikbrands.com ------------ */
+/*
+    Each widget has the class 'widget'
+    Each inpage box has the class 'inpage'
+
+    Additional classes:
+        w2013   a wrapper to distinguish these widgets
+                from any other campaigns sharing the
+                'widget' class
+
+    Additional responsive styles are in the meda query sections at the bottom of this page
+
+*/
+/*4d2938;*/
+/*3a1e2a;*/
+.widget.w2013,
+.inpage.w2013 {
+  /* override existing style from city uni css */
+  margin: 0 0 20px 0;
+  border-top: 4px solid #cc3333;
+  position: relative; }
+  .widget.w2013 a,
+  .inpage.w2013 a {
+    display: block;
+    background-color: #381d29; }
+  .widget.w2013 a:hover,
+  .inpage.w2013 a:hover {
+    background: #24131b; }
+  .widget.w2013 .content,
+  .inpage.w2013 .content {
+    padding: 15px;
+    width: auto;
+    height: 100%; }
+  .widget.w2013 h4,
+  .inpage.w2013 h4 {
+    font-weight: normal;
+    line-height: 1.2em;
+    color: #cc3333;
+    margin-top: 0; }
+    .widget.w2013 h4 span,
+    .inpage.w2013 h4 span {
+      display: block;
+      color: white; }
+  .widget.w2013 p,
+  .inpage.w2013 p {
+    margin: 20px 0;
+    color: white; }
+  .widget.w2013 img,
+  .inpage.w2013 img {
+    position: absolute;
+    bottom: 15px;
+    right: 15px; }
+
+/*  Tablet Layout and above: >= 768px. */
+@media only screen and (min-width: 768px) {
+  /*} and (max-width: 991px) {*/
+  .widget.w2013 {
+    width: 100%;
+    max-width: 700px; }
+    .widget.w2013 h4 {
+      font-size: 30px; }
+    .widget.w2013 p {
+      width: 40%;
+      max-width: 250px; }
+    .widget.w2013 img {
+      margin-right: 0; }
+  .inpage.w2013 {
+    width: 100%;
+    max-width: 420px;
+    height: 140px; }
+    .inpage.w2013 .content {
+      height: 140px; }
+    .inpage.w2013 h4 {
+      font-size: 22px; }
+    .inpage.w2013 p {
+      width: 70%;
+      max-width: 300px;
+      margin: 10px 0 0 0; }
+    .inpage.w2013 img {
+      height: 90px;
+      margin-right: 0px;
+      margin-bottom: 0px; } }
+
+/*      Wide Mobile Layout: 480px - 767px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .widget.w2013 {
+    width: 100%;
+    max-width: 700px; }
+    .widget.w2013 h4 {
+      font-size: 30px; }
+    .widget.w2013 p {
+      width: 40%;
+      max-width: 250px; }
+  .inpage.w2013 {
+    width: 100%;
+    max-width: 420px;
+    height: 140px; }
+    .inpage.w2013 .content {
+      height: 140px; }
+    .inpage.w2013 h4 {
+      font-size: 22px; }
+    .inpage.w2013 p {
+      width: 70%;
+      max-width: 300px;
+      margin: 10px 0 0 0; }
+    .inpage.w2013 img {
+      height: 90px;
+      margin-right: 0px;
+      margin-bottom: 0px; } }
+
+/*      Mobile Layout: 320px - 479px. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .widget.w2013 {
+    width: 100%;
+    max-width: 329px; }
+    .widget.w2013 h4 {
+      font-size: 30px; }
+    .widget.w2013 p {
+      float: left;
+      width: 150px;
+      margin: 30px 10px auto 0; }
+    .widget.w2013 img {
+      position: relative;
+      float: right;
+      right: 0;
+      bottom: 0;
+      margin-left: 20px; }
+  .inpage.w2013 {
+    width: 100%;
+    max-width: 420px;
+    height: 140px; }
+    .inpage.w2013 .content {
+      height: 140px; }
+    .inpage.w2013 h4 {
+      font-size: 20px;
+      line-height: 1.1em;
+      margin-right: 80px; }
+    .inpage.w2013 p {
+      font-size: 13px;
+      line-height: 1.2em;
+      margin: 10px 80px 0 0; }
+    .inpage.w2013 img {
+      height: 90px;
+      right: 10px;
+      bottom: 10px; } }
+
+/*      Mobile Layout: < 320px. */
+@media only screen and (max-width: 319px) {
+  .widget.w2013 {
+    width: 100%;
+    max-width: 200px; }
+    .widget.w2013 h4 {
+      font-size: 23px; }
+    .widget.w2013 p {
+      float: left;
+      width: 80%;
+      max-width: 170px;
+      margin: 30px auto; }
+    .widget.w2013 img {
+      position: relative;
+      float: right;
+      right: 0;
+      bottom: 0;
+      margin-left: 20px; }
+  .inpage.w2013 {
+    width: 100%;
+    max-width: 200px; }
+    .inpage.w2013 h4 {
+      font-size: 20px;
+      line-height: 1.1em;
+      margin-right: 80px; }
+    .inpage.w2013 p {
+      font-size: 13px;
+      line-height: 1.2em;
+      margin: 10px 80px 0 0; }
+    .inpage.w2013 img {
+      height: 90px;
+      margin-right: 0px;
+      margin-bottom: 0px; } }
+
+.icons-finance .fa, .icons-finance .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .icons-finance .ui-icon, .icons-finance #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .icons-finance .ui-icon, .icons-finance .white-card__media .embed-container a:before, .white-card__media .embed-container .icons-finance a:before, .icons-finance .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .icons-finance .ui-icon, .icons-hr .fa, .icons-hr .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .icons-hr .ui-icon, .icons-hr #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .icons-hr .ui-icon, .icons-hr .white-card__media .embed-container a:before, .white-card__media .embed-container .icons-hr a:before, .icons-hr .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .icons-hr .ui-icon {
+  font-size: 34px;
+  text-decoration: none;
+  display: inline-block; }
+
+.icons-finance a, .icons-hr a {
+  text-decoration: none;
+  border-bottom: none;
+  color: #979799;
+  text-align: center;
+  display: block;
+  margin-bottom: 1.5em; }
+  .icons-finance a:hover, .icons-hr a:hover {
+    color: #333333; }
   .icons-finance a span, .icons-hr a span {
     display: block; }
 

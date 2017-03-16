@@ -1,4 +1,214 @@
 
+  .course__profiles__item__image span.fa, .course__profiles__item__image .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon, .course__profiles__item__image #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .course__profiles__item__image span.ui-icon, .course__profiles__item__image .course .accordion.ui-accordion .ui-accordion-header span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon {
+    padding: 10px 0 0;
+    font-size: 8em;
+    color: #555; }
+
+.course__profiles__item__image__name {
+  padding: 15px;
+  font-size: 1.2em;
+  font-weight: 600; }
+
+.course__profiles__item__text__title {
+  position: relative;
+  font-size: 1.4em;
+  font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  padding-bottom: 30px;
+  margin-bottom: 30px; }
+  .course__profiles__item__text__title:after {
+    position: absolute;
+    content: ' ';
+    left: 0;
+    bottom: -2.5px;
+    background: #ddd;
+    width: 150px;
+    height: 5px; }
+
+.course__profiles__item__text__strapline {
+  font-size: 1.2em;
+  font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: 500; }
+
+.course__profiles__item__text__quote {
+  font-size: 1.2em;
+  font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif; }
+  .course__profiles__item__text__quote span {
+    font-size: 1.4em; }
+
+.course__profiles {
+  position: relative; }
+  .course__profiles ul.items {
+    margin: 0; }
+  .course__profiles .bx-controls {
+    display: block; }
+  .course__profiles .bx-controls-direction {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 0; }
+    .course__profiles .bx-controls-direction a {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      border: 0;
+      padding: 20px 30px;
+      color: #ddd;
+      background: rgba(0, 0, 0, 0.4);
+      font-size: 1.4em; }
+      .course__profiles .bx-controls-direction a:focus, .course__profiles .bx-controls-direction a:hover {
+        background: rgba(0, 0, 0, 0.22); }
+      .course__profiles .bx-controls-direction a:active {
+        color: white; }
+    .course__profiles .bx-controls-direction .bx-prev {
+      right: 0; }
+    .course__profiles .bx-controls-direction .bx-next {
+      left: 0; }
+
+.course__employment {
+  margin-top: 20px; }
+
+.course__employment__info {
+  margin-top: 40px; }
+  .course__employment__info h3 {
+    font-size: 1.2em; }
+
+.course__employment {
+  position: relative; }
+
+.course__employment__main {
+  position: absolute;
+  margin: 30% 25% 0; }
+  @media only screen and (min-width: 600px) {
+    .course__employment__main {
+      margin-top: 20%; } }
+  @media only screen and (min-width: 980px) {
+    .course__employment__main {
+      margin-top: 12%; } }
+  @media only screen and (min-width: 1200px) {
+    .course__employment__main {
+      margin-top: 25%; } }
+
+.course__employment__main__text,
+.course__employment__main__value {
+  display: block;
+  text-align: center; }
+
+.course__employment__main__value {
+  font-size: 2.5em;
+  margin-bottom: 5px; }
+
+.course__employment__main__text {
+  color: #555555;
+  font-size: .9em;
+  font-weight: 600; }
+
+.course__employment__chart {
+  position: relative;
+  padding-bottom: 100%;
+  /*
+    google visualization tooltip flickering
+    https://github.com/google/google-visualization-issues/issues/2162
+    */ }
+  .course__employment__chart div.google-visualization-tooltip {
+    pointer-events: none; }
+  .course__employment__chart svg > g > g:last-child {
+    pointer-events: none; }
+
+.course__employment__chart__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.course .fw-section-wrapper {
+  padding: 40px 10px; }
+  .course .fw-section-wrapper.course__banner-section {
+    padding-top: 0; }
+  .course .fw-section-wrapper.usps__wrapper {
+    padding: 0 10px; }
+    @media only screen and (min-width: 600px) {
+      .course .fw-section-wrapper.usps__wrapper {
+        padding: 20px 10px; } }
+
+.course__white-box {
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  margin-bottom: 20px; }
+  .course__white-box.course__white-box--top-media {
+    padding-top: 0; }
+
+.course__white-box__media-label {
+  font-style: italic;
+  margin-top: -10px; }
+
+.course__white-box__content--read-more {
+  max-height: 100px;
+  overflow: hidden; }
+  @media only screen and (min-width: 600px) {
+    .course__white-box__content--read-more {
+      max-height: none; } }
+
+.course__white-box__read-more {
+  margin-top: -35px; }
+  .course__white-box__read-more .course__white-box__read-more__bg {
+    height: 35px;
+    position: relative;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), white);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), white); }
+  .course__white-box__read-more a {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px 0;
+    border-top: 1px solid #ccc; }
+    .course__white-box__read-more a:link, .course__white-box__read-more a:visited, .course__white-box__read-more a:hover {
+      border-bottom: none; }
+    .course__white-box__read-more a span {
+      border-bottom: 1px dotted; }
+    .course__white-box__read-more a:hover span {
+      border-bottom: 1px solid #670003; }
+    .course__white-box__read-more a:link span, .course__white-box__read-more a:visited span {
+      border: none; }
+  @media only screen and (min-width: 600px) {
+    .course__white-box__read-more {
+      display: none; } }
+
+.course__white-box__media {
+  margin: 0 -20px 20px; }
+  .course__white-box__media img {
+    margin: 0;
+    width: 100%; }
+
+@media (max-width: 420px) {
+  .course .accordion.ui-accordion .ui-accordion-content img, .course .accordion.ui-accordion .ui-accordion-content img.left, .course .accordion.ui-accordion .ui-accordion-content img.right {
+    display: block;
+    float: none; } }
+
+.course .accordion.ui-accordion .ui-accordion-header {
+  color: #000000;
+  font-size: 16px;
+  background-color: #eeeeee !important;
+  border-bottom: 2px solid #cccccc !important;
+  margin-bottom: 5px;
+  border-top: 0;
+  padding: 0; }
+  .course .accordion.ui-accordion .ui-accordion-header a {
+    padding: 12px 2em 12px 14px !important;
+    border: 0 !important;
+    background: none !important;
+    font-weight: 600;
+    color: #333; }
+    .course .accordion.ui-accordion .ui-accordion-header a:hover {
+      text-decoration: underline; }
+    .course .accordion.ui-accordion .ui-accordion-header a:focus {
+      outline: 5px auto -webkit-focus-ring-color; }
+  .course .accordion.ui-accordion .ui-accordion-header.ui-state-focus, .course .accordion.ui-accordion .ui-accordion-header.ui-state-focus a, .course .accordion.ui-accordion .ui-accordion-header.ui-state-active, .course .accordion.ui-accordion .ui-accordion-header.ui-state-active a, .course .accordion.ui-accordion .ui-accordion-header.ui-state-hover, .course .accordion.ui-accordion .ui-accordion-header.ui-state-hover a {
+    color: #666; }
   .course .accordion.ui-accordion .ui-accordion-header.ui-state-active {
     border-bottom-width: 1px !important; }
   .course .accordion.ui-accordion .ui-accordion-header .ui-icon {

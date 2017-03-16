@@ -7490,7 +7490,7 @@ a.ghost-cta {
     background: inherit; }
 
 .home h2, .home h3 {
-  font-family: "ff-meta-web", Helvetica, sans-serif;
+  font-family: "ff-meta-web", 'Helvetica Neue', Arial, Helvetica, sans-serif;
   color: black;
   font-weight: 400; }
   .home h2 a, .home h3 a {
@@ -7505,26 +7505,100 @@ a.ghost-cta {
     font-size: .7em;
     margin-top: .3em; }
 
-.home div > h2 {
+.home .home-news-events div h2,
+.home .home-business h2,
+.home .home-research h2 {
   margin-bottom: 0; }
-  .home div > h2 > a .fa, .home div > h2 > a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home div > h2 > a .ui-icon, .home div > h2 > a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home div > h2 > a .ui-icon, .home div > h2 > a .white-card__media .embed-container a:before, .white-card__media .embed-container .home div > h2 > a a:before, .home div > h2 > a .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .home div > h2 > a .ui-icon {
+  .home .home-news-events div h2 > a .fa, .home .home-news-events div h2 > a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home .home-news-events div h2 > a .ui-icon, .home .home-news-events div h2 > a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2 > a .ui-icon, .home .home-news-events div h2 > a .white-card__media .embed-container a:before, .white-card__media .embed-container .home .home-news-events div h2 > a a:before, .home .home-news-events div h2 > a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home .home-news-events div h2 > a .ui-icon,
+  .home .home-business h2 > a .fa,
+  .home .home-business h2 > a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header
+  .home .home-business h2 > a .ui-icon,
+  .home .home-business h2 > a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header
+  .home .home-business h2 > a .ui-icon,
+  .home .home-business h2 > a .white-card__media .embed-container a:before, .white-card__media .embed-container
+  .home .home-business h2 > a a:before,
+  .home .home-business h2 > a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active
+  .home .home-business h2 > a .ui-icon,
+  .home .home-research h2 > a .fa,
+  .home .home-research h2 > a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header
+  .home .home-research h2 > a .ui-icon,
+  .home .home-research h2 > a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header
+  .home .home-research h2 > a .ui-icon,
+  .home .home-research h2 > a .white-card__media .embed-container a:before, .white-card__media .embed-container
+  .home .home-research h2 > a a:before,
+  .home .home-research h2 > a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active
+  .home .home-research h2 > a .ui-icon {
     font-size: 0.8em; }
-  .home div > h2 > a:hover {
+  .home .home-news-events div h2 > a:hover,
+  .home .home-business h2 > a:hover,
+  .home .home-research h2 > a:hover {
     text-decoration: none; }
-    .home div > h2 > a:hover span {
+    .home .home-news-events div h2 > a:hover span,
+    .home .home-business h2 > a:hover span,
+    .home .home-research h2 > a:hover span {
       color: #b91b1b;
       border-bottom: 2px solid;
       border-bottom-color: #b91b1b; }
-    .home div > h2 > a:hover .fa, .home div > h2 > a:hover .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home div > h2 > a:hover .ui-icon, .home div > h2 > a:hover #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home div > h2 > a:hover .ui-icon, .home div > h2 > a:hover .white-card__media .embed-container a:before, .white-card__media .embed-container .home div > h2 > a:hover a:before, .home div > h2 > a:hover .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home div > h2 > a:hover .ui-icon {
+    .home .home-news-events div h2 > a:hover .fa, .home .home-news-events div h2 > a:hover .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home .home-news-events div h2 > a:hover .ui-icon, .home .home-news-events div h2 > a:hover #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2 > a:hover .ui-icon, .home .home-news-events div h2 > a:hover .white-card__media .embed-container a:before, .white-card__media .embed-container .home .home-news-events div h2 > a:hover a:before,
+    .home .home-business h2 > a:hover .fa,
+    .home .home-business h2 > a:hover .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header
+    .home .home-business h2 > a:hover .ui-icon,
+    .home .home-business h2 > a:hover #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header
+    .home .home-business h2 > a:hover .ui-icon,
+    .home .home-business h2 > a:hover .white-card__media .embed-container a:before, .white-card__media .embed-container
+    .home .home-business h2 > a:hover a:before,
+    .home .home-research h2 > a:hover .fa,
+    .home .home-research h2 > a:hover .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header
+    .home .home-research h2 > a:hover .ui-icon,
+    .home .home-research h2 > a:hover #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header
+    .home .home-research h2 > a:hover .ui-icon,
+    .home .home-research h2 > a:hover .white-card__media .embed-container a:before, .white-card__media .embed-container
+    .home .home-research h2 > a:hover a:before {
       border-bottom: none; }
-  .home div > h2 > a:active, .home div > h2 > a:focus {
+  .home .home-news-events div h2 > a:active, .home .home-news-events div h2 > a:focus,
+  .home .home-business h2 > a:active,
+  .home .home-business h2 > a:focus,
+  .home .home-research h2 > a:active,
+  .home .home-research h2 > a:focus {
     text-decoration: none;
     background: #FFFFFF; }
-    .home div > h2 > a:active span, .home div > h2 > a:focus span {
+    .home .home-news-events div h2 > a:active span, .home .home-news-events div h2 > a:focus span,
+    .home .home-business h2 > a:active span,
+    .home .home-business h2 > a:focus span,
+    .home .home-research h2 > a:active span,
+    .home .home-research h2 > a:focus span {
       color: #b91b1b;
       border-bottom: 2px dotted;
       border-bottom-color: #666666; }
-    .home div > h2 > a:active .fa, .home div > h2 > a:active .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home div > h2 > a:active .ui-icon, .home div > h2 > a:active #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home div > h2 > a:active .ui-icon, .home div > h2 > a:active .white-card__media .embed-container a:before, .white-card__media .embed-container .home div > h2 > a:active a:before, .home div > h2 > a:active .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home div > h2 > a:active .ui-icon, .home div > h2 > a:focus .fa, .home div > h2 > a:focus .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home div > h2 > a:focus .ui-icon, .home div > h2 > a:focus #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home div > h2 > a:focus .ui-icon, .home div > h2 > a:focus .white-card__media .embed-container a:before, .white-card__media .embed-container .home div > h2 > a:focus a:before, .home div > h2 > a:focus .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home div > h2 > a:focus .ui-icon {
+    .home .home-news-events div h2 > a:active .fa, .home .home-news-events div h2 > a:active .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home .home-news-events div h2 > a:active .ui-icon, .home .home-news-events div h2 > a:active #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2 > a:active .ui-icon, .home .home-news-events div h2 > a:active .white-card__media .embed-container a:before, .white-card__media .embed-container .home .home-news-events div h2 > a:active a:before, .home .home-news-events div h2 > a:focus .fa, .home .home-news-events div h2 > a:focus .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home .home-news-events div h2 > a:focus .ui-icon, .home .home-news-events div h2 > a:focus #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2 > a:focus .ui-icon, .home .home-news-events div h2 > a:focus .white-card__media .embed-container a:before, .white-card__media .embed-container .home .home-news-events div h2 > a:focus a:before,
+    .home .home-business h2 > a:active .fa,
+    .home .home-business h2 > a:active .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header
+    .home .home-business h2 > a:active .ui-icon,
+    .home .home-business h2 > a:active #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header
+    .home .home-business h2 > a:active .ui-icon,
+    .home .home-business h2 > a:active .white-card__media .embed-container a:before, .white-card__media .embed-container
+    .home .home-business h2 > a:active a:before,
+    .home .home-business h2 > a:focus .fa,
+    .home .home-business h2 > a:focus .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header
+    .home .home-business h2 > a:focus .ui-icon,
+    .home .home-business h2 > a:focus #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header
+    .home .home-business h2 > a:focus .ui-icon,
+    .home .home-business h2 > a:focus .white-card__media .embed-container a:before, .white-card__media .embed-container
+    .home .home-business h2 > a:focus a:before,
+    .home .home-research h2 > a:active .fa,
+    .home .home-research h2 > a:active .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header
+    .home .home-research h2 > a:active .ui-icon,
+    .home .home-research h2 > a:active #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header
+    .home .home-research h2 > a:active .ui-icon,
+    .home .home-research h2 > a:active .white-card__media .embed-container a:before, .white-card__media .embed-container
+    .home .home-research h2 > a:active a:before,
+    .home .home-research h2 > a:focus .fa,
+    .home .home-research h2 > a:focus .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header
+    .home .home-research h2 > a:focus .ui-icon,
+    .home .home-research h2 > a:focus #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header
+    .home .home-research h2 > a:focus .ui-icon,
+    .home .home-research h2 > a:focus .white-card__media .embed-container a:before, .white-card__media .embed-container
+    .home .home-research h2 > a:focus a:before {
       border-bottom: none; }
 
 .home .home-item a {
@@ -7723,7 +7797,7 @@ a.ghost-cta {
     .home #promo-wrapper .banner-content p, .home #promo-wrapper .banner-content a {
       color: black;
       font-size: 18px;
-      font-family: "ff-meta-web", Helvetica, sans-serif;
+      font-family: "ff-meta-web", 'Helvetica Neue', Arial, Helvetica, sans-serif;
       line-height: 1.5em;
       border: none; }
     .home #promo-wrapper .banner-content a:hover {
@@ -7786,8 +7860,9 @@ a.ghost-cta {
       padding: 20px;
       max-width: 40%; } }
 
-.home .home-news h2 {
-  font-size: 16px; }
+.home .home-news h2, .home .home-news h3 {
+  font-size: 16px;
+  line-height: 1.4em; }
 
 .home .header__logo img {
   margin: 0 0 14px 0; }
@@ -7796,7 +7871,7 @@ a.ghost-cta {
   position: relative;
   background: white;
   padding: 2px 10px 0;
-  margin: 0 -10px 20px 0; }
+  margin: 0 -10px 20px -10px; }
   @media only screen and (min-width: 980px) {
     .home-background {
       padding: 2px 0 0;
@@ -7928,8 +8003,8 @@ a.ghost-cta {
           color: white; }
         .home-news-events .bx-wrapper .bx-controls-direction a.active {
           color: #b02a1a; }
-  .home-news-events .news-card-content h2 {
-    font-family: Arial, Helvetica, sans-serif; }
+  .home-news-events .news-card-content .news-card-content__title {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; }
 
 /* TODO: remove .home-events (replaced by .news-events-strip__events) */
 .home-events > :last-child .event {
@@ -7950,7 +8025,7 @@ a.ghost-cta {
     font-size: small;
     line-height: 1em;
     font-weight: 600;
-    font-family: "ff-meta-web", Helvetica, sans-serif; }
+    font-family: "ff-meta-web", 'Helvetica Neue', Arial, Helvetica, sans-serif; }
   .home-events .event .date-month {
     background: #96190b;
     padding: 8px 0 6px; }
@@ -7963,17 +8038,18 @@ a.ghost-cta {
   .home-events .event .event-details {
     margin-left: 70px;
     min-height: 53px; }
-    .home-events .event .event-details h2 {
+    .home-events .event .event-details h2, .home-events .event .event-details h3 {
       font-size: 16px;
       margin: 0 0 .2em;
-      font-family: Arial, Helvetica, sans-serif; }
+      line-height: 1.4em;
+      font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; }
     .home-events .event .event-details p {
       font-size: 15px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
       font-weight: bold;
       margin-bottom: 0;
       color: #555; }
-    .home-events .event .event-details, .home-events .event .event-details h2 a, .home-events .event .event-details p {
+    .home-events .event .event-details, .home-events .event .event-details h2 a, .home-events .event .event-details h3 a, .home-events .event .event-details p {
       line-height: 1.2em; }
 
 .home-studying-tweens {
@@ -7985,21 +8061,27 @@ a.ghost-cta {
     .home-studying-tweens {
       padding-top: 0; } }
   .home-studying-tweens .home-item {
+    border-bottom: 1px solid #999999;
     position: relative; }
-    .home-studying-tweens .home-item div {
-      border-bottom: 1px solid #999999; }
+    .home-studying-tweens .home-item h2 {
+      font-size: 22px;
+      line-height: 1.4em;
+      color: #000;
+      margin: 6px 15px 0 0; }
     .home-studying-tweens .home-item img {
       margin: 0; }
     .home-studying-tweens .home-item h3 {
       color: #000;
-      margin: 20px 0; }
-    .home-studying-tweens .home-item h3, .home-studying-tweens .home-item p {
+      margin: 6px 0; }
+    .home-studying-tweens .home-item h2, .home-studying-tweens .home-item h3, .home-studying-tweens .home-item p {
       -webkit-transition: color 0.2s ease;
       transition: color 0.2s ease;
       color: black; }
     .home-studying-tweens .home-item p {
       font-size: 16px;
-      line-height: 1.4em; }
+      line-height: 1.4em;
+      color: #444;
+      margin: 0; }
       .home-studying-tweens .home-item p a i {
         color: #b02a1a;
         float: right; }
@@ -8010,22 +8092,25 @@ a.ghost-cta {
         transition: color 0.2s ease; }
     .home-studying-tweens .home-item img, .home-studying-tweens .home-item p {
       display: none; }
-    .home-studying-tweens .home-item:hover p, .home-studying-tweens .home-item:hover h3 {
+    .home-studying-tweens .home-item:hover p, .home-studying-tweens .home-item:hover h2, .home-studying-tweens .home-item:hover h3 {
       color: #777; }
     .home-studying-tweens .home-item:hover p a, .home-studying-tweens .home-item:hover p a:focus {
       color: #b02a1a; }
     .home-studying-tweens .home-item .image-credit {
-      display: none; }
+      display: none;
+      z-index: 10; }
     @media only screen and (min-width: 600px) {
-      .home-studying-tweens .home-item .image-credit {
-        display: block; } }
+      .home-studying-tweens .home-item {
+        border-bottom: none; }
+        .home-studying-tweens .home-item .fa-chevron-right {
+          display: none; }
+        .home-studying-tweens .home-item .image-credit {
+          display: block; } }
   @media only screen and (min-width: 600px) {
     .home-studying-tweens .home-item div {
       border: 0; }
     .home-studying-tweens .home-item h3 {
       margin: 6px 0 0; }
-    .home-studying-tweens .home-item p {
-      margin: 6px 0; }
     .home-studying-tweens .home-item h3 i,
     .home-studying-tweens .home-item h3 span {
       display: none; }
@@ -8087,35 +8172,41 @@ a.ghost-cta {
     .home-research .home-item .content p,
     .home-business .home-item .content p {
       margin-right: 16px; }
-  .home-research .home-item .image,
-  .home-business .home-item .image {
-    position: relative; }
-    .home-research .home-item .image img,
-    .home-business .home-item .image img {
-      width: 100%;
-      opacity: 1;
-      -webkit-transition: opacity 0.2s ease;
-      transition: opacity 0.2s ease; }
-    .home-research .home-item .image:after,
-    .home-business .home-item .image:after {
-      content: "";
-      background: #FFFFFF;
-      opacity: 0;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 2;
-      -webkit-transition: opacity 0.2s ease;
-      transition: opacity 0.2s ease; }
   .home-research .home-item:hover h2, .home-research .home-item:hover h2 i,
   .home-business .home-item:hover h2,
   .home-business .home-item:hover h2 i {
     color: #B02A1A; }
-  .home-research .home-item:hover .image img,
-  .home-business .home-item:hover .image img {
-    opacity: 0.75; }
+
+.home-research .home-item .image,
+.home-business .home-item .image,
+.home-studying-tweens .home-item .image {
+  position: relative; }
+  .home-research .home-item .image img,
+  .home-business .home-item .image img,
+  .home-studying-tweens .home-item .image img {
+    width: 100%;
+    opacity: 1;
+    -webkit-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease; }
+  .home-research .home-item .image:after,
+  .home-business .home-item .image:after,
+  .home-studying-tweens .home-item .image:after {
+    content: "";
+    background: #FFFFFF;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    -webkit-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease; }
+
+.home-research .home-item a:hover .image img,
+.home-business .home-item a:hover .image img,
+.home-studying-tweens .home-item a:hover .image img {
+  opacity: 0.75; }
 
 .home-business-bottom {
   position: relative;
@@ -8140,7 +8231,12 @@ a.ghost-cta {
   background: #ccc;
   font-size: 16px;
   padding: 20px; }
-  .home .home-course-finder h3, .home .home-course-finder legend {
+  .home .home-course-finder h2, .home .home-course-finder h3, .home .home-course-finder legend {
+    font-family: "ff-meta-web", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 6px 0px 8px 0px;
+    font-size: 22px;
+    line-height: 1.3em;
     color: #444;
     font-weight: 600; }
   .home .home-course-finder input[type="text"], .home .home-course-finder select {
@@ -8202,8 +8298,11 @@ a.ghost-cta {
       display: block; } }
 
 .home-media-ribbon-wrapper {
-  margin: 40px 0 0;
+  margin: 40px -10px 0;
   /** overwrite until html can be updated */ }
+  @media only screen and (min-width: 980px) {
+    .home-media-ribbon-wrapper {
+      margin: 40px 0 0; } }
   .home-media-ribbon-wrapper.section-fw-purple-wrapper {
     background: #8d182a; }
   /* a {
@@ -9978,213 +10077,3 @@ a.course__red-links__link {
   .course__profiles__item__image img {
     width: 100%;
     margin: 0; }
-  .course__profiles__item__image span.fa, .course__profiles__item__image .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon, .course__profiles__item__image #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .course__profiles__item__image span.ui-icon, .course__profiles__item__image .course .accordion.ui-accordion .ui-accordion-header span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon {
-    padding: 10px 0 0;
-    font-size: 8em;
-    color: #555; }
-
-.course__profiles__item__image__name {
-  padding: 15px;
-  font-size: 1.2em;
-  font-weight: 600; }
-
-.course__profiles__item__text__title {
-  position: relative;
-  font-size: 1.4em;
-  font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  padding-bottom: 30px;
-  margin-bottom: 30px; }
-  .course__profiles__item__text__title:after {
-    position: absolute;
-    content: ' ';
-    left: 0;
-    bottom: -2.5px;
-    background: #ddd;
-    width: 150px;
-    height: 5px; }
-
-.course__profiles__item__text__strapline {
-  font-size: 1.2em;
-  font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  font-weight: 500; }
-
-.course__profiles__item__text__quote {
-  font-size: 1.2em;
-  font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif; }
-  .course__profiles__item__text__quote span {
-    font-size: 1.4em; }
-
-.course__profiles {
-  position: relative; }
-  .course__profiles ul.items {
-    margin: 0; }
-  .course__profiles .bx-controls {
-    display: block; }
-  .course__profiles .bx-controls-direction {
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    width: 0;
-    height: 0; }
-    .course__profiles .bx-controls-direction a {
-      display: block;
-      position: absolute;
-      bottom: 0;
-      border: 0;
-      padding: 20px 30px;
-      color: #ddd;
-      background: rgba(0, 0, 0, 0.4);
-      font-size: 1.4em; }
-      .course__profiles .bx-controls-direction a:focus, .course__profiles .bx-controls-direction a:hover {
-        background: rgba(0, 0, 0, 0.22); }
-      .course__profiles .bx-controls-direction a:active {
-        color: white; }
-    .course__profiles .bx-controls-direction .bx-prev {
-      right: 0; }
-    .course__profiles .bx-controls-direction .bx-next {
-      left: 0; }
-
-.course__employment {
-  margin-top: 20px; }
-
-.course__employment__info {
-  margin-top: 40px; }
-  .course__employment__info h3 {
-    font-size: 1.2em; }
-
-.course__employment {
-  position: relative; }
-
-.course__employment__main {
-  position: absolute;
-  margin: 30% 25% 0; }
-  @media only screen and (min-width: 600px) {
-    .course__employment__main {
-      margin-top: 20%; } }
-  @media only screen and (min-width: 980px) {
-    .course__employment__main {
-      margin-top: 12%; } }
-  @media only screen and (min-width: 1200px) {
-    .course__employment__main {
-      margin-top: 25%; } }
-
-.course__employment__main__text,
-.course__employment__main__value {
-  display: block;
-  text-align: center; }
-
-.course__employment__main__value {
-  font-size: 2.5em;
-  margin-bottom: 5px; }
-
-.course__employment__main__text {
-  color: #555555;
-  font-size: .9em;
-  font-weight: 600; }
-
-.course__employment__chart {
-  position: relative;
-  padding-bottom: 100%;
-  /*
-    google visualization tooltip flickering
-    https://github.com/google/google-visualization-issues/issues/2162
-    */ }
-  .course__employment__chart div.google-visualization-tooltip {
-    pointer-events: none; }
-  .course__employment__chart svg > g > g:last-child {
-    pointer-events: none; }
-
-.course__employment__chart__container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-
-.course .fw-section-wrapper {
-  padding: 40px 10px; }
-  .course .fw-section-wrapper.course__banner-section {
-    padding-top: 0; }
-  .course .fw-section-wrapper.usps__wrapper {
-    padding: 0 10px; }
-    @media only screen and (min-width: 600px) {
-      .course .fw-section-wrapper.usps__wrapper {
-        padding: 20px 10px; } }
-
-.course__white-box {
-  background-color: #FFFFFF;
-  padding: 10px 20px;
-  margin-bottom: 20px; }
-  .course__white-box.course__white-box--top-media {
-    padding-top: 0; }
-
-.course__white-box__media-label {
-  font-style: italic;
-  margin-top: -10px; }
-
-.course__white-box__content--read-more {
-  max-height: 100px;
-  overflow: hidden; }
-  @media only screen and (min-width: 600px) {
-    .course__white-box__content--read-more {
-      max-height: none; } }
-
-.course__white-box__read-more {
-  margin-top: -35px; }
-  .course__white-box__read-more .course__white-box__read-more__bg {
-    height: 35px;
-    position: relative;
-    background-color: transparent;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white));
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), white);
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), white); }
-  .course__white-box__read-more a {
-    display: block;
-    text-align: center;
-    font-weight: 600;
-    padding: 10px 0;
-    border-top: 1px solid #ccc; }
-    .course__white-box__read-more a:link, .course__white-box__read-more a:visited, .course__white-box__read-more a:hover {
-      border-bottom: none; }
-    .course__white-box__read-more a span {
-      border-bottom: 1px dotted; }
-    .course__white-box__read-more a:hover span {
-      border-bottom: 1px solid #670003; }
-    .course__white-box__read-more a:link span, .course__white-box__read-more a:visited span {
-      border: none; }
-  @media only screen and (min-width: 600px) {
-    .course__white-box__read-more {
-      display: none; } }
-
-.course__white-box__media {
-  margin: 0 -20px 20px; }
-  .course__white-box__media img {
-    margin: 0;
-    width: 100%; }
-
-@media (max-width: 420px) {
-  .course .accordion.ui-accordion .ui-accordion-content img, .course .accordion.ui-accordion .ui-accordion-content img.left, .course .accordion.ui-accordion .ui-accordion-content img.right {
-    display: block;
-    float: none; } }
-
-.course .accordion.ui-accordion .ui-accordion-header {
-  color: #000000;
-  font-size: 16px;
-  background-color: #eeeeee !important;
-  border-bottom: 2px solid #cccccc !important;
-  margin-bottom: 5px;
-  border-top: 0;
-  padding: 0; }
-  .course .accordion.ui-accordion .ui-accordion-header a {
-    padding: 12px 2em 12px 14px !important;
-    border: 0 !important;
-    background: none !important;
-    font-weight: 600;
-    color: #333; }
-    .course .accordion.ui-accordion .ui-accordion-header a:hover {
-      text-decoration: underline; }
-    .course .accordion.ui-accordion .ui-accordion-header a:focus {
-      outline: 5px auto -webkit-focus-ring-color; }
-  .course .accordion.ui-accordion .ui-accordion-header.ui-state-focus, .course .accordion.ui-accordion .ui-accordion-header.ui-state-focus a, .course .accordion.ui-accordion .ui-accordion-header.ui-state-active, .course .accordion.ui-accordion .ui-accordion-header.ui-state-active a, .course .accordion.ui-accordion .ui-accordion-header.ui-state-hover, .course .accordion.ui-accordion .ui-accordion-header.ui-state-hover a {
-    color: #666; }
