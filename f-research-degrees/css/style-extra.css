@@ -1,5 +1,8 @@
 
 
+.course-ug .course__profiles__item__title a:focus, .course-ug .course__profiles__item__title a:active {
+  color: #a42833; }
+
 .course-pg .course__subheader:after,
 .course-pg .course__key-information {
   background-color: #4d2a42; }

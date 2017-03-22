@@ -9013,8 +9013,17 @@ p.left-float-image {
     border-bottom: 1px solid transparent;
     margin-bottom: 5px; }
 
+.course__contact {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
 .course__contact__item {
+  display: inline-block;
   margin-top: 10px; }
+  .course__contact__item + .course__contact__item {
+    margin-left: 1em; }
 
 .course__contact__item__title {
   font-family: Arial, Helvetica, sans-serif;
@@ -10892,8 +10901,3 @@ a.course__red-links__link {
     line-height: 1.2em; }
     .intranet-home__container .box-link__body:hover .box-link__span {
       border-bottom: 1px solid #fff; }
-    .intranet-home__container .box-link__body:focus .box-link__span, .intranet-home__container .box-link__body:active .box-link__span {
-      color: #370332;
-      background: #fff; }
-  .intranet-home__container .line-link-wrapper {
-    margin-bottom: 20px; }

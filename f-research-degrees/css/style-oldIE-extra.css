@@ -1,4 +1,9 @@
 
+    .intranet-home__container .box-link__body:focus .box-link__span, .intranet-home__container .box-link__body:active .box-link__span {
+      color: #370332;
+      background: #fff; }
+  .intranet-home__container .line-link-wrapper {
+    margin-bottom: 20px; }
   .intranet-home__container .line-link {
     display: table;
     width: 100%;

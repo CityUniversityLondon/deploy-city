@@ -20652,8 +20652,17 @@ table.visa-event-table {
     border-bottom: 1px solid transparent;
     margin-bottom: 5px; }
 
+.course__contact {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
 .course__contact__item {
+  display: inline-block;
   margin-top: 10px; }
+  .course__contact__item + .course__contact__item {
+    margin-left: 1em; }
 
 .course__contact__item__title {
   font-family: Arial, Helvetica, sans-serif;
