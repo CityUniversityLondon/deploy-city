@@ -5597,22 +5597,6 @@ input[type="submit"].btn {
 /**
  * Select Element Replacement Dropdowns
  */
-.news-filters__select {
-  width: 100%;
-  height: auto;
-  position: relative;
-  z-index: 1000;
-  color: #b02a1a;
-  display: block;
-  padding: 0.5em 0.75em;
-  overflow: hidden;
-  font-weight: bold;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  background: white;
-  border-radius: 0;
-  border: 1px solid #cccccc; }
-
 .dropdown-select {
   width: 100%;
   height: auto;
@@ -8468,7 +8452,7 @@ input[type="checkbox"]:disabled {
     border-bottom: 1px solid #ccc; }
   .global-nav__drop a {
     color: #333;
-    font-size: 1.1em; }
+    font-size: 1.0em; }
     .global-nav__drop a:hover {
       color: #96190b; }
     .global-nav__drop a:focus, .global-nav__drop a:active {
@@ -11169,3 +11153,8 @@ or until modernizr tests for it (version 3?).
     background-color: #FFFFFF; }
     .news-events-aggregate .events .event {
       margin-bottom: 0; }
+
+.news-events-aggregate .spotlight-on-research .detail, .news-events-aggregate .city-news .detail {
+  bottom: 0;
+  position: absolute;
+  width: 100%; }

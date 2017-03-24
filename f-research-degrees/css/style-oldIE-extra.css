@@ -1,4 +1,199 @@
 
+
+/*      Wide Mobile Layout: 480px - 767px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .widget.w2013 {
+    width: 100%;
+    max-width: 700px; }
+    .widget.w2013 h4 {
+      font-size: 30px; }
+    .widget.w2013 p {
+      width: 40%;
+      max-width: 250px; }
+  .inpage.w2013 {
+    width: 100%;
+    max-width: 420px;
+    height: 140px; }
+    .inpage.w2013 .content {
+      height: 140px; }
+    .inpage.w2013 h4 {
+      font-size: 22px; }
+    .inpage.w2013 p {
+      width: 70%;
+      max-width: 300px;
+      margin: 10px 0 0 0; }
+    .inpage.w2013 img {
+      height: 90px;
+      margin-right: 0px;
+      margin-bottom: 0px; } }
+
+/*      Mobile Layout: 320px - 479px. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .widget.w2013 {
+    width: 100%;
+    max-width: 329px; }
+    .widget.w2013 h4 {
+      font-size: 30px; }
+    .widget.w2013 p {
+      float: left;
+      width: 150px;
+      margin: 30px 10px auto 0; }
+    .widget.w2013 img {
+      position: relative;
+      float: right;
+      right: 0;
+      bottom: 0;
+      margin-left: 20px; }
+  .inpage.w2013 {
+    width: 100%;
+    max-width: 420px;
+    height: 140px; }
+    .inpage.w2013 .content {
+      height: 140px; }
+    .inpage.w2013 h4 {
+      font-size: 20px;
+      line-height: 1.1em;
+      margin-right: 80px; }
+    .inpage.w2013 p {
+      font-size: 13px;
+      line-height: 1.2em;
+      margin: 10px 80px 0 0; }
+    .inpage.w2013 img {
+      height: 90px;
+      right: 10px;
+      bottom: 10px; } }
+
+/*      Mobile Layout: < 320px. */
+@media only screen and (max-width: 319px) {
+  .widget.w2013 {
+    width: 100%;
+    max-width: 200px; }
+    .widget.w2013 h4 {
+      font-size: 23px; }
+    .widget.w2013 p {
+      float: left;
+      width: 80%;
+      max-width: 170px;
+      margin: 30px auto; }
+    .widget.w2013 img {
+      position: relative;
+      float: right;
+      right: 0;
+      bottom: 0;
+      margin-left: 20px; }
+  .inpage.w2013 {
+    width: 100%;
+    max-width: 200px; }
+    .inpage.w2013 h4 {
+      font-size: 20px;
+      line-height: 1.1em;
+      margin-right: 80px; }
+    .inpage.w2013 p {
+      font-size: 13px;
+      line-height: 1.2em;
+      margin: 10px 80px 0 0; }
+    .inpage.w2013 img {
+      height: 90px;
+      margin-right: 0px;
+      margin-bottom: 0px; } }
+
+.icons-finance .fa, .icons-finance .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .icons-finance .ui-icon, .icons-finance #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .icons-finance .ui-icon, .icons-finance .white-card__media .embed-container a:before, .white-card__media .embed-container .icons-finance a:before, .icons-finance .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .icons-finance .ui-icon, .icons-hr .fa, .icons-hr .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .icons-hr .ui-icon, .icons-hr #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .icons-hr .ui-icon, .icons-hr .white-card__media .embed-container a:before, .white-card__media .embed-container .icons-hr a:before, .icons-hr .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .icons-hr .ui-icon {
+  font-size: 34px;
+  text-decoration: none;
+  display: inline-block; }
+
+.icons-finance a, .icons-hr a {
+  text-decoration: none;
+  border-bottom: none;
+  color: #979799;
+  text-align: center;
+  display: block;
+  margin-bottom: 1.5em; }
+  .icons-finance a:hover, .icons-hr a:hover {
+    color: #333333; }
+  .icons-finance a span, .icons-hr a span {
+    display: block; }
+
+#intranet .pc-shop-order-form {
+  width: 600px; }
+  #intranet .pc-shop-order-form .admin-form--header {
+    display: inline-block;
+    width: 200px; }
+  #intranet .pc-shop-order-form .admin-form--checkbox {
+    height: 14px;
+    font-size: 1.5em; }
+  #intranet .pc-shop-order-form .admin-form--footnote {
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 20px; }
+
+#intranet .global-nav__wrapper--active {
+  margin: 0; }
+
+#intranet .header__logo-nav-wrapper {
+  padding-bottom: 2em; }
+
+#intranet .header__logo__img {
+  width: 150px; }
+
+#intranet .global-nav__menu-item {
+  padding: 0.7em 0.2em 0 0.2em; }
+
+#intranet .global-nav__menu-item__link {
+  font-size: 14px; }
+
+#intranet .global-nav__wrapper {
+  margin-top: 0; }
+
+/*************************
+*   Intranet Home Page   *
+*************************/
+.intranet-home__container {
+  font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.3em; }
+  .intranet-home__container .part {
+    margin-bottom: 25px; }
+  .intranet-home__container .part--side {
+    margin-left: 0;
+    margin-right: 0;
+    margin-right: 5px; }
+    .intranet-home__container .part--side__title {
+      padding-bottom: 0;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #ccc;
+      font-size: 1.1em;
+      font-weight: 500; }
+    .intranet-home__container .part--side__title {
+      margin-right: 20px; }
+  .intranet-home__container .icon-link-wrapper {
+    padding-left: 2px;
+    margin-bottom: 17px;
+    margin-bottom: 14px;
+    font-size: 0.87em; }
+    .intranet-home__container .icon-link-wrapper:nth-child(2n+1) {
+      clear: both; }
+  .intranet-home__container .icon-link__icon, .intranet-home__container .icon-link__text {
+    display: table-cell;
+    vertical-align: top; }
+  .intranet-home__container .icon-link__icon {
+    color: #4D2942;
+    min-width: 30px; }
+    .intranet-home__container .icon-link__icon img {
+      margin-bottom: 0; }
+  .intranet-home__container .icon-link__body {
+    display: table;
+    line-height: 1.1em;
+    text-decoration: none;
+    border: none; }
+    .intranet-home__container .icon-link__body:link .icon-link__span, .intranet-home__container .icon-link__body:visited .icon-link__span {
+      color: #222;
+      border: none;
+      background: none; }
+    .intranet-home__container .icon-link__body:hover .icon-link__span {
+      border-bottom: 1px solid; }
+    .intranet-home__container .icon-link__body:focus, .intranet-home__container .icon-link__body:active {
+      background: none; }
       .intranet-home__container .icon-link__body:focus .icon-link__span, .intranet-home__container .icon-link__body:active .icon-link__span {
         border-bottom: 1px dotted; }
   .intranet-home__container .box-link-wrapper {
