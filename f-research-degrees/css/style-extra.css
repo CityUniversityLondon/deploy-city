@@ -1,5 +1,9 @@
 
 
+.course__white-box__media-label {
+  font-style: italic;
+  margin-top: -10px; }
+
 .course__white-box__content--read-more {
   max-height: 100px;
   overflow: hidden; }

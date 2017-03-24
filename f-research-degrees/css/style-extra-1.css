@@ -2770,6 +2770,8 @@ or until modernizr tests for it (version 3?).
 
 .news-card-text {
   padding: 0 10px; }
+  .news-card-text p:last-of-type {
+    margin-bottom: 0; }
 
 .news-card-media {
   background-color: #FFFFFF;
@@ -10167,7 +10169,3 @@ a.course__red-links__link {
   margin-bottom: 20px; }
   .course__white-box.course__white-box--top-media {
     padding-top: 0; }
-
-.course__white-box__media-label {
-  font-style: italic;
-  margin-top: -10px; }

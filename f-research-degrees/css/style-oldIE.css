@@ -13318,6 +13318,8 @@ or until modernizr tests for it (version 3?).
 
 .news-card-text {
   padding: 0 10px; }
+  .news-card-text p:last-of-type {
+    margin-bottom: 0; }
 
 .news-card-media {
   background-color: #FFFFFF;
