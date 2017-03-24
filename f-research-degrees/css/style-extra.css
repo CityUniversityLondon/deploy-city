@@ -1,5 +1,19 @@
 
 
+.course-ug .course__red-links__link {
+  background-color: #a42833; }
+  .course-ug .course__red-links__link:hover {
+    background-color: #8d182a; }
+  .course-ug .course__red-links__link:focus, .course-ug .course__red-links__link:active {
+    background-color: #ae3c44; }
+
+.course-ug .course__news-item__cat,
+.course-ug .course__event__date {
+  background-color: #b91b1c; }
+
+.course-ug .course__testimonials__wrapper {
+  background-color: #a42833; }
+
 .course-ug .course__profiles__item__title a:focus, .course-ug .course__profiles__item__title a:active {
   color: #a42833; }
 

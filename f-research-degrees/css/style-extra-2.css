@@ -9234,8 +9234,9 @@ body {
     padding: 12px 2em 12px 14px !important;
     border: 0 !important;
     background: none !important;
-    font-weight: 600;
-    color: #333; }
+    font-weight: 600; }
+    .ui-accordion .ui-accordion-header a, .ui-accordion .ui-accordion-header a:link {
+      color: #333333; }
     .ui-accordion .ui-accordion-header a:hover {
       text-decoration: underline; }
     .ui-accordion .ui-accordion-header a:focus {
@@ -10077,8 +10078,9 @@ body {
     padding: 12px 2em 12px 14px !important;
     border: 0 !important;
     background: none !important;
-    font-weight: 600;
-    color: #333; }
+    font-weight: 600; }
+    .ui-accordion .ui-accordion-header a, .ui-accordion .ui-accordion-header a:link {
+      color: #333333; }
     .ui-accordion .ui-accordion-header a:hover {
       text-decoration: underline; }
     .ui-accordion .ui-accordion-header a:focus {
@@ -10438,8 +10440,9 @@ body {
       padding: 12px 2em 12px 14px !important;
       border: 0 !important;
       background: none !important;
-      font-weight: 600;
-      color: #333; }
+      font-weight: 600; }
+      #courses-widget .widget-content .ui-accordion-header a, #courses-widget .widget-content .ui-accordion-header a:link {
+        color: #333333; }
       #courses-widget .widget-content .ui-accordion-header a:hover {
         text-decoration: underline; }
       #courses-widget .widget-content .ui-accordion-header a:focus {
@@ -10778,17 +10781,3 @@ a.city-vision-widget:hover hr {
     color: #FFFFFF;
     text-decoration: none;
     border: none; }
-
-#spotlight-research-widget .widget-content {
-  padding-left: 5px; }
-
-#spotlight-research-widget li {
-  background: #fff; }
-  #spotlight-research-widget li:before, #spotlight-research-widget li:after {
-    content: " ";
-    display: table; }
-  #spotlight-research-widget li:after {
-    clear: both; }
-
-#spotlight-research-widget .bx-wrapper {
-  margin: 0 5px 0 0; }

@@ -9096,8 +9096,9 @@ body {
     padding: 12px 2em 12px 14px !important;
     border: 0 !important;
     background: none !important;
-    font-weight: 600;
-    color: #333; }
+    font-weight: 600; }
+    .ui-accordion .ui-accordion-header a, .ui-accordion .ui-accordion-header a:link {
+      color: #333333; }
     .ui-accordion .ui-accordion-header a:hover {
       text-decoration: underline; }
     .ui-accordion .ui-accordion-header a:focus {
@@ -9920,8 +9921,9 @@ body {
     padding: 12px 2em 12px 14px !important;
     border: 0 !important;
     background: none !important;
-    font-weight: 600;
-    color: #333; }
+    font-weight: 600; }
+    .ui-accordion .ui-accordion-header a, .ui-accordion .ui-accordion-header a:link {
+      color: #333333; }
     .ui-accordion .ui-accordion-header a:hover {
       text-decoration: underline; }
     .ui-accordion .ui-accordion-header a:focus {
@@ -10277,8 +10279,9 @@ body {
       padding: 12px 2em 12px 14px !important;
       border: 0 !important;
       background: none !important;
-      font-weight: 600;
-      color: #333; }
+      font-weight: 600; }
+      #courses-widget .widget-content .ui-accordion-header a, #courses-widget .widget-content .ui-accordion-header a:link {
+        color: #333333; }
       #courses-widget .widget-content .ui-accordion-header a:hover {
         text-decoration: underline; }
       #courses-widget .widget-content .ui-accordion-header a:focus {
@@ -11166,29 +11169,3 @@ or until modernizr tests for it (version 3?).
     background-color: #FFFFFF; }
     .news-events-aggregate .events .event {
       margin-bottom: 0; }
-
-.news-events-aggregate .spotlight-on-research .detail, .news-events-aggregate .city-news .detail {
-  bottom: 0;
-  position: absolute;
-  width: 100%; }
-
-.news-events-aggregate .spotlight-on-research .description, .news-events-aggregate .city-news .description {
-  border: 0 none;
-  clip: rect(0px, 0px, 0px, 0px);
-  display: block;
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  position: absolute;
-  width: 1px; }
-
-.news-events-aggregate .spotlight-on-research a:hover .description, .news-events-aggregate .city-news a:hover .description {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto; }
-
-.article-listing {
-  overflow: hidden; }

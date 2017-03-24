@@ -1,4 +1,11 @@
 
+    @media only screen and (min-width: 980px) {
+      .hallway-new .hallway-item {
+        margin-bottom: 45px; } }
+    .hallway-new .hallway-item a {
+      display: block;
+      border: none;
+      text-decoration: none; }
       .hallway-new .hallway-item a img, .hallway-new .hallway-item a h2, .hallway-new .hallway-item a h3 {
         margin: 0; }
       .hallway-new .hallway-item a h2, .hallway-new .hallway-item a h3 {

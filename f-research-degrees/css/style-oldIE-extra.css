@@ -1,4 +1,26 @@
 
+      .intranet-home__container .icon-link__body:focus .icon-link__span, .intranet-home__container .icon-link__body:active .icon-link__span {
+        border-bottom: 1px dotted; }
+  .intranet-home__container .box-link-wrapper {
+    margin-bottom: 20px; }
+  .intranet-home__container .box-link__pointer, .intranet-home__container .box-link__text {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 4px; }
+  .intranet-home__container .box-link__pointer {
+    text-align: right;
+    font-size: .8em; }
+  .intranet-home__container .box-link__body {
+    display: table;
+    width: 100%;
+    background: #370332;
+    color: #fff;
+    height: 75px;
+    padding: 0 15px;
+    font-size: 1.1em;
+    line-height: 1.2em; }
+    .intranet-home__container .box-link__body:hover .box-link__span {
+      border-bottom: 1px solid #fff; }
     .intranet-home__container .box-link__body:focus .box-link__span, .intranet-home__container .box-link__body:active .box-link__span {
       color: #370332;
       background: #fff; }
