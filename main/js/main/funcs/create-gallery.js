@@ -90,7 +90,7 @@ module.exports = function () {
                         $.getMultiJsScripts([
                             "lib/jquery/plugins/galleria/galleria-1.4.2/galleria-1.4.2.min.js",
                             "lib/jquery/plugins/galleria/galleria-1.4.2/themes/classic/galleria.classic.city.min.js"
-                        ], loadComplete);
+                        ], loadComplete, true);
                     }
 
                     gallery.prepend($('<div class="loading"><div class="loading__icon"><i class="fa fa-refresh fa-spin"></i></div></span>'));
