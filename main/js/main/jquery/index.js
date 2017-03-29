@@ -3,7 +3,7 @@ module.exports = function () {
     require('./lib/jquery.min');
     require('./lib/jquery-ui.min');
     require('./lib/jquery.ba-bbq.min');
-    require('bxslider');
+    require('bxslider/dist/jquery.bxslider.js');
 
     require('./jquery.idize')(window.jQuery);
     require('./jquery.citydropdown')(window.jQuery);
