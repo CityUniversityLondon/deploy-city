@@ -3508,61 +3508,61 @@ pre {
   font-family: "ff-meta-web";
   font-style: normal;
   font-weight: 300;
-  src: url("//s1.city.ac.uk/f/MetaWeb-Light.woff?city20150610") format("woff"); }
+  src: url("../fonts/metasans/MetaWeb-Light.woff?city20150610") format("woff"); }
 
 @font-face {
   font-family: "ff-meta-web";
   font-style: normal;
   font-weight: 400;
-  src: url("//s1.city.ac.uk/f/MetaWeb-Normal.woff?city20150610") format("woff"); }
+  src: url("../fonts/metasans/MetaWeb-Normal.woff?city20150610") format("woff"); }
 
 @font-face {
   font-family: "ff-meta-web";
   font-style: normal;
   font-weight: 500;
-  src: url("//s1.city.ac.uk/f/MetaWeb-Book.woff?city20150610") format("woff"); }
+  src: url("../fonts/metasans/MetaWeb-Book.woff?city20150610") format("woff"); }
 
 @font-face {
   font-family: "ff-meta-web";
   font-style: normal;
   font-weight: 600;
-  src: url("//s1.city.ac.uk/f/MetaWeb-Medium.woff?city20150610") format("woff"); }
+  src: url("../fonts/metasans/MetaWeb-Medium.woff?city20150610") format("woff"); }
 
 @font-face {
   font-family: "ff-meta-web";
   font-style: normal;
   font-weight: 700;
-  src: url("//s1.city.ac.uk/f/MetaWeb-Bold.woff?city20150610") format("woff"); }
+  src: url("../fonts/metasans/MetaWeb-Bold.woff?city20150610") format("woff"); }
 
 @font-face {
   font-family: "ff-meta-web";
   font-style: italic;
   font-weight: 300;
-  src: url("//s1.city.ac.uk/f/MetaWeb-LightIta.woff?city20150610") format("woff"); }
+  src: url("../fonts/metasans/MetaWeb-LightIta.woff?city20150610") format("woff"); }
 
 @font-face {
   font-family: "ff-meta-web";
   font-style: italic;
   font-weight: 400;
-  src: url("//s1.city.ac.uk/f/MetaWeb-NormalIta.woff?city20150610") format("woff"); }
+  src: url("../fonts/metasans/MetaWeb-NormalIta.woff?city20150610") format("woff"); }
 
 @font-face {
   font-family: "ff-meta-web";
   font-style: italic;
   font-weight: 500;
-  src: url("//s1.city.ac.uk/f/MetaWeb-BookIta.woff?city20150610") format("woff"); }
+  src: url("../fonts/metasans/MetaWeb-BookIta.woff?city20150610") format("woff"); }
 
 @font-face {
   font-family: "ff-meta-web";
   font-style: italic;
   font-weight: 600;
-  src: url("//s1.city.ac.uk/f/MetaWeb-MediumIta.woff?city20150610") format("woff"); }
+  src: url("../fonts/metasans/MetaWeb-MediumIta.woff?city20150610") format("woff"); }
 
 @font-face {
   font-family: "ff-meta-web";
   font-style: italic;
   font-weight: 700;
-  src: url("//s1.city.ac.uk/f/MetaWeb-BoldIta.woff?city20150610") format("woff"); }
+  src: url("../fonts/metasans/MetaWeb-BoldIta.woff?city20150610") format("woff"); }
 
 /** Responsive code that is not related to any specific component or site */
 .col-xxs-1, .col-xxs-2, .col-xxs-3, .col-xxs-4, .col-xxs-5, .col-xxs-6, .col-xxs-7, .col-xxs-8, .col-xxs-9, .col-xxs-10, .col-xxs-11, .col-xxs-12, .col-xxs-13, .col-xxs-14, .col-xxs-15, .col-xxs-16, .col-xxs-17, .col-xxs-18, .col-xxs-19, .col-xxs-20, .col-xxs-21, .col-xxs-22, .col-xxs-23, .col-xxs-24 {
@@ -6070,6 +6070,28 @@ a {
     color: #ffffff;
     border-bottom: 2px solid #ffffff; }
 
+p.cta a,
+a.cta {
+  display: inline-block;
+  padding: 5px 10px;
+  border: none; }
+  p.cta a:hover span,
+  a.cta:hover span {
+    border-bottom: 1px dotted black; }
+  p.cta a:focus, p.cta a:active,
+  a.cta:focus,
+  a.cta:active {
+    background: #b02a1a;
+    color: white; }
+
+p.cta--purple a,
+a.cta--purple {
+  background: #380431;
+  color: white; }
+  p.cta--purple a:hover span,
+  a.cta--purple:hover span {
+    border-bottom-color: white; }
+
 h1, h2, h3 {
   font-family: "ff-meta-web", Arial, Helvetica, sans-serif; }
 
@@ -6758,18 +6780,18 @@ h1, h2, h3 {
     width: 100%;
     display: block; }
 
-.membership .membership-menu {
+.side-menu {
   display: none;
   display: block;
   margin-bottom: 20px;
   text-align: center;
   text-align: left; }
-  .membership .membership-menu li {
+  .side-menu li {
     list-style-type: none;
     display: inline-block; }
-  .membership .membership-menu li {
+  .side-menu li {
     display: block; }
-  .membership .membership-menu a.membership-menu-item {
+  .side-menu a.side-menu-item {
     padding: 10px;
     border: none;
     display: block;
@@ -6780,20 +6802,301 @@ h1, h2, h3 {
     background: white;
     color: #b02a1a;
     text-decoration: none; }
-    .membership .membership-menu a.membership-menu-item:hover span {
+    .side-menu a.side-menu-item:hover span {
       border-bottom: 1px dotted #858687; }
-    .membership .membership-menu a.membership-menu-item:focus {
+    .side-menu a.side-menu-item:focus {
       background: #b02a1a;
       color: white; }
-      .membership .membership-menu a.membership-menu-item:focus span {
+      .side-menu a.side-menu-item:focus span {
         border-bottom: 1px solid white; }
-    .membership .membership-menu a.membership-menu-item.selected {
+    .side-menu a.side-menu-item.selected {
       background: #b02a1a;
       color: white;
       position: relative; }
-      .membership .membership-menu a.membership-menu-item.selected span {
+      .side-menu a.side-menu-item.selected span {
         border: none; }
-      .membership .membership-menu a.membership-menu-item.selected::before {
+      .side-menu a.side-menu-item.selected::before {
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+        bottom: -5px;
+        left: 50%;
+        margin-left: -5px;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #b02a1a;
+        left: auto;
+        right: -5px;
+        bottom: auto;
+        top: 50%;
+        margin-left: 0;
+        margin-top: -5px;
+        border-right: none;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid #b02a1a; }
+  .side-menu.side-menu--it2 .side-menu-item--2 {
+    margin-left: 15px; }
+
+.side-menu--mobile {
+  margin-bottom: 20px;
+  text-align: center;
+  text-align: left; }
+  .side-menu--mobile a.side-menu-item--mobile {
+    padding: 10px;
+    border: none;
+    display: block;
+    position: relative;
+    display: none;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    background: white;
+    color: #b02a1a;
+    text-decoration: none; }
+    .side-menu--mobile a.side-menu-item--mobile::before {
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+      bottom: -8px;
+      left: 50%;
+      margin-left: -8px;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 8px solid white; }
+    .side-menu--mobile a.side-menu-item--mobile:hover span {
+      border-bottom: 1px dotted #858687; }
+    .side-menu--mobile a.side-menu-item--mobile:focus {
+      background: #b02a1a;
+      color: white; }
+      .side-menu--mobile a.side-menu-item--mobile:focus::before {
+        border-top-color: #b02a1a; }
+      .side-menu--mobile a.side-menu-item--mobile:focus span {
+        border-bottom: 1px solid white; }
+    .side-menu--mobile a.side-menu-item--mobile.selected {
+      background: #b02a1a;
+      color: white; }
+      .side-menu--mobile a.side-menu-item--mobile.selected span {
+        border: none; }
+      .side-menu--mobile a.side-menu-item--mobile.selected::before {
+        border-top-color: #b02a1a; }
+
+.side-menu__main-content {
+  text-align: left;
+  border-left: 3px solid #b02a1a;
+  padding-left: 10px; }
+
+.membership-item-text {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 10px 5px;
+  display: block;
+  padding: 20px 20px 60px;
+  margin-right: -10px; }
+  .membership-item-text .grey-row {
+    background-color: #E7E7E7; }
+  .membership-item-text table {
+    margin-bottom: 20px; }
+  .membership-item-text td, .membership-item-text th {
+    text-align: center; }
+
+.membership-footer-text {
+  background-color: white;
+  padding: 10px 20px;
+  margin: 0 0px 0 0px; }
+
+.membership-item {
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 10px 5px;
+  display: none;
+  background-color: transparent;
+  padding: 0px;
+  margin-right: 10px; }
+  .membership-item.selected {
+    display: block; }
+  .membership-item .first {
+    margin-bottom: 20px; }
+  .membership-item .membership-header--bottom,
+  .membership-item .first .membership-classes--text {
+    display: none; }
+  .membership-item .membership-prices--top {
+    float: left;
+    width: 120px; }
+  .membership-item .membership-classes--comments {
+    padding: 0 10px; }
+  .membership-item .membership-prices--bottom {
+    float: left;
+    margin-bottom: 20px; }
+    .membership-item .membership-prices--bottom p {
+      margin-bottom: 0; }
+  .membership-item .first .mobile-info::after {
+    content: "+ free classes"; }
+  .membership-item li {
+    list-style-type: none; }
+  .membership-item ul.membership-prices {
+    margin: 0; }
+  .membership-item .price {
+    color: #b02a1a; }
+  .membership-item .membership-separator {
+    color: white;
+    border-top: 1px solid #E7E7E7;
+    margin-top: 50px; }
+  .membership-item p {
+    margin-top: 0;
+    padding-top: 0; }
+  .membership-item .member {
+    color: #b02a1a;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px; }
+  .membership-item .second .membership-prices,
+  .membership-item .second .membership-classes {
+    padding-left: 20px; }
+  .membership-item .display-classes {
+    display: block;
+    padding-left: 10px;
+    font-style: italic; }
+    .membership-item .display-classes .display-mobile {
+      display: inline; }
+  .membership-item .first {
+    margin-bottom: 50px; }
+  .membership-item .membership-header--bottom,
+  .membership-item .first .membership-classes--text {
+    display: block; }
+  .membership-item p {
+    margin-top: 0;
+    padding-top: 0; }
+  .membership-item .membership-prices--top {
+    float: none; }
+  .membership-item .membership-classes--comments {
+    padding: 20px 20px 0; }
+  .membership-item .membership-prices--bottom {
+    float: none;
+    margin-bottom: 0px; }
+    .membership-item .membership-prices--bottom p {
+      margin-bottom: 0; }
+  .membership-item .first .membership-prices--bottom::after {
+    content: ""; }
+  .membership-item ul.membership-prices {
+    padding-left: 0 !important;
+    padding-right: 2px; }
+    .membership-item ul.membership-prices.last-column {
+      padding-right: 0; }
+  .membership-item .padding-adjust .membership-header--bottom {
+    padding: 0;
+    margin: 0; }
+  .membership-item .membership-prices--bottom,
+  .membership-item .membership-classes--text {
+    background-color: white; }
+  .membership-item .membership-prices--bottom {
+    margin-left: 0;
+    padding: 20px; }
+  .membership-item .membership-prices--top {
+    padding-left: 20px; }
+  .membership-item .membership-prices {
+    padding: 0; }
+  .membership-item .membership-prices p,
+  .membership-item .membership-header--top p,
+  .membership-item .membership-header {
+    margin-top: 0; }
+  .membership-item .membership-classes {
+    padding: 0;
+    margin-top: 2px; }
+    .membership-item .membership-classes .membership-classes--text {
+      padding: 20px; }
+  .membership-item .membership-header--bottom {
+    float: right;
+    margin-top: 20px; }
+  .membership-item .price {
+    font-weight: 600; }
+  .membership-item .membership-separator {
+    display: none; }
+  .membership-item .second .membership-prices,
+  .membership-item .second .membership-classes {
+    padding-left: 0px; }
+  .membership-item .display-classes {
+    padding-left: 10px;
+    font-style: normal; }
+    .membership-item .display-classes .display-mobile {
+      display: none; }
+  .membership-item table {
+    border-spacing: 1px;
+    table-layout: fixed;
+    width: 100%;
+    word-wrap: break-word;
+    word-wrap: normal; }
+    .membership-item table td, .membership-item table th {
+      padding: 0; }
+    .membership-item table .main {
+      color: #b02a1a;
+      font-weight: 600;
+      text-align: left; }
+    .membership-item table .label-v {
+      text-align: right; }
+    .membership-item table .second .main, .membership-item table .second .label-h {
+      padding-top: 40px; }
+    .membership-item table .price {
+      background: white;
+      color: #b02a1a;
+      font-weight: 600; }
+    .membership-item table .text {
+      background: white; }
+    .membership-item table .main {
+      padding: 0 10px 5px 0; }
+    .membership-item table .label-v {
+      padding: 10px 10px 10px 0; }
+    .membership-item table .label-h {
+      padding: 0 10px 5px; }
+    .membership-item table .price, .membership-item table .text {
+      padding: 10px; }
+    .membership-item table .main {
+      padding: 0 20px 10px 0; }
+    .membership-item table .label-v {
+      padding: 20px 20px 20px 0; }
+    .membership-item table .label-h {
+      padding: 0 20px 10px; }
+    .membership-item table .price, .membership-item table .text {
+      padding: 20px; }
+
+.membership-menu {
+  display: none;
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+  text-align: left; }
+  .membership-menu li {
+    list-style-type: none;
+    display: inline-block; }
+  .membership-menu li {
+    display: block; }
+  .membership-menu a.membership-menu-item {
+    padding: 10px;
+    border: none;
+    display: block;
+    display: inline-block;
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    background: white;
+    color: #b02a1a;
+    text-decoration: none; }
+    .membership-menu a.membership-menu-item:hover span {
+      border-bottom: 1px dotted #858687; }
+    .membership-menu a.membership-menu-item:focus {
+      background: #b02a1a;
+      color: white; }
+      .membership-menu a.membership-menu-item:focus span {
+        border-bottom: 1px solid white; }
+    .membership-menu a.membership-menu-item.selected {
+      background: #b02a1a;
+      color: white;
+      position: relative; }
+      .membership-menu a.membership-menu-item.selected span {
+        border: none; }
+      .membership-menu a.membership-menu-item.selected::before {
         content: ' ';
         position: absolute;
         width: 0;
@@ -6815,11 +7118,11 @@ h1, h2, h3 {
         border-bottom: 5px solid transparent;
         border-left: 5px solid #b02a1a; }
 
-.membership .membership-menu--mobile {
+.membership-menu--mobile {
   margin-bottom: 20px;
   text-align: center;
   text-align: left; }
-  .membership .membership-menu--mobile a.membership-menu-item--mobile {
+  .membership-menu--mobile a.membership-menu-item--mobile {
     padding: 10px;
     border: none;
     display: block;
@@ -6830,7 +7133,7 @@ h1, h2, h3 {
     background: white;
     color: #b02a1a;
     text-decoration: none; }
-    .membership .membership-menu--mobile a.membership-menu-item--mobile::before {
+    .membership-menu--mobile a.membership-menu-item--mobile::before {
       content: ' ';
       position: absolute;
       width: 0;
@@ -6841,201 +7144,27 @@ h1, h2, h3 {
       border-left: 8px solid transparent;
       border-right: 8px solid transparent;
       border-top: 8px solid white; }
-    .membership .membership-menu--mobile a.membership-menu-item--mobile:hover span {
+    .membership-menu--mobile a.membership-menu-item--mobile:hover span {
       border-bottom: 1px dotted #858687; }
-    .membership .membership-menu--mobile a.membership-menu-item--mobile:focus {
+    .membership-menu--mobile a.membership-menu-item--mobile:focus {
       background: #b02a1a;
       color: white; }
-      .membership .membership-menu--mobile a.membership-menu-item--mobile:focus::before {
+      .membership-menu--mobile a.membership-menu-item--mobile:focus::before {
         border-top-color: #b02a1a; }
-      .membership .membership-menu--mobile a.membership-menu-item--mobile:focus span {
+      .membership-menu--mobile a.membership-menu-item--mobile:focus span {
         border-bottom: 1px solid white; }
-    .membership .membership-menu--mobile a.membership-menu-item--mobile.selected {
+    .membership-menu--mobile a.membership-menu-item--mobile.selected {
       background: #b02a1a;
       color: white; }
-      .membership .membership-menu--mobile a.membership-menu-item--mobile.selected span {
+      .membership-menu--mobile a.membership-menu-item--mobile.selected span {
         border: none; }
-      .membership .membership-menu--mobile a.membership-menu-item--mobile.selected::before {
+      .membership-menu--mobile a.membership-menu-item--mobile.selected::before {
         border-top-color: #b02a1a; }
 
-.membership .membership-items {
+.membership-items {
   text-align: left;
   border-left: 3px solid #b02a1a;
   padding-left: 10px; }
-
-.membership .membership-item-text {
-  background-color: white;
-  margin-bottom: 20px;
-  padding: 10px 5px;
-  display: block;
-  padding: 20px 20px 60px;
-  margin-right: -10px; }
-  .membership .membership-item-text .grey-row {
-    background-color: #E7E7E7; }
-  .membership .membership-item-text table {
-    margin-bottom: 20px; }
-  .membership .membership-item-text td, .membership .membership-item-text th {
-    text-align: center; }
-
-.membership .membership-footer-text {
-  background-color: white;
-  padding: 10px 20px;
-  margin: 0 0px 0 0px; }
-
-.membership .membership-item {
-  margin-bottom: 20px;
-  background-color: white;
-  padding: 10px 5px;
-  display: none;
-  background-color: transparent;
-  padding: 0px;
-  margin-right: 10px; }
-  .membership .membership-item.selected {
-    display: block; }
-  .membership .membership-item .first {
-    margin-bottom: 20px; }
-  .membership .membership-item .membership-header--bottom,
-  .membership .membership-item .first .membership-classes--text {
-    display: none; }
-  .membership .membership-item .membership-prices--top {
-    float: left;
-    width: 120px; }
-  .membership .membership-item .membership-classes--comments {
-    padding: 0 10px; }
-  .membership .membership-item .membership-prices--bottom {
-    float: left;
-    margin-bottom: 20px; }
-    .membership .membership-item .membership-prices--bottom p {
-      margin-bottom: 0; }
-  .membership .membership-item .first .mobile-info::after {
-    content: "+ free classes"; }
-  .membership .membership-item li {
-    list-style-type: none; }
-  .membership .membership-item ul.membership-prices {
-    margin: 0; }
-  .membership .membership-item .price {
-    color: #b02a1a; }
-  .membership .membership-item .membership-separator {
-    color: white;
-    border-top: 1px solid #E7E7E7;
-    margin-top: 50px; }
-  .membership .membership-item p {
-    margin-top: 0;
-    padding-top: 0; }
-  .membership .membership-item .member {
-    color: #b02a1a;
-    font-weight: 600;
-    text-align: left;
-    padding-top: 10px;
-    padding-left: 10px; }
-  .membership .membership-item .second .membership-prices,
-  .membership .membership-item .second .membership-classes {
-    padding-left: 20px; }
-  .membership .membership-item .display-classes {
-    display: block;
-    padding-left: 10px;
-    font-style: italic; }
-    .membership .membership-item .display-classes .display-mobile {
-      display: inline; }
-  .membership .membership-item .first {
-    margin-bottom: 50px; }
-  .membership .membership-item .membership-header--bottom,
-  .membership .membership-item .first .membership-classes--text {
-    display: block; }
-  .membership .membership-item p {
-    margin-top: 0;
-    padding-top: 0; }
-  .membership .membership-item .membership-prices--top {
-    float: none; }
-  .membership .membership-item .membership-classes--comments {
-    padding: 20px 20px 0; }
-  .membership .membership-item .membership-prices--bottom {
-    float: none;
-    margin-bottom: 0px; }
-    .membership .membership-item .membership-prices--bottom p {
-      margin-bottom: 0; }
-  .membership .membership-item .first .membership-prices--bottom::after {
-    content: ""; }
-  .membership .membership-item ul.membership-prices {
-    padding-left: 0 !important;
-    padding-right: 2px; }
-    .membership .membership-item ul.membership-prices.last-column {
-      padding-right: 0; }
-  .membership .membership-item .padding-adjust .membership-header--bottom {
-    padding: 0;
-    margin: 0; }
-  .membership .membership-item .membership-prices--bottom,
-  .membership .membership-item .membership-classes--text {
-    background-color: white; }
-  .membership .membership-item .membership-prices--bottom {
-    margin-left: 0;
-    padding: 20px; }
-  .membership .membership-item .membership-prices--top {
-    padding-left: 20px; }
-  .membership .membership-item .membership-prices {
-    padding: 0; }
-  .membership .membership-item .membership-prices p,
-  .membership .membership-item .membership-header--top p,
-  .membership .membership-item .membership-header {
-    margin-top: 0; }
-  .membership .membership-item .membership-classes {
-    padding: 0;
-    margin-top: 2px; }
-    .membership .membership-item .membership-classes .membership-classes--text {
-      padding: 20px; }
-  .membership .membership-item .membership-header--bottom {
-    float: right;
-    margin-top: 20px; }
-  .membership .membership-item .price {
-    font-weight: 600; }
-  .membership .membership-item .membership-separator {
-    display: none; }
-  .membership .membership-item .second .membership-prices,
-  .membership .membership-item .second .membership-classes {
-    padding-left: 0px; }
-  .membership .membership-item .display-classes {
-    padding-left: 10px;
-    font-style: normal; }
-    .membership .membership-item .display-classes .display-mobile {
-      display: none; }
-  .membership .membership-item table {
-    border-spacing: 1px;
-    table-layout: fixed;
-    width: 100%;
-    word-wrap: break-word;
-    word-wrap: normal; }
-    .membership .membership-item table td, .membership .membership-item table th {
-      padding: 0; }
-    .membership .membership-item table .main {
-      color: #b02a1a;
-      font-weight: 600;
-      text-align: left; }
-    .membership .membership-item table .label-v {
-      text-align: right; }
-    .membership .membership-item table .second .main, .membership .membership-item table .second .label-h {
-      padding-top: 40px; }
-    .membership .membership-item table .price {
-      background: white;
-      color: #b02a1a;
-      font-weight: 600; }
-    .membership .membership-item table .text {
-      background: white; }
-    .membership .membership-item table .main {
-      padding: 0 10px 5px 0; }
-    .membership .membership-item table .label-v {
-      padding: 10px 10px 10px 0; }
-    .membership .membership-item table .label-h {
-      padding: 0 10px 5px; }
-    .membership .membership-item table .price, .membership .membership-item table .text {
-      padding: 10px; }
-    .membership .membership-item table .main {
-      padding: 0 20px 10px 0; }
-    .membership .membership-item table .label-v {
-      padding: 20px 20px 20px 0; }
-    .membership .membership-item table .label-h {
-      padding: 0 20px 10px; }
-    .membership .membership-item table .price, .membership .membership-item table .text {
-      padding: 20px; }
 
 .timetable {
   width: 100%;

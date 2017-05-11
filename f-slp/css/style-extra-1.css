@@ -1,4 +1,17 @@
-#spotlight-research-widget h3 a {
+#spotlight-research-widget li {
+  background: #fff; }
+  #spotlight-research-widget li:before, #spotlight-research-widget li:after {
+    content: " ";
+    display: table; }
+  #spotlight-research-widget li:after {
+    clear: both; }
+
+#spotlight-research-widget .bx-wrapper {
+  margin: 0 5px 0 0; }
+
+#spotlight-research-widget h3 {
+  margin: 0 5px 0 5px; }
+  #spotlight-research-widget h3 a {
     font-weight: bold; }
 
 #spotlight-research-widget .thumbnail {
@@ -2535,6 +2548,20 @@ or until modernizr tests for it (version 3?).
   position: relative;
   top: 4px; }
 
+/*logos*/
+.logos:before, .logos:after {
+  content: " ";
+  display: table; }
+
+.logos:after {
+  clear: both; }
+
+.logos figure {
+  float: left;
+  margin: 0 20px 20px 0; }
+  .logos figure figcaption {
+    text-align: center; }
+
 /**
  * Category Colours
  */
@@ -2755,9 +2782,6 @@ or until modernizr tests for it (version 3?).
   .news-card-content:focus {
     background-color: transparent; }
 
-.news-card-text {
-  padding: 0 10px; }
-
 .news-card-media {
   background-color: #FFFFFF;
   position: relative;
@@ -2793,6 +2817,13 @@ or until modernizr tests for it (version 3?).
   .news-card:hover .news-card-media svg {
     -webkit-filter: saturate(120%); }
 
+.news-card-text {
+  padding: 10px 10px 0; }
+  .news-card-media + .news-card-text {
+    padding-top: 0; }
+  .news-card-text p:last-of-type {
+    margin-bottom: 0; }
+
 .news-card-categories,
 .news-widget-categories {
   width: 100%;
@@ -2810,9 +2841,31 @@ or until modernizr tests for it (version 3?).
   .home-news
   .news-widget-categories {
     padding-top: .5em;
-    padding-bottom: .5em;
     border-bottom-width: 0;
     margin-bottom: 0; }
+  .course__example-research .news-card-categories, .course__example-research
+  .news-widget-categories {
+    position: relative;
+    overflow: visible;
+    padding-left: 2.5em;
+    padding-bottom: 0;
+    margin-bottom: 1em; }
+    .course__example-research .news-card-categories:before, .course__example-research
+    .news-widget-categories:before {
+      content: "\f0ca";
+      background-color: #666666;
+      color: #FFFFFF;
+      width: 1.5em;
+      height: 1.5em;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      font-family: "FontAwesome";
+      font-size: 1.250em;
+      line-height: 1.5;
+      text-align: center; }
 
 .news-card-topic,
 .news-card-series,
@@ -8274,10 +8327,17 @@ a.ghost-cta {
     margin-bottom: 10px;
     clear: both; }
   .home .home-course-finder .home-course-finder-submit a {
-    border: 0;
-    color: inherit; }
+    color: inherit;
+    border: 0; }
     .home .home-course-finder .home-course-finder-submit a:hover {
-      text-decoration: underline; }
+      text-decoration: none;
+      border-bottom: 2px solid #b91b1b;
+      color: #b91b1b; }
+    .home .home-course-finder .home-course-finder-submit a:focus, .home .home-course-finder .home-course-finder-submit a:active {
+      color: #b91b1b;
+      background: none;
+      text-decoration: none;
+      border-bottom: 2px dotted #666666; }
   .home .home-course-finder .home-course-finder-submit button {
     width: 100%;
     text-align: left;
@@ -9197,8 +9257,10 @@ migrated from static for http://www.city.ac.uk/research/research-publications/se
     font-size: 1em; }
   .my-country #contact-widget p, .my-country #contact-widget h2 {
     margin-bottom: 1em; }
-  .my-country #contact-widget .widget-content, .my-country #contact-widget .vcard, .my-country #contact-widget h2 {
+  .my-country #contact-widget .widget-content, .my-country #contact-widget .vcard {
     padding: 0; }
+  .my-country #contact-widget h2 {
+    padding: 0 20px; }
   .my-country #contact-widget a {
     color: #ccc;
     border-bottom: 2px dotted #ccc; }
@@ -9331,7 +9393,8 @@ table.visa-event-table {
     color: #b02a1a; }
 
 .destinations {
-  margin-top: -30px; }
+  margin-top: -30px;
+  margin-bottom: 15px; }
 
 .destinations__form {
   background: #ccc;
@@ -9953,13 +10016,41 @@ table.visa-event-table {
     border-bottom: 1px solid transparent;
     margin-bottom: 5px; }
 
+.course__contact {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
 .course__contact__item {
+  display: inline-block;
   margin-top: 10px; }
+  .course__contact__item + .course__contact__item {
+    margin-left: 1em; }
 
 .course__contact__item__title {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   margin-bottom: 5px; }
+
+.course__contact__item__tel {
+  position: relative; }
+  .course__contact__item__tel .fa-phone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 21px; }
+  .course__contact__item__tel a {
+    display: inline-block;
+    margin-left: 21px;
+    clear: both; }
+    .course__contact__item__tel a:before {
+      content: "";
+      width: 100%;
+      display: block; }
+
+.course__contact__item__tel + .course__contact__item__email {
+  margin-top: 0.5em; }
 
 .course__red-links {
   padding: 0 0 40px; }
@@ -9981,99 +10072,3 @@ a.course__red-links__link {
   a.course__red-links__link, a.course__red-links__link:link, a.course__red-links__link:visited, a.course__red-links__link:hover, a.course__red-links__link:focus, a.course__red-links__link:active {
     color: #FFFFFF;
     border: none; }
-  a.course__red-links__link:hover .course__red-links__link__title {
-    border-bottom: 1px solid #FFFFFF; }
-
-.course__red-links__link__icon {
-  font-size: 3em;
-  margin-bottom: 10px; }
-
-.course__red-links__link__title {
-  font-weight: 600;
-  font-size: 12px; }
-  @media only screen and (min-width: 480px) {
-    .course__red-links__link__title {
-      font-size: 14px; } }
-
-.course__red-links__link__description {
-  display: none; }
-  @media only screen and (min-width: 768px) {
-    .course__red-links__link__description {
-      display: block; } }
-
-.course__kis {
-  position: relative;
-  padding: 35px 0 20px;
-  overflow: hidden;
-  min-height: 230px; }
-
-.course__kis__image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%; }
-  .course__kis--vertical .course__kis__image {
-    max-width: none; }
-
-.course__kis__content {
-  position: relative; }
-  .course__kis__content iframe {
-    position: relative;
-    left: 50%;
-    margin-left: -307px;
-    display: block; }
-  .course__kis--vertical .course__kis__content iframe {
-    margin-left: -95px; }
-
-.course__news-item__cat {
-  color: #FFFFFF;
-  margin-top: -25px;
-  text-transform: uppercase;
-  padding: 0 5px;
-  font-size: 0.8em;
-  position: absolute; }
-
-.course__event {
-  clear: both;
-  margin-bottom: 20px; }
-
-.course__event__date {
-  padding: 5px 10px;
-  text-align: center;
-  color: #FFFFFF;
-  font-weight: 600;
-  float: left; }
-
-.course__event__text {
-  margin-left: 60px; }
-
-.course__event__text__ww {
-  color: #555555; }
-
-.course__section__separator {
-  padding-bottom: 20px;
-  border-bottom: 6px solid #eeeeee;
-  margin-bottom: 30px; }
-
-.course__related__course__title {
-  margin-bottom: 5px;
-  font-size: 1.1em; }
-
-.course__related__course__description {
-  color: #555555; }
-
-.course .fw-section-wrapper.course__testimonials__wrapper {
-  padding: 40px 0 0; }
-
-.course__profiles__item {
-  color: white;
-  padding: 0 10px 70px; }
-
-.course__profiles__item__image {
-  background: white;
-  text-align: center;
-  margin-bottom: 20px; }
-  .course__profiles__item__image img {
-    width: 100%;
-    margin: 0; }

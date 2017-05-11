@@ -5,7 +5,7 @@
 module.exports = function ($) {
     var jsPath = require('./js-path');
 
-    $.getMultiJsScripts = function (list, cb) {
+    $.getMultiJsScripts = function (list, cb, forceXdomain) {
         var path = jsPath(),
             i = 0,
             fetch = function() {
@@ -14,7 +14,8 @@ module.exports = function ($) {
                         url: path + list[i++],
                         dataType: "script",
                         success: fetch,
-                        cache: false
+                        cache: false,
+                        crossDomain: forceXdomain || false
                     });
                 } else {
                     cb();

@@ -6378,7 +6378,7 @@ img[align="right"] {
         display: block;
         float: left;
         font-weight: bold;
-        padding: 10px 0 10px 50px;
+        padding: 10px 30px 10px 50px;
         margin: 0;
         border-bottom: none;
         color: #333; }
@@ -6400,14 +6400,14 @@ img[align="right"] {
         display: block;
         width: 0;
         height: 0;
-        border-top: 50px solid transparent;
+        border-top: 21px solid transparent;
         /* Go big on the size, and let overflow hide */
-        border-bottom: 50px solid transparent;
-        border-left: 30px solid #eae9e7;
+        border-bottom: 21px solid transparent;
+        border-left: 12px solid #eae9e7;
         position: absolute;
         top: 50%;
-        margin-top: -50px;
-        margin-left: 0;
+        margin-top: -21px;
+        margin-left: -1px;
         left: 100%;
         z-index: 2; }
       #slice-navigation.superbreadcrumb a::before {
@@ -6415,13 +6415,13 @@ img[align="right"] {
         display: block;
         width: 0;
         height: 0;
-        border-top: 50px solid transparent;
-        border-bottom: 50px solid transparent;
-        border-left: 30px solid white;
+        border-top: 21px solid transparent;
+        border-bottom: 21px solid transparent;
+        border-left: 12px solid white;
         position: absolute;
         top: 50%;
-        margin-top: -50px;
-        margin-left: 1px;
+        margin-top: -21px;
+        margin-left: 0;
         left: 100%;
         z-index: 1; } }
 
@@ -8520,7 +8520,7 @@ input[type="checkbox"]:disabled {
       border-bottom: 1px solid #ccc; }
     .global-nav__drop a {
       color: #333;
-      font-size: 1.1em; }
+      font-size: 1.0em; }
       .global-nav__drop a:hover {
         color: #96190b; }
       .global-nav__drop a:focus, .global-nav__drop a:active {
@@ -8622,7 +8622,7 @@ input[type="checkbox"]:disabled {
   .js .scroll-down .header__search {
     margin-bottom: 0; }
   .js .scroll-down #container {
-    margin-top: 170px; } }
+    margin-top: 235px; } }
 
 .home #section-nav {
   display: none; }
@@ -9218,8 +9218,9 @@ body {
     padding: 12px 2em 12px 14px !important;
     border: 0 !important;
     background: none !important;
-    font-weight: 600;
-    color: #333; }
+    font-weight: 600; }
+    .ui-accordion .ui-accordion-header a, .ui-accordion .ui-accordion-header a:link {
+      color: #333333; }
     .ui-accordion .ui-accordion-header a:hover {
       text-decoration: underline; }
     .ui-accordion .ui-accordion-header a:focus {
@@ -10061,8 +10062,9 @@ body {
     padding: 12px 2em 12px 14px !important;
     border: 0 !important;
     background: none !important;
-    font-weight: 600;
-    color: #333; }
+    font-weight: 600; }
+    .ui-accordion .ui-accordion-header a, .ui-accordion .ui-accordion-header a:link {
+      color: #333333; }
     .ui-accordion .ui-accordion-header a:hover {
       text-decoration: underline; }
     .ui-accordion .ui-accordion-header a:focus {
@@ -10422,8 +10424,9 @@ body {
       padding: 12px 2em 12px 14px !important;
       border: 0 !important;
       background: none !important;
-      font-weight: 600;
-      color: #333; }
+      font-weight: 600; }
+      #courses-widget .widget-content .ui-accordion-header a, #courses-widget .widget-content .ui-accordion-header a:link {
+        color: #333333; }
       #courses-widget .widget-content .ui-accordion-header a:hover {
         text-decoration: underline; }
       #courses-widget .widget-content .ui-accordion-header a:focus {
@@ -10536,7 +10539,7 @@ li.with-pic {
     width: 20px;
     height: 20px;
     right: 0;
-    background: transparent url("//s1.dev.city.ac.uk/cityr/i/icon-magnifier.png") no-repeat right bottom; }
+    background: transparent url("../i/icon-magnifier.png") no-repeat right bottom; }
   #map-widget .map:hover .magnifier {
     background-position: 0 bottom; }
   #map-widget .map img {
@@ -10765,17 +10768,3 @@ a.city-vision-widget:hover hr {
 
 #spotlight-research-widget .widget-content {
   padding-left: 5px; }
-
-#spotlight-research-widget li {
-  background: #fff; }
-  #spotlight-research-widget li:before, #spotlight-research-widget li:after {
-    content: " ";
-    display: table; }
-  #spotlight-research-widget li:after {
-    clear: both; }
-
-#spotlight-research-widget .bx-wrapper {
-  margin: 0 5px 0 0; }
-
-#spotlight-research-widget h3 {
-  margin: 0 5px 0 5px; }
