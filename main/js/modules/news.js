@@ -129,10 +129,7 @@ $(function () {
             seriesName,
             tagsPrefix = '//city.ac.uk/news/search?meta_l_orsand="',
             tagsSuffix = '"',
-            tagsName,
-            hashtagsPrefix = '//city.ac.uk/news/search?meta_L_orsand=',
-            hashtagsName,
-            hashtagsHref;
+            tagsName;
         $('.news-article-series-family').each(function () {
             seriesName = $(this).text().toLowerCase().replace(' ', '-').replace('&', 'and');
             $(this).attr('href', seriesPrefix + seriesName)
@@ -140,12 +137,6 @@ $(function () {
         $('.news-article-tag').each(function () {
             tagsName = $(this).text().replace(' ', '%20');
             $(this).attr('href', tagsPrefix + tagsName + tagsSuffix)
-        });
-        $('.news-article-hashtag').each(function () {
-            hashtagsName = $(this).text().trim().replace('#', '').replace(/ /g, '');
-            hashtagsHref = $(this).text().trim().replace('#', '').replace(/ /g, '%20');
-            $(this).text('#' + hashtagsName);
-            $(this).attr('href', hashtagsPrefix + hashtagsHref);
         });
     };
 
