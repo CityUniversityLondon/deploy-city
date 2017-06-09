@@ -206,7 +206,7 @@
       "</div>",
       "<div class=\"meta\">",
       "<% if (attrs.E || attrs.F) { %>",
-      "<p class=\"business-unit\"><span class=\"fa fa-building-o\"></i>",
+      "<p class=\"business-unit\"><span class=\"fa fa-building-o\"></span>",
       "<% if (attrs.E) { %>",
       "<a class=\"filter school\" href=\"#\" data-filter-param=\"E\" data-filter-value=\"<%= $.trim(attrs.E) %>\" ",
       "title=\"Find other staff in <%= $.trim(attrs.E) %>\"><%= $.trim(attrs.E) %></a>",
@@ -522,7 +522,7 @@
         return $("<span />", {
           "class": "tag-filter",
           title: "click to remove this filter",
-          html: "<span class=\"fa fa-tag\"></i> " + data.value.replace("\\(", "(").replace("\\)", ")") + "<span class=\"fa fa-times\"></i>"
+          html: "<span class=\"fa fa-tag\"></span> " + data.value.replace("\\(", "(").replace("\\)", ")") + "<span class=\"fa fa-times\"></span>"
         });
 
       },
