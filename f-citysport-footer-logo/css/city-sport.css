@@ -5327,7 +5327,7 @@ header {
 
 footer {
   font-family: Arial, sans-serif;
-  background-color: LightCyan;
+  background-color: Lavendar;
   margin-top: 20px;
   margin-bottom: 20px; }
   footer .footer-info {
@@ -5499,12 +5499,13 @@ footer {
         footer .footer-terms .footer-logo {
           float: right; } }
       footer .footer-terms .footer-logo a {
-        max-width: 80px;
+        width: 80px;
         display: inline-block; }
       footer .footer-terms .footer-logo a:hover {
         border: none; }
       footer .footer-terms .footer-logo img {
-        border: none; }
+        border: none;
+        width: 100%; }
     footer .footer-terms .footer-cr-cul {
       margin-right: 30px; }
       @media only screen and (min-width: 980px) {
