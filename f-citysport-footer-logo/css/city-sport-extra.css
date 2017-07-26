@@ -5504,8 +5504,7 @@ footer {
       footer .footer-terms .footer-logo a:hover {
         border: none; }
       footer .footer-terms .footer-logo img {
-        border: none;
-        width: 100%; }
+        border: none; }
     footer .footer-terms .footer-cr-cul {
       margin-right: 30px; }
       @media only screen and (min-width: 980px) {
