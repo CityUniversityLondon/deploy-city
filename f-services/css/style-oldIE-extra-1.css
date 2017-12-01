@@ -9332,6 +9332,21 @@ p.left-float-image {
   .project .project__key-information h3 a {
     float: right; }
 
+.project_status .project-status__green {
+  background-color: #6c953c;
+  color: white;
+  font-weight: 600; }
+
+.project_status .project-status__amber {
+  background-color: #e55302;
+  color: white;
+  font-weight: 600; }
+
+.project_status .project-status__red {
+  background-color: #b02a1a;
+  color: white;
+  font-weight: 600; }
+
 .service-finder input, .service-finder select,
 .project-finder input,
 .project-finder select {
@@ -10015,8 +10030,3 @@ p.left-float-image {
       text-decoration: none; }
     .course h3 a:link {
       border-bottom-width: 2px; }
-  .course .hard-cta a:link, .course .hard-cta a:visited {
-    color: #fff;
-    border: 1px solid #a0271f; }
-  .course .hard-cta a:hover {
-    border: 1px solid #670003; }

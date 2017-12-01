@@ -1,4 +1,9 @@
 
+  .course .hard-cta a:link, .course .hard-cta a:visited {
+    color: #fff;
+    border: 1px solid #a0271f; }
+  .course .hard-cta a:hover {
+    border: 1px solid #670003; }
   
   .course .dark-background a:link,
   .course .widget a:link,

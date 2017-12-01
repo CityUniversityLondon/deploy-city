@@ -20914,6 +20914,21 @@ table.visa-event-table {
   .project .project__key-information h3 a {
     float: right; }
 
+.project_status .project-status__green {
+  background-color: #6c953c;
+  color: white;
+  font-weight: 600; }
+
+.project_status .project-status__amber {
+  background-color: #e55302;
+  color: white;
+  font-weight: 600; }
+
+.project_status .project-status__red {
+  background-color: #b02a1a;
+  color: white;
+  font-weight: 600; }
+
 .service-finder input, .service-finder select,
 .project-finder input,
 .project-finder select {
