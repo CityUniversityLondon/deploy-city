@@ -399,11 +399,6 @@
   font-weight: 600;
   color: #666; }
 
-.service-finder__results__item__award,
-.project-finder__results__item__award {
-  font-weight: 600;
-  color: #666; }
-
 .service-finder__results__item__md,
 .project-finder__results__item__md {
   margin-bottom: 5px; }
@@ -415,6 +410,15 @@
   .project-finder__results__item__md > .ui-icon {
     float: left;
     line-height: 21px; }
+  .service-finder__results__item__md > .fa-check-circle,
+  .project-finder__results__item__md > .fa-check-circle {
+    color: #6c953c; }
+  .service-finder__results__item__md > .fa-minus-circle,
+  .project-finder__results__item__md > .fa-minus-circle {
+    color: #e55302; }
+  .service-finder__results__item__md > .fa-exclamation-circle,
+  .project-finder__results__item__md > .fa-exclamation-circle {
+    color: #b02a1a; }
   .service-finder__results__item__md > div,
   .project-finder__results__item__md > div {
     margin-left: 22px; }

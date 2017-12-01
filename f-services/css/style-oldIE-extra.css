@@ -1,4 +1,14 @@
 
+  
+  .course .dark-background a:link,
+  .course .widget a:link,
+  .course [class*="widget-"] a:link {
+    border-bottom-width: 2px; }
+  .course .dark-background a:link {
+    color: #eeeeee;
+    border-bottom-color: #cccccc; }
+  .course .dark-background a:visited {
+    color: #eeeeee; }
   .course .dark-background a:hover {
     color: #FFFFFF;
     border-bottom-color: #FFFFFF; }
