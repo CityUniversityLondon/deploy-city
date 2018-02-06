@@ -28251,7 +28251,9 @@ body#library {
   .ui-accordion-content {
     display: block !important; }
   #intranet h1 {
-    font-size: 2.1em;
-    margin-top: -20px; }
-  #intranet .responsive-wrapper {
-    padding-top: 0; } }
+    font-size: 2.1em; }
+  #intranet .footer2016,
+  #intranet .primary-menu-wrapper,
+  #intranet .header__search__toggle,
+  #intranet .global-nav__wrapper {
+    display: none !important; } }
