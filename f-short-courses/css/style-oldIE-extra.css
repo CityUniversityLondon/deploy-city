@@ -4466,6 +4466,25 @@ body#library {
   .smh-accounts .smh-account__type--instagram:hover, .smh-accounts .smh-account__type--instagram:focus {
     background-position: -312px 0; }
 
+.shortcourse-header {
+  background: #3e1031;
+  margin: 0 -10px;
+  padding: 10px;
+  color: #fff;
+  font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif; }
+  .shortcourse-header h1 {
+    display: inline-block;
+    margin-right: 20px; }
+
+.shortcourse-header__award {
+  font-size: 1.3em;
+  display: inline-block; }
+
+.shortcourse-banner {
+  margin: 0 -10px; }
+  .shortcourse-banner img {
+    width: 100%; }
+
 .survey-message {
   -webkit-transition-duration: 600ms;
   transition-duration: 600ms;
