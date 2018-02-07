@@ -26258,12 +26258,16 @@ body#library {
 .shortcourse-header {
   background: #3e1031;
   margin: 0 -10px;
-  padding: 10px;
+  padding: 0px 10px;
   color: #fff;
   font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif; }
   .shortcourse-header h1 {
     display: inline-block;
     margin-right: 20px; }
+
+.shortcourse-header-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 .shortcourse-header__award {
   font-size: 1.3em;
@@ -26274,6 +26278,40 @@ body#library {
   .shortcourse-banner img {
     width: 100%; }
 
+.shortcourse-selection {
+  background: #eae9e7;
+  color: #333;
+  padding: 20px;
+  margin: 20px -10px 0 -10px; }
+  @media only screen and (min-width: 768px) {
+    .shortcourse-selection {
+      position: absolute;
+      margin: 0;
+      right: 10px;
+      left: 10px;
+      width: auto; } }
+  .shortcourse-selection select {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px; }
+  .shortcourse-selection .cta, .shortcourse-selection .cta a {
+    display: block;
+    max-width: 300px; }
+
+/*
+.shortcourse-selection::after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50%;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: solid 100px red;
+    border-left: solid 100px transparent;
+}
+*/
 .survey-message {
   -webkit-transition-duration: 600ms;
   transition-duration: 600ms;
