@@ -25651,11 +25651,13 @@ body#library {
   .smh-accounts .smh-account__type--instagram:hover, .smh-accounts .smh-account__type--instagram:focus {
     background-position: -312px 0; }
 
+.shortcourse-solid {
+  background-color: #3e1031;
+  color: #FFFFFF; }
+
 .shortcourse-header {
-  background: #3e1031;
   margin: 0 -10px;
   padding: 0px 10px;
-  color: #fff;
   font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif; }
   .shortcourse-header h1 {
     display: inline-block;
@@ -25670,42 +25672,145 @@ body#library {
   display: inline-block; }
 
 .shortcourse-banner {
-  margin: 0 -10px; }
+  margin: 0 -10px 0 -10px;
+  margin-bottom: 30px; }
   .shortcourse-banner img {
-    width: 100%; }
+    width: 100%;
+    margin: 0; }
 
 .shortcourse-selection {
   background: #eae9e7;
   color: #333;
-  padding: 20px;
+  padding: 20px 10px;
   margin: 20px -10px 0 -10px;
   position: absolute;
   margin: 0;
   right: 10px;
   left: 10px;
-  width: auto; }
+  width: auto;
+  padding: 20px; }
   .shortcourse-selection select {
     display: block;
     width: 100%;
     max-width: 300px;
-    margin-bottom: 20px; }
-  .shortcourse-selection .cta, .shortcourse-selection .cta a {
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px; }
+  .shortcourse-selection .cta {
     display: block;
-    max-width: 300px; }
-
-/*
-.shortcourse-selection::after {
+    max-width: 300px;
+    font-size: 1.3em; }
+    .shortcourse-selection .cta a {
+      display: block; }
+  .shortcourse-selection:after {
     position: absolute;
     top: 100%;
-    left: 50%;
-    margin-left: -50%;
+    right: 50%;
+    margin-right: -50%;
     content: '';
-    width: 0;
-    height: 0;
-    border-top: solid 100px red;
-    border-left: solid 100px transparent;
-}
-*/
+    width: 100%;
+    height: 120px;
+    background: -webkit-gradient(linear, right top, left bottom, color-stop(49.5%, #eae9e7), color-stop(50%, transparent));
+    background: -webkit-linear-gradient(right top, #eae9e7 49.5%, transparent 50%);
+    background: linear-gradient(to left bottom, #eae9e7 49.5%, transparent 50%); }
+  .shortcourse-selection select {
+    font-size: 1em; }
+  .shortcourse-selection:after {
+    height: 140px; }
+  .shortcourse-selection select {
+    font-size: 1.4em;
+    max-width: 100%; }
+  .shortcourse-selection .cta {
+    font-size: 1.4em;
+    max-width: 100%; }
+    .shortcourse-selection .cta a {
+      padding: 10px; }
+
+.shortcourse-selection__title {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-bottom: 10px; }
+
+.shortcourse-intro {
+  margin-bottom: 20px; }
+
+.shortcourse-keyinfo {
+  margin: 0 -10px 20px -10px;
+  padding: 20px;
+  margin: 0;
+  padding: 20px 20px;
+  padding: 20px; }
+  .shortcourse-keyinfo .row {
+    margin-bottom: 10px; }
+  .shortcourse-keyinfo .cta {
+    display: block;
+    max-width: 300px;
+    font-size: 1.3em; }
+    .shortcourse-keyinfo .cta a {
+      display: block;
+      color: #333; }
+  .shortcourse-keyinfo .cta {
+    max-width: 100%; }
+
+.shortcourse-keyinfo__details {
+  margin-bottom: 30px; }
+
+.shortcourse-cta a {
+  background-color: #FFFFFF;
+  color: #333;
+  border: 1px solid #dcdcdc; }
+  .shortcourse-cta a:hover {
+    background-color: #eae9e7; }
+  .shortcourse-cta a:focus {
+    background-color: #eae9e7; }
+
+.shortcourse-testimonials {
+  background: -webkit-gradient(linear, right top, left bottom, from(#3e1031), to(#774266));
+  background: -webkit-linear-gradient(right top, #3e1031, #774266);
+  background: linear-gradient(to left bottom, #3e1031, #774266);
+  padding: 30px 50px 0 0; }
+
+.shortcourse-testimonials__text {
+  text-align: right; }
+  .shortcourse-testimonials__text p:not([class]) {
+    font-size: 1.3em;
+    margin-bottom: 5px; }
+
+.shortcourse-testimonials__quote {
+  font-style: italic;
+  font-size: 1.8em;
+  line-height: 1.5em;
+  margin-bottom: 20px; }
+  .shortcourse-testimonials__quote span {
+    font-style: normal; }
+
+.shortcourse-testimonials__name {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  margin-bottom: 5px; }
+
+.shortcourse-tutor-block {
+  background: -webkit-gradient(linear, left top, left bottom, from(#d82231), to(#4d0432));
+  background: -webkit-linear-gradient(top, #d82231, #4d0432);
+  background: linear-gradient(to bottom, #d82231, #4d0432);
+  padding: 30px 20px 10px 20px;
+  margin-bottom: 20px;
+  color: #FFFFFF; }
+  .shortcourse-tutor-block h2 {
+    border-bottom: 1px solid #FFFFFF;
+    display: inline-block; }
+
+.shortcourse-tutor {
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.shortcourse-tutor__name {
+  font-size: 1.4em;
+  font-weight: 500;
+  text-transform: uppercase; }
+
 .survey-message {
   -webkit-transition-duration: 600ms;
   transition-duration: 600ms;
