@@ -5585,6 +5585,22 @@ body#library {
   .smh-accounts .smh-account__type--instagram:hover, .smh-accounts .smh-account__type--instagram:focus {
     background-position: -312px 0; }
 
+.smh-accounts .smh-account__type--tumblr {
+  border: none;
+  font-size: 2.2em;
+  line-height: 1.3;
+  background-color: #f2f2f2; }
+  .smh-accounts .smh-account__type--tumblr:before {
+    content: "\f174";
+    font-family: FontAwesome;
+    color: #444; }
+  .smh-accounts .smh-account__type--tumblr:hover:before {
+    color: #e2992e; }
+  .smh-accounts .smh-account__type--tumblr:focus {
+    border: none; }
+  .smh-accounts .smh-account__type--tumblr:focus:before {
+    color: #e2992e; }
+
 .shortcourse-solid {
   background-color: #3e1031;
   color: #FFFFFF; }
