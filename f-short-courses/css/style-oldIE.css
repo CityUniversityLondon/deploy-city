@@ -25667,6 +25667,9 @@ body#library {
   .smh-accounts .smh-account__type--tumblr:focus:before {
     color: #e2992e; }
 
+.shortcourse {
+  margin-top: -50px; }
+
 .shortcourse-solid {
   background-color: #3e1031;
   color: #FFFFFF; }
@@ -25826,6 +25829,27 @@ body#library {
   font-size: 1.4em;
   font-weight: 500;
   text-transform: uppercase; }
+
+.shortcourse-next-course-block {
+  padding: 20px 10px 0 10px;
+  margin-left: -10px;
+  margin-right: -10px; }
+  .shortcourse-next-course-block h2 {
+    margin-bottom: 20px; }
+
+.shortcourse-next-course {
+  padding-bottom: 20px;
+  padding-right: 20px; }
+
+.shortcourse-next-course__title {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 10px; }
+  .shortcourse-next-course__title a {
+    color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF; }
+  .shortcourse-next-course__title a:hover {
+    border-bottom: none; }
 
 .survey-message {
   -webkit-transition-duration: 600ms;
