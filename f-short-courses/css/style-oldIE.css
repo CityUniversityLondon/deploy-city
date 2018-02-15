@@ -25761,6 +25761,15 @@ body#library {
   margin: 0;
   padding: 20px 20px;
   padding: 20px; }
+  .shortcourse-keyinfo h2 {
+    margin-bottom: 20px; }
+  .shortcourse-keyinfo h2:after {
+    content: "";
+    display: block;
+    max-width: 300px;
+    padding-top: 0;
+    border-bottom: 1px solid #FFFFFF;
+    max-width: 100%; }
   .shortcourse-keyinfo .row {
     margin-bottom: 10px; }
   .shortcourse-keyinfo .cta {
@@ -25789,25 +25798,31 @@ body#library {
   background: -webkit-gradient(linear, right top, left bottom, from(#3e1031), to(#774266));
   background: -webkit-linear-gradient(right top, #3e1031, #774266);
   background: linear-gradient(to left bottom, #3e1031, #774266);
+  padding: 20px 10px 0 0;
   padding: 30px 50px 0 0; }
 
 .shortcourse-testimonials__text {
   text-align: right; }
   .shortcourse-testimonials__text p:not([class]) {
-    font-size: 1.3em;
+    margin-bottom: 0;
+    font-size: 1.2em;
     margin-bottom: 5px; }
 
 .shortcourse-testimonials__quote {
   font-style: italic;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin-bottom: 15px;
   font-size: 1.8em;
-  line-height: 1.5em;
   margin-bottom: 20px; }
   .shortcourse-testimonials__quote span {
-    font-style: normal; }
+    font-style: normal;
+    margin-bottom: 5px; }
 
 .shortcourse-testimonials__name {
   text-transform: uppercase;
-  font-size: 1.3em;
+  margin-bottom: 0;
+  font-size: 1.2em;
   margin-bottom: 5px; }
 
 .shortcourse-tutor-block {
@@ -25817,9 +25832,12 @@ body#library {
   padding: 30px 20px 10px 20px;
   margin-bottom: 20px;
   color: #FFFFFF; }
-  .shortcourse-tutor-block h2 {
-    border-bottom: 1px solid #FFFFFF;
-    display: inline-block; }
+  .shortcourse-tutor-block h2:after {
+    content: "";
+    display: block;
+    max-width: 190px;
+    padding-top: 0;
+    border-bottom: 1px solid #FFFFFF; }
 
 .shortcourse-tutor {
   margin-top: 20px;
@@ -25831,18 +25849,26 @@ body#library {
   text-transform: uppercase; }
 
 .shortcourse-next-course-block {
-  padding: 20px 10px 0 10px;
+  padding: 20px 10px;
   margin-left: -10px;
   margin-right: -10px; }
   .shortcourse-next-course-block h2 {
-    margin-bottom: 20px; }
+    margin-bottom: 30px; }
+  .shortcourse-next-course-block h2:after {
+    content: "";
+    display: block;
+    width: 100%;
+    padding-top: 0;
+    border-bottom: 1px solid #FFFFFF;
+    width: 200px;
+    width: 250px;
+    width: 300px; }
 
 .shortcourse-next-course {
   padding-bottom: 20px;
   padding-right: 20px; }
 
 .shortcourse-next-course__title {
-  font-size: 1.1em;
   font-weight: 600;
   margin-bottom: 10px; }
   .shortcourse-next-course__title a {
