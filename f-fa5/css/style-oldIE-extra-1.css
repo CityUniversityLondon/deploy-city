@@ -1,4 +1,8 @@
-.widget .widget-content ol li {
+.widget .widget-content a:hover {
+      border-color: #eae9e7; }
+    .widget .widget-content ul {
+      margin-right: 5px; }
+    .widget .widget-content ol li {
       list-style-type: none;
       margin: 0; }
     .widget .widget-content h2 {

@@ -1,4 +1,9 @@
 
+      .tile-wrapper .tile-listing .tile a.tile-img-heading span {
+        border-bottom: dotted 1px #666; }
+      .tile-wrapper .tile-listing .tile a.tile-img-heading:visited .tile-heading span {
+        color: #000;
+        border-bottom: dotted 1px #000; }
       .tile-wrapper .tile-listing .tile a.tile-img-heading:hover .tile-heading span {
         color: #000;
         border-bottom: solid 1px #000; }

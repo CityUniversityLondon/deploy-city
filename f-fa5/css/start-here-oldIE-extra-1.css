@@ -4617,6 +4617,21 @@ readers do not read off random characters that represent icons */
   position: static;
   width: auto; }
 
+/*!
+ * Font Awesome Pro 5.0.6 by @fontawesome - http://fontawesome.com
+ * License - http://fontawesome.com/license (Commercial License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/fontawesome/font-5.0.6/fa-light-300.eot");
+  src: url("../fonts/fontawesome/font-5.0.6/fa-light-300.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome/font-5.0.6/fa-light-300.woff2") format("woff2"), url("../fonts/fontawesome/font-5.0.6/fa-light-300.woff") format("woff"), url("../fonts/fontawesome/font-5.0.6/fa-light-300.ttf") format("truetype"), url("../fonts/fontawesome/font-5.0.6/fa-light-300.svg#fontawesome") format("svg"); }
+
+.fal {
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 300; }
+
 @font-face {
   font-family: "ff-meta-web";
   font-style: normal;
@@ -10567,8 +10582,3 @@ a {
       font-size: 16px; }
     .tile-wrapper .tile-listing .tile a.tile-img-heading {
       text-decoration: none; }
-      .tile-wrapper .tile-listing .tile a.tile-img-heading span {
-        border-bottom: dotted 1px #666; }
-      .tile-wrapper .tile-listing .tile a.tile-img-heading:visited .tile-heading span {
-        color: #000;
-        border-bottom: dotted 1px #000; }
