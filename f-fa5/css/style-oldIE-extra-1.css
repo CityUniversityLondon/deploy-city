@@ -1,4 +1,132 @@
-#courses-widget .widget-content .ui-accordion-header a, #courses-widget .widget-content .ui-accordion-header a:link {
+.widget .bx-controls-direction a:first-child {
+        margin-left: 0; }
+    .widget .bx-controls-direction a.disabled {
+      background-color: #CC887E;
+      cursor: default; }
+    .widget .bx-controls-direction a.prev,
+    .widget .bx-controls-direction a.bx-prev {
+      display: block;
+      border-radius: 3px 0 0 3px; }
+    .widget .bx-controls-direction a.all,
+    .widget .bx-controls-direction a.bx-all,
+    .widget .bx-controls-direction a.refresh {
+      font-size: 1em;
+      text-align: center;
+      background-image: none; }
+    .widget .bx-controls-direction a.next,
+    .widget .bx-controls-direction a.bx-next {
+      display: block;
+      border-radius: 0 3px 3px 0; }
+  .widget .bxslider {
+    display: block; }
+  .widget .widget-content {
+    margin: 0;
+    padding: 0;
+    background: #eae9e7; }
+    .widget .widget-content:before, .widget .widget-content:after {
+      content: " ";
+      display: table; }
+    .widget .widget-content:after {
+      clear: both; }
+    .widget .widget-content a:hover {
+      border-color: #eae9e7; }
+    .widget .widget-content ul {
+      margin-right: 5px; }
+    .widget .widget-content ol li {
+      list-style-type: none;
+      margin: 0; }
+    .widget .widget-content h2 {
+      font-size: 0.9em; }
+    .widget .widget-content h3,
+    .widget .widget-content h4 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.1em;
+      font-weight: bold;
+      line-height: inherit; }
+    .widget .widget-content h2,
+    .widget .widget-content h3 {
+      margin: 0 0 5px 0;
+      padding: 0;
+      border: none;
+      color: #333333;
+      text-transform: none; }
+    .widget .widget-content blockquote {
+      clear: both;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-style: italic;
+      background: transparent;
+      padding: 0;
+      margin: -19px 0 10px 0;
+      text-indent: 35px; }
+    .widget .widget-content img.right {
+      margin: 0 0 5px 5px; }
+    .widget .widget-content img.left {
+      margin: 0 5px 5px 0; }
+    .widget .widget-content .vcard {
+      border-bottom: 1px solid #cccccc;
+      padding: 10px 5px; }
+      .widget .widget-content .vcard .fn {
+        font-weight: bold; }
+      .widget .widget-content .vcard .tel span, .widget .widget-content .vcard .fax span {
+        font-weight: bold; }
+      .widget .widget-content .vcard:last-child {
+        border-bottom: none; }
+
+.widget.widget-invisible {
+  display: block; }
+
+.widget h2 {
+  padding: 9px 10px; }
+  .widget h2.controls-direction {
+    padding-right: 60px; }
+
+.widget .widget-controls a,
+.widget .bx-controls-direction a {
+  padding: 5px 10px; }
+
+.widget-invisible {
+  display: none; }
+
+.free-text p {
+  margin: 0 0 10px 0; }
+
+.free-text .widget-content {
+  padding: .5em 1em; }
+  .free-text .widget-content blockquote {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    padding: 0 0 0 40px;
+    margin: 10px 0 20px 0;
+    background: transparent url("//s1.dev.city.ac.uk/cityr/i/quote.png") no-repeat left top;
+    clear: both;
+    border: none;
+    text-indent: 0; }
+
+#courses-widget .widget-content {
+  margin: 0;
+  padding: 5px;
+  border-bottom: none;
+  background: #f8f8f8; }
+  #courses-widget .widget-content h3 a {
+    font-size: 1.2em;
+    background-color: #e7e7e7; }
+  #courses-widget .widget-content h4 a {
+    font-weight: bold;
+    border-bottom: none; }
+  #courses-widget .widget-content .ui-accordion-header {
+    color: #000000;
+    font-size: 12px;
+    background-color: #eeeeee !important;
+    border-bottom: 2px solid #cccccc !important;
+    margin-bottom: 5px;
+    border-top: 0;
+    padding: 0; }
+    #courses-widget .widget-content .ui-accordion-header a {
+      padding: 12px 2em 12px 14px !important;
+      border: 0 !important;
+      background: none !important;
+      font-weight: 600; }
+      #courses-widget .widget-content .ui-accordion-header a, #courses-widget .widget-content .ui-accordion-header a:link {
         color: #333333; }
       #courses-widget .widget-content .ui-accordion-header a:hover {
         text-decoration: underline; }
@@ -10132,95 +10260,3 @@ p.left-float-image {
     .project .service__key-information a:visited,
     .project .project__key-information a:visited {
       color: #eeeeee; }
-    .service .service__key-information a:hover,
-    .service .project__key-information a:hover,
-    .project .service__key-information a:hover,
-    .project .project__key-information a:hover {
-      color: #FFFFFF;
-      border-bottom-color: #FFFFFF; }
-    .service .service__key-information a:focus,
-    .service .project__key-information a:focus,
-    .project .service__key-information a:focus,
-    .project .project__key-information a:focus {
-      background-color: #FFFFFF;
-      color: #555555;
-      border-bottom-color: transparent; }
-    .service .service__key-information a:active,
-    .service .project__key-information a:active,
-    .project .service__key-information a:active,
-    .project .project__key-information a:active {
-      background-color: #FFFFFF;
-      color: #555555;
-      border-bottom-color: transparent; }
-    .service .service__key-information a:link, .service .service__key-information a:visited,
-    .service .project__key-information a:link,
-    .service .project__key-information a:visited,
-    .project .service__key-information a:link,
-    .project .service__key-information a:visited,
-    .project .project__key-information a:link,
-    .project .project__key-information a:visited {
-      border-bottom-style: dotted; }
-    .service .service__key-information a:hover,
-    .service .project__key-information a:hover,
-    .project .service__key-information a:hover,
-    .project .project__key-information a:hover {
-      border-bottom-style: solid; }
-  .service .service__key-information h3 a,
-  .service .project__key-information h3 a,
-  .project .service__key-information h3 a,
-  .project .project__key-information h3 a {
-    float: right; }
-
-.service_section h3,
-.technology_section h5 {
-  background-color: #333333;
-  color: #ffffff;
-  margin-top: 0;
-  padding: 4px 8px; }
-
-.project_status .project-status__green {
-  background-color: #6c953c;
-  color: white;
-  font-weight: 600; }
-
-.project_status .project-status__amber {
-  background-color: #e55302;
-  color: white;
-  font-weight: 600; }
-
-.project_status .project-status__red {
-  background-color: #b02a1a;
-  color: white;
-  font-weight: 600; }
-
-.project_section h3 {
-  background-color: #333333;
-  color: #ffffff;
-  margin-top: 0;
-  padding: 4px 8px; }
-
-.service-finder input, .service-finder select,
-.project-finder input,
-.project-finder select {
-  font-size: 16px; }
-
-.service-finder__query-wrapper,
-.project-finder__query-wrapper {
-  margin-top: -40px;
-  background: #cccccc; }
-
-.service-finder__form-wrapper,
-.project-finder__form-wrapper {
-  background: #eeeeee; }
-
-.service-finder__query .query-box,
-.project-finder__query .query-box {
-  padding-right: 44px;
-  position: relative; }
-
-.service-finder__query input,
-.project-finder__query input {
-  padding: 10px 10px 9px 10px;
-  width: 100%;
-  border: 1px solid #a9a9a9;
-  font-size: 16px; }

@@ -1,4 +1,108 @@
 
+  .tile-wrapper .tile-listing a {
+    border: none; }
+  .tile-wrapper .tile-listing img {
+    margin: 0; }
+  .tile-wrapper .tile-listing .tile {
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative; }
+    .tile-wrapper .tile-listing .tile .tile-content {
+      position: relative; }
+    .tile-wrapper .tile-listing .tile .tile-subject {
+      background-color: #b81b1a;
+      padding: .4em .9em;
+      position: relative;
+      color: #FFFFFF;
+      display: inline;
+      float: left;
+      margin-top: -2.2em; }
+    .tile-wrapper .tile-listing .tile .tile-subject-icon {
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      color: #666;
+      background: white;
+      font-weight: bold;
+      z-index: 1;
+      font-size: 1em;
+      padding: 4px 8px;
+      pointer-events: none;
+      font-size: 1.3em;
+      padding: 6px 10px;
+      font-size: 1em;
+      padding: 4px 8px;
+      font-size: 1.3em;
+      padding: 6px 10px; }
+    .tile-wrapper .tile-listing .tile .tile-text {
+      background: white;
+      padding: 0 10px 10px;
+      font-size: 15px;
+      color: #444; }
+    .tile-wrapper .tile-listing .tile .tile-time {
+      background: white;
+      padding: 0 10px 10px;
+      font-size: 14px;
+      color: #444;
+      display: block; }
+    .tile-wrapper .tile-listing .tile .tile-media {
+      position: relative; }
+    .tile-wrapper .tile-listing .tile .tile-heading {
+      background: white;
+      padding: 10px 10px 5px; }
+    .tile-wrapper .tile-listing .tile .tile-heading span {
+      color: #555;
+      font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      font-size: 16px; }
+    .tile-wrapper .tile-listing .tile a.tile-img-heading {
+      text-decoration: none; }
+      .tile-wrapper .tile-listing .tile a.tile-img-heading span {
+        border-bottom: dotted 1px #666; }
+      .tile-wrapper .tile-listing .tile a.tile-img-heading:visited .tile-heading span {
+        color: #000;
+        border-bottom: dotted 1px #000; }
+      .tile-wrapper .tile-listing .tile a.tile-img-heading:hover .tile-heading span {
+        color: #000;
+        border-bottom: solid 1px #000; }
+      .tile-wrapper .tile-listing .tile a.tile-img-heading:hover .tile-heading img {
+        opacity: 0.75; }
+      .tile-wrapper .tile-listing .tile a.tile-img-heading:focus .tile-heading span {
+        color: #FFF;
+        background: #888; }
+      .tile-wrapper .tile-listing .tile a.tile-img-heading .tile-image {
+        position: relative; }
+    .tile-wrapper .tile-listing .tile.tile-preview .tile-heading:after, .tile-wrapper .tile-listing .tile.tile-preview .tile-heading:before {
+      content: '*'; }
+    .tile-wrapper .tile-listing .tile .tile-centered-container {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: table;
+      height: 100%;
+      width: 100%; }
+      .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center; }
+        .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block > div {
+          padding: 0 6%;
+          padding: 0 12%; }
+        .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block .tile-title {
+          font-size: 1.5em;
+          margin-bottom: 10px; }
+        .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block .tile-text, .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block .tile-link {
+          line-height: 1.4em; }
+        .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block .tile-title {
+          font-size: 2em; }
+        .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block .tile-text, .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block .tile-link {
+          font-size: 1.2em; }
+        .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block .tile-title {
+          font-size: 1.5em; }
+        .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block .tile-text, .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block .tile-link {
+          font-size: 1em; }
+        .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block .tile-title {
+          font-size: 2em; }
         .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block .tile-text, .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block .tile-link {
           font-size: 1.2em; }
         .tile-wrapper .tile-listing .tile .tile-centered-container .title-text-block .tile-link {
