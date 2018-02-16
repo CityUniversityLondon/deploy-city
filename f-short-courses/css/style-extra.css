@@ -5772,7 +5772,6 @@ body#library {
       margin-bottom: 20px; } }
 
 .shortcourse-testimonials__name {
-  text-transform: uppercase;
   margin-bottom: 0; }
   @media only screen and (min-width: 768px) {
     .shortcourse-testimonials__name {
@@ -5799,8 +5798,7 @@ body#library {
 
 .shortcourse-tutor__name {
   font-size: 1.4em;
-  font-weight: 500;
-  text-transform: uppercase; }
+  font-weight: 500; }
 
 .shortcourse-next-course-block {
   padding: 20px 10px;
