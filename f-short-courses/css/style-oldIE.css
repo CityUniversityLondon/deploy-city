@@ -25735,14 +25735,16 @@ body#library {
     background: -webkit-linear-gradient(right top, #eae9e7 49.5%, transparent 50%);
     background: linear-gradient(to left bottom, #eae9e7 49.5%, transparent 50%); }
   .shortcourse-selection select {
-    font-size: 1em; }
+    font-size: 1em;
+    padding: 8px 5px; }
   .shortcourse-selection:after {
     height: 140px; }
   .shortcourse-selection select {
-    font-size: 1.4em;
-    max-width: 100%; }
+    font-size: 1.2em;
+    max-width: 100%;
+    padding: 12px 5px; }
   .shortcourse-selection .cta {
-    font-size: 1.4em;
+    font-size: 1.3em;
     max-width: 100%; }
     .shortcourse-selection .cta a {
       padding: 10px; }
@@ -25868,12 +25870,24 @@ body#library {
 
 .shortcourse-next-course__title {
   font-weight: 600;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-size: 1.1em; }
   .shortcourse-next-course__title a {
     color: #FFFFFF;
     border-bottom: 2px solid #FFFFFF; }
   .shortcourse-next-course__title a:hover {
     border-bottom: none; }
+
+.shortcourse-related-course-block {
+  padding-top: 10px;
+  padding-bottom: 20px; }
+  .shortcourse-related-course-block h2 {
+    margin-bottom: 30px;
+    display: inline-block;
+    border-bottom: 1px solid #ccc; }
+
+.shortcourse-related-course {
+  margin-bottom: 10px; }
 
 .survey-message {
   -webkit-transition-duration: 600ms;
