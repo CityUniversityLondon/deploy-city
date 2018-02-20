@@ -26416,39 +26416,63 @@ body#library {
   background: -webkit-gradient(linear, right top, left bottom, from(#3e1031), to(#774266));
   background: -webkit-linear-gradient(right top, #3e1031, #774266);
   background: linear-gradient(to left bottom, #3e1031, #774266);
-  padding: 20px 10px 0 0; }
-  @media only screen and (min-width: 768px) {
-    .shortcourse-testimonials {
-      padding: 30px 50px 0 0; } }
+  padding: 0;
+  color: #FFFFFF; }
+  .shortcourse-testimonials .course__profiles__item {
+    padding-bottom: 0; }
+  .shortcourse-testimonials .bx-controls-direction {
+    left: 25%; }
+    .shortcourse-testimonials .bx-controls-direction a {
+      padding: 10px 20px; }
+    @media only screen and (min-width: 480px) {
+      .shortcourse-testimonials .bx-controls-direction {
+        left: 50%; } }
+
+.shortcourse-testimonials__image-wrapper {
+  padding: 0; }
+  .shortcourse-testimonials__image-wrapper img {
+    width: 100%;
+    height: auto;
+    margin: 0; }
 
 .shortcourse-testimonials__text {
+  padding: 10px 10px 0 10px;
   text-align: right; }
-  .shortcourse-testimonials__text p:not([class]) {
-    margin-bottom: 0; }
-    @media only screen and (min-width: 768px) {
-      .shortcourse-testimonials__text p:not([class]) {
-        font-size: 1.2em;
-        margin-bottom: 5px; } }
+  @media only screen and (min-width: 768px) {
+    .shortcourse-testimonials__text {
+      padding: 20px 20px 0 10px; } }
+  @media only screen and (min-width: 1200px) {
+    .shortcourse-testimonials__text {
+      padding: 30px 30px 0 10px; } }
 
 .shortcourse-testimonials__quote {
   font-style: italic;
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1.3em;
-  margin-bottom: 15px; }
+  margin-bottom: 20px; }
   .shortcourse-testimonials__quote span {
     font-style: normal;
     margin-bottom: 5px; }
   @media only screen and (min-width: 768px) {
     .shortcourse-testimonials__quote {
-      font-size: 1.8em;
-      margin-bottom: 20px; } }
+      font-size: 1.5em;
+      margin-bottom: 30px; } }
 
-.shortcourse-testimonials__name {
+.shortcourse-testimonials__name,
+.shortcourse-testimonials__type {
   margin-bottom: 0; }
-  @media only screen and (min-width: 768px) {
-    .shortcourse-testimonials__name {
-      font-size: 1.2em;
-      margin-bottom: 5px; } }
+  @media only screen and (min-width: 980px) {
+    .shortcourse-testimonials__name,
+    .shortcourse-testimonials__type {
+      font-size: 1.1em;
+      margin-bottom: 2px; } }
+
+.shortcourse-testimonials__type {
+  padding-bottom: 20px; }
+  @media only screen and (min-width: 1200px) {
+    .shortcourse-testimonials__type {
+      font-size: 1.1em;
+      margin-bottom: 40px; } }
 
 .shortcourse-tutor-block {
   background: -webkit-gradient(linear, left top, left bottom, from(#d82231), to(#4d0432));
