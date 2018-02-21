@@ -25874,6 +25874,15 @@ body#library {
   margin-left: 10px;
   margin-right: 10px;
   padding: 30px 20px 20px 20px; }
+  .shortcourse-tutor-block a {
+    color: #FFFFFF;
+    border-bottom: 1px dotted #FFFFFF;
+    font-style: normal; }
+  .shortcourse-tutor-block a:hover {
+    border-bottom: 1px solid #FFFFFF; }
+  .shortcourse-tutor-block a:focus {
+    background: #FFFFFF;
+    color: #333; }
   .shortcourse-tutor-block h2:after {
     content: "";
     display: block;
