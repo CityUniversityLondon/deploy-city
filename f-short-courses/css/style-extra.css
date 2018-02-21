@@ -5603,6 +5603,11 @@ body#library {
 
 .shortcourse {
   margin-top: -50px; }
+  .shortcourse .responsive-tabs {
+    margin-bottom: 30px; }
+    @media only screen and (min-width: 768px) {
+      .shortcourse .responsive-tabs {
+        margin-bottom: 10px; } }
 
 .shortcourse-solid {
   background-color: #3e1031;
@@ -5695,7 +5700,10 @@ body#library {
   margin-bottom: 10px; }
 
 .shortcourse-intro {
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
+  @media only screen and (min-width: 768px) {
+    .shortcourse-intro {
+      margin-bottom: 20px; } }
 
 .shortcourse-keyinfo {
   margin: 0 -10px 20px -10px;
@@ -5742,12 +5750,26 @@ body#library {
   .shortcourse-cta a:focus {
     background-color: #eae9e7; }
 
+.shortcourse-testimonials-block {
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 0;
+  padding-right: 0; }
+  @media only screen and (min-width: 768px) {
+    .shortcourse-testimonials-block {
+      margin-left: auto;
+      margin-right: auto; } }
+
 .shortcourse-testimonials {
   background: -webkit-gradient(linear, right top, left bottom, from(#3e1031), to(#774266));
   background: -webkit-linear-gradient(right top, #3e1031, #774266);
   background: linear-gradient(to left bottom, #3e1031, #774266);
   padding: 0;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  margin-bottom: 10px; }
+  @media only screen and (min-width: 768px) {
+    .shortcourse-testimonials {
+      margin-bottom: 20px; } }
   .shortcourse-testimonials .course__profiles__item {
     padding-bottom: 0; }
   .shortcourse-testimonials .bx-controls-direction {
@@ -5757,6 +5779,12 @@ body#library {
     @media only screen and (min-width: 480px) {
       .shortcourse-testimonials .bx-controls-direction {
         left: 50%; } }
+
+@media only screen and (min-width: 768px) {
+  .shortcourse-testimonials--empty {
+    height: 5px;
+    background-color: #3e1031;
+    width: 100%; } }
 
 .shortcourse-testimonials__image-wrapper {
   padding: 0; }
@@ -5804,13 +5832,23 @@ body#library {
       font-size: 1.1em;
       margin-bottom: 40px; } }
 
+.shortcourse-tutor-wrapper {
+  padding-left: 0;
+  padding-right: 0; }
+
 .shortcourse-tutor-block {
   background: -webkit-gradient(linear, left top, left bottom, from(#d82231), to(#4d0432));
   background: -webkit-linear-gradient(top, #d82231, #4d0432);
   background: linear-gradient(to bottom, #d82231, #4d0432);
-  padding: 30px 20px 10px 20px;
-  margin-bottom: 20px;
+  padding: 30px 10px 20px 10px;
   color: #FFFFFF; }
+  @media only screen and (min-width: 768px) {
+    .shortcourse-tutor-block {
+      margin-left: 10px;
+      margin-right: 10px; } }
+  @media only screen and (min-width: 980px) {
+    .shortcourse-tutor-block {
+      padding: 30px 20px 20px 20px; } }
   .shortcourse-tutor-block h2:after {
     content: "";
     display: block;
@@ -5826,8 +5864,20 @@ body#library {
   font-size: 1.4em;
   font-weight: 500; }
 
+.shortcourse-promo {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 10px; }
+  .shortcourse-promo img {
+    margin-bottom: 0;
+    width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .shortcourse-promo {
+      padding-left: 10px;
+      padding-right: 10px; } }
+
 .shortcourse-next-course-block {
-  padding: 20px 10px;
+  padding: 30px 10px 20px 10px;
   margin-left: -10px;
   margin-right: -10px; }
   .shortcourse-next-course-block h2 {
@@ -5864,7 +5914,7 @@ body#library {
 
 .shortcourse-related-course-block {
   padding-top: 10px;
-  padding-bottom: 20px; }
+  padding-bottom: 10px; }
   .shortcourse-related-course-block h2 {
     margin-bottom: 30px;
     display: inline-block;
@@ -5872,6 +5922,24 @@ body#library {
 
 .shortcourse-related-course {
   margin-bottom: 10px; }
+
+.shortcourse-twitter,
+.shortcourse-twitter--desktop {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 40px; }
+
+@media only screen and (min-width: 768px) {
+  .shortcourse-twitter {
+    display: none; } }
+
+.shortcourse-twitter--desktop {
+  display: none; }
+  @media only screen and (min-width: 768px) {
+    .shortcourse-twitter--desktop {
+      display: block; } }
 
 .survey-message {
   -webkit-transition-duration: 600ms;
