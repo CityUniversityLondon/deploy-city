@@ -25834,7 +25834,10 @@ body#library {
   .shortcourse-testimonials__image-wrapper img {
     width: 100%;
     height: auto;
-    margin: 0; }
+    margin: 0;
+    -webkit-filter: grayscale(0.7);
+            filter: grayscale(0.7);
+    opacity: 0.8; }
 
 .shortcourse-testimonials__text {
   padding: 10px 10px 0 10px;
@@ -25869,11 +25872,11 @@ body#library {
   background: -webkit-gradient(linear, left top, left bottom, from(#d82231), to(#4d0432));
   background: -webkit-linear-gradient(top, #d82231, #4d0432);
   background: linear-gradient(to bottom, #d82231, #4d0432);
-  padding: 30px 10px 20px 10px;
+  padding: 30px 10px 0 10px;
   color: #FFFFFF;
   margin-left: 10px;
   margin-right: 10px;
-  padding: 30px 20px 20px 20px; }
+  padding: 30px 20px 0 20px; }
   .shortcourse-tutor-block a {
     color: #FFFFFF;
     border-bottom: 1px dotted #FFFFFF;
@@ -25883,16 +25886,58 @@ body#library {
   .shortcourse-tutor-block a:focus {
     background: #FFFFFF;
     color: #333; }
-  .shortcourse-tutor-block h2:after {
-    content: "";
-    display: block;
-    max-width: 190px;
-    padding-top: 0;
-    border-bottom: 1px solid #FFFFFF; }
+  .shortcourse-tutor-block h2 {
+    margin-bottom: 30px; }
+    .shortcourse-tutor-block h2:after {
+      content: "";
+      display: block;
+      max-width: 190px;
+      padding-top: 0;
+      border-bottom: 1px solid #FFFFFF; }
+  .shortcourse-tutor-block .bx-controls {
+    display: block; }
+  .shortcourse-tutor-block .bx-controls-direction {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 0; }
+    .shortcourse-tutor-block .bx-controls-direction a {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      border: 0;
+      padding: 10px 20px;
+      color: #ddd;
+      background: rgba(0, 0, 0, 0.4);
+      font-size: 1.4em; }
+    .shortcourse-tutor-block .bx-controls-direction a:focus,
+    .shortcourse-tutor-block .bx-controls-direction a:hover {
+      background: rgba(0, 0, 0, 0.22); }
+    .shortcourse-tutor-block .bx-controls-direction a:active {
+      color: white; }
+    .shortcourse-tutor-block .bx-controls-direction .bx-prev {
+      right: 0; }
+    .shortcourse-tutor-block .bx-controls-direction .bx-next {
+      left: 0; }
+
+.shortcourse-tutor-items {
+  list-style-type: none;
+  margin-left: 0; }
+
+.shortcourse-tutor-scroll {
+  overflow-y: auto;
+  max-height: 800px; }
 
 .shortcourse-tutor {
-  margin-top: 20px;
-  margin-bottom: 30px; }
+  padding-bottom: 30px; }
+  .bx-wrapper .shortcourse-tutor {
+    padding-bottom: 70px; }
+  .shortcourse-tutor img {
+    margin-bottom: 0;
+    opacity: 0.7;
+    max-width: 420px;
+    max-width: 100%; }
 
 .shortcourse-tutor__name {
   font-size: 1.4em;
