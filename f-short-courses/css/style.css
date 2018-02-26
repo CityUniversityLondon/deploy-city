@@ -26446,6 +26446,9 @@ body#library {
   .shortcourse-cta a:focus {
     background-color: #eae9e7; }
 
+.js .shortcourse-testimonials-block {
+  display: none; }
+
 .shortcourse-testimonials-block {
   margin-left: -10px;
   margin-right: -10px;
