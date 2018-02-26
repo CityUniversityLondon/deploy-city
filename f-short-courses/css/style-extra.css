@@ -1,4 +1,25 @@
 
+  .service a.simple:hover,
+  .service .footer a:hover,
+  .project a.simple:hover,
+  .project .footer a:hover {
+    background-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-color: #000000; }
+  .service a.simple:focus,
+  .service .footer a:focus,
+  .project a.simple:focus,
+  .project .footer a:focus {
+    background-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-color: #000000; }
+  .service a.simple:active,
+  .service .footer a:active,
+  .project a.simple:active,
+  .project .footer a:active {
+    background-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-color: #000000; }
   .service a.hallway,
   .project a.hallway {
     font-weight: 600; }
@@ -5630,13 +5651,13 @@ body#library {
   display: inline-block; }
 
 .shortcourse-banner {
-  margin: 0 -10px 0 -10px; }
-  .shortcourse-banner img {
-    width: 100%;
-    margin: 0; }
+  margin: 0 -10px; }
   @media only screen and (min-width: 768px) {
     .shortcourse-banner {
       margin-bottom: 30px; } }
+  .shortcourse-banner img {
+    width: 100%;
+    margin: 0; }
 
 .shortcourse-selection {
   background: #eae9e7;
@@ -5706,8 +5727,14 @@ body#library {
       margin-bottom: 20px; } }
 
 .shortcourse-keyinfo {
-  margin: 0 -10px 20px -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 20px;
   padding: 20px; }
+  @media only screen and (min-width: 768px) {
+    .shortcourse-keyinfo {
+      margin: 0;
+      padding: 20px; } }
   .shortcourse-keyinfo h2 {
     margin-bottom: 20px; }
   .shortcourse-keyinfo h2:after {
@@ -5725,18 +5752,12 @@ body#library {
     display: block;
     max-width: 300px;
     font-size: 1.3em; }
+    @media only screen and (min-width: 980px) {
+      .shortcourse-keyinfo .cta {
+        max-width: 100%; } }
     .shortcourse-keyinfo .cta a {
       display: block;
       color: #333; }
-  @media only screen and (min-width: 768px) {
-    .shortcourse-keyinfo {
-      margin: 0;
-      padding: 20px 20px; } }
-  @media only screen and (min-width: 980px) {
-    .shortcourse-keyinfo {
-      padding: 20px; }
-      .shortcourse-keyinfo .cta {
-        max-width: 100%; } }
 
 .shortcourse-keyinfo__details {
   margin-bottom: 30px; }
@@ -5783,8 +5804,8 @@ body#library {
 @media only screen and (min-width: 768px) {
   .shortcourse-testimonials--empty {
     height: 5px;
-    background-color: #3e1031;
-    width: 100%; } }
+    width: 100%;
+    background-color: #3e1031; } }
 
 .shortcourse-testimonials__image-wrapper {
   padding: 0; }
@@ -5797,14 +5818,19 @@ body#library {
     opacity: 0.8; }
 
 .shortcourse-testimonials__text {
-  padding: 10px 10px 0 10px;
-  text-align: right; }
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px; }
   @media only screen and (min-width: 768px) {
     .shortcourse-testimonials__text {
-      padding: 20px 20px 0 10px; } }
+      padding-left: 10px;
+      padding-right: 20px;
+      padding-top: 20px; } }
   @media only screen and (min-width: 1200px) {
     .shortcourse-testimonials__text {
-      padding: 30px 30px 0 10px; } }
+      padding-right: 30px;
+      padding-top: 30px; } }
 
 .shortcourse-testimonials__quote {
   font-style: italic;
@@ -5838,87 +5864,128 @@ body#library {
 .shortcourse-tutor-wrapper {
   padding-left: 0;
   padding-right: 0; }
+  @media only screen and (min-width: 768px) {
+    .shortcourse-tutor-wrapper:after {
+      content: "";
+      position: absolute;
+      bottom: 14px;
+      width: 0px;
+      height: 0px;
+      border-top: 50px solid transparent;
+      border-left: 400px solid transparent;
+      border-bottom: 40px solid white; }
+    .shortcourse-tutor-wrapper.shortcourse-tutor-selection:after {
+      bottom: 0; } }
 
 .shortcourse-tutor-block {
   background: -webkit-gradient(linear, left top, left bottom, from(#d82231), to(#4d0432));
   background: -webkit-linear-gradient(top, #d82231, #4d0432);
   background: linear-gradient(to bottom, #d82231, #4d0432);
-  padding: 30px 10px 0 10px;
+  padding: 30px 0 0 0;
   color: #FFFFFF; }
-  .shortcourse-tutor-block a {
-    color: #FFFFFF;
-    border-bottom: 1px dotted #FFFFFF;
-    font-style: normal; }
-  .shortcourse-tutor-block a:hover {
-    border-bottom: 1px solid #FFFFFF; }
-  .shortcourse-tutor-block a:focus {
-    background: #FFFFFF;
-    color: #333; }
-  .shortcourse-tutor-block h2 {
-    margin-bottom: 30px; }
-    .shortcourse-tutor-block h2:after {
-      content: "";
-      display: block;
-      max-width: 190px;
-      padding-top: 0;
-      border-bottom: 1px solid #FFFFFF; }
-  .shortcourse-tutor-block .bx-controls {
-    display: block; }
-  .shortcourse-tutor-block .bx-controls-direction {
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    width: 0;
-    height: 0; }
-    .shortcourse-tutor-block .bx-controls-direction a {
-      display: block;
-      position: absolute;
-      bottom: 0;
-      border: 0;
-      padding: 10px 20px;
-      color: #ddd;
-      background: rgba(0, 0, 0, 0.4);
-      font-size: 1.4em; }
-    .shortcourse-tutor-block .bx-controls-direction a:focus,
-    .shortcourse-tutor-block .bx-controls-direction a:hover {
-      background: rgba(0, 0, 0, 0.22); }
-    .shortcourse-tutor-block .bx-controls-direction a:active {
-      color: white; }
-    .shortcourse-tutor-block .bx-controls-direction .bx-prev {
-      right: 0; }
-    .shortcourse-tutor-block .bx-controls-direction .bx-next {
-      left: 0; }
   @media only screen and (min-width: 768px) {
     .shortcourse-tutor-block {
       margin-left: 10px;
       margin-right: 10px; } }
   @media only screen and (min-width: 980px) {
     .shortcourse-tutor-block {
-      padding: 30px 20px 0 20px; } }
+      padding: 30px 0 0 0; } }
+
+.shortcourse-tutor-block h2 {
+  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px; }
+  @media only screen and (min-width: 980px) {
+    .shortcourse-tutor-block h2 {
+      padding-left: 20px;
+      padding-right: 20px; } }
+  .shortcourse-tutor-block h2:after {
+    content: "";
+    display: block;
+    max-width: 190px;
+    padding-top: 0;
+    border-bottom: 1px solid #FFFFFF; }
+
+.shortcourse-tutor-block a {
+  color: #FFFFFF;
+  border-bottom: 1px dotted #FFFFFF;
+  font-style: normal; }
+
+.shortcourse-tutor-block a:hover {
+  border-bottom: 1px solid #FFFFFF; }
+
+.shortcourse-tutor-block a:focus {
+  background: #FFFFFF;
+  color: #333; }
+
+.shortcourse-tutor-block .bx-controls {
+  display: block; }
+
+.shortcourse-tutor-block .bx-controls-direction {
+  position: absolute;
+  left: 50%;
+  top: -77px;
+  width: 0;
+  height: 0; }
+  .shortcourse-tutor-block .bx-controls-direction a {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    border: 0;
+    padding: 10px 20px;
+    color: #ddd;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 1.4em; }
+  .shortcourse-tutor-block .bx-controls-direction a:focus,
+  .shortcourse-tutor-block .bx-controls-direction a:hover {
+    background: rgba(0, 0, 0, 0.22); }
+  .shortcourse-tutor-block .bx-controls-direction a:active {
+    color: white; }
+  .shortcourse-tutor-block .bx-controls-direction .bx-prev {
+    right: 0; }
+  .shortcourse-tutor-block .bx-controls-direction .bx-next {
+    left: 0; }
+
+.shortcourse-tutor-selection .shortcourse-tutor-block {
+  padding-top: 50px; }
 
 .shortcourse-tutor-items {
   list-style-type: none;
   margin-left: 0; }
 
-.shortcourse-tutor-scroll {
-  overflow-y: auto;
-  max-height: 800px; }
-
-.shortcourse-tutor {
-  padding-bottom: 30px; }
-  .bx-wrapper .shortcourse-tutor {
-    padding-bottom: 70px; }
-  .shortcourse-tutor img {
-    margin-bottom: 0;
-    opacity: 0.7;
-    max-width: 420px; }
-    @media only screen and (min-width: 768px) {
-      .shortcourse-tutor img {
-        max-width: 100%; } }
+.shortcourse-tutor img {
+  margin-bottom: 0; }
+  @media only screen and (min-width: 320px) {
+    .shortcourse-tutor img {
+      max-width: 300px; } }
+  @media only screen and (min-width: 768px) {
+    .shortcourse-tutor img {
+      max-width: 100%; } }
+  @media only screen and (min-width: 980px) {
+    .shortcourse-tutor img {
+      max-width: 90%; } }
 
 .shortcourse-tutor__name {
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 1.4em;
   font-weight: 500; }
+  @media only screen and (min-width: 980px) {
+    .shortcourse-tutor__name {
+      padding-left: 20px;
+      padding-right: 20px; } }
+
+.shortcourse-tutor__bio {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px; }
+  @media only screen and (min-width: 980px) {
+    .shortcourse-tutor__bio {
+      padding-left: 20px;
+      padding-right: 20px; } }
+
+.shortcourse-tutor__bio:last-child {
+  padding-bottom: 40px; }
 
 .shortcourse-promo {
   padding-left: 0;
@@ -5933,7 +6000,10 @@ body#library {
       padding-right: 10px; } }
 
 .shortcourse-next-course-block {
-  padding: 30px 10px 20px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
   margin-left: -10px;
   margin-right: -10px; }
   .shortcourse-next-course-block h2 {
@@ -5942,7 +6012,6 @@ body#library {
     content: "";
     display: block;
     width: 100%;
-    padding-top: 0;
     border-bottom: 1px solid #FFFFFF; }
     @media only screen and (min-width: 320px) {
       .shortcourse-next-course-block h2:after {
