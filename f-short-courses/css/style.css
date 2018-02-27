@@ -26326,19 +26326,45 @@ body#library {
   display: inline-block; }
 
 .shortcourse-banner {
-  margin: 0 -10px; }
+  margin: 0 -10px;
+  height: 170px;
+  width: 800px; }
+  @media only screen and (min-width: 480px) {
+    .shortcourse-banner {
+      height: 200px; } }
   @media only screen and (min-width: 768px) {
     .shortcourse-banner {
-      margin-bottom: 30px; } }
+      margin-bottom: 30px;
+      height: auto;
+      max-height: 300px;
+      width: auto;
+      overflow: hidden; } }
+  @media only screen and (min-width: 1200px) {
+    .shortcourse-banner {
+      max-height: 330px; } }
   .shortcourse-banner img {
     width: 100%;
-    margin: 0; }
+    margin: 0;
+    -webkit-transform: translateX(-30%);
+        -ms-transform: translateX(-30%);
+            transform: translateX(-30%); }
+    @media only screen and (min-width: 480px) {
+      .shortcourse-banner img {
+        -webkit-transform: translateX(0);
+            -ms-transform: translateX(0);
+                transform: translateX(0); } }
+    @media only screen and (min-width: 1200px) {
+      .shortcourse-banner img {
+        -webkit-transform: translateY(-5%);
+            -ms-transform: translateY(-5%);
+                transform: translateY(-5%); } }
 
 .shortcourse-selection {
   background: #eae9e7;
   color: #333;
   padding: 20px 10px;
-  margin: 20px -10px 0 -10px; }
+  margin: 20px -10px 0 -10px;
+  z-index: 100; }
   .shortcourse-selection select {
     display: block;
     width: 100%;

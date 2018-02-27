@@ -25721,16 +25721,30 @@ body#library {
 
 .shortcourse-banner {
   margin: 0 -10px;
-  margin-bottom: 30px; }
+  height: 170px;
+  width: 800px;
+  height: 200px;
+  margin-bottom: 30px;
+  height: auto;
+  max-height: 300px;
+  width: auto;
+  overflow: hidden; }
   .shortcourse-banner img {
     width: 100%;
-    margin: 0; }
+    margin: 0;
+    -webkit-transform: translateX(-30%);
+        -ms-transform: translateX(-30%);
+            transform: translateX(-30%);
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0); }
 
 .shortcourse-selection {
   background: #eae9e7;
   color: #333;
   padding: 20px 10px;
   margin: 20px -10px 0 -10px;
+  z-index: 100;
   position: absolute;
   margin: 0;
   right: 10px;
