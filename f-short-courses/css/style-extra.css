@@ -5652,32 +5652,17 @@ body#library {
 
 .shortcourse-banner {
   margin: 0 -10px;
-  height: 170px;
-  width: 800px; }
-  @media only screen and (min-width: 480px) {
-    .shortcourse-banner {
-      height: 200px; } }
+  max-height: 300px;
+  overflow: hidden; }
   @media only screen and (min-width: 768px) {
     .shortcourse-banner {
-      margin-bottom: 30px;
-      height: auto;
-      max-height: 300px;
-      width: auto;
-      overflow: hidden; } }
+      margin-bottom: 30px; } }
   @media only screen and (min-width: 1200px) {
     .shortcourse-banner {
-      max-height: 330px; } }
+      max-height: 320px; } }
   .shortcourse-banner img {
     width: 100%;
-    margin: 0;
-    -webkit-transform: translateX(-30%);
-        -ms-transform: translateX(-30%);
-            transform: translateX(-30%); }
-    @media only screen and (min-width: 480px) {
-      .shortcourse-banner img {
-        -webkit-transform: translateX(0);
-            -ms-transform: translateX(0);
-                transform: translateX(0); } }
+    margin: 0; }
     @media only screen and (min-width: 1200px) {
       .shortcourse-banner img {
         -webkit-transform: translateY(-5%);
