@@ -1061,6 +1061,9 @@ or until modernizr tests for it (version 3?).
   border-left: thick solid #333;
   padding-left: 10px; }
 
+.js .popup-item-detail {
+  display: none; }
+
 /*person module*/
 /* styles to prevent elements from jumping around when js is available */
 .js .apply-filter {

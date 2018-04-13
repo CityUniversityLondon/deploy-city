@@ -502,6 +502,9 @@ or until modernizr tests for it (version 3?).
   border-left: thick solid #333;
   padding-left: 10px; }
 
+.js .popup-item-detail {
+  display: none; }
+
 /*person module*/
 /* styles to prevent elements from jumping around when js is available */
 .js .apply-filter {
@@ -10083,15 +10086,3 @@ p.left-float-image {
 
 .scholarship-finder__results__item__info {
   display: block; }
-
-.scholarship-finder__results__item__info-toggle {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 5px 15px;
-  border-radius: 5px;
-  border: none;
-  background: #b91b1b;
-  color: white;
-  -webkit-transition: color 100ms, background 100ms;
-  transition: color 100ms, background 100ms; }

@@ -11621,6 +11621,9 @@ or until modernizr tests for it (version 3?).
   border-left: thick solid #333;
   padding-left: 10px; }
 
+.js .popup-item-detail {
+  display: none; }
+
 /*person module*/
 /* styles to prevent elements from jumping around when js is available */
 .js .apply-filter {
@@ -25799,8 +25802,7 @@ body#library {
 .shortcourse-banner {
   margin: 0 -10px;
   max-height: 300px;
-  overflow: hidden;
-  margin-bottom: 30px; }
+  overflow: hidden; }
   .shortcourse-banner img {
     width: 100%;
     margin: 0; }
@@ -25865,6 +25867,7 @@ body#library {
 
 .shortcourse-intro {
   margin-bottom: 10px;
+  margin-top: 30px;
   margin-bottom: 20px; }
 
 .shortcourse-keyinfo {
@@ -26157,15 +26160,36 @@ body#library {
 /*****************
  *      CPD      *
  *****************/
-.shortcourse-solid.shortcourse-solid--cpd {
-  background-color: #00434c;
-  color: #FFFFFF; }
-
 .shortcourse-header__award.shortcourse-header__award--cpd {
-  display: block; }
+  display: block;
+  margin-top: 10px; }
 
-.shortcourse-selection.shortcourse-selection--cpd:after {
-  background: none; }
+.shortcourse-selection.shortcourse-selection--cpd {
+  position: static;
+  padding-bottom: 0; }
+  .shortcourse-selection.shortcourse-selection--cpd:after {
+    background: none;
+    position: static; }
+
+.shortcourse-keyinfo.shortcourse-keyinfo--cpd .shortcourse-keyinfo__action {
+  max-width: 300px; }
+
+.shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta {
+  display: inline-block;
+  font-size: 1.3em;
+  width: 48%; }
+  .shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta:nth-child(2) {
+    margin-left: 5px; }
+
+.shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta {
+  width: 100%; }
+  .shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta:nth-child(2) {
+    margin-left: 0; }
+
+.shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta {
+  width: 48%; }
+  .shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta:nth-child(2) {
+    margin-left: 5px; }
 
 .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials,
 .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials--empty {
@@ -26177,6 +26201,45 @@ body#library {
 
 .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .course__profiles__item {
   color: #00434c; }
+
+.shortcourse-tutor-wrapper.shortcourse-tutor-wrapper--cpd:after {
+  border-left: none;
+  border-right: 400px solid transparent; }
+
+.shortcourse-tutor-wrapper.shortcourse-tutor-wrapper--cpd .shortcourse-tutor-block {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00434c), to(#1f666f));
+  background: -webkit-linear-gradient(top, #00434c, #1f666f);
+  background: linear-gradient(to bottom, #00434c, #1f666f); }
+
+.shortcourse-tutor-wrapper.shortcourse-tutor-wrapper--cpd .shortcourse-tutor__img-wrapper {
+  padding-left: 10px;
+  text-align: right;
+  padding-right: 10px;
+  padding-right: 20px; }
+
+.cpd-solid {
+  background-color: #00434c;
+  color: #FFFFFF; }
+
+.cpd-which-programmes {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-left: 0;
+  margin-right: 0; }
+
+.cpd-which-programme__title {
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 1em; }
+  .cpd-which-programme__title a {
+    color: #eee;
+    border-bottom: 2px dotted #ccc; }
+  .cpd-which-programme__title a:hover {
+    border-bottom: 2px solid #FFFFFF; }
 
 .survey-message {
   -webkit-transition-duration: 600ms;

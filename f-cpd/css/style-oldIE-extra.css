@@ -1,4 +1,16 @@
 
+
+.scholarship-finder__results__item__info-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  background: #b91b1b;
+  color: white;
+  -webkit-transition: color 100ms, background 100ms;
+  transition: color 100ms, background 100ms; }
   .scholarship-finder__results__item__info-toggle .fa, .scholarship-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon, .scholarship-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon, .scholarship-finder__results__item__info-toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .scholarship-finder__results__item__info-toggle a:before, .scholarship-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon {
     -webkit-transition: -webkit-transform 300ms;
     transition: -webkit-transform 300ms;
@@ -4572,8 +4584,7 @@ body#library {
 .shortcourse-banner {
   margin: 0 -10px;
   max-height: 300px;
-  overflow: hidden;
-  margin-bottom: 30px; }
+  overflow: hidden; }
   .shortcourse-banner img {
     width: 100%;
     margin: 0; }
@@ -4638,6 +4649,7 @@ body#library {
 
 .shortcourse-intro {
   margin-bottom: 10px;
+  margin-top: 30px;
   margin-bottom: 20px; }
 
 .shortcourse-keyinfo {
@@ -4930,15 +4942,36 @@ body#library {
 /*****************
  *      CPD      *
  *****************/
-.shortcourse-solid.shortcourse-solid--cpd {
-  background-color: #00434c;
-  color: #FFFFFF; }
-
 .shortcourse-header__award.shortcourse-header__award--cpd {
-  display: block; }
+  display: block;
+  margin-top: 10px; }
 
-.shortcourse-selection.shortcourse-selection--cpd:after {
-  background: none; }
+.shortcourse-selection.shortcourse-selection--cpd {
+  position: static;
+  padding-bottom: 0; }
+  .shortcourse-selection.shortcourse-selection--cpd:after {
+    background: none;
+    position: static; }
+
+.shortcourse-keyinfo.shortcourse-keyinfo--cpd .shortcourse-keyinfo__action {
+  max-width: 300px; }
+
+.shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta {
+  display: inline-block;
+  font-size: 1.3em;
+  width: 48%; }
+  .shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta:nth-child(2) {
+    margin-left: 5px; }
+
+.shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta {
+  width: 100%; }
+  .shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta:nth-child(2) {
+    margin-left: 0; }
+
+.shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta {
+  width: 48%; }
+  .shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta:nth-child(2) {
+    margin-left: 5px; }
 
 .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials,
 .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials--empty {
@@ -4950,6 +4983,45 @@ body#library {
 
 .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .course__profiles__item {
   color: #00434c; }
+
+.shortcourse-tutor-wrapper.shortcourse-tutor-wrapper--cpd:after {
+  border-left: none;
+  border-right: 400px solid transparent; }
+
+.shortcourse-tutor-wrapper.shortcourse-tutor-wrapper--cpd .shortcourse-tutor-block {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00434c), to(#1f666f));
+  background: -webkit-linear-gradient(top, #00434c, #1f666f);
+  background: linear-gradient(to bottom, #00434c, #1f666f); }
+
+.shortcourse-tutor-wrapper.shortcourse-tutor-wrapper--cpd .shortcourse-tutor__img-wrapper {
+  padding-left: 10px;
+  text-align: right;
+  padding-right: 10px;
+  padding-right: 20px; }
+
+.cpd-solid {
+  background-color: #00434c;
+  color: #FFFFFF; }
+
+.cpd-which-programmes {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-left: 0;
+  margin-right: 0; }
+
+.cpd-which-programme__title {
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 1em; }
+  .cpd-which-programme__title a {
+    color: #eee;
+    border-bottom: 2px dotted #ccc; }
+  .cpd-which-programme__title a:hover {
+    border-bottom: 2px solid #FFFFFF; }
 
 .survey-message {
   -webkit-transition-duration: 600ms;
