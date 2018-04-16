@@ -26191,6 +26191,18 @@ body#library {
   .shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta:nth-child(2) {
     margin-left: 5px; }
 
+.shortcourse-keyinfo.shortcourse-keyinfo--cpd .shortcourse-keyinfo__details a {
+  color: #eee;
+  border-bottom: 1px dotted #eee;
+  font-style: normal; }
+
+.shortcourse-keyinfo.shortcourse-keyinfo--cpd .shortcourse-keyinfo__details a:hover {
+  border-bottom: 1px solid #FFFFFF; }
+
+.shortcourse-keyinfo.shortcourse-keyinfo--cpd .shortcourse-keyinfo__details a:focus {
+  background: #FFFFFF;
+  color: #666; }
+
 .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials,
 .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials--empty {
   background: none;
