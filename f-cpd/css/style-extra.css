@@ -6177,16 +6177,38 @@ body#library {
   background: #FFFFFF;
   color: #666; }
 
-.shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials,
-.shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials--empty {
-  background: none;
-  background-color: #eee; }
-
-.shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials--empty {
-  height: 20px; }
-
-.shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .course__profiles__item {
-  color: #00434c; }
+.shortcourse-testimonials-block.shortcourse-testimonials-block--cpd {
+  background-color: #eee;
+  margin-top: 30px;
+  margin-bottom: 10px; }
+  @media only screen and (min-width: 768px) {
+    .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd {
+      margin-left: -10px;
+      margin-right: -10px; } }
+  .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials,
+  .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials--empty {
+    background: none;
+    background-color: #eee; }
+  .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials {
+    margin-bottom: 0; }
+  .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials--empty {
+    height: 20px; }
+  .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials__text {
+    text-align: center; }
+    .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials__text img {
+      max-width: 200px; }
+  .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials__quote {
+    font-style: normal;
+    margin-bottom: 15px; }
+  .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials__name {
+    color: #333; }
+  .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .course__profiles__item {
+    color: #00434c; }
+  .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .bx-wrapper {
+    padding-top: 10px;
+    padding-bottom: 60px; }
+  .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .bx-controls-direction {
+    left: 50%; }
 
 @media only screen and (min-width: 768px) {
   .shortcourse-tutor-wrapper.shortcourse-tutor-wrapper--cpd:after {
