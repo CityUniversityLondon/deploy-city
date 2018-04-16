@@ -6245,6 +6245,10 @@ body#library {
     .cpd-which-programmes {
       margin-left: 0;
       margin-right: 0; } }
+  @media only screen and (min-width: 980px) {
+    .cpd-which-programmes {
+      padding-left: 20px;
+      padding-right: 20px; } }
 
 .cpd-which-programme__title {
   font-weight: 400;

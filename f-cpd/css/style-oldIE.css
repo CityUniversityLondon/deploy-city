@@ -26261,7 +26261,9 @@ body#library {
   margin-left: -10px;
   margin-right: -10px;
   margin-left: 0;
-  margin-right: 0; }
+  margin-right: 0;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .cpd-which-programme__title {
   font-weight: 400;
