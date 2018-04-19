@@ -24,7 +24,8 @@ module.exports = function () {
         footer = require('./funcs/footer'),
         popupDialog = require('./funcs/popup-dialog'),
         scrollTo = require('../utils/scroll-to'),
-        responsiveTables = require('./funcs/responsive-tables');
+        responsiveTables = require('./funcs/responsive-tables'),
+        cyclicPopup = require('./funcs/cyclic-popup');
 
     /**
      * The main CITY wrapper object
@@ -160,7 +161,7 @@ module.exports = function () {
                         $query = $form.find("#query"),
                         indexForm = $("#fb-queryform"),
                         indexQuery = $("#search-query", indexForm),
-                        collection = $body.attr("id") === "intranet" ? "intranet" : "main-all",
+                        searchPageAutoCompleteCollection = $body.attr("id") === "intranet" ? "intranet" : "main-all",
                         $galleries = $("#content").find(".gallery"),
                         azListings = $('.az-single-page'),
                         autoCompleteCollection = $searchForm.attr("data-collection"),
@@ -203,6 +204,7 @@ module.exports = function () {
                     initCookieNotice($);
                     popupDialog();
                     responsiveTables();
+                    cyclicPopup();
                     // We need to wait for the DOM to be modified before
                     // traversing for Image Credits
                     imageCreditation();
@@ -280,10 +282,10 @@ module.exports = function () {
                     });
 
                     //set up autocomplete on search box
-                    searchAutoComplete($form, $query, collection);
+                    searchAutoComplete($form, $query, searchPageAutoCompleteCollection);
 
                     //set up autocomplete on search box on main search page
-                    searchAutoComplete(indexForm, indexQuery, collection);
+                    searchAutoComplete(indexForm, indexQuery, searchPageAutoCompleteCollection);
 
                     //set up autocomplete on search box on intranet main search page
                     searchAutoComplete($searchForm, $searchFormQuery, autoCompleteCollection);
