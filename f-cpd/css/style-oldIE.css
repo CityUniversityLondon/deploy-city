@@ -11621,7 +11621,7 @@ or until modernizr tests for it (version 3?).
   border-left: thick solid #333;
   padding-left: 10px; }
 
-.js .popup-item-detail {
+.js .cyclic-popup-item__detail {
   display: none; }
 
 /*person module*/
