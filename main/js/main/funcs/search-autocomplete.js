@@ -22,8 +22,9 @@ module.exports = function () {
         input.autocomplete({
 
             source: function (request, response) {
+                var fbcollection = collection || "main-all";
                 $.ajax({
-                    url: "/fb/suggest.json?collection=" + (collection || collection = "main-all") + "&fmt=json",
+                    url: "/fb/suggest.json?collection=" + fbcollection + "&fmt=json",
                     dataType: "json",
                     data: {
                         partial_query: request.term
