@@ -24,7 +24,8 @@ module.exports = function () {
         footer = require('./funcs/footer'),
         popupDialog = require('./funcs/popup-dialog'),
         scrollTo = require('../utils/scroll-to'),
-        responsiveTables = require('./funcs/responsive-tables');
+        responsiveTables = require('./funcs/responsive-tables'),
+        cyclicPopup = require('./funcs/cyclic-popup');
 
     /**
      * The main CITY wrapper object
@@ -203,6 +204,7 @@ module.exports = function () {
                     initCookieNotice($);
                     popupDialog();
                     responsiveTables();
+                    cyclicPopup();
                     // We need to wait for the DOM to be modified before
                     // traversing for Image Credits
                     imageCreditation();
