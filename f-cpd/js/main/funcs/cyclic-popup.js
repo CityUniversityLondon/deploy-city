@@ -18,6 +18,15 @@ module.exports = function () {
                 }
             });
 
+            function getWidth() {
+                var width = $(window).width() * 0.9;
+
+                if (width > 500) {
+                    width = 500;
+                }
+                return width;
+            }
+
             function getNextItem(reverse) {
                 if (reverse == false) {
                     if (currentIndex == noOfPopupItems - 1) {
@@ -44,26 +53,45 @@ module.exports = function () {
                 modal: true,
                 draggable: false,
                 resizable: false,
+                width: getWidth(),
+
                 buttons: [
                     {
-                        text: 'next',
+                        text: 'PREVIOUS',
                         click: function() {
-                            $(this).html($(getNextItem(false)).find('.cyclic-popup-item__detail').text());
+                            $(this).html($(getNextItem(true)).find('.cyclic-popup-item__detail').html());
                         }
                     },
                     {
-                        text: 'previous',
+                        text: 'NEXT',
                         click: function() {
-                            $(this).html($(getNextItem(true)).find('.cyclic-popup-item__detail').text());
+                            $(this).html($(getNextItem(false)).find('.cyclic-popup-item__detail').html());
                         }
                     }
                 ],
-                close: function(){ $(this).dialog('destroy')},
-                create:function () {
+
+                close: function() {
+                    $(this).dialog('destroy')
+                },
+
+                create:function() {
                     $(this).closest('.ui-dialog').addClass('cyclic-popup');
-                    $(this).html(clickedItem.find('.cyclic-popup-item__detail').text());
+                    $(this).html(clickedItem.find('.cyclic-popup-item__detail').html());
+                },
+
+                open:function () {
+                    $(this).parent().find('button:nth-child(2)').focus();
                 }
-            })
+            });
+
+            $(window).resize(function() {
+                $(".ui-dialog-content").dialog("option", "position", "center");
+                $(".ui-dialog-content").dialog("option", "width", getWidth());
+            });
+
+            $(".ui-widget-overlay").click(function(){
+                $("div:ui-dialog:visible").dialog("close");
+            });
 
             return false;
         });

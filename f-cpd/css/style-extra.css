@@ -1,4 +1,12 @@
 
+  .service .hard-cta a:link, .service .hard-cta a:visited,
+  .project .hard-cta a:link,
+  .project .hard-cta a:visited {
+    color: #fff;
+    border: 1px solid #a0271f; }
+  .service .hard-cta a:hover,
+  .project .hard-cta a:hover {
+    border: 1px solid #670003; }
   
   .service .dark-background a:link,
   .service .widget a:link,

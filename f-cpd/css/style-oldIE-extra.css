@@ -1,5 +1,27 @@
 
 
+.scholarship-finder__results__item__info {
+  display: none;
+  margin-top: 10px;
+  border-top: 2px solid #eee; }
+  .scholarship-finder__results__item__info.scholarship-finder__results__item__info--open {
+    display: block; }
+
+.scholarship-finder__results__item__description {
+  margin: 10px 0; }
+
+.scholarship-finder__results__item__md span {
+  color: #666; }
+
+.scholarship-finder__results__item__md__label {
+  font-weight: 600; }
+
+.scholarship-finder__results__item__info-toggle {
+  display: none; }
+
+.scholarship-finder__results__item__info {
+  display: block; }
+
 .scholarship-finder__results__item__info-toggle {
   position: absolute;
   top: 10px;

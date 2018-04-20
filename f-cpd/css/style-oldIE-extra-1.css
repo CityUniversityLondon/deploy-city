@@ -502,8 +502,34 @@ or until modernizr tests for it (version 3?).
   border-left: thick solid #333;
   padding-left: 10px; }
 
+.cyclic-popup.ui-dialog .ui-dialog-buttonpane {
+  padding-left: 14px; }
+
+.cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button {
+  float: left;
+  background: none;
+  border: none;
+  padding: 0; }
+  .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button span {
+    padding: 0;
+    color: #666; }
+  .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(1) span:before {
+    content: "\f060";
+    font-family: FontAwesome;
+    padding-right: 10px; }
+  .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(2) {
+    float: right; }
+    .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(2) span:after {
+      content: "\f061";
+      font-family: FontAwesome;
+      padding-left: 10px; }
+
 .js .cyclic-popup-item__detail {
   display: none; }
+
+.cyclic-popup-item__name {
+  font-weight: 600;
+  font-size: 1.3em; }
 
 /*person module*/
 /* styles to prevent elements from jumping around when js is available */
@@ -10064,25 +10090,3 @@ p.left-float-image {
     line-height: 21px; }
   .scholarship-finder__results__item__md > div {
     margin-left: 22px; }
-
-.scholarship-finder__results__item__info {
-  display: none;
-  margin-top: 10px;
-  border-top: 2px solid #eee; }
-  .scholarship-finder__results__item__info.scholarship-finder__results__item__info--open {
-    display: block; }
-
-.scholarship-finder__results__item__description {
-  margin: 10px 0; }
-
-.scholarship-finder__results__item__md span {
-  color: #666; }
-
-.scholarship-finder__results__item__md__label {
-  font-weight: 600; }
-
-.scholarship-finder__results__item__info-toggle {
-  display: none; }
-
-.scholarship-finder__results__item__info {
-  display: block; }

@@ -1061,8 +1061,34 @@ or until modernizr tests for it (version 3?).
   border-left: thick solid #333;
   padding-left: 10px; }
 
+.cyclic-popup.ui-dialog .ui-dialog-buttonpane {
+  padding-left: 14px; }
+
+.cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button {
+  float: left;
+  background: none;
+  border: none;
+  padding: 0; }
+  .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button span {
+    padding: 0;
+    color: #666; }
+  .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(1) span:before {
+    content: "\f060";
+    font-family: FontAwesome;
+    padding-right: 10px; }
+  .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(2) {
+    float: right; }
+    .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(2) span:after {
+      content: "\f061";
+      font-family: FontAwesome;
+      padding-left: 10px; }
+
 .js .cyclic-popup-item__detail {
   display: none; }
+
+.cyclic-popup-item__name {
+  font-weight: 600;
+  font-size: 1.3em; }
 
 /*person module*/
 /* styles to prevent elements from jumping around when js is available */
@@ -9926,11 +9952,3 @@ table.visa-event-table {
     .service h3 a:link,
     .project h3 a:link {
       border-bottom-width: 2px; }
-  .service .hard-cta a:link, .service .hard-cta a:visited,
-  .project .hard-cta a:link,
-  .project .hard-cta a:visited {
-    color: #fff;
-    border: 1px solid #a0271f; }
-  .service .hard-cta a:hover,
-  .project .hard-cta a:hover {
-    border: 1px solid #670003; }
