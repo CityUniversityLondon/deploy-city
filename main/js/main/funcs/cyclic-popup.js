@@ -49,26 +49,32 @@ module.exports = function () {
                 return nextItem;
             }
 
+            function setDialogButtons() {
+                if (noOfPopupItems > 1) {
+                    var buttonsToSet = [
+                        {
+                            text: 'PREVIOUS',
+                            click: function() {
+                                $(this).html($(getNextItem(true)).find('.cyclic-popup-item__detail').html());
+                            }
+                        },
+                        {
+                            text: 'NEXT',
+                            click: function() {
+                                $(this).html($(getNextItem(false)).find('.cyclic-popup-item__detail').html());
+                            }
+                        }
+                    ];
+
+                    $('.ui-dialog-content').dialog('option', 'buttons', buttonsToSet);
+                }
+            }
+
             $('<div></div>').dialog({
                 modal: true,
                 draggable: false,
                 resizable: false,
                 width: getWidth(),
-
-                buttons: [
-                    {
-                        text: 'PREVIOUS',
-                        click: function() {
-                            $(this).html($(getNextItem(true)).find('.cyclic-popup-item__detail').html());
-                        }
-                    },
-                    {
-                        text: 'NEXT',
-                        click: function() {
-                            $(this).html($(getNextItem(false)).find('.cyclic-popup-item__detail').html());
-                        }
-                    }
-                ],
 
                 close: function() {
                     $(this).dialog('destroy')
@@ -77,20 +83,26 @@ module.exports = function () {
                 create:function() {
                     $(this).closest('.ui-dialog').addClass('cyclic-popup');
                     $(this).html(clickedItem.find('.cyclic-popup-item__detail').html());
+                    setDialogButtons();
                 },
 
                 open:function () {
-                    $(this).parent().find('button:nth-child(2)').focus();
+                    if (noOfPopupItems > 1) {
+                        $(this).parent().find('button:nth-child(2)').focus();
+                    }
+                    else {
+                        $(this).parent().find('.ui-dialog-titlebar-close').focus();
+                    }
                 }
             });
 
             $(window).resize(function() {
-                $(".ui-dialog-content").dialog("option", "position", "center");
-                $(".ui-dialog-content").dialog("option", "width", getWidth());
+                $('.ui-dialog-content').dialog('option', 'position', 'center');
+                $('.ui-dialog-content').dialog('option', 'width', getWidth());
             });
 
-            $(".ui-widget-overlay").click(function(){
-                $("div:ui-dialog:visible").dialog("close");
+            $('.ui-widget-overlay').click(function(){
+                $('div:ui-dialog:visible').dialog('close');
             });
 
             return false;
