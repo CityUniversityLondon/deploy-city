@@ -1,4 +1,9 @@
 
+  .scholarship-finder__results__item__md > .fa, .ui-accordion .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon, #courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon, .white-card__media .embed-container .scholarship-finder__results__item__md > a:before, .course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon {
+    float: left;
+    line-height: 21px; }
+  .scholarship-finder__results__item__md > div {
+    margin-left: 22px; }
 
 .scholarship-finder__results__item__info {
   display: none;

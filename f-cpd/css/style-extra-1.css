@@ -1944,6 +1944,12 @@ or until modernizr tests for it (version 3?).
       color: #666666;
       border-bottom-color: transparent; }
 
+.search-page .search-form__query {
+  width: 95%; }
+
+.search-page .search-form__button {
+  width: 5%; }
+
 .hallway {
   margin-top: 10px; }
   .hallway .hallway-item {

@@ -1367,6 +1367,12 @@ or until modernizr tests for it (version 3?).
       color: #666666;
       border-bottom-color: transparent; }
 
+.search-page .search-form__query {
+  width: 95%; }
+
+.search-page .search-form__button {
+  width: 5%; }
+
 .hallway {
   margin-top: 10px; }
   .hallway .hallway-item {
@@ -9607,6 +9613,7 @@ p.left-float-image {
     .service-finder__results__item h2 a,
     .project-finder__results__item h2 a {
       font-weight: 500;
+      padding-top: 4px;
       border-bottom-width: 1px;
       border-bottom-style: dotted;
       position: relative; }
@@ -10085,8 +10092,3 @@ p.left-float-image {
 
 .scholarship-finder__results__item__md {
   margin-bottom: 5px; }
-  .scholarship-finder__results__item__md > .fa, .ui-accordion .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon, #courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon, .white-card__media .embed-container .scholarship-finder__results__item__md > a:before, .course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon {
-    float: left;
-    line-height: 21px; }
-  .scholarship-finder__results__item__md > div {
-    margin-left: 22px; }
