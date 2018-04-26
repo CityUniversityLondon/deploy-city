@@ -20,21 +20,6 @@ $(function () {
             var uniqueItems = [];
             var isFirstFeeAdded = false;
 
-            if (isCPD) {
-                var today = new Date();
-
-                dropdownOptions.each(function() {
-                    var dateVis = $(this).data('startdatevis');
-                    var dateThreshold = new Date(this.value);
-                    dateThreshold.setDate(dateThreshold.getDate() + 8);
-
-                    if ((dateThreshold < today) && (dateVis != 'hide-date')) {
-                        $(this).remove();
-                    }
-                });
-                dropdownOptions = $('#shortcourse-dropdown option');
-            }
-
             // fees
             dropdownOptions.each(function() {
                 if ($.inArray($(this).data('fees'), uniqueItems) == -1) {
