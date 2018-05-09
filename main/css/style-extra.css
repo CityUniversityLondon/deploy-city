@@ -7864,22 +7864,35 @@ body#library {
 .shortcourse-tutor-wrapper {
   padding-left: 0;
   padding-right: 0;
+  position: relative;
+  background: -webkit-gradient(linear,left top,right top,from(white),to(white));
+  background: -webkit-linear-gradient(left,#fff 0,#fff 100%);
+  background: linear-gradient(to right,#fff 0,#fff 100%);
 }
 
 @media only screen and (min-width:768px) {
+  .shortcourse-tutor-wrapper {
+    margin-bottom: 20px;
+  }
+
   .shortcourse-tutor-wrapper:after {
-    content: "";
+    content: '';
+    width: 100%;
+    height: 40px;
     position: absolute;
-    bottom: 14px;
-    width: 0;
-    height: 0;
-    border-top: 50px solid transparent;
-    border-left: 400px solid transparent;
-    border-bottom: 40px solid #fff;
+    background: inherit;
+    z-index: 1;
+    bottom: -25px;
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: skewY(-5deg);
+    -ms-transform: skewY(-5deg);
+    transform: skewY(-5deg);
   }
 
   .shortcourse-tutor-wrapper.shortcourse-tutor-selection:after {
-    bottom: 0;
+    bottom: -40px;
   }
 }
 
@@ -8283,8 +8296,14 @@ body#library {
 
 @media only screen and (min-width:768px) {
   .shortcourse-tutor-wrapper.shortcourse-tutor-wrapper--cpd:after {
-    border-left: none;
-    border-right: 400px solid transparent;
+    bottom: 10px;
+    -webkit-transform: skewY(5deg);
+    -ms-transform: skewY(5deg);
+    transform: skewY(5deg);
+  }
+
+  .shortcourse-tutor-wrapper.shortcourse-tutor-wrapper--cpd.shortcourse-tutor-selection:after {
+    bottom: 0;
   }
 }
 
