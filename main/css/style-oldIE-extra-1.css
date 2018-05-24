@@ -11935,7 +11935,7 @@ input[type=checkbox]:disabled {
   color: #555;
 }
 
-.header__util__students a span::after {
+.header__util__students a>span::after {
   margin-left: 1em;
   margin-right: 0;
   content: "\f08e";
@@ -11945,7 +11945,7 @@ input[type=checkbox]:disabled {
   float: none;
 }
 
-.header__util__students a span span {
+.header__util__students a>span span {
   margin: 1.5em 1.2em;
   display: block;
 }
