@@ -10851,8 +10851,7 @@ input[type=checkbox]:disabled {
   position: relative;
 }
 
-.header__util__misc,
-.header__util__students {
+.header__util__misc {
   float: left;
   list-style-type: none;
   padding: 1.1em 0;
@@ -10866,35 +10865,28 @@ input[type=checkbox]:disabled {
   font-size: 1.2em;
 }
 
-.header__util__misc,
-.header__util__students {
+.header__util__misc {
   margin: 6px 0 0 0;
   font-size: 1.1em;
 }
 
-.header__util__misc li,
-.header__util__students li {
+.header__util__misc li {
   display: inline-block;
 }
 
 .header__util__misc a:link,
-.header__util__misc a:visited,
-.header__util__students a:link,
-.header__util__students a:visited {
+.header__util__misc a:visited {
   color: #fff;
   border: none;
   margin-right: 4em;
 }
 
-.header__util__misc a:hover,
-.header__util__students a:hover {
+.header__util__misc a:hover {
   border-bottom: 1px solid #fff;
 }
 
 .header__util__misc a:active,
-.header__util__misc a:focus,
-.header__util__students a:active,
-.header__util__students a:focus {
+.header__util__misc a:focus {
   border: none;
   background: #fff;
   color: #555;
@@ -10904,13 +10896,8 @@ input[type=checkbox]:disabled {
   font-size: 1.1em;
 }
 
+.header__util__staff,
 .header__util__students {
-  font-size: 1.1em;
-  line-height: 1.1em;
-  border-right: 2px solid #831226;
-}
-
-.header__util__staff {
   display: inline-block;
   color: #fff;
   border-right: 2px solid #831226;
@@ -10919,7 +10906,8 @@ input[type=checkbox]:disabled {
   float: left;
 }
 
-.header__util__staff:first-child {
+.header__util__staff:first-child,
+.header__util__students:first-child {
   border-left: 2px solid #831226;
 }
 
@@ -16034,4 +16022,24 @@ a.city-vision-widget:hover hr {
 
 .contact-list .contact {
   margin-bottom: 20px;
+}
+
+.contact-list .name {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  border-bottom: 1px solid #a0271f;
+  padding-bottom: 4px;
+}
+
+.contact-list .email {
+  display: block;
+}
+
+.contact-list .tel {
+  display: block;
+}
+
+.contact-list .fax {
+  display: block;
 }

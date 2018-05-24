@@ -10946,8 +10946,7 @@ input[type=checkbox]:disabled {
   }
 }
 
-.header__util__misc,
-.header__util__students {
+.header__util__misc {
   float: left;
   list-style-type: none;
   padding: 1.1em 0;
@@ -10962,35 +10961,28 @@ input[type=checkbox]:disabled {
 }
 
 @media only screen and (min-width:980px) {
-  .header__util__misc,
-  .header__util__students {
+  .header__util__misc {
     margin: 6px 0 0 0;
     font-size: 1.1em;
   }
 
-  .header__util__misc li,
-  .header__util__students li {
+  .header__util__misc li {
     display: inline-block;
   }
 
   .header__util__misc a:link,
-  .header__util__misc a:visited,
-  .header__util__students a:link,
-  .header__util__students a:visited {
+  .header__util__misc a:visited {
     color: #fff;
     border: none;
     margin-right: 4em;
   }
 
-  .header__util__misc a:hover,
-  .header__util__students a:hover {
+  .header__util__misc a:hover {
     border-bottom: 1px solid #fff;
   }
 
   .header__util__misc a:active,
-  .header__util__misc a:focus,
-  .header__util__students a:active,
-  .header__util__students a:focus {
+  .header__util__misc a:focus {
     border: none;
     background: #fff;
     color: #555;
@@ -11001,13 +10993,8 @@ input[type=checkbox]:disabled {
   }
 }
 
+.header__util__staff,
 .header__util__students {
-  font-size: 1.1em;
-  line-height: 1.1em;
-  border-right: 2px solid #831226;
-}
-
-.header__util__staff {
   display: inline-block;
   color: #fff;
   border-right: 2px solid #831226;
@@ -11016,7 +11003,8 @@ input[type=checkbox]:disabled {
   float: left;
 }
 
-.header__util__staff:first-child {
+.header__util__staff:first-child,
+.header__util__students:first-child {
   border-left: 2px solid #831226;
 }
 
@@ -16119,4 +16107,50 @@ a.city-vision-widget:hover hr {
   .module-search #search-query {
     width: 89%;
   }
+}
+
+@media only screen and (min-width:980px) {
+  .module-search label {
+    display: block;
+  }
+
+  .module-search #search-query {
+    margin-top: 1px;
+    width: 92%;
+  }
+
+  .module-search .search-button {
+    margin-top: 1px;
+    width: 41px;
+  }
+
+  .module-search .search-advanced {
+    float: right;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .module-search #search-query {
+    width: 94%;
+  }
+
+  .module-search .search-button {
+    width: 37px;
+  }
+}
+
+.best-bet {
+  background: #f7f7f7;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  position: relative;
+  border: 1px solid #e7e7e7;
+}
+
+.best-bet .best-bet__label {
+  font-size: .8em;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #999;
 }
