@@ -10851,7 +10851,8 @@ input[type=checkbox]:disabled {
   position: relative;
 }
 
-.header__util__misc {
+.header__util__misc,
+.header__util__students {
   float: left;
   list-style-type: none;
   padding: 1.1em 0;
@@ -10896,8 +10897,13 @@ input[type=checkbox]:disabled {
   font-size: 1.1em;
 }
 
-.header__util__staff,
 .header__util__students {
+  font-size: 1.1em;
+  line-height: 1.1em;
+  border-right: 2px solid #831226;
+}
+
+.header__util__staff {
   display: inline-block;
   color: #fff;
   border-right: 2px solid #831226;
@@ -10906,8 +10912,7 @@ input[type=checkbox]:disabled {
   float: left;
 }
 
-.header__util__staff:first-child,
-.header__util__students:first-child {
+.header__util__staff:first-child {
   border-left: 2px solid #831226;
 }
 
