@@ -12137,6 +12137,37 @@ input[type=checkbox]:disabled {
   z-index: 9;
 }
 
+.header__util__students a:link,
+.header__util__students a:visited {
+  color: #fff;
+  line-height: 1em;
+}
+
+.header__util__students a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.header__util__students a:active,
+.header__util__students a:focus {
+  border: none;
+  background: #fff;
+  color: #555;
+}
+
+.header__util__students a span span {
+  margin: 1.5em 1.2em;
+  display: block;
+}
+
+.header__util__students a span span::after {
+  margin-left: 1em;
+  margin-right: 0;
+  content: "\f08e";
+  font-family: FontAwesome;
+  display: inline-block;
+  float: none;
+}
+
 .connect-with-us .social-icon {
   background: url(//s1.city.ac.uk/cityr/i/home/social.png) no-repeat 0 -30px;
   display: block;
@@ -16107,50 +16138,4 @@ a.city-vision-widget:hover hr {
   .module-search #search-query {
     width: 89%;
   }
-}
-
-@media only screen and (min-width:980px) {
-  .module-search label {
-    display: block;
-  }
-
-  .module-search #search-query {
-    margin-top: 1px;
-    width: 92%;
-  }
-
-  .module-search .search-button {
-    margin-top: 1px;
-    width: 41px;
-  }
-
-  .module-search .search-advanced {
-    float: right;
-  }
-}
-
-@media only screen and (min-width:1200px) {
-  .module-search #search-query {
-    width: 94%;
-  }
-
-  .module-search .search-button {
-    width: 37px;
-  }
-}
-
-.best-bet {
-  background: #f7f7f7;
-  padding: 20px;
-  margin: 0 0 20px 0;
-  position: relative;
-  border: 1px solid #e7e7e7;
-}
-
-.best-bet .best-bet__label {
-  font-size: .8em;
-  position: absolute;
-  top: 5px;
-  right: 10px;
-  color: #999;
 }

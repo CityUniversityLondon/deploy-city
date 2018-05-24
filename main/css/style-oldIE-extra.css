@@ -1,3 +1,22 @@
+.course__school ul li a {
+  margin-left: 10px;
+}
+
+.course__school ul li a.course__school__noicon {
+  margin-left: 21px;
+}
+
+.course__school.course__school--inline li {
+  display: inline-block;
+}
+
+.course__clearing-cta {
+  padding: 20px 20px 25px 20px;
+  margin-bottom: 15px;
+  color: #FFF;
+  background: #0377a0;
+}
+
 .course__clearing-cta h2 {
   font-size: 1.7em;
   margin: 0;

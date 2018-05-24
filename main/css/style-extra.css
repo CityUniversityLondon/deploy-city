@@ -1,3 +1,36 @@
+.scholarship .footer a:focus,
+.scholarship a.simple:focus {
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color: #333;
+}
+
+.scholarship .footer a:active,
+.scholarship a.simple:active {
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color: #333;
+}
+
+.scholarship a.hallway {
+  font-weight: 600;
+}
+
+.scholarship a.hallway:link {
+  color: #333;
+  border-bottom-color: transparent;
+}
+
+.scholarship a.hallway:visited {
+  color: #333;
+}
+
+.scholarship a.hallway:hover {
+  color: #b91b1b;
+  border-bottom-style: solid;
+  border-bottom-color: #b91b1b;
+}
+
 .scholarship a.hallway:focus {
   background-color: #FFF;
   color: #b91b1b;
