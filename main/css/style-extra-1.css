@@ -12164,6 +12164,7 @@ input[type=checkbox]:disabled {
   margin-right: 0;
   content: "\f08e";
   font-family: FontAwesome;
+  padding: .2em .4em .1em;
   display: inline-block;
   float: none;
 }
