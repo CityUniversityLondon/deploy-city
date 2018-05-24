@@ -10866,28 +10866,35 @@ input[type=checkbox]:disabled {
   font-size: 1.2em;
 }
 
-.header__util__misc {
+.header__util__misc,
+.header__util__students {
   margin: 6px 0 0 0;
   font-size: 1.1em;
 }
 
-.header__util__misc li {
+.header__util__misc li,
+.header__util__students li {
   display: inline-block;
 }
 
 .header__util__misc a:link,
-.header__util__misc a:visited {
+.header__util__misc a:visited,
+.header__util__students a:link,
+.header__util__students a:visited {
   color: #fff;
   border: none;
   margin-right: 4em;
 }
 
-.header__util__misc a:hover {
+.header__util__misc a:hover,
+.header__util__students a:hover {
   border-bottom: 1px solid #fff;
 }
 
 .header__util__misc a:active,
-.header__util__misc a:focus {
+.header__util__misc a:focus,
+.header__util__students a:active,
+.header__util__students a:focus {
   border: none;
   background: #fff;
   color: #555;
@@ -16027,24 +16034,4 @@ a.city-vision-widget:hover hr {
 
 .contact-list .contact {
   margin-bottom: 20px;
-}
-
-.contact-list .name {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: 700;
-  border-bottom: 1px solid #a0271f;
-  padding-bottom: 4px;
-}
-
-.contact-list .email {
-  display: block;
-}
-
-.contact-list .tel {
-  display: block;
-}
-
-.contact-list .fax {
-  display: block;
 }
