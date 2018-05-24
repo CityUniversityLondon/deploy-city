@@ -1,3 +1,23 @@
+@media only screen and (min-width:980px) {
+  .module-search label {
+    display: block;
+  }
+
+  .module-search #search-query {
+    margin-top: 1px;
+    width: 92%;
+  }
+
+  .module-search .search-button {
+    margin-top: 1px;
+    width: 41px;
+  }
+
+  .module-search .search-advanced {
+    float: right;
+  }
+}
+
 @media only screen and (min-width:1200px) {
   .module-search #search-query {
     width: 94%;
@@ -15200,20 +15220,6 @@ table.visa-event-table tr th {
 
 .scholarship .footer a:hover,
 .scholarship a.simple:hover {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333;
-}
-
-.scholarship .footer a:focus,
-.scholarship a.simple:focus {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333;
-}
-
-.scholarship .footer a:active,
-.scholarship a.simple:active {
   background-color: transparent;
   border-bottom-style: solid;
   border-bottom-color: #333;
