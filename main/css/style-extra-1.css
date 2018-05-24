@@ -10993,8 +10993,7 @@ input[type=checkbox]:disabled {
   }
 }
 
-.header__util__staff,
-.header__util__students {
+.header__util__staff {
   display: inline-block;
   color: #fff;
   border-right: 2px solid #831226;
@@ -11003,8 +11002,7 @@ input[type=checkbox]:disabled {
   float: left;
 }
 
-.header__util__staff:first-child,
-.header__util__students:first-child {
+.header__util__staff:first-child {
   border-left: 2px solid #831226;
 }
 
@@ -11681,9 +11679,7 @@ input[type=checkbox]:disabled {
 }
 
 .global-nav__wrapper--active .header__util__audience--responsive .header__util__staff,
-.global-nav__wrapper--active .header__util__audience--responsive .header__util__students,
-.no-js .header__util__audience--responsive .header__util__staff,
-.no-js .header__util__audience--responsive .header__util__students {
+.no-js .header__util__audience--responsive .header__util__staff {
   display: block;
   float: none;
   border: none;
@@ -16137,5 +16133,25 @@ a.city-vision-widget:hover hr {
 @media only screen and (min-width:500px) {
   .module-search #search-query {
     width: 89%;
+  }
+}
+
+@media only screen and (min-width:980px) {
+  .module-search label {
+    display: block;
+  }
+
+  .module-search #search-query {
+    margin-top: 1px;
+    width: 92%;
+  }
+
+  .module-search .search-button {
+    margin-top: 1px;
+    width: 41px;
+  }
+
+  .module-search .search-advanced {
+    float: right;
   }
 }
