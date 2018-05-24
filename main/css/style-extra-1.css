@@ -12154,12 +12154,7 @@ input[type=checkbox]:disabled {
   color: #555;
 }
 
-.header__util__students a span span {
-  margin: 1.5em 1.2em;
-  display: block;
-}
-
-.header__util__students a span span::after {
+.header__util__students a span::after {
   margin-left: 1em;
   margin-right: 0;
   content: "\f08e";
@@ -12167,6 +12162,11 @@ input[type=checkbox]:disabled {
   padding: .2em .4em .1em;
   display: inline-block;
   float: none;
+}
+
+.header__util__students a span span {
+  margin: 1.5em 1.2em;
+  display: block;
 }
 
 .connect-with-us .social-icon {
