@@ -11918,18 +11918,18 @@ input[type=checkbox]:disabled {
   z-index: 9;
 }
 
-.header__util__students a:link,
-.header__util__students a:visited {
+.header__util__students a:link span span,
+.header__util__students a:visited span span {
   color: #fff;
   line-height: 1em;
 }
 
-.header__util__students a:hover {
+.header__util__students a:hover span span {
   border-bottom: 1px solid #fff;
 }
 
-.header__util__students a:active,
-.header__util__students a:focus {
+.header__util__students a:active span span,
+.header__util__students a:focus span span {
   border: none;
   background: #fff;
   color: #555;
