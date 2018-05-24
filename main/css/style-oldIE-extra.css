@@ -1,3 +1,7 @@
+.course__school ul li a {
+  margin-left: 10px;
+}
+
 .course__school ul li a.course__school__noicon {
   margin-left: 21px;
 }

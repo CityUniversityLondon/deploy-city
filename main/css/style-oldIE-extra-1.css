@@ -11918,6 +11918,20 @@ input[type=checkbox]:disabled {
   z-index: 9;
 }
 
+.header__util__students a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1.5em 1.2em;
+  border: none;
+}
+
+.header__util__students a span {
+  -ms-flex-item-align: center;
+  align-self: center;
+  padding-top: .2em;
+}
+
 .header__util__students a:link span,
 .header__util__students a:visited span {
   color: #fff;
@@ -11933,12 +11947,6 @@ input[type=checkbox]:disabled {
   border: none;
   background: #fff;
   color: #555;
-}
-
-.header__util__students a span {
-  margin: 1.5em 1.2em;
-  display: block;
-  padding: .2em 0 .1em;
 }
 
 .connect-with-us .social-icon {
@@ -16045,12 +16053,4 @@ a.city-vision-widget:hover hr {
 
 .contact-list .contact {
   margin-bottom: 20px;
-}
-
-.contact-list .name {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: 700;
-  border-bottom: 1px solid #a0271f;
-  padding-bottom: 4px;
 }
