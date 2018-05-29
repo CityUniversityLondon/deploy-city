@@ -6531,6 +6531,8 @@ body#library {
 .shortcourse-tutor-wrapper {
   padding-left: 0;
   padding-right: 0;
+  margin-left: -10px;
+  margin-right: -10px;
   position: relative;
   background: -webkit-gradient(linear,left top,right top,from(white),to(white));
   background: -webkit-linear-gradient(left,#fff 0,#fff 100%);
@@ -6541,21 +6543,17 @@ body#library {
 .shortcourse-tutor-wrapper:after {
   content: '';
   width: 100%;
-  height: 40px;
+  height: 35px;
   position: absolute;
   background: inherit;
   z-index: 1;
-  bottom: -25px;
+  bottom: -35px;
   -webkit-transform-origin: left top;
   -ms-transform-origin: left top;
   transform-origin: left top;
   -webkit-transform: skewY(-5deg);
   -ms-transform: skewY(-5deg);
   transform: skewY(-5deg);
-}
-
-.shortcourse-tutor-wrapper.shortcourse-tutor-selection:after {
-  bottom: -40px;
 }
 
 .shortcourse-tutor-block {
@@ -6647,6 +6645,7 @@ body#library {
 .shortcourse-tutor-items {
   list-style-type: none;
   margin-left: 0;
+  margin-bottom: 0;
 }
 
 .shortcourse-tutor img {
@@ -6677,17 +6676,26 @@ body#library {
   padding-bottom: 40px;
 }
 
-.shortcourse-promo {
-  padding-left: 0;
-  padding-right: 0;
-  margin-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 .shortcourse-promo img {
   margin-bottom: 0;
   width: 100%;
+}
+
+.shortcourse-promo--mobile {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.shortcourse-promo--desktop {
+  display: none;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 20px;
 }
 
 .shortcourse-next-course-block {
@@ -6697,6 +6705,7 @@ body#library {
   padding-bottom: 20px;
   margin-left: -10px;
   margin-right: -10px;
+  margin-bottom: 20px;
 }
 
 .shortcourse-next-course-block h2 {
@@ -6736,6 +6745,7 @@ body#library {
 .shortcourse-related-course-block {
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .shortcourse-related-course-block h2 {
@@ -6748,22 +6758,26 @@ body#library {
   margin-bottom: 10px;
 }
 
-.shortcourse-twitter,
-.shortcourse-twitter--desktop {
+.shortcourse-twitter {
   border: 1px solid #eee;
   border-radius: 5px;
   height: 400px;
   overflow-y: auto;
-  margin-bottom: 40px;
 }
 
-.shortcourse-twitter {
+.shortcourse-twitter--mobile {
+  margin-bottom: 40px;
   display: none;
 }
 
 .shortcourse-twitter--desktop {
   display: none;
   display: block;
+  margin-bottom: 30px;
+}
+
+.shortcourse-tutor-wrapper+.shortcourse-twitter--desktop {
+  margin-top: 40px;
 }
 
 .shortcourse-header__award.shortcourse-header__award--cpd {
@@ -6879,7 +6893,7 @@ body#library {
 }
 
 .shortcourse-tutor-wrapper.shortcourse-tutor-wrapper--cpd:after {
-  bottom: 10px;
+  bottom: 0;
   -webkit-transform: skewY(5deg);
   -ms-transform: skewY(5deg);
   transform: skewY(5deg);
