@@ -8087,9 +8087,72 @@ body#library {
   padding-bottom: 40px;
 }
 
+.shortcourse-promo {
+  position: relative;
+  overflow: hidden;
+}
+
 .shortcourse-promo img {
   margin-bottom: 0;
-  width: 100%;
+  height: 100%;
+  max-width: none;
+}
+
+@media only screen and (min-width:1200px) {
+  .shortcourse-promo img {
+    width: 100%;
+  }
+}
+
+.shortcourse-promo__text {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  z-index: 1;
+  font-size: 1.8em;
+  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
+.shortcourse-promo__text p {
+  margin-bottom: 0;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.shortcourse-promo__text a {
+  display: inline-block;
+  margin-top: 20px;
+  border-bottom: none;
+  color: #e31b25;
+  font-size: 1.1em;
+}
+
+#courses-widget .widget-content .ui-accordion-header .shortcourse-promo__text .ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .shortcourse-promo__text .ui-icon,
+.shortcourse-promo__text #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.shortcourse-promo__text .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.shortcourse-promo__text .fa,
+.shortcourse-promo__text .ui-accordion .ui-accordion-header .ui-icon,
+.shortcourse-promo__text .white-card__media .embed-container a:before,
+.ui-accordion .ui-accordion-header .shortcourse-promo__text .ui-icon,
+.white-card__media .embed-container .shortcourse-promo__text a:before {
+  margin-left: 10px;
+  vertical-align: middle;
+  font-size: 1.2em;
+}
+
+@media only screen and (min-width:980px) {
+  .shortcourse-promo__text {
+    left: 30px;
+  }
+}
+
+.shortcourse-promo__text a:hover span:not([class]) {
+  border-bottom: 2px solid #e31b25;
+}
+
+.shortcourse-promo__text a:focus {
+  color: #fff;
 }
 
 .shortcourse-promo--mobile {
