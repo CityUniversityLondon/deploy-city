@@ -8036,6 +8036,7 @@ body#library {
 
 .shortcourse-tutor img {
   margin-bottom: 0;
+  max-height: 300px;
 }
 
 @media only screen and (min-width:320px) {

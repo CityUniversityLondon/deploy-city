@@ -6650,6 +6650,7 @@ body#library {
 
 .shortcourse-tutor img {
   margin-bottom: 0;
+  max-height: 300px;
   max-width: 300px;
   max-width: 100%;
   max-width: 90%;
