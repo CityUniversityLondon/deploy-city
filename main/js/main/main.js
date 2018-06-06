@@ -49,7 +49,7 @@ module.exports = function () {
             var scripts = {
                     googleMapsApi: {
                         description: "google maps api",
-                        src: "https://maps.googleapis.com/maps/api/js?key=AIzaSyC2tMpI7FFnlIjNvO0VrTPIhfGAvQhAfr0&sensor=false"
+                        src: "https://maps.googleapis.com/maps/api/js?key=AIzaSyBvg6r1x2ZRKPAsceVaKPlg6tO20QiBDpo&sensor=false"
                     },
                     flowplayer: {
                         description: "include flowplayer for pages with videos",
