@@ -20,7 +20,7 @@ CITY.visit = (function (CITY, $) {
          * data source - relative to handle production and test environments
          * @var {String}
          */
-        dataSrc = "//www.city.ac.uk/visit/feeds/locations",
+        dataSrc = "https://www.city.ac.uk/visit/feeds/locations",
 
         /**
          * Create a LatLng object containing the coordinate for the center of the map
@@ -40,6 +40,7 @@ CITY.visit = (function (CITY, $) {
          */
         mapOptions = {
             zoom: 17,
+            key: AIzaSyBvg6r1x2ZRKPAsceVaKPlg6tO20QiBDpo,
             center: latlng,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             streetViewControl: true,
