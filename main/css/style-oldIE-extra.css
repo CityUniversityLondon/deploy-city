@@ -6987,19 +6987,19 @@ body#library {
   padding-right: 20px;
 }
 
-.cpd-which-programme__title {
-  font-weight: 400;
-  margin-bottom: 10px;
-  font-size: 1em;
-}
-
-.cpd-which-programme__title a {
+.cpd-which-programmes a {
   color: #eee;
   border-bottom: 2px dotted #ccc;
 }
 
-.cpd-which-programme__title a:hover {
+.cpd-which-programmes a:hover {
   border-bottom: 2px solid #FFF;
+}
+
+.cpd-which-programme__title {
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 1em;
 }
 
 .survey-message {

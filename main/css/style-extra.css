@@ -8463,6 +8463,15 @@ body#library {
   margin-right: -10px;
 }
 
+.cpd-which-programmes a {
+  color: #eee;
+  border-bottom: 2px dotted #ccc;
+}
+
+.cpd-which-programmes a:hover {
+  border-bottom: 2px solid #FFF;
+}
+
 @media only screen and (min-width:768px) {
   .cpd-which-programmes {
     margin-left: 0;
@@ -8481,15 +8490,6 @@ body#library {
   font-weight: 400;
   margin-bottom: 10px;
   font-size: 1em;
-}
-
-.cpd-which-programme__title a {
-  color: #eee;
-  border-bottom: 2px dotted #ccc;
-}
-
-.cpd-which-programme__title a:hover {
-  border-bottom: 2px solid #FFF;
 }
 
 .survey-message {
