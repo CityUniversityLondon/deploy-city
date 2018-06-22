@@ -1,3 +1,7 @@
+.course__school ul li {
+  margin-bottom: 15px;
+}
+
 .course__school ul li a {
   margin-left: 10px;
 }

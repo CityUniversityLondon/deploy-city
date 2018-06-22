@@ -10422,6 +10422,10 @@ body {
   border-bottom: none;
 }
 
+.widget .widget-content .vcard .email-wrapper {
+  word-break: break-all;
+}
+
 .widget.widget-invisible {
   display: block;
 }

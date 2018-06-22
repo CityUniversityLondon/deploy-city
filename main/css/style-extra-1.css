@@ -15026,6 +15026,10 @@ body {
   border-bottom: none;
 }
 
+.widget .widget-content .vcard .email-wrapper {
+  word-break: break-all;
+}
+
 @media only screen and (min-width:768px) {
   .widget.widget-invisible {
     display: block;

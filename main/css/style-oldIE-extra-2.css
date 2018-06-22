@@ -1,3 +1,7 @@
+.contact-list .contact {
+  margin-bottom: 20px;
+}
+
 .contact-list .name {
   display: block;
   margin-bottom: 10px;
@@ -15012,8 +15016,4 @@ p.left-float-image {
 .course__school ul {
   list-style-type: none;
   margin-left: 0;
-}
-
-.course__school ul li {
-  margin-bottom: 15px;
 }

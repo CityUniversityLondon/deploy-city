@@ -11516,6 +11516,10 @@ body {
   border-bottom: none;
 }
 
+.widget .widget-content .vcard .email-wrapper {
+  word-break: break-all;
+}
+
 @media only screen and (min-width:768px) {
   .widget.widget-invisible {
     display: block;
@@ -15574,9 +15578,4 @@ a:focus {
 
 .tile-wrapper .tile-listing .tile a.tile-img-heading span {
   border-bottom: dotted 1px #666;
-}
-
-.tile-wrapper .tile-listing .tile a.tile-img-heading:visited .tile-heading span {
-  color: #000;
-  border-bottom: dotted 1px #000;
 }

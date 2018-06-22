@@ -14575,6 +14575,10 @@ body {
   border-bottom: none;
 }
 
+.widget .widget-content .vcard .email-wrapper {
+  word-break: break-all;
+}
+
 .widget.widget-invisible {
   display: block;
 }
@@ -16049,8 +16053,4 @@ a.city-vision-widget:hover hr {
   margin: 0;
   padding: 10px 0 0;
   overflow: hidden;
-}
-
-.contact-list .contact {
-  margin-bottom: 20px;
 }
