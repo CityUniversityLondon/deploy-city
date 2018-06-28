@@ -1,3 +1,48 @@
+.course {
+  margin-top: -50px;
+}
+
+.course.fb-best-bet {
+  margin-top: 0;
+}
+
+.course .banner-media {
+  position: relative;
+}
+
+.course h1 {
+  margin-bottom: 0;
+}
+
+.course__subheader {
+  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.5;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.course__subheader:after {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 6px;
+  clear: both;
+  margin-top: 10px;
+}
+
+.course__subheader__sep {
+  color: #ddd;
+  margin: 0 20px;
+  padding-bottom: 20px;
+}
+
+.course__school ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
 .course__school ul li {
   margin-bottom: 15px;
 }

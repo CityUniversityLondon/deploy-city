@@ -4956,6 +4956,38 @@ aside .news-article-widget:last-child {
   margin: 1.5em 0 .5em;
 }
 
+.coloured-action-box.coloured-action-box--dark-blue a span {
+  color: #00294a;
+}
+
+.coloured-action-box.coloured-action-box--light-blue a span {
+  color: #00b1e1;
+}
+
+.coloured-action-box.coloured-action-box--green a span {
+  color: #649c4d;
+}
+
+.coloured-action-box.coloured-action-box--red a span {
+  color: #dd0036;
+}
+
+.coloured-action-box.coloured-action-box--dark-purple a span {
+  color: #401661;
+}
+
+.coloured-action-box.coloured-action-box--light-purple a span {
+  color: #842a8f;
+}
+
+.coloured-action-box.coloured-action-box--maroon a span {
+  color: #390031;
+}
+
+.coloured-action-box.coloured-action-box--teal a span {
+  color: #00454c;
+}
+
 #statistic-carousel {
   overflow: hidden;
   padding: 0 70px;
@@ -14971,49 +15003,4 @@ p.left-float-image {
 
 .course .course__key-information h3 a {
   float: right;
-}
-
-.course {
-  margin-top: -50px;
-}
-
-.course.fb-best-bet {
-  margin-top: 0;
-}
-
-.course .banner-media {
-  position: relative;
-}
-
-.course h1 {
-  margin-bottom: 0;
-}
-
-.course__subheader {
-  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
-  font-size: 1.2em;
-  font-weight: 400;
-  line-height: 1.5;
-  position: relative;
-  margin-bottom: 24px;
-}
-
-.course__subheader:after {
-  content: "";
-  display: block;
-  width: 160px;
-  height: 6px;
-  clear: both;
-  margin-top: 10px;
-}
-
-.course__subheader__sep {
-  color: #ddd;
-  margin: 0 20px;
-  padding-bottom: 20px;
-}
-
-.course__school ul {
-  list-style-type: none;
-  margin-left: 0;
 }

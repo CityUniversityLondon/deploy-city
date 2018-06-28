@@ -5565,6 +5565,38 @@ aside .news-article-widget:last-child {
   margin: 1.5em 0 .5em;
 }
 
+.coloured-action-box.coloured-action-box--dark-blue a span {
+  color: #00294a;
+}
+
+.coloured-action-box.coloured-action-box--light-blue a span {
+  color: #00b1e1;
+}
+
+.coloured-action-box.coloured-action-box--green a span {
+  color: #649c4d;
+}
+
+.coloured-action-box.coloured-action-box--red a span {
+  color: #dd0036;
+}
+
+.coloured-action-box.coloured-action-box--dark-purple a span {
+  color: #401661;
+}
+
+.coloured-action-box.coloured-action-box--light-purple a span {
+  color: #842a8f;
+}
+
+.coloured-action-box.coloured-action-box--maroon a span {
+  color: #390031;
+}
+
+.coloured-action-box.coloured-action-box--teal a span {
+  color: #00454c;
+}
+
 #statistic-carousel {
   overflow: hidden;
   padding: 0 70px;
@@ -15193,34 +15225,4 @@ table.visa-event-table tr th {
 .scholarship .dark-background a:hover {
   color: #FFF;
   border-bottom-color: #FFF;
-}
-
-.scholarship .dark-background a:focus {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.scholarship .dark-background a:active {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.scholarship .footer a:link,
-.scholarship a.simple:link {
-  color: #333;
-  border-bottom-color: transparent;
-}
-
-.scholarship .footer a:visited,
-.scholarship a.simple:visited {
-  color: #333;
-}
-
-.scholarship .footer a:hover,
-.scholarship a.simple:hover {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333;
 }
