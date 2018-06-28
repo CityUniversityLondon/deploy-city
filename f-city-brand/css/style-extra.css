@@ -1,3 +1,36 @@
+.scholarship a:visited {
+  color: #670003;
+}
+
+.scholarship a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #670003;
+}
+
+.scholarship a:focus {
+  background-color: #b91b1b;
+  color: #FFFFFF;
+  border-bottom-color: transparent;
+}
+
+.scholarship a:active {
+  background-color: #b91b1b;
+  color: #FFFFFF;
+  border-bottom-color: transparent;
+}
+
+.scholarship h3 a {
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  position: relative;
+}
+
+.scholarship h3 a,
+.scholarship h3 a:hover,
+.scholarship h3 a:focus {
+  text-decoration: none;
+}
+
 .scholarship h3 a:link {
   border-bottom-width: 2px;
 }

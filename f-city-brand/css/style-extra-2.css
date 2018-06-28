@@ -5791,6 +5791,38 @@ aside .news-article-widget:last-child {
   margin: 1.5em 0 0.5em;
 }
 
+.coloured-action-box.coloured-action-box--dark-blue a span {
+  color: #00294a;
+}
+
+.coloured-action-box.coloured-action-box--light-blue a span {
+  color: #00b1e1;
+}
+
+.coloured-action-box.coloured-action-box--green a span {
+  color: #649c4d;
+}
+
+.coloured-action-box.coloured-action-box--red a span {
+  color: #dd0036;
+}
+
+.coloured-action-box.coloured-action-box--dark-purple a span {
+  color: #401661;
+}
+
+.coloured-action-box.coloured-action-box--light-purple a span {
+  color: #842a8f;
+}
+
+.coloured-action-box.coloured-action-box--maroon a span {
+  color: #390031;
+}
+
+.coloured-action-box.coloured-action-box--teal a span {
+  color: #00454c;
+}
+
 #statistic-carousel {
   overflow: hidden;
   padding: 0 70px;
@@ -15448,37 +15480,4 @@ table.visa-event-table tr td {
 .scholarship a:link {
   color: #b91b1b;
   border-bottom-color: #999999;
-}
-
-.scholarship a:visited {
-  color: #670003;
-}
-
-.scholarship a:hover {
-  border-bottom-style: solid;
-  border-bottom-color: #670003;
-}
-
-.scholarship a:focus {
-  background-color: #b91b1b;
-  color: #FFFFFF;
-  border-bottom-color: transparent;
-}
-
-.scholarship a:active {
-  background-color: #b91b1b;
-  color: #FFFFFF;
-  border-bottom-color: transparent;
-}
-
-.scholarship h3 a {
-  border-bottom-width: 1px;
-  border-bottom-style: dotted;
-  position: relative;
-}
-
-.scholarship h3 a,
-.scholarship h3 a:hover,
-.scholarship h3 a:focus {
-  text-decoration: none;
 }

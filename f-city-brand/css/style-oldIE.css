@@ -14863,6 +14863,30 @@ or until modernizr tests for it (version 3?).
 .coloured-action-box .coloured-action-box__description {
   margin: 1.5em 0 0.5em; }
 
+.coloured-action-box.coloured-action-box--dark-blue a span {
+  color: #00294a; }
+
+.coloured-action-box.coloured-action-box--light-blue a span {
+  color: #00b1e1; }
+
+.coloured-action-box.coloured-action-box--green a span {
+  color: #649c4d; }
+
+.coloured-action-box.coloured-action-box--red a span {
+  color: #dd0036; }
+
+.coloured-action-box.coloured-action-box--dark-purple a span {
+  color: #401661; }
+
+.coloured-action-box.coloured-action-box--light-purple a span {
+  color: #842a8f; }
+
+.coloured-action-box.coloured-action-box--maroon a span {
+  color: #390031; }
+
+.coloured-action-box.coloured-action-box--teal a span {
+  color: #00454c; }
+
 #statistic-carousel {
   overflow: hidden;
   padding: 0 70px; }

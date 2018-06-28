@@ -5120,6 +5120,38 @@ aside .news-article-widget:last-child {
   margin: 1.5em 0 0.5em;
 }
 
+.coloured-action-box.coloured-action-box--dark-blue a span {
+  color: #00294a;
+}
+
+.coloured-action-box.coloured-action-box--light-blue a span {
+  color: #00b1e1;
+}
+
+.coloured-action-box.coloured-action-box--green a span {
+  color: #649c4d;
+}
+
+.coloured-action-box.coloured-action-box--red a span {
+  color: #dd0036;
+}
+
+.coloured-action-box.coloured-action-box--dark-purple a span {
+  color: #401661;
+}
+
+.coloured-action-box.coloured-action-box--light-purple a span {
+  color: #842a8f;
+}
+
+.coloured-action-box.coloured-action-box--maroon a span {
+  color: #390031;
+}
+
+.coloured-action-box.coloured-action-box--teal a span {
+  color: #00454c;
+}
+
 #statistic-carousel {
   overflow: hidden;
   padding: 0 70px;
@@ -15161,28 +15193,4 @@ p.left-float-image {
   border-bottom-width: 1px;
   -webkit-transition: none;
   transition: none;
-}
-
-.course .course__bottom-ctas a:link,
-.course .course__bottom-ctas #contact-widget a:link {
-  color: #eeeeee;
-  border-bottom-color: #cccccc;
-}
-
-.course .course__bottom-ctas a:visited,
-.course .course__bottom-ctas #contact-widget a:visited {
-  color: #eeeeee;
-}
-
-.course .course__bottom-ctas a:hover,
-.course .course__bottom-ctas #contact-widget a:hover {
-  color: #FFFFFF;
-  border-bottom-color: #FFFFFF;
-}
-
-.course .course__bottom-ctas a:focus,
-.course .course__bottom-ctas #contact-widget a:focus {
-  background-color: #FFFFFF;
-  color: #555555;
-  border-bottom-color: transparent;
 }

@@ -1,3 +1,27 @@
+.course .course__bottom-ctas a:link,
+.course .course__bottom-ctas #contact-widget a:link {
+  color: #eeeeee;
+  border-bottom-color: #cccccc;
+}
+
+.course .course__bottom-ctas a:visited,
+.course .course__bottom-ctas #contact-widget a:visited {
+  color: #eeeeee;
+}
+
+.course .course__bottom-ctas a:hover,
+.course .course__bottom-ctas #contact-widget a:hover {
+  color: #FFFFFF;
+  border-bottom-color: #FFFFFF;
+}
+
+.course .course__bottom-ctas a:focus,
+.course .course__bottom-ctas #contact-widget a:focus {
+  background-color: #FFFFFF;
+  color: #555555;
+  border-bottom-color: transparent;
+}
+
 .course .course__bottom-ctas a:active,
 .course .course__bottom-ctas #contact-widget a:active {
   background-color: #FFFFFF;
