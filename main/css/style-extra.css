@@ -7565,6 +7565,13 @@ body#library {
   display: inline-block;
 }
 
+@media only screen and (min-width:980px) {
+  .shortcourse-header {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .shortcourse-header-wrapper {
   padding-top: 20px;
 }
@@ -7596,6 +7603,13 @@ body#library {
   margin: 0 -10px;
   max-height: 300px;
   overflow: hidden;
+}
+
+@media only screen and (min-width:980px) {
+  .shortcourse-banner {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 @media only screen and (min-width:1200px) {
@@ -8223,6 +8237,13 @@ body#library {
   margin-bottom: 20px;
 }
 
+@media only screen and (min-width:980px) {
+  .shortcourse-next-course-block {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .shortcourse-next-course-block h2 {
   margin-bottom: 30px;
 }
@@ -8396,6 +8417,13 @@ body#library {
   .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd {
     margin-left: -10px;
     margin-right: -10px;
+  }
+}
+
+@media only screen and (min-width:980px) {
+  .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 

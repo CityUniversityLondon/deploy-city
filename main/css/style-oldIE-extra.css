@@ -6313,6 +6313,8 @@ body#library {
   margin: 0 -10px;
   padding: 0 10px;
   font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .shortcourse-header h1 {
@@ -6340,6 +6342,8 @@ body#library {
   margin: 0 -10px;
   max-height: 300px;
   overflow: hidden;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .shortcourse-banner img {
@@ -6808,6 +6812,8 @@ body#library {
   margin-left: -10px;
   margin-right: -10px;
   margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .shortcourse-next-course-block h2 {
@@ -6948,6 +6954,8 @@ body#library {
   margin-bottom: 10px;
   margin-left: -10px;
   margin-right: -10px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .shortcourse-testimonials-block.shortcourse-testimonials-block--cpd .shortcourse-testimonials,
