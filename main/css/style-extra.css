@@ -5099,7 +5099,7 @@ dl.staffhub-dl dt {
 }
 
 dl.staffhub-dl dd {
-  margin-left: 0;
+  margin-left: 1rem;
 }
 
 #library-search fieldset {
