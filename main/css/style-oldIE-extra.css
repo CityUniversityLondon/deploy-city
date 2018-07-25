@@ -4059,7 +4059,7 @@ a.course__red-links__link:hover .course__red-links__link__title {
 }
 
 dl.staffhub-dl dt {
-  background-color: #fff;
+  background-color: none;
   font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
   font-size: 18px;
   font-weight: 500;
