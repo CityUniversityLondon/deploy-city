@@ -6,7 +6,10 @@ const className = 'popup-def-list-group';
 function dialogModelBox(widget, items){
 
 	function open(i, s){
-		var {title, category, content} = items[i];
+        var title = items[i].title;
+        var category = items[i].category;
+        var content = items[i].content;
+		
 
 		var dlgTitle = $('<div></div>')
 
@@ -14,38 +17,38 @@ function dialogModelBox(widget, items){
             .html(title)
             .appendTo(dlgTitle);
 
-        let prevIndex = (i - 1 + items.length) % items.length;
-        let nextIndex = (i + 1 ) % items.length;
-        let prev = items[prevIndex];
-        let next = items[nextIndex];
+        var prevIndex = (i - 1 + items.length) % items.length;
+        var nextIndex = (i + 1 ) % items.length;
+        var prev = items[prevIndex];
+        var next = items[nextIndex];
 
-        let prevLink = $('<a></a>')
+        var prevLink = $('<a></a>')
             .attr('href', '#')
             .append(prev.title)
-            .on('click', evt => {
+            .on('click', function (evt) {
                 evt.preventDefault();
                 open(prevIndex, false);
             });
 
-        let nextLink = $('<a></a>')
+        var nextLink = $('<a></a>')
             .attr('href', '#')
             .append(next.title)
-            .on('click', evt => {
+            .on('click', function (evt) {
                 evt.preventDefault();
                 open(nextIndex, false);
             });
 
-        let nextWrapper = $('<div></div>')
+        var nextWrapper = $('<div></div>')
             .addClass('popup-def-list-group__prevnext__next')
             .append(nextLink)
             .append('<span class="popup-def-list-group__prevnext__next__icon" aria-hidden="true"></span>');
 
-        let prevWrapper = $('<div></div>')
+        var prevWrapper = $('<div></div>')
             .addClass('popup-def-list-group__prevnext__prev')
             .append('<span class="popup-def-list-group__prevnext__prev__icon" aria-hidden="true"></span>')
             .append(prevLink);
 
-        let dlgContent = $('<div></div>')
+        var dlgContent = $('<div></div>')
             .append(content);
 
         $('<div></div>')
@@ -56,20 +59,21 @@ function dialogModelBox(widget, items){
 
 
             openModalDialog(dlgTitle, dlgContent, {
-            s,
-            className: `${className}--yellow`
+            status: s,
+            className: className + '--yellow'
         });
 
            
 	}
 
-	 items.forEach(function({heading},i){
-            let anchor = $('<a></a>')
+	 items.forEach(function(e,i){
+            var heading = e.heading;
+            var anchor = $('<a></a>')
             .attr('href', '#')
             .addClass('popup-def-list-group__anchor')
             .html(heading.html());
 
-            anchor.on('click', evt => {
+            anchor.on('click', function (evt) {
                 evt.preventDefault();
                 open(i, true)
             });

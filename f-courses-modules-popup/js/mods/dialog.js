@@ -2,7 +2,9 @@ var $ = require('./libs/jquery');
 var extend = require('extend');
 var createFocusTrap = require('focus-trap');
 
-function closeDialog(focusBack = true) {
+function closeDialog(focusBack) {
+
+    focusBack = focusBack || true;
     if (current.dlg) {
         current.focusTrap.deactivate();
         current.dlg.remove();
@@ -29,15 +31,19 @@ const current = {
     focusBackTo: null,
 };
 
-function openModalDialog(title, content, opts = {}) {
+function openModalDialog(title, content, opts) {
+
+    opts = opts || {};
     closeDialog(false);
-    let finalOptions = extend({}, DEFAULT_OPTS, opts);
+    //var finalOptions = Object.assign({}, DEFAULT_OPTS, opts);
+    var finalOptions = $.extend({}, DEFAULT_OPTS, opts);
+
 
     if (finalOptions.identifyFocusBackTo) {
         current.focusBackTo = $(":focus");
     }
 
-    let dlg = current.dlg = $('<div></div>')
+    var dlg = current.dlg = $('<div></div>')
         .addClass('dialog')
         .attr('tabindex', '0')
         .appendTo($('body'));
@@ -46,17 +52,17 @@ function openModalDialog(title, content, opts = {}) {
         dlg.addClass(finalOptions.className)
     }
 
-    dlg.on('keydown', evt => {
+    dlg.on('keydown', function (evt) {
         if (evt.which === 27) {
             closeDialog();
             evt.preventDefault();
         }
     });
 
-    let box = $('<div></div>').addClass('dialog__box')
+    var box = $('<div></div>').addClass('dialog__box')
         .appendTo(dlg);
 
-    let heading = $('<div></div>')
+    var heading = $('<div></div>')
         .addClass('dialog__box__heading')
         .html(title)
         .appendTo(box);
@@ -64,7 +70,7 @@ function openModalDialog(title, content, opts = {}) {
     $('<div></div>').addClass('dialog__box__content').append(content).appendTo(box);
 
     if (finalOptions.closeOnOverlay) {
-        dlg.on('click', evt => {
+        dlg.on('click', function (evt) {
             if (evt.target === dlg[0]) {
                 closeDialog();
             }
@@ -72,14 +78,14 @@ function openModalDialog(title, content, opts = {}) {
     }
 
     if (finalOptions.closeButton) {
-        let button = $('<a></a>')
+        var button = $('<a></a>')
             .attr('href', '#')
             .attr('aria-label', 'Close')
             .attr('role', 'button')
             .addClass('dialog__box__heading__close')
             .append($('<span></span>').addClass('dialog__box__heading__close__icon'));
 
-        button.on('click', evt => {
+        button.on('click', function (evt) {
             evt.preventDefault();
             closeDialog();
         });

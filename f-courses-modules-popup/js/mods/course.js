@@ -225,10 +225,10 @@ var $ = require('./libs/jquery'),
             var li = $(this);
             var heading = li.children().first();
             var content = li.children().eq(1);
-            let dlgContent = content.clone();
+            var dlgContent = content.clone();
             items.push({
-                li,
-                heading,
+                li: li,
+                heading: heading,
                 title: heading.html(),
                 content: dlgContent,
             })
