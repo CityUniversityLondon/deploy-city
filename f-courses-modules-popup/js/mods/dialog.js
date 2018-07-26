@@ -1,12 +1,10 @@
 var $ = require('./libs/jquery');
 var extend = require('extend');
-var createFocusTrap = require('focus-trap');
 
 function closeDialog(focusBack) {
 
     focusBack = focusBack || true;
     if (current.dlg) {
-        current.focusTrap.deactivate();
         current.dlg.remove();
         current.dlg = null;
     }
@@ -95,7 +93,7 @@ function openModalDialog(title, content, opts) {
 
     dlg.focus();
 
-    current.focusTrap = createFocusTrap(dlg[0]).activate();
+    
 
     $('html').addClass('no-scroll');
 }
