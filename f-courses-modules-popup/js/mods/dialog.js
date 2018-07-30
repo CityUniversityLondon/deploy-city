@@ -16,14 +16,14 @@ function closeDialog(focusBack) {
     $('html').removeClass('no-scroll');
 }
 
-const DEFAULT_OPTS = {
+var DEFAULT_OPTS = {
     closeOnOverlay: true,
     closeButton: true,
     identifyFocusBackTo: true,
     className: null,
 };
 
-const current = {
+var current = {
     focusTrap: null,
     dlg: null,
     focusBackTo: null,

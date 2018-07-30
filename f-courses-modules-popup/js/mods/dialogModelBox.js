@@ -1,7 +1,7 @@
 var $ = require('./libs/jquery');
 var openModalDialog = require('./dialog');
 
-const className = 'popup-def-list-group';
+var className = 'popup-def-list-group';
 
 function dialogModelBox(widget, items){
 
