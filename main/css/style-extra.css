@@ -1,3 +1,23 @@
+.scholarship .dark-background a:link,
+.scholarship .widget a:link,
+.scholarship [class*=widget-] a:link {
+  border-bottom-width: 2px;
+}
+
+.scholarship .dark-background a:link {
+  color: #eee;
+  border-bottom-color: #ccc;
+}
+
+.scholarship .dark-background a:visited {
+  color: #eee;
+}
+
+.scholarship .dark-background a:hover {
+  color: #FFF;
+  border-bottom-color: #FFF;
+}
+
 .scholarship .dark-background a:focus {
   background-color: #FFF;
   color: #555;

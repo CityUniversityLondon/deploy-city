@@ -6177,6 +6177,37 @@ aside .news-article-widget:last-child {
   padding: 3px 5px;
 }
 
+.bar-chart {
+  width: 95%;
+  margin-bottom: 40px;
+}
+
+.bar-chart__items {
+  height: 20px;
+  display: inline-block;
+  color: #fff;
+  padding-left: 5px;
+}
+
+.bar-chart__items--first {
+  background-color: #3f165e;
+  float: left;
+}
+
+.bar-chart__items--second {
+  background-color: #e49c40;
+  float: left;
+}
+
+.bar-chart__items--third {
+  background-color: #253f51;
+  float: left;
+}
+
+.courses__barchart h3 {
+  clear: both;
+}
+
 #digital-shoreditch #content {
   font-size: 1em;
 }
@@ -15205,24 +15236,4 @@ table.visa-event-table tr th {
 
 .scholarship .hard-cta a:hover {
   border: 1px solid #670003;
-}
-
-.scholarship .dark-background a:link,
-.scholarship .widget a:link,
-.scholarship [class*=widget-] a:link {
-  border-bottom-width: 2px;
-}
-
-.scholarship .dark-background a:link {
-  color: #eee;
-  border-bottom-color: #ccc;
-}
-
-.scholarship .dark-background a:visited {
-  color: #eee;
-}
-
-.scholarship .dark-background a:hover {
-  color: #FFF;
-  border-bottom-color: #FFF;
 }
