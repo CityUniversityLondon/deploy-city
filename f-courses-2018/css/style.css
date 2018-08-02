@@ -22161,24 +22161,43 @@ table.visa-event-table {
     margin-top: 0; }
 
 a.course__red-links__link {
-  padding: 30px 10px;
+  padding: 1.2em 1.6em;
   display: block;
   border: none;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.4em;
+  margin-bottom: 1.2em; }
+  @media only screen and (min-width: 480px) {
+    a.course__red-links__link {
+      padding: 1.2em 3em; } }
+  @media only screen and (min-width: 600px) {
+    a.course__red-links__link {
+      padding: 1.2em 1.6em; } }
+  @media only screen and (min-width: 768px) {
+    a.course__red-links__link {
+      padding: 1.2em 2em; } }
+  @media only screen and (min-width: 1035px) {
+    a.course__red-links__link {
+      padding: 1.2em 1.6em; } }
   a.course__red-links__link, a.course__red-links__link:link, a.course__red-links__link:visited, a.course__red-links__link:hover, a.course__red-links__link:focus, a.course__red-links__link:active {
     color: #FFFFFF;
     border: none; }
   a.course__red-links__link:hover .course__red-links__link__title {
     border-bottom: 1px solid #FFFFFF; }
 
+a.course__red-links__link.course__red-links__link--apply {
+  text-align: left; }
+
 .course__red-links__link__icon {
-  font-size: 3em;
-  margin-bottom: 10px; }
+  float: left; }
+
+.course__red-links__link__icon--left-align {
+  float: right; }
 
 .course__red-links__link__title {
   font-weight: 600;
-  font-size: 12px; }
+  display: inline-block; }
   @media only screen and (min-width: 480px) {
     .course__red-links__link__title {
       font-size: 14px; } }
