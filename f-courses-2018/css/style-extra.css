@@ -2189,6 +2189,16 @@ a.course__red-links__link.course__red-links__link--apply {
   margin-right: 5px;
 }
 
+select[title='Select entry year'] {
+  border: none;
+  border-radius: 0px;
+  outline: 2px solid #979797;
+  font-size: 1.2em;
+  line-height: 1.5;
+  -webkit-appearance: none;
+  padding: 0 5px;
+}
+
 .course-finder input,
 .course-finder select {
   font-size: 16px;
