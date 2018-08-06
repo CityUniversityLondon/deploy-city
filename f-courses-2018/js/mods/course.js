@@ -107,9 +107,24 @@ var $ = require('./libs/jquery'),
 
         toggle.click(function (e) {
             e.preventDefault();
+            $(this).text(function(i, v){
+               return v == 'Hide' ? 'Show' : 'Hide'
+            });
             content.slideToggle();
         });
     },
+
+    /* Previous
+    initMenu = function () {
+        var menu = $('.course__menu'),
+            toggle = menu.find('.course__menu__title a'),
+            content = menu.find('.course__menu__content');
+
+        toggle.click(function (e) {
+            e.preventDefault();
+            content.slideToggle();
+        });
+    }, */
 
     initEmployment = function () {
         var wrapper = $('.course__employment');
