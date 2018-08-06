@@ -22318,6 +22318,10 @@ a.course__red-links__link.course__red-links__link--apply {
 .course-rd .course__profiles__item__title a:focus, .course-rd .course__profiles__item__title a:active {
   color: #243d51; }
 
+.course__entries__text {
+  display: inline-block;
+  margin-right: 5px; }
+
 .course-finder input, .course-finder select {
   font-size: 16px; }
 
