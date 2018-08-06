@@ -1241,17 +1241,11 @@ a.course__red-links__link {
 
 @media only screen and (min-width: 600px) {
   a.course__red-links__link {
-    padding: 1.2em 1.6em;
+    padding: 1.2em 1.4em;
   }
 }
 
-@media only screen and (min-width: 768px) {
-  a.course__red-links__link {
-    padding: 1.2em 2em;
-  }
-}
-
-@media only screen and (min-width: 1035px) {
+@media only screen and (min-width: 980px) {
   a.course__red-links__link {
     padding: 1.2em 1.6em;
   }
