@@ -114,18 +114,6 @@ var $ = require('./libs/jquery'),
         });
     },
 
-    /* Previous
-    initMenu = function () {
-        var menu = $('.course__menu'),
-            toggle = menu.find('.course__menu__title a'),
-            content = menu.find('.course__menu__content');
-
-        toggle.click(function (e) {
-            e.preventDefault();
-            content.slideToggle();
-        });
-    }, */
-
     initEmployment = function () {
         var wrapper = $('.course__employment');
         if (wrapper.length) {
@@ -233,13 +221,13 @@ var $ = require('./libs/jquery'),
 
     init = function () {
         initKisWidget();
-        initMenu();
         initAccordions();
         initEntries();
         initTestimonials();
         initCharts();
         initReadMore();
         initApplyDialog();
+        initMenu();
     };
 
 defer(init);
