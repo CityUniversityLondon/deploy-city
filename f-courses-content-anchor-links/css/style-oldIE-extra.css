@@ -970,6 +970,7 @@ a.course__red-links__link:hover .course__red-links__link__title {
 
 .course__menu {
   max-width: 300px;
+  min-height: 45px;
   border: 1px solid #cdcdcd;
   background: #fff;
   padding: 5px 10px;
@@ -979,16 +980,35 @@ a.course__red-links__link:hover .course__red-links__link__title {
   margin-left: 26px;
 }
 
+.course__menu__title h4,
+.course__menu__title a {
+  padding-top: 1px;
+}
+
 .course__menu__title h4 {
   font-weight: 700;
   position: absolute;
-  margin-top: 13px;
   margin-bottom: 24px;
   display: inline;
 }
 
 .course__menu__title a {
   float: right;
+  text-decoration: underline;
+  border-bottom-style: none;
+  margin-top: 6px;
+}
+
+.course__menu__title a:hover {
+  border-bottom: 0;
+  text-decoration: underline;
+}
+
+.course__menu__title a:focus,
+.course__menu__title a:active {
+  color: #670003;
+  background: #fff;
+  border-bottom-color: #999;
 }
 
 .course__menu__title svg {
@@ -997,11 +1017,11 @@ a.course__red-links__link:hover .course__red-links__link__title {
   position: absolute;
 }
 
-.course__menu__title i.fa.fa-indent.fa-3,
-.course__menu__title .ui-accordion .ui-accordion-header i.fa-indent.fa-3.ui-icon,
-.ui-accordion .ui-accordion-header .course__menu__title i.fa-indent.fa-3.ui-icon,
-.course__menu__title #courses-widget .widget-content .ui-accordion-header i.fa-indent.fa-3.ui-icon,
-#courses-widget .widget-content .ui-accordion-header .course__menu__title i.fa-indent.fa-3.ui-icon {
+.course__menu__title span.fa.fa-indent.fa-3.course__menu__title__icon,
+.course__menu__title .ui-accordion .ui-accordion-header span.fa-indent.fa-3.course__menu__title__icon.ui-icon,
+.ui-accordion .ui-accordion-header .course__menu__title span.fa-indent.fa-3.course__menu__title__icon.ui-icon,
+.course__menu__title #courses-widget .widget-content .ui-accordion-header span.fa-indent.fa-3.course__menu__title__icon.ui-icon,
+#courses-widget .widget-content .ui-accordion-header .course__menu__title span.fa-indent.fa-3.course__menu__title__icon.ui-icon {
   color: white;
   font-size: 23px;
   left: -26px;
