@@ -1971,9 +1971,21 @@ a.course__red-links__link:hover .course__red-links__link__title {
 
 .programme__specification a {
   border-bottom: 0;
-  padding-left: 6px;
   display: inline-block;
   margin: 1.5% 1%;
+  border-bottom: 1px dotted #999999;
+}
+
+.programme__specification a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #670003;
+}
+
+.programme__specification a:active,
+.programme__specification a:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
 }
 
 .programme__specification span.fa.fa-file-text-o,

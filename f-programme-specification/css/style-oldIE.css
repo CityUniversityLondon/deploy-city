@@ -22183,9 +22183,16 @@ a.course__red-links__link {
     padding: 0; }
   .programme__specification a {
     border-bottom: 0;
-    padding-left: 6px;
     display: inline-block;
-    margin: 1.5% 1%; }
+    margin: 1.5% 1%;
+    border-bottom: 1px dotted #999999; }
+    .programme__specification a:hover {
+      border-bottom-style: solid;
+      border-bottom-color: #670003; }
+    .programme__specification a:active, .programme__specification a:focus {
+      background-color: #b91b1b;
+      color: #FFF;
+      border-bottom-color: transparent; }
   .programme__specification span.fa.fa-file-text-o, .programme__specification .ui-accordion .ui-accordion-header span.fa-file-text-o.ui-icon, .ui-accordion .ui-accordion-header .programme__specification span.fa-file-text-o.ui-icon, .programme__specification #courses-widget .widget-content .ui-accordion-header span.fa-file-text-o.ui-icon, #courses-widget .widget-content .ui-accordion-header .programme__specification span.fa-file-text-o.ui-icon, .programme__specification .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.fa-file-text-o.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .programme__specification span.fa-file-text-o.ui-icon {
     border-right: 1px solid #a31c36;
     padding-right: 4px;
