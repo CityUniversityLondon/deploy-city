@@ -107,6 +107,7 @@ var $ = require('./libs/jquery'),
 
         toggle.click(function (e) {
             e.preventDefault();
+            console.log("I hate JavaScript");
             $(this).text(function(i, v){
                return v == 'Hide' ? 'Show' : 'Hide'
             });
