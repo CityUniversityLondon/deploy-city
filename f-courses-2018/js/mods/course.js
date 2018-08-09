@@ -1,5 +1,5 @@
-var $ = require('./libs/jquery'),
-    onResize = require('./utils/on-resize'),
+// $ = require('./libs/jquery');
+var onResize = require('./utils/on-resize'),
     composeFunctions = require('../utils/compose-functions'),
     defer = require('./utils/defer'),
     charts = require('../utils/charts'),
