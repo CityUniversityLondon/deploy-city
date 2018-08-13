@@ -12,7 +12,7 @@ function createPlayer(id, data) {
     if (apiStatus === LOADED || apiStatus === LOADING) {
         initPlayer(id, data);
     } else {
-        pendingPlayers.push({id, data});
+        pendingPlayers.push({ id: id, data: data });
         if (apiStatus === UNLOADED) {
             loadApi();
         }
@@ -25,20 +25,20 @@ function initPlayer(id, data) {
         data.events.onInit();
     }
 
-    let player = new YT.Player(id, data);
-    players[id] = {player, data};
+    var player = new YT.Player(id, data);
+    players[id] = {player : player, data : data};
 }
 
 
 function loadApi() {
     apiStatus = LOADING;
     window.onYouTubeIframeAPIReady = function () {
-        pendingPlayers.forEach(({id, data}) => initPlayer(id, data));
+        pendingPlayers.forEach(function(pendingPlayers){ initPlayer(pendingPlayers.id, pendingPlayers.data);});
     };
 
-    let tag = document.createElement('script');
+    var tag = document.createElement('script');
     tag.src = "https://www.youtube.com/iframe_api";
-    let firstScriptTag = document.getElementsByTagName('script')[0];
+    var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 }
 

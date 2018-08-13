@@ -19,20 +19,21 @@ function loadYoutubeVideo(wrapper, services) {
     var iframeId = 'ytev-'+id;
     var link = null;
     var h,w;
+    var windowWidth = window.innerWidth;
 
-    if(window.innerWidth >= 1500){
+    if(windowWidth >= 1500){
         h=720;
         w=1280;
     }
-    else if(window.innerWidth <= 1499 && window.innerWidth >= 1050){
+    else if(windowWidth <= 1499 && windowWidth >= 1050){
         h=480;
         w=854;
     }
-    else if(window.innerWidth <= 1049 && window.innerWidth >= 800){
+    else if(windowWidth <= 1049 && windowWidth >= 800){
         h=360;
         w=640;
     }
-    else if(window.innerWidth <= 799 && window.innerWidth >= 580){
+    else if(windowWidth <= 799 && windowWidth >= 580){
         h=240;
         w=426;
     }
@@ -85,8 +86,8 @@ function loadYoutubeVideo(wrapper, services) {
                     wrapper.addClass('video-preview--loading');
                 },
                 onReady: function (event) {
-                    let player = event.target;
-                    let iframe = link.siblings('iframe');
+                    var player = event.target;
+                    var iframe = link.siblings('iframe');
 
                     wrapper.removeClass('video-preview--loading');
                     wrapper.addClass('media--youtube');
