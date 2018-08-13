@@ -335,16 +335,11 @@
 }
 
 a.course__red-links__link {
-  padding: 1.2em 1.6em;
+  padding: 30px 10px;
   display: block;
   border: none;
   position: relative;
   text-align: center;
-  font-size: 1.4em;
-  margin-bottom: 1.2em;
-  padding: 1.2em 3em;
-  padding: 1.2em 1.4em;
-  padding: 1.2em 1.6em;
 }
 
 a.course__red-links__link,
@@ -361,19 +356,38 @@ a.course__red-links__link:hover .course__red-links__link__title {
   border-bottom: 1px solid #FFFFFF;
 }
 
+a.course__red-links__link--cta {
+  font-size: 1.4em;
+  margin-bottom: 1.2em;
+  padding: 1.2em 3em;
+  padding: 1.2em 1.4em;
+  padding: 1.2em 1.6em;
+}
+
 a.course__red-links__link.course__red-links__link--apply {
   text-align: left;
 }
 
 .course__red-links__link__icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.course__red-links__link--cta__icon {
   float: left;
 }
 
-.course__red-links__link__icon--left-align {
+.course__red-links__link__icon--cta--left-align {
   float: right;
 }
 
 .course__red-links__link__title {
+  font-weight: 600;
+  font-size: 12px;
+  font-size: 14px;
+}
+
+.course__red-links__link__title--cta {
   font-weight: 600;
   display: inline-block;
   font-size: 14px;
