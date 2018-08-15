@@ -8854,6 +8854,7 @@ aside .news-article-widget:last-child {
   text-indent: 0;
   color: #fff;
   position: absolute;
+  background-color: transparent;
   z-index: 2;
   border-bottom: none;
   left: 50%;

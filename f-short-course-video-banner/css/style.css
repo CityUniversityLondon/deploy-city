@@ -17039,6 +17039,7 @@ or until modernizr tests for it (version 3?).
       text-indent: 0;
       color: #fff;
       position: absolute;
+      background-color: transparent;
       z-index: 2;
       border-bottom: none;
       left: 50%;
