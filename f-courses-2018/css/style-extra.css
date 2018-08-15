@@ -1246,14 +1246,9 @@ a.course__red-links__link:hover .course__red-links__link__title {
 }
 
 a.course__red-links__link--cta {
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-bottom: 1.2em;
-}
-
-@media only screen and (min-width: 480px) {
-  a.course__red-links__link--cta {
-    padding: 1.2em 3em;
-  }
+  padding: 1.2em 3em;
 }
 
 @media only screen and (min-width: 600px) {
@@ -1264,7 +1259,7 @@ a.course__red-links__link--cta {
 
 @media only screen and (min-width: 980px) {
   a.course__red-links__link--cta {
-    padding: 1.2em 1.6em;
+    padding: 1.2em 1.2em;
   }
 }
 
@@ -1279,6 +1274,7 @@ a.course__red-links__link.course__red-links__link--apply {
 
 .course__red-links__link--cta__icon {
   float: left;
+  font-size: 1.4em;
 }
 
 .course__red-links__link__icon--cta--left-align {
@@ -1299,12 +1295,6 @@ a.course__red-links__link.course__red-links__link--apply {
 .course__red-links__link__title--cta {
   font-weight: 600;
   display: inline-block;
-}
-
-@media only screen and (min-width: 480px) {
-  .course__red-links__link__title--cta {
-    font-size: 14px;
-  }
 }
 
 .course__red-links__link__description {

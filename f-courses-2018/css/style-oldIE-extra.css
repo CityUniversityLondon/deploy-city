@@ -357,11 +357,11 @@ a.course__red-links__link:hover .course__red-links__link__title {
 }
 
 a.course__red-links__link--cta {
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-bottom: 1.2em;
   padding: 1.2em 3em;
   padding: 1.2em 1.4em;
-  padding: 1.2em 1.6em;
+  padding: 1.2em 1.2em;
 }
 
 a.course__red-links__link.course__red-links__link--apply {
@@ -375,6 +375,7 @@ a.course__red-links__link.course__red-links__link--apply {
 
 .course__red-links__link--cta__icon {
   float: left;
+  font-size: 1.4em;
 }
 
 .course__red-links__link__icon--cta--left-align {
@@ -390,7 +391,6 @@ a.course__red-links__link.course__red-links__link--apply {
 .course__red-links__link__title--cta {
   font-weight: 600;
   display: inline-block;
-  font-size: 14px;
 }
 
 .course__red-links__link__description {
