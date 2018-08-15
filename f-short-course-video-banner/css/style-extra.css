@@ -1,409 +1,3 @@
-#promo-wrapper .banner-n.banner--slp.banner--slp--health .ghost-cta:focus,
-#promo-wrapper .banner-n.banner--slp.banner--slp--health .ghost-cta:active {
-  color: white;
-  background: #0077a0;
-  border-color: #eee;
-}
-
-#promo-wrapper .banner-n.banner--slp.banner--slp--smcse .ghost-cta:hover {
-  color: white;
-  background: #00444d;
-  border-color: #00444d;
-}
-
-#promo-wrapper .banner-n.banner--slp.banner--slp--smcse .ghost-cta:focus,
-#promo-wrapper .banner-n.banner--slp.banner--slp--smcse .ghost-cta:active {
-  color: white;
-  background: #649a44;
-  border-color: #eee;
-}
-
-#promo-wrapper .banner-n.banner--slp.banner--slp--law .ghost-cta:hover {
-  color: white;
-  background: #401663;
-  border-color: #401663;
-}
-
-#promo-wrapper .banner-n.banner--slp.banner--slp--law .ghost-cta:focus,
-#promo-wrapper .banner-n.banner--slp.banner--slp--law .ghost-cta:active {
-  color: white;
-  background: #842b91;
-  border-color: #eee;
-}
-
-.usps__wrapper.usps__wrapper--slp {
-  padding-bottom: 0;
-}
-
-.service,
-.project {
-  /** TODO: remove after services uses default link style */
-}
-
-.service a,
-.project a {
-  border-bottom-width: 1px;
-  border-bottom-style: dotted;
-  position: relative;
-}
-
-.service a,
-.service a:hover,
-.service a:focus,
-.project a,
-.project a:hover,
-.project a:focus {
-  text-decoration: none;
-}
-
-.service a:link,
-.project a:link {
-  color: #b91b1b;
-  border-bottom-color: #999999;
-}
-
-.service a:visited,
-.project a:visited {
-  color: #670003;
-}
-
-.service a:hover,
-.project a:hover {
-  border-bottom-style: solid;
-  border-bottom-color: #670003;
-}
-
-.service a:focus,
-.project a:focus {
-  background-color: #b91b1b;
-  color: #FFFFFF;
-  border-bottom-color: transparent;
-}
-
-.service a:active,
-.project a:active {
-  background-color: #b91b1b;
-  color: #FFFFFF;
-  border-bottom-color: transparent;
-}
-
-.service h3 a,
-.project h3 a {
-  border-bottom-width: 1px;
-  border-bottom-style: dotted;
-  position: relative;
-}
-
-.service h3 a,
-.service h3 a:hover,
-.service h3 a:focus,
-.project h3 a,
-.project h3 a:hover,
-.project h3 a:focus {
-  text-decoration: none;
-}
-
-.service h3 a:link,
-.project h3 a:link {
-  border-bottom-width: 2px;
-}
-
-.service .hard-cta a:link,
-.service .hard-cta a:visited,
-.project .hard-cta a:link,
-.project .hard-cta a:visited {
-  color: #fff;
-  border: 1px solid #a0271f;
-}
-
-.service .hard-cta a:hover,
-.project .hard-cta a:hover {
-  border: 1px solid #670003;
-}
-
-.service .dark-background a:link,
-.service .widget a:link,
-.service [class*="widget-"] a:link,
-.project .dark-background a:link,
-.project .widget a:link,
-.project [class*="widget-"] a:link {
-  border-bottom-width: 2px;
-}
-
-.service .dark-background a:link,
-.project .dark-background a:link {
-  color: #eeeeee;
-  border-bottom-color: #cccccc;
-}
-
-.service .dark-background a:visited,
-.project .dark-background a:visited {
-  color: #eeeeee;
-}
-
-.service .dark-background a:hover,
-.project .dark-background a:hover {
-  color: #FFFFFF;
-  border-bottom-color: #FFFFFF;
-}
-
-.service .dark-background a:focus,
-.project .dark-background a:focus {
-  background-color: #FFFFFF;
-  color: #555555;
-  border-bottom-color: transparent;
-}
-
-.service .dark-background a:active,
-.project .dark-background a:active {
-  background-color: #FFFFFF;
-  color: #555555;
-  border-bottom-color: transparent;
-}
-
-.service a.simple:link,
-.service .footer a:link,
-.project a.simple:link,
-.project .footer a:link {
-  color: #333333;
-  border-bottom-color: transparent;
-}
-
-.service a.simple:visited,
-.service .footer a:visited,
-.project a.simple:visited,
-.project .footer a:visited {
-  color: #333333;
-}
-
-.service a.simple:hover,
-.service .footer a:hover,
-.project a.simple:hover,
-.project .footer a:hover {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333333;
-}
-
-.service a.simple:focus,
-.service .footer a:focus,
-.project a.simple:focus,
-.project .footer a:focus {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333333;
-}
-
-.service a.simple:active,
-.service .footer a:active,
-.project a.simple:active,
-.project .footer a:active {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333333;
-}
-
-.service a.hallway,
-.project a.hallway {
-  font-weight: 600;
-}
-
-.service a.hallway:link,
-.project a.hallway:link {
-  color: #333333;
-  border-bottom-color: transparent;
-}
-
-.service a.hallway:visited,
-.project a.hallway:visited {
-  color: #333333;
-}
-
-.service a.hallway:hover,
-.project a.hallway:hover {
-  color: #b91b1b;
-  border-bottom-style: solid;
-  border-bottom-color: #b91b1b;
-}
-
-.service a.hallway:focus,
-.project a.hallway:focus {
-  background-color: #FFFFFF;
-  color: #b91b1b;
-  border-bottom-style: dotted;
-  border-bottom-color: #555555;
-}
-
-.service a.hallway:active,
-.project a.hallway:active {
-  background-color: #FFFFFF;
-}
-
-.service a.service__header-link,
-.service a.project__header-link,
-.project a.service__header-link,
-.project a.project__header-link {
-  font-weight: 500;
-}
-
-.service a.service__header-link:link,
-.service a.project__header-link:link,
-.project a.service__header-link:link,
-.project a.project__header-link:link {
-  color: #333333;
-  border-bottom-color: transparent;
-}
-
-.service a.service__header-link:visited,
-.service a.project__header-link:visited,
-.project a.service__header-link:visited,
-.project a.project__header-link:visited {
-  color: #333333;
-}
-
-.service a.service__header-link:hover,
-.service a.project__header-link:hover,
-.project a.service__header-link:hover,
-.project a.project__header-link:hover {
-  color: #b91b1b;
-  border-bottom-style: solid;
-  border-bottom-color: #b91b1b;
-}
-
-.service a.service__header-link:focus,
-.service a.project__header-link:focus,
-.project a.service__header-link:focus,
-.project a.project__header-link:focus {
-  background-color: #FFFFFF;
-  color: #b91b1b;
-  border-bottom-style: dotted;
-  border-bottom-color: #555555;
-}
-
-.service a.service__header-link:active,
-.service a.project__header-link:active,
-.project a.service__header-link:active,
-.project a.project__header-link:active {
-  background-color: #FFFFFF;
-}
-
-.service a.service__header-link i,
-.service a.project__header-link i,
-.project a.service__header-link i,
-.project a.project__header-link i {
-  font-size: .8em;
-  margin-left: .3em;
-}
-
-.service a.service__cta:link,
-.service a.project__cta:link,
-.project a.service__cta:link,
-.project a.project__cta:link {
-  color: #b91b1b;
-  border-bottom-width: 2px;
-  border-bottom-style: dotted;
-  border-bottom-color: #999999;
-}
-
-.service a.service__cta:visited,
-.service a.project__cta:visited,
-.project a.service__cta:visited,
-.project a.project__cta:visited {
-  color: #670003;
-  border-bottom-color: #999999;
-}
-
-.service a.service__cta:hover,
-.service a.project__cta:hover,
-.project a.service__cta:hover,
-.project a.project__cta:hover {
-  border-bottom-color: #670003;
-  border-bottom-style: solid;
-}
-
-.service a.service__cta:focus,
-.service a.project__cta:focus,
-.project a.service__cta:focus,
-.project a.project__cta:focus {
-  background-color: #b91b1b;
-  color: #FFFFFF;
-  border-bottom-color: transparent;
-}
-
-.service a.service__cta:active,
-.service a.project__cta:active,
-.project a.service__cta:active,
-.project a.project__cta:active {
-  background-color: #b91b1b;
-  color: #FFFFFF;
-  border-bottom-color: transparent;
-}
-
-.service .service__team a,
-.service .project__team a,
-.project .service__team a,
-.project .project__team a {
-  background-color: #eeeeee;
-  padding: 5px 10px;
-  border-radius: 6px;
-  font-weight: 500;
-}
-
-.service .service__team a:link,
-.service .project__team a:link,
-.project .service__team a:link,
-.project .project__team a:link {
-  color: #333333;
-  border-bottom-width: 0;
-}
-
-.service .service__team a:visited,
-.service .project__team a:visited,
-.project .service__team a:visited,
-.project .project__team a:visited {
-  color: #333333;
-}
-
-.service .service__team a:hover,
-.service .project__team a:hover,
-.project .service__team a:hover,
-.project .project__team a:hover {
-  background-color: #666666;
-  color: #FFFFFF;
-  border-color: #b91b1b;
-}
-
-.service .service__team a:focus,
-.service .project__team a:focus,
-.project .service__team a:focus,
-.project .project__team a:focus {
-  background-color: #b91b1b;
-  color: #FFFFFF;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-.service .service__team a:active,
-.service .project__team a:active,
-.project .service__team a:active,
-.project .project__team a:active {
-  background-color: #b91b1b;
-  color: #FFFFFF;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-.service .service__bottom-ctas a,
-.service .service__bottom-ctas #contact-widget a,
-.service .project__bottom-ctas a,
-.service .project__bottom-ctas #contact-widget a,
-.project .service__bottom-ctas a,
-.project .service__bottom-ctas #contact-widget a,
-.project .project__bottom-ctas a,
-.project .project__bottom-ctas #contact-widget a {
-  border-bottom-width: 1px;
-  -webkit-transition: none;
-  transition: none;
-}
-
 .service .service__bottom-ctas a:link,
 .service .service__bottom-ctas #contact-widget a:link,
 .service .project__bottom-ctas a:link,
@@ -782,14 +376,12 @@
 .ui-accordion .ui-accordion-header .service-finder__results__item__md > .ui-icon,
 #courses-widget .widget-content .ui-accordion-header .service-finder__results__item__md > .ui-icon,
 .dialog .service-finder__results__item__md > .ui-icon,
-.shortcourse-banner .media-block__wrapper .video-preview .service-finder__results__item__md > .video-preview__button,
 .white-card__media .embed-container .service-finder__results__item__md > a:before,
 .course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__md > .ui-icon,
 .project-finder__results__item__md > .fa,
 .ui-accordion .ui-accordion-header .project-finder__results__item__md > .ui-icon,
 #courses-widget .widget-content .ui-accordion-header .project-finder__results__item__md > .ui-icon,
 .dialog .project-finder__results__item__md > .ui-icon,
-.shortcourse-banner .media-block__wrapper .video-preview .project-finder__results__item__md > .video-preview__button,
 .white-card__media .embed-container .project-finder__results__item__md > a:before,
 .course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__md > .ui-icon {
   float: left;
@@ -878,8 +470,6 @@
 #courses-widget .widget-content .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
 .service-finder__results__item__info-toggle .dialog .ui-icon,
 .dialog .service-finder__results__item__info-toggle .ui-icon,
-.service-finder__results__item__info-toggle .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .service-finder__results__item__info-toggle .video-preview__button,
 .service-finder__results__item__info-toggle .white-card__media .embed-container a:before,
 .white-card__media .embed-container .service-finder__results__item__info-toggle a:before,
 .service-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
@@ -891,8 +481,6 @@
 #courses-widget .widget-content .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
 .project-finder__results__item__info-toggle .dialog .ui-icon,
 .dialog .project-finder__results__item__info-toggle .ui-icon,
-.project-finder__results__item__info-toggle .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .project-finder__results__item__info-toggle .video-preview__button,
 .project-finder__results__item__info-toggle .white-card__media .embed-container a:before,
 .white-card__media .embed-container .project-finder__results__item__info-toggle a:before,
 .project-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
@@ -1481,7 +1069,6 @@
 .ui-accordion .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon,
 #courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon,
 .dialog .scholarship-finder__results__item__md > .ui-icon,
-.shortcourse-banner .media-block__wrapper .video-preview .scholarship-finder__results__item__md > .video-preview__button,
 .white-card__media .embed-container .scholarship-finder__results__item__md > a:before,
 .course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon {
   float: left;
@@ -1544,8 +1131,6 @@
 #courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon,
 .scholarship-finder__results__item__info-toggle .dialog .ui-icon,
 .dialog .scholarship-finder__results__item__info-toggle .ui-icon,
-.scholarship-finder__results__item__info-toggle .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .scholarship-finder__results__item__info-toggle .video-preview__button,
 .scholarship-finder__results__item__info-toggle .white-card__media .embed-container a:before,
 .white-card__media .embed-container .scholarship-finder__results__item__info-toggle a:before,
 .scholarship-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
@@ -2320,8 +1905,6 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .course__profiles__item__image span.ui-icon,
 .course__profiles__item__image .dialog span.ui-icon,
 .dialog .course__profiles__item__image span.ui-icon,
-.course__profiles__item__image .shortcourse-banner .media-block__wrapper .video-preview span.video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .course__profiles__item__image span.video-preview__button,
 .course__profiles__item__image .course .accordion.ui-accordion .ui-accordion-header span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon {
   padding: 10px 0 0;
@@ -2575,8 +2158,6 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .phd-projects.phd-projects h2 a .ui-icon,
 .phd-projects.phd-projects h2 a .dialog .ui-icon,
 .dialog .phd-projects.phd-projects h2 a .ui-icon,
-.phd-projects.phd-projects h2 a .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .phd-projects.phd-projects h2 a .video-preview__button,
 .phd-projects.phd-projects h2 a .white-card__media .embed-container a:before,
 .white-card__media .embed-container .phd-projects.phd-projects h2 a a:before,
 .phd-projects.phd-projects h2 a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
@@ -2588,8 +2169,6 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .phd-projects.phd-projects h3 a .ui-icon,
 .phd-projects.phd-projects h3 a .dialog .ui-icon,
 .dialog .phd-projects.phd-projects h3 a .ui-icon,
-.phd-projects.phd-projects h3 a .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .phd-projects.phd-projects h3 a .video-preview__button,
 .phd-projects.phd-projects h3 a .white-card__media .embed-container a:before,
 .white-card__media .embed-container .phd-projects.phd-projects h3 a a:before,
 .phd-projects.phd-projects h3 a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
@@ -3233,7 +2812,6 @@ a.course__red-links__link:hover .course__red-links__link__title {
 .ui-accordion .ui-accordion-header .course-finder__results__item__md > .ui-icon,
 #courses-widget .widget-content .ui-accordion-header .course-finder__results__item__md > .ui-icon,
 .dialog .course-finder__results__item__md > .ui-icon,
-.shortcourse-banner .media-block__wrapper .video-preview .course-finder__results__item__md > .video-preview__button,
 .white-card__media .embed-container .course-finder__results__item__md > a:before,
 .course .accordion.ui-accordion .ui-accordion-header .course-finder__results__item__md > .ui-icon {
   float: left;
@@ -3296,8 +2874,6 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .course-finder__results__item__info-toggle .ui-icon,
 .course-finder__results__item__info-toggle .dialog .ui-icon,
 .dialog .course-finder__results__item__info-toggle .ui-icon,
-.course-finder__results__item__info-toggle .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .course-finder__results__item__info-toggle .video-preview__button,
 .course-finder__results__item__info-toggle .white-card__media .embed-container a:before,
 .white-card__media .embed-container .course-finder__results__item__info-toggle a:before,
 .course-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
@@ -3664,8 +3240,6 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .academic-experts-profile .personal-details .expert-name .department-name .ui-icon,
 .academic-experts-profile .personal-details .expert-name .department-name .dialog .ui-icon,
 .dialog .academic-experts-profile .personal-details .expert-name .department-name .ui-icon,
-.academic-experts-profile .personal-details .expert-name .department-name .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .academic-experts-profile .personal-details .expert-name .department-name .video-preview__button,
 .academic-experts-profile .personal-details .expert-name .department-name .white-card__media .embed-container a:before,
 .white-card__media .embed-container .academic-experts-profile .personal-details .expert-name .department-name a:before {
   padding-left: 4px;
@@ -3692,8 +3266,6 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon,
 .academic-experts-profile .personal-details .contact-lists .contact-list ul li .dialog .ui-icon,
 .dialog .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon,
-.academic-experts-profile .personal-details .contact-lists .contact-list ul li .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .academic-experts-profile .personal-details .contact-lists .contact-list ul li .video-preview__button,
 .academic-experts-profile .personal-details .contact-lists .contact-list ul li .white-card__media .embed-container a:before,
 .white-card__media .embed-container .academic-experts-profile .personal-details .contact-lists .contact-list ul li a:before {
   padding-right: 8px;
@@ -3951,7 +3523,6 @@ a.course__red-links__link:hover .course__red-links__link__title {
 .ui-accordion .ui-accordion-header .expert-finder__results__item__md > .ui-icon,
 #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__md > .ui-icon,
 .dialog .expert-finder__results__item__md > .ui-icon,
-.shortcourse-banner .media-block__wrapper .video-preview .expert-finder__results__item__md > .video-preview__button,
 .white-card__media .embed-container .expert-finder__results__item__md > a:before,
 .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__md > .ui-icon {
   float: left;
@@ -3985,8 +3556,6 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__portrait a .ui-icon,
 .expert-finder__results__item__portrait a .dialog .ui-icon,
 .dialog .expert-finder__results__item__portrait a .ui-icon,
-.expert-finder__results__item__portrait a .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .expert-finder__results__item__portrait a .video-preview__button,
 .expert-finder__results__item__portrait a .white-card__media .embed-container a:before,
 .white-card__media .embed-container .expert-finder__results__item__portrait a a:before,
 .expert-finder__results__item__portrait a .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
@@ -4048,8 +3617,6 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__info-toggle .ui-icon,
 .expert-finder__results__item__info-toggle .dialog .ui-icon,
 .dialog .expert-finder__results__item__info-toggle .ui-icon,
-.expert-finder__results__item__info-toggle .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .expert-finder__results__item__info-toggle .video-preview__button,
 .expert-finder__results__item__info-toggle .white-card__media .embed-container a:before,
 .white-card__media .embed-container .expert-finder__results__item__info-toggle a:before,
 .expert-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
@@ -5698,8 +5265,6 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .icons-finance .ui-icon,
 .icons-finance .dialog .ui-icon,
 .dialog .icons-finance .ui-icon,
-.icons-finance .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .icons-finance .video-preview__button,
 .icons-finance .white-card__media .embed-container a:before,
 .white-card__media .embed-container .icons-finance a:before,
 .icons-finance .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
@@ -5711,8 +5276,6 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .icons-hr .ui-icon,
 .icons-hr .dialog .ui-icon,
 .dialog .icons-hr .ui-icon,
-.icons-hr .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .icons-hr .video-preview__button,
 .icons-hr .white-card__media .embed-container a:before,
 .white-card__media .embed-container .icons-hr a:before,
 .icons-hr .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
@@ -7789,8 +7352,6 @@ dl.staffhub-dl dd {
 #courses-widget .widget-content .ui-accordion-header .library-search .search-section-button .ui-icon,
 .library-search .search-section-button .dialog .ui-icon,
 .dialog .library-search .search-section-button .ui-icon,
-.library-search .search-section-button .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .library-search .search-section-button .video-preview__button,
 .library-search .search-section-button .white-card__media .embed-container a:before,
 .white-card__media .embed-container .library-search .search-section-button a:before,
 .library-search .search-section-button .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
@@ -9407,8 +8968,6 @@ body#library {
 #courses-widget .widget-content .ui-accordion-header .shortcourse-promo__text .ui-icon,
 .shortcourse-promo__text .dialog .ui-icon,
 .dialog .shortcourse-promo__text .ui-icon,
-.shortcourse-promo__text .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button,
-.shortcourse-banner .media-block__wrapper .video-preview .shortcourse-promo__text .video-preview__button,
 .shortcourse-promo__text .white-card__media .embed-container a:before,
 .white-card__media .embed-container .shortcourse-promo__text a:before,
 .shortcourse-promo__text .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
