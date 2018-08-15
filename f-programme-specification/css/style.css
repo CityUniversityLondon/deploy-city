@@ -22681,6 +22681,23 @@ a.course__red-links__link {
     font-size: 18px;
     padding: 2%; }
 
+/* Programme specification download links */
+.course__modules__reading {
+  border: 1px solid #a31c36;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px; }
+
+.programme__specification__container.icon {
+  padding: 1% 2%;
+  font-size: 18px;
+  color: #a31c36; }
+
+.programme__specification__container.text {
+  border-left: 1px solid #a31c36;
+  padding: 1.4% 1%; }
+
 .course-ug .course__subheader:after,
 .course-ug .course__key-information {
   background-color: #a42833; }
