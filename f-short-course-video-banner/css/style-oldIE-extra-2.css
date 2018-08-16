@@ -7895,20 +7895,16 @@ aside .news-article-widget:last-child {
 }
 
 .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button {
-  -webkit-transition: -webkit-transform 200ms;
-  transition: -webkit-transform 200ms;
-  transition: transform 200ms;
-  transition: transform 200ms, -webkit-transform 200ms;
-  background-image: none;
-  color: inherit;
-  text-indent: 0;
-  color: #fff;
   position: absolute;
   background-color: transparent;
   z-index: 2;
   border-bottom: none;
   left: 50%;
   top: 35%;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg {
+  fill: none;
 }
 
 .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg .stroke-dotted {
@@ -7953,7 +7949,7 @@ aside .news-article-widget:last-child {
 
 .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg:hover .stroke-dotted {
   stroke-width: 4px;
-  opacity: 9;
+  opacity: 1;
 }
 
 .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg:hover .stroke-solid {
