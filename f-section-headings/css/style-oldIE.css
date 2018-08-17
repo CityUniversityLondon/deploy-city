@@ -21929,7 +21929,8 @@ a.course__red-links__link {
   .course .fw-section-wrapper .section-heading {
     text-align: center;
     margin-top: -90px;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    clear: both; }
     .course .fw-section-wrapper .section-heading i {
       color: white;
       font-size: 23px;

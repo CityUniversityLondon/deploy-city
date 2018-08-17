@@ -1574,6 +1574,7 @@ a.course__red-links__link:hover .course__red-links__link__title {
   text-align: center;
   margin-top: -90px;
   margin-bottom: 30px;
+  clear: both;
 }
 
 .course .fw-section-wrapper .section-heading i {
