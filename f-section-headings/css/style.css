@@ -22411,11 +22411,11 @@ a.course__red-links__link {
       z-index: 2;
       top: -41px; }
     .course .fw-section-wrapper .section-heading i.fa-graduation-cap {
-      left: -53px; }
-    .course .fw-section-wrapper .section-heading i.fa-clipboard {
-      left: -50px; }
-    .course .fw-section-wrapper .section-heading i.fa-briefcase {
       left: -51px; }
+    .course .fw-section-wrapper .section-heading i.fa-clipboard {
+      left: -48px; }
+    .course .fw-section-wrapper .section-heading i.fa-briefcase {
+      left: -49px; }
     .course .fw-section-wrapper .section-heading h2 {
       margin: -22px 0 -8px 0;
       font-weight: 600; }
