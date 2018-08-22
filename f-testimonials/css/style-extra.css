@@ -1411,6 +1411,7 @@ a.course__red-links__link:hover .course__red-links__link__title {
   height: 4px;
   width: 80px;
   margin: 0 auto 30px;
+  position: relative;
 }
 
 .course__profiles__item--alumni {
@@ -1426,6 +1427,7 @@ a.course__red-links__link:hover .course__red-links__link__title {
   height: 4px;
   width: 80px;
   margin: 0 auto 30px;
+  position: relative;
 }
 
 .course__profiles__item--academic {
@@ -1434,22 +1436,28 @@ a.course__red-links__link:hover .course__red-links__link__title {
 
 .course__profiles__item--academic .course__profiles__item__text__title {
   color: #0076a0;
+  left: 6%;
 }
 
 .course__profiles__item--academic .block {
-  background: #0076a0;
   height: 4px;
   width: 80px;
   margin: 0 auto 30px;
+  position: relative;
+  background: #0076a0;
+  left: 6%;
 }
 
 .course__profiles__item--academic i {
   background: #0076a0;
   color: white;
-  border: 3px solid white;
   border-radius: 90px;
   padding: 1px;
-  font-size: 24px;
+  font-size: 20px;
+  top: 12px;
+  position: relative;
+  z-index: 100;
+  right: 50px;
 }
 
 .course__profiles__item--academic .academic__wrapper {
@@ -1463,37 +1471,45 @@ a.course__red-links__link:hover .course__red-links__link__title {
   padding: 15px 15px 5px;
 }
 
+.course__profiles__item--academic svg {
+  position: relative;
+  top: 55px;
+  z-index: 99;
+  left: 16px;
+  margin-top: -82px;
+}
+
 @media only screen and (min-width: 768px) {
   .course__profiles__item--academic .academic__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
+
+  .course__profiles__item--academic .col-sm-8.col-sm-push-16.col-md-6.col-lg-4 {
+    width: 54% !important;
+    margin: 0 20% !important;
+  }
+
+  .course__profiles__item--academic .col-sm-8.col-sm-push-16.col-md-6.col-lg-4::after {
+    position: absolute;
+    top: 0%;
+    right: 43%;
+    margin-right: -55%;
+    content: '';
+    width: 12%;
+    height: 100%;
+    background: -webkit-gradient(linear, right top, left bottom, color-stop(49.5%, #eae9e7), color-stop(50%, transparent));
+    background: -webkit-linear-gradient(right top, #eae9e7 49.5%, transparent 50%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(49.5%, #fff), color-stop(50%, transparent));
+    background: -webkit-linear-gradient(left top, #fff 49.5%, transparent 50%);
+    background: linear-gradient(to right bottom, #fff 49.5%, transparent 50%);
+  }
 }
 
 .course__profiles__item--academic img {
   width: 120px;
   height: 120px;
-}
-
-.course__profiles__item--academic .col-sm-8.col-sm-push-16.col-md-6.col-lg-4 {
-  width: 54% !important;
-  margin: 0 20% !important;
-}
-
-.course__profiles__item--academic .col-sm-8.col-sm-push-16.col-md-6.col-lg-4::after {
-  position: absolute;
-  top: 0%;
-  right: 43%;
-  margin-right: -55%;
-  content: '';
-  width: 12%;
-  height: 100%;
-  background: -webkit-gradient(linear, right top, left bottom, color-stop(49.5%, #eae9e7), color-stop(50%, transparent));
-  background: -webkit-linear-gradient(right top, #eae9e7 49.5%, transparent 50%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(49.5%, #fff), color-stop(50%, transparent));
-  background: -webkit-linear-gradient(left top, #fff 49.5%, transparent 50%);
-  background: linear-gradient(to right bottom, #fff 49.5%, transparent 50%);
 }
 
 /** BASE STYLES **/
