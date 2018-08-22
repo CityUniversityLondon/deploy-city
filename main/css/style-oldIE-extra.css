@@ -1,3 +1,235 @@
+.project-finder__results__item,
+.service-finder__results__item {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 20px;
+}
+
+.project-finder__results__item h2,
+.service-finder__results__item h2 {
+  margin: 0 48px 0 0;
+  font-size: 1.3em;
+  line-height: 28px;
+}
+
+.project-finder__results__item h2 a,
+.service-finder__results__item h2 a {
+  font-weight: 500;
+  padding-top: 4px;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  position: relative;
+}
+
+.project-finder__results__item h2 a,
+.project-finder__results__item h2 a:focus,
+.project-finder__results__item h2 a:hover,
+.service-finder__results__item h2 a,
+.service-finder__results__item h2 a:focus,
+.service-finder__results__item h2 a:hover {
+  text-decoration: none;
+}
+
+.project-finder__results__item h2 a:link,
+.service-finder__results__item h2 a:link {
+  color: #b91b1b;
+  border-bottom-color: #999;
+}
+
+.project-finder__results__item h2 a:visited,
+.service-finder__results__item h2 a:visited {
+  color: #670003;
+}
+
+.project-finder__results__item h2 a:hover,
+.service-finder__results__item h2 a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #670003;
+}
+
+.project-finder__results__item h2 a:focus,
+.service-finder__results__item h2 a:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.project-finder__results__item h2 a:active,
+.service-finder__results__item h2 a:active {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.project-finder__results__item__progress,
+.service-finder__results__item__status {
+  padding: 3px 0;
+  font-weight: 600;
+  color: #666;
+}
+
+.project-finder__results__item__md,
+.service-finder__results__item__md {
+  margin-bottom: 5px;
+}
+
+#courses-widget .widget-content .ui-accordion-header .project-finder__results__item__md>.ui-icon,
+#courses-widget .widget-content .ui-accordion-header .service-finder__results__item__md>.ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__md>.ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__md>.ui-icon,
+.dialog .project-finder__results__item__md>.ui-icon,
+.dialog .service-finder__results__item__md>.ui-icon,
+.project-finder__results__item__md>.fa,
+.service-finder__results__item__md>.fa,
+.ui-accordion .ui-accordion-header .project-finder__results__item__md>.ui-icon,
+.ui-accordion .ui-accordion-header .service-finder__results__item__md>.ui-icon,
+.white-card__media .embed-container .project-finder__results__item__md>a:before,
+.white-card__media .embed-container .service-finder__results__item__md>a:before {
+  float: left;
+  line-height: 21px;
+}
+
+.project-finder__results__item__md>.fa-check-circle,
+.service-finder__results__item__md>.fa-check-circle {
+  color: #6c953c;
+}
+
+.project-finder__results__item__md>.fa-minus-circle,
+.service-finder__results__item__md>.fa-minus-circle {
+  color: #e55302;
+}
+
+.project-finder__results__item__md>.fa-exclamation-circle,
+.service-finder__results__item__md>.fa-exclamation-circle {
+  color: #b02a1a;
+}
+
+.project-finder__results__item__md>div,
+.service-finder__results__item__md>div {
+  margin-left: 22px;
+}
+
+.project-finder__results__item__info,
+.service-finder__results__item__info {
+  display: none;
+  margin-top: 10px;
+  border-top: 2px solid #eee;
+}
+
+.project-finder__results__item__info.project-finder__results__item__info--open,
+.project-finder__results__item__info.service-finder__results__item__info--open,
+.service-finder__results__item__info.project-finder__results__item__info--open,
+.service-finder__results__item__info.service-finder__results__item__info--open {
+  display: block;
+}
+
+.project-finder__results__item__description,
+.service-finder__results__item__description {
+  margin: 10px 0;
+}
+
+.project-finder__results__item__md span,
+.service-finder__results__item__md span {
+  color: #666;
+}
+
+.project-finder__results__item__md__label,
+.service-finder__results__item__md__label {
+  font-weight: 600;
+}
+
+.project-finder__results__item__info-toggle,
+.service-finder__results__item__info-toggle {
+  display: none;
+}
+
+.project-finder__results__item__info,
+.service-finder__results__item__info {
+  display: block;
+}
+
+.project-finder__results__item__info-toggle,
+.service-finder__results__item__info-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  background: #b91b1b;
+  color: #fff;
+  -webkit-transition: color .1s,background .1s;
+  transition: color .1s,background .1s;
+}
+
+#courses-widget .widget-content .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
+#courses-widget .widget-content .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
+.dialog .project-finder__results__item__info-toggle .ui-icon,
+.dialog .service-finder__results__item__info-toggle .ui-icon,
+.project-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.project-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.project-finder__results__item__info-toggle .dialog .ui-icon,
+.project-finder__results__item__info-toggle .fa,
+.project-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
+.project-finder__results__item__info-toggle .white-card__media .embed-container a:before,
+.service-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.service-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.service-finder__results__item__info-toggle .dialog .ui-icon,
+.service-finder__results__item__info-toggle .fa,
+.service-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
+.service-finder__results__item__info-toggle .white-card__media .embed-container a:before,
+.ui-accordion .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
+.ui-accordion .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
+.white-card__media .embed-container .project-finder__results__item__info-toggle a:before,
+.white-card__media .embed-container .service-finder__results__item__info-toggle a:before {
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s,-webkit-transform .3s;
+}
+
+.project-finder__results__item__info-toggle:active,
+.project-finder__results__item__info-toggle:focus,
+.service-finder__results__item__info-toggle:active,
+.service-finder__results__item__info-toggle:focus {
+  background: #eee;
+  color: #333;
+}
+
+.project-finder__results__item__info-toggle:hover,
+.service-finder__results__item__info-toggle:hover {
+  background: #eee;
+  color: #b91b1b;
+}
+
+.project-finder-test #primary-nav-toggler,
+.project-finder-test #slice-navigation,
+.service-finder-test #primary-nav-toggler,
+.service-finder-test #slice-navigation {
+  display: none;
+}
+
+.project-finder__bottom-banner,
+.service-finder__bottom-banner {
+  max-height: 250px;
+}
+
+.project-finder__bottom-banner__img,
+.service-finder__bottom-banner__img {
+  width: 100%;
+  margin: 0;
+}
+
+.scholarship a {
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  position: relative;
+}
+
 .scholarship a,
 .scholarship a:focus,
 .scholarship a:hover {
