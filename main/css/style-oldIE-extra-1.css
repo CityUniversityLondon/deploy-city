@@ -4132,6 +4132,7 @@ button.ui-button::-moz-focus-inner {
 #courses-widget .widget-content .ui-accordion-header.ui-accordion-header-active .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.dialog .ui-icon,
 .fa,
 .ui-accordion .ui-accordion-header .ui-icon,
 .ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
@@ -4209,6 +4210,7 @@ button.ui-button::-moz-focus-inner {
 
 #courses-widget .widget-content .ui-accordion-header .fa-pull-left.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .fa-pull-left.ui-icon,
+.dialog .fa-pull-left.ui-icon,
 .fa.fa-pull-left,
 .ui-accordion .ui-accordion-header .fa-pull-left.ui-icon,
 .white-card__media .embed-container a.fa-pull-left:before {
@@ -4217,6 +4219,7 @@ button.ui-button::-moz-focus-inner {
 
 #courses-widget .widget-content .ui-accordion-header .fa-pull-right.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .fa-pull-right.ui-icon,
+.dialog .fa-pull-right.ui-icon,
 .fa.fa-pull-right,
 .ui-accordion .ui-accordion-header .fa-pull-right.ui-icon,
 .white-card__media .embed-container a.fa-pull-right:before {
@@ -4233,6 +4236,7 @@ button.ui-button::-moz-focus-inner {
 
 #courses-widget .widget-content .ui-accordion-header .pull-left.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .pull-left.ui-icon,
+.dialog .pull-left.ui-icon,
 .fa.pull-left,
 .ui-accordion .ui-accordion-header .pull-left.ui-icon,
 .white-card__media .embed-container a.pull-left:before {
@@ -4241,6 +4245,7 @@ button.ui-button::-moz-focus-inner {
 
 #courses-widget .widget-content .ui-accordion-header .pull-right.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .pull-right.ui-icon,
+.dialog .pull-right.ui-icon,
 .fa.pull-right,
 .ui-accordion .ui-accordion-header .pull-right.ui-icon,
 .white-card__media .embed-container a.pull-right:before {
@@ -4415,6 +4420,7 @@ button.ui-button::-moz-focus-inner {
   content: "";
 }
 
+.dialog .ui-icon:before,
 .fa-close:before,
 .fa-remove:before,
 .fa-times:before {
@@ -9952,9 +9958,11 @@ a:focus {
 .course .accordion.ui-accordion .ui-accordion-header .cta a span.ui-icon,
 .cta a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .cta a .course .accordion.ui-accordion .ui-accordion-header span.ui-icon,
+.cta a .dialog span.ui-icon,
 .cta a .ui-accordion .ui-accordion-header span.ui-icon,
 .cta a i,
 .cta a span.fa,
+.dialog .cta a span.ui-icon,
 .ui-accordion .ui-accordion-header .cta a span.ui-icon {
   float: right;
   background-color: transparent;
@@ -9998,8 +10006,10 @@ a:focus {
 
 #courses-widget .widget-content .ui-accordion-header .soft-cta a span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .soft-cta a span.ui-icon,
+.dialog .soft-cta a span.ui-icon,
 .soft-cta a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .soft-cta a .course .accordion.ui-accordion .ui-accordion-header span.ui-icon,
+.soft-cta a .dialog span.ui-icon,
 .soft-cta a .ui-accordion .ui-accordion-header span.ui-icon,
 .soft-cta a i,
 .soft-cta a span.fa,
@@ -11001,13 +11011,17 @@ input[type=checkbox]:disabled {
 #courses-widget .widget-content .ui-accordion-header .header__util__audience .header__util__students__list .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .header__util__audience .header__util__staff__list .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .header__util__audience .header__util__students__list .ui-icon,
+.dialog .header__util__audience .header__util__staff__list .ui-icon,
+.dialog .header__util__audience .header__util__students__list .ui-icon,
 .header__util__audience .header__util__staff__list #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .header__util__audience .header__util__staff__list .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.header__util__audience .header__util__staff__list .dialog .ui-icon,
 .header__util__audience .header__util__staff__list .fa,
 .header__util__audience .header__util__staff__list .ui-accordion .ui-accordion-header .ui-icon,
 .header__util__audience .header__util__staff__list .white-card__media .embed-container a:before,
 .header__util__audience .header__util__students__list #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .header__util__audience .header__util__students__list .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.header__util__audience .header__util__students__list .dialog .ui-icon,
 .header__util__audience .header__util__students__list .fa,
 .header__util__audience .header__util__students__list .ui-accordion .ui-accordion-header .ui-icon,
 .header__util__audience .header__util__students__list .white-card__media .embed-container a:before,
@@ -11149,8 +11163,10 @@ input[type=checkbox]:disabled {
 
 #courses-widget .widget-content .ui-accordion-header .header__search .header__search__toggle .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .header__search .header__search__toggle .ui-icon,
+.dialog .header__search .header__search__toggle .ui-icon,
 .header__search .header__search__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .header__search .header__search__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.header__search .header__search__toggle .dialog .ui-icon,
 .header__search .header__search__toggle .fa,
 .header__search .header__search__toggle .ui-accordion .ui-accordion-header .ui-icon,
 .header__search .header__search__toggle .white-card__media .embed-container a:before,
@@ -11306,8 +11322,10 @@ input[type=checkbox]:disabled {
 
 #courses-widget .widget-content .ui-accordion-header .global-nav__wrapper .global-nav__toggle .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .global-nav__wrapper .global-nav__toggle .ui-icon,
+.dialog .global-nav__wrapper .global-nav__toggle .ui-icon,
 .global-nav__wrapper .global-nav__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .global-nav__wrapper .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.global-nav__wrapper .global-nav__toggle .dialog .ui-icon,
 .global-nav__wrapper .global-nav__toggle .fa,
 .global-nav__wrapper .global-nav__toggle .ui-accordion .ui-accordion-header .ui-icon,
 .global-nav__wrapper .global-nav__toggle .white-card__media .embed-container a:before,
@@ -11424,13 +11442,17 @@ input[type=checkbox]:disabled {
 #courses-widget .widget-content .ui-accordion-header .no-js .global-nav__toggle .ui-icon:before,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .global-nav__wrapper--active .global-nav__toggle .ui-icon:before,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .no-js .global-nav__toggle .ui-icon:before,
+.dialog .global-nav__wrapper--active .global-nav__toggle .ui-icon:before,
+.dialog .no-js .global-nav__toggle .ui-icon:before,
 .global-nav__wrapper--active .global-nav__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon:before,
 .global-nav__wrapper--active .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon:before,
+.global-nav__wrapper--active .global-nav__toggle .dialog .ui-icon:before,
 .global-nav__wrapper--active .global-nav__toggle .fa:before,
 .global-nav__wrapper--active .global-nav__toggle .ui-accordion .ui-accordion-header .ui-icon:before,
 .global-nav__wrapper--active .global-nav__toggle .white-card__media .embed-container a:before,
 .no-js .global-nav__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon:before,
 .no-js .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon:before,
+.no-js .global-nav__toggle .dialog .ui-icon:before,
 .no-js .global-nav__toggle .fa:before,
 .no-js .global-nav__toggle .ui-accordion .ui-accordion-header .ui-icon:before,
 .no-js .global-nav__toggle .white-card__media .embed-container a:before,
@@ -12690,8 +12712,10 @@ body {
 
 #courses-widget .widget-content .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon,
+.dialog .thisiscity-media-ribbon-wrapper .ui-icon,
 .thisiscity-media-ribbon-wrapper #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .thisiscity-media-ribbon-wrapper .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.thisiscity-media-ribbon-wrapper .dialog .ui-icon,
 .thisiscity-media-ribbon-wrapper .fa,
 .thisiscity-media-ribbon-wrapper .ui-accordion .ui-accordion-header .ui-icon,
 .thisiscity-media-ribbon-wrapper .white-card__media .embed-container a:before,
@@ -13374,10 +13398,14 @@ body {
 #courses-widget .widget-content .ui-accordion-header #promo-wrapper .bx-controls-auto a span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .no-js #promo-wrapper .bx-controls-auto a span.ui-icon,
 #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+#promo-wrapper .bx-controls-auto a .dialog span.ui-icon,
 #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon,
 #promo-wrapper .bx-controls-auto a i,
 #promo-wrapper .bx-controls-auto a span.fa,
+.dialog #promo-wrapper .bx-controls-auto a span.ui-icon,
+.dialog .no-js #promo-wrapper .bx-controls-auto a span.ui-icon,
 .no-js #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.no-js #promo-wrapper .bx-controls-auto a .dialog span.ui-icon,
 .no-js #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon,
 .no-js #promo-wrapper .bx-controls-auto a i,
 .no-js #promo-wrapper .bx-controls-auto a span.fa,
@@ -15937,120 +15965,11 @@ a.city-vision-widget:hover hr {
 
 #courses-widget .widget-content .ui-accordion-header .article-listing .event .detail span.ui-icon,
 .article-listing .event .detail #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.article-listing .event .detail .dialog span.ui-icon,
 .article-listing .event .detail .ui-accordion .ui-accordion-header span.ui-icon,
 .article-listing .event .detail i,
 .article-listing .event .detail span.fa,
+.dialog .article-listing .event .detail span.ui-icon,
 .ui-accordion .ui-accordion-header .article-listing .event .detail span.ui-icon {
   margin-right: 5px;
-}
-
-.article-listing .event .date {
-  margin: 0 10px 5px 0;
-  width: 50px;
-}
-
-.article-listing .event .title {
-  margin-bottom: 5px;
-  font-size: .9em;
-}
-
-.article-listing .event .date-day-no {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 3px;
-}
-
-.article-listing .event .audience,
-.article-listing .event .category,
-.article-listing .event .time {
-  float: left;
-  margin-right: 10px;
-}
-
-.article-listing .event .audience i,
-.article-listing .event .category i,
-.article-listing .event .time i {
-  margin-right: 3px;
-}
-
-.article-listing .event .description {
-  clear: both;
-  padding: 0;
-}
-
-.article-listing .city-news a:hover img,
-.article-listing .spotlight-on-research a:hover img {
-  opacity: .8;
-}
-
-.article-listing .city-news .detail,
-.article-listing .spotlight-on-research .detail {
-  background-color: #FFF;
-}
-
-.article-listing .city-news .detail:after,
-.article-listing .city-news .detail:before,
-.article-listing .spotlight-on-research .detail:after,
-.article-listing .spotlight-on-research .detail:before {
-  bottom: 100%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-}
-
-.article-listing .city-news .detail:after,
-.article-listing .spotlight-on-research .detail:after {
-  border-color: rgba(136,183,213,0);
-  border-bottom-color: #FFF;
-  border-width: 10px;
-  left: 15%;
-  margin-left: -10px;
-}
-
-.article-listing .city-news .detail:before,
-.article-listing .spotlight-on-research .detail:before {
-  border-color: rgba(194,225,245,0);
-  border-bottom-color: #FFF;
-  border-width: 16px;
-  left: 15%;
-  margin-left: -16px;
-}
-
-.article-listing .city-news .title,
-.article-listing .spotlight-on-research .title {
-  margin: 10px;
-}
-
-.article-listing .thumbnail {
-  display: block;
-  margin: 0;
-  width: 100%;
-}
-
-.article-listing img {
-  margin-bottom: 0;
-}
-
-.article-listing .title {
-  font-size: 1.15em;
-  margin: 0;
-  font-family: Arial,Helvetica,sans-serif;
-}
-
-.article-listing .description {
-  margin-bottom: 0;
-  padding: 0 10px 10px 10px;
-}
-
-.article-listing .event .title {
-  font-size: 1.15em;
-}
-
-.contact-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 10px 0 0;
-  overflow: hidden;
 }

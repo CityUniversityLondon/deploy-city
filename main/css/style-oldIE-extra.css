@@ -1,3 +1,936 @@
+.scholarship a,
+.scholarship a:focus,
+.scholarship a:hover {
+  text-decoration: none;
+}
+
+.scholarship a:link {
+  color: #b91b1b;
+  border-bottom-color: #999;
+}
+
+.scholarship a:visited {
+  color: #670003;
+}
+
+.scholarship a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #670003;
+}
+
+.scholarship a:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.scholarship a:active {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.scholarship h3 a {
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  position: relative;
+}
+
+.scholarship h3 a,
+.scholarship h3 a:focus,
+.scholarship h3 a:hover {
+  text-decoration: none;
+}
+
+.scholarship h3 a:link {
+  border-bottom-width: 2px;
+}
+
+.scholarship .hard-cta a:link,
+.scholarship .hard-cta a:visited {
+  color: #fff;
+  border: 1px solid #a0271f;
+}
+
+.scholarship .hard-cta a:hover {
+  border: 1px solid #670003;
+}
+
+.scholarship .dark-background a:link,
+.scholarship .widget a:link,
+.scholarship [class*=widget-] a:link {
+  border-bottom-width: 2px;
+}
+
+.scholarship .dark-background a:link {
+  color: #eee;
+  border-bottom-color: #ccc;
+}
+
+.scholarship .dark-background a:visited {
+  color: #eee;
+}
+
+.scholarship .dark-background a:hover {
+  color: #FFF;
+  border-bottom-color: #FFF;
+}
+
+.scholarship .dark-background a:focus {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.scholarship .dark-background a:active {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.scholarship .footer a:link,
+.scholarship a.simple:link {
+  color: #333;
+  border-bottom-color: transparent;
+}
+
+.scholarship .footer a:visited,
+.scholarship a.simple:visited {
+  color: #333;
+}
+
+.scholarship .footer a:hover,
+.scholarship a.simple:hover {
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color: #333;
+}
+
+.scholarship .footer a:focus,
+.scholarship a.simple:focus {
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color: #333;
+}
+
+.scholarship .footer a:active,
+.scholarship a.simple:active {
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color: #333;
+}
+
+.scholarship a.hallway {
+  font-weight: 600;
+}
+
+.scholarship a.hallway:link {
+  color: #333;
+  border-bottom-color: transparent;
+}
+
+.scholarship a.hallway:visited {
+  color: #333;
+}
+
+.scholarship a.hallway:hover {
+  color: #b91b1b;
+  border-bottom-style: solid;
+  border-bottom-color: #b91b1b;
+}
+
+.scholarship a.hallway:focus {
+  background-color: #FFF;
+  color: #b91b1b;
+  border-bottom-style: dotted;
+  border-bottom-color: #555;
+}
+
+.scholarship a.hallway:active {
+  background-color: #FFF;
+}
+
+.scholarship a.scholarship__header-link {
+  font-weight: 500;
+}
+
+.scholarship a.scholarship__header-link:link {
+  color: #333;
+  border-bottom-color: transparent;
+}
+
+.scholarship a.scholarship__header-link:visited {
+  color: #333;
+}
+
+.scholarship a.scholarship__header-link:hover {
+  color: #b91b1b;
+  border-bottom-style: solid;
+  border-bottom-color: #b91b1b;
+}
+
+.scholarship a.scholarship__header-link:focus {
+  background-color: #FFF;
+  color: #b91b1b;
+  border-bottom-style: dotted;
+  border-bottom-color: #555;
+}
+
+.scholarship a.scholarship__header-link:active {
+  background-color: #FFF;
+}
+
+.scholarship a.scholarship__header-link i {
+  font-size: .8em;
+  margin-left: .3em;
+}
+
+.scholarship a.scholarship__cta:link {
+  color: #b91b1b;
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  border-bottom-color: #999;
+}
+
+.scholarship a.scholarship__cta:visited {
+  color: #670003;
+  border-bottom-color: #999;
+}
+
+.scholarship a.scholarship__cta:hover {
+  border-bottom-color: #670003;
+  border-bottom-style: solid;
+}
+
+.scholarship a.scholarship__cta:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.scholarship a.scholarship__cta:active {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.scholarship .scholarship__school a {
+  background-color: #eee;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.scholarship .scholarship__school a:link {
+  color: #333;
+  border-bottom-width: 0;
+}
+
+.scholarship .scholarship__school a:visited {
+  color: #333;
+}
+
+.scholarship .scholarship__school a:hover {
+  background-color: #666;
+  color: #FFF;
+  border-color: #b91b1b;
+}
+
+.scholarship .scholarship__school a:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.scholarship .scholarship__school a:active {
+  background-color: #b91b1b;
+  color: #FFF;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.scholarship .scholarship__bottom-ctas #contact-widget a,
+.scholarship .scholarship__bottom-ctas a {
+  border-bottom-width: 1px;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.scholarship .scholarship__bottom-ctas #contact-widget a:link,
+.scholarship .scholarship__bottom-ctas a:link {
+  color: #eee;
+  border-bottom-color: #ccc;
+}
+
+.scholarship .scholarship__bottom-ctas #contact-widget a:visited,
+.scholarship .scholarship__bottom-ctas a:visited {
+  color: #eee;
+}
+
+.scholarship .scholarship__bottom-ctas #contact-widget a:hover,
+.scholarship .scholarship__bottom-ctas a:hover {
+  color: #FFF;
+  border-bottom-color: #FFF;
+}
+
+.scholarship .scholarship__bottom-ctas #contact-widget a:focus,
+.scholarship .scholarship__bottom-ctas a:focus {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.scholarship .scholarship__bottom-ctas #contact-widget a:active,
+.scholarship .scholarship__bottom-ctas a:active {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.scholarship .scholarship__key-information a {
+  border-bottom-width: 1px;
+}
+
+.scholarship .scholarship__key-information a:link {
+  color: #eee;
+  border-bottom-color: #ccc;
+}
+
+.scholarship .scholarship__key-information a:visited {
+  color: #eee;
+}
+
+.scholarship .scholarship__key-information a:hover {
+  color: #FFF;
+  border-bottom-color: #FFF;
+}
+
+.scholarship .scholarship__key-information a:focus {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.scholarship .scholarship__key-information a:active {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.scholarship .scholarship__key-information a:link,
+.scholarship .scholarship__key-information a:visited {
+  border-bottom-style: dotted;
+}
+
+.scholarship .scholarship__key-information a:hover {
+  border-bottom-style: solid;
+}
+
+.scholarship .scholarship__key-information h3 a {
+  float: right;
+}
+
+.scholarship-finder input,
+.scholarship-finder select {
+  font-size: 16px;
+}
+
+.scholarship-finder__query-wrapper {
+  margin-top: -40px;
+  background: #ccc;
+}
+
+.scholarship-finder__form-wrapper {
+  background: #eee;
+}
+
+.scholarship-finder__query .query-box {
+  padding-right: 44px;
+  position: relative;
+}
+
+.scholarship-finder__query input {
+  padding: 10px 10px 9px 10px;
+  width: 100%;
+  border: 1px solid #a9a9a9;
+  font-size: 16px;
+}
+
+.scholarship-finder__query button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  border: 1px solid #a9a9a9;
+}
+
+.scholarship-finder__form .filter-box h2 {
+  font-size: 24px;
+}
+
+.scholarship-finder__clear-buttons {
+  display: none;
+  display: block;
+}
+
+.scholarship-finder__clear-buttons>div {
+  display: inline-block;
+}
+
+.scholarship-finder__clear-buttons a {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 3px;
+  margin: 10px 10px 0 0;
+}
+
+.scholarship-finder__clear-buttons a:link,
+.scholarship-finder__clear-buttons a:visited {
+  background: #b91b1c;
+  color: #fff;
+  border-color: #b91b1c;
+}
+
+.scholarship-finder__clear-buttons a:hover {
+  background: #f22428;
+  color: #fff;
+  border-color: #f22428;
+}
+
+.scholarship-finder__clear-buttons a:active,
+.scholarship-finder__clear-buttons a:focus {
+  background: #fff;
+  color: #b91b1c;
+  border-color: #b91b1c;
+}
+
+.scholarship-finder__results {
+  padding-left: 20px;
+}
+
+.scholarship-finder__results__summary {
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.scholarship-finder__results__summary__refresh {
+  display: inline-block;
+  color: #b91b1c;
+  margin-left: 5px;
+}
+
+.finder__results__headers {
+  padding: 20px;
+  font-weight: 600;
+}
+
+.scholarship-finder__results__item {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 20px;
+}
+
+.scholarship-finder__results__item h2 {
+  margin: 0 48px 0 0;
+  font-size: 1.3em;
+  line-height: 28px;
+}
+
+.scholarship-finder__results__item h2 a {
+  font-weight: 500;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  position: relative;
+}
+
+.scholarship-finder__results__item h2 a,
+.scholarship-finder__results__item h2 a:focus,
+.scholarship-finder__results__item h2 a:hover {
+  text-decoration: none;
+}
+
+.scholarship-finder__results__item h2 a:link {
+  color: #b91b1b;
+  border-bottom-color: #999;
+}
+
+.scholarship-finder__results__item h2 a:visited {
+  color: #670003;
+}
+
+.scholarship-finder__results__item h2 a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #670003;
+}
+
+.scholarship-finder__results__item h2 a:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.scholarship-finder__results__item h2 a:active {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.scholarship-finder__results__item--hardship {
+  position: relative;
+}
+
+.scholarship-finder__results__item--hardship:before {
+  content: "";
+  display: block;
+  background: 0 0;
+  width: 48px;
+  height: 48px;
+  border-top: 8px solid #52712d;
+  border-left: 8px solid #52712d;
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  width: 72px;
+  height: 72px;
+}
+
+.scholarship-finder__results__item__level {
+  padding: 3px 0;
+  font-weight: 600;
+  color: #666;
+}
+
+.scholarship-finder__results__item__award {
+  font-weight: 600;
+  color: #666;
+}
+
+.scholarship-finder__results__item__md {
+  margin-bottom: 5px;
+}
+
+#courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__md>.ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__md>.ui-icon,
+.dialog .scholarship-finder__results__item__md>.ui-icon,
+.scholarship-finder__results__item__md>.fa,
+.ui-accordion .ui-accordion-header .scholarship-finder__results__item__md>.ui-icon,
+.white-card__media .embed-container .scholarship-finder__results__item__md>a:before {
+  float: left;
+  line-height: 21px;
+}
+
+.scholarship-finder__results__item__md>div {
+  margin-left: 22px;
+}
+
+.scholarship-finder__results__item__info {
+  display: none;
+  margin-top: 10px;
+  border-top: 2px solid #eee;
+}
+
+.scholarship-finder__results__item__info.scholarship-finder__results__item__info--open {
+  display: block;
+}
+
+.scholarship-finder__results__item__description {
+  margin: 10px 0;
+}
+
+.scholarship-finder__results__item__md span {
+  color: #666;
+}
+
+.scholarship-finder__results__item__md__label {
+  font-weight: 600;
+}
+
+.scholarship-finder__results__item__info-toggle {
+  display: none;
+}
+
+.scholarship-finder__results__item__info {
+  display: block;
+}
+
+.scholarship-finder__results__item__info-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  background: #b91b1b;
+  color: #fff;
+  -webkit-transition: color .1s,background .1s;
+  transition: color .1s,background .1s;
+}
+
+#courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon,
+.dialog .scholarship-finder__results__item__info-toggle .ui-icon,
+.scholarship-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.scholarship-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.scholarship-finder__results__item__info-toggle .dialog .ui-icon,
+.scholarship-finder__results__item__info-toggle .fa,
+.scholarship-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
+.scholarship-finder__results__item__info-toggle .white-card__media .embed-container a:before,
+.ui-accordion .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon,
+.white-card__media .embed-container .scholarship-finder__results__item__info-toggle a:before {
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s,-webkit-transform .3s;
+}
+
+.scholarship-finder__results__item__info-toggle:active,
+.scholarship-finder__results__item__info-toggle:focus {
+  background: #eee;
+  color: #333;
+}
+
+.scholarship-finder__results__item__info-toggle:hover {
+  background: #eee;
+  color: #b91b1b;
+}
+
+.scholarship-finder__filter--hardship div {
+  background-color: #52712d;
+  color: #fff;
+  font-weight: 600;
+  padding: 8px;
+}
+
+.scholarship-finder-test #primary-nav-toggler,
+.scholarship-finder-test #slice-navigation {
+  display: none;
+}
+
+.scholarship-finder__bottom-banner {
+  max-height: 250px;
+}
+
+.scholarship-finder__bottom-banner__img {
+  width: 100%;
+  margin: 0;
+}
+
+.course a {
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  position: relative;
+}
+
+.course a,
+.course a:focus,
+.course a:hover {
+  text-decoration: none;
+}
+
+.course a:link {
+  color: #b91b1b;
+  border-bottom-color: #999;
+}
+
+.course a:visited {
+  color: #670003;
+}
+
+.course a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #670003;
+}
+
+.course a:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.course a:active {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.course h3 a {
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  position: relative;
+}
+
+.course h3 a,
+.course h3 a:focus,
+.course h3 a:hover {
+  text-decoration: none;
+}
+
+.course h3 a:link {
+  border-bottom-width: 2px;
+}
+
+.course .hard-cta a:link,
+.course .hard-cta a:visited {
+  color: #fff;
+  border: 1px solid #a0271f;
+}
+
+.course .hard-cta a:hover {
+  border: 1px solid #670003;
+}
+
+.course .dark-background a:link,
+.course .widget a:link,
+.course [class*=widget-] a:link {
+  border-bottom-width: 2px;
+}
+
+.course .dark-background a:link {
+  color: #eee;
+  border-bottom-color: #ccc;
+}
+
+.course .dark-background a:visited {
+  color: #eee;
+}
+
+.course .dark-background a:hover {
+  color: #FFF;
+  border-bottom-color: #FFF;
+}
+
+.course .dark-background a:focus {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.course .dark-background a:active {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.course .footer a:link,
+.course a.simple:link {
+  color: #333;
+  border-bottom-color: transparent;
+}
+
+.course .footer a:visited,
+.course a.simple:visited {
+  color: #333;
+}
+
+.course .footer a:hover,
+.course a.simple:hover {
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color: #333;
+}
+
+.course .footer a:focus,
+.course a.simple:focus {
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color: #333;
+}
+
+.course .footer a:active,
+.course a.simple:active {
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color: #333;
+}
+
+.course a.hallway {
+  font-weight: 600;
+}
+
+.course a.hallway:link {
+  color: #333;
+  border-bottom-color: transparent;
+}
+
+.course a.hallway:visited {
+  color: #333;
+}
+
+.course a.hallway:hover {
+  color: #b91b1b;
+  border-bottom-style: solid;
+  border-bottom-color: #b91b1b;
+}
+
+.course a.hallway:focus {
+  background-color: #FFF;
+  color: #b91b1b;
+  border-bottom-style: dotted;
+  border-bottom-color: #555;
+}
+
+.course a.hallway:active {
+  background-color: #FFF;
+}
+
+.course a.course__header-link {
+  font-weight: 500;
+}
+
+.course a.course__header-link:link {
+  color: #333;
+  border-bottom-color: transparent;
+}
+
+.course a.course__header-link:visited {
+  color: #333;
+}
+
+.course a.course__header-link:hover {
+  color: #b91b1b;
+  border-bottom-style: solid;
+  border-bottom-color: #b91b1b;
+}
+
+.course a.course__header-link:focus {
+  background-color: #FFF;
+  color: #b91b1b;
+  border-bottom-style: dotted;
+  border-bottom-color: #555;
+}
+
+.course a.course__header-link:active {
+  background-color: #FFF;
+}
+
+.course a.course__header-link i {
+  font-size: .8em;
+  margin-left: .3em;
+}
+
+.course a.course__cta:link {
+  color: #b91b1b;
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  border-bottom-color: #999;
+}
+
+.course a.course__cta:visited {
+  color: #670003;
+  border-bottom-color: #999;
+}
+
+.course a.course__cta:hover {
+  border-bottom-color: #670003;
+  border-bottom-style: solid;
+}
+
+.course a.course__cta:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.course a.course__cta:active {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.course .course__school a {
+  background-color: #eee;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.course .course__school a:link {
+  color: #333;
+  border-bottom-width: 0;
+}
+
+.course .course__school a:visited {
+  color: #333;
+}
+
+.course .course__school a:hover {
+  background-color: #666;
+  color: #FFF;
+  border-color: #b91b1b;
+}
+
+.course .course__school a:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.course .course__school a:active {
+  background-color: #b91b1b;
+  color: #FFF;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.course .course__bottom-ctas #contact-widget a,
+.course .course__bottom-ctas a {
+  border-bottom-width: 1px;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.course .course__bottom-ctas #contact-widget a:link,
+.course .course__bottom-ctas a:link {
+  color: #eee;
+  border-bottom-color: #ccc;
+}
+
+.course .course__bottom-ctas #contact-widget a:visited,
+.course .course__bottom-ctas a:visited {
+  color: #eee;
+}
+
+.course .course__bottom-ctas #contact-widget a:hover,
+.course .course__bottom-ctas a:hover {
+  color: #FFF;
+  border-bottom-color: #FFF;
+}
+
+.course .course__bottom-ctas #contact-widget a:focus,
+.course .course__bottom-ctas a:focus {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.course .course__bottom-ctas #contact-widget a:active,
+.course .course__bottom-ctas a:active {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.course .course__key-information a {
+  border-bottom-width: 1px;
+}
+
+.course .course__key-information a:link {
+  color: #eee;
+  border-bottom-color: #ccc;
+}
+
+.course .course__key-information a:visited {
+  color: #eee;
+}
+
+.course .course__key-information a:hover {
+  color: #FFF;
+  border-bottom-color: #FFF;
+}
+
 .course .course__key-information a:focus {
   background-color: #FFF;
   color: #555;
@@ -401,8 +1334,10 @@ a.course__red-links__link:hover .course__red-links__link__title {
 .course .accordion.ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon,
 .course__profiles__item__image #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .course__profiles__item__image .course .accordion.ui-accordion .ui-accordion-header span.ui-icon,
+.course__profiles__item__image .dialog span.ui-icon,
 .course__profiles__item__image .ui-accordion .ui-accordion-header span.ui-icon,
 .course__profiles__item__image span.fa,
+.dialog .course__profiles__item__image span.ui-icon,
 .ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon {
   padding: 10px 0 0;
   font-size: 8em;
@@ -627,13 +1562,17 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .phd-projects.phd-projects h3 a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .phd-projects.phd-projects h2 a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .phd-projects.phd-projects h3 a .ui-icon,
+.dialog .phd-projects.phd-projects h2 a .ui-icon,
+.dialog .phd-projects.phd-projects h3 a .ui-icon,
 .phd-projects.phd-projects h2 a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .phd-projects.phd-projects h2 a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.phd-projects.phd-projects h2 a .dialog .ui-icon,
 .phd-projects.phd-projects h2 a .fa,
 .phd-projects.phd-projects h2 a .ui-accordion .ui-accordion-header .ui-icon,
 .phd-projects.phd-projects h2 a .white-card__media .embed-container a:before,
 .phd-projects.phd-projects h3 a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .phd-projects.phd-projects h3 a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.phd-projects.phd-projects h3 a .dialog .ui-icon,
 .phd-projects.phd-projects h3 a .fa,
 .phd-projects.phd-projects h3 a .ui-accordion .ui-accordion-header .ui-icon,
 .phd-projects.phd-projects h3 a .white-card__media .embed-container a:before,
@@ -1248,6 +2187,7 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .course-finder__results__item__md>.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .course-finder__results__item__md>.ui-icon,
 .course-finder__results__item__md>.fa,
+.dialog .course-finder__results__item__md>.ui-icon,
 .ui-accordion .ui-accordion-header .course-finder__results__item__md>.ui-icon,
 .white-card__media .embed-container .course-finder__results__item__md>a:before {
   float: left;
@@ -1305,9 +2245,11 @@ a.course__red-links__link:hover .course__red-links__link__title {
 .course .accordion.ui-accordion .ui-accordion-header .course-finder__results__item__info-toggle .ui-icon,
 .course-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .course-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.course-finder__results__item__info-toggle .dialog .ui-icon,
 .course-finder__results__item__info-toggle .fa,
 .course-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
 .course-finder__results__item__info-toggle .white-card__media .embed-container a:before,
+.dialog .course-finder__results__item__info-toggle .ui-icon,
 .ui-accordion .ui-accordion-header .course-finder__results__item__info-toggle .ui-icon,
 .white-card__media .embed-container .course-finder__results__item__info-toggle a:before {
   -webkit-transition: -webkit-transform .3s;
@@ -1663,9 +2605,11 @@ a.course__red-links__link:hover .course__red-links__link__title {
 
 #courses-widget .widget-content .ui-accordion-header .academic-experts-profile .personal-details .expert-name .department-name .ui-icon,
 .academic-experts-profile .personal-details .expert-name .department-name #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.academic-experts-profile .personal-details .expert-name .department-name .dialog .ui-icon,
 .academic-experts-profile .personal-details .expert-name .department-name .fa,
 .academic-experts-profile .personal-details .expert-name .department-name .ui-accordion .ui-accordion-header .ui-icon,
 .academic-experts-profile .personal-details .expert-name .department-name .white-card__media .embed-container a:before,
+.dialog .academic-experts-profile .personal-details .expert-name .department-name .ui-icon,
 .ui-accordion .ui-accordion-header .academic-experts-profile .personal-details .expert-name .department-name .ui-icon,
 .white-card__media .embed-container .academic-experts-profile .personal-details .expert-name .department-name a:before {
   padding-left: 4px;
@@ -1687,9 +2631,11 @@ a.course__red-links__link:hover .course__red-links__link__title {
 
 #courses-widget .widget-content .ui-accordion-header .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon,
 .academic-experts-profile .personal-details .contact-lists .contact-list ul li #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.academic-experts-profile .personal-details .contact-lists .contact-list ul li .dialog .ui-icon,
 .academic-experts-profile .personal-details .contact-lists .contact-list ul li .fa,
 .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-accordion .ui-accordion-header .ui-icon,
 .academic-experts-profile .personal-details .contact-lists .contact-list ul li .white-card__media .embed-container a:before,
+.dialog .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon,
 .ui-accordion .ui-accordion-header .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon,
 .white-card__media .embed-container .academic-experts-profile .personal-details .contact-lists .contact-list ul li a:before {
   padding-right: 8px;
@@ -1933,6 +2879,7 @@ a.course__red-links__link:hover .course__red-links__link__title {
 
 #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__md>.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__md>.ui-icon,
+.dialog .expert-finder__results__item__md>.ui-icon,
 .expert-finder__results__item__md>.fa,
 .ui-accordion .ui-accordion-header .expert-finder__results__item__md>.ui-icon,
 .white-card__media .embed-container .expert-finder__results__item__md>a:before {
@@ -1962,8 +2909,10 @@ a.course__red-links__link:hover .course__red-links__link__title {
 
 #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__portrait a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__portrait a .ui-icon,
+.dialog .expert-finder__results__item__portrait a .ui-icon,
 .expert-finder__results__item__portrait a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .expert-finder__results__item__portrait a .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.expert-finder__results__item__portrait a .dialog .ui-icon,
 .expert-finder__results__item__portrait a .fa,
 .expert-finder__results__item__portrait a .ui-accordion .ui-accordion-header .ui-icon,
 .expert-finder__results__item__portrait a .white-card__media .embed-container a:before,
@@ -2019,8 +2968,10 @@ a.course__red-links__link:hover .course__red-links__link__title {
 
 #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__info-toggle .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__info-toggle .ui-icon,
+.dialog .expert-finder__results__item__info-toggle .ui-icon,
 .expert-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .expert-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.expert-finder__results__item__info-toggle .dialog .ui-icon,
 .expert-finder__results__item__info-toggle .fa,
 .expert-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
 .expert-finder__results__item__info-toggle .white-card__media .embed-container a:before,
@@ -3598,13 +4549,17 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .icons-hr .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .icons-finance .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .icons-hr .ui-icon,
+.dialog .icons-finance .ui-icon,
+.dialog .icons-hr .ui-icon,
 .icons-finance #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .icons-finance .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.icons-finance .dialog .ui-icon,
 .icons-finance .fa,
 .icons-finance .ui-accordion .ui-accordion-header .ui-icon,
 .icons-finance .white-card__media .embed-container a:before,
 .icons-hr #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .icons-hr .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.icons-hr .dialog .ui-icon,
 .icons-hr .fa,
 .icons-hr .ui-accordion .ui-accordion-header .ui-icon,
 .icons-hr .white-card__media .embed-container a:before,
@@ -5413,8 +6368,10 @@ dl.staffhub-dl dd {
 
 #courses-widget .widget-content .ui-accordion-header .library-search .search-section-button .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .library-search .search-section-button .ui-icon,
+.dialog .library-search .search-section-button .ui-icon,
 .library-search .search-section-button #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .library-search .search-section-button .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.library-search .search-section-button .dialog .ui-icon,
 .library-search .search-section-button .fa,
 .library-search .search-section-button .ui-accordion .ui-accordion-header .ui-icon,
 .library-search .search-section-button .white-card__media .embed-container a:before,
@@ -6810,8 +7767,10 @@ body#library {
 
 #courses-widget .widget-content .ui-accordion-header .shortcourse-promo__text .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .shortcourse-promo__text .ui-icon,
+.dialog .shortcourse-promo__text .ui-icon,
 .shortcourse-promo__text #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .shortcourse-promo__text .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.shortcourse-promo__text .dialog .ui-icon,
 .shortcourse-promo__text .fa,
 .shortcourse-promo__text .ui-accordion .ui-accordion-header .ui-icon,
 .shortcourse-promo__text .white-card__media .embed-container a:before,

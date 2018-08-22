@@ -1,3 +1,114 @@
+.article-listing .event .date {
+  margin: 0 10px 5px 0;
+  width: 50px;
+}
+
+.article-listing .event .title {
+  margin-bottom: 5px;
+  font-size: .9em;
+}
+
+.article-listing .event .date-day-no {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 3px;
+}
+
+.article-listing .event .audience,
+.article-listing .event .category,
+.article-listing .event .time {
+  float: left;
+  margin-right: 10px;
+}
+
+.article-listing .event .audience i,
+.article-listing .event .category i,
+.article-listing .event .time i {
+  margin-right: 3px;
+}
+
+.article-listing .event .description {
+  clear: both;
+  padding: 0;
+}
+
+.article-listing .city-news a:hover img,
+.article-listing .spotlight-on-research a:hover img {
+  opacity: .8;
+}
+
+.article-listing .city-news .detail,
+.article-listing .spotlight-on-research .detail {
+  background-color: #FFF;
+}
+
+.article-listing .city-news .detail:after,
+.article-listing .city-news .detail:before,
+.article-listing .spotlight-on-research .detail:after,
+.article-listing .spotlight-on-research .detail:before {
+  bottom: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.article-listing .city-news .detail:after,
+.article-listing .spotlight-on-research .detail:after {
+  border-color: rgba(136,183,213,0);
+  border-bottom-color: #FFF;
+  border-width: 10px;
+  left: 15%;
+  margin-left: -10px;
+}
+
+.article-listing .city-news .detail:before,
+.article-listing .spotlight-on-research .detail:before {
+  border-color: rgba(194,225,245,0);
+  border-bottom-color: #FFF;
+  border-width: 16px;
+  left: 15%;
+  margin-left: -16px;
+}
+
+.article-listing .city-news .title,
+.article-listing .spotlight-on-research .title {
+  margin: 10px;
+}
+
+.article-listing .thumbnail {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+
+.article-listing img {
+  margin-bottom: 0;
+}
+
+.article-listing .title {
+  font-size: 1.15em;
+  margin: 0;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+.article-listing .description {
+  margin-bottom: 0;
+  padding: 0 10px 10px 10px;
+}
+
+.article-listing .event .title {
+  font-size: 1.15em;
+}
+
+.contact-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0 0;
+  overflow: hidden;
+}
+
 .contact-list .contact {
   margin-bottom: 20px;
 }
@@ -496,6 +607,8 @@
   padding-left: 20px;
 }
 
+.dialog .subfamily-choice a .ui-icon,
+.subfamily-choice a .dialog .ui-icon,
 .subfamily-choice a .fa-times {
   margin: 0 -8px 0 7px;
 }
@@ -523,6 +636,8 @@
   border-bottom: none;
 }
 
+.dialog .display-filters .ui-icon,
+.display-filters .dialog .ui-icon,
 .display-filters .fa-times {
   margin: 0 0 0 7px;
 }
@@ -878,6 +993,8 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF333333', endColorstr='#FF333333', GradientType=0);
 }
 
+.dialog .profile-listing .tag-list .ui-icon,
+.profile-listing .tag-list .dialog .ui-icon,
 .profile-listing .tag-list .fa-times {
   margin-right: 0;
 }
@@ -1842,10 +1959,14 @@
 
 #courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon,
+.dialog .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
+.dialog .hallway-new .hallway-item a h3 .title-icon span.ui-icon,
 .hallway-new .hallway-item a h2 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.hallway-new .hallway-item a h2 .title-icon .dialog span.ui-icon,
 .hallway-new .hallway-item a h2 .title-icon .ui-accordion .ui-accordion-header span.ui-icon,
 .hallway-new .hallway-item a h2 .title-icon span.fa,
 .hallway-new .hallway-item a h3 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.hallway-new .hallway-item a h3 .title-icon .dialog span.ui-icon,
 .hallway-new .hallway-item a h3 .title-icon .ui-accordion .ui-accordion-header span.ui-icon,
 .hallway-new .hallway-item a h3 .title-icon span.fa,
 .ui-accordion .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
@@ -2395,8 +2516,10 @@
 
 #courses-widget .widget-content .ui-accordion-header .social-flat-links span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .social-flat-links span.ui-icon,
+.dialog .social-flat-links span.ui-icon,
 .social-flat-links #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .social-flat-links .course .accordion.ui-accordion .ui-accordion-header span.ui-icon,
+.social-flat-links .dialog span.ui-icon,
 .social-flat-links .ui-accordion .ui-accordion-header span.ui-icon,
 .social-flat-links i,
 .social-flat-links span.fa,
@@ -2640,8 +2763,10 @@
 
 #courses-widget .widget-content .ui-accordion-header .filter-box__open .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .filter-box__open .ui-icon,
+.dialog .filter-box__open .ui-icon,
 .filter-box__open #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .filter-box__open .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.filter-box__open .dialog .ui-icon,
 .filter-box__open .fa,
 .filter-box__open .ui-accordion .ui-accordion-header .ui-icon,
 .filter-box__open .white-card__media .embed-container a:before,
@@ -2702,8 +2827,10 @@
 
 #courses-widget .widget-content .ui-accordion-header .filter-box__filter__header .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .filter-box__filter__header .ui-icon,
+.dialog .filter-box__filter__header .ui-icon,
 .filter-box__filter__header #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .filter-box__filter__header .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.filter-box__filter__header .dialog .ui-icon,
 .filter-box__filter__header .fa,
 .filter-box__filter__header .ui-accordion .ui-accordion-header .ui-icon,
 .filter-box__filter__header .white-card__media .embed-container a:before,
@@ -2718,8 +2845,10 @@
 
 #courses-widget .widget-content .ui-accordion-header .js .filter-box__filter__header .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .js .filter-box__filter__header .ui-icon,
+.dialog .js .filter-box__filter__header .ui-icon,
 .js .filter-box__filter__header #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .js .filter-box__filter__header .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.js .filter-box__filter__header .dialog .ui-icon,
 .js .filter-box__filter__header .fa,
 .js .filter-box__filter__header .ui-accordion .ui-accordion-header .ui-icon,
 .js .filter-box__filter__header .white-card__media .embed-container a:before,
@@ -7466,6 +7595,204 @@ aside .news-article-widget:last-child {
   display: block;
 }
 
+.no-scroll {
+  overflow-y: hidden;
+}
+
+.dialog {
+  background: rgba(30,30,30,.7);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.dialog .ui-icon {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s,-webkit-transform .2s;
+  background-image: none;
+  color: inherit;
+  text-indent: 0;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.dialog .ui-icon:hover {
+  cursor: pointer;
+  color: #aaa;
+}
+
+.dialog .dialog__box {
+  width: 500px;
+  display: inline-block;
+  -webkit-box-flex: 1;
+  -ms-flex: auto;
+  flex: auto;
+  overflow-y: auto;
+}
+
+.dialog .dialog__box iframe {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.shortcourse-banner .media-block__wrapper {
+  max-height: inherit;
+  position: relative;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview {
+  max-height: inherit;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background: rgba(62,16,49,.5);
+  -webkit-transition: background .3s linear;
+  transition: background .3s linear;
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview:hover:before {
+  opacity: .9;
+  background: 0 0;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button {
+  position: absolute;
+  background-color: transparent;
+  z-index: 2;
+  border-bottom: none;
+  left: 50%;
+  top: 35%;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg {
+  fill: none;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg .stroke-dotted {
+  opacity: 0;
+  stroke-dasharray: 1,8;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-animation: spin 20s infinite linear;
+  animation: spin 20s infinite linear;
+  -webkit-transition: opacity 1s ease,stroke-width 1s ease;
+  transition: opacity 1s ease,stroke-width 1s ease;
+  stroke: #fff;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg .stroke-solid {
+  stroke-dashoffset: 0;
+  stroke-dashArray: 300;
+  stroke-width: 4px;
+  -webkit-transition: stroke-dashoffset 1s ease,opacity 1s ease;
+  transition: stroke-dashoffset 1s ease,opacity 1s ease;
+  stroke: #fff;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg .icon {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transition: -webkit-transform .2s ease-out;
+  transition: -webkit-transform .2s ease-out;
+  transition: transform .2s ease-out;
+  transition: transform .2s ease-out,-webkit-transform .2s ease-out;
+  fill: #fff;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg .circle {
+  fill: #fff;
+  fill-opacity: .2;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg:hover .stroke-dotted {
+  stroke-width: 4px;
+  opacity: 1;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg:hover .stroke-solid {
+  opacity: 0;
+  stroke-dashoffset: 200;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg:hover .icon {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg:hover .circle {
+  fill: #fff;
+  fill-opacity: 0;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button {
+  left: 43%;
+  top: 25%;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg {
+  width: 50px;
+  height: 50px;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button {
+  left: 43%;
+  top: 35%;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg {
+  width: 80px;
+  height: 80px;
+}
+
 @-webkit-keyframes backgroundFadeIn {
   from {
     background-color: transparent;
@@ -7551,8 +7878,10 @@ aside .news-article-widget:last-child {
 
 #courses-widget .widget-content .ui-accordion-header .directory-user__info .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .directory-user__info .ui-icon,
+.dialog .directory-user__info .ui-icon,
 .directory-user__info #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .directory-user__info .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.directory-user__info .dialog .ui-icon,
 .directory-user__info .fa,
 .directory-user__info .ui-accordion .ui-accordion-header .ui-icon,
 .directory-user__info .white-card__media .embed-container a:before,
@@ -7770,8 +8099,10 @@ i.loading-fa-icon {
 
 #courses-widget .widget-content .ui-accordion-header .openday-cta .openday-cta__ical .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .openday-cta .openday-cta__ical .ui-icon,
+.dialog .openday-cta .openday-cta__ical .ui-icon,
 .openday-cta .openday-cta__ical #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .openday-cta .openday-cta__ical .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.openday-cta .openday-cta__ical .dialog .ui-icon,
 .openday-cta .openday-cta__ical .fa,
 .openday-cta .openday-cta__ical .ui-accordion .ui-accordion-header .ui-icon,
 .openday-cta .openday-cta__ical .white-card__media .embed-container a:before,
@@ -7880,10 +8211,12 @@ a.cta-button-link:focus {
 
 #courses-widget .widget-content .ui-accordion-header a.cta-button-link .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header a.cta-button-link .ui-icon,
+.dialog a.cta-button-link .ui-icon,
 .ui-accordion .ui-accordion-header a.cta-button-link .ui-icon,
 .white-card__media .embed-container a.cta-button-link a:before,
 a.cta-button-link #courses-widget .widget-content .ui-accordion-header .ui-icon,
 a.cta-button-link .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+a.cta-button-link .dialog .ui-icon,
 a.cta-button-link .fa,
 a.cta-button-link .ui-accordion .ui-accordion-header .ui-icon,
 a.cta-button-link .white-card__media .embed-container a:before {
@@ -7924,9 +8257,11 @@ a.cta-button-link .white-card__media .embed-container a:before {
 .course .accordion.ui-accordion .ui-accordion-header .cta-label-icon .ui-icon,
 .cta-label-icon #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .cta-label-icon .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.cta-label-icon .dialog .ui-icon,
 .cta-label-icon .fa,
 .cta-label-icon .ui-accordion .ui-accordion-header .ui-icon,
 .cta-label-icon .white-card__media .embed-container a:before,
+.dialog .cta-label-icon .ui-icon,
 .ui-accordion .ui-accordion-header .cta-label-icon .ui-icon,
 .white-card__media .embed-container .cta-label-icon a:before {
   display: block;
@@ -8017,16 +8352,20 @@ a.ghost-cta:focus {
 #courses-widget .widget-content .ui-accordion-header #promo-wrapper a.ghost-cta .ui-icon,
 #courses-widget .widget-content .ui-accordion-header a.ghost-cta .ui-icon,
 #promo-wrapper a.ghost-cta #courses-widget .widget-content .ui-accordion-header .ui-icon,
+#promo-wrapper a.ghost-cta .dialog .ui-icon,
 #promo-wrapper a.ghost-cta .fa,
 #promo-wrapper a.ghost-cta .ui-accordion .ui-accordion-header .ui-icon,
 #promo-wrapper a.ghost-cta .white-card__media .embed-container a:before,
 .course .accordion.ui-accordion .ui-accordion-header a.ghost-cta .ui-icon,
+.dialog #promo-wrapper a.ghost-cta .ui-icon,
+.dialog a.ghost-cta .ui-icon,
 .ui-accordion .ui-accordion-header #promo-wrapper a.ghost-cta .ui-icon,
 .ui-accordion .ui-accordion-header a.ghost-cta .ui-icon,
 .white-card__media .embed-container #promo-wrapper a.ghost-cta a:before,
 .white-card__media .embed-container a.ghost-cta a:before,
 a.ghost-cta #courses-widget .widget-content .ui-accordion-header .ui-icon,
 a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+a.ghost-cta .dialog .ui-icon,
 a.ghost-cta .fa,
 a.ghost-cta .ui-accordion .ui-accordion-header .ui-icon,
 a.ghost-cta .white-card__media .embed-container a:before {
@@ -8705,8 +9044,10 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .events-social .cta span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .events-social .cta span.ui-icon,
+.dialog .events-social .cta span.ui-icon,
 .events-social .cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .events-social .cta .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.events-social .cta .dialog span.ui-icon,
 .events-social .cta .ui-accordion .ui-accordion-header span.ui-icon,
 .events-social .cta i,
 .events-social .cta span.fa,
@@ -8817,8 +9158,10 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .event-calendar-wrap .responsive-toggler span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .event-calendar-wrap .responsive-toggler span.ui-icon,
+.dialog .event-calendar-wrap .responsive-toggler span.ui-icon,
 .event-calendar-wrap .responsive-toggler #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .event-calendar-wrap .responsive-toggler .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.event-calendar-wrap .responsive-toggler .dialog span.ui-icon,
 .event-calendar-wrap .responsive-toggler .ui-accordion .ui-accordion-header span.ui-icon,
 .event-calendar-wrap .responsive-toggler i,
 .event-calendar-wrap .responsive-toggler span.fa,
@@ -8905,8 +9248,10 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .event-calendar-wrap .event span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .event-calendar-wrap .event span.ui-icon,
+.dialog .event-calendar-wrap .event span.ui-icon,
 .event-calendar-wrap .event #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .event-calendar-wrap .event .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.event-calendar-wrap .event .dialog span.ui-icon,
 .event-calendar-wrap .event .ui-accordion .ui-accordion-header span.ui-icon,
 .event-calendar-wrap .event i,
 .event-calendar-wrap .event span.fa,
@@ -8955,8 +9300,10 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .event-calendar-wrap .responsive-toggler span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .event-calendar-wrap .responsive-toggler span.ui-icon,
+.dialog .event-calendar-wrap .responsive-toggler span.ui-icon,
 .event-calendar-wrap .responsive-toggler #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .event-calendar-wrap .responsive-toggler .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.event-calendar-wrap .responsive-toggler .dialog span.ui-icon,
 .event-calendar-wrap .responsive-toggler .ui-accordion .ui-accordion-header span.ui-icon,
 .event-calendar-wrap .responsive-toggler i,
 .event-calendar-wrap .responsive-toggler span.fa,
@@ -9053,13 +9400,17 @@ a.ghost-cta .white-card__media .embed-container a:before {
 #courses-widget .widget-content .ui-accordion-header .single-event .single-event-widget span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .event-meta span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .single-event-widget span.ui-icon,
+.dialog .single-event .event-meta span.ui-icon,
+.dialog .single-event .single-event-widget span.ui-icon,
 .single-event .event-meta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .single-event .event-meta .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.single-event .event-meta .dialog span.ui-icon,
 .single-event .event-meta .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .event-meta i,
 .single-event .event-meta span.fa,
 .single-event .single-event-widget #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .single-event .single-event-widget .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.single-event .single-event-widget .dialog span.ui-icon,
 .single-event .single-event-widget .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .single-event-widget i,
 .single-event .single-event-widget span.fa,
@@ -9072,19 +9423,27 @@ a.ghost-cta .white-card__media .embed-container a:before {
 #courses-widget .widget-content .ui-accordion-header .single-event .event-meta .mid-cta span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .single-event .single-event-widget .hard-cta span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .single-event .single-event-widget .mid-cta span.ui-icon,
+.dialog .single-event .event-meta .hard-cta span.ui-icon,
+.dialog .single-event .event-meta .mid-cta span.ui-icon,
+.dialog .single-event .single-event-widget .hard-cta span.ui-icon,
+.dialog .single-event .single-event-widget .mid-cta span.ui-icon,
 .single-event .event-meta .hard-cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .event-meta .hard-cta .dialog span.ui-icon,
 .single-event .event-meta .hard-cta .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .event-meta .hard-cta i,
 .single-event .event-meta .hard-cta span.fa,
 .single-event .event-meta .mid-cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .event-meta .mid-cta .dialog span.ui-icon,
 .single-event .event-meta .mid-cta .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .event-meta .mid-cta i,
 .single-event .event-meta .mid-cta span.fa,
 .single-event .single-event-widget .hard-cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .single-event-widget .hard-cta .dialog span.ui-icon,
 .single-event .single-event-widget .hard-cta .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .single-event-widget .hard-cta i,
 .single-event .single-event-widget .hard-cta span.fa,
 .single-event .single-event-widget .mid-cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .single-event-widget .mid-cta .dialog span.ui-icon,
 .single-event .single-event-widget .mid-cta .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .single-event-widget .mid-cta i,
 .single-event .single-event-widget .mid-cta span.fa,
@@ -9185,9 +9544,11 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .single-event .single-event-widget__warning span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .single-event-widget__warning span.ui-icon,
+.dialog .single-event .single-event-widget__warning span.ui-icon,
 .single-event .single-event-widget__warning,
 .single-event .single-event-widget__warning #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .single-event .single-event-widget__warning .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.single-event .single-event-widget__warning .dialog span.ui-icon,
 .single-event .single-event-widget__warning .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .single-event-widget__warning span.fa,
 .ui-accordion .ui-accordion-header .single-event .single-event-widget__warning span.ui-icon {
@@ -9226,7 +9587,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .single-event .sign-up .cta span.ui-icon,
+.dialog .single-event .sign-up .cta span.ui-icon,
 .single-event .sign-up .cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .sign-up .cta .dialog span.ui-icon,
 .single-event .sign-up .cta .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .sign-up .cta i,
 .single-event .sign-up .cta span.fa,
@@ -9263,7 +9626,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .single-event .event-detail .location span.ui-icon,
+.dialog .single-event .event-detail .location span.ui-icon,
 .single-event .event-detail .location #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .event-detail .location .dialog span.ui-icon,
 .single-event .event-detail .location .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .event-detail .location i,
 .single-event .event-detail .location span.fa,
@@ -9306,7 +9671,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .single-event .event-detail .static-map-link a span.ui-icon,
+.dialog .single-event .event-detail .static-map-link a span.ui-icon,
 .single-event .event-detail .static-map-link a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .event-detail .static-map-link a .dialog span.ui-icon,
 .single-event .event-detail .static-map-link a .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .event-detail .static-map-link a i,
 .single-event .event-detail .static-map-link a span.fa,
@@ -9333,8 +9700,10 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .single-event .events-extra ul li span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .events-extra ul li span.ui-icon,
+.dialog .single-event .events-extra ul li span.ui-icon,
 .single-event .events-extra ul li #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .single-event .events-extra ul li .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.single-event .events-extra ul li .dialog span.ui-icon,
 .single-event .events-extra ul li .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .events-extra ul li i,
 .single-event .events-extra ul li span.fa,
@@ -9362,8 +9731,10 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .single-event .alternative-contact span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .alternative-contact span.ui-icon,
+.dialog .single-event .alternative-contact span.ui-icon,
 .single-event .alternative-contact #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .single-event .alternative-contact .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.single-event .alternative-contact .dialog span.ui-icon,
 .single-event .alternative-contact .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .alternative-contact i,
 .single-event .alternative-contact span.fa,
@@ -9378,7 +9749,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .single-event .alternative-contact .cta span.ui-icon,
+.dialog .single-event .alternative-contact .cta span.ui-icon,
 .single-event .alternative-contact .cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .alternative-contact .cta .dialog span.ui-icon,
 .single-event .alternative-contact .cta .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .alternative-contact .cta i,
 .single-event .alternative-contact .cta span.fa,
@@ -9882,18 +10255,24 @@ a.ghost-cta .white-card__media .embed-container a:before {
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home .home-business h2>a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home .home-news-events div h2>a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home .home-research h2>a .ui-icon,
+.dialog .home .home-business h2>a .ui-icon,
+.dialog .home .home-news-events div h2>a .ui-icon,
+.dialog .home .home-research h2>a .ui-icon,
 .home .home-business h2>a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .home .home-business h2>a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.home .home-business h2>a .dialog .ui-icon,
 .home .home-business h2>a .fa,
 .home .home-business h2>a .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-business h2>a .white-card__media .embed-container a:before,
 .home .home-news-events div h2>a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .home .home-news-events div h2>a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.home .home-news-events div h2>a .dialog .ui-icon,
 .home .home-news-events div h2>a .fa,
 .home .home-news-events div h2>a .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-news-events div h2>a .white-card__media .embed-container a:before,
 .home .home-research h2>a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .home .home-research h2>a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.home .home-research h2>a .dialog .ui-icon,
 .home .home-research h2>a .fa,
 .home .home-research h2>a .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-research h2>a .white-card__media .embed-container a:before,
@@ -9923,15 +10302,21 @@ a.ghost-cta .white-card__media .embed-container a:before {
 #courses-widget .widget-content .ui-accordion-header .home .home-business h2>a:hover .ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2>a:hover .ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home .home-research h2>a:hover .ui-icon,
+.dialog .home .home-business h2>a:hover .ui-icon,
+.dialog .home .home-news-events div h2>a:hover .ui-icon,
+.dialog .home .home-research h2>a:hover .ui-icon,
 .home .home-business h2>a:hover #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-business h2>a:hover .dialog .ui-icon,
 .home .home-business h2>a:hover .fa,
 .home .home-business h2>a:hover .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-business h2>a:hover .white-card__media .embed-container a:before,
 .home .home-news-events div h2>a:hover #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-news-events div h2>a:hover .dialog .ui-icon,
 .home .home-news-events div h2>a:hover .fa,
 .home .home-news-events div h2>a:hover .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-news-events div h2>a:hover .white-card__media .embed-container a:before,
 .home .home-research h2>a:hover #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-research h2>a:hover .dialog .ui-icon,
 .home .home-research h2>a:hover .fa,
 .home .home-research h2>a:hover .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-research h2>a:hover .white-card__media .embed-container a:before,
@@ -9971,27 +10356,39 @@ a.ghost-cta .white-card__media .embed-container a:before {
 #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2>a:focus .ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home .home-research h2>a:active .ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home .home-research h2>a:focus .ui-icon,
+.dialog .home .home-business h2>a:active .ui-icon,
+.dialog .home .home-business h2>a:focus .ui-icon,
+.dialog .home .home-news-events div h2>a:active .ui-icon,
+.dialog .home .home-news-events div h2>a:focus .ui-icon,
+.dialog .home .home-research h2>a:active .ui-icon,
+.dialog .home .home-research h2>a:focus .ui-icon,
 .home .home-business h2>a:active #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-business h2>a:active .dialog .ui-icon,
 .home .home-business h2>a:active .fa,
 .home .home-business h2>a:active .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-business h2>a:active .white-card__media .embed-container a:before,
 .home .home-business h2>a:focus #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-business h2>a:focus .dialog .ui-icon,
 .home .home-business h2>a:focus .fa,
 .home .home-business h2>a:focus .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-business h2>a:focus .white-card__media .embed-container a:before,
 .home .home-news-events div h2>a:active #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-news-events div h2>a:active .dialog .ui-icon,
 .home .home-news-events div h2>a:active .fa,
 .home .home-news-events div h2>a:active .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-news-events div h2>a:active .white-card__media .embed-container a:before,
 .home .home-news-events div h2>a:focus #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-news-events div h2>a:focus .dialog .ui-icon,
 .home .home-news-events div h2>a:focus .fa,
 .home .home-news-events div h2>a:focus .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-news-events div h2>a:focus .white-card__media .embed-container a:before,
 .home .home-research h2>a:active #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-research h2>a:active .dialog .ui-icon,
 .home .home-research h2>a:active .fa,
 .home .home-research h2>a:active .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-research h2>a:active .white-card__media .embed-container a:before,
 .home .home-research h2>a:focus #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-research h2>a:focus .dialog .ui-icon,
 .home .home-research h2>a:focus .fa,
 .home .home-research h2>a:focus .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-research h2>a:focus .white-card__media .embed-container a:before,
@@ -10080,11 +10477,15 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls a span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls a:focus span.ui-icon,
+.dialog .home #promo-wrapper .bx-controls a span.ui-icon,
+.dialog .home #promo-wrapper .bx-controls a:focus span.ui-icon,
 .home #promo-wrapper .bx-controls a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.home #promo-wrapper .bx-controls a .dialog span.ui-icon,
 .home #promo-wrapper .bx-controls a .ui-accordion .ui-accordion-header span.ui-icon,
 .home #promo-wrapper .bx-controls a i,
 .home #promo-wrapper .bx-controls a span.fa,
 .home #promo-wrapper .bx-controls a:focus #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.home #promo-wrapper .bx-controls a:focus .dialog span.ui-icon,
 .home #promo-wrapper .bx-controls a:focus .ui-accordion .ui-accordion-header span.ui-icon,
 .home #promo-wrapper .bx-controls a:focus i,
 .home #promo-wrapper .bx-controls a:focus span.fa,
@@ -10170,11 +10571,15 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon,
 .home #promo-wrapper .bx-controls-auto a i,
 .home #promo-wrapper .bx-controls-auto a span.fa,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ui-icon,
 .home #promo-wrapper .bx-controls-direction a i,
 .home #promo-wrapper .bx-controls-direction a span.fa,
@@ -10185,11 +10590,15 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.bg.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.bg.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.bg.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.bg.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.bg.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.bg.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.bg.ui-icon,
 .home #promo-wrapper .bx-controls-auto a i.bg,
 .home #promo-wrapper .bx-controls-auto a span.fa.bg,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.bg.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.bg.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.bg.ui-icon,
 .home #promo-wrapper .bx-controls-direction a i.bg,
 .home #promo-wrapper .bx-controls-direction a span.fa.bg,
@@ -10205,11 +10614,15 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.ic.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.ic.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.ic.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.ui-icon,
 .home #promo-wrapper .bx-controls-auto a i.ic,
 .home #promo-wrapper .bx-controls-auto a span.fa.ic,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.ic.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.ui-icon,
 .home #promo-wrapper .bx-controls-direction a i.ic,
 .home #promo-wrapper .bx-controls-direction a span.fa.ic,
@@ -10230,8 +10643,14 @@ a.ghost-cta .white-card__media .embed-container a:before {
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-chevron-left.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-auto a i.ic.fa-chevron-left,
@@ -10240,6 +10659,8 @@ a.ghost-cta .white-card__media .embed-container a:before {
 .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-chevron-right,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-left.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-direction a i.ic.fa-chevron-left,
@@ -10257,8 +10678,14 @@ a.ghost-cta .white-card__media .embed-container a:before {
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-play.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-play.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-play.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-chevron-right.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-play.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-play.ui-icon,
 .home #promo-wrapper .bx-controls-auto a i.ic.fa-chevron-right,
@@ -10267,6 +10694,8 @@ a.ghost-cta .white-card__media .embed-container a:before {
 .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-play,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-play.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-right.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-play.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-play.ui-icon,
 .home #promo-wrapper .bx-controls-direction a i.ic.fa-chevron-right,
@@ -10282,11 +10711,15 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-auto a i.ic.fa-chevron-left,
 .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-chevron-left,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-direction a i.ic.fa-chevron-left,
 .home #promo-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-left,
@@ -10649,7 +11082,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a i,
 .home-news-events .bx-wrapper .bx-controls-direction a span.fa,
@@ -10661,7 +11096,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.bg.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.bg.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.bg.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.bg.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.bg.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a i.bg,
 .home-news-events .bx-wrapper .bx-controls-direction a span.fa.bg,
@@ -10677,7 +11114,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a i.ic,
 .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic,
@@ -10695,8 +11134,12 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-left.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-right.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-chevron-left,
@@ -10710,8 +11153,12 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-play.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-right.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-play.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-play.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-chevron-right,
@@ -10724,7 +11171,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-left.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-chevron-left,
 .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-left,
@@ -10960,23 +11409,31 @@ a.ghost-cta .white-card__media .embed-container a:before {
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home-business .home-item h3 span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home-research .home-item h2 span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home-research .home-item h3 span.ui-icon,
+.dialog .home-business .home-item h2 span.ui-icon,
+.dialog .home-business .home-item h3 span.ui-icon,
+.dialog .home-research .home-item h2 span.ui-icon,
+.dialog .home-research .home-item h3 span.ui-icon,
 .home-business .home-item h2 #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .home-business .home-item h2 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.home-business .home-item h2 .dialog span.ui-icon,
 .home-business .home-item h2 .ui-accordion .ui-accordion-header span.ui-icon,
 .home-business .home-item h2 i,
 .home-business .home-item h2 span.fa,
 .home-business .home-item h3 #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .home-business .home-item h3 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.home-business .home-item h3 .dialog span.ui-icon,
 .home-business .home-item h3 .ui-accordion .ui-accordion-header span.ui-icon,
 .home-business .home-item h3 i,
 .home-business .home-item h3 span.fa,
 .home-research .home-item h2 #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .home-research .home-item h2 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.home-research .home-item h2 .dialog span.ui-icon,
 .home-research .home-item h2 .ui-accordion .ui-accordion-header span.ui-icon,
 .home-research .home-item h2 i,
 .home-research .home-item h2 span.fa,
 .home-research .home-item h3 #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .home-research .home-item h3 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.home-research .home-item h3 .dialog span.ui-icon,
 .home-research .home-item h3 .ui-accordion .ui-accordion-header span.ui-icon,
 .home-research .home-item h3 i,
 .home-research .home-item h3 span.fa,
@@ -11185,7 +11642,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .home .home-course-finder .home-course-finder-submit button span.ui-icon,
+.dialog .home .home-course-finder .home-course-finder-submit button span.ui-icon,
 .home .home-course-finder .home-course-finder-submit button #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.home .home-course-finder .home-course-finder-submit button .dialog span.ui-icon,
 .home .home-course-finder .home-course-finder-submit button .ui-accordion .ui-accordion-header span.ui-icon,
 .home .home-course-finder .home-course-finder-submit button i,
 .home .home-course-finder .home-course-finder-submit button span.fa,
@@ -11298,7 +11757,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .home-city-connect .content .home-text-container a span.ui-icon,
+.dialog .home-city-connect .content .home-text-container a span.ui-icon,
 .home-city-connect .content .home-text-container a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.home-city-connect .content .home-text-container a .dialog span.ui-icon,
 .home-city-connect .content .home-text-container a .ui-accordion .ui-accordion-header span.ui-icon,
 .home-city-connect .content .home-text-container a i,
 .home-city-connect .content .home-text-container a span.fa,
@@ -12620,10 +13081,12 @@ p.left-float-image {
 #courses-widget .widget-content .ui-accordion-header .city-health__loading .ui-icon,
 .city-health__loading #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .city-health__loading .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.city-health__loading .dialog .ui-icon,
 .city-health__loading .fa,
 .city-health__loading .ui-accordion .ui-accordion-header .ui-icon,
 .city-health__loading .white-card__media .embed-container a:before,
 .course .accordion.ui-accordion .ui-accordion-header .city-health__loading .ui-icon,
+.dialog .city-health__loading .ui-icon,
 .ui-accordion .ui-accordion-header .city-health__loading .ui-icon,
 .white-card__media .embed-container .city-health__loading a:before {
   display: inline-block;
@@ -12790,8 +13253,10 @@ p.left-float-image {
 
 #courses-widget .widget-content .ui-accordion-header .link-list--school-landing-page h2 .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .link-list--school-landing-page h2 .ui-icon,
+.dialog .link-list--school-landing-page h2 .ui-icon,
 .link-list--school-landing-page h2 #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .link-list--school-landing-page h2 .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.link-list--school-landing-page h2 .dialog .ui-icon,
 .link-list--school-landing-page h2 .fa,
 .link-list--school-landing-page h2 .ui-accordion .ui-accordion-header .ui-icon,
 .link-list--school-landing-page h2 .white-card__media .embed-container a:before,
@@ -12951,8 +13416,10 @@ p.left-float-image {
 
 #courses-widget .widget-content .ui-accordion-header .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
+.dialog .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
 .school-landing-ctas.school-landing-ctas--sass a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .school-landing-ctas.school-landing-ctas--sass a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.school-landing-ctas.school-landing-ctas--sass a .dialog .ui-icon,
 .school-landing-ctas.school-landing-ctas--sass a .fa,
 .school-landing-ctas.school-landing-ctas--sass a .ui-accordion .ui-accordion-header .ui-icon,
 .school-landing-ctas.school-landing-ctas--sass a .white-card__media .embed-container a:before,
@@ -12989,8 +13456,10 @@ p.left-float-image {
 
 #courses-widget .widget-content .ui-accordion-header .school-landing-ctas.school-landing-ctas--smcse a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .school-landing-ctas.school-landing-ctas--smcse a .ui-icon,
+.dialog .school-landing-ctas.school-landing-ctas--smcse a .ui-icon,
 .school-landing-ctas.school-landing-ctas--smcse a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .school-landing-ctas.school-landing-ctas--smcse a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.school-landing-ctas.school-landing-ctas--smcse a .dialog .ui-icon,
 .school-landing-ctas.school-landing-ctas--smcse a .fa,
 .school-landing-ctas.school-landing-ctas--smcse a .ui-accordion .ui-accordion-header .ui-icon,
 .school-landing-ctas.school-landing-ctas--smcse a .white-card__media .embed-container a:before,
@@ -13073,8 +13542,10 @@ p.left-float-image {
 
 #courses-widget .widget-content .ui-accordion-header .section-white-cards--sass .cta-label-icon .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .section-white-cards--sass .cta-label-icon .ui-icon,
+.dialog .section-white-cards--sass .cta-label-icon .ui-icon,
 .section-white-cards--sass .cta-label-icon #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .section-white-cards--sass .cta-label-icon .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.section-white-cards--sass .cta-label-icon .dialog .ui-icon,
 .section-white-cards--sass .cta-label-icon .fa,
 .section-white-cards--sass .cta-label-icon .ui-accordion .ui-accordion-header .ui-icon,
 .section-white-cards--sass .cta-label-icon .white-card__media .embed-container a:before,
@@ -13936,6 +14407,8 @@ p.left-float-image {
 #courses-widget .widget-content .ui-accordion-header .service-finder__results__item__md>.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__md>.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__md>.ui-icon,
+.dialog .project-finder__results__item__md>.ui-icon,
+.dialog .service-finder__results__item__md>.ui-icon,
 .project-finder__results__item__md>.fa,
 .service-finder__results__item__md>.fa,
 .ui-accordion .ui-accordion-header .project-finder__results__item__md>.ui-icon,
@@ -14023,13 +14496,17 @@ p.left-float-image {
 #courses-widget .widget-content .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
+.dialog .project-finder__results__item__info-toggle .ui-icon,
+.dialog .service-finder__results__item__info-toggle .ui-icon,
 .project-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .project-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.project-finder__results__item__info-toggle .dialog .ui-icon,
 .project-finder__results__item__info-toggle .fa,
 .project-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
 .project-finder__results__item__info-toggle .white-card__media .embed-container a:before,
 .service-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .service-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.service-finder__results__item__info-toggle .dialog .ui-icon,
 .service-finder__results__item__info-toggle .fa,
 .service-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
 .service-finder__results__item__info-toggle .white-card__media .embed-container a:before,
@@ -14079,934 +14556,4 @@ p.left-float-image {
   border-bottom-width: 1px;
   border-bottom-style: dotted;
   position: relative;
-}
-
-.scholarship a,
-.scholarship a:focus,
-.scholarship a:hover {
-  text-decoration: none;
-}
-
-.scholarship a:link {
-  color: #b91b1b;
-  border-bottom-color: #999;
-}
-
-.scholarship a:visited {
-  color: #670003;
-}
-
-.scholarship a:hover {
-  border-bottom-style: solid;
-  border-bottom-color: #670003;
-}
-
-.scholarship a:focus {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.scholarship a:active {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.scholarship h3 a {
-  border-bottom-width: 1px;
-  border-bottom-style: dotted;
-  position: relative;
-}
-
-.scholarship h3 a,
-.scholarship h3 a:focus,
-.scholarship h3 a:hover {
-  text-decoration: none;
-}
-
-.scholarship h3 a:link {
-  border-bottom-width: 2px;
-}
-
-.scholarship .hard-cta a:link,
-.scholarship .hard-cta a:visited {
-  color: #fff;
-  border: 1px solid #a0271f;
-}
-
-.scholarship .hard-cta a:hover {
-  border: 1px solid #670003;
-}
-
-.scholarship .dark-background a:link,
-.scholarship .widget a:link,
-.scholarship [class*=widget-] a:link {
-  border-bottom-width: 2px;
-}
-
-.scholarship .dark-background a:link {
-  color: #eee;
-  border-bottom-color: #ccc;
-}
-
-.scholarship .dark-background a:visited {
-  color: #eee;
-}
-
-.scholarship .dark-background a:hover {
-  color: #FFF;
-  border-bottom-color: #FFF;
-}
-
-.scholarship .dark-background a:focus {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.scholarship .dark-background a:active {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.scholarship .footer a:link,
-.scholarship a.simple:link {
-  color: #333;
-  border-bottom-color: transparent;
-}
-
-.scholarship .footer a:visited,
-.scholarship a.simple:visited {
-  color: #333;
-}
-
-.scholarship .footer a:hover,
-.scholarship a.simple:hover {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333;
-}
-
-.scholarship .footer a:focus,
-.scholarship a.simple:focus {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333;
-}
-
-.scholarship .footer a:active,
-.scholarship a.simple:active {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333;
-}
-
-.scholarship a.hallway {
-  font-weight: 600;
-}
-
-.scholarship a.hallway:link {
-  color: #333;
-  border-bottom-color: transparent;
-}
-
-.scholarship a.hallway:visited {
-  color: #333;
-}
-
-.scholarship a.hallway:hover {
-  color: #b91b1b;
-  border-bottom-style: solid;
-  border-bottom-color: #b91b1b;
-}
-
-.scholarship a.hallway:focus {
-  background-color: #FFF;
-  color: #b91b1b;
-  border-bottom-style: dotted;
-  border-bottom-color: #555;
-}
-
-.scholarship a.hallway:active {
-  background-color: #FFF;
-}
-
-.scholarship a.scholarship__header-link {
-  font-weight: 500;
-}
-
-.scholarship a.scholarship__header-link:link {
-  color: #333;
-  border-bottom-color: transparent;
-}
-
-.scholarship a.scholarship__header-link:visited {
-  color: #333;
-}
-
-.scholarship a.scholarship__header-link:hover {
-  color: #b91b1b;
-  border-bottom-style: solid;
-  border-bottom-color: #b91b1b;
-}
-
-.scholarship a.scholarship__header-link:focus {
-  background-color: #FFF;
-  color: #b91b1b;
-  border-bottom-style: dotted;
-  border-bottom-color: #555;
-}
-
-.scholarship a.scholarship__header-link:active {
-  background-color: #FFF;
-}
-
-.scholarship a.scholarship__header-link i {
-  font-size: .8em;
-  margin-left: .3em;
-}
-
-.scholarship a.scholarship__cta:link {
-  color: #b91b1b;
-  border-bottom-width: 2px;
-  border-bottom-style: dotted;
-  border-bottom-color: #999;
-}
-
-.scholarship a.scholarship__cta:visited {
-  color: #670003;
-  border-bottom-color: #999;
-}
-
-.scholarship a.scholarship__cta:hover {
-  border-bottom-color: #670003;
-  border-bottom-style: solid;
-}
-
-.scholarship a.scholarship__cta:focus {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.scholarship a.scholarship__cta:active {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.scholarship .scholarship__school a {
-  background-color: #eee;
-  padding: 5px 10px;
-  border-radius: 6px;
-  font-weight: 500;
-}
-
-.scholarship .scholarship__school a:link {
-  color: #333;
-  border-bottom-width: 0;
-}
-
-.scholarship .scholarship__school a:visited {
-  color: #333;
-}
-
-.scholarship .scholarship__school a:hover {
-  background-color: #666;
-  color: #FFF;
-  border-color: #b91b1b;
-}
-
-.scholarship .scholarship__school a:focus {
-  background-color: #b91b1b;
-  color: #FFF;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-.scholarship .scholarship__school a:active {
-  background-color: #b91b1b;
-  color: #FFF;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-.scholarship .scholarship__bottom-ctas #contact-widget a,
-.scholarship .scholarship__bottom-ctas a {
-  border-bottom-width: 1px;
-  -webkit-transition: none;
-  transition: none;
-}
-
-.scholarship .scholarship__bottom-ctas #contact-widget a:link,
-.scholarship .scholarship__bottom-ctas a:link {
-  color: #eee;
-  border-bottom-color: #ccc;
-}
-
-.scholarship .scholarship__bottom-ctas #contact-widget a:visited,
-.scholarship .scholarship__bottom-ctas a:visited {
-  color: #eee;
-}
-
-.scholarship .scholarship__bottom-ctas #contact-widget a:hover,
-.scholarship .scholarship__bottom-ctas a:hover {
-  color: #FFF;
-  border-bottom-color: #FFF;
-}
-
-.scholarship .scholarship__bottom-ctas #contact-widget a:focus,
-.scholarship .scholarship__bottom-ctas a:focus {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.scholarship .scholarship__bottom-ctas #contact-widget a:active,
-.scholarship .scholarship__bottom-ctas a:active {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.scholarship .scholarship__key-information a {
-  border-bottom-width: 1px;
-}
-
-.scholarship .scholarship__key-information a:link {
-  color: #eee;
-  border-bottom-color: #ccc;
-}
-
-.scholarship .scholarship__key-information a:visited {
-  color: #eee;
-}
-
-.scholarship .scholarship__key-information a:hover {
-  color: #FFF;
-  border-bottom-color: #FFF;
-}
-
-.scholarship .scholarship__key-information a:focus {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.scholarship .scholarship__key-information a:active {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.scholarship .scholarship__key-information a:link,
-.scholarship .scholarship__key-information a:visited {
-  border-bottom-style: dotted;
-}
-
-.scholarship .scholarship__key-information a:hover {
-  border-bottom-style: solid;
-}
-
-.scholarship .scholarship__key-information h3 a {
-  float: right;
-}
-
-.scholarship-finder input,
-.scholarship-finder select {
-  font-size: 16px;
-}
-
-.scholarship-finder__query-wrapper {
-  margin-top: -40px;
-  background: #ccc;
-}
-
-.scholarship-finder__form-wrapper {
-  background: #eee;
-}
-
-.scholarship-finder__query .query-box {
-  padding-right: 44px;
-  position: relative;
-}
-
-.scholarship-finder__query input {
-  padding: 10px 10px 9px 10px;
-  width: 100%;
-  border: 1px solid #a9a9a9;
-  font-size: 16px;
-}
-
-.scholarship-finder__query button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 45px;
-  height: 45px;
-  background: #fff;
-  border: 1px solid #a9a9a9;
-}
-
-.scholarship-finder__form .filter-box h2 {
-  font-size: 24px;
-}
-
-.scholarship-finder__clear-buttons {
-  display: none;
-  display: block;
-}
-
-.scholarship-finder__clear-buttons>div {
-  display: inline-block;
-}
-
-.scholarship-finder__clear-buttons a {
-  display: inline-block;
-  padding: 5px 10px;
-  border: 1px solid;
-  border-radius: 3px;
-  margin: 10px 10px 0 0;
-}
-
-.scholarship-finder__clear-buttons a:link,
-.scholarship-finder__clear-buttons a:visited {
-  background: #b91b1c;
-  color: #fff;
-  border-color: #b91b1c;
-}
-
-.scholarship-finder__clear-buttons a:hover {
-  background: #f22428;
-  color: #fff;
-  border-color: #f22428;
-}
-
-.scholarship-finder__clear-buttons a:active,
-.scholarship-finder__clear-buttons a:focus {
-  background: #fff;
-  color: #b91b1c;
-  border-color: #b91b1c;
-}
-
-.scholarship-finder__results {
-  padding-left: 20px;
-}
-
-.scholarship-finder__results__summary {
-  font-weight: 600;
-  margin-bottom: 14px;
-}
-
-.scholarship-finder__results__summary__refresh {
-  display: inline-block;
-  color: #b91b1c;
-  margin-left: 5px;
-}
-
-.finder__results__headers {
-  padding: 20px;
-  font-weight: 600;
-}
-
-.scholarship-finder__results__item {
-  background: #fff;
-  padding: 10px;
-  margin-bottom: 30px;
-  position: relative;
-  padding: 20px;
-}
-
-.scholarship-finder__results__item h2 {
-  margin: 0 48px 0 0;
-  font-size: 1.3em;
-  line-height: 28px;
-}
-
-.scholarship-finder__results__item h2 a {
-  font-weight: 500;
-  border-bottom-width: 1px;
-  border-bottom-style: dotted;
-  position: relative;
-}
-
-.scholarship-finder__results__item h2 a,
-.scholarship-finder__results__item h2 a:focus,
-.scholarship-finder__results__item h2 a:hover {
-  text-decoration: none;
-}
-
-.scholarship-finder__results__item h2 a:link {
-  color: #b91b1b;
-  border-bottom-color: #999;
-}
-
-.scholarship-finder__results__item h2 a:visited {
-  color: #670003;
-}
-
-.scholarship-finder__results__item h2 a:hover {
-  border-bottom-style: solid;
-  border-bottom-color: #670003;
-}
-
-.scholarship-finder__results__item h2 a:focus {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.scholarship-finder__results__item h2 a:active {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.scholarship-finder__results__item--hardship {
-  position: relative;
-}
-
-.scholarship-finder__results__item--hardship:before {
-  content: "";
-  display: block;
-  background: 0 0;
-  width: 48px;
-  height: 48px;
-  border-top: 8px solid #52712d;
-  border-left: 8px solid #52712d;
-  position: absolute;
-  top: -8px;
-  left: -8px;
-  width: 72px;
-  height: 72px;
-}
-
-.scholarship-finder__results__item__level {
-  padding: 3px 0;
-  font-weight: 600;
-  color: #666;
-}
-
-.scholarship-finder__results__item__award {
-  font-weight: 600;
-  color: #666;
-}
-
-.scholarship-finder__results__item__md {
-  margin-bottom: 5px;
-}
-
-#courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__md>.ui-icon,
-.course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__md>.ui-icon,
-.scholarship-finder__results__item__md>.fa,
-.ui-accordion .ui-accordion-header .scholarship-finder__results__item__md>.ui-icon,
-.white-card__media .embed-container .scholarship-finder__results__item__md>a:before {
-  float: left;
-  line-height: 21px;
-}
-
-.scholarship-finder__results__item__md>div {
-  margin-left: 22px;
-}
-
-.scholarship-finder__results__item__info {
-  display: none;
-  margin-top: 10px;
-  border-top: 2px solid #eee;
-}
-
-.scholarship-finder__results__item__info.scholarship-finder__results__item__info--open {
-  display: block;
-}
-
-.scholarship-finder__results__item__description {
-  margin: 10px 0;
-}
-
-.scholarship-finder__results__item__md span {
-  color: #666;
-}
-
-.scholarship-finder__results__item__md__label {
-  font-weight: 600;
-}
-
-.scholarship-finder__results__item__info-toggle {
-  display: none;
-}
-
-.scholarship-finder__results__item__info {
-  display: block;
-}
-
-.scholarship-finder__results__item__info-toggle {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 5px 15px;
-  border-radius: 5px;
-  border: none;
-  background: #b91b1b;
-  color: #fff;
-  -webkit-transition: color .1s,background .1s;
-  transition: color .1s,background .1s;
-}
-
-#courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon,
-.course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon,
-.scholarship-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
-.scholarship-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
-.scholarship-finder__results__item__info-toggle .fa,
-.scholarship-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
-.scholarship-finder__results__item__info-toggle .white-card__media .embed-container a:before,
-.ui-accordion .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon,
-.white-card__media .embed-container .scholarship-finder__results__item__info-toggle a:before {
-  -webkit-transition: -webkit-transform .3s;
-  transition: -webkit-transform .3s;
-  transition: transform .3s;
-  transition: transform .3s,-webkit-transform .3s;
-}
-
-.scholarship-finder__results__item__info-toggle:active,
-.scholarship-finder__results__item__info-toggle:focus {
-  background: #eee;
-  color: #333;
-}
-
-.scholarship-finder__results__item__info-toggle:hover {
-  background: #eee;
-  color: #b91b1b;
-}
-
-.scholarship-finder__filter--hardship div {
-  background-color: #52712d;
-  color: #fff;
-  font-weight: 600;
-  padding: 8px;
-}
-
-.scholarship-finder-test #primary-nav-toggler,
-.scholarship-finder-test #slice-navigation {
-  display: none;
-}
-
-.scholarship-finder__bottom-banner {
-  max-height: 250px;
-}
-
-.scholarship-finder__bottom-banner__img {
-  width: 100%;
-  margin: 0;
-}
-
-.course a {
-  border-bottom-width: 1px;
-  border-bottom-style: dotted;
-  position: relative;
-}
-
-.course a,
-.course a:focus,
-.course a:hover {
-  text-decoration: none;
-}
-
-.course a:link {
-  color: #b91b1b;
-  border-bottom-color: #999;
-}
-
-.course a:visited {
-  color: #670003;
-}
-
-.course a:hover {
-  border-bottom-style: solid;
-  border-bottom-color: #670003;
-}
-
-.course a:focus {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.course a:active {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.course h3 a {
-  border-bottom-width: 1px;
-  border-bottom-style: dotted;
-  position: relative;
-}
-
-.course h3 a,
-.course h3 a:focus,
-.course h3 a:hover {
-  text-decoration: none;
-}
-
-.course h3 a:link {
-  border-bottom-width: 2px;
-}
-
-.course .hard-cta a:link,
-.course .hard-cta a:visited {
-  color: #fff;
-  border: 1px solid #a0271f;
-}
-
-.course .hard-cta a:hover {
-  border: 1px solid #670003;
-}
-
-.course .dark-background a:link,
-.course .widget a:link,
-.course [class*=widget-] a:link {
-  border-bottom-width: 2px;
-}
-
-.course .dark-background a:link {
-  color: #eee;
-  border-bottom-color: #ccc;
-}
-
-.course .dark-background a:visited {
-  color: #eee;
-}
-
-.course .dark-background a:hover {
-  color: #FFF;
-  border-bottom-color: #FFF;
-}
-
-.course .dark-background a:focus {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.course .dark-background a:active {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.course .footer a:link,
-.course a.simple:link {
-  color: #333;
-  border-bottom-color: transparent;
-}
-
-.course .footer a:visited,
-.course a.simple:visited {
-  color: #333;
-}
-
-.course .footer a:hover,
-.course a.simple:hover {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333;
-}
-
-.course .footer a:focus,
-.course a.simple:focus {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333;
-}
-
-.course .footer a:active,
-.course a.simple:active {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333;
-}
-
-.course a.hallway {
-  font-weight: 600;
-}
-
-.course a.hallway:link {
-  color: #333;
-  border-bottom-color: transparent;
-}
-
-.course a.hallway:visited {
-  color: #333;
-}
-
-.course a.hallway:hover {
-  color: #b91b1b;
-  border-bottom-style: solid;
-  border-bottom-color: #b91b1b;
-}
-
-.course a.hallway:focus {
-  background-color: #FFF;
-  color: #b91b1b;
-  border-bottom-style: dotted;
-  border-bottom-color: #555;
-}
-
-.course a.hallway:active {
-  background-color: #FFF;
-}
-
-.course a.course__header-link {
-  font-weight: 500;
-}
-
-.course a.course__header-link:link {
-  color: #333;
-  border-bottom-color: transparent;
-}
-
-.course a.course__header-link:visited {
-  color: #333;
-}
-
-.course a.course__header-link:hover {
-  color: #b91b1b;
-  border-bottom-style: solid;
-  border-bottom-color: #b91b1b;
-}
-
-.course a.course__header-link:focus {
-  background-color: #FFF;
-  color: #b91b1b;
-  border-bottom-style: dotted;
-  border-bottom-color: #555;
-}
-
-.course a.course__header-link:active {
-  background-color: #FFF;
-}
-
-.course a.course__header-link i {
-  font-size: .8em;
-  margin-left: .3em;
-}
-
-.course a.course__cta:link {
-  color: #b91b1b;
-  border-bottom-width: 2px;
-  border-bottom-style: dotted;
-  border-bottom-color: #999;
-}
-
-.course a.course__cta:visited {
-  color: #670003;
-  border-bottom-color: #999;
-}
-
-.course a.course__cta:hover {
-  border-bottom-color: #670003;
-  border-bottom-style: solid;
-}
-
-.course a.course__cta:focus {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.course a.course__cta:active {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.course .course__school a {
-  background-color: #eee;
-  padding: 5px 10px;
-  border-radius: 6px;
-  font-weight: 500;
-}
-
-.course .course__school a:link {
-  color: #333;
-  border-bottom-width: 0;
-}
-
-.course .course__school a:visited {
-  color: #333;
-}
-
-.course .course__school a:hover {
-  background-color: #666;
-  color: #FFF;
-  border-color: #b91b1b;
-}
-
-.course .course__school a:focus {
-  background-color: #b91b1b;
-  color: #FFF;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-.course .course__school a:active {
-  background-color: #b91b1b;
-  color: #FFF;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-.course .course__bottom-ctas #contact-widget a,
-.course .course__bottom-ctas a {
-  border-bottom-width: 1px;
-  -webkit-transition: none;
-  transition: none;
-}
-
-.course .course__bottom-ctas #contact-widget a:link,
-.course .course__bottom-ctas a:link {
-  color: #eee;
-  border-bottom-color: #ccc;
-}
-
-.course .course__bottom-ctas #contact-widget a:visited,
-.course .course__bottom-ctas a:visited {
-  color: #eee;
-}
-
-.course .course__bottom-ctas #contact-widget a:hover,
-.course .course__bottom-ctas a:hover {
-  color: #FFF;
-  border-bottom-color: #FFF;
-}
-
-.course .course__bottom-ctas #contact-widget a:focus,
-.course .course__bottom-ctas a:focus {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.course .course__bottom-ctas #contact-widget a:active,
-.course .course__bottom-ctas a:active {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.course .course__key-information a {
-  border-bottom-width: 1px;
-}
-
-.course .course__key-information a:link {
-  color: #eee;
-  border-bottom-color: #ccc;
-}
-
-.course .course__key-information a:visited {
-  color: #eee;
-}
-
-.course .course__key-information a:hover {
-  color: #FFF;
-  border-bottom-color: #FFF;
 }

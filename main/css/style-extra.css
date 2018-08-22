@@ -1,3 +1,569 @@
+.project .project__bottom-ctas #contact-widget a:hover,
+.project .project__bottom-ctas a:hover,
+.project .service__bottom-ctas #contact-widget a:hover,
+.project .service__bottom-ctas a:hover,
+.service .project__bottom-ctas #contact-widget a:hover,
+.service .project__bottom-ctas a:hover,
+.service .service__bottom-ctas #contact-widget a:hover,
+.service .service__bottom-ctas a:hover {
+  color: #FFF;
+  border-bottom-color: #FFF;
+}
+
+.project .project__bottom-ctas #contact-widget a:focus,
+.project .project__bottom-ctas a:focus,
+.project .service__bottom-ctas #contact-widget a:focus,
+.project .service__bottom-ctas a:focus,
+.service .project__bottom-ctas #contact-widget a:focus,
+.service .project__bottom-ctas a:focus,
+.service .service__bottom-ctas #contact-widget a:focus,
+.service .service__bottom-ctas a:focus {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.project .project__bottom-ctas #contact-widget a:active,
+.project .project__bottom-ctas a:active,
+.project .service__bottom-ctas #contact-widget a:active,
+.project .service__bottom-ctas a:active,
+.service .project__bottom-ctas #contact-widget a:active,
+.service .project__bottom-ctas a:active,
+.service .service__bottom-ctas #contact-widget a:active,
+.service .service__bottom-ctas a:active {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.project .project__key-information a,
+.project .service__key-information a,
+.service .project__key-information a,
+.service .service__key-information a {
+  border-bottom-width: 1px;
+}
+
+.project .project__key-information a:link,
+.project .service__key-information a:link,
+.service .project__key-information a:link,
+.service .service__key-information a:link {
+  color: #eee;
+  border-bottom-color: #ccc;
+}
+
+.project .project__key-information a:visited,
+.project .service__key-information a:visited,
+.service .project__key-information a:visited,
+.service .service__key-information a:visited {
+  color: #eee;
+}
+
+.project .project__key-information a:hover,
+.project .service__key-information a:hover,
+.service .project__key-information a:hover,
+.service .service__key-information a:hover {
+  color: #FFF;
+  border-bottom-color: #FFF;
+}
+
+.project .project__key-information a:focus,
+.project .service__key-information a:focus,
+.service .project__key-information a:focus,
+.service .service__key-information a:focus {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.project .project__key-information a:active,
+.project .service__key-information a:active,
+.service .project__key-information a:active,
+.service .service__key-information a:active {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.project .project__key-information a:link,
+.project .project__key-information a:visited,
+.project .service__key-information a:link,
+.project .service__key-information a:visited,
+.service .project__key-information a:link,
+.service .project__key-information a:visited,
+.service .service__key-information a:link,
+.service .service__key-information a:visited {
+  border-bottom-style: dotted;
+}
+
+.project .project__key-information a:hover,
+.project .service__key-information a:hover,
+.service .project__key-information a:hover,
+.service .service__key-information a:hover {
+  border-bottom-style: solid;
+}
+
+.project .project__key-information h3 a,
+.project .service__key-information h3 a,
+.service .project__key-information h3 a,
+.service .service__key-information h3 a {
+  float: right;
+}
+
+.service_section h3,
+.technology_section h5 {
+  background-color: #333;
+  color: #fff;
+  margin-top: 0;
+  padding: 4px 8px;
+}
+
+.project_status .project-status__green {
+  background-color: #6c953c;
+  color: #fff;
+  font-weight: 600;
+}
+
+.project_status .project-status__amber {
+  background-color: #e55302;
+  color: #fff;
+  font-weight: 600;
+}
+
+.project_status .project-status__red {
+  background-color: #b02a1a;
+  color: #fff;
+  font-weight: 600;
+}
+
+.project_section h3 {
+  background-color: #333;
+  color: #fff;
+  margin-top: 0;
+  padding: 4px 8px;
+}
+
+.project-finder input,
+.project-finder select,
+.service-finder input,
+.service-finder select {
+  font-size: 16px;
+}
+
+.project-finder__query-wrapper,
+.service-finder__query-wrapper {
+  margin-top: -40px;
+  background: #ccc;
+}
+
+.project-finder__form-wrapper,
+.service-finder__form-wrapper {
+  background: #eee;
+}
+
+.project-finder__query .query-box,
+.service-finder__query .query-box {
+  padding-right: 44px;
+  position: relative;
+}
+
+.project-finder__query input,
+.service-finder__query input {
+  padding: 10px 10px 9px 10px;
+  width: 100%;
+  border: 1px solid #a9a9a9;
+  font-size: 16px;
+}
+
+.project-finder__query button,
+.service-finder__query button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  border: 1px solid #a9a9a9;
+}
+
+.project-finder__form .filter-box h2,
+.service-finder__form .filter-box h2 {
+  font-size: 24px;
+}
+
+.project-finder__clear-buttons,
+.service-finder__clear-buttons {
+  display: none;
+}
+
+@media only screen and (min-width:600px) {
+  .project-finder__clear-buttons,
+  .service-finder__clear-buttons {
+    display: block;
+  }
+}
+
+.project-finder__clear-buttons>div,
+.service-finder__clear-buttons>div {
+  display: inline-block;
+}
+
+.project-finder__clear-buttons a,
+.service-finder__clear-buttons a {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 3px;
+  margin: 10px 10px 0 0;
+}
+
+.project-finder__clear-buttons a:link,
+.project-finder__clear-buttons a:visited,
+.service-finder__clear-buttons a:link,
+.service-finder__clear-buttons a:visited {
+  background: #b91b1c;
+  color: #fff;
+  border-color: #b91b1c;
+}
+
+.project-finder__clear-buttons a:hover,
+.service-finder__clear-buttons a:hover {
+  background: #f22428;
+  color: #fff;
+  border-color: #f22428;
+}
+
+.project-finder__clear-buttons a:active,
+.project-finder__clear-buttons a:focus,
+.service-finder__clear-buttons a:active,
+.service-finder__clear-buttons a:focus {
+  background: #fff;
+  color: #b91b1c;
+  border-color: #b91b1c;
+}
+
+@media only screen and (min-width:600px) {
+  .project-finder__results,
+  .service-finder__results {
+    padding-left: 20px;
+  }
+}
+
+.project-finder__results__summary,
+.service-finder__results__summary {
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.project-finder__results__summary__refresh,
+.service-finder__results__summary__refresh {
+  display: inline-block;
+  color: #b91b1c;
+  margin-left: 5px;
+}
+
+.finder__results__headers {
+  padding: 20px;
+  font-weight: 600;
+}
+
+.project-finder__results__item,
+.service-finder__results__item {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+@media only screen and (min-width:600px) {
+  .project-finder__results__item,
+  .service-finder__results__item {
+    padding: 20px;
+  }
+}
+
+.project-finder__results__item h2,
+.service-finder__results__item h2 {
+  margin: 0 48px 0 0;
+  font-size: 1.3em;
+  line-height: 28px;
+}
+
+.project-finder__results__item h2 a,
+.service-finder__results__item h2 a {
+  font-weight: 500;
+  padding-top: 4px;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  position: relative;
+}
+
+.project-finder__results__item h2 a,
+.project-finder__results__item h2 a:focus,
+.project-finder__results__item h2 a:hover,
+.service-finder__results__item h2 a,
+.service-finder__results__item h2 a:focus,
+.service-finder__results__item h2 a:hover {
+  text-decoration: none;
+}
+
+.project-finder__results__item h2 a:link,
+.service-finder__results__item h2 a:link {
+  color: #b91b1b;
+  border-bottom-color: #999;
+}
+
+.project-finder__results__item h2 a:visited,
+.service-finder__results__item h2 a:visited {
+  color: #670003;
+}
+
+.project-finder__results__item h2 a:hover,
+.service-finder__results__item h2 a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #670003;
+}
+
+.project-finder__results__item h2 a:focus,
+.service-finder__results__item h2 a:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.project-finder__results__item h2 a:active,
+.service-finder__results__item h2 a:active {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.project-finder__results__item__progress,
+.service-finder__results__item__status {
+  padding: 3px 0;
+  font-weight: 600;
+  color: #666;
+}
+
+.project-finder__results__item__md,
+.service-finder__results__item__md {
+  margin-bottom: 5px;
+}
+
+#courses-widget .widget-content .ui-accordion-header .project-finder__results__item__md>.ui-icon,
+#courses-widget .widget-content .ui-accordion-header .service-finder__results__item__md>.ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__md>.ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__md>.ui-icon,
+.dialog .project-finder__results__item__md>.ui-icon,
+.dialog .service-finder__results__item__md>.ui-icon,
+.project-finder__results__item__md>.fa,
+.service-finder__results__item__md>.fa,
+.ui-accordion .ui-accordion-header .project-finder__results__item__md>.ui-icon,
+.ui-accordion .ui-accordion-header .service-finder__results__item__md>.ui-icon,
+.white-card__media .embed-container .project-finder__results__item__md>a:before,
+.white-card__media .embed-container .service-finder__results__item__md>a:before {
+  float: left;
+  line-height: 21px;
+}
+
+.project-finder__results__item__md>.fa-check-circle,
+.service-finder__results__item__md>.fa-check-circle {
+  color: #6c953c;
+}
+
+.project-finder__results__item__md>.fa-minus-circle,
+.service-finder__results__item__md>.fa-minus-circle {
+  color: #e55302;
+}
+
+.project-finder__results__item__md>.fa-exclamation-circle,
+.service-finder__results__item__md>.fa-exclamation-circle {
+  color: #b02a1a;
+}
+
+.project-finder__results__item__md>div,
+.service-finder__results__item__md>div {
+  margin-left: 22px;
+}
+
+.project-finder__results__item__info,
+.service-finder__results__item__info {
+  display: none;
+  margin-top: 10px;
+  border-top: 2px solid #eee;
+}
+
+.project-finder__results__item__info.project-finder__results__item__info--open,
+.project-finder__results__item__info.service-finder__results__item__info--open,
+.service-finder__results__item__info.project-finder__results__item__info--open,
+.service-finder__results__item__info.service-finder__results__item__info--open {
+  display: block;
+}
+
+.project-finder__results__item__description,
+.service-finder__results__item__description {
+  margin: 10px 0;
+}
+
+.project-finder__results__item__md span,
+.service-finder__results__item__md span {
+  color: #666;
+}
+
+.project-finder__results__item__md__label,
+.service-finder__results__item__md__label {
+  font-weight: 600;
+}
+
+@media only screen and (min-width:600px) {
+  .project-finder__results__item__info-toggle,
+  .service-finder__results__item__info-toggle {
+    display: none;
+  }
+
+  .project-finder__results__item__info,
+  .service-finder__results__item__info {
+    display: block;
+  }
+}
+
+.project-finder__results__item__info-toggle,
+.service-finder__results__item__info-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  background: #b91b1b;
+  color: #fff;
+  -webkit-transition: color .1s,background .1s;
+  transition: color .1s,background .1s;
+}
+
+#courses-widget .widget-content .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
+#courses-widget .widget-content .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
+.dialog .project-finder__results__item__info-toggle .ui-icon,
+.dialog .service-finder__results__item__info-toggle .ui-icon,
+.project-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.project-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.project-finder__results__item__info-toggle .dialog .ui-icon,
+.project-finder__results__item__info-toggle .fa,
+.project-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
+.project-finder__results__item__info-toggle .white-card__media .embed-container a:before,
+.service-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.service-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.service-finder__results__item__info-toggle .dialog .ui-icon,
+.service-finder__results__item__info-toggle .fa,
+.service-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
+.service-finder__results__item__info-toggle .white-card__media .embed-container a:before,
+.ui-accordion .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
+.ui-accordion .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
+.white-card__media .embed-container .project-finder__results__item__info-toggle a:before,
+.white-card__media .embed-container .service-finder__results__item__info-toggle a:before {
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s,-webkit-transform .3s;
+}
+
+.project-finder__results__item__info-toggle:active,
+.project-finder__results__item__info-toggle:focus,
+.service-finder__results__item__info-toggle:active,
+.service-finder__results__item__info-toggle:focus {
+  background: #eee;
+  color: #333;
+}
+
+.project-finder__results__item__info-toggle:hover,
+.service-finder__results__item__info-toggle:hover {
+  background: #eee;
+  color: #b91b1b;
+}
+
+.project-finder-test #primary-nav-toggler,
+.project-finder-test #slice-navigation,
+.service-finder-test #primary-nav-toggler,
+.service-finder-test #slice-navigation {
+  display: none;
+}
+
+.project-finder__bottom-banner,
+.service-finder__bottom-banner {
+  max-height: 250px;
+}
+
+.project-finder__bottom-banner__img,
+.service-finder__bottom-banner__img {
+  width: 100%;
+  margin: 0;
+}
+
+.scholarship a {
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  position: relative;
+}
+
+.scholarship a,
+.scholarship a:focus,
+.scholarship a:hover {
+  text-decoration: none;
+}
+
+.scholarship a:link {
+  color: #b91b1b;
+  border-bottom-color: #999;
+}
+
+.scholarship a:visited {
+  color: #670003;
+}
+
+.scholarship a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #670003;
+}
+
+.scholarship a:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.scholarship a:active {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.scholarship h3 a {
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  position: relative;
+}
+
+.scholarship h3 a,
+.scholarship h3 a:focus,
+.scholarship h3 a:hover {
+  text-decoration: none;
+}
+
+.scholarship h3 a:link {
+  border-bottom-width: 2px;
+}
+
+.scholarship .hard-cta a:link,
+.scholarship .hard-cta a:visited {
+  color: #fff;
+  border: 1px solid #a0271f;
+}
+
+.scholarship .hard-cta a:hover {
+  border: 1px solid #670003;
+}
+
 .scholarship .dark-background a:link,
 .scholarship .widget a:link,
 .scholarship [class*=widget-] a:link {
@@ -474,6 +1040,7 @@
 
 #courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__md>.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__md>.ui-icon,
+.dialog .scholarship-finder__results__item__md>.ui-icon,
 .scholarship-finder__results__item__md>.fa,
 .ui-accordion .ui-accordion-header .scholarship-finder__results__item__md>.ui-icon,
 .white-card__media .embed-container .scholarship-finder__results__item__md>a:before {
@@ -532,8 +1099,10 @@
 
 #courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon,
+.dialog .scholarship-finder__results__item__info-toggle .ui-icon,
 .scholarship-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .scholarship-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.scholarship-finder__results__item__info-toggle .dialog .ui-icon,
 .scholarship-finder__results__item__info-toggle .fa,
 .scholarship-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
 .scholarship-finder__results__item__info-toggle .white-card__media .embed-container a:before,
@@ -1302,8 +1871,10 @@ a.course__red-links__link:hover .course__red-links__link__title {
 .course .accordion.ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon,
 .course__profiles__item__image #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .course__profiles__item__image .course .accordion.ui-accordion .ui-accordion-header span.ui-icon,
+.course__profiles__item__image .dialog span.ui-icon,
 .course__profiles__item__image .ui-accordion .ui-accordion-header span.ui-icon,
 .course__profiles__item__image span.fa,
+.dialog .course__profiles__item__image span.ui-icon,
 .ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon {
   padding: 10px 0 0;
   font-size: 8em;
@@ -1549,13 +2120,17 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .phd-projects.phd-projects h3 a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .phd-projects.phd-projects h2 a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .phd-projects.phd-projects h3 a .ui-icon,
+.dialog .phd-projects.phd-projects h2 a .ui-icon,
+.dialog .phd-projects.phd-projects h3 a .ui-icon,
 .phd-projects.phd-projects h2 a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .phd-projects.phd-projects h2 a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.phd-projects.phd-projects h2 a .dialog .ui-icon,
 .phd-projects.phd-projects h2 a .fa,
 .phd-projects.phd-projects h2 a .ui-accordion .ui-accordion-header .ui-icon,
 .phd-projects.phd-projects h2 a .white-card__media .embed-container a:before,
 .phd-projects.phd-projects h3 a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .phd-projects.phd-projects h3 a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.phd-projects.phd-projects h3 a .dialog .ui-icon,
 .phd-projects.phd-projects h3 a .fa,
 .phd-projects.phd-projects h3 a .ui-accordion .ui-accordion-header .ui-icon,
 .phd-projects.phd-projects h3 a .white-card__media .embed-container a:before,
@@ -2206,6 +2781,7 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .course-finder__results__item__md>.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .course-finder__results__item__md>.ui-icon,
 .course-finder__results__item__md>.fa,
+.dialog .course-finder__results__item__md>.ui-icon,
 .ui-accordion .ui-accordion-header .course-finder__results__item__md>.ui-icon,
 .white-card__media .embed-container .course-finder__results__item__md>a:before {
   float: left;
@@ -2265,9 +2841,11 @@ a.course__red-links__link:hover .course__red-links__link__title {
 .course .accordion.ui-accordion .ui-accordion-header .course-finder__results__item__info-toggle .ui-icon,
 .course-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .course-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.course-finder__results__item__info-toggle .dialog .ui-icon,
 .course-finder__results__item__info-toggle .fa,
 .course-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
 .course-finder__results__item__info-toggle .white-card__media .embed-container a:before,
+.dialog .course-finder__results__item__info-toggle .ui-icon,
 .ui-accordion .ui-accordion-header .course-finder__results__item__info-toggle .ui-icon,
 .white-card__media .embed-container .course-finder__results__item__info-toggle a:before {
   -webkit-transition: -webkit-transform .3s;
@@ -2623,9 +3201,11 @@ a.course__red-links__link:hover .course__red-links__link__title {
 
 #courses-widget .widget-content .ui-accordion-header .academic-experts-profile .personal-details .expert-name .department-name .ui-icon,
 .academic-experts-profile .personal-details .expert-name .department-name #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.academic-experts-profile .personal-details .expert-name .department-name .dialog .ui-icon,
 .academic-experts-profile .personal-details .expert-name .department-name .fa,
 .academic-experts-profile .personal-details .expert-name .department-name .ui-accordion .ui-accordion-header .ui-icon,
 .academic-experts-profile .personal-details .expert-name .department-name .white-card__media .embed-container a:before,
+.dialog .academic-experts-profile .personal-details .expert-name .department-name .ui-icon,
 .ui-accordion .ui-accordion-header .academic-experts-profile .personal-details .expert-name .department-name .ui-icon,
 .white-card__media .embed-container .academic-experts-profile .personal-details .expert-name .department-name a:before {
   padding-left: 4px;
@@ -2647,9 +3227,11 @@ a.course__red-links__link:hover .course__red-links__link__title {
 
 #courses-widget .widget-content .ui-accordion-header .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon,
 .academic-experts-profile .personal-details .contact-lists .contact-list ul li #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.academic-experts-profile .personal-details .contact-lists .contact-list ul li .dialog .ui-icon,
 .academic-experts-profile .personal-details .contact-lists .contact-list ul li .fa,
 .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-accordion .ui-accordion-header .ui-icon,
 .academic-experts-profile .personal-details .contact-lists .contact-list ul li .white-card__media .embed-container a:before,
+.dialog .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon,
 .ui-accordion .ui-accordion-header .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon,
 .white-card__media .embed-container .academic-experts-profile .personal-details .contact-lists .contact-list ul li a:before {
   padding-right: 8px;
@@ -2905,6 +3487,7 @@ a.course__red-links__link:hover .course__red-links__link__title {
 
 #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__md>.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__md>.ui-icon,
+.dialog .expert-finder__results__item__md>.ui-icon,
 .expert-finder__results__item__md>.fa,
 .ui-accordion .ui-accordion-header .expert-finder__results__item__md>.ui-icon,
 .white-card__media .embed-container .expert-finder__results__item__md>a:before {
@@ -2934,8 +3517,10 @@ a.course__red-links__link:hover .course__red-links__link__title {
 
 #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__portrait a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__portrait a .ui-icon,
+.dialog .expert-finder__results__item__portrait a .ui-icon,
 .expert-finder__results__item__portrait a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .expert-finder__results__item__portrait a .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.expert-finder__results__item__portrait a .dialog .ui-icon,
 .expert-finder__results__item__portrait a .fa,
 .expert-finder__results__item__portrait a .ui-accordion .ui-accordion-header .ui-icon,
 .expert-finder__results__item__portrait a .white-card__media .embed-container a:before,
@@ -2993,8 +3578,10 @@ a.course__red-links__link:hover .course__red-links__link__title {
 
 #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__info-toggle .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__info-toggle .ui-icon,
+.dialog .expert-finder__results__item__info-toggle .ui-icon,
 .expert-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .expert-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.expert-finder__results__item__info-toggle .dialog .ui-icon,
 .expert-finder__results__item__info-toggle .fa,
 .expert-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
 .expert-finder__results__item__info-toggle .white-card__media .embed-container a:before,
@@ -4599,13 +5186,17 @@ a.course__red-links__link:hover .course__red-links__link__title {
 #courses-widget .widget-content .ui-accordion-header .icons-hr .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .icons-finance .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .icons-hr .ui-icon,
+.dialog .icons-finance .ui-icon,
+.dialog .icons-hr .ui-icon,
 .icons-finance #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .icons-finance .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.icons-finance .dialog .ui-icon,
 .icons-finance .fa,
 .icons-finance .ui-accordion .ui-accordion-header .ui-icon,
 .icons-finance .white-card__media .embed-container a:before,
 .icons-hr #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .icons-hr .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.icons-hr .dialog .ui-icon,
 .icons-hr .fa,
 .icons-hr .ui-accordion .ui-accordion-header .ui-icon,
 .icons-hr .white-card__media .embed-container a:before,
@@ -6626,8 +7217,10 @@ dl.staffhub-dl dd {
 
 #courses-widget .widget-content .ui-accordion-header .library-search .search-section-button .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .library-search .search-section-button .ui-icon,
+.dialog .library-search .search-section-button .ui-icon,
 .library-search .search-section-button #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .library-search .search-section-button .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.library-search .search-section-button .dialog .ui-icon,
 .library-search .search-section-button .fa,
 .library-search .search-section-button .ui-accordion .ui-accordion-header .ui-icon,
 .library-search .search-section-button .white-card__media .embed-container a:before,
@@ -8212,8 +8805,10 @@ body#library {
 
 #courses-widget .widget-content .ui-accordion-header .shortcourse-promo__text .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .shortcourse-promo__text .ui-icon,
+.dialog .shortcourse-promo__text .ui-icon,
 .shortcourse-promo__text #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .shortcourse-promo__text .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.shortcourse-promo__text .dialog .ui-icon,
 .shortcourse-promo__text .fa,
 .shortcourse-promo__text .ui-accordion .ui-accordion-header .ui-icon,
 .shortcourse-promo__text .white-card__media .embed-container a:before,

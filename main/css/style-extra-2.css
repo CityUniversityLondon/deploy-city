@@ -1,3 +1,178 @@
+.js #sidebar .widget-loading i.loading-fa-icon,
+.js .opening-times.widget-loading i.loading-fa-icon {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  font-size: 36px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  margin-top: -18px;
+  margin-left: -18px;
+  color: #b02a1a;
+}
+
+.js #sidebar .widget-loading i.loading-fa-icon,
+.js .opening-times.widget-loading i.loading-fa-icon {
+  top: 70px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+
+.widget-warning {
+  background-color: #a22833;
+  padding: 7px 14px 15px;
+  color: #FFF;
+}
+
+.widget-warning h2 {
+  background-color: transparent;
+  padding: 9px 0;
+}
+
+.item-list {
+  margin: 0;
+  list-style-type: none;
+}
+
+.item-list .article {
+  margin: 0;
+  list-style-type: none;
+  border-bottom: 1px solid #CCC;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.item-list h2 {
+  margin: 0 0 12px 0;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 1.3em;
+}
+
+.item-list .title {
+  font-weight: 700;
+}
+
+.item-list .thumbnail {
+  float: left;
+  margin: 0 10px 10px 0;
+  width: 40%;
+}
+
+.item-list .summary {
+  clear: both;
+}
+
+@media only screen and (min-width:500px) {
+  .item-list .thumbnail {
+    width: auto;
+    margin: 0 20px 0 0;
+  }
+
+  .item-list .summary {
+    clear: none;
+  }
+}
+
+.module-search {
+  clear: left;
+  margin-bottom: 20px;
+  background: #333;
+  color: #fff;
+  overflow: hidden;
+}
+
+.module-search fieldset {
+  margin: 0;
+  padding: 20px;
+  background: #333;
+  border: none;
+}
+
+.module-search label {
+  display: inline;
+  font-size: 1.35em;
+  padding: 9px 0 8px 0;
+}
+
+.module-search p {
+  margin: 0;
+  overflow: hidden;
+}
+
+.module-search a {
+  color: #fff;
+}
+
+.module-search #search-query {
+  background-color: #F7F7F7;
+  border: medium none;
+  display: block;
+  float: left;
+  clear: both;
+  font-size: 1.4em;
+  height: 35px;
+  line-height: 27px;
+  min-height: 27px;
+  padding: 4px 5px;
+  width: 80%;
+}
+
+.module-search .search-button {
+  background-color: #f7f7f7;
+  border: none;
+  cursor: pointer;
+  height: 35px;
+  margin: 0;
+  width: 35px;
+}
+
+.module-search .search-button .fa-search {
+  font-size: 1.5em;
+  color: #B02A1A;
+}
+
+.module-search .search-advanced {
+  text-align: left;
+  margin: 10px 0;
+}
+
+@media only screen and (min-width:320px) {
+  .module-search #search-query {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width:480px) {
+  .module-search p {
+    clear: both;
+  }
+
+  .module-search label {
+    float: left;
+  }
+
+  .module-search .search-advanced {
+    float: right;
+    clear: none;
+  }
+}
+
+@media only screen and (min-width:500px) {
+  .module-search #search-query {
+    width: 89%;
+  }
+}
+
 @media only screen and (min-width:980px) {
   .module-search label {
     display: block;
@@ -302,9 +477,11 @@
 
 #courses-widget .widget-content .ui-accordion-header .article-listing .event .detail span.ui-icon,
 .article-listing .event .detail #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.article-listing .event .detail .dialog span.ui-icon,
 .article-listing .event .detail .ui-accordion .ui-accordion-header span.ui-icon,
 .article-listing .event .detail i,
 .article-listing .event .detail span.fa,
+.dialog .article-listing .event .detail span.ui-icon,
 .ui-accordion .ui-accordion-header .article-listing .event .detail span.ui-icon {
   margin-right: 5px;
 }
@@ -954,6 +1131,8 @@
   padding-left: 20px;
 }
 
+.dialog .subfamily-choice a .ui-icon,
+.subfamily-choice a .dialog .ui-icon,
 .subfamily-choice a .fa-times {
   margin: 0 -8px 0 7px;
 }
@@ -981,6 +1160,8 @@
   border-bottom: none;
 }
 
+.dialog .display-filters .ui-icon,
+.display-filters .dialog .ui-icon,
 .display-filters .fa-times {
   margin: 0 0 0 7px;
 }
@@ -1364,6 +1545,8 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF333333', endColorstr='#FF333333', GradientType=0);
 }
 
+.dialog .profile-listing .tag-list .ui-icon,
+.profile-listing .tag-list .dialog .ui-icon,
 .profile-listing .tag-list .fa-times {
   margin-right: 0;
 }
@@ -2381,10 +2564,14 @@
 
 #courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon,
+.dialog .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
+.dialog .hallway-new .hallway-item a h3 .title-icon span.ui-icon,
 .hallway-new .hallway-item a h2 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.hallway-new .hallway-item a h2 .title-icon .dialog span.ui-icon,
 .hallway-new .hallway-item a h2 .title-icon .ui-accordion .ui-accordion-header span.ui-icon,
 .hallway-new .hallway-item a h2 .title-icon span.fa,
 .hallway-new .hallway-item a h3 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.hallway-new .hallway-item a h3 .title-icon .dialog span.ui-icon,
 .hallway-new .hallway-item a h3 .title-icon .ui-accordion .ui-accordion-header span.ui-icon,
 .hallway-new .hallway-item a h3 .title-icon span.fa,
 .ui-accordion .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
@@ -2951,8 +3138,10 @@
 
 #courses-widget .widget-content .ui-accordion-header .social-flat-links span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .social-flat-links span.ui-icon,
+.dialog .social-flat-links span.ui-icon,
 .social-flat-links #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .social-flat-links .course .accordion.ui-accordion .ui-accordion-header span.ui-icon,
+.social-flat-links .dialog span.ui-icon,
 .social-flat-links .ui-accordion .ui-accordion-header span.ui-icon,
 .social-flat-links i,
 .social-flat-links span.fa,
@@ -3203,8 +3392,10 @@
 
 #courses-widget .widget-content .ui-accordion-header .filter-box__open .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .filter-box__open .ui-icon,
+.dialog .filter-box__open .ui-icon,
 .filter-box__open #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .filter-box__open .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.filter-box__open .dialog .ui-icon,
 .filter-box__open .fa,
 .filter-box__open .ui-accordion .ui-accordion-header .ui-icon,
 .filter-box__open .white-card__media .embed-container a:before,
@@ -3272,8 +3463,10 @@
 
 #courses-widget .widget-content .ui-accordion-header .filter-box__filter__header .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .filter-box__filter__header .ui-icon,
+.dialog .filter-box__filter__header .ui-icon,
 .filter-box__filter__header #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .filter-box__filter__header .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.filter-box__filter__header .dialog .ui-icon,
 .filter-box__filter__header .fa,
 .filter-box__filter__header .ui-accordion .ui-accordion-header .ui-icon,
 .filter-box__filter__header .white-card__media .embed-container a:before,
@@ -3288,8 +3481,10 @@
 
 #courses-widget .widget-content .ui-accordion-header .js .filter-box__filter__header .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .js .filter-box__filter__header .ui-icon,
+.dialog .js .filter-box__filter__header .ui-icon,
 .js .filter-box__filter__header #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .js .filter-box__filter__header .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.js .filter-box__filter__header .dialog .ui-icon,
 .js .filter-box__filter__header .fa,
 .js .filter-box__filter__header .ui-accordion .ui-accordion-header .ui-icon,
 .js .filter-box__filter__header .white-card__media .embed-container a:before,
@@ -8275,6 +8470,220 @@ aside .news-article-widget:last-child {
   display: block;
 }
 
+.no-scroll {
+  overflow-y: hidden;
+}
+
+.dialog {
+  background: rgba(30,30,30,.7);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.dialog .ui-icon {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s,-webkit-transform .2s;
+  background-image: none;
+  color: inherit;
+  text-indent: 0;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.dialog .ui-icon:hover {
+  cursor: pointer;
+  color: #aaa;
+}
+
+.dialog .dialog__box {
+  width: 500px;
+  display: inline-block;
+  -webkit-box-flex: 1;
+  -ms-flex: auto;
+  flex: auto;
+  overflow-y: auto;
+}
+
+.dialog .dialog__box iframe {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.shortcourse-banner .media-block__wrapper {
+  max-height: inherit;
+  position: relative;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview {
+  max-height: inherit;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background: rgba(62,16,49,.5);
+  -webkit-transition: background .3s linear;
+  transition: background .3s linear;
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview:hover:before {
+  opacity: .9;
+  background: 0 0;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button {
+  position: absolute;
+  background-color: transparent;
+  z-index: 2;
+  border-bottom: none;
+  left: 50%;
+  top: 35%;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg {
+  fill: none;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg .stroke-dotted {
+  opacity: 0;
+  stroke-dasharray: 1,8;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-animation: spin 20s infinite linear;
+  animation: spin 20s infinite linear;
+  -webkit-transition: opacity 1s ease,stroke-width 1s ease;
+  transition: opacity 1s ease,stroke-width 1s ease;
+  stroke: #fff;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg .stroke-solid {
+  stroke-dashoffset: 0;
+  stroke-dashArray: 300;
+  stroke-width: 4px;
+  -webkit-transition: stroke-dashoffset 1s ease,opacity 1s ease;
+  transition: stroke-dashoffset 1s ease,opacity 1s ease;
+  stroke: #fff;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg .icon {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transition: -webkit-transform .2s ease-out;
+  transition: -webkit-transform .2s ease-out;
+  transition: transform .2s ease-out;
+  transition: transform .2s ease-out,-webkit-transform .2s ease-out;
+  fill: #fff;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg .circle {
+  fill: #fff;
+  fill-opacity: .2;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg:hover .stroke-dotted {
+  stroke-width: 4px;
+  opacity: 1;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg:hover .stroke-solid {
+  opacity: 0;
+  stroke-dashoffset: 200;
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg:hover .icon {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg:hover .circle {
+  fill: #fff;
+  fill-opacity: 0;
+}
+
+@media only screen and (min-width:320px) {
+  .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button {
+    left: 43%;
+    top: 25%;
+  }
+
+  .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button {
+    left: 43%;
+    top: 35%;
+  }
+
+  .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button {
+    left: 50%;
+    top: 35%;
+  }
+
+  .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg {
+    width: 100px;
+    height: 100px;
+  }
+}
+
 @-webkit-keyframes backgroundFadeIn {
   from {
     background-color: transparent;
@@ -8365,8 +8774,10 @@ aside .news-article-widget:last-child {
 
 #courses-widget .widget-content .ui-accordion-header .directory-user__info .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .directory-user__info .ui-icon,
+.dialog .directory-user__info .ui-icon,
 .directory-user__info #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .directory-user__info .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.directory-user__info .dialog .ui-icon,
 .directory-user__info .fa,
 .directory-user__info .ui-accordion .ui-accordion-header .ui-icon,
 .directory-user__info .white-card__media .embed-container a:before,
@@ -8614,8 +9025,10 @@ i.loading-fa-icon {
 
 #courses-widget .widget-content .ui-accordion-header .openday-cta .openday-cta__ical .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .openday-cta .openday-cta__ical .ui-icon,
+.dialog .openday-cta .openday-cta__ical .ui-icon,
 .openday-cta .openday-cta__ical #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .openday-cta .openday-cta__ical .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.openday-cta .openday-cta__ical .dialog .ui-icon,
 .openday-cta .openday-cta__ical .fa,
 .openday-cta .openday-cta__ical .ui-accordion .ui-accordion-header .ui-icon,
 .openday-cta .openday-cta__ical .white-card__media .embed-container a:before,
@@ -8724,10 +9137,12 @@ a.cta-button-link:focus {
 
 #courses-widget .widget-content .ui-accordion-header a.cta-button-link .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header a.cta-button-link .ui-icon,
+.dialog a.cta-button-link .ui-icon,
 .ui-accordion .ui-accordion-header a.cta-button-link .ui-icon,
 .white-card__media .embed-container a.cta-button-link a:before,
 a.cta-button-link #courses-widget .widget-content .ui-accordion-header .ui-icon,
 a.cta-button-link .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+a.cta-button-link .dialog .ui-icon,
 a.cta-button-link .fa,
 a.cta-button-link .ui-accordion .ui-accordion-header .ui-icon,
 a.cta-button-link .white-card__media .embed-container a:before {
@@ -8768,9 +9183,11 @@ a.cta-button-link .white-card__media .embed-container a:before {
 .course .accordion.ui-accordion .ui-accordion-header .cta-label-icon .ui-icon,
 .cta-label-icon #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .cta-label-icon .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.cta-label-icon .dialog .ui-icon,
 .cta-label-icon .fa,
 .cta-label-icon .ui-accordion .ui-accordion-header .ui-icon,
 .cta-label-icon .white-card__media .embed-container a:before,
+.dialog .cta-label-icon .ui-icon,
 .ui-accordion .ui-accordion-header .cta-label-icon .ui-icon,
 .white-card__media .embed-container .cta-label-icon a:before {
   display: block;
@@ -8866,16 +9283,20 @@ a.ghost-cta:focus {
 #courses-widget .widget-content .ui-accordion-header #promo-wrapper a.ghost-cta .ui-icon,
 #courses-widget .widget-content .ui-accordion-header a.ghost-cta .ui-icon,
 #promo-wrapper a.ghost-cta #courses-widget .widget-content .ui-accordion-header .ui-icon,
+#promo-wrapper a.ghost-cta .dialog .ui-icon,
 #promo-wrapper a.ghost-cta .fa,
 #promo-wrapper a.ghost-cta .ui-accordion .ui-accordion-header .ui-icon,
 #promo-wrapper a.ghost-cta .white-card__media .embed-container a:before,
 .course .accordion.ui-accordion .ui-accordion-header a.ghost-cta .ui-icon,
+.dialog #promo-wrapper a.ghost-cta .ui-icon,
+.dialog a.ghost-cta .ui-icon,
 .ui-accordion .ui-accordion-header #promo-wrapper a.ghost-cta .ui-icon,
 .ui-accordion .ui-accordion-header a.ghost-cta .ui-icon,
 .white-card__media .embed-container #promo-wrapper a.ghost-cta a:before,
 .white-card__media .embed-container a.ghost-cta a:before,
 a.ghost-cta #courses-widget .widget-content .ui-accordion-header .ui-icon,
 a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+a.ghost-cta .dialog .ui-icon,
 a.ghost-cta .fa,
 a.ghost-cta .ui-accordion .ui-accordion-header .ui-icon,
 a.ghost-cta .white-card__media .embed-container a:before {
@@ -9603,8 +10024,10 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .events-social .cta span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .events-social .cta span.ui-icon,
+.dialog .events-social .cta span.ui-icon,
 .events-social .cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .events-social .cta .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.events-social .cta .dialog span.ui-icon,
 .events-social .cta .ui-accordion .ui-accordion-header span.ui-icon,
 .events-social .cta i,
 .events-social .cta span.fa,
@@ -9767,8 +10190,10 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .event-calendar-wrap .responsive-toggler span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .event-calendar-wrap .responsive-toggler span.ui-icon,
+.dialog .event-calendar-wrap .responsive-toggler span.ui-icon,
 .event-calendar-wrap .responsive-toggler #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .event-calendar-wrap .responsive-toggler .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.event-calendar-wrap .responsive-toggler .dialog span.ui-icon,
 .event-calendar-wrap .responsive-toggler .ui-accordion .ui-accordion-header span.ui-icon,
 .event-calendar-wrap .responsive-toggler i,
 .event-calendar-wrap .responsive-toggler span.fa,
@@ -9855,8 +10280,10 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .event-calendar-wrap .event span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .event-calendar-wrap .event span.ui-icon,
+.dialog .event-calendar-wrap .event span.ui-icon,
 .event-calendar-wrap .event #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .event-calendar-wrap .event .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.event-calendar-wrap .event .dialog span.ui-icon,
 .event-calendar-wrap .event .ui-accordion .ui-accordion-header span.ui-icon,
 .event-calendar-wrap .event i,
 .event-calendar-wrap .event span.fa,
@@ -9906,8 +10333,10 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
   #courses-widget .widget-content .ui-accordion-header .event-calendar-wrap .responsive-toggler span.ui-icon,
   .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .event-calendar-wrap .responsive-toggler span.ui-icon,
+  .dialog .event-calendar-wrap .responsive-toggler span.ui-icon,
   .event-calendar-wrap .responsive-toggler #courses-widget .widget-content .ui-accordion-header span.ui-icon,
   .event-calendar-wrap .responsive-toggler .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+  .event-calendar-wrap .responsive-toggler .dialog span.ui-icon,
   .event-calendar-wrap .responsive-toggler .ui-accordion .ui-accordion-header span.ui-icon,
   .event-calendar-wrap .responsive-toggler i,
   .event-calendar-wrap .responsive-toggler span.fa,
@@ -10005,13 +10434,17 @@ a.ghost-cta .white-card__media .embed-container a:before {
 #courses-widget .widget-content .ui-accordion-header .single-event .single-event-widget span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .event-meta span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .single-event-widget span.ui-icon,
+.dialog .single-event .event-meta span.ui-icon,
+.dialog .single-event .single-event-widget span.ui-icon,
 .single-event .event-meta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .single-event .event-meta .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.single-event .event-meta .dialog span.ui-icon,
 .single-event .event-meta .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .event-meta i,
 .single-event .event-meta span.fa,
 .single-event .single-event-widget #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .single-event .single-event-widget .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.single-event .single-event-widget .dialog span.ui-icon,
 .single-event .single-event-widget .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .single-event-widget i,
 .single-event .single-event-widget span.fa,
@@ -10024,19 +10457,27 @@ a.ghost-cta .white-card__media .embed-container a:before {
 #courses-widget .widget-content .ui-accordion-header .single-event .event-meta .mid-cta span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .single-event .single-event-widget .hard-cta span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .single-event .single-event-widget .mid-cta span.ui-icon,
+.dialog .single-event .event-meta .hard-cta span.ui-icon,
+.dialog .single-event .event-meta .mid-cta span.ui-icon,
+.dialog .single-event .single-event-widget .hard-cta span.ui-icon,
+.dialog .single-event .single-event-widget .mid-cta span.ui-icon,
 .single-event .event-meta .hard-cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .event-meta .hard-cta .dialog span.ui-icon,
 .single-event .event-meta .hard-cta .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .event-meta .hard-cta i,
 .single-event .event-meta .hard-cta span.fa,
 .single-event .event-meta .mid-cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .event-meta .mid-cta .dialog span.ui-icon,
 .single-event .event-meta .mid-cta .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .event-meta .mid-cta i,
 .single-event .event-meta .mid-cta span.fa,
 .single-event .single-event-widget .hard-cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .single-event-widget .hard-cta .dialog span.ui-icon,
 .single-event .single-event-widget .hard-cta .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .single-event-widget .hard-cta i,
 .single-event .single-event-widget .hard-cta span.fa,
 .single-event .single-event-widget .mid-cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .single-event-widget .mid-cta .dialog span.ui-icon,
 .single-event .single-event-widget .mid-cta .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .single-event-widget .mid-cta i,
 .single-event .single-event-widget .mid-cta span.fa,
@@ -10137,9 +10578,11 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .single-event .single-event-widget__warning span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .single-event-widget__warning span.ui-icon,
+.dialog .single-event .single-event-widget__warning span.ui-icon,
 .single-event .single-event-widget__warning,
 .single-event .single-event-widget__warning #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .single-event .single-event-widget__warning .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.single-event .single-event-widget__warning .dialog span.ui-icon,
 .single-event .single-event-widget__warning .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .single-event-widget__warning span.fa,
 .ui-accordion .ui-accordion-header .single-event .single-event-widget__warning span.ui-icon {
@@ -10178,7 +10621,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .single-event .sign-up .cta span.ui-icon,
+.dialog .single-event .sign-up .cta span.ui-icon,
 .single-event .sign-up .cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .sign-up .cta .dialog span.ui-icon,
 .single-event .sign-up .cta .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .sign-up .cta i,
 .single-event .sign-up .cta span.fa,
@@ -10215,7 +10660,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .single-event .event-detail .location span.ui-icon,
+.dialog .single-event .event-detail .location span.ui-icon,
 .single-event .event-detail .location #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .event-detail .location .dialog span.ui-icon,
 .single-event .event-detail .location .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .event-detail .location i,
 .single-event .event-detail .location span.fa,
@@ -10258,7 +10705,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .single-event .event-detail .static-map-link a span.ui-icon,
+.dialog .single-event .event-detail .static-map-link a span.ui-icon,
 .single-event .event-detail .static-map-link a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .event-detail .static-map-link a .dialog span.ui-icon,
 .single-event .event-detail .static-map-link a .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .event-detail .static-map-link a i,
 .single-event .event-detail .static-map-link a span.fa,
@@ -10285,8 +10734,10 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .single-event .events-extra ul li span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .events-extra ul li span.ui-icon,
+.dialog .single-event .events-extra ul li span.ui-icon,
 .single-event .events-extra ul li #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .single-event .events-extra ul li .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.single-event .events-extra ul li .dialog span.ui-icon,
 .single-event .events-extra ul li .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .events-extra ul li i,
 .single-event .events-extra ul li span.fa,
@@ -10314,8 +10765,10 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .single-event .alternative-contact span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .alternative-contact span.ui-icon,
+.dialog .single-event .alternative-contact span.ui-icon,
 .single-event .alternative-contact #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .single-event .alternative-contact .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.single-event .alternative-contact .dialog span.ui-icon,
 .single-event .alternative-contact .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .alternative-contact i,
 .single-event .alternative-contact span.fa,
@@ -10330,7 +10783,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .single-event .alternative-contact .cta span.ui-icon,
+.dialog .single-event .alternative-contact .cta span.ui-icon,
 .single-event .alternative-contact .cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.single-event .alternative-contact .cta .dialog span.ui-icon,
 .single-event .alternative-contact .cta .ui-accordion .ui-accordion-header span.ui-icon,
 .single-event .alternative-contact .cta i,
 .single-event .alternative-contact .cta span.fa,
@@ -10850,18 +11305,24 @@ a.ghost-cta .white-card__media .embed-container a:before {
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home .home-business h2>a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home .home-news-events div h2>a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home .home-research h2>a .ui-icon,
+.dialog .home .home-business h2>a .ui-icon,
+.dialog .home .home-news-events div h2>a .ui-icon,
+.dialog .home .home-research h2>a .ui-icon,
 .home .home-business h2>a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .home .home-business h2>a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.home .home-business h2>a .dialog .ui-icon,
 .home .home-business h2>a .fa,
 .home .home-business h2>a .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-business h2>a .white-card__media .embed-container a:before,
 .home .home-news-events div h2>a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .home .home-news-events div h2>a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.home .home-news-events div h2>a .dialog .ui-icon,
 .home .home-news-events div h2>a .fa,
 .home .home-news-events div h2>a .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-news-events div h2>a .white-card__media .embed-container a:before,
 .home .home-research h2>a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .home .home-research h2>a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.home .home-research h2>a .dialog .ui-icon,
 .home .home-research h2>a .fa,
 .home .home-research h2>a .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-research h2>a .white-card__media .embed-container a:before,
@@ -10891,15 +11352,21 @@ a.ghost-cta .white-card__media .embed-container a:before {
 #courses-widget .widget-content .ui-accordion-header .home .home-business h2>a:hover .ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2>a:hover .ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home .home-research h2>a:hover .ui-icon,
+.dialog .home .home-business h2>a:hover .ui-icon,
+.dialog .home .home-news-events div h2>a:hover .ui-icon,
+.dialog .home .home-research h2>a:hover .ui-icon,
 .home .home-business h2>a:hover #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-business h2>a:hover .dialog .ui-icon,
 .home .home-business h2>a:hover .fa,
 .home .home-business h2>a:hover .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-business h2>a:hover .white-card__media .embed-container a:before,
 .home .home-news-events div h2>a:hover #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-news-events div h2>a:hover .dialog .ui-icon,
 .home .home-news-events div h2>a:hover .fa,
 .home .home-news-events div h2>a:hover .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-news-events div h2>a:hover .white-card__media .embed-container a:before,
 .home .home-research h2>a:hover #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-research h2>a:hover .dialog .ui-icon,
 .home .home-research h2>a:hover .fa,
 .home .home-research h2>a:hover .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-research h2>a:hover .white-card__media .embed-container a:before,
@@ -10939,27 +11406,39 @@ a.ghost-cta .white-card__media .embed-container a:before {
 #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2>a:focus .ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home .home-research h2>a:active .ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home .home-research h2>a:focus .ui-icon,
+.dialog .home .home-business h2>a:active .ui-icon,
+.dialog .home .home-business h2>a:focus .ui-icon,
+.dialog .home .home-news-events div h2>a:active .ui-icon,
+.dialog .home .home-news-events div h2>a:focus .ui-icon,
+.dialog .home .home-research h2>a:active .ui-icon,
+.dialog .home .home-research h2>a:focus .ui-icon,
 .home .home-business h2>a:active #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-business h2>a:active .dialog .ui-icon,
 .home .home-business h2>a:active .fa,
 .home .home-business h2>a:active .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-business h2>a:active .white-card__media .embed-container a:before,
 .home .home-business h2>a:focus #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-business h2>a:focus .dialog .ui-icon,
 .home .home-business h2>a:focus .fa,
 .home .home-business h2>a:focus .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-business h2>a:focus .white-card__media .embed-container a:before,
 .home .home-news-events div h2>a:active #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-news-events div h2>a:active .dialog .ui-icon,
 .home .home-news-events div h2>a:active .fa,
 .home .home-news-events div h2>a:active .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-news-events div h2>a:active .white-card__media .embed-container a:before,
 .home .home-news-events div h2>a:focus #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-news-events div h2>a:focus .dialog .ui-icon,
 .home .home-news-events div h2>a:focus .fa,
 .home .home-news-events div h2>a:focus .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-news-events div h2>a:focus .white-card__media .embed-container a:before,
 .home .home-research h2>a:active #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-research h2>a:active .dialog .ui-icon,
 .home .home-research h2>a:active .fa,
 .home .home-research h2>a:active .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-research h2>a:active .white-card__media .embed-container a:before,
 .home .home-research h2>a:focus #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.home .home-research h2>a:focus .dialog .ui-icon,
 .home .home-research h2>a:focus .fa,
 .home .home-research h2>a:focus .ui-accordion .ui-accordion-header .ui-icon,
 .home .home-research h2>a:focus .white-card__media .embed-container a:before,
@@ -11046,11 +11525,15 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls a span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls a:focus span.ui-icon,
+.dialog .home #promo-wrapper .bx-controls a span.ui-icon,
+.dialog .home #promo-wrapper .bx-controls a:focus span.ui-icon,
 .home #promo-wrapper .bx-controls a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.home #promo-wrapper .bx-controls a .dialog span.ui-icon,
 .home #promo-wrapper .bx-controls a .ui-accordion .ui-accordion-header span.ui-icon,
 .home #promo-wrapper .bx-controls a i,
 .home #promo-wrapper .bx-controls a span.fa,
 .home #promo-wrapper .bx-controls a:focus #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.home #promo-wrapper .bx-controls a:focus .dialog span.ui-icon,
 .home #promo-wrapper .bx-controls a:focus .ui-accordion .ui-accordion-header span.ui-icon,
 .home #promo-wrapper .bx-controls a:focus i,
 .home #promo-wrapper .bx-controls a:focus span.fa,
@@ -11147,11 +11630,15 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon,
 .home #promo-wrapper .bx-controls-auto a i,
 .home #promo-wrapper .bx-controls-auto a span.fa,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ui-icon,
 .home #promo-wrapper .bx-controls-direction a i,
 .home #promo-wrapper .bx-controls-direction a span.fa,
@@ -11162,11 +11649,15 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.bg.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.bg.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.bg.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.bg.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.bg.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.bg.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.bg.ui-icon,
 .home #promo-wrapper .bx-controls-auto a i.bg,
 .home #promo-wrapper .bx-controls-auto a span.fa.bg,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.bg.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.bg.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.bg.ui-icon,
 .home #promo-wrapper .bx-controls-direction a i.bg,
 .home #promo-wrapper .bx-controls-direction a span.fa.bg,
@@ -11182,11 +11673,15 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.ic.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.ic.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.ic.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.ui-icon,
 .home #promo-wrapper .bx-controls-auto a i.ic,
 .home #promo-wrapper .bx-controls-auto a span.fa.ic,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.ic.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.ui-icon,
 .home #promo-wrapper .bx-controls-direction a i.ic,
 .home #promo-wrapper .bx-controls-direction a span.fa.ic,
@@ -11207,8 +11702,14 @@ a.ghost-cta .white-card__media .embed-container a:before {
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-chevron-left.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-auto a i.ic.fa-chevron-left,
@@ -11217,6 +11718,8 @@ a.ghost-cta .white-card__media .embed-container a:before {
 .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-chevron-right,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-left.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-direction a i.ic.fa-chevron-left,
@@ -11234,8 +11737,14 @@ a.ghost-cta .white-card__media .embed-container a:before {
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-play.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-play.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-play.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-chevron-right.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-play.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-play.ui-icon,
 .home #promo-wrapper .bx-controls-auto a i.ic.fa-chevron-right,
@@ -11244,6 +11753,8 @@ a.ghost-cta .white-card__media .embed-container a:before {
 .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-play,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-play.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-right.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-play.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-play.ui-icon,
 .home #promo-wrapper .bx-controls-direction a i.ic.fa-chevron-right,
@@ -11259,11 +11770,15 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon,
+.dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
+.home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-auto a i.ic.fa-chevron-left,
 .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-chevron-left,
 .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
+.home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home #promo-wrapper .bx-controls-direction a i.ic.fa-chevron-left,
 .home #promo-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-left,
@@ -11661,7 +12176,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a i,
 .home-news-events .bx-wrapper .bx-controls-direction a span.fa,
@@ -11673,7 +12190,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.bg.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.bg.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.bg.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.bg.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.bg.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a i.bg,
 .home-news-events .bx-wrapper .bx-controls-direction a span.fa.bg,
@@ -11689,7 +12208,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a i.ic,
 .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic,
@@ -11707,8 +12228,12 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-left.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-right.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-chevron-left,
@@ -11722,8 +12247,12 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-play.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-right.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-play.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-play.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-chevron-right,
@@ -11736,7 +12265,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
+.dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
+.home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-left.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon,
 .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-chevron-left,
 .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-left,
@@ -11989,23 +12520,31 @@ a.ghost-cta .white-card__media .embed-container a:before {
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home-business .home-item h3 span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home-research .home-item h2 span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home-research .home-item h3 span.ui-icon,
+.dialog .home-business .home-item h2 span.ui-icon,
+.dialog .home-business .home-item h3 span.ui-icon,
+.dialog .home-research .home-item h2 span.ui-icon,
+.dialog .home-research .home-item h3 span.ui-icon,
 .home-business .home-item h2 #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .home-business .home-item h2 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.home-business .home-item h2 .dialog span.ui-icon,
 .home-business .home-item h2 .ui-accordion .ui-accordion-header span.ui-icon,
 .home-business .home-item h2 i,
 .home-business .home-item h2 span.fa,
 .home-business .home-item h3 #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .home-business .home-item h3 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.home-business .home-item h3 .dialog span.ui-icon,
 .home-business .home-item h3 .ui-accordion .ui-accordion-header span.ui-icon,
 .home-business .home-item h3 i,
 .home-business .home-item h3 span.fa,
 .home-research .home-item h2 #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .home-research .home-item h2 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.home-research .home-item h2 .dialog span.ui-icon,
 .home-research .home-item h2 .ui-accordion .ui-accordion-header span.ui-icon,
 .home-research .home-item h2 i,
 .home-research .home-item h2 span.fa,
 .home-research .home-item h3 #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .home-research .home-item h3 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
+.home-research .home-item h3 .dialog span.ui-icon,
 .home-research .home-item h3 .ui-accordion .ui-accordion-header span.ui-icon,
 .home-research .home-item h3 i,
 .home-research .home-item h3 span.fa,
@@ -12220,7 +12759,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .home .home-course-finder .home-course-finder-submit button span.ui-icon,
+.dialog .home .home-course-finder .home-course-finder-submit button span.ui-icon,
 .home .home-course-finder .home-course-finder-submit button #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.home .home-course-finder .home-course-finder-submit button .dialog span.ui-icon,
 .home .home-course-finder .home-course-finder-submit button .ui-accordion .ui-accordion-header span.ui-icon,
 .home .home-course-finder .home-course-finder-submit button i,
 .home .home-course-finder .home-course-finder-submit button span.fa,
@@ -12343,7 +12884,9 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #courses-widget .widget-content .ui-accordion-header .home-city-connect .content .home-text-container a span.ui-icon,
+.dialog .home-city-connect .content .home-text-container a span.ui-icon,
 .home-city-connect .content .home-text-container a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.home-city-connect .content .home-text-container a .dialog span.ui-icon,
 .home-city-connect .content .home-text-container a .ui-accordion .ui-accordion-header span.ui-icon,
 .home-city-connect .content .home-text-container a i,
 .home-city-connect .content .home-text-container a span.fa,
@@ -13696,10 +14239,12 @@ table.visa-event-table tr th {
 #courses-widget .widget-content .ui-accordion-header .city-health__loading .ui-icon,
 .city-health__loading #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .city-health__loading .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.city-health__loading .dialog .ui-icon,
 .city-health__loading .fa,
 .city-health__loading .ui-accordion .ui-accordion-header .ui-icon,
 .city-health__loading .white-card__media .embed-container a:before,
 .course .accordion.ui-accordion .ui-accordion-header .city-health__loading .ui-icon,
+.dialog .city-health__loading .ui-icon,
 .ui-accordion .ui-accordion-header .city-health__loading .ui-icon,
 .white-card__media .embed-container .city-health__loading a:before {
   display: inline-block;
@@ -13868,8 +14413,10 @@ table.visa-event-table tr th {
 
 #courses-widget .widget-content .ui-accordion-header .link-list--school-landing-page h2 .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .link-list--school-landing-page h2 .ui-icon,
+.dialog .link-list--school-landing-page h2 .ui-icon,
 .link-list--school-landing-page h2 #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .link-list--school-landing-page h2 .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.link-list--school-landing-page h2 .dialog .ui-icon,
 .link-list--school-landing-page h2 .fa,
 .link-list--school-landing-page h2 .ui-accordion .ui-accordion-header .ui-icon,
 .link-list--school-landing-page h2 .white-card__media .embed-container a:before,
@@ -14029,8 +14576,10 @@ table.visa-event-table tr th {
 
 #courses-widget .widget-content .ui-accordion-header .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
+.dialog .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
 .school-landing-ctas.school-landing-ctas--sass a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .school-landing-ctas.school-landing-ctas--sass a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.school-landing-ctas.school-landing-ctas--sass a .dialog .ui-icon,
 .school-landing-ctas.school-landing-ctas--sass a .fa,
 .school-landing-ctas.school-landing-ctas--sass a .ui-accordion .ui-accordion-header .ui-icon,
 .school-landing-ctas.school-landing-ctas--sass a .white-card__media .embed-container a:before,
@@ -14067,8 +14616,10 @@ table.visa-event-table tr th {
 
 #courses-widget .widget-content .ui-accordion-header .school-landing-ctas.school-landing-ctas--smcse a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .school-landing-ctas.school-landing-ctas--smcse a .ui-icon,
+.dialog .school-landing-ctas.school-landing-ctas--smcse a .ui-icon,
 .school-landing-ctas.school-landing-ctas--smcse a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .school-landing-ctas.school-landing-ctas--smcse a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.school-landing-ctas.school-landing-ctas--smcse a .dialog .ui-icon,
 .school-landing-ctas.school-landing-ctas--smcse a .fa,
 .school-landing-ctas.school-landing-ctas--smcse a .ui-accordion .ui-accordion-header .ui-icon,
 .school-landing-ctas.school-landing-ctas--smcse a .white-card__media .embed-container a:before,
@@ -14151,8 +14702,10 @@ table.visa-event-table tr th {
 
 #courses-widget .widget-content .ui-accordion-header .section-white-cards--sass .cta-label-icon .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .section-white-cards--sass .cta-label-icon .ui-icon,
+.dialog .section-white-cards--sass .cta-label-icon .ui-icon,
 .section-white-cards--sass .cta-label-icon #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .section-white-cards--sass .cta-label-icon .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.section-white-cards--sass .cta-label-icon .dialog .ui-icon,
 .section-white-cards--sass .cta-label-icon .fa,
 .section-white-cards--sass .cta-label-icon .ui-accordion .ui-accordion-header .ui-icon,
 .section-white-cards--sass .cta-label-icon .white-card__media .embed-container a:before,
@@ -14676,564 +15229,4 @@ table.visa-event-table tr th {
 .service .service__bottom-ctas #contact-widget a:visited,
 .service .service__bottom-ctas a:visited {
   color: #eee;
-}
-
-.project .project__bottom-ctas #contact-widget a:hover,
-.project .project__bottom-ctas a:hover,
-.project .service__bottom-ctas #contact-widget a:hover,
-.project .service__bottom-ctas a:hover,
-.service .project__bottom-ctas #contact-widget a:hover,
-.service .project__bottom-ctas a:hover,
-.service .service__bottom-ctas #contact-widget a:hover,
-.service .service__bottom-ctas a:hover {
-  color: #FFF;
-  border-bottom-color: #FFF;
-}
-
-.project .project__bottom-ctas #contact-widget a:focus,
-.project .project__bottom-ctas a:focus,
-.project .service__bottom-ctas #contact-widget a:focus,
-.project .service__bottom-ctas a:focus,
-.service .project__bottom-ctas #contact-widget a:focus,
-.service .project__bottom-ctas a:focus,
-.service .service__bottom-ctas #contact-widget a:focus,
-.service .service__bottom-ctas a:focus {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.project .project__bottom-ctas #contact-widget a:active,
-.project .project__bottom-ctas a:active,
-.project .service__bottom-ctas #contact-widget a:active,
-.project .service__bottom-ctas a:active,
-.service .project__bottom-ctas #contact-widget a:active,
-.service .project__bottom-ctas a:active,
-.service .service__bottom-ctas #contact-widget a:active,
-.service .service__bottom-ctas a:active {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.project .project__key-information a,
-.project .service__key-information a,
-.service .project__key-information a,
-.service .service__key-information a {
-  border-bottom-width: 1px;
-}
-
-.project .project__key-information a:link,
-.project .service__key-information a:link,
-.service .project__key-information a:link,
-.service .service__key-information a:link {
-  color: #eee;
-  border-bottom-color: #ccc;
-}
-
-.project .project__key-information a:visited,
-.project .service__key-information a:visited,
-.service .project__key-information a:visited,
-.service .service__key-information a:visited {
-  color: #eee;
-}
-
-.project .project__key-information a:hover,
-.project .service__key-information a:hover,
-.service .project__key-information a:hover,
-.service .service__key-information a:hover {
-  color: #FFF;
-  border-bottom-color: #FFF;
-}
-
-.project .project__key-information a:focus,
-.project .service__key-information a:focus,
-.service .project__key-information a:focus,
-.service .service__key-information a:focus {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.project .project__key-information a:active,
-.project .service__key-information a:active,
-.service .project__key-information a:active,
-.service .service__key-information a:active {
-  background-color: #FFF;
-  color: #555;
-  border-bottom-color: transparent;
-}
-
-.project .project__key-information a:link,
-.project .project__key-information a:visited,
-.project .service__key-information a:link,
-.project .service__key-information a:visited,
-.service .project__key-information a:link,
-.service .project__key-information a:visited,
-.service .service__key-information a:link,
-.service .service__key-information a:visited {
-  border-bottom-style: dotted;
-}
-
-.project .project__key-information a:hover,
-.project .service__key-information a:hover,
-.service .project__key-information a:hover,
-.service .service__key-information a:hover {
-  border-bottom-style: solid;
-}
-
-.project .project__key-information h3 a,
-.project .service__key-information h3 a,
-.service .project__key-information h3 a,
-.service .service__key-information h3 a {
-  float: right;
-}
-
-.service_section h3,
-.technology_section h5 {
-  background-color: #333;
-  color: #fff;
-  margin-top: 0;
-  padding: 4px 8px;
-}
-
-.project_status .project-status__green {
-  background-color: #6c953c;
-  color: #fff;
-  font-weight: 600;
-}
-
-.project_status .project-status__amber {
-  background-color: #e55302;
-  color: #fff;
-  font-weight: 600;
-}
-
-.project_status .project-status__red {
-  background-color: #b02a1a;
-  color: #fff;
-  font-weight: 600;
-}
-
-.project_section h3 {
-  background-color: #333;
-  color: #fff;
-  margin-top: 0;
-  padding: 4px 8px;
-}
-
-.project-finder input,
-.project-finder select,
-.service-finder input,
-.service-finder select {
-  font-size: 16px;
-}
-
-.project-finder__query-wrapper,
-.service-finder__query-wrapper {
-  margin-top: -40px;
-  background: #ccc;
-}
-
-.project-finder__form-wrapper,
-.service-finder__form-wrapper {
-  background: #eee;
-}
-
-.project-finder__query .query-box,
-.service-finder__query .query-box {
-  padding-right: 44px;
-  position: relative;
-}
-
-.project-finder__query input,
-.service-finder__query input {
-  padding: 10px 10px 9px 10px;
-  width: 100%;
-  border: 1px solid #a9a9a9;
-  font-size: 16px;
-}
-
-.project-finder__query button,
-.service-finder__query button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 45px;
-  height: 45px;
-  background: #fff;
-  border: 1px solid #a9a9a9;
-}
-
-.project-finder__form .filter-box h2,
-.service-finder__form .filter-box h2 {
-  font-size: 24px;
-}
-
-.project-finder__clear-buttons,
-.service-finder__clear-buttons {
-  display: none;
-}
-
-@media only screen and (min-width:600px) {
-  .project-finder__clear-buttons,
-  .service-finder__clear-buttons {
-    display: block;
-  }
-}
-
-.project-finder__clear-buttons>div,
-.service-finder__clear-buttons>div {
-  display: inline-block;
-}
-
-.project-finder__clear-buttons a,
-.service-finder__clear-buttons a {
-  display: inline-block;
-  padding: 5px 10px;
-  border: 1px solid;
-  border-radius: 3px;
-  margin: 10px 10px 0 0;
-}
-
-.project-finder__clear-buttons a:link,
-.project-finder__clear-buttons a:visited,
-.service-finder__clear-buttons a:link,
-.service-finder__clear-buttons a:visited {
-  background: #b91b1c;
-  color: #fff;
-  border-color: #b91b1c;
-}
-
-.project-finder__clear-buttons a:hover,
-.service-finder__clear-buttons a:hover {
-  background: #f22428;
-  color: #fff;
-  border-color: #f22428;
-}
-
-.project-finder__clear-buttons a:active,
-.project-finder__clear-buttons a:focus,
-.service-finder__clear-buttons a:active,
-.service-finder__clear-buttons a:focus {
-  background: #fff;
-  color: #b91b1c;
-  border-color: #b91b1c;
-}
-
-@media only screen and (min-width:600px) {
-  .project-finder__results,
-  .service-finder__results {
-    padding-left: 20px;
-  }
-}
-
-.project-finder__results__summary,
-.service-finder__results__summary {
-  font-weight: 600;
-  margin-bottom: 14px;
-}
-
-.project-finder__results__summary__refresh,
-.service-finder__results__summary__refresh {
-  display: inline-block;
-  color: #b91b1c;
-  margin-left: 5px;
-}
-
-.finder__results__headers {
-  padding: 20px;
-  font-weight: 600;
-}
-
-.project-finder__results__item,
-.service-finder__results__item {
-  background: #fff;
-  padding: 10px;
-  margin-bottom: 30px;
-  position: relative;
-}
-
-@media only screen and (min-width:600px) {
-  .project-finder__results__item,
-  .service-finder__results__item {
-    padding: 20px;
-  }
-}
-
-.project-finder__results__item h2,
-.service-finder__results__item h2 {
-  margin: 0 48px 0 0;
-  font-size: 1.3em;
-  line-height: 28px;
-}
-
-.project-finder__results__item h2 a,
-.service-finder__results__item h2 a {
-  font-weight: 500;
-  padding-top: 4px;
-  border-bottom-width: 1px;
-  border-bottom-style: dotted;
-  position: relative;
-}
-
-.project-finder__results__item h2 a,
-.project-finder__results__item h2 a:focus,
-.project-finder__results__item h2 a:hover,
-.service-finder__results__item h2 a,
-.service-finder__results__item h2 a:focus,
-.service-finder__results__item h2 a:hover {
-  text-decoration: none;
-}
-
-.project-finder__results__item h2 a:link,
-.service-finder__results__item h2 a:link {
-  color: #b91b1b;
-  border-bottom-color: #999;
-}
-
-.project-finder__results__item h2 a:visited,
-.service-finder__results__item h2 a:visited {
-  color: #670003;
-}
-
-.project-finder__results__item h2 a:hover,
-.service-finder__results__item h2 a:hover {
-  border-bottom-style: solid;
-  border-bottom-color: #670003;
-}
-
-.project-finder__results__item h2 a:focus,
-.service-finder__results__item h2 a:focus {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.project-finder__results__item h2 a:active,
-.service-finder__results__item h2 a:active {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.project-finder__results__item__progress,
-.service-finder__results__item__status {
-  padding: 3px 0;
-  font-weight: 600;
-  color: #666;
-}
-
-.project-finder__results__item__md,
-.service-finder__results__item__md {
-  margin-bottom: 5px;
-}
-
-#courses-widget .widget-content .ui-accordion-header .project-finder__results__item__md>.ui-icon,
-#courses-widget .widget-content .ui-accordion-header .service-finder__results__item__md>.ui-icon,
-.course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__md>.ui-icon,
-.course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__md>.ui-icon,
-.project-finder__results__item__md>.fa,
-.service-finder__results__item__md>.fa,
-.ui-accordion .ui-accordion-header .project-finder__results__item__md>.ui-icon,
-.ui-accordion .ui-accordion-header .service-finder__results__item__md>.ui-icon,
-.white-card__media .embed-container .project-finder__results__item__md>a:before,
-.white-card__media .embed-container .service-finder__results__item__md>a:before {
-  float: left;
-  line-height: 21px;
-}
-
-.project-finder__results__item__md>.fa-check-circle,
-.service-finder__results__item__md>.fa-check-circle {
-  color: #6c953c;
-}
-
-.project-finder__results__item__md>.fa-minus-circle,
-.service-finder__results__item__md>.fa-minus-circle {
-  color: #e55302;
-}
-
-.project-finder__results__item__md>.fa-exclamation-circle,
-.service-finder__results__item__md>.fa-exclamation-circle {
-  color: #b02a1a;
-}
-
-.project-finder__results__item__md>div,
-.service-finder__results__item__md>div {
-  margin-left: 22px;
-}
-
-.project-finder__results__item__info,
-.service-finder__results__item__info {
-  display: none;
-  margin-top: 10px;
-  border-top: 2px solid #eee;
-}
-
-.project-finder__results__item__info.project-finder__results__item__info--open,
-.project-finder__results__item__info.service-finder__results__item__info--open,
-.service-finder__results__item__info.project-finder__results__item__info--open,
-.service-finder__results__item__info.service-finder__results__item__info--open {
-  display: block;
-}
-
-.project-finder__results__item__description,
-.service-finder__results__item__description {
-  margin: 10px 0;
-}
-
-.project-finder__results__item__md span,
-.service-finder__results__item__md span {
-  color: #666;
-}
-
-.project-finder__results__item__md__label,
-.service-finder__results__item__md__label {
-  font-weight: 600;
-}
-
-@media only screen and (min-width:600px) {
-  .project-finder__results__item__info-toggle,
-  .service-finder__results__item__info-toggle {
-    display: none;
-  }
-
-  .project-finder__results__item__info,
-  .service-finder__results__item__info {
-    display: block;
-  }
-}
-
-.project-finder__results__item__info-toggle,
-.service-finder__results__item__info-toggle {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 5px 15px;
-  border-radius: 5px;
-  border: none;
-  background: #b91b1b;
-  color: #fff;
-  -webkit-transition: color .1s,background .1s;
-  transition: color .1s,background .1s;
-}
-
-#courses-widget .widget-content .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
-#courses-widget .widget-content .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
-.course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
-.course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
-.project-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
-.project-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
-.project-finder__results__item__info-toggle .fa,
-.project-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
-.project-finder__results__item__info-toggle .white-card__media .embed-container a:before,
-.service-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
-.service-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
-.service-finder__results__item__info-toggle .fa,
-.service-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
-.service-finder__results__item__info-toggle .white-card__media .embed-container a:before,
-.ui-accordion .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
-.ui-accordion .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
-.white-card__media .embed-container .project-finder__results__item__info-toggle a:before,
-.white-card__media .embed-container .service-finder__results__item__info-toggle a:before {
-  -webkit-transition: -webkit-transform .3s;
-  transition: -webkit-transform .3s;
-  transition: transform .3s;
-  transition: transform .3s,-webkit-transform .3s;
-}
-
-.project-finder__results__item__info-toggle:active,
-.project-finder__results__item__info-toggle:focus,
-.service-finder__results__item__info-toggle:active,
-.service-finder__results__item__info-toggle:focus {
-  background: #eee;
-  color: #333;
-}
-
-.project-finder__results__item__info-toggle:hover,
-.service-finder__results__item__info-toggle:hover {
-  background: #eee;
-  color: #b91b1b;
-}
-
-.project-finder-test #primary-nav-toggler,
-.project-finder-test #slice-navigation,
-.service-finder-test #primary-nav-toggler,
-.service-finder-test #slice-navigation {
-  display: none;
-}
-
-.project-finder__bottom-banner,
-.service-finder__bottom-banner {
-  max-height: 250px;
-}
-
-.project-finder__bottom-banner__img,
-.service-finder__bottom-banner__img {
-  width: 100%;
-  margin: 0;
-}
-
-.scholarship a {
-  border-bottom-width: 1px;
-  border-bottom-style: dotted;
-  position: relative;
-}
-
-.scholarship a,
-.scholarship a:focus,
-.scholarship a:hover {
-  text-decoration: none;
-}
-
-.scholarship a:link {
-  color: #b91b1b;
-  border-bottom-color: #999;
-}
-
-.scholarship a:visited {
-  color: #670003;
-}
-
-.scholarship a:hover {
-  border-bottom-style: solid;
-  border-bottom-color: #670003;
-}
-
-.scholarship a:focus {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.scholarship a:active {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.scholarship h3 a {
-  border-bottom-width: 1px;
-  border-bottom-style: dotted;
-  position: relative;
-}
-
-.scholarship h3 a,
-.scholarship h3 a:focus,
-.scholarship h3 a:hover {
-  text-decoration: none;
-}
-
-.scholarship h3 a:link {
-  border-bottom-width: 2px;
-}
-
-.scholarship .hard-cta a:link,
-.scholarship .hard-cta a:visited {
-  color: #fff;
-  border: 1px solid #a0271f;
-}
-
-.scholarship .hard-cta a:hover {
-  border: 1px solid #670003;
 }
