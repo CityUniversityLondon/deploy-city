@@ -22237,12 +22237,22 @@ a.course__red-links__link.course__red-links__link--apply {
   border-bottom: 6px solid #eeeeee;
   margin-bottom: 30px; }
 
+.course__related__course {
+  background-color: #fff;
+  padding: 20px 10px;
+  margin: 10px;
+  min-height: 210px; }
+
 .course__related__course__title {
   margin-bottom: 5px;
   font-size: 1.1em; }
 
 .course__related__course__description {
   color: #555555; }
+
+.course__related__course__footnote {
+  color: #555555;
+  margin-top: 20px; }
 
 .course .fw-section-wrapper.course__testimonials__wrapper {
   padding: 40px 0 0; }
