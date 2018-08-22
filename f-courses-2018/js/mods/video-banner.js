@@ -38,25 +38,28 @@ var defer = require('./utils/defer'),
 
     init = function() {
     	var link = $('.video-preview__button');
-    	var service = getService(link);
-    	
-    	if (service) {
-	        var parent = link.parent();
-	        var wrapper = null;
 
-	        if (parent.hasClass('video-preview')) {
-	            wrapper = parent;
-	        } else {
-	            wrapper = $('<div/>').addClass('video-preview').insertBefore(link);
-	            wrapper.append(link);
-	        }
+    	if(link.length){
+    		var service = getService(link);
 
-	        link.on('click', function (event) {
-				
-	        	event.preventDefault();
-	            loadVideo(wrapper, service);
-	            
-	        });
-	    }
+	    	if (service) {
+		        var parent = link.parent();
+		        var wrapper = null;
+
+		        if (parent.hasClass('video-preview')) {
+		            wrapper = parent;
+		        } else {
+		            wrapper = $('<div/>').addClass('video-preview').insertBefore(link);
+		            wrapper.append(link);
+		        }
+
+		        link.on('click', function (event) {
+					
+		        	event.preventDefault();
+		            loadVideo(wrapper, service);
+		            
+		        });
+	    	}
+		}
     };
 defer(init);

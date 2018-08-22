@@ -1,3 +1,213 @@
+.service a.simple:active,
+.service .footer a:active,
+.project a.simple:active,
+.project .footer a:active {
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color: #333333;
+}
+
+.service a.hallway,
+.project a.hallway {
+  font-weight: 600;
+}
+
+.service a.hallway:link,
+.project a.hallway:link {
+  color: #333333;
+  border-bottom-color: transparent;
+}
+
+.service a.hallway:visited,
+.project a.hallway:visited {
+  color: #333333;
+}
+
+.service a.hallway:hover,
+.project a.hallway:hover {
+  color: #b91b1b;
+  border-bottom-style: solid;
+  border-bottom-color: #b91b1b;
+}
+
+.service a.hallway:focus,
+.project a.hallway:focus {
+  background-color: #FFFFFF;
+  color: #b91b1b;
+  border-bottom-style: dotted;
+  border-bottom-color: #555555;
+}
+
+.service a.hallway:active,
+.project a.hallway:active {
+  background-color: #FFFFFF;
+}
+
+.service a.service__header-link,
+.service a.project__header-link,
+.project a.service__header-link,
+.project a.project__header-link {
+  font-weight: 500;
+}
+
+.service a.service__header-link:link,
+.service a.project__header-link:link,
+.project a.service__header-link:link,
+.project a.project__header-link:link {
+  color: #333333;
+  border-bottom-color: transparent;
+}
+
+.service a.service__header-link:visited,
+.service a.project__header-link:visited,
+.project a.service__header-link:visited,
+.project a.project__header-link:visited {
+  color: #333333;
+}
+
+.service a.service__header-link:hover,
+.service a.project__header-link:hover,
+.project a.service__header-link:hover,
+.project a.project__header-link:hover {
+  color: #b91b1b;
+  border-bottom-style: solid;
+  border-bottom-color: #b91b1b;
+}
+
+.service a.service__header-link:focus,
+.service a.project__header-link:focus,
+.project a.service__header-link:focus,
+.project a.project__header-link:focus {
+  background-color: #FFFFFF;
+  color: #b91b1b;
+  border-bottom-style: dotted;
+  border-bottom-color: #555555;
+}
+
+.service a.service__header-link:active,
+.service a.project__header-link:active,
+.project a.service__header-link:active,
+.project a.project__header-link:active {
+  background-color: #FFFFFF;
+}
+
+.service a.service__header-link i,
+.service a.project__header-link i,
+.project a.service__header-link i,
+.project a.project__header-link i {
+  font-size: .8em;
+  margin-left: .3em;
+}
+
+.service a.service__cta:link,
+.service a.project__cta:link,
+.project a.service__cta:link,
+.project a.project__cta:link {
+  color: #b91b1b;
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  border-bottom-color: #999999;
+}
+
+.service a.service__cta:visited,
+.service a.project__cta:visited,
+.project a.service__cta:visited,
+.project a.project__cta:visited {
+  color: #670003;
+  border-bottom-color: #999999;
+}
+
+.service a.service__cta:hover,
+.service a.project__cta:hover,
+.project a.service__cta:hover,
+.project a.project__cta:hover {
+  border-bottom-color: #670003;
+  border-bottom-style: solid;
+}
+
+.service a.service__cta:focus,
+.service a.project__cta:focus,
+.project a.service__cta:focus,
+.project a.project__cta:focus {
+  background-color: #b91b1b;
+  color: #FFFFFF;
+  border-bottom-color: transparent;
+}
+
+.service a.service__cta:active,
+.service a.project__cta:active,
+.project a.service__cta:active,
+.project a.project__cta:active {
+  background-color: #b91b1b;
+  color: #FFFFFF;
+  border-bottom-color: transparent;
+}
+
+.service .service__team a,
+.service .project__team a,
+.project .service__team a,
+.project .project__team a {
+  background-color: #eeeeee;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.service .service__team a:link,
+.service .project__team a:link,
+.project .service__team a:link,
+.project .project__team a:link {
+  color: #333333;
+  border-bottom-width: 0;
+}
+
+.service .service__team a:visited,
+.service .project__team a:visited,
+.project .service__team a:visited,
+.project .project__team a:visited {
+  color: #333333;
+}
+
+.service .service__team a:hover,
+.service .project__team a:hover,
+.project .service__team a:hover,
+.project .project__team a:hover {
+  background-color: #666666;
+  color: #FFFFFF;
+  border-color: #b91b1b;
+}
+
+.service .service__team a:focus,
+.service .project__team a:focus,
+.project .service__team a:focus,
+.project .project__team a:focus {
+  background-color: #b91b1b;
+  color: #FFFFFF;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.service .service__team a:active,
+.service .project__team a:active,
+.project .service__team a:active,
+.project .project__team a:active {
+  background-color: #b91b1b;
+  color: #FFFFFF;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.service .service__bottom-ctas a,
+.service .service__bottom-ctas #contact-widget a,
+.service .project__bottom-ctas a,
+.service .project__bottom-ctas #contact-widget a,
+.project .service__bottom-ctas a,
+.project .service__bottom-ctas #contact-widget a,
+.project .project__bottom-ctas a,
+.project .project__bottom-ctas #contact-widget a {
+  border-bottom-width: 1px;
+  -webkit-transition: none;
+  transition: none;
+}
+
 .service .service__bottom-ctas a:link,
 .service .service__bottom-ctas #contact-widget a:link,
 .service .project__bottom-ctas a:link,
