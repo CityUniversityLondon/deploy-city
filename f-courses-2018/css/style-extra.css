@@ -2117,13 +2117,14 @@ a.course__red-links__link.course__red-links__link--apply {
 
 .course__related__course {
   background-color: #fff;
-  padding: 20px 10px;
-  margin: 10px;
+  padding: 20px 20px;
+  margin: 10px 0;
 }
 
 @media only screen and (min-width: 768px) {
   .course__related__course {
     min-height: 210px;
+    margin: 10px 10px 10px 0;
   }
 }
 

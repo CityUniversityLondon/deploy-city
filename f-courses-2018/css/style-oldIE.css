@@ -22239,9 +22239,10 @@ a.course__red-links__link.course__red-links__link--apply {
 
 .course__related__course {
   background-color: #fff;
-  padding: 20px 10px;
-  margin: 10px;
-  min-height: 210px; }
+  padding: 20px 20px;
+  margin: 10px 0;
+  min-height: 210px;
+  margin: 10px 10px 10px 0; }
 
 .course__related__course__title {
   margin-bottom: 5px;
