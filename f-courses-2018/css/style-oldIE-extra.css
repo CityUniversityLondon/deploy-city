@@ -2317,50 +2317,25 @@ a.course__red-links__link.course__red-links__link--apply {
   display: inline-block;
 }
 
-.programme__specification {
+/* Programme specification download links */
+
+.course__modules__reading {
   border: 1px solid #a31c36;
-  color: #a31c36;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 15px;
 }
 
-.programme__specification p {
-  padding: 0;
-}
-
-.programme__specification a {
-  border-bottom: 0;
-  display: inline-block;
-  margin: 1.5% 1%;
-  border-bottom: 1px dotted #999999;
-}
-
-.programme__specification a:hover {
-  border-bottom-style: solid;
-  border-bottom-color: #670003;
-}
-
-.programme__specification a:active,
-.programme__specification a:focus {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.programme__specification span.fa.fa-file-text-o,
-.programme__specification .ui-accordion .ui-accordion-header span.fa-file-text-o.ui-icon,
-.ui-accordion .ui-accordion-header .programme__specification span.fa-file-text-o.ui-icon,
-.programme__specification #courses-widget .widget-content .ui-accordion-header span.fa-file-text-o.ui-icon,
-#courses-widget .widget-content .ui-accordion-header .programme__specification span.fa-file-text-o.ui-icon,
-.programme__specification .dialog span.fa-file-text-o.ui-icon,
-.dialog .programme__specification span.fa-file-text-o.ui-icon,
-.programme__specification .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.fa-file-text-o.ui-icon,
-.course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .programme__specification span.fa-file-text-o.ui-icon {
-  border-right: 1px solid #a31c36;
-  padding-right: 4px;
+.programme__specification__container.icon {
+  padding: 1% 2%;
   font-size: 18px;
-  padding: 2%;
+  color: #a31c36;
+}
+
+.programme__specification__container.text {
+  border-left: 1px solid #a31c36;
+  padding: 1.4% 1%;
 }
 
 .course-ug .course__subheader:after,
