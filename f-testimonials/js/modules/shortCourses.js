@@ -132,6 +132,8 @@ $(function () {
                 $('.shortcourse-tutor-wrapper').addClass('shortcourse-tutor-selection');
             }
         }
+
+
     };
 
     initShortCourses();

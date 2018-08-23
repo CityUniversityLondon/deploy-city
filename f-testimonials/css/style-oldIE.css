@@ -2674,19 +2674,19 @@ button.ui-button::-moz-focus-inner {
 
 */
 /*!
- *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome/font-4.7.0/fontawesome-webfont.eot?v=4.5.0");
-  src: url("../fonts/fontawesome/font-4.7.0/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), url("../fonts/fontawesome/font-4.7.0/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../fonts/fontawesome/font-4.7.0/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../fonts/fontawesome/font-4.7.0/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../fonts/fontawesome/font-4.7.0/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+  src: url("../fonts/fontawesome/font-4.7.0/fontawesome-webfont.eot?v=4.7.0");
+  src: url("../fonts/fontawesome/font-4.7.0/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome/font-4.7.0/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome/font-4.7.0/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome/font-4.7.0/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome/font-4.7.0/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
-.fa, .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header.ui-accordion-header-active .ui-icon, .white-card__media .embed-container a:before, .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon {
+.fa, .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header.ui-accordion-header-active .ui-icon, .dialog .ui-icon, .white-card__media .embed-container a:before, .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2743,10 +2743,10 @@ button.ui-button::-moz-focus-inner {
 .fa-pull-right {
   float: right; }
 
-.fa.fa-pull-left, .ui-accordion .ui-accordion-header .fa-pull-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .fa-pull-left.ui-icon, .white-card__media .embed-container a.fa-pull-left:before, .course .accordion.ui-accordion .ui-accordion-header .fa-pull-left.ui-icon {
+.fa.fa-pull-left, .ui-accordion .ui-accordion-header .fa-pull-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .fa-pull-left.ui-icon, .dialog .fa-pull-left.ui-icon, .white-card__media .embed-container a.fa-pull-left:before, .course .accordion.ui-accordion .ui-accordion-header .fa-pull-left.ui-icon {
   margin-right: .3em; }
 
-.fa.fa-pull-right, .ui-accordion .ui-accordion-header .fa-pull-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .fa-pull-right.ui-icon, .white-card__media .embed-container a.fa-pull-right:before, .course .accordion.ui-accordion .ui-accordion-header .fa-pull-right.ui-icon {
+.fa.fa-pull-right, .ui-accordion .ui-accordion-header .fa-pull-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .fa-pull-right.ui-icon, .dialog .fa-pull-right.ui-icon, .white-card__media .embed-container a.fa-pull-right:before, .course .accordion.ui-accordion .ui-accordion-header .fa-pull-right.ui-icon {
   margin-left: .3em; }
 
 /* Deprecated as of 4.4.0 */
@@ -2756,10 +2756,10 @@ button.ui-button::-moz-focus-inner {
 .pull-left {
   float: left; }
 
-.fa.pull-left, .ui-accordion .ui-accordion-header .pull-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .pull-left.ui-icon, .white-card__media .embed-container a.pull-left:before, .course .accordion.ui-accordion .ui-accordion-header .pull-left.ui-icon {
+.fa.pull-left, .ui-accordion .ui-accordion-header .pull-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .pull-left.ui-icon, .dialog .pull-left.ui-icon, .white-card__media .embed-container a.pull-left:before, .course .accordion.ui-accordion .ui-accordion-header .pull-left.ui-icon {
   margin-right: .3em; }
 
-.fa.pull-right, .ui-accordion .ui-accordion-header .pull-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .pull-right.ui-icon, .white-card__media .embed-container a.pull-right:before, .course .accordion.ui-accordion .ui-accordion-header .pull-right.ui-icon {
+.fa.pull-right, .ui-accordion .ui-accordion-header .pull-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .pull-right.ui-icon, .dialog .pull-right.ui-icon, .white-card__media .embed-container a.pull-right:before, .course .accordion.ui-accordion .ui-accordion-header .pull-right.ui-icon {
   margin-left: .3em; }
 
 .fa-spin {
@@ -2787,31 +2787,31 @@ button.ui-button::-moz-focus-inner {
     transform: rotate(359deg); } }
 
 .fa-rotate-90 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg); }
 
 .fa-rotate-180, .ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, #courses-widget .widget-content .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg); }
 
 .fa-rotate-270 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   transform: rotate(270deg); }
 
 .fa-flip-horizontal {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
   -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1); }
 
 .fa-flip-vertical {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1); }
@@ -2896,7 +2896,8 @@ button.ui-button::-moz-focus-inner {
 
 .fa-remove:before,
 .fa-close:before,
-.fa-times:before {
+.fa-times:before,
+.dialog .ui-icon:before {
   content: ""; }
 
 .fa-search-plus:before {
@@ -4058,7 +4059,7 @@ button.ui-button::-moz-focus-inner {
 .fa-digg:before {
   content: ""; }
 
-.fa-pied-piper:before {
+.fa-pied-piper-pp:before {
   content: ""; }
 
 .fa-pied-piper-alt:before {
@@ -4184,6 +4185,7 @@ button.ui-button::-moz-focus-inner {
   content: ""; }
 
 .fa-ra:before,
+.fa-resistance:before,
 .fa-rebel:before {
   content: ""; }
 
@@ -4506,6 +4508,7 @@ button.ui-button::-moz-focus-inner {
   content: ""; }
 
 .fa-battery-4:before,
+.fa-battery:before,
 .fa-battery-full:before {
   content: ""; }
 
@@ -4758,6 +4761,254 @@ button.ui-button::-moz-focus-inner {
 
 .fa-percent:before {
   content: ""; }
+
+.fa-gitlab:before {
+  content: ""; }
+
+.fa-wpbeginner:before {
+  content: ""; }
+
+.fa-wpforms:before {
+  content: ""; }
+
+.fa-envira:before {
+  content: ""; }
+
+.fa-universal-access:before {
+  content: ""; }
+
+.fa-wheelchair-alt:before {
+  content: ""; }
+
+.fa-question-circle-o:before {
+  content: ""; }
+
+.fa-blind:before {
+  content: ""; }
+
+.fa-audio-description:before {
+  content: ""; }
+
+.fa-volume-control-phone:before {
+  content: ""; }
+
+.fa-braille:before {
+  content: ""; }
+
+.fa-assistive-listening-systems:before {
+  content: ""; }
+
+.fa-asl-interpreting:before,
+.fa-american-sign-language-interpreting:before {
+  content: ""; }
+
+.fa-deafness:before,
+.fa-hard-of-hearing:before,
+.fa-deaf:before {
+  content: ""; }
+
+.fa-glide:before {
+  content: ""; }
+
+.fa-glide-g:before {
+  content: ""; }
+
+.fa-signing:before,
+.fa-sign-language:before {
+  content: ""; }
+
+.fa-low-vision:before {
+  content: ""; }
+
+.fa-viadeo:before {
+  content: ""; }
+
+.fa-viadeo-square:before {
+  content: ""; }
+
+.fa-snapchat:before {
+  content: ""; }
+
+.fa-snapchat-ghost:before {
+  content: ""; }
+
+.fa-snapchat-square:before {
+  content: ""; }
+
+.fa-pied-piper:before {
+  content: ""; }
+
+.fa-first-order:before {
+  content: ""; }
+
+.fa-yoast:before {
+  content: ""; }
+
+.fa-themeisle:before {
+  content: ""; }
+
+.fa-google-plus-circle:before,
+.fa-google-plus-official:before {
+  content: ""; }
+
+.fa-fa:before,
+.fa-font-awesome:before {
+  content: ""; }
+
+.fa-handshake-o:before {
+  content: ""; }
+
+.fa-envelope-open:before {
+  content: ""; }
+
+.fa-envelope-open-o:before {
+  content: ""; }
+
+.fa-linode:before {
+  content: ""; }
+
+.fa-address-book:before {
+  content: ""; }
+
+.fa-address-book-o:before {
+  content: ""; }
+
+.fa-vcard:before,
+.fa-address-card:before {
+  content: ""; }
+
+.fa-vcard-o:before,
+.fa-address-card-o:before {
+  content: ""; }
+
+.fa-user-circle:before {
+  content: ""; }
+
+.fa-user-circle-o:before {
+  content: ""; }
+
+.fa-user-o:before {
+  content: ""; }
+
+.fa-id-badge:before {
+  content: ""; }
+
+.fa-drivers-license:before,
+.fa-id-card:before {
+  content: ""; }
+
+.fa-drivers-license-o:before,
+.fa-id-card-o:before {
+  content: ""; }
+
+.fa-quora:before {
+  content: ""; }
+
+.fa-free-code-camp:before {
+  content: ""; }
+
+.fa-telegram:before {
+  content: ""; }
+
+.fa-thermometer-4:before,
+.fa-thermometer:before,
+.fa-thermometer-full:before {
+  content: ""; }
+
+.fa-thermometer-3:before,
+.fa-thermometer-three-quarters:before {
+  content: ""; }
+
+.fa-thermometer-2:before,
+.fa-thermometer-half:before {
+  content: ""; }
+
+.fa-thermometer-1:before,
+.fa-thermometer-quarter:before {
+  content: ""; }
+
+.fa-thermometer-0:before,
+.fa-thermometer-empty:before {
+  content: ""; }
+
+.fa-shower:before {
+  content: ""; }
+
+.fa-bathtub:before,
+.fa-s15:before,
+.fa-bath:before {
+  content: ""; }
+
+.fa-podcast:before {
+  content: ""; }
+
+.fa-window-maximize:before {
+  content: ""; }
+
+.fa-window-minimize:before {
+  content: ""; }
+
+.fa-window-restore:before {
+  content: ""; }
+
+.fa-times-rectangle:before,
+.fa-window-close:before {
+  content: ""; }
+
+.fa-times-rectangle-o:before,
+.fa-window-close-o:before {
+  content: ""; }
+
+.fa-bandcamp:before {
+  content: ""; }
+
+.fa-grav:before {
+  content: ""; }
+
+.fa-etsy:before {
+  content: ""; }
+
+.fa-imdb:before {
+  content: ""; }
+
+.fa-ravelry:before {
+  content: ""; }
+
+.fa-eercast:before {
+  content: ""; }
+
+.fa-microchip:before {
+  content: ""; }
+
+.fa-snowflake-o:before {
+  content: ""; }
+
+.fa-superpowers:before {
+  content: ""; }
+
+.fa-wpexplorer:before {
+  content: ""; }
+
+.fa-meetup:before {
+  content: ""; }
+
+.sr-only, .promo-wrapper--clearing .image-under, .home .home-studying-clearing, .intranet-home h1, .modal:not([class*="active"]), .modal--delete:not([class*="active"]), .social-media-hub h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto; }
 
 @-webkit-viewport {
   width: device-width; }
@@ -7051,7 +7302,7 @@ a {
     color: #fff;
     border-radius: 4px;
     font-weight: bold; }
-    .cta a i, .cta a span.fa, .cta a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .cta a span.ui-icon, .cta a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .cta a span.ui-icon, .cta a .course .accordion.ui-accordion .ui-accordion-header span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header .cta a span.ui-icon {
+    .cta a i, .cta a span.fa, .cta a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .cta a span.ui-icon, .cta a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .cta a span.ui-icon, .cta a .dialog span.ui-icon, .dialog .cta a span.ui-icon, .cta a .course .accordion.ui-accordion .ui-accordion-header span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header .cta a span.ui-icon {
       float: right;
       background-color: transparent;
       vertical-align: middle;
@@ -7079,7 +7330,7 @@ a {
   border: 1px solid #dcdcdc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   font-weight: bold; }
-  .soft-cta a i, .soft-cta a span.fa, .soft-cta a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .soft-cta a span.ui-icon, .soft-cta a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .soft-cta a span.ui-icon, .soft-cta a .course .accordion.ui-accordion .ui-accordion-header span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header .soft-cta a span.ui-icon {
+  .soft-cta a i, .soft-cta a span.fa, .soft-cta a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .soft-cta a span.ui-icon, .soft-cta a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .soft-cta a span.ui-icon, .soft-cta a .dialog span.ui-icon, .dialog .soft-cta a span.ui-icon, .soft-cta a .course .accordion.ui-accordion .ui-accordion-header span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header .soft-cta a span.ui-icon {
     color: #444; }
   .soft-cta a:hover {
     border: 1px solid #c6c6c6; }
@@ -7900,12 +8151,14 @@ input[type="checkbox"]:disabled {
     .header__util__audience .header__util__students__list a:active {
       color: #555;
       background: #ffffff; }
-  .header__util__audience .header__util__staff__list .fa, .header__util__audience .header__util__staff__list .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .header__util__audience .header__util__staff__list .ui-icon, .header__util__audience .header__util__staff__list #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .header__util__audience .header__util__staff__list .ui-icon, .header__util__audience .header__util__staff__list .white-card__media .embed-container a:before, .white-card__media .embed-container .header__util__audience .header__util__staff__list a:before, .header__util__audience .header__util__staff__list .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .header__util__audience .header__util__staff__list .ui-icon,
+  .header__util__audience .header__util__staff__list .fa, .header__util__audience .header__util__staff__list .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .header__util__audience .header__util__staff__list .ui-icon, .header__util__audience .header__util__staff__list #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .header__util__audience .header__util__staff__list .ui-icon, .header__util__audience .header__util__staff__list .dialog .ui-icon, .dialog .header__util__audience .header__util__staff__list .ui-icon, .header__util__audience .header__util__staff__list .white-card__media .embed-container a:before, .white-card__media .embed-container .header__util__audience .header__util__staff__list a:before, .header__util__audience .header__util__staff__list .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .header__util__audience .header__util__staff__list .ui-icon,
   .header__util__audience .header__util__students__list .fa,
   .header__util__audience .header__util__students__list .ui-accordion .ui-accordion-header .ui-icon,
   .ui-accordion .ui-accordion-header .header__util__audience .header__util__students__list .ui-icon,
   .header__util__audience .header__util__students__list #courses-widget .widget-content .ui-accordion-header .ui-icon,
   #courses-widget .widget-content .ui-accordion-header .header__util__audience .header__util__students__list .ui-icon,
+  .header__util__audience .header__util__students__list .dialog .ui-icon,
+  .dialog .header__util__audience .header__util__students__list .ui-icon,
   .header__util__audience .header__util__students__list .white-card__media .embed-container a:before,
   .white-card__media .embed-container .header__util__audience .header__util__students__list a:before,
   .header__util__audience .header__util__students__list .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
@@ -8009,7 +8262,7 @@ input[type="checkbox"]:disabled {
   color: #333; }
   .header__search .header__search__toggle:focus {
     background: #fff; }
-  .header__search .header__search__toggle .fa, .header__search .header__search__toggle .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .header__search .header__search__toggle .ui-icon, .header__search .header__search__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .header__search .header__search__toggle .ui-icon, .header__search .header__search__toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .header__search .header__search__toggle a:before, .header__search .header__search__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .header__search .header__search__toggle .ui-icon {
+  .header__search .header__search__toggle .fa, .header__search .header__search__toggle .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .header__search .header__search__toggle .ui-icon, .header__search .header__search__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .header__search .header__search__toggle .ui-icon, .header__search .header__search__toggle .dialog .ui-icon, .dialog .header__search .header__search__toggle .ui-icon, .header__search .header__search__toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .header__search .header__search__toggle a:before, .header__search .header__search__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .header__search .header__search__toggle .ui-icon {
     font-size: 3em;
     display: block; }
 
@@ -8129,7 +8382,7 @@ input[type="checkbox"]:disabled {
   color: #333; }
   .global-nav__wrapper .global-nav__toggle:focus {
     background: #fff; }
-  .global-nav__wrapper .global-nav__toggle .fa, .global-nav__wrapper .global-nav__toggle .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .global-nav__wrapper .global-nav__toggle .ui-icon, .global-nav__wrapper .global-nav__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .global-nav__wrapper .global-nav__toggle .ui-icon, .global-nav__wrapper .global-nav__toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .global-nav__wrapper .global-nav__toggle a:before, .global-nav__wrapper .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .global-nav__wrapper .global-nav__toggle .ui-icon {
+  .global-nav__wrapper .global-nav__toggle .fa, .global-nav__wrapper .global-nav__toggle .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .global-nav__wrapper .global-nav__toggle .ui-icon, .global-nav__wrapper .global-nav__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .global-nav__wrapper .global-nav__toggle .ui-icon, .global-nav__wrapper .global-nav__toggle .dialog .ui-icon, .dialog .global-nav__wrapper .global-nav__toggle .ui-icon, .global-nav__wrapper .global-nav__toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .global-nav__wrapper .global-nav__toggle a:before, .global-nav__wrapper .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .global-nav__wrapper .global-nav__toggle .ui-icon {
     font-size: 3em;
     display: block; }
 
@@ -8209,12 +8462,14 @@ input[type="checkbox"]:disabled {
   .global-nav__wrapper--active .global-nav__toggle:focus,
   .no-js .global-nav__toggle:focus {
     background: #8d182b; }
-  .global-nav__wrapper--active .global-nav__toggle .fa:before, .global-nav__wrapper--active .global-nav__toggle .ui-accordion .ui-accordion-header .ui-icon:before, .ui-accordion .ui-accordion-header .global-nav__wrapper--active .global-nav__toggle .ui-icon:before, .global-nav__wrapper--active .global-nav__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon:before, #courses-widget .widget-content .ui-accordion-header .global-nav__wrapper--active .global-nav__toggle .ui-icon:before, .global-nav__wrapper--active .global-nav__toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .global-nav__wrapper--active .global-nav__toggle a:before, .global-nav__wrapper--active .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon:before, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .global-nav__wrapper--active .global-nav__toggle .ui-icon:before,
+  .global-nav__wrapper--active .global-nav__toggle .fa:before, .global-nav__wrapper--active .global-nav__toggle .ui-accordion .ui-accordion-header .ui-icon:before, .ui-accordion .ui-accordion-header .global-nav__wrapper--active .global-nav__toggle .ui-icon:before, .global-nav__wrapper--active .global-nav__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon:before, #courses-widget .widget-content .ui-accordion-header .global-nav__wrapper--active .global-nav__toggle .ui-icon:before, .global-nav__wrapper--active .global-nav__toggle .dialog .ui-icon:before, .dialog .global-nav__wrapper--active .global-nav__toggle .ui-icon:before, .global-nav__wrapper--active .global-nav__toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .global-nav__wrapper--active .global-nav__toggle a:before, .global-nav__wrapper--active .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon:before, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .global-nav__wrapper--active .global-nav__toggle .ui-icon:before,
   .no-js .global-nav__toggle .fa:before,
   .no-js .global-nav__toggle .ui-accordion .ui-accordion-header .ui-icon:before,
   .ui-accordion .ui-accordion-header .no-js .global-nav__toggle .ui-icon:before,
   .no-js .global-nav__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon:before,
   #courses-widget .widget-content .ui-accordion-header .no-js .global-nav__toggle .ui-icon:before,
+  .no-js .global-nav__toggle .dialog .ui-icon:before,
+  .dialog .no-js .global-nav__toggle .ui-icon:before,
   .no-js .global-nav__toggle .white-card__media .embed-container a:before,
   .white-card__media .embed-container .no-js .global-nav__toggle a:before,
   .no-js .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon:before,
@@ -9091,7 +9346,7 @@ body {
     margin-bottom: 40px;
     margin: 0; }
 
-.thisiscity-media-ribbon-wrapper .fa, .thisiscity-media-ribbon-wrapper .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon, .thisiscity-media-ribbon-wrapper #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon, .thisiscity-media-ribbon-wrapper .white-card__media .embed-container a:before, .white-card__media .embed-container .thisiscity-media-ribbon-wrapper a:before, .thisiscity-media-ribbon-wrapper .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon {
+.thisiscity-media-ribbon-wrapper .fa, .thisiscity-media-ribbon-wrapper .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon, .thisiscity-media-ribbon-wrapper #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon, .thisiscity-media-ribbon-wrapper .dialog .ui-icon, .dialog .thisiscity-media-ribbon-wrapper .ui-icon, .thisiscity-media-ribbon-wrapper .white-card__media .embed-container a:before, .white-card__media .embed-container .thisiscity-media-ribbon-wrapper a:before, .thisiscity-media-ribbon-wrapper .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon {
   color: #ba9f61;
   font-size: 44px;
   margin-bottom: 1.0em;
@@ -9537,7 +9792,7 @@ body {
       padding: 6px 10px;
       display: block;
       background-color: #333333; }
-      #promo-wrapper .bx-controls-auto a i, #promo-wrapper .bx-controls-auto a span.fa, #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header #promo-wrapper .bx-controls-auto a span.ui-icon, #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header #promo-wrapper .bx-controls-auto a span.ui-icon, .no-js #promo-wrapper .bx-controls-auto a i, .no-js #promo-wrapper .bx-controls-auto a span.fa, .no-js #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .no-js #promo-wrapper .bx-controls-auto a span.ui-icon, .no-js #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .no-js #promo-wrapper .bx-controls-auto a span.ui-icon {
+      #promo-wrapper .bx-controls-auto a i, #promo-wrapper .bx-controls-auto a span.fa, #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header #promo-wrapper .bx-controls-auto a span.ui-icon, #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header #promo-wrapper .bx-controls-auto a span.ui-icon, #promo-wrapper .bx-controls-auto a .dialog span.ui-icon, .dialog #promo-wrapper .bx-controls-auto a span.ui-icon, .no-js #promo-wrapper .bx-controls-auto a i, .no-js #promo-wrapper .bx-controls-auto a span.fa, .no-js #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .no-js #promo-wrapper .bx-controls-auto a span.ui-icon, .no-js #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .no-js #promo-wrapper .bx-controls-auto a span.ui-icon, .no-js #promo-wrapper .bx-controls-auto a .dialog span.ui-icon, .dialog .no-js #promo-wrapper .bx-controls-auto a span.ui-icon {
         color: #fff; }
     #promo-wrapper .bx-controls-auto .bx-stop:hover,
     #promo-wrapper .bx-controls-auto .bx-stop.active, .no-js #promo-wrapper .bx-controls-auto .bx-stop:hover,
@@ -11304,7 +11559,7 @@ or until modernizr tests for it (version 3?).
     .article-listing .event .detail {
       background-color: #FFFFFF;
       float: right; }
-      .article-listing .event .detail i, .article-listing .event .detail span.fa, .article-listing .event .detail .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .article-listing .event .detail span.ui-icon, .article-listing .event .detail #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .article-listing .event .detail span.ui-icon {
+      .article-listing .event .detail i, .article-listing .event .detail span.fa, .article-listing .event .detail .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .article-listing .event .detail span.ui-icon, .article-listing .event .detail #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .article-listing .event .detail span.ui-icon, .article-listing .event .detail .dialog span.ui-icon, .dialog .article-listing .event .detail span.ui-icon {
         margin-right: 5px; }
     .article-listing .event .date {
       margin: 0 10px 5px 0;
@@ -11741,7 +11996,7 @@ or until modernizr tests for it (version 3?).
     .subfamily-choice a.active {
       padding-right: 15px;
       padding-left: 20px; }
-    .subfamily-choice a .fa-times {
+    .subfamily-choice a .fa-times, .subfamily-choice a .dialog .ui-icon, .dialog .subfamily-choice a .ui-icon {
       margin: 0 -8px 0 7px; }
 
 .display-filters {
@@ -11761,7 +12016,7 @@ or until modernizr tests for it (version 3?).
     padding: 6px 10px;
     color: white;
     border-bottom: none; }
-  .display-filters .fa-times {
+  .display-filters .fa-times, .display-filters .dialog .ui-icon, .dialog .display-filters .ui-icon {
     margin: 0 0 0 7px; }
 
 /* end profiles index pages */
@@ -12014,7 +12269,7 @@ or until modernizr tests for it (version 3?).
     background-image: linear-gradient(to bottom, #333333 0%, #333333 100%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF333333', endColorstr='#FF333333', GradientType=0); }
-  .profile-listing .tag-list .fa-times {
+  .profile-listing .tag-list .fa-times, .profile-listing .tag-list .dialog .ui-icon, .dialog .profile-listing .tag-list .ui-icon {
     margin-right: 0; }
 
 .profile-listing .name {
@@ -12642,7 +12897,7 @@ or until modernizr tests for it (version 3?).
             display: inline-block;
             vertical-align: middle;
             width: 0; }
-          .hallway-new .hallway-item a h2 .title-icon span.fa, .hallway-new .hallway-item a h2 .title-icon .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon, .hallway-new .hallway-item a h2 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon, .hallway-new .hallway-item a h3 .title-icon span.fa, .hallway-new .hallway-item a h3 .title-icon .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon, .hallway-new .hallway-item a h3 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon {
+          .hallway-new .hallway-item a h2 .title-icon span.fa, .hallway-new .hallway-item a h2 .title-icon .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon, .hallway-new .hallway-item a h2 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon, .hallway-new .hallway-item a h2 .title-icon .dialog span.ui-icon, .dialog .hallway-new .hallway-item a h2 .title-icon span.ui-icon, .hallway-new .hallway-item a h3 .title-icon span.fa, .hallway-new .hallway-item a h3 .title-icon .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon, .hallway-new .hallway-item a h3 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon, .hallway-new .hallway-item a h3 .title-icon .dialog span.ui-icon, .dialog .hallway-new .hallway-item a h3 .title-icon span.ui-icon {
             display: inline-block;
             margin: 0 auto;
             vertical-align: middle;
@@ -13005,7 +13260,7 @@ or until modernizr tests for it (version 3?).
     border-bottom: none;
     background-color: transparent; }
 
-.social-flat-links i, .social-flat-links span.fa, .social-flat-links .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .social-flat-links span.ui-icon, .social-flat-links #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .social-flat-links span.ui-icon, .social-flat-links .course .accordion.ui-accordion .ui-accordion-header span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header .social-flat-links span.ui-icon {
+.social-flat-links i, .social-flat-links span.fa, .social-flat-links .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .social-flat-links span.ui-icon, .social-flat-links #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .social-flat-links span.ui-icon, .social-flat-links .dialog span.ui-icon, .dialog .social-flat-links span.ui-icon, .social-flat-links .course .accordion.ui-accordion .ui-accordion-header span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header .social-flat-links span.ui-icon {
   margin-right: 5px; }
 
 .social-flat-links .facebook {
@@ -13169,7 +13424,7 @@ or until modernizr tests for it (version 3?).
     line-height: 40px; }
   .filter-box__open h3, .filter-box__open h3 span, .filter-box__open h3 i {
     line-height: 29px; }
-  .filter-box__open .fa, .filter-box__open .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .filter-box__open .ui-icon, .filter-box__open #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .filter-box__open .ui-icon, .filter-box__open .white-card__media .embed-container a:before, .white-card__media .embed-container .filter-box__open a:before, .filter-box__open .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .filter-box__open .ui-icon {
+  .filter-box__open .fa, .filter-box__open .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .filter-box__open .ui-icon, .filter-box__open #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .filter-box__open .ui-icon, .filter-box__open .dialog .ui-icon, .dialog .filter-box__open .ui-icon, .filter-box__open .white-card__media .embed-container a:before, .white-card__media .embed-container .filter-box__open a:before, .filter-box__open .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .filter-box__open .ui-icon {
     float: right; }
 
 .filter-box__float {
@@ -13204,13 +13459,13 @@ or until modernizr tests for it (version 3?).
 .filter-box__filter__header a {
   display: block; }
 
-.filter-box__filter__header .fa, .filter-box__filter__header .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .filter-box__filter__header .ui-icon, .filter-box__filter__header #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .filter-box__filter__header .ui-icon, .filter-box__filter__header .white-card__media .embed-container a:before, .white-card__media .embed-container .filter-box__filter__header a:before, .filter-box__filter__header .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .filter-box__filter__header .ui-icon {
+.filter-box__filter__header .fa, .filter-box__filter__header .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .filter-box__filter__header .ui-icon, .filter-box__filter__header #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .filter-box__filter__header .ui-icon, .filter-box__filter__header .dialog .ui-icon, .dialog .filter-box__filter__header .ui-icon, .filter-box__filter__header .white-card__media .embed-container a:before, .white-card__media .embed-container .filter-box__filter__header a:before, .filter-box__filter__header .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .filter-box__filter__header .ui-icon {
   display: none; }
 
 .js .filter-box__filter__header {
   cursor: pointer; }
 
-.js .filter-box__filter__header .fa, .js .filter-box__filter__header .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .js .filter-box__filter__header .ui-icon, .js .filter-box__filter__header #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .js .filter-box__filter__header .ui-icon, .js .filter-box__filter__header .white-card__media .embed-container a:before, .white-card__media .embed-container .js .filter-box__filter__header a:before, .js .filter-box__filter__header .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .js .filter-box__filter__header .ui-icon {
+.js .filter-box__filter__header .fa, .js .filter-box__filter__header .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .js .filter-box__filter__header .ui-icon, .js .filter-box__filter__header #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .js .filter-box__filter__header .ui-icon, .js .filter-box__filter__header .dialog .ui-icon, .dialog .js .filter-box__filter__header .ui-icon, .js .filter-box__filter__header .white-card__media .embed-container a:before, .white-card__media .embed-container .js .filter-box__filter__header a:before, .js .filter-box__filter__header .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .js .filter-box__filter__header .ui-icon {
   display: block;
   float: right; }
 
@@ -16611,6 +16866,155 @@ or until modernizr tests for it (version 3?).
 .no-js .timeline .collapsed {
   display: block; }
 
+.no-scroll {
+  overflow-y: hidden; }
+
+.dialog {
+  background: rgba(30, 30, 30, 0.7);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; }
+  .dialog .ui-icon {
+    -webkit-transition: -webkit-transform 200ms;
+    transition: -webkit-transform 200ms;
+    transition: transform 200ms;
+    transition: transform 200ms, -webkit-transform 200ms;
+    background-image: none;
+    color: inherit;
+    text-indent: 0;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px; }
+    .dialog .ui-icon:hover {
+      cursor: pointer;
+      color: #aaa; }
+  .dialog .dialog__box {
+    width: 500px;
+    display: inline-block;
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    overflow-y: auto; }
+    .dialog .dialog__box iframe {
+      display: block;
+      margin-right: auto;
+      margin-left: auto; }
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+.shortcourse-banner .media-block__wrapper {
+  max-height: inherit;
+  position: relative; }
+  .shortcourse-banner .media-block__wrapper .video-preview {
+    max-height: inherit;
+    top: 0;
+    left: 0;
+    right: 0; }
+    .shortcourse-banner .media-block__wrapper .video-preview:before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 1;
+      background: rgba(62, 16, 49, 0.5);
+      -webkit-transition: background .3s linear;
+      transition: background .3s linear;
+      -webkit-transition: 2s ease;
+      transition: 2s ease; }
+    .shortcourse-banner .media-block__wrapper .video-preview:hover:before {
+      opacity: 0.9;
+      background: none; }
+    .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button {
+      position: absolute;
+      background-color: transparent;
+      z-index: 2;
+      border-bottom: none;
+      left: 50%;
+      top: 35%; }
+      .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg {
+        fill: none; }
+        .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg .stroke-dotted {
+          opacity: 0;
+          stroke-dasharray: 1,8;
+          stroke-width: 4px;
+          stroke-linecap: round;
+          -webkit-transform-origin: 50% 50%;
+              -ms-transform-origin: 50% 50%;
+                  transform-origin: 50% 50%;
+          -webkit-animation: spin 20s infinite linear;
+                  animation: spin 20s infinite linear;
+          -webkit-transition: opacity 1s ease,  stroke-width 1s ease;
+          transition: opacity 1s ease,  stroke-width 1s ease;
+          stroke: #fff; }
+        .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg .stroke-solid {
+          stroke-dashoffset: 0;
+          stroke-dashArray: 300;
+          stroke-width: 4px;
+          -webkit-transition: stroke-dashoffset 1s ease, opacity 1s ease;
+          transition: stroke-dashoffset 1s ease, opacity 1s ease;
+          stroke: #fff; }
+        .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg .icon {
+          -webkit-transform-origin: 50% 50%;
+              -ms-transform-origin: 50% 50%;
+                  transform-origin: 50% 50%;
+          -webkit-transition: -webkit-transform 200ms ease-out;
+          transition: -webkit-transform 200ms ease-out;
+          transition: transform 200ms ease-out;
+          transition: transform 200ms ease-out, -webkit-transform 200ms ease-out;
+          fill: #fff; }
+        .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg .circle {
+          fill: #fff;
+          fill-opacity: 0.2; }
+        .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg:hover .stroke-dotted {
+          stroke-width: 4px;
+          opacity: 1; }
+        .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg:hover .stroke-solid {
+          opacity: 0;
+          stroke-dashoffset: 200; }
+        .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg:hover .icon {
+          -webkit-transform: scale(1.3);
+              -ms-transform: scale(1.3);
+                  transform: scale(1.3); }
+        .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg:hover .circle {
+          fill: #fff;
+          fill-opacity: 0; }
+    .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button {
+      left: 43%;
+      top: 25%; }
+      .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg {
+        width: 50px;
+        height: 50px; }
+    .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button {
+      left: 43%;
+      top: 35%; }
+      .shortcourse-banner .media-block__wrapper .video-preview .video-preview__button svg {
+        width: 80px;
+        height: 80px; }
+
 @-webkit-keyframes backgroundFadeIn {
   from {
     background-color: transparent; }
@@ -16668,7 +17072,7 @@ or until modernizr tests for it (version 3?).
   margin-bottom: .5em;
   font-size: 1.1em;
   margin-left: .6em; }
-  .directory-user__info .fa, .directory-user__info .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .directory-user__info .ui-icon, .directory-user__info #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .directory-user__info .ui-icon, .directory-user__info .white-card__media .embed-container a:before, .white-card__media .embed-container .directory-user__info a:before, .directory-user__info .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .directory-user__info .ui-icon {
+  .directory-user__info .fa, .directory-user__info .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .directory-user__info .ui-icon, .directory-user__info #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .directory-user__info .ui-icon, .directory-user__info .dialog .ui-icon, .dialog .directory-user__info .ui-icon, .directory-user__info .white-card__media .embed-container a:before, .white-card__media .embed-container .directory-user__info a:before, .directory-user__info .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .directory-user__info .ui-icon {
     margin-right: 1em;
     font-size: 1.4em;
     width: 1em;
@@ -16825,7 +17229,7 @@ i.loading-fa-icon {
 
 .openday-cta .openday-cta__ical {
   margin: 10px 0; }
-  .openday-cta .openday-cta__ical .fa, .openday-cta .openday-cta__ical .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .openday-cta .openday-cta__ical .ui-icon, .openday-cta .openday-cta__ical #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .openday-cta .openday-cta__ical .ui-icon, .openday-cta .openday-cta__ical .white-card__media .embed-container a:before, .white-card__media .embed-container .openday-cta .openday-cta__ical a:before, .openday-cta .openday-cta__ical .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .openday-cta .openday-cta__ical .ui-icon {
+  .openday-cta .openday-cta__ical .fa, .openday-cta .openday-cta__ical .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .openday-cta .openday-cta__ical .ui-icon, .openday-cta .openday-cta__ical #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .openday-cta .openday-cta__ical .ui-icon, .openday-cta .openday-cta__ical .dialog .ui-icon, .dialog .openday-cta .openday-cta__ical .ui-icon, .openday-cta .openday-cta__ical .white-card__media .embed-container a:before, .white-card__media .embed-container .openday-cta .openday-cta__ical a:before, .openday-cta .openday-cta__ical .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .openday-cta .openday-cta__ical .ui-icon {
     color: #a22833;
     font-size: 2em; }
   .openday-cta .openday-cta__ical a {
@@ -16888,7 +17292,7 @@ a.cta-button-link {
   a.cta-button-link:active, a.cta-button-link:focus {
     color: #c00f23;
     background: white; }
-  a.cta-button-link .fa, a.cta-button-link .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header a.cta-button-link .ui-icon, a.cta-button-link #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header a.cta-button-link .ui-icon, a.cta-button-link .white-card__media .embed-container a:before, .white-card__media .embed-container a.cta-button-link a:before, a.cta-button-link .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header a.cta-button-link .ui-icon {
+  a.cta-button-link .fa, a.cta-button-link .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header a.cta-button-link .ui-icon, a.cta-button-link #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header a.cta-button-link .ui-icon, a.cta-button-link .dialog .ui-icon, .dialog a.cta-button-link .ui-icon, a.cta-button-link .white-card__media .embed-container a:before, .white-card__media .embed-container a.cta-button-link a:before, a.cta-button-link .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header a.cta-button-link .ui-icon {
     margin-left: 30px; }
 
 /* TODO: update after making links branch live */
@@ -16909,7 +17313,7 @@ a.cta-button-link {
     background-color: #b91b1b;
     color: #FFFFFF;
     border-bottom-color: transparent; }
-  .cta-label-icon .fa, .cta-label-icon .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .cta-label-icon .ui-icon, .cta-label-icon #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .cta-label-icon .ui-icon, .cta-label-icon .white-card__media .embed-container a:before, .white-card__media .embed-container .cta-label-icon a:before, .cta-label-icon .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .cta-label-icon .ui-icon {
+  .cta-label-icon .fa, .cta-label-icon .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .cta-label-icon .ui-icon, .cta-label-icon #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .cta-label-icon .ui-icon, .cta-label-icon .dialog .ui-icon, .dialog .cta-label-icon .ui-icon, .cta-label-icon .white-card__media .embed-container a:before, .white-card__media .embed-container .cta-label-icon a:before, .cta-label-icon .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .cta-label-icon .ui-icon {
     display: block;
     padding-left: 1px;
     font-size: 2em; }
@@ -16977,12 +17381,14 @@ a.ghost-cta {
     color: #111;
     background: #ccc;
     border-color: #fff; }
-  #promo-wrapper a.ghost-cta .fa, #promo-wrapper a.ghost-cta .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header #promo-wrapper a.ghost-cta .ui-icon, #promo-wrapper a.ghost-cta #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header #promo-wrapper a.ghost-cta .ui-icon, #promo-wrapper a.ghost-cta .white-card__media .embed-container a:before, .white-card__media .embed-container #promo-wrapper a.ghost-cta a:before,
+  #promo-wrapper a.ghost-cta .fa, #promo-wrapper a.ghost-cta .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header #promo-wrapper a.ghost-cta .ui-icon, #promo-wrapper a.ghost-cta #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header #promo-wrapper a.ghost-cta .ui-icon, #promo-wrapper a.ghost-cta .dialog .ui-icon, .dialog #promo-wrapper a.ghost-cta .ui-icon, #promo-wrapper a.ghost-cta .white-card__media .embed-container a:before, .white-card__media .embed-container #promo-wrapper a.ghost-cta a:before,
   a.ghost-cta .fa,
   a.ghost-cta .ui-accordion .ui-accordion-header .ui-icon,
   .ui-accordion .ui-accordion-header a.ghost-cta .ui-icon,
   a.ghost-cta #courses-widget .widget-content .ui-accordion-header .ui-icon,
   #courses-widget .widget-content .ui-accordion-header a.ghost-cta .ui-icon,
+  a.ghost-cta .dialog .ui-icon,
+  .dialog a.ghost-cta .ui-icon,
   a.ghost-cta .white-card__media .embed-container a:before,
   .white-card__media .embed-container a.ghost-cta a:before,
   a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
@@ -17452,7 +17858,7 @@ a.ghost-cta {
       display: block; }
   .events-social .cta a {
     font-weight: normal; }
-  .events-social .cta i, .events-social .cta span.fa, .events-social .cta .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .events-social .cta span.ui-icon, .events-social .cta #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .events-social .cta span.ui-icon, .events-social .cta .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .events-social .cta span.ui-icon {
+  .events-social .cta i, .events-social .cta span.fa, .events-social .cta .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .events-social .cta span.ui-icon, .events-social .cta #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .events-social .cta span.ui-icon, .events-social .cta .dialog span.ui-icon, .dialog .events-social .cta span.ui-icon, .events-social .cta .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .events-social .cta span.ui-icon {
     float: left;
     margin: 0 5px 0 0; }
   .events-social li {
@@ -17532,7 +17938,7 @@ a.ghost-cta {
     font-weight: bold;
     border-bottom: 1px solid #dcdcdc;
     border: 1px solid rgba(0, 0, 0, 0.1); }
-  .event-calendar-wrap .responsive-toggler i, .event-calendar-wrap .responsive-toggler span.fa, .event-calendar-wrap .responsive-toggler .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .event-calendar-wrap .responsive-toggler span.ui-icon, .event-calendar-wrap .responsive-toggler #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .event-calendar-wrap .responsive-toggler span.ui-icon, .event-calendar-wrap .responsive-toggler .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .event-calendar-wrap .responsive-toggler span.ui-icon {
+  .event-calendar-wrap .responsive-toggler i, .event-calendar-wrap .responsive-toggler span.fa, .event-calendar-wrap .responsive-toggler .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .event-calendar-wrap .responsive-toggler span.ui-icon, .event-calendar-wrap .responsive-toggler #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .event-calendar-wrap .responsive-toggler span.ui-icon, .event-calendar-wrap .responsive-toggler .dialog span.ui-icon, .dialog .event-calendar-wrap .responsive-toggler span.ui-icon, .event-calendar-wrap .responsive-toggler .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .event-calendar-wrap .responsive-toggler span.ui-icon {
     margin-left: 5px; }
 
 .event-calendar-wrap .filters {
@@ -17591,7 +17997,7 @@ a.ghost-cta {
 .event-calendar-wrap #fb-summary {
   font-weight: bold; }
 
-.event-calendar-wrap .event i, .event-calendar-wrap .event span.fa, .event-calendar-wrap .event .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .event-calendar-wrap .event span.ui-icon, .event-calendar-wrap .event #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .event-calendar-wrap .event span.ui-icon, .event-calendar-wrap .event .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .event-calendar-wrap .event span.ui-icon {
+.event-calendar-wrap .event i, .event-calendar-wrap .event span.fa, .event-calendar-wrap .event .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .event-calendar-wrap .event span.ui-icon, .event-calendar-wrap .event #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .event-calendar-wrap .event span.ui-icon, .event-calendar-wrap .event .dialog span.ui-icon, .dialog .event-calendar-wrap .event span.ui-icon, .event-calendar-wrap .event .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .event-calendar-wrap .event span.ui-icon {
   color: #666; }
 
 .event-calendar-wrap .event .date {
@@ -17622,7 +18028,7 @@ a.ghost-cta {
   display: block;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.8em; }
-  .event-calendar-wrap .responsive-toggler i, .event-calendar-wrap .responsive-toggler span.fa, .event-calendar-wrap .responsive-toggler .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .event-calendar-wrap .responsive-toggler span.ui-icon, .event-calendar-wrap .responsive-toggler #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .event-calendar-wrap .responsive-toggler span.ui-icon, .event-calendar-wrap .responsive-toggler .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .event-calendar-wrap .responsive-toggler span.ui-icon {
+  .event-calendar-wrap .responsive-toggler i, .event-calendar-wrap .responsive-toggler span.fa, .event-calendar-wrap .responsive-toggler .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .event-calendar-wrap .responsive-toggler span.ui-icon, .event-calendar-wrap .responsive-toggler #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .event-calendar-wrap .responsive-toggler span.ui-icon, .event-calendar-wrap .responsive-toggler .dialog span.ui-icon, .dialog .event-calendar-wrap .responsive-toggler span.ui-icon, .event-calendar-wrap .responsive-toggler .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .event-calendar-wrap .responsive-toggler span.ui-icon {
     display: none; }
   .event-calendar-wrap .responsive-toggler a {
     font-weight: normal;
@@ -17676,29 +18082,35 @@ a.ghost-cta {
       display: table; }
     .single-event .event-meta:after {
       clear: both; }
-  .single-event .event-meta i, .single-event .event-meta span.fa, .single-event .event-meta .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .event-meta span.ui-icon, .single-event .event-meta #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .event-meta span.ui-icon, .single-event .event-meta .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .event-meta span.ui-icon,
+  .single-event .event-meta i, .single-event .event-meta span.fa, .single-event .event-meta .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .event-meta span.ui-icon, .single-event .event-meta #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .event-meta span.ui-icon, .single-event .event-meta .dialog span.ui-icon, .dialog .single-event .event-meta span.ui-icon, .single-event .event-meta .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .event-meta span.ui-icon,
   .single-event .single-event-widget i,
   .single-event .single-event-widget span.fa,
   .single-event .single-event-widget .ui-accordion .ui-accordion-header span.ui-icon,
   .ui-accordion .ui-accordion-header .single-event .single-event-widget span.ui-icon,
   .single-event .single-event-widget #courses-widget .widget-content .ui-accordion-header span.ui-icon,
   #courses-widget .widget-content .ui-accordion-header .single-event .single-event-widget span.ui-icon,
+  .single-event .single-event-widget .dialog span.ui-icon,
+  .dialog .single-event .single-event-widget span.ui-icon,
   .single-event .single-event-widget .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
   .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .single-event-widget span.ui-icon {
     color: #666; }
-  .single-event .event-meta .mid-cta i, .single-event .event-meta .mid-cta span.fa, .single-event .event-meta .mid-cta .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .event-meta .mid-cta span.ui-icon, .single-event .event-meta .mid-cta #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .event-meta .mid-cta span.ui-icon, .single-event .event-meta .hard-cta i, .single-event .event-meta .hard-cta span.fa, .single-event .event-meta .hard-cta .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .event-meta .hard-cta span.ui-icon, .single-event .event-meta .hard-cta #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .event-meta .hard-cta span.ui-icon,
+  .single-event .event-meta .mid-cta i, .single-event .event-meta .mid-cta span.fa, .single-event .event-meta .mid-cta .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .event-meta .mid-cta span.ui-icon, .single-event .event-meta .mid-cta #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .event-meta .mid-cta span.ui-icon, .single-event .event-meta .mid-cta .dialog span.ui-icon, .dialog .single-event .event-meta .mid-cta span.ui-icon, .single-event .event-meta .hard-cta i, .single-event .event-meta .hard-cta span.fa, .single-event .event-meta .hard-cta .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .event-meta .hard-cta span.ui-icon, .single-event .event-meta .hard-cta #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .event-meta .hard-cta span.ui-icon, .single-event .event-meta .hard-cta .dialog span.ui-icon, .dialog .single-event .event-meta .hard-cta span.ui-icon,
   .single-event .single-event-widget .mid-cta i,
   .single-event .single-event-widget .mid-cta span.fa,
   .single-event .single-event-widget .mid-cta .ui-accordion .ui-accordion-header span.ui-icon,
   .ui-accordion .ui-accordion-header .single-event .single-event-widget .mid-cta span.ui-icon,
   .single-event .single-event-widget .mid-cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
   #courses-widget .widget-content .ui-accordion-header .single-event .single-event-widget .mid-cta span.ui-icon,
+  .single-event .single-event-widget .mid-cta .dialog span.ui-icon,
+  .dialog .single-event .single-event-widget .mid-cta span.ui-icon,
   .single-event .single-event-widget .hard-cta i,
   .single-event .single-event-widget .hard-cta span.fa,
   .single-event .single-event-widget .hard-cta .ui-accordion .ui-accordion-header span.ui-icon,
   .ui-accordion .ui-accordion-header .single-event .single-event-widget .hard-cta span.ui-icon,
   .single-event .single-event-widget .hard-cta #courses-widget .widget-content .ui-accordion-header span.ui-icon,
-  #courses-widget .widget-content .ui-accordion-header .single-event .single-event-widget .hard-cta span.ui-icon {
+  #courses-widget .widget-content .ui-accordion-header .single-event .single-event-widget .hard-cta span.ui-icon,
+  .single-event .single-event-widget .hard-cta .dialog span.ui-icon,
+  .dialog .single-event .single-event-widget .hard-cta span.ui-icon {
     color: #fff; }
   .single-event .event-time,
   .single-event .event-category,
@@ -17752,7 +18164,7 @@ a.ghost-cta {
     margin: 10px 0;
     padding: 10px;
     background-color: #FFBABA; }
-    .single-event .single-event-widget__warning, .single-event .single-event-widget__warning span.fa, .single-event .single-event-widget__warning .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .single-event-widget__warning span.ui-icon, .single-event .single-event-widget__warning #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .single-event-widget__warning span.ui-icon, .single-event .single-event-widget__warning .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .single-event-widget__warning span.ui-icon {
+    .single-event .single-event-widget__warning, .single-event .single-event-widget__warning span.fa, .single-event .single-event-widget__warning .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .single-event-widget__warning span.ui-icon, .single-event .single-event-widget__warning #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .single-event-widget__warning span.ui-icon, .single-event .single-event-widget__warning .dialog span.ui-icon, .dialog .single-event .single-event-widget__warning span.ui-icon, .single-event .single-event-widget__warning .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .single-event-widget__warning span.ui-icon {
       color: #D8000C; }
   .single-event .sign-up {
     padding: 17px; }
@@ -17772,7 +18184,7 @@ a.ghost-cta {
       float: left; }
       .single-event .sign-up .cta a {
         padding: 10px 20px; }
-      .single-event .sign-up .cta i, .single-event .sign-up .cta span.fa, .single-event .sign-up .cta .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .sign-up .cta span.ui-icon, .single-event .sign-up .cta #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .sign-up .cta span.ui-icon {
+      .single-event .sign-up .cta i, .single-event .sign-up .cta span.fa, .single-event .sign-up .cta .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .sign-up .cta span.ui-icon, .single-event .sign-up .cta #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .sign-up .cta span.ui-icon, .single-event .sign-up .cta .dialog span.ui-icon, .dialog .single-event .sign-up .cta span.ui-icon {
         float: none;
         margin-left: 7px; }
   .single-event .event-detail {
@@ -17789,7 +18201,7 @@ a.ghost-cta {
         display: table; }
       .single-event .event-detail .location:after {
         clear: both; }
-      .single-event .event-detail .location i, .single-event .event-detail .location span.fa, .single-event .event-detail .location .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .event-detail .location span.ui-icon, .single-event .event-detail .location #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .event-detail .location span.ui-icon {
+      .single-event .event-detail .location i, .single-event .event-detail .location span.fa, .single-event .event-detail .location .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .event-detail .location span.ui-icon, .single-event .event-detail .location #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .event-detail .location span.ui-icon, .single-event .event-detail .location .dialog span.ui-icon, .dialog .single-event .event-detail .location span.ui-icon {
         display: block;
         float: left;
         margin: 5px 10px 0 0; }
@@ -17811,7 +18223,7 @@ a.ghost-cta {
       margin-bottom: 14px; }
       .single-event .event-detail .static-map-link a {
         border-bottom: none; }
-        .single-event .event-detail .static-map-link a i, .single-event .event-detail .static-map-link a span.fa, .single-event .event-detail .static-map-link a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .event-detail .static-map-link a span.ui-icon, .single-event .event-detail .static-map-link a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .event-detail .static-map-link a span.ui-icon {
+        .single-event .event-detail .static-map-link a i, .single-event .event-detail .static-map-link a span.fa, .single-event .event-detail .static-map-link a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .event-detail .static-map-link a span.ui-icon, .single-event .event-detail .static-map-link a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .event-detail .static-map-link a span.ui-icon, .single-event .event-detail .static-map-link a .dialog span.ui-icon, .dialog .single-event .event-detail .static-map-link a span.ui-icon {
           color: #666;
           border-bottom: 0; }
         .single-event .event-detail .static-map-link a:hover span {
@@ -17822,7 +18234,7 @@ a.ghost-cta {
     margin: 0; }
     .single-event .events-extra ul li {
       margin: 0 0 7px 0; }
-      .single-event .events-extra ul li i, .single-event .events-extra ul li span.fa, .single-event .events-extra ul li .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .events-extra ul li span.ui-icon, .single-event .events-extra ul li #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .events-extra ul li span.ui-icon, .single-event .events-extra ul li .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .events-extra ul li span.ui-icon {
+      .single-event .events-extra ul li i, .single-event .events-extra ul li span.fa, .single-event .events-extra ul li .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .events-extra ul li span.ui-icon, .single-event .events-extra ul li #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .events-extra ul li span.ui-icon, .single-event .events-extra ul li .dialog span.ui-icon, .dialog .single-event .events-extra ul li span.ui-icon, .single-event .events-extra ul li .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .events-extra ul li span.ui-icon {
         margin-right: 10px; }
   .single-event .alternative-contact {
     padding: 20px; }
@@ -17833,13 +18245,13 @@ a.ghost-cta {
       clear: both; }
     .single-event .alternative-contact .fn {
       margin: 0; }
-    .single-event .alternative-contact i, .single-event .alternative-contact span.fa, .single-event .alternative-contact .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .alternative-contact span.ui-icon, .single-event .alternative-contact #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .alternative-contact span.ui-icon, .single-event .alternative-contact .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .alternative-contact span.ui-icon {
+    .single-event .alternative-contact i, .single-event .alternative-contact span.fa, .single-event .alternative-contact .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .alternative-contact span.ui-icon, .single-event .alternative-contact #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .alternative-contact span.ui-icon, .single-event .alternative-contact .dialog span.ui-icon, .dialog .single-event .alternative-contact span.ui-icon, .single-event .alternative-contact .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .single-event .alternative-contact span.ui-icon {
       margin-right: 10px; }
     .single-event .alternative-contact .cta {
       margin: 14px auto;
       text-align: center;
       float: left; }
-      .single-event .alternative-contact .cta i, .single-event .alternative-contact .cta span.fa, .single-event .alternative-contact .cta .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .alternative-contact .cta span.ui-icon, .single-event .alternative-contact .cta #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .alternative-contact .cta span.ui-icon {
+      .single-event .alternative-contact .cta i, .single-event .alternative-contact .cta span.fa, .single-event .alternative-contact .cta .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .single-event .alternative-contact .cta span.ui-icon, .single-event .alternative-contact .cta #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .single-event .alternative-contact .cta span.ui-icon, .single-event .alternative-contact .cta .dialog span.ui-icon, .dialog .single-event .alternative-contact .cta span.ui-icon {
         float: left; }
 
 .single-event .event-share .social-flat-links {
@@ -18188,12 +18600,14 @@ a.ghost-cta {
 .home .home-business h2,
 .home .home-research h2 {
   margin-bottom: 0; }
-  .home .home-news-events div h2 > a .fa, .home .home-news-events div h2 > a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home .home-news-events div h2 > a .ui-icon, .home .home-news-events div h2 > a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2 > a .ui-icon, .home .home-news-events div h2 > a .white-card__media .embed-container a:before, .white-card__media .embed-container .home .home-news-events div h2 > a a:before, .home .home-news-events div h2 > a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home .home-news-events div h2 > a .ui-icon,
+  .home .home-news-events div h2 > a .fa, .home .home-news-events div h2 > a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home .home-news-events div h2 > a .ui-icon, .home .home-news-events div h2 > a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2 > a .ui-icon, .home .home-news-events div h2 > a .dialog .ui-icon, .dialog .home .home-news-events div h2 > a .ui-icon, .home .home-news-events div h2 > a .white-card__media .embed-container a:before, .white-card__media .embed-container .home .home-news-events div h2 > a a:before, .home .home-news-events div h2 > a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home .home-news-events div h2 > a .ui-icon,
   .home .home-business h2 > a .fa,
   .home .home-business h2 > a .ui-accordion .ui-accordion-header .ui-icon,
   .ui-accordion .ui-accordion-header .home .home-business h2 > a .ui-icon,
   .home .home-business h2 > a #courses-widget .widget-content .ui-accordion-header .ui-icon,
   #courses-widget .widget-content .ui-accordion-header .home .home-business h2 > a .ui-icon,
+  .home .home-business h2 > a .dialog .ui-icon,
+  .dialog .home .home-business h2 > a .ui-icon,
   .home .home-business h2 > a .white-card__media .embed-container a:before,
   .white-card__media .embed-container .home .home-business h2 > a a:before,
   .home .home-business h2 > a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
@@ -18203,6 +18617,8 @@ a.ghost-cta {
   .ui-accordion .ui-accordion-header .home .home-research h2 > a .ui-icon,
   .home .home-research h2 > a #courses-widget .widget-content .ui-accordion-header .ui-icon,
   #courses-widget .widget-content .ui-accordion-header .home .home-research h2 > a .ui-icon,
+  .home .home-research h2 > a .dialog .ui-icon,
+  .dialog .home .home-research h2 > a .ui-icon,
   .home .home-research h2 > a .white-card__media .embed-container a:before,
   .white-card__media .embed-container .home .home-research h2 > a a:before,
   .home .home-research h2 > a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
@@ -18218,12 +18634,14 @@ a.ghost-cta {
       color: #b91b1b;
       border-bottom: 2px solid;
       border-bottom-color: #b91b1b; }
-    .home .home-news-events div h2 > a:hover .fa, .home .home-news-events div h2 > a:hover .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home .home-news-events div h2 > a:hover .ui-icon, .home .home-news-events div h2 > a:hover #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2 > a:hover .ui-icon, .home .home-news-events div h2 > a:hover .white-card__media .embed-container a:before, .white-card__media .embed-container .home .home-news-events div h2 > a:hover a:before,
+    .home .home-news-events div h2 > a:hover .fa, .home .home-news-events div h2 > a:hover .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home .home-news-events div h2 > a:hover .ui-icon, .home .home-news-events div h2 > a:hover #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2 > a:hover .ui-icon, .home .home-news-events div h2 > a:hover .dialog .ui-icon, .dialog .home .home-news-events div h2 > a:hover .ui-icon, .home .home-news-events div h2 > a:hover .white-card__media .embed-container a:before, .white-card__media .embed-container .home .home-news-events div h2 > a:hover a:before,
     .home .home-business h2 > a:hover .fa,
     .home .home-business h2 > a:hover .ui-accordion .ui-accordion-header .ui-icon,
     .ui-accordion .ui-accordion-header .home .home-business h2 > a:hover .ui-icon,
     .home .home-business h2 > a:hover #courses-widget .widget-content .ui-accordion-header .ui-icon,
     #courses-widget .widget-content .ui-accordion-header .home .home-business h2 > a:hover .ui-icon,
+    .home .home-business h2 > a:hover .dialog .ui-icon,
+    .dialog .home .home-business h2 > a:hover .ui-icon,
     .home .home-business h2 > a:hover .white-card__media .embed-container a:before,
     .white-card__media .embed-container .home .home-business h2 > a:hover a:before,
     .home .home-research h2 > a:hover .fa,
@@ -18231,6 +18649,8 @@ a.ghost-cta {
     .ui-accordion .ui-accordion-header .home .home-research h2 > a:hover .ui-icon,
     .home .home-research h2 > a:hover #courses-widget .widget-content .ui-accordion-header .ui-icon,
     #courses-widget .widget-content .ui-accordion-header .home .home-research h2 > a:hover .ui-icon,
+    .home .home-research h2 > a:hover .dialog .ui-icon,
+    .dialog .home .home-research h2 > a:hover .ui-icon,
     .home .home-research h2 > a:hover .white-card__media .embed-container a:before,
     .white-card__media .embed-container .home .home-research h2 > a:hover a:before {
       border-bottom: none; }
@@ -18249,12 +18669,14 @@ a.ghost-cta {
       color: #b91b1b;
       border-bottom: 2px dotted;
       border-bottom-color: #666666; }
-    .home .home-news-events div h2 > a:active .fa, .home .home-news-events div h2 > a:active .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home .home-news-events div h2 > a:active .ui-icon, .home .home-news-events div h2 > a:active #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2 > a:active .ui-icon, .home .home-news-events div h2 > a:active .white-card__media .embed-container a:before, .white-card__media .embed-container .home .home-news-events div h2 > a:active a:before, .home .home-news-events div h2 > a:focus .fa, .home .home-news-events div h2 > a:focus .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home .home-news-events div h2 > a:focus .ui-icon, .home .home-news-events div h2 > a:focus #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2 > a:focus .ui-icon, .home .home-news-events div h2 > a:focus .white-card__media .embed-container a:before, .white-card__media .embed-container .home .home-news-events div h2 > a:focus a:before,
+    .home .home-news-events div h2 > a:active .fa, .home .home-news-events div h2 > a:active .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home .home-news-events div h2 > a:active .ui-icon, .home .home-news-events div h2 > a:active #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2 > a:active .ui-icon, .home .home-news-events div h2 > a:active .dialog .ui-icon, .dialog .home .home-news-events div h2 > a:active .ui-icon, .home .home-news-events div h2 > a:active .white-card__media .embed-container a:before, .white-card__media .embed-container .home .home-news-events div h2 > a:active a:before, .home .home-news-events div h2 > a:focus .fa, .home .home-news-events div h2 > a:focus .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .home .home-news-events div h2 > a:focus .ui-icon, .home .home-news-events div h2 > a:focus #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .home .home-news-events div h2 > a:focus .ui-icon, .home .home-news-events div h2 > a:focus .dialog .ui-icon, .dialog .home .home-news-events div h2 > a:focus .ui-icon, .home .home-news-events div h2 > a:focus .white-card__media .embed-container a:before, .white-card__media .embed-container .home .home-news-events div h2 > a:focus a:before,
     .home .home-business h2 > a:active .fa,
     .home .home-business h2 > a:active .ui-accordion .ui-accordion-header .ui-icon,
     .ui-accordion .ui-accordion-header .home .home-business h2 > a:active .ui-icon,
     .home .home-business h2 > a:active #courses-widget .widget-content .ui-accordion-header .ui-icon,
     #courses-widget .widget-content .ui-accordion-header .home .home-business h2 > a:active .ui-icon,
+    .home .home-business h2 > a:active .dialog .ui-icon,
+    .dialog .home .home-business h2 > a:active .ui-icon,
     .home .home-business h2 > a:active .white-card__media .embed-container a:before,
     .white-card__media .embed-container .home .home-business h2 > a:active a:before,
     .home .home-business h2 > a:focus .fa,
@@ -18262,6 +18684,8 @@ a.ghost-cta {
     .ui-accordion .ui-accordion-header .home .home-business h2 > a:focus .ui-icon,
     .home .home-business h2 > a:focus #courses-widget .widget-content .ui-accordion-header .ui-icon,
     #courses-widget .widget-content .ui-accordion-header .home .home-business h2 > a:focus .ui-icon,
+    .home .home-business h2 > a:focus .dialog .ui-icon,
+    .dialog .home .home-business h2 > a:focus .ui-icon,
     .home .home-business h2 > a:focus .white-card__media .embed-container a:before,
     .white-card__media .embed-container .home .home-business h2 > a:focus a:before,
     .home .home-research h2 > a:active .fa,
@@ -18269,6 +18693,8 @@ a.ghost-cta {
     .ui-accordion .ui-accordion-header .home .home-research h2 > a:active .ui-icon,
     .home .home-research h2 > a:active #courses-widget .widget-content .ui-accordion-header .ui-icon,
     #courses-widget .widget-content .ui-accordion-header .home .home-research h2 > a:active .ui-icon,
+    .home .home-research h2 > a:active .dialog .ui-icon,
+    .dialog .home .home-research h2 > a:active .ui-icon,
     .home .home-research h2 > a:active .white-card__media .embed-container a:before,
     .white-card__media .embed-container .home .home-research h2 > a:active a:before,
     .home .home-research h2 > a:focus .fa,
@@ -18276,6 +18702,8 @@ a.ghost-cta {
     .ui-accordion .ui-accordion-header .home .home-research h2 > a:focus .ui-icon,
     .home .home-research h2 > a:focus #courses-widget .widget-content .ui-accordion-header .ui-icon,
     #courses-widget .widget-content .ui-accordion-header .home .home-research h2 > a:focus .ui-icon,
+    .home .home-research h2 > a:focus .dialog .ui-icon,
+    .dialog .home .home-research h2 > a:focus .ui-icon,
     .home .home-research h2 > a:focus .white-card__media .embed-container a:before,
     .white-card__media .embed-container .home .home-research h2 > a:focus a:before {
       border-bottom: none; }
@@ -18328,7 +18756,7 @@ a.ghost-cta {
     .home #promo-wrapper .bx-controls a, .home #promo-wrapper .bx-controls a:focus {
       background: none;
       outline: 0; }
-      .home #promo-wrapper .bx-controls a i, .home #promo-wrapper .bx-controls a span.fa, .home #promo-wrapper .bx-controls a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls a span.ui-icon, .home #promo-wrapper .bx-controls a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls a span.ui-icon, .home #promo-wrapper .bx-controls a:focus i, .home #promo-wrapper .bx-controls a:focus span.fa, .home #promo-wrapper .bx-controls a:focus .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls a:focus span.ui-icon, .home #promo-wrapper .bx-controls a:focus #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls a:focus span.ui-icon {
+      .home #promo-wrapper .bx-controls a i, .home #promo-wrapper .bx-controls a span.fa, .home #promo-wrapper .bx-controls a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls a span.ui-icon, .home #promo-wrapper .bx-controls a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls a span.ui-icon, .home #promo-wrapper .bx-controls a .dialog span.ui-icon, .dialog .home #promo-wrapper .bx-controls a span.ui-icon, .home #promo-wrapper .bx-controls a:focus i, .home #promo-wrapper .bx-controls a:focus span.fa, .home #promo-wrapper .bx-controls a:focus .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls a:focus span.ui-icon, .home #promo-wrapper .bx-controls a:focus #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls a:focus span.ui-icon, .home #promo-wrapper .bx-controls a:focus .dialog span.ui-icon, .dialog .home #promo-wrapper .bx-controls a:focus span.ui-icon {
         -webkit-transition: color 0.2s ease;
         transition: color 0.2s ease; }
   .home #promo-wrapper .col-md-12 {
@@ -18372,16 +18800,16 @@ a.ghost-cta {
         background: none;
         border: 0;
         padding: 0; }
-      .home #promo-wrapper .bx-controls-auto a i, .home #promo-wrapper .bx-controls-auto a span.fa, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ui-icon, .home #promo-wrapper .bx-controls-direction a i, .home #promo-wrapper .bx-controls-direction a span.fa, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ui-icon {
+      .home #promo-wrapper .bx-controls-auto a i, .home #promo-wrapper .bx-controls-auto a span.fa, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ui-icon, .home #promo-wrapper .bx-controls-auto a .dialog span.ui-icon, .dialog .home #promo-wrapper .bx-controls-auto a span.ui-icon, .home #promo-wrapper .bx-controls-direction a i, .home #promo-wrapper .bx-controls-direction a span.fa, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ui-icon, .home #promo-wrapper .bx-controls-direction a .dialog span.ui-icon, .dialog .home #promo-wrapper .bx-controls-direction a span.ui-icon {
         position: absolute; }
-        .home #promo-wrapper .bx-controls-auto a i.bg, .home #promo-wrapper .bx-controls-auto a span.fa.bg, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.bg.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.bg.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.bg.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.bg.ui-icon, .home #promo-wrapper .bx-controls-direction a i.bg, .home #promo-wrapper .bx-controls-direction a span.fa.bg, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.bg.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.bg.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.bg.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.bg.ui-icon {
+        .home #promo-wrapper .bx-controls-auto a i.bg, .home #promo-wrapper .bx-controls-auto a span.fa.bg, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.bg.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.bg.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.bg.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.bg.ui-icon, .home #promo-wrapper .bx-controls-auto a .dialog span.bg.ui-icon, .dialog .home #promo-wrapper .bx-controls-auto a span.bg.ui-icon, .home #promo-wrapper .bx-controls-direction a i.bg, .home #promo-wrapper .bx-controls-direction a span.fa.bg, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.bg.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.bg.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.bg.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.bg.ui-icon, .home #promo-wrapper .bx-controls-direction a .dialog span.bg.ui-icon, .dialog .home #promo-wrapper .bx-controls-direction a span.bg.ui-icon {
           top: 0;
           left: 0;
           width: 100%;
           height: 100%;
           color: white;
           line-height: inherit; }
-        .home #promo-wrapper .bx-controls-auto a i.ic, .home #promo-wrapper .bx-controls-auto a span.fa.ic, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.ui-icon, .home #promo-wrapper .bx-controls-direction a i.ic, .home #promo-wrapper .bx-controls-direction a span.fa.ic, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.ui-icon {
+        .home #promo-wrapper .bx-controls-auto a i.ic, .home #promo-wrapper .bx-controls-auto a span.fa.ic, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.ui-icon, .home #promo-wrapper .bx-controls-auto a .dialog span.ic.ui-icon, .dialog .home #promo-wrapper .bx-controls-auto a span.ic.ui-icon, .home #promo-wrapper .bx-controls-direction a i.ic, .home #promo-wrapper .bx-controls-direction a span.fa.ic, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.ui-icon, .home #promo-wrapper .bx-controls-direction a .dialog span.ic.ui-icon, .dialog .home #promo-wrapper .bx-controls-direction a span.ic.ui-icon {
           top: 50%;
           left: 50%;
           width: 16px;
@@ -18391,11 +18819,11 @@ a.ghost-cta {
           margin-left: -8px;
           margin-top: -7px;
           color: #b02a1a; }
-          .home #promo-wrapper .bx-controls-auto a i.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-auto a i.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-direction a i.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-direction a i.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon {
+          .home #promo-wrapper .bx-controls-auto a i.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-auto a i.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-chevron-right.ui-icon, .dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-chevron-left.ui-icon, .dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-direction a i.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-direction a i.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-right.ui-icon, .dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-left.ui-icon, .dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon {
             margin-top: -6px; }
-          .home #promo-wrapper .bx-controls-auto a i.ic.fa-play, .home #promo-wrapper .bx-controls-auto a i.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-play, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-play.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-play.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-play.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-play.ui-icon, .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-direction a i.ic.fa-play, .home #promo-wrapper .bx-controls-direction a i.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-direction a span.fa.ic.fa-play, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-play.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-play.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon, .home #promo-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon {
+          .home #promo-wrapper .bx-controls-auto a i.ic.fa-play, .home #promo-wrapper .bx-controls-auto a i.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-play, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-play.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-play.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-play.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-play.ui-icon, .home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-play.ui-icon, .dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-play.ui-icon, .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-chevron-right.ui-icon, .dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-direction a i.ic.fa-play, .home #promo-wrapper .bx-controls-direction a i.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-direction a span.fa.ic.fa-play, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-play.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-play.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon, .home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-play.ui-icon, .dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon, .home #promo-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-right, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-right.ui-icon, .dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon {
             margin-left: -7px; }
-          .home #promo-wrapper .bx-controls-auto a i.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-direction a i.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon {
+          .home #promo-wrapper .bx-controls-auto a i.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-auto a span.fa.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-auto a .dialog span.ic.fa-chevron-left.ui-icon, .dialog .home #promo-wrapper .bx-controls-auto a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-direction a i.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-left, .home #promo-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon, .ui-accordion .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon, .home #promo-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-left.ui-icon, .dialog .home #promo-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon {
             margin-left: -9px; }
       .home #promo-wrapper .bx-controls-auto a:hover i.bg, .home #promo-wrapper .bx-controls-auto a.active i.bg,
       .home #promo-wrapper .bx-controls-auto a:hover span.bg, .home #promo-wrapper .bx-controls-auto a.active span.bg, .home #promo-wrapper .bx-controls-direction a:hover i.bg, .home #promo-wrapper .bx-controls-direction a.active i.bg,
@@ -18623,12 +19051,12 @@ a.ghost-cta {
           left: 0; }
         .home-news-events .bx-wrapper .bx-controls-direction a.bx-next {
           right: 0; }
-        .home-news-events .bx-wrapper .bx-controls-direction a i, .home-news-events .bx-wrapper .bx-controls-direction a span.fa, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ui-icon {
+        .home-news-events .bx-wrapper .bx-controls-direction a i, .home-news-events .bx-wrapper .bx-controls-direction a span.fa, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ui-icon, .dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ui-icon {
           position: absolute;
           text-align: center;
           -webkit-transition: color 0.2s ease;
           transition: color 0.2s ease; }
-          .home-news-events .bx-wrapper .bx-controls-direction a i.bg, .home-news-events .bx-wrapper .bx-controls-direction a span.fa.bg, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.bg.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.bg.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.bg.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.bg.ui-icon {
+          .home-news-events .bx-wrapper .bx-controls-direction a i.bg, .home-news-events .bx-wrapper .bx-controls-direction a span.fa.bg, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.bg.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.bg.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.bg.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.bg.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a .dialog span.bg.ui-icon, .dialog .home-news-events .bx-wrapper .bx-controls-direction a span.bg.ui-icon {
             top: 50%;
             left: 50%;
             height: 40px;
@@ -18637,7 +19065,7 @@ a.ghost-cta {
             font-size: 40px;
             margin: -20px auto auto -20px;
             color: white; }
-          .home-news-events .bx-wrapper .bx-controls-direction a i.ic, .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.ui-icon {
+          .home-news-events .bx-wrapper .bx-controls-direction a i.ic, .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.ui-icon, .dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.ui-icon {
             top: 50%;
             left: 50%;
             width: 16px;
@@ -18647,11 +19075,11 @@ a.ghost-cta {
             margin-left: -8px;
             margin-top: -7px;
             color: #b02a1a; }
-            .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-chevron-right, .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-chevron-left, .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-right, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-left, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon {
+            .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-chevron-right, .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-chevron-left, .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-right, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-right.ui-icon, .dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-left, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-left.ui-icon, .dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon {
               margin-top: -6px; }
-            .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-play, .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-chevron-right, .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic.fa-play, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-play.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-play.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-right, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon {
+            .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-play, .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-chevron-right, .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic.fa-play, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-play.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-play.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-play.ui-icon, .dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-play.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-right, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-right.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-right.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-right.ui-icon, .dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-right.ui-icon {
               margin-left: -7px; }
-            .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-chevron-left, .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-left, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon {
+            .home-news-events .bx-wrapper .bx-controls-direction a i.ic.fa-chevron-left, .home-news-events .bx-wrapper .bx-controls-direction a span.fa.ic.fa-chevron-left, .home-news-events .bx-wrapper .bx-controls-direction a .ui-accordion .ui-accordion-header span.ic.fa-chevron-left.ui-icon, .ui-accordion .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a #courses-widget .widget-content .ui-accordion-header span.ic.fa-chevron-left.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon, .home-news-events .bx-wrapper .bx-controls-direction a .dialog span.ic.fa-chevron-left.ui-icon, .dialog .home-news-events .bx-wrapper .bx-controls-direction a span.ic.fa-chevron-left.ui-icon {
               margin-left: -9px; }
         .home-news-events .bx-wrapper .bx-controls-direction a:hover i.bg, .home-news-events .bx-wrapper .bx-controls-direction a.active i.bg,
         .home-news-events .bx-wrapper .bx-controls-direction a:hover span.bg, .home-news-events .bx-wrapper .bx-controls-direction a.active span.bg {
@@ -18786,13 +19214,15 @@ a.ghost-cta {
     font-size: 22px;
     margin-right: 15px;
     position: relative; }
-    .home-research .home-item h2 i, .home-research .home-item h2 span.fa, .home-research .home-item h2 .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home-research .home-item h2 span.ui-icon, .home-research .home-item h2 #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-research .home-item h2 span.ui-icon, .home-research .home-item h2 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home-research .home-item h2 span.ui-icon, .home-research .home-item h3 i, .home-research .home-item h3 span.fa, .home-research .home-item h3 .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home-research .home-item h3 span.ui-icon, .home-research .home-item h3 #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-research .home-item h3 span.ui-icon, .home-research .home-item h3 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home-research .home-item h3 span.ui-icon,
+    .home-research .home-item h2 i, .home-research .home-item h2 span.fa, .home-research .home-item h2 .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home-research .home-item h2 span.ui-icon, .home-research .home-item h2 #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-research .home-item h2 span.ui-icon, .home-research .home-item h2 .dialog span.ui-icon, .dialog .home-research .home-item h2 span.ui-icon, .home-research .home-item h2 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home-research .home-item h2 span.ui-icon, .home-research .home-item h3 i, .home-research .home-item h3 span.fa, .home-research .home-item h3 .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home-research .home-item h3 span.ui-icon, .home-research .home-item h3 #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-research .home-item h3 span.ui-icon, .home-research .home-item h3 .dialog span.ui-icon, .dialog .home-research .home-item h3 span.ui-icon, .home-research .home-item h3 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home-research .home-item h3 span.ui-icon,
     .home-business .home-item h2 i,
     .home-business .home-item h2 span.fa,
     .home-business .home-item h2 .ui-accordion .ui-accordion-header span.ui-icon,
     .ui-accordion .ui-accordion-header .home-business .home-item h2 span.ui-icon,
     .home-business .home-item h2 #courses-widget .widget-content .ui-accordion-header span.ui-icon,
     #courses-widget .widget-content .ui-accordion-header .home-business .home-item h2 span.ui-icon,
+    .home-business .home-item h2 .dialog span.ui-icon,
+    .dialog .home-business .home-item h2 span.ui-icon,
     .home-business .home-item h2 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
     .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home-business .home-item h2 span.ui-icon,
     .home-business .home-item h3 i,
@@ -18801,6 +19231,8 @@ a.ghost-cta {
     .ui-accordion .ui-accordion-header .home-business .home-item h3 span.ui-icon,
     .home-business .home-item h3 #courses-widget .widget-content .ui-accordion-header span.ui-icon,
     #courses-widget .widget-content .ui-accordion-header .home-business .home-item h3 span.ui-icon,
+    .home-business .home-item h3 .dialog span.ui-icon,
+    .dialog .home-business .home-item h3 span.ui-icon,
     .home-business .home-item h3 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active span.ui-icon,
     .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .home-business .home-item h3 span.ui-icon {
       position: absolute;
@@ -18946,7 +19378,7 @@ a.ghost-cta {
     border: 0;
     -webkit-transition: background 0.2s ease;
     transition: background 0.2s ease; }
-    .home .home-course-finder .home-course-finder-submit button i, .home .home-course-finder .home-course-finder-submit button span.fa, .home .home-course-finder .home-course-finder-submit button .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home .home-course-finder .home-course-finder-submit button span.ui-icon, .home .home-course-finder .home-course-finder-submit button #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home .home-course-finder .home-course-finder-submit button span.ui-icon {
+    .home .home-course-finder .home-course-finder-submit button i, .home .home-course-finder .home-course-finder-submit button span.fa, .home .home-course-finder .home-course-finder-submit button .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home .home-course-finder .home-course-finder-submit button span.ui-icon, .home .home-course-finder .home-course-finder-submit button #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home .home-course-finder .home-course-finder-submit button span.ui-icon, .home .home-course-finder .home-course-finder-submit button .dialog span.ui-icon, .dialog .home .home-course-finder .home-course-finder-submit button span.ui-icon {
       float: right; }
     .home .home-course-finder .home-course-finder-submit button:hover {
       background: #888; }
@@ -19031,7 +19463,7 @@ a.ghost-cta {
         padding: 10px 15px;
         border-radius: 5px;
         border: 0; }
-        .home-city-connect .content .home-text-container a i, .home-city-connect .content .home-text-container a span.fa, .home-city-connect .content .home-text-container a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home-city-connect .content .home-text-container a span.ui-icon, .home-city-connect .content .home-text-container a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-city-connect .content .home-text-container a span.ui-icon {
+        .home-city-connect .content .home-text-container a i, .home-city-connect .content .home-text-container a span.fa, .home-city-connect .content .home-text-container a .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .home-city-connect .content .home-text-container a span.ui-icon, .home-city-connect .content .home-text-container a #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .home-city-connect .content .home-text-container a span.ui-icon, .home-city-connect .content .home-text-container a .dialog span.ui-icon, .dialog .home-city-connect .content .home-text-container a span.ui-icon {
           margin-left: 60px; }
         .home-city-connect .content .home-text-container a:hover {
           background: #360412;
@@ -19946,7 +20378,7 @@ p.left-float-image {
   width: 100%;
   display: none;
   text-align: center; }
-  .city-health__loading .fa, .city-health__loading .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .city-health__loading .ui-icon, .city-health__loading #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .city-health__loading .ui-icon, .city-health__loading .white-card__media .embed-container a:before, .white-card__media .embed-container .city-health__loading a:before, .city-health__loading .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .city-health__loading .ui-icon {
+  .city-health__loading .fa, .city-health__loading .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .city-health__loading .ui-icon, .city-health__loading #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .city-health__loading .ui-icon, .city-health__loading .dialog .ui-icon, .dialog .city-health__loading .ui-icon, .city-health__loading .white-card__media .embed-container a:before, .white-card__media .embed-container .city-health__loading a:before, .city-health__loading .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .city-health__loading .ui-icon {
     display: inline-block;
     font-size: 4em; }
 
@@ -20062,7 +20494,7 @@ p.left-float-image {
   margin-bottom: 30px; }
   .link-list--school-landing-page h2 {
     font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif; }
-    .link-list--school-landing-page h2 .fa, .link-list--school-landing-page h2 .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .link-list--school-landing-page h2 .ui-icon, .link-list--school-landing-page h2 #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .link-list--school-landing-page h2 .ui-icon, .link-list--school-landing-page h2 .white-card__media .embed-container a:before, .white-card__media .embed-container .link-list--school-landing-page h2 a:before, .link-list--school-landing-page h2 .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .link-list--school-landing-page h2 .ui-icon {
+    .link-list--school-landing-page h2 .fa, .link-list--school-landing-page h2 .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .link-list--school-landing-page h2 .ui-icon, .link-list--school-landing-page h2 #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .link-list--school-landing-page h2 .ui-icon, .link-list--school-landing-page h2 .dialog .ui-icon, .dialog .link-list--school-landing-page h2 .ui-icon, .link-list--school-landing-page h2 .white-card__media .embed-container a:before, .white-card__media .embed-container .link-list--school-landing-page h2 a:before, .link-list--school-landing-page h2 .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .link-list--school-landing-page h2 .ui-icon {
       margin-left: 20px; }
   .link-list--school-landing-page.link-list--school-landing-page--sass h2 a:link, .link-list--school-landing-page.link-list--school-landing-page--sass h2 a:visited {
     color: #333;
@@ -20142,7 +20574,7 @@ p.left-float-image {
     font-weight: 500;
     background: #fff;
     border: 2px solid #fff; }
-    .school-landing-ctas.school-landing-ctas--sass a .fa, .school-landing-ctas.school-landing-ctas--sass a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .school-landing-ctas.school-landing-ctas--sass a .ui-icon, .school-landing-ctas.school-landing-ctas--sass a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .school-landing-ctas.school-landing-ctas--sass a .ui-icon, .school-landing-ctas.school-landing-ctas--sass a .white-card__media .embed-container a:before, .white-card__media .embed-container .school-landing-ctas.school-landing-ctas--sass a a:before, .school-landing-ctas.school-landing-ctas--sass a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .school-landing-ctas.school-landing-ctas--sass a .ui-icon {
+    .school-landing-ctas.school-landing-ctas--sass a .fa, .school-landing-ctas.school-landing-ctas--sass a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .school-landing-ctas.school-landing-ctas--sass a .ui-icon, .school-landing-ctas.school-landing-ctas--sass a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .school-landing-ctas.school-landing-ctas--sass a .ui-icon, .school-landing-ctas.school-landing-ctas--sass a .dialog .ui-icon, .dialog .school-landing-ctas.school-landing-ctas--sass a .ui-icon, .school-landing-ctas.school-landing-ctas--sass a .white-card__media .embed-container a:before, .white-card__media .embed-container .school-landing-ctas.school-landing-ctas--sass a a:before, .school-landing-ctas.school-landing-ctas--sass a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .school-landing-ctas.school-landing-ctas--sass a .ui-icon {
       color: #f15f22;
       margin-right: 10px; }
     .school-landing-ctas.school-landing-ctas--sass a:link, .school-landing-ctas.school-landing-ctas--sass a:visited {
@@ -20160,7 +20592,7 @@ p.left-float-image {
     font-weight: 500;
     background: #fff;
     border: 2px solid #fff; }
-    .school-landing-ctas.school-landing-ctas--smcse a .fa, .school-landing-ctas.school-landing-ctas--smcse a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .school-landing-ctas.school-landing-ctas--smcse a .ui-icon, .school-landing-ctas.school-landing-ctas--smcse a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .school-landing-ctas.school-landing-ctas--smcse a .ui-icon, .school-landing-ctas.school-landing-ctas--smcse a .white-card__media .embed-container a:before, .white-card__media .embed-container .school-landing-ctas.school-landing-ctas--smcse a a:before, .school-landing-ctas.school-landing-ctas--smcse a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .school-landing-ctas.school-landing-ctas--smcse a .ui-icon {
+    .school-landing-ctas.school-landing-ctas--smcse a .fa, .school-landing-ctas.school-landing-ctas--smcse a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .school-landing-ctas.school-landing-ctas--smcse a .ui-icon, .school-landing-ctas.school-landing-ctas--smcse a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .school-landing-ctas.school-landing-ctas--smcse a .ui-icon, .school-landing-ctas.school-landing-ctas--smcse a .dialog .ui-icon, .dialog .school-landing-ctas.school-landing-ctas--smcse a .ui-icon, .school-landing-ctas.school-landing-ctas--smcse a .white-card__media .embed-container a:before, .white-card__media .embed-container .school-landing-ctas.school-landing-ctas--smcse a a:before, .school-landing-ctas.school-landing-ctas--smcse a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .school-landing-ctas.school-landing-ctas--smcse a .ui-icon {
       position: absolute;
       color: #00444d;
       margin-right: 10px;
@@ -20200,7 +20632,7 @@ p.left-float-image {
       background: white;
       color: #555; }
 
-.section-white-cards--sass .cta-label-icon .fa, .section-white-cards--sass .cta-label-icon .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .section-white-cards--sass .cta-label-icon .ui-icon, .section-white-cards--sass .cta-label-icon #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .section-white-cards--sass .cta-label-icon .ui-icon, .section-white-cards--sass .cta-label-icon .white-card__media .embed-container a:before, .white-card__media .embed-container .section-white-cards--sass .cta-label-icon a:before, .section-white-cards--sass .cta-label-icon .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .section-white-cards--sass .cta-label-icon .ui-icon {
+.section-white-cards--sass .cta-label-icon .fa, .section-white-cards--sass .cta-label-icon .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .section-white-cards--sass .cta-label-icon .ui-icon, .section-white-cards--sass .cta-label-icon #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .section-white-cards--sass .cta-label-icon .ui-icon, .section-white-cards--sass .cta-label-icon .dialog .ui-icon, .dialog .section-white-cards--sass .cta-label-icon .ui-icon, .section-white-cards--sass .cta-label-icon .white-card__media .embed-container a:before, .white-card__media .embed-container .section-white-cards--sass .cta-label-icon a:before, .section-white-cards--sass .cta-label-icon .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .section-white-cards--sass .cta-label-icon .ui-icon {
   color: #f15f22; }
 
 .image-carousel.image-carousel--sass .bx-controls-direction a:link, .image-carousel.image-carousel--sass .bx-controls-direction a:visited, .image-carousel.image-carousel--sass .bx-controls-direction a:hover {
@@ -20823,10 +21255,11 @@ p.left-float-image {
 .service-finder__results__item__md,
 .project-finder__results__item__md {
   margin-bottom: 5px; }
-  .service-finder__results__item__md > .fa, .ui-accordion .ui-accordion-header .service-finder__results__item__md > .ui-icon, #courses-widget .widget-content .ui-accordion-header .service-finder__results__item__md > .ui-icon, .white-card__media .embed-container .service-finder__results__item__md > a:before, .course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__md > .ui-icon,
+  .service-finder__results__item__md > .fa, .ui-accordion .ui-accordion-header .service-finder__results__item__md > .ui-icon, #courses-widget .widget-content .ui-accordion-header .service-finder__results__item__md > .ui-icon, .dialog .service-finder__results__item__md > .ui-icon, .white-card__media .embed-container .service-finder__results__item__md > a:before, .course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__md > .ui-icon,
   .project-finder__results__item__md > .fa,
   .ui-accordion .ui-accordion-header .project-finder__results__item__md > .ui-icon,
   #courses-widget .widget-content .ui-accordion-header .project-finder__results__item__md > .ui-icon,
+  .dialog .project-finder__results__item__md > .ui-icon,
   .white-card__media .embed-container .project-finder__results__item__md > a:before,
   .course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__md > .ui-icon {
     float: left;
@@ -20886,12 +21319,14 @@ p.left-float-image {
   color: white;
   -webkit-transition: color 100ms, background 100ms;
   transition: color 100ms, background 100ms; }
-  .service-finder__results__item__info-toggle .fa, .service-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon, .service-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon, .service-finder__results__item__info-toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .service-finder__results__item__info-toggle a:before, .service-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
+  .service-finder__results__item__info-toggle .fa, .service-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon, .service-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon, .service-finder__results__item__info-toggle .dialog .ui-icon, .dialog .service-finder__results__item__info-toggle .ui-icon, .service-finder__results__item__info-toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .service-finder__results__item__info-toggle a:before, .service-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
   .project-finder__results__item__info-toggle .fa,
   .project-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
   .ui-accordion .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
   .project-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
   #courses-widget .widget-content .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
+  .project-finder__results__item__info-toggle .dialog .ui-icon,
+  .dialog .project-finder__results__item__info-toggle .ui-icon,
   .project-finder__results__item__info-toggle .white-card__media .embed-container a:before,
   .white-card__media .embed-container .project-finder__results__item__info-toggle a:before,
   .project-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
@@ -21262,7 +21697,7 @@ p.left-float-image {
 
 .scholarship-finder__results__item__md {
   margin-bottom: 5px; }
-  .scholarship-finder__results__item__md > .fa, .ui-accordion .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon, #courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon, .white-card__media .embed-container .scholarship-finder__results__item__md > a:before, .course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon {
+  .scholarship-finder__results__item__md > .fa, .ui-accordion .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon, #courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon, .dialog .scholarship-finder__results__item__md > .ui-icon, .white-card__media .embed-container .scholarship-finder__results__item__md > a:before, .course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__md > .ui-icon {
     float: left;
     line-height: 21px; }
   .scholarship-finder__results__item__md > div {
@@ -21301,7 +21736,7 @@ p.left-float-image {
   color: white;
   -webkit-transition: color 100ms, background 100ms;
   transition: color 100ms, background 100ms; }
-  .scholarship-finder__results__item__info-toggle .fa, .scholarship-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon, .scholarship-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon, .scholarship-finder__results__item__info-toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .scholarship-finder__results__item__info-toggle a:before, .scholarship-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon {
+  .scholarship-finder__results__item__info-toggle .fa, .scholarship-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon, .scholarship-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon, .scholarship-finder__results__item__info-toggle .dialog .ui-icon, .dialog .scholarship-finder__results__item__info-toggle .ui-icon, .scholarship-finder__results__item__info-toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .scholarship-finder__results__item__info-toggle a:before, .scholarship-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon {
     -webkit-transition: -webkit-transform 300ms;
     transition: -webkit-transform 300ms;
     transition: transform 300ms;
@@ -21806,7 +22241,7 @@ a.course__red-links__link {
   background: white;
   text-align: center;
   margin-bottom: 20px; }
-  .course__profiles__item__image span.fa, .course__profiles__item__image .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon, .course__profiles__item__image #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .course__profiles__item__image span.ui-icon, .course__profiles__item__image .course .accordion.ui-accordion .ui-accordion-header span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon {
+  .course__profiles__item__image span.fa, .course__profiles__item__image .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon, .course__profiles__item__image #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .course__profiles__item__image span.ui-icon, .course__profiles__item__image .dialog span.ui-icon, .dialog .course__profiles__item__image span.ui-icon, .course__profiles__item__image .course .accordion.ui-accordion .ui-accordion-header span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon {
     padding: 10px 0 0;
     font-size: 8em;
     color: #555; }
@@ -22094,12 +22529,14 @@ a.course__red-links__link {
         border-bottom-width: 2px;
         border-bottom-style: dotted;
         border-bottom-color: #666666; }
-    .phd-projects.phd-projects h2 a .fa, .phd-projects.phd-projects h2 a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .phd-projects.phd-projects h2 a .ui-icon, .phd-projects.phd-projects h2 a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .phd-projects.phd-projects h2 a .ui-icon, .phd-projects.phd-projects h2 a .white-card__media .embed-container a:before, .white-card__media .embed-container .phd-projects.phd-projects h2 a a:before, .phd-projects.phd-projects h2 a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .phd-projects.phd-projects h2 a .ui-icon,
+    .phd-projects.phd-projects h2 a .fa, .phd-projects.phd-projects h2 a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .phd-projects.phd-projects h2 a .ui-icon, .phd-projects.phd-projects h2 a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .phd-projects.phd-projects h2 a .ui-icon, .phd-projects.phd-projects h2 a .dialog .ui-icon, .dialog .phd-projects.phd-projects h2 a .ui-icon, .phd-projects.phd-projects h2 a .white-card__media .embed-container a:before, .white-card__media .embed-container .phd-projects.phd-projects h2 a a:before, .phd-projects.phd-projects h2 a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .phd-projects.phd-projects h2 a .ui-icon,
     .phd-projects.phd-projects h3 a .fa,
     .phd-projects.phd-projects h3 a .ui-accordion .ui-accordion-header .ui-icon,
     .ui-accordion .ui-accordion-header .phd-projects.phd-projects h3 a .ui-icon,
     .phd-projects.phd-projects h3 a #courses-widget .widget-content .ui-accordion-header .ui-icon,
     #courses-widget .widget-content .ui-accordion-header .phd-projects.phd-projects h3 a .ui-icon,
+    .phd-projects.phd-projects h3 a .dialog .ui-icon,
+    .dialog .phd-projects.phd-projects h3 a .ui-icon,
     .phd-projects.phd-projects h3 a .white-card__media .embed-container a:before,
     .white-card__media .embed-container .phd-projects.phd-projects h3 a a:before,
     .phd-projects.phd-projects h3 a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
@@ -22524,7 +22961,7 @@ a.course__red-links__link {
 
 .course-finder__results__item__md {
   margin-bottom: 5px; }
-  .course-finder__results__item__md > .fa, .ui-accordion .ui-accordion-header .course-finder__results__item__md > .ui-icon, #courses-widget .widget-content .ui-accordion-header .course-finder__results__item__md > .ui-icon, .white-card__media .embed-container .course-finder__results__item__md > a:before, .course .accordion.ui-accordion .ui-accordion-header .course-finder__results__item__md > .ui-icon {
+  .course-finder__results__item__md > .fa, .ui-accordion .ui-accordion-header .course-finder__results__item__md > .ui-icon, #courses-widget .widget-content .ui-accordion-header .course-finder__results__item__md > .ui-icon, .dialog .course-finder__results__item__md > .ui-icon, .white-card__media .embed-container .course-finder__results__item__md > a:before, .course .accordion.ui-accordion .ui-accordion-header .course-finder__results__item__md > .ui-icon {
     float: left;
     line-height: 21px; }
   .course-finder__results__item__md > div {
@@ -22563,7 +23000,7 @@ a.course__red-links__link {
   color: white;
   -webkit-transition: color 100ms, background 100ms;
   transition: color 100ms, background 100ms; }
-  .course-finder__results__item__info-toggle .fa, .course-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .course-finder__results__item__info-toggle .ui-icon, .course-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .course-finder__results__item__info-toggle .ui-icon, .course-finder__results__item__info-toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .course-finder__results__item__info-toggle a:before, .course-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .course-finder__results__item__info-toggle .ui-icon {
+  .course-finder__results__item__info-toggle .fa, .course-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .course-finder__results__item__info-toggle .ui-icon, .course-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .course-finder__results__item__info-toggle .ui-icon, .course-finder__results__item__info-toggle .dialog .ui-icon, .dialog .course-finder__results__item__info-toggle .ui-icon, .course-finder__results__item__info-toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .course-finder__results__item__info-toggle a:before, .course-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .course-finder__results__item__info-toggle .ui-icon {
     -webkit-transition: -webkit-transform 300ms;
     transition: -webkit-transform 300ms;
     transition: transform 300ms;
@@ -22780,7 +23217,7 @@ a.course__red-links__link {
   .academic-experts-profile .personal-details .photo,
   .academic-experts-profile .personal-details .contact-lists {
     padding-left: 0; }
-  .academic-experts-profile .personal-details .expert-name .department-name .fa, .academic-experts-profile .personal-details .expert-name .department-name .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .academic-experts-profile .personal-details .expert-name .department-name .ui-icon, .academic-experts-profile .personal-details .expert-name .department-name #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .academic-experts-profile .personal-details .expert-name .department-name .ui-icon, .academic-experts-profile .personal-details .expert-name .department-name .white-card__media .embed-container a:before, .white-card__media .embed-container .academic-experts-profile .personal-details .expert-name .department-name a:before {
+  .academic-experts-profile .personal-details .expert-name .department-name .fa, .academic-experts-profile .personal-details .expert-name .department-name .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .academic-experts-profile .personal-details .expert-name .department-name .ui-icon, .academic-experts-profile .personal-details .expert-name .department-name #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .academic-experts-profile .personal-details .expert-name .department-name .ui-icon, .academic-experts-profile .personal-details .expert-name .department-name .dialog .ui-icon, .dialog .academic-experts-profile .personal-details .expert-name .department-name .ui-icon, .academic-experts-profile .personal-details .expert-name .department-name .white-card__media .embed-container a:before, .white-card__media .embed-container .academic-experts-profile .personal-details .expert-name .department-name a:before {
     padding-left: 4px;
     padding-right: 8px;
     width: 20px; }
@@ -22790,7 +23227,7 @@ a.course__red-links__link {
     margin-left: 4px; }
     .academic-experts-profile .personal-details .contact-lists .contact-list ul li {
       list-style-type: none; }
-      .academic-experts-profile .personal-details .contact-lists .contact-list ul li .fa, .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon, .academic-experts-profile .personal-details .contact-lists .contact-list ul li #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon, .academic-experts-profile .personal-details .contact-lists .contact-list ul li .white-card__media .embed-container a:before, .white-card__media .embed-container .academic-experts-profile .personal-details .contact-lists .contact-list ul li a:before {
+      .academic-experts-profile .personal-details .contact-lists .contact-list ul li .fa, .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon, .academic-experts-profile .personal-details .contact-lists .contact-list ul li #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon, .academic-experts-profile .personal-details .contact-lists .contact-list ul li .dialog .ui-icon, .dialog .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon, .academic-experts-profile .personal-details .contact-lists .contact-list ul li .white-card__media .embed-container a:before, .white-card__media .embed-container .academic-experts-profile .personal-details .contact-lists .contact-list ul li a:before {
         padding-right: 8px;
         width: 20px;
         text-align: center; }
@@ -22957,7 +23394,7 @@ a.course__red-links__link {
 
 .expert-finder__results__item__md {
   margin-bottom: 5px; }
-  .expert-finder__results__item__md > .fa, .ui-accordion .ui-accordion-header .expert-finder__results__item__md > .ui-icon, #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__md > .ui-icon, .white-card__media .embed-container .expert-finder__results__item__md > a:before, .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__md > .ui-icon {
+  .expert-finder__results__item__md > .fa, .ui-accordion .ui-accordion-header .expert-finder__results__item__md > .ui-icon, #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__md > .ui-icon, .dialog .expert-finder__results__item__md > .ui-icon, .white-card__media .embed-container .expert-finder__results__item__md > a:before, .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__md > .ui-icon {
     float: left;
     line-height: 21px;
     width: 20px; }
@@ -22971,7 +23408,7 @@ a.course__red-links__link {
     .expert-finder__results__item__portrait a:active, .expert-finder__results__item__portrait a:hover, .expert-finder__results__item__portrait a:focus {
       background: none;
       border-bottom: none; }
-    .expert-finder__results__item__portrait a .fa, .expert-finder__results__item__portrait a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .expert-finder__results__item__portrait a .ui-icon, .expert-finder__results__item__portrait a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__portrait a .ui-icon, .expert-finder__results__item__portrait a .white-card__media .embed-container a:before, .white-card__media .embed-container .expert-finder__results__item__portrait a a:before, .expert-finder__results__item__portrait a .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__portrait a .ui-icon {
+    .expert-finder__results__item__portrait a .fa, .expert-finder__results__item__portrait a .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .expert-finder__results__item__portrait a .ui-icon, .expert-finder__results__item__portrait a #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__portrait a .ui-icon, .expert-finder__results__item__portrait a .dialog .ui-icon, .dialog .expert-finder__results__item__portrait a .ui-icon, .expert-finder__results__item__portrait a .white-card__media .embed-container a:before, .white-card__media .embed-container .expert-finder__results__item__portrait a a:before, .expert-finder__results__item__portrait a .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__portrait a .ui-icon {
       color: #dfdfdf;
       font-size: 100px;
       line-height: 100px; }
@@ -23009,7 +23446,7 @@ a.course__red-links__link {
   color: white;
   -webkit-transition: color 100ms, background 100ms;
   transition: color 100ms, background 100ms; }
-  .expert-finder__results__item__info-toggle .fa, .expert-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .expert-finder__results__item__info-toggle .ui-icon, .expert-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__info-toggle .ui-icon, .expert-finder__results__item__info-toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .expert-finder__results__item__info-toggle a:before, .expert-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__info-toggle .ui-icon {
+  .expert-finder__results__item__info-toggle .fa, .expert-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .expert-finder__results__item__info-toggle .ui-icon, .expert-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__info-toggle .ui-icon, .expert-finder__results__item__info-toggle .dialog .ui-icon, .dialog .expert-finder__results__item__info-toggle .ui-icon, .expert-finder__results__item__info-toggle .white-card__media .embed-container a:before, .white-card__media .embed-container .expert-finder__results__item__info-toggle a:before, .expert-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__info-toggle .ui-icon {
     -webkit-transition: -webkit-transform 300ms;
     transition: -webkit-transform 300ms;
     transition: transform 300ms;
@@ -24079,7 +24516,7 @@ a.course__red-links__link {
       margin-right: 0px;
       margin-bottom: 0px; } }
 
-.icons-finance .fa, .icons-finance .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .icons-finance .ui-icon, .icons-finance #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .icons-finance .ui-icon, .icons-finance .white-card__media .embed-container a:before, .white-card__media .embed-container .icons-finance a:before, .icons-finance .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .icons-finance .ui-icon, .icons-hr .fa, .icons-hr .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .icons-hr .ui-icon, .icons-hr #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .icons-hr .ui-icon, .icons-hr .white-card__media .embed-container a:before, .white-card__media .embed-container .icons-hr a:before, .icons-hr .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .icons-hr .ui-icon {
+.icons-finance .fa, .icons-finance .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .icons-finance .ui-icon, .icons-finance #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .icons-finance .ui-icon, .icons-finance .dialog .ui-icon, .dialog .icons-finance .ui-icon, .icons-finance .white-card__media .embed-container a:before, .white-card__media .embed-container .icons-finance a:before, .icons-finance .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .icons-finance .ui-icon, .icons-hr .fa, .icons-hr .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .icons-hr .ui-icon, .icons-hr #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .icons-hr .ui-icon, .icons-hr .dialog .ui-icon, .dialog .icons-hr .ui-icon, .icons-hr .white-card__media .embed-container a:before, .white-card__media .embed-container .icons-hr a:before, .icons-hr .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .icons-hr .ui-icon {
   font-size: 34px;
   text-decoration: none;
   display: inline-block; }
@@ -25373,7 +25810,7 @@ dl.staffhub-dl dd {
   font-size: 1.2em;
   height: 3em;
   line-height: 3em; }
-  .library-search .search-section-button .fa, .library-search .search-section-button .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .library-search .search-section-button .ui-icon, .library-search .search-section-button #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .library-search .search-section-button .ui-icon, .library-search .search-section-button .white-card__media .embed-container a:before, .white-card__media .embed-container .library-search .search-section-button a:before, .library-search .search-section-button .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .library-search .search-section-button .ui-icon {
+  .library-search .search-section-button .fa, .library-search .search-section-button .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .library-search .search-section-button .ui-icon, .library-search .search-section-button #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .library-search .search-section-button .ui-icon, .library-search .search-section-button .dialog .ui-icon, .dialog .library-search .search-section-button .ui-icon, .library-search .search-section-button .white-card__media .embed-container a:before, .white-card__media .embed-container .library-search .search-section-button a:before, .library-search .search-section-button .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon, .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .library-search .search-section-button .ui-icon {
     padding-left: 8px; }
 
 body#library {
@@ -26355,7 +26792,7 @@ body#library {
     border-bottom: none;
     color: #e31b25;
     font-size: 1.1em; }
-  .shortcourse-promo__text .fa, .shortcourse-promo__text .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .shortcourse-promo__text .ui-icon, .shortcourse-promo__text #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .shortcourse-promo__text .ui-icon, .shortcourse-promo__text .white-card__media .embed-container a:before, .white-card__media .embed-container .shortcourse-promo__text a:before, .shortcourse-promo__text .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .shortcourse-promo__text .ui-icon {
+  .shortcourse-promo__text .fa, .shortcourse-promo__text .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .shortcourse-promo__text .ui-icon, .shortcourse-promo__text #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .shortcourse-promo__text .ui-icon, .shortcourse-promo__text .dialog .ui-icon, .dialog .shortcourse-promo__text .ui-icon, .shortcourse-promo__text .white-card__media .embed-container a:before, .white-card__media .embed-container .shortcourse-promo__text a:before, .shortcourse-promo__text .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .shortcourse-promo__text .ui-icon {
     margin-left: 10px;
     vertical-align: middle;
     font-size: 1.2em; }
