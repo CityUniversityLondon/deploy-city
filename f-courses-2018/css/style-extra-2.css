@@ -6893,6 +6893,10 @@ aside .news-article-widget:last-child {
   padding: 3px 5px;
 }
 
+.course__assessment {
+  margin-top: 60px;
+}
+
 /* stacked bar charts */
 
 .bar-chart {
@@ -6923,8 +6927,28 @@ aside .news-article-widget:last-child {
   float: left;
 }
 
+.bar-chart__items--fourth {
+  float: left;
+}
+
 .courses__barchart h3 {
   clear: both;
+}
+
+.bar-chart--variant-1 .bar-chart__items--first {
+  background-color: #008d2b;
+}
+
+.bar-chart--variant-1 .bar-chart__items--second {
+  background-color: #00294a;
+}
+
+.bar-chart--variant-1 .bar-chart__items--third {
+  background-color: #00505b;
+}
+
+.bar-chart--variant-1 .bar-chart__items--fourth {
+  background-color: #cab133;
 }
 
 #digital-shoreditch #content {
@@ -15578,22 +15602,4 @@ table.visa-event-table tr td {
 .project a.simple:visited,
 .project .footer a:visited {
   color: #333333;
-}
-
-.service a.simple:hover,
-.service .footer a:hover,
-.project a.simple:hover,
-.project .footer a:hover {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333333;
-}
-
-.service a.simple:focus,
-.service .footer a:focus,
-.project a.simple:focus,
-.project .footer a:focus {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333333;
 }

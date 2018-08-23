@@ -6434,6 +6434,10 @@ aside .news-article-widget:last-child {
   padding: 3px 5px;
 }
 
+.course__assessment {
+  margin-top: 60px;
+}
+
 /* stacked bar charts */
 
 .bar-chart {
@@ -6464,8 +6468,28 @@ aside .news-article-widget:last-child {
   float: left;
 }
 
+.bar-chart__items--fourth {
+  float: left;
+}
+
 .courses__barchart h3 {
   clear: both;
+}
+
+.bar-chart--variant-1 .bar-chart__items--first {
+  background-color: #008d2b;
+}
+
+.bar-chart--variant-1 .bar-chart__items--second {
+  background-color: #00294a;
+}
+
+.bar-chart--variant-1 .bar-chart__items--third {
+  background-color: #00505b;
+}
+
+.bar-chart--variant-1 .bar-chart__items--fourth {
+  background-color: #cab133;
 }
 
 #digital-shoreditch #content {
@@ -15090,24 +15114,4 @@ p.left-float-image {
 .service-finder__form .filter-box h2,
 .project-finder__form .filter-box h2 {
   font-size: 24px;
-}
-
-.service-finder__clear-buttons,
-.project-finder__clear-buttons {
-  display: none;
-  display: block;
-}
-
-.service-finder__clear-buttons > div,
-.project-finder__clear-buttons > div {
-  display: inline-block;
-}
-
-.service-finder__clear-buttons a,
-.project-finder__clear-buttons a {
-  display: inline-block;
-  padding: 5px 10px;
-  border: 1px solid;
-  border-radius: 3px;
-  margin: 10px 10px 0 0;
 }

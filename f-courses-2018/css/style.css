@@ -15755,6 +15755,9 @@ or until modernizr tests for it (version 3?).
       #cpd-finder #fb-wrapper p.fb-page-nav span {
         padding: 3px 5px; }
 
+.course__assessment {
+  margin-top: 60px; }
+
 /* stacked bar charts */
 .bar-chart {
   width: 95%;
@@ -15779,8 +15782,23 @@ or until modernizr tests for it (version 3?).
   background-color: #00284b;
   float: left; }
 
+.bar-chart__items--fourth {
+  float: left; }
+
 .courses__barchart h3 {
   clear: both; }
+
+.bar-chart--variant-1 .bar-chart__items--first {
+  background-color: #008d2b; }
+
+.bar-chart--variant-1 .bar-chart__items--second {
+  background-color: #00294a; }
+
+.bar-chart--variant-1 .bar-chart__items--third {
+  background-color: #00505b; }
+
+.bar-chart--variant-1 .bar-chart__items--fourth {
+  background-color: #cab133; }
 
 #digital-shoreditch #content {
   font-size: 1em; }
@@ -22722,6 +22740,10 @@ a.course__red-links__link.course__red-links__link--apply {
     .course__related__course {
       min-height: 210px;
       margin: 10px 10px 10px 0; } }
+
+.course__related__header {
+  width: 100%;
+  text-align: center; }
 
 .course__related__course__title {
   margin-bottom: 5px;

@@ -1,3 +1,23 @@
+.service-finder__clear-buttons,
+.project-finder__clear-buttons {
+  display: none;
+  display: block;
+}
+
+.service-finder__clear-buttons > div,
+.project-finder__clear-buttons > div {
+  display: inline-block;
+}
+
+.service-finder__clear-buttons a,
+.project-finder__clear-buttons a {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 3px;
+  margin: 10px 10px 0 0;
+}
+
 .service-finder__clear-buttons a:link,
 .service-finder__clear-buttons a:visited,
 .project-finder__clear-buttons a:link,
@@ -1621,6 +1641,11 @@ a.course__red-links__link.course__red-links__link--apply {
   margin: 10px 0;
   min-height: 210px;
   margin: 10px 10px 10px 0;
+}
+
+.course__related__header {
+  width: 100%;
+  text-align: center;
 }
 
 .course__related__course__title {
