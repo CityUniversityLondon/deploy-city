@@ -22830,12 +22830,15 @@ select[title='Select entry year'] {
   outline: 2px solid #979797;
   font-size: 1.2em;
   line-height: 1.5;
+  appearance: none;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
   padding: 0 5px;
   cursor: pointer;
   width: 120px; }
+  select[title='Select entry year']::-ms-expand {
+    display: none; }
 
 .select__arrow__entry-year {
   position: absolute;
