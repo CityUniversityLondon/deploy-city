@@ -23314,6 +23314,9 @@ a.course__red-links__link.course__red-links__link--apply {
 .course-rd .course__profiles__item__title a:focus, .course-rd .course__profiles__item__title a:active {
   color: #243d51; }
 
+.course__entries {
+  position: relative; }
+
 .course__entries__text {
   display: inline-block;
   margin-right: 5px; }
@@ -23325,7 +23328,22 @@ select[title='Select entry year'] {
   font-size: 1.2em;
   line-height: 1.5;
   -webkit-appearance: none;
-  padding: 0 5px; }
+     -moz-appearance: none;
+          appearance: none;
+  padding: 0 5px;
+  cursor: pointer;
+  width: 120px; }
+
+.select__arrow__entry-year {
+  position: absolute;
+  top: 11px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  border-style: solid;
+  border-width: 8px 6px 0 6px;
+  border-color: #2c2c2c transparent transparent transparent; }
 
 .course-finder input, .course-finder select {
   font-size: 16px; }
