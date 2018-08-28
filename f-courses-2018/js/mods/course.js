@@ -42,6 +42,7 @@ var onResize = require('./utils/on-resize'),
     },
 
     initTestimonials = function () {
+
         var w = $('.course__profiles').width(),
             n = $('.course__profiles__item').length;
 
@@ -63,6 +64,13 @@ var onResize = require('./utils/on-resize'),
         }
     },
 
+    testimonialsBackgroundColor = function () {
+        // Get title text colour of selected list item, i.e. nested in aria-hidden="false"
+        var selectedItemColor = $('li.course__profiles__item:not([aria-hidden*="true"]) .course__profiles__item__text__title').css("color");
+
+        // Apply selected text colour to testimonials wrapper background
+        $('.course__testimonials__wrapper').css("background", selectedItemColor);
+    },
 
     initAssessment = function () {
         var container = document.getElementById('course-assessment-chart');
@@ -231,3 +239,8 @@ var onResize = require('./utils/on-resize'),
     };
 
 defer(init);
+
+// Change testimonial wrapper background colour when user scrolls through items
+$(".course__testimonials__wrapper").click(function() {
+    testimonialsBackgroundColor();
+})

@@ -22756,45 +22756,129 @@ a.course__red-links__link.course__red-links__link--apply {
   color: #555555;
   margin-top: 20px; }
 
-.course .fw-section-wrapper.course__testimonials__wrapper {
-  padding: 40px 0 0; }
-
 .course__profiles__item {
-  color: white;
-  padding: 0 10px 70px; }
+  color: black;
+  padding: 0 10px 70px;
+  background: white;
+  text-align: center; }
 
 .course__profiles__item__image {
   background: white;
   text-align: center;
   margin-bottom: 20px; }
-  .course__profiles__item__image img {
-    width: 100%;
-    margin: 0; }
   .course__profiles__item__image span.fa, .course__profiles__item__image .ui-accordion .ui-accordion-header span.ui-icon, .ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon, .course__profiles__item__image #courses-widget .widget-content .ui-accordion-header span.ui-icon, #courses-widget .widget-content .ui-accordion-header .course__profiles__item__image span.ui-icon, .course__profiles__item__image .dialog span.ui-icon, .dialog .course__profiles__item__image span.ui-icon, .course__profiles__item__image .course .accordion.ui-accordion .ui-accordion-header span.ui-icon, .course .accordion.ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon {
     padding: 10px 0 0;
     font-size: 8em;
     color: #555; }
 
 .course__profiles__item__image__name {
-  padding: 15px;
+  padding: 15px 15px 5px;
   font-size: 1.2em;
   font-weight: 600; }
 
-.course__profiles__item__text__title {
+.course__profiles__item {
+  background: transparent; }
+
+.course-ug .course__profiles__item--student .course__profiles__item__text__title {
+  color: #a51b36; }
+
+.course-ug .course__profiles__item--student .block {
+  background: #a51b36;
+  height: 4px;
+  width: 80px;
+  margin: 0 auto 30px;
+  position: relative; }
+
+.course-pg .course__profiles__item--student .course__profiles__item__text__title {
+  color: #4f2842; }
+
+.course-pg .course__profiles__item--student .block {
+  background: #4f2842;
+  height: 4px;
+  width: 80px;
+  margin: 0 auto 30px;
+  position: relative; }
+
+.course__profiles__item--academic .course__profiles__item__text__title {
+  color: #243f53;
+  left: 6%; }
+
+.course__profiles__item--academic .block {
+  height: 4px;
+  width: 80px;
+  margin: 0 auto 30px;
   position: relative;
-  font-size: 1.4em;
+  background: #0076a0;
+  left: 6%; }
+
+.course__profiles__item--academic i {
+  background: #0076a0;
+  color: white;
+  border-radius: 90px;
+  padding: 1px;
+  font-size: 20px;
+  top: 12px;
+  position: relative;
+  z-index: 100;
+  right: 50px; }
+
+.course__profiles__item--academic .academic__wrapper {
+  display: block; }
+  .course__profiles__item--academic .academic__wrapper .course__profiles__item__image__name,
+  .course__profiles__item--academic .academic__wrapper .course__profiles__item__text__further {
+    font-size: 1em;
+    text-align: left;
+    padding: 15px 15px 5px; }
+
+.course__profiles__item--academic svg {
+  position: relative;
+  top: 55px;
+  z-index: 99;
+  left: 16px;
+  margin-top: -82px; }
+
+@media only screen and (min-width: 768px) {
+  .course__profiles__item--academic .academic__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .course__profiles__item--academic .col-sm-8.col-sm-push-16.col-md-6.col-lg-4 {
+    width: 54% !important;
+    margin: 0 20% !important; }
+  .course__profiles__item--academic .col-sm-8.col-sm-push-16.col-md-6.col-lg-4::after {
+    position: absolute;
+    top: 0%;
+    right: 43%;
+    margin-right: -55%;
+    content: '';
+    width: 12%;
+    height: 100%;
+    background: -webkit-gradient(linear, right top, left bottom, color-stop(49.5%, #eae9e7), color-stop(50%, transparent));
+    background: -webkit-linear-gradient(right top, #eae9e7 49.5%, transparent 50%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(49.5%, #fff), color-stop(50%, transparent));
+    background: -webkit-linear-gradient(left top, #fff 49.5%, transparent 50%);
+    background: linear-gradient(to right bottom, #fff 49.5%, transparent 50%); } }
+
+.course__profiles__item--academic img {
+  width: 120px;
+  height: 120px; }
+
+.course__profiles__item__text__title {
   font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  padding-bottom: 30px;
-  margin-bottom: 30px; }
+  position: relative;
+  font-size: 1.1em;
+  font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 10px 0 0;
+  text-align: center; }
   .course__profiles__item__text__title:after {
     position: absolute;
     content: ' ';
     left: 0;
-    bottom: -2.5px;
-    background: #ddd;
-    width: 150px;
-    height: 5px; }
+    width: 80px;
+    height: 4px;
+    margin: 24px 44.5%; }
 
 .course__profiles__item__text__strapline {
   font-size: 1.2em;
@@ -22802,15 +22886,31 @@ a.course__red-links__link.course__red-links__link--apply {
   font-weight: 500; }
 
 .course__profiles__item__text__quote {
-  font-size: 1.2em;
-  font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif; }
+  font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 1.6em;
+  line-height: 1.3em;
+  width: 90%;
+  margin: 0 auto;
+  font-weight: 300; }
   .course__profiles__item__text__quote span {
     font-size: 1.4em; }
 
+.course__profiles__item__text__further {
+  font-size: 1.2em; }
+
 .course__profiles {
   position: relative; }
+  .course__profiles .col-sm-8.col-sm-push-16.col-md-6.col-lg-4 {
+    margin: 0 auto;
+    float: none;
+    left: 0;
+    width: 60%;
+    background: white;
+    padding: 20px; }
   .course__profiles ul.items {
     margin: 0; }
+    .course__profiles ul.items li {
+      padding: 70px 10px; }
   .course__profiles .bx-controls {
     display: block; }
   .course__profiles .bx-controls-direction {
@@ -22836,6 +22936,30 @@ a.course__red-links__link.course__red-links__link--apply {
       right: 0; }
     .course__profiles .bx-controls-direction .bx-next {
       left: 0; }
+
+.circular__crop {
+  max-width: 150px;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin: -60px auto 0; }
+
+.circular__crop__image {
+  display: block;
+  margin: 0 auto;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  -webkit-background-size: auto auto;
+          background-size: auto; }
+
+#fring.circular__crop__image {
+  background: url("https://www.city.ac.uk/__data/assets/image/0011/201071/FRING.jpg") center no-repeat;
+  background-position: 50% 30%; }
+
+#de-allie.circular__crop__image {
+  background: url("https://www.city.ac.uk/__data/assets/image/0007/161269/De-Allie-resized.jpg") center no-repeat;
+  background-position: 38% 15%; }
 
 .course__employment {
   margin-top: 20px; }
