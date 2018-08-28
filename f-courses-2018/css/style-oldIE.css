@@ -22416,6 +22416,31 @@ a.course__red-links__link.course__red-links__link--apply {
   .course .fw-section-wrapper.usps__wrapper {
     padding: 0 10px;
     padding: 20px 10px; }
+  .course .fw-section-wrapper .section-heading {
+    text-align: center;
+    margin-top: -90px;
+    margin-bottom: 30px;
+    clear: both; }
+    .course .fw-section-wrapper .section-heading i {
+      color: white;
+      font-size: 23px;
+      position: relative;
+      z-index: 2;
+      top: -41px; }
+    .course .fw-section-wrapper .section-heading i.fa-graduation-cap {
+      left: -51px; }
+    .course .fw-section-wrapper .section-heading i.fa-clipboard {
+      left: -48px; }
+    .course .fw-section-wrapper .section-heading i.fa-briefcase {
+      left: -49px; }
+    .course .fw-section-wrapper .section-heading h2 {
+      margin: -22px 0 -8px 0;
+      font-weight: 600; }
+    .course .fw-section-wrapper .section-heading .section-break {
+      background: #b92a26;
+      height: 4px;
+      width: 60px;
+      display: inline-block; }
 
 .phd-projects.phd-projects h2,
 .phd-projects.phd-projects h3 {
