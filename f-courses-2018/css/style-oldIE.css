@@ -22813,7 +22813,7 @@ p.left-float-image {
   display: inline-block; }
 
 /* Programme specification download links */
-.course__modules__reading {
+.course__modules__reading--v2 {
   border: 1px solid #a31c36;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22827,7 +22827,7 @@ p.left-float-image {
 
 .programme__specification__container.text {
   border-left: 1px solid #a31c36;
-  padding: 1.4% 1%; }
+  padding: 1.4% 2%; }
 
 .course-ug .course__subheader:after,
 .course-ug .course__key-information {
