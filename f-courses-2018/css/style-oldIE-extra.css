@@ -2291,66 +2291,13 @@
 
 .course__menu {
   max-width: 300px;
-  min-height: 45px;
   border: 1px solid #cdcdcd;
-  background: #fff;
+  background: #eee;
   padding: 5px 10px;
-  -webkit-box-shadow: 0 0 1.5rem 3px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 1.5rem 3px rgba(0, 0, 0, 0.15);
-  position: relative;
-  margin-left: 26px;
-}
-
-.course__menu__title h4,
-.course__menu__title a {
-  padding-top: 1px;
-}
-
-.course__menu__title h4 {
-  font-weight: 700;
-  position: absolute;
-  margin-bottom: 24px;
-  display: inline;
 }
 
 .course__menu__title a {
   float: right;
-  text-decoration: underline;
-  border-bottom-style: none;
-  margin-top: 6px;
-}
-
-.course__menu__title a:hover {
-  border-bottom: 0;
-  text-decoration: underline;
-}
-
-.course__menu__title a:focus,
-.course__menu__title a:active {
-  color: #670003;
-  background: #fff;
-  border-bottom-color: #999;
-}
-
-.course__menu__title svg {
-  left: -54px;
-  top: -29px;
-  position: absolute;
-}
-
-.course__menu__title span.fa.fa-indent.fa-3.course__menu__title__icon,
-.course__menu__title .ui-accordion .ui-accordion-header span.fa-indent.fa-3.course__menu__title__icon.ui-icon,
-.ui-accordion .ui-accordion-header .course__menu__title span.fa-indent.fa-3.course__menu__title__icon.ui-icon,
-.course__menu__title #courses-widget .widget-content .ui-accordion-header span.fa-indent.fa-3.course__menu__title__icon.ui-icon,
-#courses-widget .widget-content .ui-accordion-header .course__menu__title span.fa-indent.fa-3.course__menu__title__icon.ui-icon,
-.course__menu__title .dialog span.fa-indent.fa-3.course__menu__title__icon.ui-icon,
-.dialog .course__menu__title span.fa-indent.fa-3.course__menu__title__icon.ui-icon {
-  color: white;
-  font-size: 23px;
-  left: -26px;
-  position: relative;
-  z-index: 2;
-  top: 5px;
 }
 
 .course__menu__content {
@@ -2363,40 +2310,11 @@
 }
 
 .js .course__menu__content {
-  display: block;
+  display: none;
 }
 
-.js .course__menu__content ul {
-  margin-top: 10px;
-}
-
-.js .course__menu__content ul li {
+.js .course__menu__content li {
   margin-bottom: 5px;
-  list-style-type: none;
-}
-
-.js .course__menu__content ul li a:link,
-.js .course__menu__content ul li a:visited {
-  color: #555;
-  border-bottom: 1px dotted #666;
-}
-
-.js .course__menu__content ul li a:hover {
-  color: #000;
-  border-bottom: 1px solid #000;
-}
-
-.js .course__menu__content ul li a:active,
-.js .course__menu__content ul li a:focus {
-  background-color: #888;
-  color: #fff;
-  border-bottom: 2px solid #666;
-}
-
-.js .course__menu__content li:before {
-  content: '\2022';
-  color: #df0031;
-  padding-right: 0.5em;
 }
 
 .js .course__apply-dialog-section {
@@ -2689,6 +2607,97 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 .course__red-links__link__description {
   display: none;
   display: block;
+}
+
+.course__menu__wrapper--v2 .course__menu {
+  background: #fff;
+  padding: 5px 10px;
+  -webkit-box-shadow: 0 0 1.5rem 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 1.5rem 3px rgba(0, 0, 0, 0.15);
+  position: relative;
+  margin-left: 26px;
+}
+
+.course__menu__wrapper--v2 .course__menu__title h4,
+.course__menu__wrapper--v2 .course__menu__title a {
+  padding-top: 1px;
+}
+
+.course__menu__wrapper--v2 .course__menu__title h4 {
+  font-weight: 700;
+  position: absolute;
+  display: inline;
+}
+
+.course__menu__wrapper--v2 .course__menu__title a {
+  float: right;
+  text-decoration: underline;
+  border-bottom-style: none;
+  margin-top: 6px;
+}
+
+.course__menu__wrapper--v2 .course__menu__title a:hover {
+  border-bottom: 0;
+  text-decoration: underline;
+}
+
+.course__menu__wrapper--v2 .course__menu__title a:focus,
+.course__menu__wrapper--v2 .course__menu__title a:active {
+  color: #670003;
+  background: #fff;
+  border-bottom-color: #999;
+}
+
+.course__menu__wrapper--v2 .course__menu__title svg {
+  left: -54px;
+  top: -29px;
+  position: absolute;
+}
+
+.course__menu__wrapper--v2 .course__menu__title span.course__menu__title__icon {
+  color: white;
+  font-size: 23px;
+  left: -26px;
+  position: relative;
+  z-index: 2;
+  top: 5px;
+}
+
+.js .course__menu__wrapper--v2 .course__menu__content {
+  display: block;
+}
+
+.js .course__menu__wrapper--v2 .course__menu__content ul {
+  margin-top: 10px;
+}
+
+.js .course__menu__wrapper--v2 .course__menu__content ul li {
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+
+.js .course__menu__wrapper--v2 .course__menu__content ul li a:link,
+.js .course__menu__wrapper--v2 .course__menu__content ul li a:visited {
+  color: #555;
+  border-bottom: 1px dotted #666;
+}
+
+.js .course__menu__wrapper--v2 .course__menu__content ul li a:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+.js .course__menu__wrapper--v2 .course__menu__content ul li a:active,
+.js .course__menu__wrapper--v2 .course__menu__content ul li a:focus {
+  background-color: #888;
+  color: #fff;
+  border-bottom: 2px solid #666;
+}
+
+.js .course__menu__wrapper--v2 .course__menu__content li:before {
+  content: '\2022';
+  color: #df0031;
+  padding-right: 0.5em;
 }
 
 .course-finder input,
