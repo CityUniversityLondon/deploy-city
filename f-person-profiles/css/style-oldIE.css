@@ -22222,6 +22222,9 @@ a.course__red-links__link {
 .course__related__course__description {
   color: #555555; }
 
+.course.course-ug .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .col-sm-8.col-sm-push-16.col-md-6.col-lg-4 {
+  width: "95%"; }
+
 .course.course-ug .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--student .course__profiles__item__text__title {
   color: #a51b36; }
 
@@ -22231,6 +22234,9 @@ a.course__red-links__link {
   width: 80px;
   margin: -28px auto 30px;
   position: relative; }
+
+.course-pg .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .col-sm-8.col-sm-push-16.col-md-6.col-lg-4 {
+  width: "95%"; }
 
 .course-pg .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--student .course__profiles__item__text__title {
   color: #4f2842; }
@@ -22266,6 +22272,9 @@ a.course__red-links__link {
     background: transparent; }
   .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .course__profiles__item__text__title {
     color: #243f53;
+    left: 0; }
+  .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .course__profiles__item__text__title {
+    color: #243f53;
     left: 6%; }
   .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .block {
     height: 4px;
@@ -22273,6 +22282,13 @@ a.course__red-links__link {
     margin: -28px auto 30px;
     position: relative;
     background: #0076a0;
+    left: 0; }
+  .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .block {
+    height: 4px;
+    width: 80px;
+    margin: -28px auto 30px;
+    position: relative;
+    color: #243f53;
     left: 6%; }
   .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic i {
     background: #0076a0;
@@ -22285,22 +22301,25 @@ a.course__red-links__link {
     z-index: 100;
     right: 50px; }
   .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper {
-    display: block; }
-    .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper .course__profiles__item__image__name,
-    .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper .course__profiles__item__text__further {
-      font-size: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper .course__profiles__item__image__name {
       text-align: left;
-      padding: 15px 15px 5px; }
+      padding: 15px 15px 15px;
+      font-size: 1.2em;
+      font-weight: 600; }
+      .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper .course__profiles__item__image__name a {
+        color: #b91b1b; }
+    .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper .course__profiles__item__text__further {
+      padding: 15px 15px 5px;
+      font-size: 1.2em; }
   .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic svg {
     position: relative;
     top: 55px;
     z-index: 99;
     left: 16px;
     margin-top: -82px; }
-  .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
   .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .col-sm-8.col-sm-push-16.col-md-6.col-lg-4 {
     width: 54% !important;
     margin: 0 20% !important; }
@@ -22357,7 +22376,7 @@ a.course__red-links__link {
       margin: 0 auto;
       float: none;
       left: 0;
-      width: 60%;
+      width: 95%;
       background: white;
       padding: 20px; }
     .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles ul.items {
@@ -22395,6 +22414,10 @@ a.course__red-links__link {
     position: relative;
     overflow: hidden;
     margin: -60px auto 0; }
+    .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .circular__crop img {
+      border-radius: 50%;
+      width: 90px;
+      height: 90px; }
   .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .circular__crop__image {
     display: block;
     margin: 0 auto;
