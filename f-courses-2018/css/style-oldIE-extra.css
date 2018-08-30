@@ -1584,6 +1584,10 @@
   margin-top: 20px;
 }
 
+.course.course-ug .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .col-sm-8.col-sm-push-16.col-md-6.col-lg-4 {
+  width: "95%";
+}
+
 .course.course-ug .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--student .course__profiles__item__text__title {
   color: #a51b36;
 }
@@ -1594,6 +1598,10 @@
   width: 80px;
   margin: -28px auto 30px;
   position: relative;
+}
+
+.course-pg .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .col-sm-8.col-sm-push-16.col-md-6.col-lg-4 {
+  width: "95%";
 }
 
 .course-pg .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--student .course__profiles__item__text__title {
@@ -1650,6 +1658,11 @@
 
 .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .course__profiles__item__text__title {
   color: #243f53;
+  left: 0;
+}
+
+.fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .course__profiles__item__text__title {
+  color: #243f53;
   left: 6%;
 }
 
@@ -1659,6 +1672,15 @@
   margin: -28px auto 30px;
   position: relative;
   background: #0076a0;
+  left: 0;
+}
+
+.fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .block {
+  height: 4px;
+  width: 80px;
+  margin: -28px auto 30px;
+  position: relative;
+  color: #243f53;
   left: 6%;
 }
 
@@ -1675,14 +1697,25 @@
 }
 
 .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper .course__profiles__item__image__name,
-.fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper .course__profiles__item__text__further {
-  font-size: 1em;
+.fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper .course__profiles__item__image__name {
   text-align: left;
+  padding: 15px 15px 15px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper .course__profiles__item__image__name a {
+  color: #b91b1b;
+}
+
+.fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper .course__profiles__item__text__further {
   padding: 15px 15px 5px;
+  font-size: 1.2em;
 }
 
 .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic svg {
@@ -1691,12 +1724,6 @@
   z-index: 99;
   left: 16px;
   margin-top: -82px;
-}
-
-.fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .col-sm-8.col-sm-push-16.col-md-6.col-lg-4 {
@@ -1775,7 +1802,7 @@
   margin: 0 auto;
   float: none;
   left: 0;
-  width: 60%;
+  width: 95%;
   background: white;
   padding: 20px;
 }
@@ -1834,6 +1861,12 @@
   position: relative;
   overflow: hidden;
   margin: -60px auto 0;
+}
+
+.fw-section-wrapper.course__testimonials__wrapper .yr_2019 .circular__crop img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
 }
 
 .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .circular__crop__image {
