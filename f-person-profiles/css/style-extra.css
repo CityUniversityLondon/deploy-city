@@ -2214,6 +2214,16 @@ a.course__red-links__link:hover .course__red-links__link__title {
   display: flex;
 }
 
+.fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper .academic__wrapper__thumb {
+  width: 120px;
+  height: 120px;
+}
+
+.fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper .academic__wrapper__thumb img {
+  width: auto;
+  height: auto;
+}
+
 .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic .academic__wrapper .course__profiles__item__image__name {
   text-align: left;
   padding: 15px 15px 15px;
@@ -2258,11 +2268,6 @@ a.course__red-links__link:hover .course__red-links__link__title {
     background: -webkit-linear-gradient(left top, #fff 49.5%, transparent 50%);
     background: linear-gradient(to right bottom, #fff 49.5%, transparent 50%);
   }
-}
-
-.fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item--academic img {
-  width: 120px;
-  height: 120px;
 }
 
 .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item__text__title {
@@ -2527,6 +2532,10 @@ a.course__red-links__link:hover .course__red-links__link__title {
 
 .course__profiles .bx-controls-direction .bx-next {
   left: 0;
+}
+
+.anchor-separator--nfw-line {
+  display: none;
 }
 
 .course__employment {
