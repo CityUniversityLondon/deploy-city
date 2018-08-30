@@ -1,3 +1,8 @@
+.service-finder__form .filter-box h2,
+.project-finder__form .filter-box h2 {
+  font-size: 24px;
+}
+
 .service-finder__clear-buttons,
 .project-finder__clear-buttons {
   display: none;
@@ -2864,6 +2869,10 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
   content: '\2022';
   color: #df0031;
   padding-right: 0.5em;
+}
+
+.course__subheader.course__subheader--v2:after {
+  width: 100px;
 }
 
 .course-finder input,
