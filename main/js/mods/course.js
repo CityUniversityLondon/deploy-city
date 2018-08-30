@@ -1,5 +1,5 @@
-var $ = require('./libs/jquery'),
-    onResize = require('./utils/on-resize'),
+// $ = require('./libs/jquery');
+var onResize = require('./utils/on-resize'),
     composeFunctions = require('../utils/compose-functions'),
     defer = require('./utils/defer'),
     charts = require('../utils/charts'),
@@ -42,6 +42,7 @@ var $ = require('./libs/jquery'),
     },
 
     initTestimonials = function () {
+
         var w = $('.course__profiles').width(),
             n = $('.course__profiles__item').length;
 
@@ -63,6 +64,13 @@ var $ = require('./libs/jquery'),
         }
     },
 
+    testimonialsBackgroundColor = function () {
+        // Get title text colour of selected list item, i.e. nested in aria-hidden="false"
+        var selectedItemColor = $('li.course__profiles__item:not([aria-hidden*="true"]) .course__profiles__item__text__title').css("color");
+
+        // Apply selected text colour to testimonials wrapper background
+        $('.course__testimonials__wrapper').css("background", selectedItemColor);
+    },
 
     initAssessment = function () {
         var container = document.getElementById('course-assessment-chart');
@@ -107,6 +115,9 @@ var $ = require('./libs/jquery'),
 
         toggle.click(function (e) {
             e.preventDefault();
+            $(this).text(function(i, v){
+               return v == 'Hide' ? 'Show' : 'Hide'
+            });
             content.slideToggle();
         });
     },
@@ -218,13 +229,18 @@ var $ = require('./libs/jquery'),
 
     init = function () {
         initKisWidget();
-        initMenu();
         initAccordions();
         initEntries();
         initTestimonials();
         initCharts();
         initReadMore();
         initApplyDialog();
+        initMenu();
     };
 
 defer(init);
+
+// Change testimonial wrapper background colour when user scrolls through items
+$(".course__testimonials__wrapper").click(function() {
+    testimonialsBackgroundColor();
+})
