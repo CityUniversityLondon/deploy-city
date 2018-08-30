@@ -15756,17 +15756,12 @@ or until modernizr tests for it (version 3?).
         padding: 3px 5px; }
 
 .course__assessment {
-  margin: 0 0 100px; }
+  margin-top: 60px; }
 
 /* stacked bar charts */
-.courses__barchart .courses__barchart__header {
-  margin-top: 30px; }
-  .courses__barchart .courses__barchart__header h3 {
-    margin-bottom: 0; }
-
 .bar-chart {
   width: 95%;
-  margin-bottom: 60px; }
+  margin-bottom: 40px; }
 
 .bar-chart__items {
   height: 30px;
@@ -15789,6 +15784,9 @@ or until modernizr tests for it (version 3?).
 
 .bar-chart__items--fourth {
   float: left; }
+
+.courses__barchart h3 {
+  clear: both; }
 
 .bar-chart--variant-1 .bar-chart__items--first {
   background-color: #008d2b; }
@@ -23580,9 +23578,6 @@ a.course__red-links__link.course__red-links__link--apply {
     content: '\2022';
     color: #df0031;
     padding-right: 0.5em; }
-
-.course__subheader.course__subheader--v2:after {
-  width: 100px; }
 
 .course-finder input, .course-finder select {
   font-size: 16px; }
