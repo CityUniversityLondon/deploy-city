@@ -23042,14 +23042,18 @@ table.visa-event-table {
       z-index: 2;
       top: -41px; }
     .course .fw-section-wrapper .section-heading i.fa-graduation-cap {
-      left: -51px; }
+      left: -53px; }
     .course .fw-section-wrapper .section-heading i.fa-clipboard {
-      left: -48px; }
+      left: -50px; }
     .course .fw-section-wrapper .section-heading i.fa-briefcase {
-      left: -49px; }
-    .course .fw-section-wrapper .section-heading h2 {
-      margin: -22px 0 -8px 0;
-      font-weight: 600; }
+      left: -52px; }
+    .course .fw-section-wrapper .section-heading span {
+      font-size: 2em;
+      font-weight: 500;
+      line-height: 1.4em;
+      margin: -22px 0 -7px;
+      display: block;
+      font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif; }
     .course .fw-section-wrapper .section-heading .section-break {
       background: #b92a26;
       height: 4px;
