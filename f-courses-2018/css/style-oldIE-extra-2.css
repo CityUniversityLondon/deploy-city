@@ -6435,14 +6435,22 @@ aside .news-article-widget:last-child {
 }
 
 .course__assessment {
-  margin-top: 60px;
+  margin: 0 0 100px;
 }
 
 /* stacked bar charts */
 
+.courses__barchart .courses__barchart__header {
+  margin-top: 30px;
+}
+
+.courses__barchart .courses__barchart__header h3 {
+  margin-bottom: 0;
+}
+
 .bar-chart {
   width: 95%;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .bar-chart__items {
@@ -6470,10 +6478,6 @@ aside .news-article-widget:last-child {
 
 .bar-chart__items--fourth {
   float: left;
-}
-
-.courses__barchart h3 {
-  clear: both;
 }
 
 .bar-chart--variant-1 .bar-chart__items--first {
@@ -15109,9 +15113,4 @@ p.left-float-image {
   height: 45px;
   background: white;
   border: 1px solid #a9a9a9;
-}
-
-.service-finder__form .filter-box h2,
-.project-finder__form .filter-box h2 {
-  font-size: 24px;
 }
