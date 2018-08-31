@@ -2392,6 +2392,7 @@
 .course .anchor-separator--nfw-line {
   height: 5px;
   background: #eee;
+  z-index: -1;
 }
 
 .course__menu__wrapper {
