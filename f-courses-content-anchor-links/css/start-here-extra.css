@@ -1,3 +1,422 @@
+.hallway-new .hallway-item a h2 .title-icon span.fa,
+.hallway-new .hallway-item a h2 .title-icon .ui-accordion .ui-accordion-header span.ui-icon,
+.ui-accordion .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
+.hallway-new .hallway-item a h2 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+#courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
+.hallway-new .hallway-item a h3 .title-icon span.fa,
+.hallway-new .hallway-item a h3 .title-icon .ui-accordion .ui-accordion-header span.ui-icon,
+.ui-accordion .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon,
+.hallway-new .hallway-item a h3 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+#courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon {
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: middle;
+  border-bottom-color: transparent !important;
+}
+
+.hallway-new .hallway-item a p {
+  font-size: 15px;
+  color: #444;
+  display: none;
+}
+
+@media only screen and (min-width: 980px) {
+  .hallway-new .hallway-item a p {
+    display: block;
+  }
+}
+
+.hallway-new .hallway-item a .content {
+  position: relative;
+  z-index: 2;
+  margin: -30px 14px 0;
+  padding: 10px 14px 0;
+  background: white;
+}
+
+.hallway-new .hallway-item a .content p {
+  margin-right: 15px;
+  margin-bottom: 0;
+}
+
+.hallway-new .hallway-item a .image {
+  position: relative;
+}
+
+.hallway-new .hallway-item a .image img {
+  width: 100%;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+  -webkit-backface-visibility: hidden;
+}
+
+.hallway-new .hallway-item a .image:after {
+  content: "";
+  background: #FFFFFF;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.hallway-new .hallway-item a:hover h2,
+.hallway-new .hallway-item a:hover h3 {
+  color: #b91b1b;
+}
+
+.hallway-new .hallway-item a:hover h2 span,
+.hallway-new .hallway-item a:hover h3 span {
+  border-bottom-color: #b91b1b;
+  border-bottom-style: solid;
+}
+
+.hallway-new .hallway-item a:hover .image img {
+  opacity: 0.75;
+}
+
+.hallway-new .hallway-item a:active,
+.hallway-new .hallway-item a:focus {
+  background: none;
+}
+
+.hallway-new .hallway-item a:active h2,
+.hallway-new .hallway-item a:active h3,
+.hallway-new .hallway-item a:focus h2,
+.hallway-new .hallway-item a:focus h3 {
+  color: #b91b1b;
+}
+
+.hallway-new .hallway-item a:active h2 span,
+.hallway-new .hallway-item a:active h3 span,
+.hallway-new .hallway-item a:focus h2 span,
+.hallway-new .hallway-item a:focus h3 span {
+  border-bottom-color: #999999;
+  border-bottom-style: dotted;
+}
+
+.text-hallway-nav {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.text-hallway-nav div {
+  margin-bottom: 20px;
+}
+
+.text-hallway-nav .item {
+  padding: 0 10px;
+}
+
+.text-hallway-nav .item a {
+  font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #b91b1b;
+  font-size: 20px;
+  border-bottom: 1px dotted #999;
+}
+
+.text-hallway-nav .item a:visited {
+  color: #670003;
+  border-bottom: 2px dotted #999;
+}
+
+.text-hallway-nav .item a:hover {
+  border-bottom: 1px solid #670003;
+}
+
+.text-hallway-nav .item a:active,
+.text-hallway-nav .item a:focus {
+  color: white;
+  background: #b91b1b;
+}
+
+.text-hallway-nav .item p {
+  margin-top: .25em;
+  font-size: 15px;
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .text-hallway-nav .item {
+    padding: 0;
+  }
+
+  .text-hallway-nav .item p {
+    display: block;
+  }
+}
+
+.fw-section-wrapper.section-hallway-nav-wrapper {
+  padding: 0;
+  background: #eee;
+  margin-bottom: 60px;
+}
+
+.text-hallway-nav-content {
+  margin-bottom: 60px;
+}
+
+.hallway-section-nav {
+  margin: 20px 0;
+  padding: 7.5px 0;
+  border-width: 3px 0;
+  border-style: solid;
+  border-color: #ddd;
+}
+
+.hallway-section-nav > div {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.hallway-section-nav span {
+  color: #aaa;
+}
+
+.hallway-section-nav a {
+  color: #b02a1a;
+  border-bottom: 1px dotted #999;
+}
+
+.hallway-section-nav a:hover {
+  border-bottom: 1px solid #b02a1a;
+}
+
+.hallway-section-nav a:active,
+.hallway-section-nav a:focus {
+  color: white;
+}
+
+.hallway-section-nav .selected a {
+  border: none;
+  color: #333;
+}
+
+#content {
+  margin-bottom: 50px;
+}
+
+.header {
+  padding-top: 10px;
+}
+
+.header .header-logo img {
+  max-width: 120px;
+  margin: 0;
+}
+
+.header .header-links {
+  text-align: center;
+  font-family: "ff-meta-web", Arial, Helvetica, sans-serif;
+}
+
+.header .header-links a {
+  display: inline-block;
+  text-align: center;
+  padding: 0 10px;
+  margin: 0;
+  color: #666666;
+  -webkit-transition: color 0.2s, background 0.2s;
+  transition: color 0.2s, background 0.2s;
+  text-decoration: none;
+}
+
+.header .header-links a.header-links-home {
+  color: #c9282d;
+}
+
+.header .header-links a img {
+  display: block;
+  max-height: 30px;
+  margin: 10px auto 0;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.header .header-links a:hover {
+  color: #c9282d;
+}
+
+.header .header-links a:hover img {
+  opacity: 0.75;
+}
+
+.header .header-links a:hover span {
+  border-bottom: 1px solid #c9282d;
+}
+
+.header .header-links a:active,
+.header .header-links a:focus {
+  color: white;
+  background: #c9282d;
+}
+
+.header .header-links a:active img,
+.header .header-links a:focus img {
+  opacity: 1;
+}
+
+.header .header-links a:active span,
+.header .header-links a:focus span {
+  border-bottom-color: white;
+}
+
+@media only screen and (min-width: 480px) {
+  .header .header-links a {
+    margin: 0 5px;
+  }
+
+  .header .header-links a img {
+    max-height: 40px;
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .header .header-logo img {
+    max-width: 150px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .header .header-links {
+    text-align: right;
+  }
+
+  .header .header-links a {
+    margin: 0 0 0 10px;
+  }
+
+  .header .header-links a img {
+    max-height: 50px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .header .header-logo img {
+    max-width: 214px;
+  }
+}
+
+#slice-navigation {
+  margin-bottom: 40px;
+}
+
+.filters {
+  padding: 0 0 20px;
+  text-align: center;
+}
+
+.filters select {
+  padding: 10px;
+  color: #888;
+}
+
+.filters button {
+  display: none;
+  position: relative;
+  top: -1px;
+  height: 40px;
+  color: #888;
+}
+
+.no-js .filters button,
+.lt-ie9 .filters button {
+  display: inline-block;
+}
+
+.filter-box__inner {
+  background: #4d2a42;
+  color: white;
+}
+
+.filter-box__inner h2 {
+  font-size: 24px;
+}
+
+.filter-box__inner h2,
+.filter-box__inner h2 span,
+.filter-box__inner h2 i {
+  line-height: 29px;
+}
+
+.tile-wrapper {
+  margin: 30px 0;
+}
+
+.tile-wrapper > h2 {
+  font-size: 1.25em;
+  margin-bottom: 20px;
+}
+
+.tile-wrapper .tile-listing a {
+  border: none;
+}
+
+.tile-wrapper .tile-listing img {
+  margin: 0;
+}
+
+.tile-wrapper .tile-listing .tile {
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.tile-wrapper .tile-listing .tile .tile-content {
+  position: relative;
+}
+
+.tile-wrapper .tile-listing .tile .tile-subject {
+  background-color: #b81b1a;
+  padding: .4em .9em;
+  position: relative;
+  color: #FFFFFF;
+  display: inline;
+  float: left;
+  margin-top: -2.2em;
+}
+
+.tile-wrapper .tile-listing .tile .tile-subject-icon {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  color: #666;
+  background: white;
+  font-weight: bold;
+  z-index: 1;
+  font-size: 1em;
+  padding: 4px 8px;
+  pointer-events: none;
+}
+
+@media only screen and (min-width: 480px) {
+  .tile-wrapper .tile-listing .tile .tile-subject-icon {
+    font-size: 1.3em;
+    padding: 6px 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tile-wrapper .tile-listing .tile .tile-subject-icon {
+    font-size: 1em;
+    padding: 4px 8px;
+  }
+}
+
 @media only screen and (min-width: 980px) {
   .tile-wrapper .tile-listing .tile .tile-subject-icon {
     font-size: 1.3em;
