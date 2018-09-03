@@ -236,6 +236,7 @@ var onResize = require('./utils/on-resize'),
         initReadMore();
         initApplyDialog();
         initMenu();
+        testimonialsBackgroundColor();
     };
 
 defer(init);
