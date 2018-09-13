@@ -1,278 +1,3 @@
-.project-finder__results,
-.service-finder__results {
-  padding-left: 20px;
-}
-
-.project-finder__results__summary,
-.service-finder__results__summary {
-  font-weight: 600;
-  margin-bottom: 14px;
-}
-
-.project-finder__results__summary__refresh,
-.service-finder__results__summary__refresh {
-  display: inline-block;
-  color: #b91b1c;
-  margin-left: 5px;
-}
-
-.finder__results__headers {
-  padding: 20px;
-  font-weight: 600;
-}
-
-.project-finder__results__item,
-.service-finder__results__item {
-  background: #fff;
-  padding: 10px;
-  margin-bottom: 30px;
-  position: relative;
-  padding: 20px;
-}
-
-.project-finder__results__item h2,
-.service-finder__results__item h2 {
-  margin: 0 48px 0 0;
-  font-size: 1.3em;
-  line-height: 28px;
-}
-
-.project-finder__results__item h2 a,
-.service-finder__results__item h2 a {
-  font-weight: 500;
-  padding-top: 4px;
-  border-bottom-width: 1px;
-  border-bottom-style: dotted;
-  position: relative;
-}
-
-.project-finder__results__item h2 a,
-.project-finder__results__item h2 a:focus,
-.project-finder__results__item h2 a:hover,
-.service-finder__results__item h2 a,
-.service-finder__results__item h2 a:focus,
-.service-finder__results__item h2 a:hover {
-  text-decoration: none;
-}
-
-.project-finder__results__item h2 a:link,
-.service-finder__results__item h2 a:link {
-  color: #b91b1b;
-  border-bottom-color: #999;
-}
-
-.project-finder__results__item h2 a:visited,
-.service-finder__results__item h2 a:visited {
-  color: #670003;
-}
-
-.project-finder__results__item h2 a:hover,
-.service-finder__results__item h2 a:hover {
-  border-bottom-style: solid;
-  border-bottom-color: #670003;
-}
-
-.project-finder__results__item h2 a:focus,
-.service-finder__results__item h2 a:focus {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.project-finder__results__item h2 a:active,
-.service-finder__results__item h2 a:active {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.project-finder__results__item__progress,
-.service-finder__results__item__status {
-  padding: 3px 0;
-  font-weight: 600;
-  color: #666;
-}
-
-.project-finder__results__item__md,
-.service-finder__results__item__md {
-  margin-bottom: 5px;
-}
-
-#courses-widget .widget-content .ui-accordion-header .project-finder__results__item__md>.ui-icon,
-#courses-widget .widget-content .ui-accordion-header .service-finder__results__item__md>.ui-icon,
-.course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__md>.ui-icon,
-.course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__md>.ui-icon,
-.dialog .project-finder__results__item__md>.ui-icon,
-.dialog .service-finder__results__item__md>.ui-icon,
-.project-finder__results__item__md>.fa,
-.service-finder__results__item__md>.fa,
-.ui-accordion .ui-accordion-header .project-finder__results__item__md>.ui-icon,
-.ui-accordion .ui-accordion-header .service-finder__results__item__md>.ui-icon,
-.white-card__media .embed-container .project-finder__results__item__md>a:before,
-.white-card__media .embed-container .service-finder__results__item__md>a:before {
-  float: left;
-  line-height: 21px;
-}
-
-.project-finder__results__item__md>.fa-check-circle,
-.service-finder__results__item__md>.fa-check-circle {
-  color: #6c953c;
-}
-
-.project-finder__results__item__md>.fa-minus-circle,
-.service-finder__results__item__md>.fa-minus-circle {
-  color: #e55302;
-}
-
-.project-finder__results__item__md>.fa-exclamation-circle,
-.service-finder__results__item__md>.fa-exclamation-circle {
-  color: #b02a1a;
-}
-
-.project-finder__results__item__md>div,
-.service-finder__results__item__md>div {
-  margin-left: 22px;
-}
-
-.project-finder__results__item__info,
-.service-finder__results__item__info {
-  display: none;
-  margin-top: 10px;
-  border-top: 2px solid #eee;
-}
-
-.project-finder__results__item__info.project-finder__results__item__info--open,
-.project-finder__results__item__info.service-finder__results__item__info--open,
-.service-finder__results__item__info.project-finder__results__item__info--open,
-.service-finder__results__item__info.service-finder__results__item__info--open {
-  display: block;
-}
-
-.project-finder__results__item__description,
-.service-finder__results__item__description {
-  margin: 10px 0;
-}
-
-.project-finder__results__item__md span,
-.service-finder__results__item__md span {
-  color: #666;
-}
-
-.project-finder__results__item__md__label,
-.service-finder__results__item__md__label {
-  font-weight: 600;
-}
-
-.project-finder__results__item__info-toggle,
-.service-finder__results__item__info-toggle {
-  display: none;
-}
-
-.project-finder__results__item__info,
-.service-finder__results__item__info {
-  display: block;
-}
-
-.project-finder__results__item__info-toggle,
-.service-finder__results__item__info-toggle {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 5px 15px;
-  border-radius: 5px;
-  border: none;
-  background: #b91b1b;
-  color: #fff;
-  -webkit-transition: color .1s,background .1s;
-  transition: color .1s,background .1s;
-}
-
-#courses-widget .widget-content .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
-#courses-widget .widget-content .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
-.course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
-.course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
-.dialog .project-finder__results__item__info-toggle .ui-icon,
-.dialog .service-finder__results__item__info-toggle .ui-icon,
-.project-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
-.project-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
-.project-finder__results__item__info-toggle .dialog .ui-icon,
-.project-finder__results__item__info-toggle .fa,
-.project-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
-.project-finder__results__item__info-toggle .white-card__media .embed-container a:before,
-.service-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
-.service-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
-.service-finder__results__item__info-toggle .dialog .ui-icon,
-.service-finder__results__item__info-toggle .fa,
-.service-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
-.service-finder__results__item__info-toggle .white-card__media .embed-container a:before,
-.ui-accordion .ui-accordion-header .project-finder__results__item__info-toggle .ui-icon,
-.ui-accordion .ui-accordion-header .service-finder__results__item__info-toggle .ui-icon,
-.white-card__media .embed-container .project-finder__results__item__info-toggle a:before,
-.white-card__media .embed-container .service-finder__results__item__info-toggle a:before {
-  -webkit-transition: -webkit-transform .3s;
-  transition: -webkit-transform .3s;
-  transition: transform .3s;
-  transition: transform .3s,-webkit-transform .3s;
-}
-
-.project-finder__results__item__info-toggle:active,
-.project-finder__results__item__info-toggle:focus,
-.service-finder__results__item__info-toggle:active,
-.service-finder__results__item__info-toggle:focus {
-  background: #eee;
-  color: #333;
-}
-
-.project-finder__results__item__info-toggle:hover,
-.service-finder__results__item__info-toggle:hover {
-  background: #eee;
-  color: #b91b1b;
-}
-
-.project-finder-test #primary-nav-toggler,
-.project-finder-test #slice-navigation,
-.service-finder-test #primary-nav-toggler,
-.service-finder-test #slice-navigation {
-  display: none;
-}
-
-.project-finder__bottom-banner,
-.service-finder__bottom-banner {
-  max-height: 250px;
-}
-
-.project-finder__bottom-banner__img,
-.service-finder__bottom-banner__img {
-  width: 100%;
-  margin: 0;
-}
-
-.scholarship a {
-  border-bottom-width: 1px;
-  border-bottom-style: dotted;
-  position: relative;
-}
-
-.scholarship a,
-.scholarship a:focus,
-.scholarship a:hover {
-  text-decoration: none;
-}
-
-.scholarship a:link {
-  color: #b91b1b;
-  border-bottom-color: #999;
-}
-
-.scholarship a:visited {
-  color: #670003;
-}
-
-.scholarship a:hover {
-  border-bottom-style: solid;
-  border-bottom-color: #670003;
-}
-
 .scholarship a:focus {
   background-color: #b91b1b;
   color: #FFF;
@@ -770,7 +495,7 @@
 
 #courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__md>.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__md>.ui-icon,
-.dialog .scholarship-finder__results__item__md>.ui-icon,
+.dialog .scholarship-finder__results__item__md>button,
 .scholarship-finder__results__item__md>.fa,
 .ui-accordion .ui-accordion-header .scholarship-finder__results__item__md>.ui-icon,
 .white-card__media .embed-container .scholarship-finder__results__item__md>a:before {
@@ -827,10 +552,10 @@
 
 #courses-widget .widget-content .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .scholarship-finder__results__item__info-toggle .ui-icon,
-.dialog .scholarship-finder__results__item__info-toggle .ui-icon,
+.dialog .scholarship-finder__results__item__info-toggle button,
 .scholarship-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .scholarship-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
-.scholarship-finder__results__item__info-toggle .dialog .ui-icon,
+.scholarship-finder__results__item__info-toggle .dialog button,
 .scholarship-finder__results__item__info-toggle .fa,
 .scholarship-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
 .scholarship-finder__results__item__info-toggle .white-card__media .embed-container a:before,
@@ -1582,9 +1307,7 @@
 }
 
 #courses-widget .widget-content .ui-accordion-header .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item__image span.ui-icon,
-.dialog .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item__image span.ui-icon,
 .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item__image #courses-widget .widget-content .ui-accordion-header span.ui-icon,
-.fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item__image .dialog span.ui-icon,
 .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item__image .ui-accordion .ui-accordion-header span.ui-icon,
 .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item__image span.fa,
 .ui-accordion .ui-accordion-header .fw-section-wrapper.course__testimonials__wrapper .yr_2019 .course__profiles__item__image span.ui-icon {
@@ -1865,10 +1588,8 @@
 .course .accordion.ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon,
 .course__profiles__item__image #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .course__profiles__item__image .course .accordion.ui-accordion .ui-accordion-header span.ui-icon,
-.course__profiles__item__image .dialog span.ui-icon,
 .course__profiles__item__image .ui-accordion .ui-accordion-header span.ui-icon,
 .course__profiles__item__image span.fa,
-.dialog .course__profiles__item__image span.ui-icon,
 .ui-accordion .ui-accordion-header .course__profiles__item__image span.ui-icon {
   padding: 10px 0 0;
   font-size: 8em;
@@ -2144,17 +1865,17 @@
 #courses-widget .widget-content .ui-accordion-header .phd-projects.phd-projects h3 a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .phd-projects.phd-projects h2 a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .phd-projects.phd-projects h3 a .ui-icon,
-.dialog .phd-projects.phd-projects h2 a .ui-icon,
-.dialog .phd-projects.phd-projects h3 a .ui-icon,
+.dialog .phd-projects.phd-projects h2 a button,
+.dialog .phd-projects.phd-projects h3 a button,
 .phd-projects.phd-projects h2 a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .phd-projects.phd-projects h2 a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
-.phd-projects.phd-projects h2 a .dialog .ui-icon,
+.phd-projects.phd-projects h2 a .dialog button,
 .phd-projects.phd-projects h2 a .fa,
 .phd-projects.phd-projects h2 a .ui-accordion .ui-accordion-header .ui-icon,
 .phd-projects.phd-projects h2 a .white-card__media .embed-container a:before,
 .phd-projects.phd-projects h3 a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .phd-projects.phd-projects h3 a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
-.phd-projects.phd-projects h3 a .dialog .ui-icon,
+.phd-projects.phd-projects h3 a .dialog button,
 .phd-projects.phd-projects h3 a .fa,
 .phd-projects.phd-projects h3 a .ui-accordion .ui-accordion-header .ui-icon,
 .phd-projects.phd-projects h3 a .white-card__media .embed-container a:before,
@@ -3004,7 +2725,7 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 #courses-widget .widget-content .ui-accordion-header .course-finder__results__item__md>.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .course-finder__results__item__md>.ui-icon,
 .course-finder__results__item__md>.fa,
-.dialog .course-finder__results__item__md>.ui-icon,
+.dialog .course-finder__results__item__md>button,
 .ui-accordion .ui-accordion-header .course-finder__results__item__md>.ui-icon,
 .white-card__media .embed-container .course-finder__results__item__md>a:before {
   float: left;
@@ -3062,11 +2783,11 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 .course .accordion.ui-accordion .ui-accordion-header .course-finder__results__item__info-toggle .ui-icon,
 .course-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .course-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
-.course-finder__results__item__info-toggle .dialog .ui-icon,
+.course-finder__results__item__info-toggle .dialog button,
 .course-finder__results__item__info-toggle .fa,
 .course-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
 .course-finder__results__item__info-toggle .white-card__media .embed-container a:before,
-.dialog .course-finder__results__item__info-toggle .ui-icon,
+.dialog .course-finder__results__item__info-toggle button,
 .ui-accordion .ui-accordion-header .course-finder__results__item__info-toggle .ui-icon,
 .white-card__media .embed-container .course-finder__results__item__info-toggle a:before {
   -webkit-transition: -webkit-transform .3s;
@@ -3422,11 +3143,11 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 
 #courses-widget .widget-content .ui-accordion-header .academic-experts-profile .personal-details .expert-name .department-name .ui-icon,
 .academic-experts-profile .personal-details .expert-name .department-name #courses-widget .widget-content .ui-accordion-header .ui-icon,
-.academic-experts-profile .personal-details .expert-name .department-name .dialog .ui-icon,
+.academic-experts-profile .personal-details .expert-name .department-name .dialog button,
 .academic-experts-profile .personal-details .expert-name .department-name .fa,
 .academic-experts-profile .personal-details .expert-name .department-name .ui-accordion .ui-accordion-header .ui-icon,
 .academic-experts-profile .personal-details .expert-name .department-name .white-card__media .embed-container a:before,
-.dialog .academic-experts-profile .personal-details .expert-name .department-name .ui-icon,
+.dialog .academic-experts-profile .personal-details .expert-name .department-name button,
 .ui-accordion .ui-accordion-header .academic-experts-profile .personal-details .expert-name .department-name .ui-icon,
 .white-card__media .embed-container .academic-experts-profile .personal-details .expert-name .department-name a:before {
   padding-left: 4px;
@@ -3448,11 +3169,11 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 
 #courses-widget .widget-content .ui-accordion-header .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon,
 .academic-experts-profile .personal-details .contact-lists .contact-list ul li #courses-widget .widget-content .ui-accordion-header .ui-icon,
-.academic-experts-profile .personal-details .contact-lists .contact-list ul li .dialog .ui-icon,
+.academic-experts-profile .personal-details .contact-lists .contact-list ul li .dialog button,
 .academic-experts-profile .personal-details .contact-lists .contact-list ul li .fa,
 .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-accordion .ui-accordion-header .ui-icon,
 .academic-experts-profile .personal-details .contact-lists .contact-list ul li .white-card__media .embed-container a:before,
-.dialog .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon,
+.dialog .academic-experts-profile .personal-details .contact-lists .contact-list ul li button,
 .ui-accordion .ui-accordion-header .academic-experts-profile .personal-details .contact-lists .contact-list ul li .ui-icon,
 .white-card__media .embed-container .academic-experts-profile .personal-details .contact-lists .contact-list ul li a:before {
   padding-right: 8px;
@@ -3696,7 +3417,7 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 
 #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__md>.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__md>.ui-icon,
-.dialog .expert-finder__results__item__md>.ui-icon,
+.dialog .expert-finder__results__item__md>button,
 .expert-finder__results__item__md>.fa,
 .ui-accordion .ui-accordion-header .expert-finder__results__item__md>.ui-icon,
 .white-card__media .embed-container .expert-finder__results__item__md>a:before {
@@ -3726,10 +3447,10 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 
 #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__portrait a .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__portrait a .ui-icon,
-.dialog .expert-finder__results__item__portrait a .ui-icon,
+.dialog .expert-finder__results__item__portrait a button,
 .expert-finder__results__item__portrait a #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .expert-finder__results__item__portrait a .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
-.expert-finder__results__item__portrait a .dialog .ui-icon,
+.expert-finder__results__item__portrait a .dialog button,
 .expert-finder__results__item__portrait a .fa,
 .expert-finder__results__item__portrait a .ui-accordion .ui-accordion-header .ui-icon,
 .expert-finder__results__item__portrait a .white-card__media .embed-container a:before,
@@ -3785,10 +3506,10 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 
 #courses-widget .widget-content .ui-accordion-header .expert-finder__results__item__info-toggle .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .expert-finder__results__item__info-toggle .ui-icon,
-.dialog .expert-finder__results__item__info-toggle .ui-icon,
+.dialog .expert-finder__results__item__info-toggle button,
 .expert-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .expert-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
-.expert-finder__results__item__info-toggle .dialog .ui-icon,
+.expert-finder__results__item__info-toggle .dialog button,
 .expert-finder__results__item__info-toggle .fa,
 .expert-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
 .expert-finder__results__item__info-toggle .white-card__media .embed-container a:before,
@@ -5366,17 +5087,17 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 #courses-widget .widget-content .ui-accordion-header .icons-hr .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .icons-finance .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .icons-hr .ui-icon,
-.dialog .icons-finance .ui-icon,
-.dialog .icons-hr .ui-icon,
+.dialog .icons-finance button,
+.dialog .icons-hr button,
 .icons-finance #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .icons-finance .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
-.icons-finance .dialog .ui-icon,
+.icons-finance .dialog button,
 .icons-finance .fa,
 .icons-finance .ui-accordion .ui-accordion-header .ui-icon,
 .icons-finance .white-card__media .embed-container a:before,
 .icons-hr #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .icons-hr .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
-.icons-hr .dialog .ui-icon,
+.icons-hr .dialog button,
 .icons-hr .fa,
 .icons-hr .ui-accordion .ui-accordion-header .ui-icon,
 .icons-hr .white-card__media .embed-container a:before,
@@ -7185,10 +6906,10 @@ dl.staffhub-dl dd {
 
 #courses-widget .widget-content .ui-accordion-header .library-search .search-section-button .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .library-search .search-section-button .ui-icon,
-.dialog .library-search .search-section-button .ui-icon,
+.dialog .library-search .search-section-button button,
 .library-search .search-section-button #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .library-search .search-section-button .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
-.library-search .search-section-button .dialog .ui-icon,
+.library-search .search-section-button .dialog button,
 .library-search .search-section-button .fa,
 .library-search .search-section-button .ui-accordion .ui-accordion-header .ui-icon,
 .library-search .search-section-button .white-card__media .embed-container a:before,
@@ -8584,10 +8305,10 @@ body#library {
 
 #courses-widget .widget-content .ui-accordion-header .shortcourse-promo__text .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .shortcourse-promo__text .ui-icon,
-.dialog .shortcourse-promo__text .ui-icon,
+.dialog .shortcourse-promo__text button,
 .shortcourse-promo__text #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .shortcourse-promo__text .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
-.shortcourse-promo__text .dialog .ui-icon,
+.shortcourse-promo__text .dialog button,
 .shortcourse-promo__text .fa,
 .shortcourse-promo__text .ui-accordion .ui-accordion-header .ui-icon,
 .shortcourse-promo__text .white-card__media .embed-container a:before,

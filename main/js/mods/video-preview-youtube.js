@@ -61,7 +61,7 @@ function loadYoutubeVideo(wrapper, services) {
                         .attr('tabindex', '0')
                         .appendTo($('body'));
 
-                    var playIcon = $('<span></span>').addClass('ui-icon').appendTo(dlg);
+                    var buttonwrap = $('<button></button>').attr('type', 'button').appendTo(dlg);
 
                     var box = $('<div></div>').addClass('dialog__box')
                         .appendTo(dlg);

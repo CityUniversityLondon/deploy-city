@@ -4132,7 +4132,7 @@ button.ui-button::-moz-focus-inner {
 #courses-widget .widget-content .ui-accordion-header.ui-accordion-header-active .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
-.dialog .ui-icon,
+.dialog button,
 .fa,
 .ui-accordion .ui-accordion-header .ui-icon,
 .ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
@@ -4210,7 +4210,7 @@ button.ui-button::-moz-focus-inner {
 
 #courses-widget .widget-content .ui-accordion-header .fa-pull-left.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .fa-pull-left.ui-icon,
-.dialog .fa-pull-left.ui-icon,
+.dialog button.fa-pull-left,
 .fa.fa-pull-left,
 .ui-accordion .ui-accordion-header .fa-pull-left.ui-icon,
 .white-card__media .embed-container a.fa-pull-left:before {
@@ -4219,7 +4219,7 @@ button.ui-button::-moz-focus-inner {
 
 #courses-widget .widget-content .ui-accordion-header .fa-pull-right.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .fa-pull-right.ui-icon,
-.dialog .fa-pull-right.ui-icon,
+.dialog button.fa-pull-right,
 .fa.fa-pull-right,
 .ui-accordion .ui-accordion-header .fa-pull-right.ui-icon,
 .white-card__media .embed-container a.fa-pull-right:before {
@@ -4236,7 +4236,7 @@ button.ui-button::-moz-focus-inner {
 
 #courses-widget .widget-content .ui-accordion-header .pull-left.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .pull-left.ui-icon,
-.dialog .pull-left.ui-icon,
+.dialog button.pull-left,
 .fa.pull-left,
 .ui-accordion .ui-accordion-header .pull-left.ui-icon,
 .white-card__media .embed-container a.pull-left:before {
@@ -4245,7 +4245,7 @@ button.ui-button::-moz-focus-inner {
 
 #courses-widget .widget-content .ui-accordion-header .pull-right.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .pull-right.ui-icon,
-.dialog .pull-right.ui-icon,
+.dialog button.pull-right,
 .fa.pull-right,
 .ui-accordion .ui-accordion-header .pull-right.ui-icon,
 .white-card__media .embed-container a.pull-right:before {
@@ -4420,7 +4420,7 @@ button.ui-button::-moz-focus-inner {
   content: "";
 }
 
-.dialog .ui-icon:before,
+.dialog button:before,
 .fa-close:before,
 .fa-remove:before,
 .fa-times:before {
@@ -10287,11 +10287,9 @@ a:focus {
 .course .accordion.ui-accordion .ui-accordion-header .cta a span.ui-icon,
 .cta a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .cta a .course .accordion.ui-accordion .ui-accordion-header span.ui-icon,
-.cta a .dialog span.ui-icon,
 .cta a .ui-accordion .ui-accordion-header span.ui-icon,
 .cta a i,
 .cta a span.fa,
-.dialog .cta a span.ui-icon,
 .ui-accordion .ui-accordion-header .cta a span.ui-icon {
   float: right;
   background-color: transparent;
@@ -10335,10 +10333,8 @@ a:focus {
 
 #courses-widget .widget-content .ui-accordion-header .soft-cta a span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .soft-cta a span.ui-icon,
-.dialog .soft-cta a span.ui-icon,
 .soft-cta a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .soft-cta a .course .accordion.ui-accordion .ui-accordion-header span.ui-icon,
-.soft-cta a .dialog span.ui-icon,
 .soft-cta a .ui-accordion .ui-accordion-header span.ui-icon,
 .soft-cta a i,
 .soft-cta a span.fa,
@@ -11340,17 +11336,17 @@ input[type=checkbox]:disabled {
 #courses-widget .widget-content .ui-accordion-header .header__util__audience .header__util__students__list .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .header__util__audience .header__util__staff__list .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .header__util__audience .header__util__students__list .ui-icon,
-.dialog .header__util__audience .header__util__staff__list .ui-icon,
-.dialog .header__util__audience .header__util__students__list .ui-icon,
+.dialog .header__util__audience .header__util__staff__list button,
+.dialog .header__util__audience .header__util__students__list button,
 .header__util__audience .header__util__staff__list #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .header__util__audience .header__util__staff__list .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
-.header__util__audience .header__util__staff__list .dialog .ui-icon,
+.header__util__audience .header__util__staff__list .dialog button,
 .header__util__audience .header__util__staff__list .fa,
 .header__util__audience .header__util__staff__list .ui-accordion .ui-accordion-header .ui-icon,
 .header__util__audience .header__util__staff__list .white-card__media .embed-container a:before,
 .header__util__audience .header__util__students__list #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .header__util__audience .header__util__students__list .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
-.header__util__audience .header__util__students__list .dialog .ui-icon,
+.header__util__audience .header__util__students__list .dialog button,
 .header__util__audience .header__util__students__list .fa,
 .header__util__audience .header__util__students__list .ui-accordion .ui-accordion-header .ui-icon,
 .header__util__audience .header__util__students__list .white-card__media .embed-container a:before,
@@ -11492,10 +11488,10 @@ input[type=checkbox]:disabled {
 
 #courses-widget .widget-content .ui-accordion-header .header__search .header__search__toggle .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .header__search .header__search__toggle .ui-icon,
-.dialog .header__search .header__search__toggle .ui-icon,
+.dialog .header__search .header__search__toggle button,
 .header__search .header__search__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .header__search .header__search__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
-.header__search .header__search__toggle .dialog .ui-icon,
+.header__search .header__search__toggle .dialog button,
 .header__search .header__search__toggle .fa,
 .header__search .header__search__toggle .ui-accordion .ui-accordion-header .ui-icon,
 .header__search .header__search__toggle .white-card__media .embed-container a:before,
@@ -11651,10 +11647,10 @@ input[type=checkbox]:disabled {
 
 #courses-widget .widget-content .ui-accordion-header .global-nav__wrapper .global-nav__toggle .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .global-nav__wrapper .global-nav__toggle .ui-icon,
-.dialog .global-nav__wrapper .global-nav__toggle .ui-icon,
+.dialog .global-nav__wrapper .global-nav__toggle button,
 .global-nav__wrapper .global-nav__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .global-nav__wrapper .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
-.global-nav__wrapper .global-nav__toggle .dialog .ui-icon,
+.global-nav__wrapper .global-nav__toggle .dialog button,
 .global-nav__wrapper .global-nav__toggle .fa,
 .global-nav__wrapper .global-nav__toggle .ui-accordion .ui-accordion-header .ui-icon,
 .global-nav__wrapper .global-nav__toggle .white-card__media .embed-container a:before,
@@ -11771,17 +11767,17 @@ input[type=checkbox]:disabled {
 #courses-widget .widget-content .ui-accordion-header .no-js .global-nav__toggle .ui-icon:before,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .global-nav__wrapper--active .global-nav__toggle .ui-icon:before,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .no-js .global-nav__toggle .ui-icon:before,
-.dialog .global-nav__wrapper--active .global-nav__toggle .ui-icon:before,
-.dialog .no-js .global-nav__toggle .ui-icon:before,
+.dialog .global-nav__wrapper--active .global-nav__toggle button:before,
+.dialog .no-js .global-nav__toggle button:before,
 .global-nav__wrapper--active .global-nav__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon:before,
 .global-nav__wrapper--active .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon:before,
-.global-nav__wrapper--active .global-nav__toggle .dialog .ui-icon:before,
+.global-nav__wrapper--active .global-nav__toggle .dialog button:before,
 .global-nav__wrapper--active .global-nav__toggle .fa:before,
 .global-nav__wrapper--active .global-nav__toggle .ui-accordion .ui-accordion-header .ui-icon:before,
 .global-nav__wrapper--active .global-nav__toggle .white-card__media .embed-container a:before,
 .no-js .global-nav__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon:before,
 .no-js .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon:before,
-.no-js .global-nav__toggle .dialog .ui-icon:before,
+.no-js .global-nav__toggle .dialog button:before,
 .no-js .global-nav__toggle .fa:before,
 .no-js .global-nav__toggle .ui-accordion .ui-accordion-header .ui-icon:before,
 .no-js .global-nav__toggle .white-card__media .embed-container a:before,
@@ -13041,10 +13037,10 @@ body {
 
 #courses-widget .widget-content .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon,
-.dialog .thisiscity-media-ribbon-wrapper .ui-icon,
+.dialog .thisiscity-media-ribbon-wrapper button,
 .thisiscity-media-ribbon-wrapper #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .thisiscity-media-ribbon-wrapper .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
-.thisiscity-media-ribbon-wrapper .dialog .ui-icon,
+.thisiscity-media-ribbon-wrapper .dialog button,
 .thisiscity-media-ribbon-wrapper .fa,
 .thisiscity-media-ribbon-wrapper .ui-accordion .ui-accordion-header .ui-icon,
 .thisiscity-media-ribbon-wrapper .white-card__media .embed-container a:before,
@@ -13727,14 +13723,10 @@ body {
 #courses-widget .widget-content .ui-accordion-header #promo-wrapper .bx-controls-auto a span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .no-js #promo-wrapper .bx-controls-auto a span.ui-icon,
 #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
-#promo-wrapper .bx-controls-auto a .dialog span.ui-icon,
 #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon,
 #promo-wrapper .bx-controls-auto a i,
 #promo-wrapper .bx-controls-auto a span.fa,
-.dialog #promo-wrapper .bx-controls-auto a span.ui-icon,
-.dialog .no-js #promo-wrapper .bx-controls-auto a span.ui-icon,
 .no-js #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
-.no-js #promo-wrapper .bx-controls-auto a .dialog span.ui-icon,
 .no-js #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon,
 .no-js #promo-wrapper .bx-controls-auto a i,
 .no-js #promo-wrapper .bx-controls-auto a span.fa,
@@ -15761,4 +15753,48 @@ a.city-vision-widget:hover hr {
 .widget.navigation-widget .widget-content,
 .widget.navigation-widget h2 {
   background: 0 0;
+}
+
+.widget.navigation-widget h2 {
+  border-bottom: 2px solid #ddd;
+  padding: 0;
+}
+
+.widget.navigation-widget ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.widget.navigation-widget li {
+  border-bottom: 1px solid #ddd;
+}
+
+.widget.navigation-widget a {
+  display: block;
+  padding: 5px 10px;
+  position: relative;
+  border: none;
+}
+
+.widget.navigation-widget a::before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 26px;
+  width: 4px;
+  background: #b02a1a;
+}
+
+.widget.navigation-widget a:hover {
+  background: #eee;
+  color: #b02a1a;
+}
+
+.widget.navigation-widget a:visited {
+  color: #b02a1a;
+}
+
+.widget.navigation-widget a:focus {
+  background: #b02a1a;
+  color: #fff;
 }
