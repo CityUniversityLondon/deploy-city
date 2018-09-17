@@ -98,7 +98,7 @@ $(function () {
             }
             else { // key info - short courses
                 $('#dynamic-duration').html(selectedOption.data('duration'));
-                $('#dynamic-time').html(selectedOption.data('time'));
+                $('#dynamic-time').hide().html(selectedOption.data('time')).fadeIn('slow');
             }
             $('#dynamic-code').html(selectedOption.data('code'));
         }
@@ -147,6 +147,8 @@ $(function () {
 
 
     };
+
+    console.log('b');
 
     initShortCourses();
 });
