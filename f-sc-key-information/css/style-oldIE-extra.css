@@ -8468,6 +8468,10 @@ body#library {
   -ms-transform: skewY(-5deg);
   transform: skewY(5deg);
   right: 10px;
+  width: 92.5%;
+  right: 10px;
+  width: 93.5%;
+  right: 10.5px;
 }
 
 .shortcourse-keyinfo h2 {
@@ -8495,7 +8499,7 @@ body#library {
 
 .shortcourse-keyinfo .cta a {
   display: block;
-  color: #333;
+  color: #fff;
 }
 
 .shortcourse-keyinfo__details {
@@ -8518,10 +8522,18 @@ body#library {
 }
 
 .shortcourse-keyinfo__details i {
-  width: 6%;
+  width: 7%;
+  font-size: 20px;
+  position: relative;
+  top: 1px;
+  margin-right: 7px;
+  width: auto;
+  margin-right: 0;
 }
 
 .shortcourse-keyinfo__details #shortcourse-dropdown {
+  width: 90%;
+  width: 80%;
   width: 90%;
 }
 

@@ -26844,7 +26844,11 @@ body#library {
     -webkit-transform: skewY(-5deg);
     -ms-transform: skewY(-5deg);
     transform: skewY(5deg);
-    right: 10px; }
+    right: 10px;
+    width: 92.5%;
+    right: 10px;
+    width: 93.5%;
+    right: 10.5px; }
   .shortcourse-keyinfo h2 {
     margin-bottom: 20px; }
   .shortcourse-keyinfo h2:after {
@@ -26862,7 +26866,7 @@ body#library {
     max-width: 100%; }
     .shortcourse-keyinfo .cta a {
       display: block;
-      color: #333; }
+      color: #fff; }
 
 .shortcourse-keyinfo__details {
   margin-bottom: 30px; }
@@ -26875,8 +26879,16 @@ body#library {
   .shortcourse-keyinfo__details i, .shortcourse-keyinfo__details #shortcourse-dropdown {
     display: inline-block; }
   .shortcourse-keyinfo__details i {
-    width: 6%; }
+    width: 7%;
+    font-size: 20px;
+    position: relative;
+    top: 1px;
+    margin-right: 7px;
+    width: auto;
+    margin-right: 0; }
   .shortcourse-keyinfo__details #shortcourse-dropdown {
+    width: 90%;
+    width: 80%;
     width: 90%; }
     .shortcourse-keyinfo__details #shortcourse-dropdown select {
       width: 100%; }

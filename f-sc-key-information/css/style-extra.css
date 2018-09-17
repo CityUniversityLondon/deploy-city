@@ -9348,21 +9348,51 @@ body#library {
   padding: 20px;
 }
 
-.shortcourse-keyinfo:after {
-  content: '';
-  width: 95%;
-  height: 35px;
-  position: absolute;
-  background: inherit;
-  z-index: 1;
-  bottom: 193px;
-  -webkit-transform-origin: left top;
-  -ms-transform-origin: left top;
-  transform-origin: left top;
-  -webkit-transform: skewY(-5deg);
-  -ms-transform: skewY(-5deg);
-  transform: skewY(5deg);
-  right: 10px;
+@media only screen and (min-width: 768px) {
+  .shortcourse-keyinfo:after {
+    content: '';
+    width: 95%;
+    height: 35px;
+    position: absolute;
+    background: inherit;
+    z-index: 1;
+    bottom: 193px;
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: skewY(-5deg);
+    -ms-transform: skewY(-5deg);
+    transform: skewY(5deg);
+    right: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .shortcourse-keyinfo:after {
+    width: 92.5%;
+    right: 10px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .shortcourse-keyinfo:after {
+    width: 93.5%;
+    right: 10.5px;
+  }
+}
+
+@media only screen and (min-width: 1035px) {
+  .shortcourse-keyinfo:after {
+    width: 94%;
+    right: 10.5px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .shortcourse-keyinfo:after {
+    width: 95%;
+    right: 10px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -9407,7 +9437,7 @@ body#library {
 
 .shortcourse-keyinfo .cta a {
   display: block;
-  color: #333;
+  color: #fff;
 }
 
 .shortcourse-keyinfo__details {
@@ -9430,7 +9460,23 @@ body#library {
 }
 
 .shortcourse-keyinfo__details i {
-  width: 6%;
+  width: 7%;
+  font-size: 20px;
+  position: relative;
+  top: 1px;
+  margin-right: 7px;
+}
+
+@media only screen and (min-width: 320px) {
+  .shortcourse-keyinfo__details i {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .shortcourse-keyinfo__details i {
+    margin-right: 0;
+  }
 }
 
 .shortcourse-keyinfo__details #shortcourse-dropdown {
@@ -9439,6 +9485,18 @@ body#library {
 
 .shortcourse-keyinfo__details #shortcourse-dropdown select {
   width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .shortcourse-keyinfo__details #shortcourse-dropdown {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .shortcourse-keyinfo__details #shortcourse-dropdown {
+    width: 90%;
+  }
 }
 
 .shortcourse-keyinfo__details .book-now {
