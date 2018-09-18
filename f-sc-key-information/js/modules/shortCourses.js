@@ -7,8 +7,8 @@ $(function () {
         var dropdownOptions = $('#shortcourse-dropdown option');
         var isCPD = ($('.shortcourse--cpd')[0]);
 
-        updateStaticData();
         updateDynamicData();
+        updateStaticData();
         checkEmptyTestimonials();
         initTutorSlider();
         flexibleSelect();
@@ -55,13 +55,25 @@ $(function () {
 
             // if storelink exists, display appropriate action button
             if (selectedOption.data('storelink') != null && selectedOption.data('storelink').trim() != '') {
-                var linkText = (selectedOption.data('register') == 'yes' ? 'REGISTER INTEREST' : 'BOOK NOW');
+                var linkText = (selectedOption.data('register') == 'yes' ? 'REGISTER INTERESTS' : 'BOOK NOWS');
+                console.log(linkText);
+
+                /* var promise1 = new Promise(function(resolve, reject) {
+                    var a = 'test';
+                  resolve(a);
+                });
+
+                promise1.then(function(value) {
+                  console.log(value);
+                  $('#dynamic-action').html('<p class="cta hard-cta"><a href=' + a + '>' + a + '</a></p>');
+              }); */
 
                 var storelink = selectedOption.data('storelink');
                 if (storelink.slice(-1) == '/') {
                     storelink = storelink.slice(0, -1);
                 }
-                $('#dynamic-action').html('<p class="cta hard-cta"><a href=' + storelink + '>' + linkText + '</a></p>');
+                // $('#dynamic-action').html('<p class="cta hard-cta"><a href=' + storelink + '>' + linkText + 'aaa</a></p>');
+                console.log($('#dynamic-action').html())
             }
             else {
                 $('#dynamic-action').empty();
@@ -147,8 +159,6 @@ $(function () {
 
 
     };
-
-    console.log('b');
 
     initShortCourses();
 });
