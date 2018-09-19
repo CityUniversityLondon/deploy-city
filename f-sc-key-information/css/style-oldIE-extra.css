@@ -8474,6 +8474,31 @@ body#library {
   right: 10.5px;
 }
 
+.shortcourse-keyinfo i {
+  width: 7%;
+  font-size: 20px;
+  position: relative;
+  top: 1px;
+  margin-right: 7px;
+  width: auto;
+  margin-right: 0;
+}
+
+.shortcourse-keyinfo i,
+.shortcourse-keyinfo #shortcourse-dropdown {
+  display: inline-block;
+}
+
+.shortcourse-keyinfo #shortcourse-dropdown {
+  width: 90%;
+  width: 80%;
+  width: 90%;
+}
+
+.shortcourse-keyinfo #shortcourse-dropdown select {
+  width: 100%;
+}
+
 .shortcourse-keyinfo h2 {
   margin-bottom: 20px;
 }
@@ -8490,6 +8515,48 @@ body#library {
   margin-bottom: 10px;
 }
 
+.shortcourse-keyinfo #dynamic-action,
+.shortcourse-keyinfo .shortcourse-keyinfo__action {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b02a1a), to(#a0271f));
+  background-image: -webkit-linear-gradient(top, #b02a1a 0%, #a0271f 100%);
+  background-image: linear-gradient(to bottom, #b02a1a 0%, #a0271f 100%);
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.shortcourse-keyinfo #dynamic-action p.cta.hard-cta,
+.shortcourse-keyinfo #dynamic-action p.cta.shortcourse-cta,
+.shortcourse-keyinfo .shortcourse-keyinfo__action p.cta.hard-cta,
+.shortcourse-keyinfo .shortcourse-keyinfo__action p.cta.shortcourse-cta {
+  margin: 7px 0;
+  max-width: 100%;
+  width: auto;
+}
+
+.shortcourse-keyinfo #dynamic-action p.cta.hard-cta a,
+.shortcourse-keyinfo #dynamic-action p.cta.shortcourse-cta a,
+.shortcourse-keyinfo .shortcourse-keyinfo__action p.cta.hard-cta a,
+.shortcourse-keyinfo .shortcourse-keyinfo__action p.cta.shortcourse-cta a {
+  border: 0;
+  display: inline-block;
+  border-radius: 0;
+  background: transparent;
+}
+
+.shortcourse-keyinfo #dynamic-action p.cta.hard-cta a i,
+.shortcourse-keyinfo #dynamic-action p.cta.shortcourse-cta a i,
+.shortcourse-keyinfo .shortcourse-keyinfo__action p.cta.hard-cta a i,
+.shortcourse-keyinfo .shortcourse-keyinfo__action p.cta.shortcourse-cta a i {
+  line-height: 1.2em;
+  padding: 0 0 0 10px;
+}
+
 .shortcourse-keyinfo .cta {
   display: block;
   max-width: 300px;
@@ -8503,7 +8570,7 @@ body#library {
 }
 
 .shortcourse-keyinfo__details {
-  margin-bottom: 30px;
+  margin: 20px 0 30px;
 }
 
 .shortcourse-keyinfo__details .start-date {
@@ -8514,31 +8581,6 @@ body#library {
 
 .shortcourse-keyinfo__details .label {
   font-weight: 700;
-}
-
-.shortcourse-keyinfo__details i,
-.shortcourse-keyinfo__details #shortcourse-dropdown {
-  display: inline-block;
-}
-
-.shortcourse-keyinfo__details i {
-  width: 7%;
-  font-size: 20px;
-  position: relative;
-  top: 1px;
-  margin-right: 7px;
-  width: auto;
-  margin-right: 0;
-}
-
-.shortcourse-keyinfo__details #shortcourse-dropdown {
-  width: 90%;
-  width: 80%;
-  width: 90%;
-}
-
-.shortcourse-keyinfo__details #shortcourse-dropdown select {
-  width: 100%;
 }
 
 .shortcourse-keyinfo__details .book-now {
@@ -9019,8 +9061,8 @@ body#library {
   position: static;
 }
 
-.shortcourse-keyinfo.shortcourse-keyinfo--cpd .shortcourse-keyinfo__action {
-  max-width: 300px;
+.shortcourse-keyinfo.shortcourse-keyinfo--cpd {
+  padding: 20px 20px 40px;
 }
 
 .shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta {
@@ -9047,6 +9089,14 @@ body#library {
 
 .shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta:nth-child(2) {
   margin-left: 5px;
+}
+
+.shortcourse-keyinfo.shortcourse-keyinfo--cpd select {
+  width: 100%;
+}
+
+.shortcourse-keyinfo.shortcourse-keyinfo--cpd:after {
+  bottom: 0;
 }
 
 .shortcourse-keyinfo.shortcourse-keyinfo--cpd .shortcourse-keyinfo__details a {

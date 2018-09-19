@@ -1,17 +1,15 @@
 $(function () {
 
     function initShortCourses() {
-
         var dropdownBlock = $('#shortcourse-dropdown');
         var dropdown = $('#shortcourse-dropdown select');
         var dropdownOptions = $('#shortcourse-dropdown option');
         var isCPD = ($('.shortcourse--cpd')[0]);
 
-        updateDynamicData();
         updateStaticData();
+        updateDynamicData();
         checkEmptyTestimonials();
         initTutorSlider();
-        flexibleSelect();
 
         dropdown.change(function() {
             updateDynamicData();
@@ -29,7 +27,8 @@ $(function () {
                         $('#dynamic-fees').append('<br>' + $(this).data('fees'));
                     }
                     else {
-                        $('#dynamic-fees').html($(this).data('fees'));
+                        // $('#dynamic-fees').html($(this).data('fees'));
+                        $('#dynamic-fees').hide().html($(this).data('fees')).fadeIn('fast');
                     }
                     uniqueItems.push($(this).data('fees'));
                     isFirstFeeAdded = true;
@@ -55,25 +54,14 @@ $(function () {
 
             // if storelink exists, display appropriate action button
             if (selectedOption.data('storelink') != null && selectedOption.data('storelink').trim() != '') {
-                var linkText = (selectedOption.data('register') == 'yes' ? 'REGISTER INTERESTS' : 'BOOK NOWS');
-                console.log(linkText);
-
-                /* var promise1 = new Promise(function(resolve, reject) {
-                    var a = 'test';
-                  resolve(a);
-                });
-
-                promise1.then(function(value) {
-                  console.log(value);
-                  $('#dynamic-action').html('<p class="cta hard-cta"><a href=' + a + '>' + a + '</a></p>');
-              }); */
+                var linkText = (selectedOption.data('register') == 'yes' ? 'REGISTER INTEREST' : 'BOOK NOW <span><i class="fa fa-chevron-circle-right" /></span>');
+                console.log('a');
 
                 var storelink = selectedOption.data('storelink');
                 if (storelink.slice(-1) == '/') {
                     storelink = storelink.slice(0, -1);
                 }
-                // $('#dynamic-action').html('<p class="cta hard-cta"><a href=' + storelink + '>' + linkText + 'aaa</a></p>');
-                console.log($('#dynamic-action').html())
+                $('#dynamic-action').html('<p class="cta hard-cta"><a href=' + storelink + '>' + linkText + '</a></p>');
             }
             else {
                 $('#dynamic-action').empty();
@@ -109,10 +97,13 @@ $(function () {
                 }
             }
             else { // key info - short courses
-                $('#dynamic-duration').html(selectedOption.data('duration'));
-                $('#dynamic-time').hide().html(selectedOption.data('time')).fadeIn('slow');
+                // $('#dynamic-duration').html(selectedOption.data('duration'));
+                $('#dynamic-duration').hide().html(selectedOption.data('duration')).fadeIn('fast');
+                // $('#dynamic-time').html(selectedOption.data('time'));
+                $('#dynamic-time').hide().html(selectedOption.data('time')).fadeIn('fast');
             }
-            $('#dynamic-code').html(selectedOption.data('code'));
+            // $('#dynamic-code').html(selectedOption.data('code'));
+            $('#dynamic-code').hide().html(selectedOption.data('code')).fadeIn('fast');
         }
 
         function checkEmptyTestimonials() {
@@ -147,18 +138,8 @@ $(function () {
             }
         }
 
-        function flexibleSelect() {
-            var d = $('#shortcourse-dropdown select');
-            var e = $('.shortcourse-keyinfo__details .start-date');
-            // e.style.height = "200px";
-            d.click(function() {
-                // $('.start-date').style.height = (d.options[d.selectedIndex].text.length*8+40)+"px";
-                e.style.height = "200px";
-            })
-        }
 
+    }
 
-    };
-
-    initShortCourses();
+    initShortCourses()
 });
