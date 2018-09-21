@@ -28,7 +28,7 @@ $(function () {
                     }
                     else {
                         // $('#dynamic-fees').html($(this).data('fees'));
-                        $('#dynamic-fees').hide().html($(this).data('fees')).fadeIn('fast');
+                        $('#dynamic-fees').hide().html($(this).data('fees')).fadeIn();
                     }
                     uniqueItems.push($(this).data('fees'));
                     isFirstFeeAdded = true;
@@ -98,12 +98,12 @@ $(function () {
             }
             else { // key info - short courses
                 // $('#dynamic-duration').html(selectedOption.data('duration'));
-                $('#dynamic-duration').hide().html(selectedOption.data('duration')).fadeIn('fast');
+                $('#dynamic-duration').hide().html(selectedOption.data('duration')).fadeIn();
                 // $('#dynamic-time').html(selectedOption.data('time'));
-                $('#dynamic-time').hide().html(selectedOption.data('time')).fadeIn('fast');
+                $('#dynamic-time').hide().html(selectedOption.data('time')).fadeIn();
             }
             // $('#dynamic-code').html(selectedOption.data('code'));
-            $('#dynamic-code').hide().html(selectedOption.data('code')).fadeIn('fast');
+            $('#dynamic-code').hide().html(selectedOption.data('code')).fadeIn();
         }
 
         function checkEmptyTestimonials() {

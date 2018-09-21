@@ -8517,9 +8517,7 @@ body#library {
 
 .shortcourse-keyinfo #dynamic-action,
 .shortcourse-keyinfo .shortcourse-keyinfo__action {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#b02a1a), to(#a0271f));
-  background-image: -webkit-linear-gradient(top, #b02a1a 0%, #a0271f 100%);
-  background-image: linear-gradient(to bottom, #b02a1a 0%, #a0271f 100%);
+  background: #d82231;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
