@@ -8481,7 +8481,7 @@ body#library {
   top: 1px;
   margin-right: 7px;
   width: auto;
-  margin-right: 0;
+  margin-right: 7px;
 }
 
 .shortcourse-keyinfo i,
@@ -8567,14 +8567,14 @@ body#library {
   color: #fff;
 }
 
-.shortcourse-keyinfo__details {
-  margin: 20px 0 30px;
-}
-
-.shortcourse-keyinfo__details .start-date {
-  border: 1px dotted white;
+.start-date {
+  border: 1px solid white;
   padding: 10px 10px 20px 10px;
   margin-bottom: 20px;
+}
+
+.shortcourse-keyinfo__details {
+  margin: 20px 0 30px;
 }
 
 .shortcourse-keyinfo__details .label {

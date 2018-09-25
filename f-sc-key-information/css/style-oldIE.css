@@ -26856,7 +26856,7 @@ body#library {
     top: 1px;
     margin-right: 7px;
     width: auto;
-    margin-right: 0; }
+    margin-right: 7px; }
   .shortcourse-keyinfo i, .shortcourse-keyinfo #shortcourse-dropdown {
     display: inline-block; }
   .shortcourse-keyinfo #shortcourse-dropdown {
@@ -26906,12 +26906,13 @@ body#library {
       display: block;
       color: #fff; }
 
+.start-date {
+  border: 1px solid white;
+  padding: 10px 10px 20px 10px;
+  margin-bottom: 20px; }
+
 .shortcourse-keyinfo__details {
   margin: 20px 0 30px; }
-  .shortcourse-keyinfo__details .start-date {
-    border: 1px dotted white;
-    padding: 10px 10px 20px 10px;
-    margin-bottom: 20px; }
   .shortcourse-keyinfo__details .label {
     font-weight: 700; }
   .shortcourse-keyinfo__details .book-now {
