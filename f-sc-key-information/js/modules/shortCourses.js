@@ -93,7 +93,8 @@ $(function () {
                 }
 
                 if (selectedOption.data('applyuntil') != null && selectedOption.data('applyuntil') != '') {
-                   $('#dynamic-applyuntil').html(selectedOption.data('applyuntil'));
+                   // $('#dynamic-applyuntil').html(selectedOption.data('applyuntil'));
+                   $('#dynamic-applyuntil').hide().html(selectedOption.data('applyuntil')).fadeIn();
                 }
             }
             else { // key info - short courses
@@ -104,6 +105,9 @@ $(function () {
             }
             // $('#dynamic-code').html(selectedOption.data('code'));
             $('#dynamic-code').hide().html(selectedOption.data('code')).fadeIn();
+            $('#dynamic-fees').hide().html(selectedOption.data('fees')).fadeIn();
+            $('#dynamic-deadline').hide().html(selectedOption.data('deadline')).fadeIn();
+            $('#dynamic-location').hide().html(selectedOption.data('location')).fadeIn();
         }
 
         function checkEmptyTestimonials() {

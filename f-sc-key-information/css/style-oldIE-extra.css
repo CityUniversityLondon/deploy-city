@@ -8304,6 +8304,10 @@ body#library {
   color: #e2992e;
 }
 
+option[data-startdatevis='hide-date'] {
+  display: none;
+}
+
 .shortcourse {
   margin-top: -50px;
 }
@@ -8372,17 +8376,6 @@ body#library {
   left: 10px;
   width: auto;
   padding: 20px;
-}
-
-.shortcourse-selection select {
-  display: block;
-  width: 100%;
-  max-width: 300px;
-  margin-bottom: 20px;
-  font-size: 1.3em;
-  padding: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 4px;
 }
 
 .shortcourse-selection .cta {
@@ -8474,6 +8467,16 @@ body#library {
   right: 10.5px;
 }
 
+.shortcourse-keyinfo select {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  font-size: 1.1em;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+}
+
 .shortcourse-keyinfo i {
   width: 7%;
   font-size: 20px;
@@ -8513,6 +8516,10 @@ body#library {
 
 .shortcourse-keyinfo .row {
   margin-bottom: 10px;
+}
+
+.shortcourse-keyinfo .row.dynamic-action {
+  margin-bottom: 30px;
 }
 
 .shortcourse-keyinfo #dynamic-action,
@@ -8568,7 +8575,7 @@ body#library {
 }
 
 .start-date {
-  border: 1px solid white;
+  border: 1px solid #ffffff80;
   padding: 10px 10px 20px 10px;
   margin-bottom: 20px;
 }
@@ -8624,6 +8631,7 @@ body#library {
 }
 
 .shortourse-secondary-cta {
+  margin-top: 20px;
   margin-top: 70px;
   text-align: center;
 }
@@ -9060,7 +9068,7 @@ body#library {
 }
 
 .shortcourse-keyinfo.shortcourse-keyinfo--cpd {
-  padding: 20px 20px 40px;
+  padding: 20px 20px 20px;
 }
 
 .shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta {

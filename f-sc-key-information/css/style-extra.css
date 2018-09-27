@@ -9147,6 +9147,10 @@ body#library {
   color: #e2992e;
 }
 
+option[data-startdatevis='hide-date'] {
+  display: none;
+}
+
 .shortcourse {
   margin-top: -50px;
 }
@@ -9248,17 +9252,6 @@ body#library {
   padding: 20px 10px;
   margin: 20px -10px 0 -10px;
   z-index: 100;
-}
-
-.shortcourse-selection select {
-  display: block;
-  width: 100%;
-  max-width: 300px;
-  margin-bottom: 20px;
-  font-size: 1.3em;
-  padding: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 4px;
 }
 
 .shortcourse-selection .cta {
@@ -9395,6 +9388,16 @@ body#library {
   }
 }
 
+.shortcourse-keyinfo select {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  font-size: 1.1em;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+}
+
 .shortcourse-keyinfo i {
   width: 7%;
   font-size: 20px;
@@ -9468,6 +9471,10 @@ body#library {
   margin-bottom: 10px;
 }
 
+.shortcourse-keyinfo .row.dynamic-action {
+  margin-bottom: 30px;
+}
+
 .shortcourse-keyinfo #dynamic-action,
 .shortcourse-keyinfo .shortcourse-keyinfo__action {
   background: #d82231;
@@ -9526,7 +9533,7 @@ body#library {
 }
 
 .start-date {
-  border: 1px solid white;
+  border: 1px solid #ffffff80;
   padding: 10px 10px 20px 10px;
   margin-bottom: 20px;
 }
@@ -9582,8 +9589,14 @@ body#library {
 }
 
 .shortourse-secondary-cta {
-  margin-top: 70px;
+  margin-top: 20px;
   text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .shortourse-secondary-cta {
+    margin-top: 70px;
+  }
 }
 
 .shortourse-secondary-cta a {
@@ -10163,7 +10176,7 @@ body#library {
 }
 
 .shortcourse-keyinfo.shortcourse-keyinfo--cpd {
-  padding: 20px 20px 40px;
+  padding: 20px 20px 20px;
 }
 
 .shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta {
