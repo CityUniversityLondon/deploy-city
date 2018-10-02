@@ -411,9 +411,9 @@
 
 .tile-wrapper .tile-listing .tile .tile-time {
   background: #fff;
-  padding: 0 10px 10px;
+  padding: 5px 10px 10px;
   font-size: 14px;
-  color: #444;
+  color: #666;
   display: block;
 }
 
@@ -427,10 +427,18 @@
 }
 
 .tile-wrapper .tile-listing .tile .tile-heading span {
-  color: #555;
+  color: #000;
   font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
   font-weight: 500;
   font-size: 16px;
+}
+
+.tile-wrapper .tile-listing .tile a .tile-heading span {
+  border-bottom: 1px dotted #000;
+}
+
+.tile-wrapper .tile-listing .tile a .tile-heading span:hover {
+  border-bottom: 1px solid #000;
 }
 
 .tile-wrapper .tile-listing .tile a.tile-img-heading {

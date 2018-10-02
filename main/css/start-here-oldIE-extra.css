@@ -1,3 +1,11 @@
+.white-box--cards-intro.white-box--cards-intro--law {
+  border-top-color: #a39995;
+}
+
+.lt-ie9 .tube-map-svg {
+  display: none;
+}
+
 .lt-ie9 .tube-map-img {
   display: block;
 }
