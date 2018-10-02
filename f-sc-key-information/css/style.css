@@ -28031,6 +28031,8 @@ option[data-startdatevis='hide-date'] {
 
 .shortcourse-keyinfo.shortcourse-keyinfo--cpd {
   padding: 20px 20px 20px; }
+  .shortcourse-keyinfo.shortcourse-keyinfo--cpd:after {
+    bottom: 131px; }
   .shortcourse-keyinfo.shortcourse-keyinfo--cpd .cta {
     display: inline-block;
     font-size: 1.3em;
@@ -28050,9 +28052,6 @@ option[data-startdatevis='hide-date'] {
 
 .shortcourse-keyinfo.shortcourse-keyinfo--cpd select {
   width: 100%; }
-
-.shortcourse-keyinfo.shortcourse-keyinfo--cpd:after {
-  bottom: 0; }
 
 .shortcourse-keyinfo.shortcourse-keyinfo--cpd .shortcourse-keyinfo__details a {
   color: #eee;
