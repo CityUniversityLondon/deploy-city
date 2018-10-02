@@ -1,0 +1,47 @@
+.white-box--cards-intro.white-box--cards-intro--journalism {
+  border-top-color: #18739f;
+}
+
+.white-box--cards-intro.white-box--cards-intro--psychology {
+  border-top-color: #381a5b;
+}
+
+.white-box--cards-intro.white-box--cards-intro--sociology {
+  border-top-color: #a39995;
+}
+
+.white-box--cards-intro.white-box--cards-intro--computing {
+  border-top-color: #18739f;
+}
+
+.white-box--cards-intro.white-box--cards-intro--engineering {
+  border-top-color: #7e1e91;
+}
+
+.white-box--cards-intro.white-box--cards-intro--maths {
+  border-top-color: #f2511b;
+}
+
+.white-box--cards-intro.white-box--cards-intro--business {
+  border-top-color: #381a5b;
+}
+
+.white-box--cards-intro.white-box--cards-intro--health {
+  border-top-color: #5a9d36;
+}
+
+.white-box--cards-intro.white-box--cards-intro--law {
+  border-top-color: #a39995;
+}
+
+.lt-ie9 .tube-map-svg {
+  display: none;
+}
+
+.lt-ie9 .tube-map-img {
+  display: block;
+}
+
+.lt-ie9 .featured-stops-static {
+  display: block;
+}
