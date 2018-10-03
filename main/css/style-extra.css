@@ -9754,6 +9754,292 @@ body#library {
   font-size: 1em;
 }
 
+.policy-finder input,
+.policy-finder select {
+  font-size: 16px;
+}
+
+.policy-finder__query-wrapper {
+  margin-top: -40px;
+  background: #ccc;
+}
+
+.policy-finder__form-wrapper {
+  background: #eee;
+}
+
+.policy-finder__query .query-box {
+  padding-right: 44px;
+  position: relative;
+}
+
+.policy-finder__query input {
+  padding: 10px 10px 9px 10px;
+  width: 100%;
+  border: 1px solid #a9a9a9;
+  font-size: 16px;
+}
+
+.policy-finder__query button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  border: 1px solid #a9a9a9;
+}
+
+.policy-finder__form .filter-box h2 {
+  font-size: 24px;
+}
+
+.policy-finder__clear-buttons {
+  display: none;
+}
+
+@media only screen and (min-width:600px) {
+  .policy-finder__clear-buttons {
+    display: block;
+  }
+}
+
+.policy-finder__clear-buttons>div {
+  display: inline-block;
+}
+
+.policy-finder__clear-buttons a {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 3px;
+  margin: 10px 10px 0 0;
+}
+
+.policy-finder__clear-buttons a:link,
+.policy-finder__clear-buttons a:visited {
+  background: #b91b1c;
+  color: #fff;
+  border-color: #b91b1c;
+}
+
+.policy-finder__clear-buttons a:hover {
+  background: #f22428;
+  color: #fff;
+  border-color: #f22428;
+}
+
+.policy-finder__clear-buttons a:active,
+.policy-finder__clear-buttons a:focus {
+  background: #fff;
+  color: #b91b1c;
+  border-color: #b91b1c;
+}
+
+@media only screen and (min-width:600px) {
+  .policy-finder__results {
+    padding-left: 20px;
+  }
+}
+
+.policy-finder__results__summary {
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.policy-finder__results__summary__refresh {
+  display: inline-block;
+  color: #b91b1c;
+  margin-left: 5px;
+}
+
+.finder__results__headers {
+  padding: 20px;
+  font-weight: 600;
+}
+
+.policy-finder__results__item {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+@media only screen and (min-width:600px) {
+  .policy-finder__results__item {
+    padding: 20px;
+  }
+}
+
+.policy-finder__results__item h2 {
+  margin: 0 48px 0 0;
+  font-size: 1.3em;
+  line-height: 28px;
+}
+
+.policy-finder__results__item h2 a {
+  font-weight: 500;
+  padding-top: 4px;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  position: relative;
+}
+
+.policy-finder__results__item h2 a,
+.policy-finder__results__item h2 a:focus,
+.policy-finder__results__item h2 a:hover {
+  text-decoration: none;
+}
+
+.policy-finder__results__item h2 a:link {
+  color: #b91b1b;
+  border-bottom-color: #999;
+}
+
+.policy-finder__results__item h2 a:visited {
+  color: #670003;
+}
+
+.policy-finder__results__item h2 a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #670003;
+}
+
+.policy-finder__results__item h2 a:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.policy-finder__results__item h2 a:active {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.policy-finder__results__item__department {
+  padding: 3px 0;
+  font-weight: 600;
+  color: #666;
+}
+
+.policy-finder__results__item__md {
+  margin-bottom: 5px;
+}
+
+#courses-widget .widget-content .ui-accordion-header .policy-finder__results__item__md>.ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .policy-finder__results__item__md>.ui-icon,
+.dialog .policy-finder__results__item__md>button,
+.policy-finder__results__item__md>.fa,
+.ui-accordion .ui-accordion-header .policy-finder__results__item__md>.ui-icon,
+.white-card__media .embed-container .policy-finder__results__item__md>a:before {
+  float: left;
+  line-height: 21px;
+}
+
+.policy-finder__results__item__md>.fa-check-circle {
+  color: #6c953c;
+}
+
+.policy-finder__results__item__md>.fa-minus-circle {
+  color: #e55302;
+}
+
+.policy-finder__results__item__md>.fa-exclamation-circle {
+  color: #c33;
+}
+
+.policy-finder__results__item__md>div {
+  margin-left: 22px;
+}
+
+.policy-finder__results__item__info {
+  display: none;
+  margin-top: 10px;
+  border-top: 2px solid #eee;
+}
+
+.policy-finder__results__item__info.policy-finder__results__item__info--open {
+  display: block;
+}
+
+.policy-finder__results__item__description {
+  margin: 10px 0;
+}
+
+.policy-finder__results__item__md span {
+  color: #666;
+}
+
+.policy-finder__results__item__md__label {
+  font-weight: 600;
+}
+
+@media only screen and (min-width:600px) {
+  .policy-finder__results__item__info-toggle {
+    display: none;
+  }
+
+  .policy-finder__results__item__info {
+    display: block;
+  }
+}
+
+.policy-finder__results__item__info-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  background: #b91b1b;
+  color: #fff;
+  -webkit-transition: color .1s,background .1s;
+  transition: color .1s,background .1s;
+}
+
+#courses-widget .widget-content .ui-accordion-header .policy-finder__results__item__info-toggle .ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .policy-finder__results__item__info-toggle .ui-icon,
+.dialog .policy-finder__results__item__info-toggle button,
+.policy-finder__results__item__info-toggle #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.policy-finder__results__item__info-toggle .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.policy-finder__results__item__info-toggle .dialog button,
+.policy-finder__results__item__info-toggle .fa,
+.policy-finder__results__item__info-toggle .ui-accordion .ui-accordion-header .ui-icon,
+.policy-finder__results__item__info-toggle .white-card__media .embed-container a:before,
+.ui-accordion .ui-accordion-header .policy-finder__results__item__info-toggle .ui-icon,
+.white-card__media .embed-container .policy-finder__results__item__info-toggle a:before {
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s,-webkit-transform .3s;
+}
+
+.policy-finder__results__item__info-toggle:active,
+.policy-finder__results__item__info-toggle:focus {
+  background: #eee;
+  color: #333;
+}
+
+.policy-finder__results__item__info-toggle:hover {
+  background: #eee;
+  color: #b91b1b;
+}
+
+.policy-finder-test #primary-nav-toggler,
+.policy-finder-test #slice-navigation {
+  display: none;
+}
+
+.policy-finder__bottom-banner {
+  max-height: 250px;
+}
+
+.policy-finder__bottom-banner__img {
+  width: 100%;
+  margin: 0;
+}
+
 .survey-message {
   -webkit-transition-duration: .6s;
   transition-duration: .6s;
