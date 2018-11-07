@@ -791,10 +791,6 @@
   background: #3e1031;
 }
 
-.tile-wrapper.tile-wrapper--undergraduate .white-box--cards-intro {
-  border-top-color: #3e1031;
-}
-
 .tile-wrapper.tile-wrapper--undergraduate .read-more a:not(:hover):not(:active):not(:focus) {
   background: #3e1031;
   border-color: #3e1031;
@@ -807,10 +803,6 @@
 
 .tile-wrapper.tile-wrapper--postgraduate .filter-box__inner {
   background: #00284c;
-}
-
-.tile-wrapper.tile-wrapper--postgraduate .white-box--cards-intro {
-  border-top-color: #00284c;
 }
 
 .tile-wrapper.tile-wrapper--postgraduate .read-more a:not(:hover):not(:active):not(:focus) {
@@ -1730,57 +1722,11 @@
 }
 
 .white-box--cards-intro {
-  border-top: 5px solid #3e1031;
+  background-color: #3e1031;
+  color: #FFF;
+  font-weight: 300;
 }
 
-.white-box--cards-intro.white-box--cards-intro--creative {
-  border-top-color: #f14b1c;
-}
-
-.white-box--cards-intro.white-box--cards-intro--economics {
-  border-top-color: #e78f0d;
-}
-
-.white-box--cards-intro.white-box--cards-intro--music {
-  border-top-color: #7e1e91;
-}
-
-.white-box--cards-intro.white-box--cards-intro--politics {
-  border-top-color: #5a9d36;
-}
-
-.white-box--cards-intro.white-box--cards-intro--journalism {
-  border-top-color: #18739f;
-}
-
-.white-box--cards-intro.white-box--cards-intro--psychology {
-  border-top-color: #381a5b;
-}
-
-.white-box--cards-intro.white-box--cards-intro--sociology {
-  border-top-color: #a39995;
-}
-
-.white-box--cards-intro.white-box--cards-intro--computing {
-  border-top-color: #18739f;
-}
-
-.white-box--cards-intro.white-box--cards-intro--engineering {
-  border-top-color: #7e1e91;
-}
-
-.white-box--cards-intro.white-box--cards-intro--maths {
-  border-top-color: #f2511b;
-}
-
-.white-box--cards-intro.white-box--cards-intro--business {
-  border-top-color: #381a5b;
-}
-
-.white-box--cards-intro.white-box--cards-intro--health {
-  border-top-color: #5a9d36;
-}
-
-.white-box--cards-intro.white-box--cards-intro--law {
-  border-top-color: #a39995;
+.white-box--cards-intro b {
+  font-weight: 700;
 }

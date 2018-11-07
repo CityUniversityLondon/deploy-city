@@ -6975,10 +6975,6 @@ aside .news-article-widget:last-child {
   background: #3e1031;
 }
 
-.tile-wrapper.tile-wrapper--undergraduate .white-box--cards-intro {
-  border-top-color: #3e1031;
-}
-
 .tile-wrapper.tile-wrapper--undergraduate .read-more a:not(:hover):not(:active):not(:focus) {
   background: #3e1031;
   border-color: #3e1031;
@@ -6991,10 +6987,6 @@ aside .news-article-widget:last-child {
 
 .tile-wrapper.tile-wrapper--postgraduate .filter-box__inner {
   background: #00284c;
-}
-
-.tile-wrapper.tile-wrapper--postgraduate .white-box--cards-intro {
-  border-top-color: #00284c;
 }
 
 .tile-wrapper.tile-wrapper--postgraduate .read-more a:not(:hover):not(:active):not(:focus) {
@@ -14995,4 +14987,13 @@ p.left-float-image {
 .scholarship a:link {
   color: #b91b1b;
   border-bottom-color: #999;
+}
+
+.scholarship a:visited {
+  color: #670003;
+}
+
+.scholarship a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #670003;
 }
