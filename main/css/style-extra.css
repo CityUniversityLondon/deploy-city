@@ -2834,7 +2834,7 @@
 
 .course-pg .course__key-information,
 .course-pg .course__subheader:after {
-  background-color: #4d2a42;
+  background-color: #3e1031;
 }
 
 .course-pg .course__key-information h3 {
@@ -2846,7 +2846,7 @@
 }
 
 .course-pg .course__red-links__link {
-  background-color: #4d2a42;
+  background-color: #3e1031;
 }
 
 .course-pg .course__red-links__link:hover {
@@ -2864,12 +2864,12 @@
 }
 
 .course-pg .course__testimonials__wrapper {
-  background-color: #4d2a42;
+  background-color: #3e1031;
 }
 
 .course-pg .course__profiles__item__title a:active,
 .course-pg .course__profiles__item__title a:focus {
-  color: #4d2a42;
+  color: #3e1031;
 }
 
 .course-rd .course__key-information,

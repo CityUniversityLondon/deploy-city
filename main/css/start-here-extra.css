@@ -738,12 +738,12 @@
 .tile-wrapper .read-more a {
   display: inline-block;
   text-align: center;
-  background: #4d2a42;
+  background: #3e1031;
   -webkit-transition: color .1s,background .1s;
   transition: color .1s,background .1s;
   color: #fff;
   padding: 10px 50px;
-  border: 1px solid #4d2a42;
+  border: 1px solid #3e1031;
   font-weight: 700;
   text-decoration: none;
 }
@@ -764,13 +764,13 @@
 
 .tile-wrapper .read-more a:active,
 .tile-wrapper .read-more a:focus {
-  color: #4d2a42;
+  color: #3e1031;
   background: #fff;
 }
 
 .tile-wrapper .read-more a:active span,
 .tile-wrapper .read-more a:focus span {
-  border-bottom: 1px solid #4d2a42;
+  border-bottom: 1px solid #3e1031;
 }
 
 .tile-listing--intranet {
@@ -853,7 +853,7 @@
 
 .tube-map-svg text {
   font-size: 20px;
-  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-family: ff-meta-web,'Helvetica Neue',Arial,Helvetica,sans-serif;
   fill: #333;
   font-weight: 500;
   stroke: none;
@@ -1069,7 +1069,7 @@
 .tube-map-svg .tube-map-thames text {
   fill: #fff;
   stroke: none;
-  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-family: ff-meta-web,'Helvetica Neue',Arial,Helvetica,sans-serif;
   font-size: 16px;
 }
 
@@ -1230,7 +1230,7 @@
   font-family: FontAwesome;
   font-size: 20px;
   line-height: 1;
-  color: #4d2a42;
+  color: #3e1031;
   opacity: .75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1337,7 +1337,7 @@
 
 .featured-stops {
   margin-top: 30px;
-  background: #4d2a42;
+  background: #3e1031;
   color: #fff;
   padding: 5px;
 }
@@ -1400,7 +1400,7 @@
 }
 
 .featured-stops .featured-stop .featured-stop-link a:focus {
-  color: #4d2a42;
+  color: #3e1031;
   background: #fff;
 }
 
@@ -1477,7 +1477,7 @@
 }
 
 .fw-section-wrapper.section-fw-white-wrapper.starhere-home-ribbon-wrapper {
-  background: #4d2a42;
+  background: #3e1031;
   padding: 30px 0;
 }
 
@@ -1587,7 +1587,7 @@
 .home .image-banner#promo-wrapper .banner .banner-text-wrapper .banner-text {
   position: static;
   margin-top: 10px;
-  background: #4d2a42;
+  background: #3e1031;
 }
 
 @media only screen and (min-width:768px) {
@@ -1677,7 +1677,7 @@
   height: 30px;
   text-align: center;
   border-radius: 15px;
-  background: #4d2a42;
+  background: #3e1031;
   color: #fff;
   cursor: pointer;
 }
@@ -1730,7 +1730,7 @@
 }
 
 .white-box--cards-intro {
-  border-top: 5px solid #4d2a42;
+  border-top: 5px solid #3e1031;
 }
 
 .white-box--cards-intro.white-box--cards-intro--creative {
