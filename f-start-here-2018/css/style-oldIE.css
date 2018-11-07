@@ -15798,8 +15798,8 @@ or until modernizr tests for it (version 3?).
       position: absolute;
       bottom: -1px;
       left: 0;
-      color: #666;
-      background: white;
+      color: #333;
+      background: #b5975a;
       font-weight: bold;
       z-index: 1;
       font-size: 1em;
