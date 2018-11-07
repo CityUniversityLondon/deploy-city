@@ -391,16 +391,17 @@
 }
 
 .tile-wrapper .tile-listing .tile .tile-subject-icon {
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  color: #333;
   background: #b5975a;
-  font-weight: bold;
-  z-index: 1;
+  bottom: -1px;
+  color: #333;
+  display: none;
   font-size: 1em;
+  font-weight: bold;
+  left: 0;
   padding: 4px 8px;
   pointer-events: none;
+  position: absolute;
+  z-index: 1;
 }
 
 @media only screen and (min-width: 480px) {
@@ -422,6 +423,14 @@
     font-size: 1.3em;
     padding: 6px 10px;
   }
+}
+
+.tile-wrapper .tile-listing .tile.tile--featured .tile-subject-icon {
+  display: block;
+}
+
+.tile-wrapper .tile-listing .tile.tile--featured .tile-canvas {
+  border: 3px solid #b5975a;
 }
 
 .tile-wrapper .tile-listing .tile .tile-text {

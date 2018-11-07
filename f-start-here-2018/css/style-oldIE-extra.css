@@ -1,3 +1,11 @@
+.service-finder__results__item__info-toggle:active,
+.service-finder__results__item__info-toggle:focus,
+.project-finder__results__item__info-toggle:active,
+.project-finder__results__item__info-toggle:focus {
+  background: #eee;
+  color: #333;
+}
+
 .service-finder__results__item__info-toggle:hover,
 .project-finder__results__item__info-toggle:hover {
   background: #eee;
