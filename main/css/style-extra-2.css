@@ -11304,7 +11304,7 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 .start-here .tile-filters {
   padding: 20px;
-  background: #DEDAD6;
+  background: #dedad6;
 }
 
 .start-here .tile-filters .filter-heading,
@@ -11335,7 +11335,7 @@ a.ghost-cta .white-card__media .embed-container a:before {
   .start-here .tile-filters .filter-reset a {
     white-space: nowrap;
     padding-left: 20px;
-    border-left: 1px solid #C3C3C3;
+    border-left: 1px solid #c3c3c3;
   }
 }
 
@@ -11348,7 +11348,7 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 .start-here .tile-filters .filter-select .city-dropdown a.display {
-  border: 1px solid #E3E3E3;
+  border: 1px solid #e3e3e3;
   font-weight: 700;
   color: #b02a1a;
   display: block;
@@ -11372,7 +11372,7 @@ a.ghost-cta .white-card__media .embed-container a:before {
 .start-here .tile-filters .filter-select .city-dropdown .options {
   display: none;
   background: #fff;
-  border: 1px solid #E3E3E3;
+  border: 1px solid #e3e3e3;
   border-bottom: none;
   position: absolute;
   z-index: 1000;
@@ -11383,7 +11383,7 @@ a.ghost-cta .white-card__media .embed-container a:before {
 .start-here .tile-filters .filter-select .city-dropdown .options a {
   display: block;
   color: #b02a1a;
-  border-bottom: 1px solid #E3E3E3;
+  border-bottom: 1px solid #e3e3e3;
   background: #efefef;
   padding: 5px 15px;
 }
