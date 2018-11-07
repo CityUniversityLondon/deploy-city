@@ -1724,9 +1724,12 @@
 .white-box--cards-intro {
   background-color: #3e1031;
   color: #FFF;
+}
+
+.white-box--cards-intro h2 {
   font-weight: 300;
 }
 
-.white-box--cards-intro b {
+.white-box--cards-intro h2 b {
   font-weight: 700;
 }
