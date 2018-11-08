@@ -384,21 +384,18 @@
 
 @media only screen and (min-width:480px) {
   .tile-wrapper .tile-listing .tile .tile-subject-icon {
-    font-size: 1.3em;
     padding: 6px 10px;
   }
 }
 
 @media only screen and (min-width:768px) {
   .tile-wrapper .tile-listing .tile .tile-subject-icon {
-    font-size: 1em;
     padding: 4px 8px;
   }
 }
 
 @media only screen and (min-width:980px) {
   .tile-wrapper .tile-listing .tile .tile-subject-icon {
-    font-size: 1.3em;
     padding: 6px 10px;
   }
 }

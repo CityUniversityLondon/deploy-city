@@ -6590,11 +6590,8 @@ aside .news-article-widget:last-child {
   pointer-events: none;
   position: absolute;
   z-index: 1;
-  font-size: 1.3em;
   padding: 6px 10px;
-  font-size: 1em;
   padding: 4px 8px;
-  font-size: 1.3em;
   padding: 6px 10px;
 }
 
