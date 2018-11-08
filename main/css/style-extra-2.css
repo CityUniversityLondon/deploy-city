@@ -7065,16 +7065,17 @@ aside .news-article-widget:last-child {
 }
 
 .tile-wrapper .tile-listing .tile .tile-subject-icon {
-  position: absolute;
+  background: #b5975a;
   bottom: -1px;
-  left: 0;
-  color: #666;
-  background: #fff;
+  color: #333;
+  display: none;
+  font-size: 14px;
   font-weight: 700;
-  z-index: 1;
-  font-size: 1em;
+  left: 0;
   padding: 4px 8px;
   pointer-events: none;
+  position: absolute;
+  z-index: 1;
 }
 
 @media only screen and (min-width:480px) {
@@ -7096,6 +7097,14 @@ aside .news-article-widget:last-child {
     font-size: 1.3em;
     padding: 6px 10px;
   }
+}
+
+.tile-wrapper .tile-listing .tile.tile--featured .tile-subject-icon {
+  display: block;
+}
+
+.tile-wrapper .tile-listing .tile.tile--featured .tile-canvas {
+  border: 3px solid #b5975a;
 }
 
 .tile-wrapper .tile-listing .tile .tile-text {

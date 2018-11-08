@@ -1,3 +1,12 @@
+.scholarship a:visited {
+  color: #670003;
+}
+
+.scholarship a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #670003;
+}
+
 .scholarship a:focus {
   background-color: #b91b1b;
   color: #FFF;
