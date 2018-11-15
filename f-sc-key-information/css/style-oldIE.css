@@ -26846,7 +26846,6 @@ option[data-startdatevis='hide-date'] {
   .shortcourse-keyinfo select {
     display: block;
     width: 100%;
-    max-width: 300px;
     font-size: 1.1em;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -26862,9 +26861,9 @@ option[data-startdatevis='hide-date'] {
   .shortcourse-keyinfo i, .shortcourse-keyinfo #shortcourse-dropdown {
     display: inline-block; }
   .shortcourse-keyinfo #shortcourse-dropdown {
-    width: 90%;
+    width: 85%;
     width: 80%;
-    width: 90%; }
+    width: 85%; }
     .shortcourse-keyinfo #shortcourse-dropdown select {
       width: 100%; }
   .shortcourse-keyinfo h2 {
@@ -27093,6 +27092,9 @@ option[data-startdatevis='hide-date'] {
 .shortcourse-tutor-block a:focus {
   background: #FFFFFF;
   color: #333; }
+
+.shortcourse-tutor-block .bx-viewport {
+  height: auto !important; }
 
 .shortcourse-tutor-block .bx-controls {
   display: block; }

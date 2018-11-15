@@ -55,7 +55,6 @@ $(function () {
             // if storelink exists, display appropriate action button
             if (selectedOption.data('storelink') != null && selectedOption.data('storelink').trim() != '') {
                 var linkText = (selectedOption.data('register') == 'yes' ? 'REGISTER INTEREST' : 'BOOK NOW <span><i class="fa fa-chevron-circle-right" /></span>');
-                console.log('a');
 
                 var storelink = selectedOption.data('storelink');
                 if (storelink.slice(-1) == '/') {
@@ -116,6 +115,8 @@ $(function () {
                 $('.shortcourse-testimonials').addClass('shortcourse-testimonials--empty').removeClass('shortcourse-testimonials');
             }
             $('.shortcourse-testimonials-block').show();
+            $('.bx-viewport').css('height','auto');
+            $('.course__profiles__item.course__profiles__item').css('width','100vw');
         }
 
         function initTutorSlider() {
@@ -141,7 +142,6 @@ $(function () {
                 $('.shortcourse-tutor-wrapper').addClass('shortcourse-tutor-selection');
             }
         }
-
 
     }
 
