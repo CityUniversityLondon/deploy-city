@@ -92,17 +92,13 @@ $(function () {
                 }
 
                 if (selectedOption.data('applyuntil') != null && selectedOption.data('applyuntil') != '') {
-                   // $('#dynamic-applyuntil').html(selectedOption.data('applyuntil'));
                    $('#dynamic-applyuntil').hide().html(selectedOption.data('applyuntil')).fadeIn();
                 }
             }
             else { // key info - short courses
-                // $('#dynamic-duration').html(selectedOption.data('duration'));
                 $('#dynamic-duration').hide().html(selectedOption.data('duration')).fadeIn();
-                // $('#dynamic-time').html(selectedOption.data('time'));
                 $('#dynamic-time').hide().html(selectedOption.data('time')).fadeIn();
             }
-            // $('#dynamic-code').html(selectedOption.data('code'));
             $('#dynamic-code').hide().html(selectedOption.data('code')).fadeIn();
             $('#dynamic-fees').hide().html(selectedOption.data('fees')).fadeIn();
             $('#dynamic-deadline').hide().html(selectedOption.data('deadline')).fadeIn();
@@ -115,8 +111,12 @@ $(function () {
                 $('.shortcourse-testimonials').addClass('shortcourse-testimonials--empty').removeClass('shortcourse-testimonials');
             }
             $('.shortcourse-testimonials-block').show();
+            // Bug fix: define initial carousel dimensions otherwise won't load correctly
             $('.bx-viewport').css('height','auto');
-            $('.course__profiles__item.course__profiles__item').css('width','100vw');
+            $('.course__profiles__item.course__profiles__item').css({
+                'width': '100vw',
+                'max-width': '1200px'
+            });
         }
 
         function initTutorSlider() {
