@@ -26900,6 +26900,8 @@ option[data-startdatevis='hide-date'] {
         .shortcourse-keyinfo #dynamic-action p.cta.hard-cta a i, .shortcourse-keyinfo #dynamic-action p.cta.shortcourse-cta a i, .shortcourse-keyinfo .shortcourse-keyinfo__action p.cta.hard-cta a i, .shortcourse-keyinfo .shortcourse-keyinfo__action p.cta.shortcourse-cta a i {
           line-height: 1.2em;
           padding: 0 0 0 10px; }
+  .shortcourse-keyinfo #dynamic-action-further {
+    text-align: center; }
   .shortcourse-keyinfo .cta {
     display: block;
     max-width: 300px;

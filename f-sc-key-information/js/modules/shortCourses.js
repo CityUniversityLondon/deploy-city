@@ -49,12 +49,16 @@ $(function () {
 
         function updateDynamicData() {
             var selectedOption = dropdown.find(':selected');
+            var deadlineFurther = 'First come, first served. Booking is sometimes possible shortly after start date, subject to availability.';
+
+            console.log(selectedOption.data());
 
             $('#dynamic-subtext').html(selectedOption.data('startdatesubtext'));
+            $('#dynamic-deadline-further').hide().html(deadlineFurther).fadeIn();
 
             // if storelink exists, display appropriate action button
             if (selectedOption.data('storelink') != null && selectedOption.data('storelink').trim() != '') {
-                var linkText = (selectedOption.data('register') == 'yes' ? 'REGISTER INTEREST' : 'BOOK NOW <span><i class="fa fa-chevron-circle-right" /></span>');
+                var linkText = (selectedOption.data('register') == 'yes' ? 'Register interest' : 'Book now <span><i class="fa fa-chevron-circle-right" /></span>');
 
                 var storelink = selectedOption.data('storelink');
                 if (storelink.slice(-1) == '/') {
@@ -94,11 +98,11 @@ $(function () {
                 if (selectedOption.data('applyuntil') != null && selectedOption.data('applyuntil') != '') {
                    $('#dynamic-applyuntil').hide().html(selectedOption.data('applyuntil')).fadeIn();
                 }
-            }
-            else { // key info - short courses
+            } else { // key info - short courses
                 $('#dynamic-duration').hide().html(selectedOption.data('duration')).fadeIn();
                 $('#dynamic-time').hide().html(selectedOption.data('time')).fadeIn();
             }
+            $('#dynamic-days').hide().html(selectedOption.data('days')).fadeIn();
             $('#dynamic-code').hide().html(selectedOption.data('code')).fadeIn();
             $('#dynamic-fees').hide().html(selectedOption.data('fees')).fadeIn();
             $('#dynamic-deadline').hide().html(selectedOption.data('deadline')).fadeIn();

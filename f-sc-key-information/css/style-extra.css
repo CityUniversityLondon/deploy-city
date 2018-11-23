@@ -9514,6 +9514,10 @@ option[data-startdatevis='hide-date'] {
   padding: 0 0 0 10px;
 }
 
+.shortcourse-keyinfo #dynamic-action-further {
+  text-align: center;
+}
+
 .shortcourse-keyinfo .cta {
   display: block;
   max-width: 300px;
