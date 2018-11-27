@@ -98,6 +98,9 @@ $(function () {
                 if (selectedOption.data('applyuntil') != null && selectedOption.data('applyuntil') != '') {
                    $('#dynamic-applyuntil').hide().html(selectedOption.data('applyuntil')).fadeIn();
                 }
+
+                selectedOption.data('test');
+                
             } else { // key info - short courses
                 $('#dynamic-duration').hide().html(selectedOption.data('duration')).fadeIn();
                 $('#dynamic-time').hide().html(selectedOption.data('time')).fadeIn();
@@ -105,8 +108,17 @@ $(function () {
             $('#dynamic-days').hide().html(selectedOption.data('days')).fadeIn();
             $('#dynamic-code').hide().html(selectedOption.data('code')).fadeIn();
             $('#dynamic-fees').hide().html(selectedOption.data('fees')).fadeIn();
-            $('#dynamic-deadline').hide().html(selectedOption.data('deadline')).fadeIn();
             $('#dynamic-location').hide().html(selectedOption.data('location')).fadeIn();
+
+            // If deadline override metadata exists, print this data value instead of other fields
+            if (selectedOption.data('bookingdeadlineoverride')) {
+                $('#dynamic-deadline').hide().html(selectedOption.data('bookingdeadlineoverride')).fadeIn();
+                $('#dynamic-deadline-further').hide();
+            } else {
+                $('#dynamic-deadline').hide().html(selectedOption.data('bookingdeadline')).fadeIn();
+            }
+            selectedOption.data('test2');
+
         }
 
         function checkEmptyTestimonials() {
