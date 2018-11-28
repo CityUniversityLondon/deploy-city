@@ -8,7 +8,7 @@ var defer = require('./utils/defer'),
             var dropdown = $('#shortcourse-dropdown select');
             var dropdownOptions = $('#shortcourse-dropdown option');
             var isCPD = ($('.shortcourse--cpd')[0]);
-    
+
             updateStaticData();
             updateDynamicData();
             checkEmptyTestimonials();
@@ -20,22 +20,6 @@ var defer = require('./utils/defer'),
     
             function updateStaticData() {
                 var selectedOption = dropdown.find(':selected');
-                var uniqueItems = [];
-                var isFirstFeeAdded = false;
-    
-                // // fees
-                // dropdownOptions.each(function() {
-                //     if ($.inArray($(this).data('fees'), uniqueItems) == -1) {
-                //         if (isFirstFeeAdded) {
-                //             $('#dynamic-fees').append('<br>' + $(this).data('fees'));
-                //         }
-                //         else {
-                //             $('#dynamic-fees').hide().html($(this).data('fees')).fadeIn();
-                //         }
-                //         uniqueItems.push($(this).data('fees'));
-                //         isFirstFeeAdded = true;
-                //     }
-                // });
     
                 // remove dropdownBlock if dropdown is empty or if it only contains hidden dummy
                 if (dropdownOptions.length == 0) {
@@ -101,9 +85,7 @@ var defer = require('./utils/defer'),
                     if (selectedOption.data('applyuntil') != null && selectedOption.data('applyuntil') != '') {
                        $('#dynamic-applyuntil').hide().html(selectedOption.data('applyuntil')).fadeIn();
                     }
-    
-                    selectedOption.data('test');
-                    
+
                 } else { // key info - short courses
                     $('#dynamic-duration').hide().html(selectedOption.data('duration')).fadeIn();
                     $('#dynamic-time').hide().html(selectedOption.data('time')).fadeIn();
@@ -112,6 +94,11 @@ var defer = require('./utils/defer'),
                 $('#dynamic-code').hide().html(selectedOption.data('code')).fadeIn();
                 $('#dynamic-fees').hide().html(selectedOption.data('fees')).fadeIn();
                 $('#dynamic-location').hide().html(selectedOption.data('location')).fadeIn();
+
+                if (!(selectedOption.data())) {
+                    $('.start-date', '#dynamic-deadline', '#dynamic-applyuntil').css('display', 'none');
+                    $('#dynamic-deadline-further').html('<span>No courses currently avaialable</span>');
+                }
     
                 // If deadline override metadata exists, print this data value instead of other fields
                 if (selectedOption.data('bookingdeadlineoverride')) {
