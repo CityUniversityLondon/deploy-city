@@ -38,10 +38,28 @@ var defer = require('./utils/defer'),
                 var deadlineFurther = 'First come, first served. Booking is sometimes possible shortly after start date, subject to availability.';
 
                 // Use Moment.js package to format date
-                var bookingDeadlineFormatted = moment(selectedOption.data('bookingdeadline')).format('ddd D MMM YYYY');
+                // var bookingDeadlineFormatted = moment(selectedOption.data('bookingdeadline')).format('ddd D MMM YYYY');
     
                 $('#dynamic-subtext').html(selectedOption.data('startdatesubtext'));
-                $('#dynamic-deadline-further').hide().html(deadlineFurther).fadeIn();
+
+                // If no dates in presentation listing
+                if (!(selectedOption.data())) {
+                    $('.start-date').css('display', 'none');
+                    $('#dynamic-deadline-further').hide();
+                    $("span[id^='dynamic-']").html('<span>TBC</span>');
+                } else {
+                    $('#dynamic-deadline').hide().html(deadlineFurther).fadeIn();
+                }
+
+                // If no dates in presentation listing
+                // if (!(selectedOption.data())) {
+                //     $('.start-date').css('display', 'none');
+                //     $('#dynamic-deadline-further').hide();
+                //     $("span[id^='dynamic-']").html('<span>TBC</span>');
+                // } else {
+                //     $('#dynamic-deadline').hide().html(deadlineFurther).fadeIn();
+                // }
+
     
                 // if storelink exists, display appropriate action button
                 if (selectedOption.data('storelink') != null && selectedOption.data('storelink').trim() != '') {
@@ -95,19 +113,12 @@ var defer = require('./utils/defer'),
                 $('#dynamic-fees').hide().html(selectedOption.data('fees')).fadeIn();
                 $('#dynamic-location').hide().html(selectedOption.data('location')).fadeIn();
 
-                if (!(selectedOption.data())) {
-                    $('.start-date').css('display', 'none');
-                    $('#dynamic-deadline').css('display', 'none');
-                    $('#dynamic-applyuntil').css('display', 'none');
-                    $('#dynamic-deadline-further').html('<span>No courses currently avaialable</span>');
-                }
+                
     
                 // If deadline override metadata exists, print this data value instead of other fields
                 if (selectedOption.data('bookingdeadlineoverride')) {
-                    $('#dynamic-deadline').hide().html(selectedOption.data('bookingdeadlineoverride')).fadeIn();
                     $('#dynamic-deadline-further').hide();
-                } else {
-                    $('#dynamic-deadline').hide().html(bookingDeadlineFormatted).fadeIn();
+                    $('#dynamic-deadline').hide().html(selectedOption.data('bookingdeadlineoverride')).fadeIn();
                 }
     
             }
