@@ -96,7 +96,9 @@ var defer = require('./utils/defer'),
                 $('#dynamic-location').hide().html(selectedOption.data('location')).fadeIn();
 
                 if (!(selectedOption.data())) {
-                    $('.start-date', '#dynamic-deadline', '#dynamic-applyuntil').css('display', 'none');
+                    $('.start-date').css('display', 'none');
+                    $('#dynamic-deadline').css('display', 'none');
+                    $('#dynamic-applyuntil').css('display', 'none');
                     $('#dynamic-deadline-further').html('<span>No courses currently avaialable</span>');
                 }
     
