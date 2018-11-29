@@ -26887,8 +26887,10 @@ option[data-startdatevis='hide-date'] {
     max-width: 100%; }
   .shortcourse-keyinfo .row {
     margin-bottom: 10px; }
-  .shortcourse-keyinfo .row.dynamic-action {
-    margin-bottom: 30px; }
+  .shortcourse-keyinfo #action.row {
+    margin: 30px 0; }
+    .shortcourse-keyinfo #action.row .col-xs-24 {
+      padding: 0; }
   .shortcourse-keyinfo #dynamic-action, .shortcourse-keyinfo .shortcourse-keyinfo__action {
     background: #d82231;
     text-align: center;

@@ -37,12 +37,14 @@ var defer = require('./utils/defer'),
                 var selectedOption = dropdown.find(':selected');
                 var deadlineFurther = 'First come, first served. Booking is sometimes possible shortly after start date, subject to availability.';
 
+                console.log(selectedOption.data());
+
                 // Use Moment.js package to format date
                 // var bookingDeadlineFormatted = moment(selectedOption.data('bookingdeadline')).format('ddd D MMM YYYY');
     
                 $('#dynamic-subtext').html(selectedOption.data('startdatesubtext'));
 
-                // If no dates in presentation listing
+                // If no presentation listings at all
                 if (!(selectedOption.data())) {
                     $('.start-date').css('display', 'none');
                     $('#dynamic-deadline-further').hide();
@@ -51,19 +53,13 @@ var defer = require('./utils/defer'),
                     $('#dynamic-deadline').hide().html(deadlineFurther).fadeIn();
                 }
 
-                // If no dates in presentation listing
-                // if (!(selectedOption.data())) {
-                //     $('.start-date').css('display', 'none');
-                //     $('#dynamic-deadline-further').hide();
-                //     $("span[id^='dynamic-']").html('<span>TBC</span>');
-                // } else {
-                //     $('#dynamic-deadline').hide().html(deadlineFurther).fadeIn();
-                // }
+                // If presentation listings exist, but no start date, e.g. 'Register interest' page
+                // if (selectedOption.data().empty() && selectedOption.data('startDate')))
 
     
                 // if storelink exists, display appropriate action button
                 if (selectedOption.data('storelink') != null && selectedOption.data('storelink').trim() != '') {
-                    var linkText = (selectedOption.data('register') == 'yes' ? 'Register interest' : 'Book now <span><i class="fa fa-chevron-circle-right" /></span>');
+                    var linkText = (selectedOption.data('register') == 'yes' ? 'Register interest <span><i class="fa fa-chevron-circle-right" /></span>' : 'Book now <span><i class="fa fa-chevron-circle-right" /></span>');
     
                     var storelink = selectedOption.data('storelink');
                     if (storelink.slice(-1) == '/') {
@@ -108,7 +104,14 @@ var defer = require('./utils/defer'),
                     $('#dynamic-duration').hide().html(selectedOption.data('duration')).fadeIn();
                     $('#dynamic-time').hide().html(selectedOption.data('time')).fadeIn();
                 }
-                $('#dynamic-days').hide().html(selectedOption.data('days')).fadeIn();
+
+                // If days exist, print. If not, hide row
+                if (selectedOption.data('days')) {
+                    $('#days').show();
+                    $('#dynamic-days').hide().html(selectedOption.data('days')).fadeIn();
+                } else {
+                    $('#days').hide();
+                }
                 $('#dynamic-code').hide().html(selectedOption.data('code')).fadeIn();
                 $('#dynamic-fees').hide().html(selectedOption.data('fees')).fadeIn();
                 $('#dynamic-location').hide().html(selectedOption.data('location')).fadeIn();
