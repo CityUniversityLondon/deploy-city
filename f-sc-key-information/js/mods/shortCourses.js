@@ -24,7 +24,6 @@ var defer = require('./utils/defer'),
                 // remove dropdownBlock if dropdown is empty or if it only contains hidden dummy
                 if (dropdownOptions.length == 0) {
                     dropdownBlock.remove();
-                    $('#dynamic-subtext').html('<p>Dates and fees to be confirmed</p>');
                 }
                 else if (dropdownOptions.length == 1) {
                     if (selectedOption.data('startdatevis') == 'hide-date') {
@@ -45,17 +44,21 @@ var defer = require('./utils/defer'),
                 $('#dynamic-subtext').html(selectedOption.data('startdatesubtext'));
 
                 // If no presentation listings at all
-                if (!(selectedOption.data())) {
+                if (!(selectedOption.data()) || selectedOption.data('register') == 'yes') {
                     $('.start-date').css('display', 'none');
                     $('#dynamic-deadline-further').hide();
                     $("span[id^='dynamic-']").html('<span>TBC</span>');
+                    $('.shortcourse-keyinfo h2').css('border-bottom', '1px solid');
+                    $('#not-set').html('<p>Dates and fees to be confirmed</p>');
                 } else {
                     $('#dynamic-deadline').hide().html(deadlineFurther).fadeIn();
                 }
 
-                // If presentation listings exist, but no start date, e.g. 'Register interest' page
-                // if (selectedOption.data().empty() && selectedOption.data('startDate')))
-
+                // If listing(s) exist but no date value, e.g Register interest
+                // if (selectedOption.data('startdate') == {
+                //     $('#not-set').html('<p>b</p>');
+                //     alert('no start date')
+                // } 
     
                 // if storelink exists, display appropriate action button
                 if (selectedOption.data('storelink') != null && selectedOption.data('storelink').trim() != '') {
