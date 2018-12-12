@@ -47,7 +47,7 @@ var defer = require('./utils/defer'),
                 if (!(selectedOption.data()) || selectedOption.data('register') == 'yes') {
                     $('.start-date').css('display', 'none');
                     $('#dynamic-deadline-further').hide();
-                    $("span[id^='dynamic-']").html('<span>TBC</span>');
+                    $("span[id^='dynamic-']").html('<span>To be confirmed</span>');
                     $('.shortcourse-keyinfo h2').css('border-bottom', '1px solid');
                     $('#not-set').html('<p>Dates and fees to be confirmed</p>');
                 } else {
