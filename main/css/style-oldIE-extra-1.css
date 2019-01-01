@@ -10993,7 +10993,7 @@ input[type=checkbox]:disabled {
   padding: 10px 0;
   background: #8d182a;
   color: #fff;
-  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-family: ff-meta-web,'Helvetica Neue',Arial,Helvetica,sans-serif;
   font-size: 1.4em;
   border-bottom: 1px solid rgba(0,0,0,.05);
 }
@@ -11013,7 +11013,7 @@ input[type=checkbox]:disabled {
   list-style-type: none;
   background: #fff;
   color: #000;
-  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-family: ff-meta-web,'Helvetica Neue',Arial,Helvetica,sans-serif;
   font-size: 1.2em;
 }
 
@@ -11084,7 +11084,7 @@ input[type=checkbox]:disabled {
 }
 
 .primary-menu-wrapper .primary-menu__item-toggle:before {
-  content: "\f107";
+  content: '\f107';
 }
 
 .primary-menu-wrapper .primary-menu__item-toggle--open {
@@ -11093,7 +11093,7 @@ input[type=checkbox]:disabled {
 }
 
 .primary-menu-wrapper .primary-menu__item-toggle--open:before {
-  content: "\f106";
+  content: '\f106';
 }
 
 .primary-menu-wrapper .primary-menu__submenu {
@@ -11259,7 +11259,7 @@ input[type=checkbox]:disabled {
 }
 
 .header__util__audience__button:after {
-  content: "\f0d7";
+  content: '\f0d7';
   font-family: FontAwesome;
   float: right;
   margin-right: 1em;
@@ -11283,7 +11283,7 @@ input[type=checkbox]:disabled {
 .header__util__audience__button:after {
   margin-left: 1em;
   margin-right: 0;
-  content: "\f0d7";
+  content: '\f0d7';
   display: inline-block;
   float: none;
 }
@@ -11404,7 +11404,7 @@ input[type=checkbox]:disabled {
 }
 
 .header__util__item--active .header__util__audience__button:after {
-  content: "\f0d8";
+  content: '\f0d8';
 }
 
 .header__util__item--active {
@@ -11440,7 +11440,7 @@ input[type=checkbox]:disabled {
 }
 
 .header__util__audience .header__util__audience__button:after {
-  content: "\f0d7";
+  content: '\f0d7';
 }
 
 .header__logo {
@@ -11465,11 +11465,7 @@ input[type=checkbox]:disabled {
 }
 
 .header__logo {
-  margin-top: 1em;
-}
-
-.header__logo__img {
-  width: 214px;
+  margin-top: 0;
 }
 
 .header__search .header__search__toggle {
@@ -11744,7 +11740,7 @@ input[type=checkbox]:disabled {
 }
 
 .global-nav__menu-item .global-nav__menu-item__toggle-icon:before {
-  content: "\f107";
+  content: '\f107';
 }
 
 .global-nav__menu-item .global-nav__menu-item__toggle {
@@ -11786,7 +11782,7 @@ input[type=checkbox]:disabled {
 .ui-accordion .ui-accordion-header .no-js .global-nav__toggle .ui-icon:before,
 .white-card__media .embed-container .global-nav__wrapper--active .global-nav__toggle a:before,
 .white-card__media .embed-container .no-js .global-nav__toggle a:before {
-  content: "\f00d";
+  content: '\f00d';
   font-family: FontAwesome;
 }
 
@@ -11953,7 +11949,7 @@ input[type=checkbox]:disabled {
 
 .header-nav-wrapper .global-nav__menu-item .global-nav__menu-item__toggle-icon:before,
 .no-js .header-nav-wrapper .global-nav__menu-item .global-nav__menu-item__toggle-icon:before {
-  content: "\f0d7";
+  content: '\f0d7';
   padding: .2em .3em;
 }
 
@@ -12014,7 +12010,7 @@ input[type=checkbox]:disabled {
 }
 
 .global-nav__menu-item--active .global-nav__menu-item__toggle-icon:before {
-  content: "\f106";
+  content: '\f106';
 }
 
 .global-nav__menu-item--active .global-nav__drop {
@@ -15798,4 +15794,10 @@ a.city-vision-widget:hover hr {
 .widget.navigation-widget a:focus {
   background: #b02a1a;
   color: #fff;
+}
+
+.widget.navigation-widget a:active {
+  background: #eee;
+  color: #333;
+  border: none;
 }

@@ -1,9 +1,3 @@
-.widget.navigation-widget a:active {
-  background: #eee;
-  color: #333;
-  border: none;
-}
-
 .widget.navigation-widget a:active::before {
   content: ' ';
 }
@@ -14993,4 +14987,8 @@ p.left-float-image {
 .scholarship a:link {
   color: #b91b1b;
   border-bottom-color: #999;
+}
+
+.scholarship a:visited {
+  color: #670003;
 }
