@@ -11577,6 +11577,10 @@ input[type=checkbox]:disabled {
   margin-top: 0;
 }
 
+.header__logo.header__logo--law {
+  margin-top: 1em;
+}
+
 .header__search .header__search__toggle {
   border: 1px solid #ccc;
   padding: .5em .9em;
