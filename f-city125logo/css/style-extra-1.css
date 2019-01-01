@@ -11845,6 +11845,10 @@ input[type="checkbox"]:disabled {
   margin-top: 0;
 }
 
+.header__logo.header__logo--law {
+  margin-top: 1em;
+}
+
 .header__search .header__search__toggle {
   border: 1px solid #ccc;
   padding: 0.5em 0.9em;
@@ -16301,10 +16305,4 @@ a.city-vision-widget:hover hr {
 
 #spotlight-research-widget h3 a {
   font-weight: bold;
-}
-
-#spotlight-research-widget .thumbnail {
-  display: block;
-  margin: 6px auto 5px;
-  width: 97%;
 }

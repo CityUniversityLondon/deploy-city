@@ -1,3 +1,7 @@
+#social-list a:hover span {
+  border-bottom: none;
+}
+
 #social-list a:focus span {
   background: #B02A1A;
 }

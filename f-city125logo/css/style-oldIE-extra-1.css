@@ -11736,6 +11736,10 @@ input[type="checkbox"]:disabled {
   margin-top: 0;
 }
 
+.header__logo.header__logo--law {
+  margin-top: 1em;
+}
+
 .header__search .header__search__toggle {
   border: 1px solid #ccc;
   padding: 0.5em 0.9em;
@@ -16049,8 +16053,4 @@ a.city-vision-widget:hover hr {
 
 #social-list a:hover {
   text-decoration: none;
-}
-
-#social-list a:hover span {
-  border-bottom: none;
 }

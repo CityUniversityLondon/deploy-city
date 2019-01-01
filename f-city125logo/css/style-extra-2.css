@@ -1,3 +1,9 @@
+#spotlight-research-widget .thumbnail {
+  display: block;
+  margin: 6px auto 5px;
+  width: 97%;
+}
+
 #spotlight-research-widget .summary {
   margin: 5px 5px 10px 5px;
 }
