@@ -26,8 +26,8 @@ module.exports = function () {
                 sliderOptions = ($promoWrapper.attr("data-carousel-type") !== "home") ? {} : {
                     autoHover: false,
                     touchEnabled: true,
-                    preventDefaultSwipeX: false,
-                    preventDefaultSwipeY: false,
+                    preventDefaultSwipeX: true,
+                    preventDefaultSwipeY: true,
                     buildPager: function (index) {
                         return '<span class="fa fa-circle" aria-hidden="true"></span><span class="sr-only">Go to slide ' + (index + 1) + '</span>';
                     },
@@ -70,6 +70,7 @@ module.exports = function () {
                     $promoWrapper.find(".bxslider").show();
                     $carouselObj.bxSlider(options);
                     $promoWrapper.find(".bx-controls").show();
+                    console.log($carouselObj);
                 };
 
             //set up slider
