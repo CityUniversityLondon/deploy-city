@@ -24,9 +24,9 @@ module.exports = function () {
                 },
                 // options for the home carousel
                 sliderOptions = ($promoWrapper.attr("data-carousel-type") !== "home") ? {} : {
-                    autoHover: true,
+                    autoHover: false,
                     touchEnabled: true,
-                    preventDefaultSwipeX: true,
+                    preventDefaultSwipeX: false,
                     preventDefaultSwipeY: false,
                     buildPager: function (index) {
                         return '<span class="fa fa-circle" aria-hidden="true"></span><span class="sr-only">Go to slide ' + (index + 1) + '</span>';
