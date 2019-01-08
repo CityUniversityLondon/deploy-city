@@ -25,7 +25,7 @@ module.exports = function () {
                 // options for the home carousel
                 sliderOptions = ($promoWrapper.attr("data-carousel-type") !== "home") ? {} : {
                     autoHover: true,
-                    touchEnabled: true,
+                    touchEnabled: false,
                     preventDefaultSwipeX: true,
                     preventDefaultSwipeY: false,
                     buildPager: function (index) {
