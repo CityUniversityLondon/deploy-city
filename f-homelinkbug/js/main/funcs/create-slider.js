@@ -24,10 +24,10 @@ module.exports = function () {
                 },
                 // options for the home carousel
                 sliderOptions = ($promoWrapper.attr("data-carousel-type") !== "home") ? {} : {
-                    autoHover: false,
+                    autoHover: true,
                     touchEnabled: true,
                     preventDefaultSwipeX: true,
-                    preventDefaultSwipeY: true,
+                    preventDefaultSwipeY: false,
                     buildPager: function (index) {
                         return '<span class="fa fa-circle" aria-hidden="true"></span><span class="sr-only">Go to slide ' + (index + 1) + '</span>';
                     },
@@ -70,7 +70,6 @@ module.exports = function () {
                     $promoWrapper.find(".bxslider").show();
                     $carouselObj.bxSlider(options);
                     $promoWrapper.find(".bx-controls").show();
-                    console.log($carouselObj);
                 };
 
             //set up slider
