@@ -4,9 +4,12 @@ $(document).ready(function(){
     
     console.log($('.banner-content a').length);
 
-    $('.banner-content a').on('click', function(e){
-        console.log('clicked');
-        e.preventDefault();    
+    $(document).on('click', function(e){
+        e.preventDefault();  
+        console.log('You clicked on a: '+ e.target.tagName);
+        console.log('You touched on a: '+ e.targetTouches[0].target.tagName);
+
+          
     });
 });
     var Cookies = require('js-cookie');
