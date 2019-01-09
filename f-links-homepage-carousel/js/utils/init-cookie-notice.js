@@ -6,7 +6,7 @@ $(document).ready(function(){
 
     $(document).on('click', function(e){
         e.preventDefault();  
-        console.log('You clicked on a: '+ e.target.tagName);
+        console.log('You clicked on a: '+ e.target.tagName + ' element ,with class name: '+ e.target.className +' ,or ID name:' +e.target.id );
         console.log('You touched on a: '+ e.targetTouches[0].target.tagName);
 
           
