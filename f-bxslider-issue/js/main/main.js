@@ -26,6 +26,7 @@ module.exports = function () {
         scrollTo = require('../utils/scroll-to'),
         responsiveTables = require('./funcs/responsive-tables'),
         cyclicPopup = require('./funcs/cyclic-popup');
+        bxsliderOverride = require('./funcs/bxslider-override');
 
     /**
      * The main CITY wrapper object
