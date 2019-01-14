@@ -38,7 +38,7 @@ module.exports = function () {
                 var x = $(this).attr('href');
                 location.href = x;
             });
-
+            /*
             $('.bx-wrapper .bx-viewport').on('touchend', function(e){
                 $('.bx-controls').removeClass('disabled');
 
@@ -59,7 +59,8 @@ module.exports = function () {
                 console.log($(this).find('.banner-content p a').attr('href'));
                 var x = $(this).find('.banner-content p a').attr('href');
                 location.href = x;
-            });
+                
+            }); */
         });
 
 
