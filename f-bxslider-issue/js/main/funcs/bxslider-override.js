@@ -6,6 +6,7 @@ module.exports = function () {
         $('.banner-content a').length;
                 
         $('.banner-content a').on('click', 'touchend', function(e){
+            $('.bx-controls').removeClass('disabled');
             console.log('clicked');
             
             e.preventDefault();
@@ -17,6 +18,7 @@ module.exports = function () {
         
 
         $('.banner-content p a').on('touchend', function(e){
+            $('.bx-controls').removeClass('disabled');
 
             console.log('touch-End');
             
@@ -27,7 +29,7 @@ module.exports = function () {
         });
 
         $('.banner-content p a').on('touchstart', function(e){
-
+            $('.bx-controls').removeClass('disabled');
             console.log('touch-start');
             
             e.preventDefault();
@@ -36,7 +38,8 @@ module.exports = function () {
             location.href = x;
         });
 
-        $('.bx-viewport').on('touchend', function(e){
+        $('.bx-wrapper .bx-viewport').on('touchend', function(e){
+            $('.bx-controls').removeClass('disabled');
 
             console.log('bx-viewport - touch-End');
             
@@ -46,7 +49,8 @@ module.exports = function () {
             location.href = x;
         });
 
-        $('.bx-viewport').on('touch-start', function(e){
+        $('.bx-wrapper .bx-viewport').on('touch-start', function(e){
+            $('.bx-controls').removeClass('disabled');
 
             console.log('bx-viewport - touch-start');
             
