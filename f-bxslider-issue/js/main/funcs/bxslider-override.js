@@ -8,6 +8,7 @@ module.exports = function () {
             var prevTouchY;
             console.log('X cor is: '+ prevTouchX);
             console.log('Y cor is: '+ prevTouchY);
+
             $(document).on('touchstart', function(e){
                 prevTouchX = e.touches[0].clientX;
                 prevTouchY = e.touches[0].clientY;
@@ -17,19 +18,17 @@ module.exports = function () {
             });
 
             console.log($('.banner-content a').length);
-            console.log($('.bx-wrapper .bx-viewport').lenght);
+            console.log($('.bx-wrapper .bx-viewport').length);
                     
             $('.banner-content p a').on('touchstart', function(e){
                 // $('.bx-controls').removeClass('disabled');
-                console.log('touch-start');
-                if (e.type !== 'touchmove' && e.button !== 0) {
-                    console.log('touch-move detected');
-                    console.log('X cor is: '+ prevTouchX);
-                console.log('Y cor is: '+ prevTouchY);
-                    e.preventDefault();
-                }
+                console.log('Banner A: touch-start');
                 e.preventDefault();
-                console.log($(this).attr('href'));
+
+                console.log('X cor is: '+ prevTouchX);
+                console.log('Y cor is: '+ prevTouchY);
+
+                console.log('Redirecting to : '+ $(this).attr('href'));
                 var x = $(this).attr('href');
                 location.href = x;
             });
