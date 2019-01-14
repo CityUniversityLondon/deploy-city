@@ -14,6 +14,8 @@ module.exports = function () {
             location.href = x;
         });
 
+        
+
         $('.banner-content p a').on('touchend', function(e){
 
             console.log('touch-End');
