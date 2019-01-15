@@ -32,20 +32,22 @@ module.exports = function () {
             };
 
             document.ontouchstart = myTouchSt;
-
+                      
+            
             console.log($('.banner-content a').length);
-            console.log($('.bx-viewport').length);
+            console.log($('.bx-wrapper').length);
                     
             $('.banner-content p a').on('touchend', function(event){
                 $('.bx-controls').removeClass('disabled');
                 console.log('Banner A: touch-end');
                 event.preventDefault();
                 var linkLoc = $(this).attr('href');
-                myTouchEn(linkLoc);
+                // myTouchEn(linkLoc);
+                location.href = linkLoc;
 
             });
           /// doesnt pick up the news elements using this class
-            $('.bx-wrapper .bx-viewport').on('touchstart', function(e){
+            $('.bx-viewport').on('touchstart', function(e){
                 $('.bx-controls').removeClass('disabled');
                 console.log('bx-viewport - touch-start');
                 
