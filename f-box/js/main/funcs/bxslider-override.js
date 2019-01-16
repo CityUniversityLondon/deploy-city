@@ -28,21 +28,20 @@ module.exports = function () {
 
 
                 }, 1000);
-                
+                // global variables capturing touch coordinates to differentiate between touch swipe and touch click 
                 var strTouchX;
                 var strTouchY;
                 var endTouchX;
                 var endTouchY;
                 
-                function myTouchStr(e){
+                document.addEventListener("touchstart", function(e){
+                
                     strTouchX = e.touches[0].clientX;
                     strTouchY = e.touches[0].clientY;
-                    console.log('start touch is: '+strTouchX);   
-                    console.log(e.target.tagName);   
-                };
-
-                document.ontouchstart = myTouchStr;
-                
+                    console.log('TouchStart X cor is: '+strTouchX);   
+                    console.log(e.target.tagName +' element was touched');   
+                });
+        
                 /**** Home page top slider ****/
                 var i;
                 for (i=0; i < $('.banner-content a').length; i++){
