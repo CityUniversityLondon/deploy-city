@@ -14105,7 +14105,7 @@ body {
 #promo-wrapper .banner-content,
 .no-js #promo-wrapper .banner-content {
   color: #FFFFFF;
-  border: thick dotted greenyellow;
+  border: 5px dotted yellow;
 }
 
 #promo-wrapper .banner-content p,
