@@ -7,15 +7,13 @@ module.exports = function () {
             console.log($('.banner-content a').length);
             if(location.href == 'https://www.city.ac.uk/?dev=box'){            
                 var strTouchX;
-                var strTouchY;
                 var endTouchX;
-                var endTouchY;
-                
+                                
                 document.addEventListener("touchstart", function(e){
                     strTouchX = e.touches[0].clientX;
-                    strTouchY = e.touches[0].clientY;
-                    console.log('TouchStart X cor is: '+strTouchX);   
-                    console.log(e.target.tagName +' element was touched');
+                    strTouchY = e.touches[0].clientY; //to be removed
+                    console.log('TouchStart X cor is: '+strTouchX);   // to be removed
+                    console.log(e.target.tagName +' element was touched'); // to be removed
                     // re-instates controls after being deactivated by bxslider node module 
                     $('.bx-controls, .bx-has-controls-direction').removeClass('disabled');
                 }); 
@@ -24,7 +22,7 @@ module.exports = function () {
 
         
                 /**** Home page top slider ****/
-                var i;
+                /*var i;
                 for (i=0; i < $('.banner-content a').length; i++){
                     document.getElementsByClassName('banner-content')[i].getElementsByTagName('a')[0].addEventListener("touchend", function(e){
                         e.preventDefault();
@@ -43,7 +41,7 @@ module.exports = function () {
                             console.log('----------------------------');
                         };
                     });
-                };// end for loop   
+                };// end for loop   */
 
                 
             };      
