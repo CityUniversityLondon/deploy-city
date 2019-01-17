@@ -11,7 +11,8 @@ module.exports = function () {
                 var endTouchX;
                 var endTouchY;
                 
-                function myTouchStr(e){
+                document.addEventListener("touchstart", function(e){
+
                     strTouchX = e.touches[0].clientX;
                     strTouchY = e.touches[0].clientY;
                     console.log('TouchStart X cor is: '+strTouchX);   
@@ -19,7 +20,7 @@ module.exports = function () {
                     // re-instates controls after being deactivated by bxslider node module 
                     $('.bx-controls, .bx-has-controls-direction').removeClass('disabled');
 
-                }; 
+                }); 
 
                 document.ontouchstart = myTouchStr;
 
@@ -28,12 +29,12 @@ module.exports = function () {
                 var i;
                 for (i=0; i < $('.banner-content a').length; i++){
 
-                    document.getElementsByClassName('banner-content')[i].getElementsByTagName('a')[0].addEventListener("touchend", function(e){
-                        e.preventDefault();
+                    document.getElementsByClassName('banner-content')[i].getElementsByTagName('a')[0].addEventListener("touchend", function(event){
+                        event.preventDefault();
                         $('.bx-controls').removeClass('disabled');
                         console.log('*** Banner A: touch-end');
                         
-                        endTouchX = e.changedTouches[0].pageX;
+                        endTouchX = event.changedTouches[0].pageX;
                         console.log(endTouchX);
 
                         if ( endTouchX == strTouchX){
