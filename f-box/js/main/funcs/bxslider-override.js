@@ -4,31 +4,35 @@ module.exports = function () {
     
     init = function () {
         $(document).ready(function(){
-
+            console.log($('.banner-content a').length);
             if(location.href == 'https://www.city.ac.uk/'){            
                 var strTouchX;
                 var strTouchY;
                 var endTouchX;
                 var endTouchY;
                 
-                document.addEventListener("touchstart", function(e){
+                function myTouchStr(e){
                     strTouchX = e.touches[0].clientX;
                     strTouchY = e.touches[0].clientY;
                     console.log('TouchStart X cor is: '+strTouchX);   
                     console.log(e.target.tagName +' element was touched');
                     // re-instates controls after being deactivated by bxslider node module 
-                    $('.bx-controls').removeClass('disabled');   
-                }); 
+                    $('.bx-controls, .bx-has-controls-direction').removeClass('disabled');
+
+                }; 
+
+                document.ontouchstart = myTouchStr;
+
         
                 /**** Home page top slider ****/
                 var i;
                 for (i=0; i < $('.banner-content a').length; i++){
 
                     document.getElementsByClassName('banner-content')[i].getElementsByTagName('a')[0].addEventListener("touchend", function(e){
+                        e.preventDefault();
                         $('.bx-controls').removeClass('disabled');
                         console.log('*** Banner A: touch-end');
-                        e.preventDefault();
-
+                        
                         endTouchX = e.changedTouches[0].pageX;
                         console.log(endTouchX);
 
@@ -36,8 +40,7 @@ module.exports = function () {
                             console.log('**touch values same');
                             location.href = this.href;
                             console.log('----------------------------');
-                        }
-                        else{
+                        } else{
                             console.log('touch values different');
                             console.log('----------------------------');
                         };
