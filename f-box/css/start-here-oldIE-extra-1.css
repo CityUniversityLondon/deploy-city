@@ -9714,7 +9714,7 @@ body {
 #promo-wrapper .banner-content,
 .no-js #promo-wrapper .banner-content {
   color: #FFFFFF;
-  border: 10px solid yellow;
+  border: 10px dashed cornflowerblue;
 }
 
 #promo-wrapper .banner-content p,
