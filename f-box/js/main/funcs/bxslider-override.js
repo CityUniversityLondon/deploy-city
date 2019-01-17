@@ -12,7 +12,7 @@ module.exports = function () {
                 /**** News slider (only on mobile) ****/
                 // doesnt pick up the news elements using this class
                 setTimeout(function(){ 
-                    $('.bx-viewport').on('touchstart', function(e){
+                    $('.bx-viewport').on('touchend', function(e){
                         // re-instates controls after being deactivated by bxslider node module    
                         $('.bx-controls').removeClass('disabled');
                             
