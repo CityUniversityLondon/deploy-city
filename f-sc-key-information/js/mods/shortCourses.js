@@ -34,7 +34,7 @@ var defer = require('./utils/defer'),
     
             function updateDynamicData() {
                 var selectedOption = dropdown.find(':selected');
-                var deadlineFurther = 'First come, first served. Booking is sometimes possible shortly after start date, subject to availability.';
+                var deadlineFurther = 'No deadline, subject to availability';
 
                 console.log(selectedOption.data());
 
