@@ -6,7 +6,7 @@
 // This code targets two carousels, namely the one at the very top of the home page and a news one at the bottom.
 // The latter only loads as a carousel on small view ports 
 //
-var $ = require('../jquery');
+var $ = require('./libs/jquery');
     
     init = function () {
         $(document).ready(function(){
