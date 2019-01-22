@@ -6,10 +6,13 @@
 // This code targets two carousels, namely the one at the very top of the home page and a news one at the bottom.
 // The latter only loads as a carousel on small view ports 
 //
-var $ = require('./libs/jquery');
+/*
+var $ = require('./libs/jquery'),
+    defer = require('./utils/defer'), 
     
-    init = function () {
+    init = function () {*/
         $(document).ready(function(){
+            console.log('gsdfsdf');
                                    
             var strTouchX;
             var endTouchX;
@@ -54,6 +57,6 @@ var $ = require('./libs/jquery');
             };// end for loop         
 
         }); // end page ready func 
-    }; // end init func
+    /* }; // end init func
 
-defer(init);
+defer(init); */
