@@ -10110,6 +10110,12 @@ option[data-startdatevis='hide-date'] {
   }
 }
 
+.shortcourse-next-course-block .container.container-multiple {
+  background: #3e1031;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
 .shortcourse-next-course {
   padding-bottom: 20px;
   padding-right: 20px;

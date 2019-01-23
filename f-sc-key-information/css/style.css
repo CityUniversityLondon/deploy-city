@@ -27982,6 +27982,10 @@ option[data-startdatevis='hide-date'] {
     @media only screen and (min-width: 980px) {
       .shortcourse-next-course-block h2:after {
         width: 300px; } }
+  .shortcourse-next-course-block .container.container-multiple {
+    background: #3e1031;
+    color: #FFFFFF;
+    padding: 20px; }
 
 .shortcourse-next-course {
   padding-bottom: 20px;
