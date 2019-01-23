@@ -6,11 +6,11 @@
 // This code targets two carousels, namely the one at the very top of the home page and a news one at the bottom.
 // The latter only loads as a carousel on small view ports 
 //
-/*
+/**/
 var $ = require('./libs/jquery'),
-    defer = require('./utils/defer'), 
+    defer = require('./utils/defer'),
     
-    init = function () {*/
+    init = function () {
         $(document).ready(function(){
             console.log('gsdfsdf');
                                    
@@ -39,9 +39,9 @@ var $ = require('./libs/jquery'),
                     
                     if (isTouchClick(endTouchX)){ // calls isTouchClick function to determine if click or swipe to place
                         location.href = this.href;
-                    };  
+                    }  
                 });
-            };// end for loop  
+            }// end for loop  
 
             /**** Home page news slider (only on mobiles) ****/
 
@@ -52,11 +52,11 @@ var $ = require('./libs/jquery'),
 
                     if (isTouchClick(endTouchX)){ // calls isTouchClick function to determine if click or swipe to place
                         location.href = this.parentNode.href;
-                    };
+                    }
                 });
-            };// end for loop         
+            }// end for loop         
 
         }); // end page ready func 
-    /* }; // end init func
+     }; // end init func
 
-defer(init); */
+defer(init); /**/
