@@ -12,7 +12,6 @@ var $ = require('./libs/jquery'),
     
     init = function () {
         $(document).ready(function(){
-            console.log('gsdfsdf');
                                    
             var strTouchX;
             var endTouchX;
