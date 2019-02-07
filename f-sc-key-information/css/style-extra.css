@@ -9522,6 +9522,7 @@ option[data-startdatevis='hide-date'] {
   border-radius: 0;
   background: transparent;
   color: #FFF;
+  vertical-align: middle;
 }
 
 .shortcourse-keyinfo #dynamic-action p.cta.hard-cta a i,

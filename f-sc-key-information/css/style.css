@@ -27592,7 +27592,8 @@ option[data-startdatevis='hide-date'] {
         display: inline-block;
         border-radius: 0;
         background: transparent;
-        color: #FFF; }
+        color: #FFF;
+        vertical-align: middle; }
         .shortcourse-keyinfo #dynamic-action p.cta.hard-cta a i, .shortcourse-keyinfo #dynamic-action p.cta.shortcourse-cta a i, .shortcourse-keyinfo .shortcourse-keyinfo__action p.cta.hard-cta a i, .shortcourse-keyinfo .shortcourse-keyinfo__action p.cta.shortcourse-cta a i {
           line-height: 1.2em;
           padding: 0 0 0 10px; }
