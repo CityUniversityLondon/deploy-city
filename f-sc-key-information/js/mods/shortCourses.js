@@ -56,14 +56,8 @@ var defer = require('./utils/defer'),
                     $('.shortcourse-keyinfo h2').css('border-bottom', '1px solid');
                     $('#not-set').html('<p>Dates and fees to be confirmed</p>');
                 } else {
-                    $('#dynamic-deadline').hide().html(deadlineFurther).fadeIn();
+                    // $('#dynamic-deadline').hide().html(deadlineFurther).fadeIn();
                 }
-
-                // If listing(s) exist but no date value, e.g Register interest
-                // if (selectedOption.data('startdate') == {
-                //     $('#not-set').html('<p>b</p>');
-                //     alert('no start date')
-                // } 
     
                 // if storelink exists, display appropriate action button
                 if (selectedOption.data('storelink') != null && selectedOption.data('storelink').trim() != '') {
@@ -124,12 +118,12 @@ var defer = require('./utils/defer'),
                 $('#dynamic-fees').hide().html(selectedOption.data('fees')).fadeIn();
                 $('#dynamic-location').hide().html(selectedOption.data('location')).fadeIn();
 
-                
-    
                 // If deadline override metadata exists, print this data value instead of other fields
                 if (selectedOption.data('bookingdeadlineoverride')) {
                     $('#dynamic-deadline-further').hide();
                     $('#dynamic-deadline').hide().html(selectedOption.data('bookingdeadlineoverride')).fadeIn();
+                } else {
+                    $('.row#booking-deadline').hide();
                 }
     
             }
