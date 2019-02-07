@@ -8437,16 +8437,7 @@ option[data-startdatevis='hide-date'] {
   margin-bottom: 20px;
 }
 
-.shortcourse-keyinfo {
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-bottom: 20px;
-  padding: 20px;
-  margin: 0;
-  padding: 20px;
-}
-
-.shortcourse-keyinfo:after {
+.feb19 .shortcourse-keyinfo:after {
   content: '';
   width: 95%;
   height: 35px;
@@ -8465,6 +8456,15 @@ option[data-startdatevis='hide-date'] {
   right: 10px;
   width: 93.5%;
   right: 10.5px;
+}
+
+.shortcourse-keyinfo {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin: 0;
+  padding: 20px;
 }
 
 .shortcourse-keyinfo select {
@@ -8568,6 +8568,7 @@ option[data-startdatevis='hide-date'] {
   display: inline-block;
   border-radius: 0;
   background: transparent;
+  color: #FFF;
 }
 
 .shortcourse-keyinfo #dynamic-action p.cta.hard-cta a i,
@@ -8667,6 +8668,15 @@ option[data-startdatevis='hide-date'] {
 
 .shortourse-secondary-cta a:hover {
   background-color: #d0cfcb;
+}
+
+.cta.shortcourse-cta a {
+  background: #FFF;
+  color: #333;
+}
+
+.cta.shortcourse-cta a:hover {
+  background: #eae9e7;
 }
 
 .js .shortcourse-testimonials-block {

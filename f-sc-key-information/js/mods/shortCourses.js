@@ -120,6 +120,7 @@ var defer = require('./utils/defer'),
 
                 // If deadline override metadata exists, print this data value instead of other fields
                 if (selectedOption.data('bookingdeadlineoverride')) {
+                    $('.row#booking-deadline').show();
                     $('#dynamic-deadline-further').hide();
                     $('#dynamic-deadline').hide().html(selectedOption.data('bookingdeadlineoverride')).fadeIn();
                 } else {

@@ -9334,15 +9334,8 @@ option[data-startdatevis='hide-date'] {
   }
 }
 
-.shortcourse-keyinfo {
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-bottom: 20px;
-  padding: 20px;
-}
-
 @media only screen and (min-width: 768px) {
-  .shortcourse-keyinfo:after {
+  .feb19 .shortcourse-keyinfo:after {
     content: '';
     width: 95%;
     height: 35px;
@@ -9361,31 +9354,38 @@ option[data-startdatevis='hide-date'] {
 }
 
 @media only screen and (min-width: 768px) {
-  .shortcourse-keyinfo:after {
+  .feb19 .shortcourse-keyinfo:after {
     width: 92.5%;
     right: 10px;
   }
 }
 
 @media only screen and (min-width: 980px) {
-  .shortcourse-keyinfo:after {
+  .feb19 .shortcourse-keyinfo:after {
     width: 93.5%;
     right: 10.5px;
   }
 }
 
 @media only screen and (min-width: 1035px) {
-  .shortcourse-keyinfo:after {
+  .feb19 .shortcourse-keyinfo:after {
     width: 94%;
     right: 10.5px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .shortcourse-keyinfo:after {
+  .feb19 .shortcourse-keyinfo:after {
     width: 95%;
     right: 10px;
   }
+}
+
+.shortcourse-keyinfo {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .shortcourse-keyinfo select {
@@ -9521,6 +9521,7 @@ option[data-startdatevis='hide-date'] {
   display: inline-block;
   border-radius: 0;
   background: transparent;
+  color: #FFF;
 }
 
 .shortcourse-keyinfo #dynamic-action p.cta.hard-cta a i,
@@ -9630,6 +9631,15 @@ option[data-startdatevis='hide-date'] {
 
 .shortourse-secondary-cta a:hover {
   background-color: #d0cfcb;
+}
+
+.cta.shortcourse-cta a {
+  background: #FFF;
+  color: #333;
+}
+
+.cta.shortcourse-cta a:hover {
+  background: #eae9e7;
 }
 
 .js .shortcourse-testimonials-block {
