@@ -24,12 +24,12 @@ var $ = require('./libs/jquery'),
         });
 
         // determines if touch is click or swipe by comparing start touch and end values
-        var isTouchClick = function isTouchClick(endTouchX) {
-            return endTouchX == strTouchX ? true : false;
-        };
-        // isTouchClick = endTouchX => (endTouchX == strTouchX ? true : false);
-
-
+        // var isTouchClick = function isTouchClick(endTouchX) {
+        //     return endTouchX == strTouchX ? true : false;
+        // };
+        
+        var isTouchClick = endTouchX => (endTouchX == strTouchX ? true : false);
+        
         /**** Home page top slider ****/
 
         var i;
