@@ -26,8 +26,10 @@ var $ = require('./libs/jquery'),
         // determines if touch is click or swipe by comparing start touch and end values
         isTouchClick = function (endTouchX) {
             if (endTouchX == strTouchX) {
-                return true
+                console.log('true');
+                return true;
             } else {
+                console.log('false');
                 return false
             }
         };
