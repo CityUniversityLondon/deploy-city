@@ -1,5 +1,4 @@
 var defer = require('./utils/defer'),
-    moment = require('../../../node_modules/moment/'),
 
     init = function() {
 
