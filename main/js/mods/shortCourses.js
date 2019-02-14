@@ -35,15 +35,13 @@ var defer = require('./utils/defer'),
                 var selectedOption = dropdown.find(':selected');
                 var deadlineFurther = 'No deadline, subject to availability';
 
-                console.log(selectedOption.data());
-
                 // Use Moment.js package to format date
                 // var bookingDeadlineFormatted = moment(selectedOption.data('bookingdeadline')).format('ddd D MMM YYYY');
     
                 $('#dynamic-subtext').html(selectedOption.data('startdatesubtext'));
 
                 // If no presentation listings at all
-                if (!(selectedOption.data())) {
+                if (!(selectedOption.data()) || selectedOption.data().startdatevis == 'hide-date') {
                     $('.start-date').css('display', 'none');
                     $('#dynamic-deadline-further').hide();
                     $("span[id^='dynamic-']").html('<span>To be confirmed</span>');
