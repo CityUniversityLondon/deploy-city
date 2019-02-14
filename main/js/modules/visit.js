@@ -5,65 +5,62 @@
 //unitN.js
 
 //set up a holder module
-CITY.visit = (function (CITY, $) {
-
+CITY.visit = (function(CITY, $) {
     // == PROPERTIES ==
 
-    var
-        /**
+    var /**
          * this object holds the properties and methods we want to return later
          * @var {Object}
          */
         returnObj = {},
-
         /**
          * data source - relative to handle production and test environments
          * @var {String}
          */
-        dataSrc = "https://www.city.ac.uk/visit/feeds/locations",
-
+        dataSrc = 'https://www.city.ac.uk/visit/feeds/locations',
         /**
          * Create a LatLng object containing the coordinate for the center of the map
          * @var {Object}
          */
         latlng = new google.maps.LatLng(51.527761, -0.103283),
-
         /**
          * jQuery object for map canvas
          * @var {Object}
          */
-        $mapContainer = $("#map-container"),
-
+        $mapContainer = $('#map-container'),
         /**
          * an object literal containing the properties we want to pass to the map
          * @var {Object}
          */
         mapOptions = {
             zoom: 17,
-            key: AIzaSyBvg6r1x2ZRKPAsceVaKPlg6tO20QiBDpo,
+            key: 'AIzaSyBvg6r1x2ZRKPAsceVaKPlg6tO20QiBDpo',
             center: latlng,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             streetViewControl: true,
             mapTypeControl: true,
-            mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
-            navigationControl: true
+            mapTypeControlOptions: {
+                style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+            },
+            navigationControl: true,
         },
-
         /**
          * Call the constructor, thereby initializing the map  as soon as possible
          * @var {Object}: Google maps Map object
          */
-        map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions),
+        map = new google.maps.Map(
+            document.getElementById('map-canvas'),
+            mapOptions
+        ),
         searchBox = $('#map-search'),
         /**
          * initlaise infoWindow
          * @var {Object}: Google maps InfoWindow object
          */
         infoWindow = new google.maps.InfoWindow({
-            maxWidth: 400
+            maxWidth: 400,
         }),
-
-    /* points = [
+        /* points = [
      new google.maps.LatLng(51.527701, -0.102509),
      new google.maps.LatLng(51.521870, -0.090356)
      ];
@@ -95,94 +92,93 @@ CITY.visit = (function (CITY, $) {
                 toggler: null,
                 markersArray: [],
                 zoomLevel: 17,
-                list: ''
+                list: '',
             },
             libraries: {
                 toggler: $('#toggle-libraries'),
                 markersArray: [],
                 zoomLevel: 17,
-                list: ''
+                list: '',
             },
             accommodation: {
                 toggler: null,
                 markersArray: [],
                 zoomLevel: 17,
-                list: ''
+                list: '',
             },
             lectureTheatres: {
                 toggler: null,
                 markersArray: [],
                 zoomLevel: 17,
-                list: ''
+                list: '',
             },
             studentCentre: {
                 toggler: $('#toggle-studentCentre'),
                 markersArray: [],
                 zoomLevel: 17,
-                list: ''
+                list: '',
             },
             sports: {
                 toggler: null,
                 markersArray: [],
                 zoomLevel: 17,
-                list: ''
+                list: '',
             },
             computerLabs: {
                 toggler: $('#toggle-computerLabs'),
                 markersArray: [],
                 zoomLevel: 17,
-                list: ''
-            }
+                list: '',
+            },
         },
-
         /**
          * kmlLayers object - kml files containing useful third party location information
          * @var {Object}:
          */
         kmlLayers = {
             cycleHire: {
-                src: "http://webapps.city.ac.uk/matrix/maps/cycle-hire.php",
+                src: 'http://webapps.city.ac.uk/matrix/maps/cycle-hire.php',
                 toggler: $('#cycle-hire'),
-                preserveViewport: true
+                preserveViewport: true,
             },
             bikes: {
-                src: "http://webapps.city.ac.uk/matrix/maps/cycle-parking.kml",
+                src: 'http://webapps.city.ac.uk/matrix/maps/cycle-parking.kml',
                 toggler: $('#bikes'),
-                preserveViewport: true
+                preserveViewport: true,
             },
             atms: {
-                src: "http://webapps.city.ac.uk/matrix/maps/atms.kml",
+                src: 'http://webapps.city.ac.uk/matrix/maps/atms.kml',
                 toggler: $('#cash-points'),
-                preserveViewport: true
-            }
+                preserveViewport: true,
+            },
         },
-
-    // == METHODS ==
+        // == METHODS ==
 
         /**
          * rRemoves the overlays from the map, but keeps them in the array
          * @param {Array} markersArray: a collections of markers
          * @return {Undefined}
          */
-        clearOverlays = function (markersArray) {
-
+        clearOverlays = function(markersArray) {
             var i;
 
             if (markersArray) {
                 for (i in markersArray) {
-                    if (markersArray.hasOwnProperty(i) && typeof markersArray[i] !== 'function') {
+                    if (
+                        markersArray.hasOwnProperty(i) &&
+                        typeof markersArray[i] !== 'function'
+                    ) {
                         markersArray[i].setMap(null);
                     }
                 }
             }
         },
-
         /**
          * the hashChange handler - listens for hash changes and then does cool stuff
          * @param {Object} e: the window hashchange event
          * @return {Undefined}
          */
-        hashChange = function (e) {
+        hashChange = function(e) {
             var state = e.getState(),
                 x,
                 i,
@@ -192,15 +188,15 @@ CITY.visit = (function (CITY, $) {
                 marker;
 
             //loop over each marker in hash
-            $.each(state, function (el, i) {
+            $.each(state, function(el, i) {
                 //no active marker - means an info window was closed
-                if (el === "0") {
+                if (el === '0') {
                     infoWindow.close();
                     return;
                 }
 
                 //loop over  bigBuildingsArray to find marker
-                $.each(cityLayers.buildingsObj, function (ee, ii) {
+                $.each(cityLayers.buildingsObj, function(ee, ii) {
                     if (el === ee) {
                         marker = ii;
                         //open infoWindow for this marker
@@ -220,14 +216,12 @@ CITY.visit = (function (CITY, $) {
                 });
             });
         },
-
         /**
          * the updateHash called when a marker, infoWindow or marker link is clicked - updates hash
          * @param {Object || String} caller: the marker, marker link or infoWindow firing the event
          * @return {Undefined}
          */
-        updateHash = function (caller) {
-
+        updateHash = function(caller) {
             var state = {},
                 callerId = '';
 
@@ -235,11 +229,11 @@ CITY.visit = (function (CITY, $) {
                 return;
             }
 
-            if (typeof caller === "string") {
+            if (typeof caller === 'string') {
                 //a marker link was clicked
                 callerId = caller;
                 state[callerId] = 1;
-            } else if (caller.hasOwnProperty("id")) {
+            } else if (caller.hasOwnProperty('id')) {
                 //a marker was clicked
                 callerId = caller.id;
                 state[callerId] = 1;
@@ -250,63 +244,60 @@ CITY.visit = (function (CITY, $) {
             //push state - setting merge_mode to 2 means params argument completely replaces current state
             $.bbq.pushState(state, 2);
         },
-
         /**
          * Shows any overlays currently in the array
          * @param {Array} markersArray: a collection of markers
          * @return {Undefined}
          */
-        showOverlays = function (markersArray) {
-
+        showOverlays = function(markersArray) {
             var i;
 
             if (markersArray) {
                 for (i in markersArray) {
-                    if (markersArray.hasOwnProperty(i) && typeof markersArray[i] !== 'function') {
+                    if (
+                        markersArray.hasOwnProperty(i) &&
+                        typeof markersArray[i] !== 'function'
+                    ) {
                         markersArray[i].setMap(map);
                     }
                 }
             }
         },
-
-
         /**
          * creates a new category of place in CityLayers object
          * @param {String} name: the new name of the category ?
          * @return {Undefined}
          */
-        newCategory = function (name) {
+        newCategory = function(name) {
             this.toggler = null;
             this.markersArray = [];
             this.zoomLevel = 17;
         },
-
         /**
          *  loop through each kmllayer adding checked behaviour
          * @param {Object} object: Config object for KML
          * @return {?}
          */
-        initKmlLayers = function (object) {
-            $.each(object, function () {
-
+        initKmlLayers = function(object) {
+            $.each(object, function() {
                 var toggler = this.toggler,
-                    overlay = new google.maps.KmlLayer(this.src, {preserveViewport: this.preserveViewport});
+                    overlay = new google.maps.KmlLayer(this.src, {
+                        preserveViewport: this.preserveViewport,
+                    });
 
-                toggler.click(function (e) {
+                toggler.click(function(e) {
                     toggler.toggleClass('enabled');
                     overlay.setMap(toggler.hasClass('enabled') ? map : null);
                     return false;
-                });//end click fn
-            });//end each
-        },//end initKmlLayers
-
+                }); //end click fn
+            }); //end each
+        }, //end initKmlLayers
         /**
          *  creates individual markers, builds a corresponding filter item, binds a infoWindow to marker with html
          * @param {Object} markerConfig: an object containing various marker configuration options
          * @return {Object} marker - google maps marker
          */
-        createMarker = function (markerConfig) {
-
+        createMarker = function(markerConfig) {
             var listId = '#' + markerConfig.category,
                 listItem,
                 marker,
@@ -320,16 +311,27 @@ CITY.visit = (function (CITY, $) {
 
             //if has link
             if (markerConfig.linkHref.length !== 0) {
-                html = '<div id="info-window" style="min-height: 100px;"><h3><a href="' + markerConfig.linkHref + '">' + markerConfig.name + '</a></h3>';
-
+                html =
+                    '<div id="info-window" style="min-height: 100px;"><h3><a href="' +
+                    markerConfig.linkHref +
+                    '">' +
+                    markerConfig.name +
+                    '</a></h3>';
             } else {
-                html = '<div id="info-window" style="min-height: 100px;"><h3>' + markerConfig.name + '</h3>';
+                html =
+                    '<div id="info-window" style="min-height: 100px;"><h3>' +
+                    markerConfig.name +
+                    '</h3>';
             }
 
             //test to see if has a buildingPrefix
             if (markerConfig.buildingPrefix.length !== 0) {
-                html += '<p class="building-prefix"><strong>Rooms beginning: ' + markerConfig.buildingPrefix + '</strong></p>';
-                markerConfig.buildingPrefix = '(' + markerConfig.buildingPrefix + ')';
+                html +=
+                    '<p class="building-prefix"><strong>Rooms beginning: ' +
+                    markerConfig.buildingPrefix +
+                    '</strong></p>';
+                markerConfig.buildingPrefix =
+                    '(' + markerConfig.buildingPrefix + ')';
             }
 
             //add description and close div element
@@ -340,16 +342,16 @@ CITY.visit = (function (CITY, $) {
                 map: markerConfig.map,
                 position: markerConfig.point,
                 icon: markerConfig.icon,
-                animation: google.maps.Animation.DROP
+                animation: google.maps.Animation.DROP,
             });
 
             //add a new property to the google maps marker object so we can id markers
-            marker.set("id", markerConfig.id);
+            marker.set('id', markerConfig.id);
             //add a new property of inHtml to populate infoWindow
-            marker.set("infoHtml", html);
+            marker.set('infoHtml', html);
 
             //attach event listener for marker click to handle infoWindow
-            google.maps.event.addListener(marker, 'click', function (e) {
+            google.maps.event.addListener(marker, 'click', function(e) {
                 //closure in a loop shizzle - I find this hard to get my head around - returning a closure seems to help
                 return updateHash(marker);
             });
@@ -357,32 +359,43 @@ CITY.visit = (function (CITY, $) {
             //create list element
             $li = $('<li />', {
                 id: 'building-' + markerConfig.id,
-                'class': 'building'
+                class: 'building',
             });
 
             //create a element with click handler to open infoWindow
             $a = $('<a />', {
                 href: '#',
-                html: '<span>' + markerConfig.name + ' ' + markerConfig.buildingPrefix + '</span>',
-                click: function (e) {
-                    updateHash($(e.target).parents('li').attr('id').replace('building-', ''));
+                html:
+                    '<span>' +
+                    markerConfig.name +
+                    ' ' +
+                    markerConfig.buildingPrefix +
+                    '</span>',
+                click: function(e) {
+                    updateHash(
+                        $(e.target)
+                            .parents('li')
+                            .attr('id')
+                            .replace('building-', '')
+                    );
                     return false;
                 },
                 css: {
-                    'background': 'transparent url(' + markerConfig.icon + '?v=1123) no-repeat left center'
-                }
+                    background:
+                        'transparent url(' +
+                        markerConfig.icon +
+                        '?v=1123) no-repeat left center',
+                },
             });
 
             //add li item to list
             $li.append($a).appendTo(listId);
 
             return marker;
-
-        },//end fn.createMarker
-
-    // Deletes all markers in the array by removing references to them
-    //commented out to keep JSLint happy as this function is not currently used
-        deleteOverlays = function (markersArray) {
+        }, //end fn.createMarker
+        // Deletes all markers in the array by removing references to them
+        //commented out to keep JSLint happy as this function is not currently used
+        deleteOverlays = function(markersArray) {
             var i;
 
             if (markersArray) {
@@ -394,10 +407,9 @@ CITY.visit = (function (CITY, $) {
                 markersArray.length = 0;
             }
         },
-
-        findChildText = function (node, name) {
-            var value = "";
-            node.children().each(function () {
+        findChildText = function(node, name) {
+            var value = '';
+            node.children().each(function() {
                 if (this.nodeName == name) {
                     value = $(this).text();
                     return false;
@@ -406,7 +418,6 @@ CITY.visit = (function (CITY, $) {
             });
             return value;
         },
-
         /**
          * parses locations xml and creates markers
          * @param {Object} xml: xml returned from Ajax request
@@ -414,8 +425,7 @@ CITY.visit = (function (CITY, $) {
          * @param {Object} textStatus: standard ajax reposnse
          * @return {?}
          */
-        parseXml = function (xml, textStatus, jqXHR) {
-
+        parseXml = function(xml, textStatus, jqXHR) {
             var index = 0,
                 $self,
                 marker,
@@ -423,77 +433,94 @@ CITY.visit = (function (CITY, $) {
                 searchTags = [],
                 searchIds = {};
 
-            $(xml).find("item").each(function () {
+            $(xml)
+                .find('item')
+                .each(function() {
+                    $self = $(this);
 
-                $self = $(this);
+                    markerConfig.index = index + 1;
+                    markerConfig.name = $self.find('title').text();
+                    markerConfig.linkHref = $self.find('link').text();
+                    markerConfig.description = $self.find('description').text();
+                    markerConfig.icon = findChildText($self, 'CUL:icon');
+                    markerConfig.category = $self.find('category').text();
+                    markerConfig.id = $self.find('guid').text();
+                    //markerConfig.isPolygon = $self.find("[nodeName='georss:polygon']");
+                    //with whitespace trimmed
+                    markerConfig.buildingPrefix = findChildText(
+                        $self,
+                        'CUL:buildingPrefix'
+                    ).replace(/^\s+|\s+$/g, '');
+                    markerConfig.hexColour = findChildText(
+                        $self,
+                        'CUL:hexColour'
+                    ).replace(/^\s+|\s+$/g, '');
+                    markerConfig.geoLat = findChildText($self, 'geo:lat');
+                    markerConfig.geoLong = findChildText($self, 'geo:long');
+                    markerConfig.point = new google.maps.LatLng(
+                        parseFloat(markerConfig.geoLat),
+                        parseFloat(markerConfig.geoLong)
+                    );
 
-                markerConfig.index = index + 1;
-                markerConfig.name = $self.find("title").text();
-                markerConfig.linkHref = $self.find("link").text();
-                markerConfig.description = $self.find("description").text();
-                markerConfig.icon = findChildText($self, "CUL:icon");
-                markerConfig.category = $self.find("category").text();
-                markerConfig.id = $self.find("guid").text();
-                //markerConfig.isPolygon = $self.find("[nodeName='georss:polygon']");
-                //with whitespace trimmed
-                markerConfig.buildingPrefix = findChildText($self, "CUL:buildingPrefix").replace(/^\s+|\s+$/g, '');
-                markerConfig.hexColour = findChildText($self, "CUL:hexColour").replace(/^\s+|\s+$/g, '');
-                markerConfig.geoLat = findChildText($self, "geo:lat");
-                markerConfig.geoLong = findChildText($self, "geo:long");
-                markerConfig.point = new google.maps.LatLng(parseFloat(markerConfig.geoLat), parseFloat(markerConfig.geoLong));
+                    //call createmarker fn
+                    marker = createMarker(markerConfig);
 
-                //call createmarker fn
-                marker = createMarker(markerConfig);
+                    if (markerConfig.category !== 'buildings') {
+                        //add returned marker to big array
+                        cityLayers.bigMarkersArray.push(marker);
+                    } else {
+                        //add marker to buldings array
+                        cityLayers.bigBuildingsArray.push(marker);
+                    }
+                    //all markers go in here
+                    cityLayers.buildingsObj[marker.id] = marker;
+                    searchTags.push(markerConfig.name);
+                    searchIds[markerConfig.name] = markerConfig.id;
 
-                if (markerConfig.category !== 'buildings') {
-                    //add returned marker to big array
-                    cityLayers.bigMarkersArray.push(marker);
-                } else {
-                    //add marker to buldings array
-                    cityLayers.bigBuildingsArray.push(marker);
-                }
-                //all markers go in here
-                cityLayers.buildingsObj[marker.id] = marker;
-                searchTags.push(markerConfig.name);
-                searchIds[markerConfig.name] = markerConfig.id;
+                    //add returned marker to category array (if cat exisits)
+                    if (cityLayers[markerConfig.category]) {
+                        cityLayers[markerConfig.category].markersArray.push(
+                            marker
+                        );
+                    } else {
+                        cityLayers[markerConfig.category] = newCategory(
+                            markerConfig.category
+                        );
+                    }
+                }); //end iteration
 
-                //add returned marker to category array (if cat exisits)
-                if (cityLayers[markerConfig.category]) {
-                    cityLayers[markerConfig.category].markersArray.push(marker);
-                } else {
-                    cityLayers[markerConfig.category] = newCategory(markerConfig.category);
-                }
-
-
-            });//end iteration
-
-            searchBox.autocomplete({
-                source: searchTags,
-                select: function (e) {
-                    setTimeout(function () {
-                        var selected = searchBox.val();
-                        searchBox.blur();
-                        if (selected in searchIds) {
-                            updateHash(searchIds[selected]);
-                        }
-                    }, 0);
-                }
-            }).focusin(function () {
-                searchBox.attr('value', '');
-            });
-            $('#vs-button').click(function () {
+            searchBox
+                .autocomplete({
+                    source: searchTags,
+                    select: function(e) {
+                        setTimeout(function() {
+                            var selected = searchBox.val();
+                            searchBox.blur();
+                            if (selected in searchIds) {
+                                updateHash(searchIds[selected]);
+                            }
+                        }, 0);
+                    },
+                })
+                .focusin(function() {
+                    searchBox.attr('value', '');
+                });
+            $('#vs-button').click(function() {
                 searchBox.focus();
             });
 
             //clear marker when infoWIndow closed
-            google.maps.event.addListener(infoWindow, 'closeclick', function () {
+            google.maps.event.addListener(infoWindow, 'closeclick', function() {
                 updateHash(infoWindow);
             });
 
             //so all markers in the buildingsArray initalially
             showOverlays(cityLayers.bigBuildingsArray);
 
-            $mapContainer.removeClass("loading").children('.loading-fa-icon').remove();
+            $mapContainer
+                .removeClass('loading')
+                .children('.loading-fa-icon')
+                .remove();
 
             // Bind an event to window.onhashchange that, when the history state changes,
             $(window).bind('hashchange', hashChange);
@@ -501,52 +528,61 @@ CITY.visit = (function (CITY, $) {
             // Since the event is only triggered when the hash changes, we need to trigger
             // the event now, to handle the hash the page may have loaded with.
             $(window).trigger('hashchange');
-
-        },//end parse xml,
-
-        loadXml = function () {
+        }, //end parse xml,
+        loadXml = function() {
             //get locations.xml
             $.ajax({
-                type: "GET",
+                type: 'GET',
                 url: dataSrc,
-                dataType: "xml",
-                success: parseXml
+                dataType: 'xml',
+                success: parseXml,
             });
         },
         /**
          * init fn
          * @return {Undefined}
          */
-        init = function () {
-            $mapContainer.addClass("loading").append($('<i class="fa fa-refresh fa-spin loading-fa-icon"></i>'));
+        init = function() {
+            $mapContainer
+                .addClass('loading')
+                .append(
+                    $('<i class="fa fa-refresh fa-spin loading-fa-icon"></i>')
+                );
             initKmlLayers(kmlLayers);
 
             loadXml();
 
             //initalise accordion for filter
-            $("#filter").accordion({collapsible: true, autoHeight: false, clearStyle: true, active: false});
+            $('#filter').accordion({
+                collapsible: true,
+                autoHeight: false,
+                clearStyle: true,
+                active: false,
+            });
 
             //scroll journey planner
-            $('#journey-link').bind('click', function (e) {
+            $('#journey-link').bind('click', function(e) {
                 e.preventDefault();
-                $('html, body').animate({
-                    scrollTop: $("#journey-planner").offset().top
-                }, 1000);
+                $('html, body').animate(
+                    {
+                        scrollTop: $('#journey-planner').offset().top,
+                    },
+                    1000
+                );
             });
         };
-//END VARS
+    //END VARS
 
-//expose the bits we want to
+    //expose the bits we want to
     returnObj = {
         init: init,
         cityLayers: cityLayers,
         infoWindow: infoWindow,
-        map: map
+        map: map,
     };
 
     return returnObj;
-
-}(CITY, jQuery));
+})(CITY, jQuery);
 
 //run this
 CITY.visit.init();
