@@ -7005,6 +7005,20 @@ aside .news-article-widget:last-child {
   color: #00284c;
 }
 
+.tile-wrapper.tile-wrapper--pg-starthere .filter-box__inner {
+  background: #3e1031;
+}
+
+.tile-wrapper.tile-wrapper--pg-starthere .read-more a:not(:hover):not(:active):not(:focus) {
+  background: #3e1031;
+  border-color: #3e1031;
+}
+
+.tile-wrapper.tile-wrapper--pg-starthere .read-more a:active,
+.tile-wrapper.tile-wrapper--pg-starthere .read-more a:focus {
+  color: #3e1031;
+}
+
 .bottom-banner {
   margin: 0 -10px 2px;
   padding: 30px 10px 30px;
@@ -14982,15 +14996,4 @@ p.left-float-image {
   border-bottom-width: 1px;
   border-bottom-style: dotted;
   position: relative;
-}
-
-.scholarship a,
-.scholarship a:focus,
-.scholarship a:hover {
-  text-decoration: none;
-}
-
-.scholarship a:link {
-  color: #b91b1b;
-  border-bottom-color: #999;
 }

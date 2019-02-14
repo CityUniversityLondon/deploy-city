@@ -1,3 +1,14 @@
+.scholarship a,
+.scholarship a:focus,
+.scholarship a:hover {
+  text-decoration: none;
+}
+
+.scholarship a:link {
+  color: #b91b1b;
+  border-bottom-color: #999;
+}
+
 .scholarship a:visited {
   color: #670003;
 }
