@@ -1,0 +1,19 @@
+.white-box--cards-intro h2 {
+  font-weight: 300;
+}
+
+.white-box--cards-intro h2 b {
+  font-weight: 700;
+}
+
+.lt-ie9 .tube-map-svg {
+  display: none;
+}
+
+.lt-ie9 .tube-map-img {
+  display: block;
+}
+
+.lt-ie9 .featured-stops-static {
+  display: block;
+}
