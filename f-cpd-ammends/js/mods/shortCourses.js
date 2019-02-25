@@ -40,10 +40,14 @@ var defer = require('./utils/defer'),
                 );
 
                 // If no presentation listings at all
-                if (
-                    !selectedOption.data() ||
-                    selectedOption.data().startdatevis == 'hide-date'
-                ) {
+                if (!selectedOption.data()) {
+                    console.log('this!!!!');
+                    $('#dynamic-deadline-further').hide();
+                    $("span[id^='dynamic-']").html(
+                        '<span>To be confirmed</span>'
+                    );
+                    $('#not-set').html(selectedOption.data('startdatesubtext'));
+                } else if (selectedOption.data().startdatevis == 'hide-date') {
                     $('.start-date').css('display', 'none');
                     $('#dynamic-deadline-further').hide();
                     $("span[id^='dynamic-']").html(
