@@ -5777,7 +5777,7 @@ aside .news-article-widget:last-child {
 }
 
 .action-box.action-box-9 a {
-  border-color: #8F2B8C;
+  border-color: #8f2b8c;
 }
 
 .action-box h2 {
@@ -5805,6 +5805,11 @@ aside .news-article-widget:last-child {
   background: #f9f9f9;
 }
 
+.action-box a:focus h2,
+.action-box a:hover h2 {
+  text-decoration: underline;
+}
+
 .action-box a:active {
   background: #fff;
 }
@@ -5828,7 +5833,7 @@ aside .news-article-widget:last-child {
 }
 
 .action-box-vertical:before {
-  content: "";
+  content: '';
   left: -1px;
   position: absolute;
   top: 0;
