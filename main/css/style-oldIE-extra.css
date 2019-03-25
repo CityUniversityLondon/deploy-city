@@ -2720,6 +2720,10 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
   border-bottom-color: transparent;
 }
 
+.course-finder__results__item h2 .fa-external-link {
+  font-size: .7em;
+}
+
 .course-finder__results__item--clearing {
   position: relative;
 }
@@ -2730,8 +2734,8 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
   background: 0 0;
   width: 48px;
   height: 48px;
-  border-top: 8px solid #0377A0;
-  border-left: 8px solid #0377A0;
+  border-top: 8px solid #0377a0;
+  border-left: 8px solid #0377a0;
   position: absolute;
   top: -8px;
   left: -8px;
