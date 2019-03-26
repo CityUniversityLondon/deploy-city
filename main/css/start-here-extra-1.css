@@ -13065,7 +13065,7 @@ img[align=right] {
 }
 
 #primary-nav-toggler a:before {
-  content: "\f0c9";
+  content: '\f0c9';
   font-family: FontAwesome;
   margin-right: .7em;
 }
@@ -13128,7 +13128,7 @@ img[align=right] {
 #slice-navigation.superbreadcrumb a:before {
   top: -1px;
   border: solid transparent;
-  content: " ";
+  content: ' ';
   height: 0;
   width: 0;
   position: absolute;
@@ -13163,7 +13163,7 @@ img[align=right] {
 #slice-navigation.superbreadcrumb .current span:before {
   top: -1px;
   border: solid transparent;
-  content: " ";
+  content: ' ';
   height: 0;
   width: 0;
   position: absolute;
@@ -13234,7 +13234,7 @@ img[align=right] {
 
   #slice-navigation.superbreadcrumb li:first-child a::after,
   #slice-navigation.superbreadcrumb li:first-child a::before {
-    content: " ";
+    content: ' ';
   }
 
   #slice-navigation.superbreadcrumb .current span {
@@ -13287,7 +13287,7 @@ img[align=right] {
 
   #slice-navigation.superbreadcrumb .current span::after,
   #slice-navigation.superbreadcrumb a::after {
-    content: " ";
+    content: ' ';
     display: block;
     width: 0;
     height: 0;
@@ -13303,7 +13303,7 @@ img[align=right] {
   }
 
   #slice-navigation.superbreadcrumb a::before {
-    content: " ";
+    content: ' ';
     display: block;
     width: 0;
     height: 0;
@@ -13382,7 +13382,7 @@ img[align=right] {
 #primary-nav li.selected a:before {
   top: -1px;
   border: solid transparent;
-  content: " ";
+  content: ' ';
   height: 0;
   width: 0;
   position: absolute;
@@ -13437,7 +13437,7 @@ img[align=right] {
 #primary-nav.top-level li:first-child+li a:before {
   top: -1px;
   border: solid transparent;
-  content: " ";
+  content: ' ';
   height: 0;
   width: 0;
   position: absolute;
@@ -13462,7 +13462,6 @@ img[align=right] {
 
 #primary-nav.top-level li:first-child+li a:active,
 #primary-nav.top-level li:first-child+li a:focus {
-  color: #e31b25;
   text-decoration: underline;
 }
 
@@ -13639,7 +13638,7 @@ img[align=right] {
 #secondary-nav li a:before {
   top: -1px;
   border: solid transparent;
-  content: " ";
+  content: ' ';
   height: 0;
   width: 0;
   position: absolute;
@@ -13712,7 +13711,7 @@ img[align=right] {
 #secondary-nav-siblings li:first-child a:before {
   top: -1px;
   border: solid transparent;
-  content: " ";
+  content: ' ';
   height: 0;
   width: 0;
   position: absolute;
@@ -13769,7 +13768,7 @@ img[align=right] {
     height: 0;
     border-bottom: 12px solid transparent;
     border-top: 13px solid transparent;
-    border-left: 13px solid #F7F7F7;
+    border-left: 13px solid #f7f7f7;
     font-size: 0;
     line-height: 0;
     left: 100%;
