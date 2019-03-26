@@ -3471,6 +3471,48 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
   margin: 0;
 }
 
+.finder-widget-levels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width:768px) {
+  .finder-widget-levels {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.finder-widget-levels div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-bottom: .5em;
+}
+
+@media screen and (min-width:768px) {
+  .finder-widget-levels div {
+    margin-right: 2em;
+  }
+}
+
+.finder-widget-levels div:last-of-type {
+  margin-right: 0;
+}
+
 .academic-experts-profile a {
   border-bottom-width: 1px;
   border-bottom-style: dotted;
