@@ -7,7 +7,7 @@
 CITY.buildingTheVision = (function() {
     var latlng = new google.maps.LatLng(51.527361, -0.102365),
         url =
-            'https://www.city.ac.uk/about/visit/feeds/locations.json?callback=?',
+            'https://www.city.ac.uk/about/campus-map/feeds/locations.json?callback=?',
         //variables
         mapCanvas = document.getElementById('mapCanvas'),
         $freeTextWidget = $('.widget.free-text'),

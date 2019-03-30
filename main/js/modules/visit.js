@@ -17,7 +17,7 @@ CITY.visit = (function(CITY, $) {
          * data source - relative to handle production and test environments
          * @var {String}
          */
-        dataSrc = 'https://www.city.ac.uk/about/visit/feeds/locations',
+        dataSrc = 'https://www.city.ac.uk/about/campus-map/feeds/locations',
         /**
          * Create a LatLng object containing the coordinate for the center of the map
          * @var {Object}
