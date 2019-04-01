@@ -12222,6 +12222,7 @@ input[type=checkbox]:disabled {
   margin: 0 0 .3em;
   font-size: 1.8em;
   color: #000;
+  font-family: ff-meta-web,sans-serif;
 }
 
 .home #section-nav {
