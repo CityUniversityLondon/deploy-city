@@ -1546,6 +1546,10 @@
   color: #b02a1a;
 }
 
+.people-listing div:nth-child(4n+1) {
+  clear: left;
+}
+
 .home .start-here-home-intro {
   text-align: center;
 }
