@@ -12432,6 +12432,85 @@ body {
   src: url(../fonts/metasans/MetaWeb-BoldIta.woff?city20150610) format("woff");
 }
 
+.conference-listing {
+  margin-left: 0;
+}
+
+.conference-listing .conference-listing__card {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 1em;
+}
+
+.conference-listing .conference-listing__card:last-of-type {
+  margin-bottom: 0;
+}
+
+.conference-listing .conference-listing__anchor {
+  background-color: #f2f2f2;
+  border-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 1em;
+}
+
+.conference-listing .conference-listing__anchor:focus .conference-listing__heading {
+  color: #b02a1a;
+}
+
+.conference-listing .conference-listing__anchor:focus .conference-listing__heading span {
+  border-bottom: 2px solid #b02a1a;
+}
+
+.conference-listing .conference-listing__anchor:active,
+.conference-listing .conference-listing__anchor:focus {
+  outline: 2px dotted #444;
+  outline-offset: 3px;
+}
+
+.conference-listing .conference-listing__anchor:active {
+  outline-offset: 0;
+}
+
+.conference-listing .conference-listing__anchor:active .conference-listing__heading,
+.conference-listing .conference-listing__anchor:hover .conference-listing__heading {
+  color: #ef383f;
+}
+
+.conference-listing .conference-listing__anchor:active .conference-listing__heading span,
+.conference-listing .conference-listing__anchor:hover .conference-listing__heading span {
+  border-bottom: 2px solid #ef383f;
+}
+
+.conference-listing .conference-listing__anchor .conference-listing__date,
+.conference-listing .conference-listing__anchor .conference-listing__description {
+  color: #444;
+}
+
+.conference-listing .conference-listing__image {
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+}
+
+.conference-listing .conference-listing__image img {
+  height: auto;
+  width: auto;
+}
+
+.conference-listing .conference-listing__details {
+  -ms-flex-preferred-size: 75%;
+  flex-basis: 75%;
+}
+
+.conference-listing .conference-listing__image+.conference-listing__details {
+  margin-left: 1em;
+}
+
 @media print {
   * {
     background: 0 0!important;
