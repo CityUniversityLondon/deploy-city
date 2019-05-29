@@ -22,7 +22,7 @@ module.exports = function () {
         },
 
         highlightCurrentPage = function () {
-            var pathname = (window.location.pathname).replace("/_nocache", "").replace("/_recache", "");
+            var pathname = (window.location.href).replace("/_nocache", "").replace("/_recache", "");
             $(".primary-menu .primary-menu__item-link[href$='" + pathname  + "']").addClass("primary-menu__item-link--selected");
         },
 
