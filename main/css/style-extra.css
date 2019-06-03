@@ -8529,7 +8529,7 @@ body#library {
   padding: 10px 0 0 0;
   width: 100%;
   background: #f2f2f2 none repeat scroll 0 0;
-  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-family: ff-meta-web,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 
 @media screen and (min-width:400px) {
@@ -8638,7 +8638,7 @@ body#library {
 }
 
 .social-wall .item-footer .footer-twitter:before {
-  content: "";
+  content: '';
   width: 23px;
   height: 16px;
   float: left;
@@ -8647,7 +8647,7 @@ body#library {
 }
 
 .social-wall .item-footer .footer-facebook:before {
-  content: "";
+  content: '';
   width: 23px;
   height: 16px;
   float: left;
@@ -8656,7 +8656,7 @@ body#library {
 }
 
 .social-wall .item-footer .footer-instagram:before {
-  content: "";
+  content: '';
   width: 23px;
   height: 16px;
   float: left;
@@ -8665,7 +8665,7 @@ body#library {
 }
 
 .social-wall .item-footer .footer-youtube:before {
-  content: "";
+  content: '';
   width: 23px;
   height: 16px;
   float: left;
@@ -8724,7 +8724,7 @@ body#library {
 }
 
 .smh-accounts .smh-account__type {
-  background: url(//s1.city.ac.uk/cityr/i/home/social.png) no-repeat scroll 0 -30px rgba(0,0,0,0);
+  background: url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/cityr/i/home/social.png) no-repeat scroll 0 -30px rgba(0,0,0,0);
   border-bottom: none;
   display: block;
   float: left;
@@ -8788,7 +8788,7 @@ body#library {
 }
 
 .smh-accounts .smh-account__type--tumblr:before {
-  content: "\f174";
+  content: '\f174';
   font-family: FontAwesome;
   color: #444;
 }
@@ -8813,7 +8813,7 @@ body#library {
 }
 
 .smh-accounts .smh-account__type--flickr:before {
-  content: "\f16e";
+  content: '\f16e';
   font-family: FontAwesome;
   color: #444;
 }

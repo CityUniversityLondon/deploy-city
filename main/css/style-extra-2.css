@@ -13409,7 +13409,7 @@ a.ghost-cta .white-card__media .embed-container a:before {
   position: absolute;
   content: ' ';
   display: block;
-  background: #A7281D;
+  background: #a7281d;
   width: 100px;
   max-width: 25%;
   height: 3px;
@@ -13477,7 +13477,7 @@ a.ghost-cta .white-card__media .embed-container a:before {
   position: absolute;
   content: ' ';
   display: block;
-  background: #A7281D;
+  background: #a7281d;
   width: 100px;
   max-width: 25%;
   height: 3px;
@@ -13496,7 +13496,7 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 .election-microsite .election-microsite__news .read-more h3 {
-  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-family: ff-meta-web,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 
 .election-microsite .election-microsite__academics__item {
@@ -13671,7 +13671,7 @@ a.ghost-cta .white-card__media .embed-container a:before {
   position: absolute;
   content: ' ';
   display: block;
-  background: #A7281D;
+  background: #a7281d;
   width: 100px;
   max-width: 25%;
   height: 3px;
@@ -13708,7 +13708,7 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 #promo-wrapper .banner-n.general-election__banner .banner-text {
-  background-color: #00284C;
+  background-color: #00284c;
   color: #FFF;
   width: 100%;
   padding: 20px;
@@ -13729,7 +13729,7 @@ a.ghost-cta .white-card__media .embed-container a:before {
 #promo-wrapper .banner-n.general-election__banner .banner-text h2 {
   margin: 0;
   line-height: 1.25em;
-  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-family: ff-meta-web,'Helvetica Neue',Arial,Helvetica,sans-serif;
   font-size: 2.286em;
   font-weight: 200;
 }
