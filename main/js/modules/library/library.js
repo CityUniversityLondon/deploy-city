@@ -104,7 +104,7 @@ CITY.library = (function($) {
             var request = new XMLHttpRequest(),
                 weekStart = options.week || '',
                 requestURL =
-                    'https://www.city.ac.uk/api/library-opening-times/current-week/_nocache?SQ_CALENDAR_VIEW=week&SQ_CALENDAR_DATE=' +
+                    '/api/library-opening-times/current-week/_nocache?SQ_CALENDAR_VIEW=week&SQ_CALENDAR_DATE=' +
                     weekStart,
                 data,
                 returnObject = {};
@@ -240,7 +240,7 @@ CITY.library = (function($) {
                             '<td><span>' +
                             capitaliseFirstLetter(daysArray[i]) +
                             '</span></td>';
-                        htmlA += '<td><span>No time availalble</span></td>';
+                        htmlA += '<td><span>No time available</span></td>';
                         htmlA += '</tr>';
                     }
                 } // end for...loop

@@ -300,7 +300,7 @@ var libraryAdmin = (function($) {
 
             var request = new XMLHttpRequest(),
                 requestURL =
-                    '//www.city.ac.uk/api/library-opening-times/delete-event-children?root=' +
+                    '/api/library-opening-times/delete-event-children?root=' +
                     eventID,
                 returnObject = {},
                 data;
