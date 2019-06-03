@@ -25445,12 +25445,31 @@ a.course__red-links__link.course__red-links__link--apply {
 .city-research .global-nav__drop {
   background: #005F6B; }
 
+.city-research .header-nav-wrapper .global-nav__menu-item--active {
+  background: #f5f7f7; }
+
 .city-research .footer2016__social,
 .city-research .footer2016__location {
   background: #666666; }
 
 .city-research .footer2016 .social-panel {
   border-bottom: 2px solid rgba(255, 255, 255, 0.1); }
+
+.city-research .global-nav__menu-item:hover .global-nav__menu-item__link,
+.city-research .global-nav__menu-item:hover .global-nav__menu-item__toggle-icon {
+  color: #003237; }
+
+.city-research .global-nav__menu-item:hover .global-nav__menu-item__link {
+  border-bottom: 1px solid #003237; }
+
+.city-research .global-nav__menu-item .global-nav__menu-item__toggle-icon {
+  color: #595959; }
+
+.city-research .global-nav__menu-item .global-nav__menu-item__toggle:focus .global-nav__menu-item__toggle-icon {
+  border-color: #333; }
+
+.city-research .global-nav__menu-item .global-nav__menu-item__link {
+  color: #595959; }
 
 .icons-finance .fa, .icons-finance .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .icons-finance .ui-icon, .icons-finance #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .icons-finance .ui-icon, .icons-finance .dialog button, .dialog .icons-finance button, .icons-finance .white-card__media .embed-container a:before, .white-card__media .embed-container .icons-finance a:before, .icons-finance .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .icons-finance .ui-icon, .icons-hr .fa, .icons-hr .ui-accordion .ui-accordion-header .ui-icon, .ui-accordion .ui-accordion-header .icons-hr .ui-icon, .icons-hr #courses-widget .widget-content .ui-accordion-header .ui-icon, #courses-widget .widget-content .ui-accordion-header .icons-hr .ui-icon, .icons-hr .dialog button, .dialog .icons-hr button, .icons-hr .white-card__media .embed-container a:before, .white-card__media .embed-container .icons-hr a:before, .icons-hr .course .accordion.ui-accordion .ui-accordion-header .ui-icon, .course .accordion.ui-accordion .ui-accordion-header .icons-hr .ui-icon {
   font-size: 34px;
