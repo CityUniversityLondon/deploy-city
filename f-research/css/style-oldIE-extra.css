@@ -5275,6 +5275,71 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
   }
 }
 
+.city-research .header__util {
+  background-color: #00444d;
+}
+
+.city-research .header__util__item--active {
+  background-color: #005F6B;
+}
+
+.city-research .header__util__staff__list {
+  background-color: #005F6B;
+}
+
+.city-research .header__util__students,
+.city-research .header__util__staff {
+  border-right: 2px solid #003237;
+}
+
+.city-research .header__util__students:first-child,
+.city-research .header__util__staff:first-child {
+  border-left: 2px solid #003237;
+}
+
+.city-research .primary-menu-wrapper,
+.city-research .primary-menu-wrapper .primary-menu-toggle {
+  background: #00444d;
+}
+
+.city-research .primary-menu-wrapper .primary-menu-toggle--open {
+  background: white;
+}
+
+.city-research .global-nav__wrapper--active .global-nav__toggle,
+.city-research .no-js .global-nav__toggle {
+  border: 1px solid #00444d;
+  background: #00444d;
+}
+
+.city-research .global-nav__menu-item .global-nav__menu-item__toggle-icon {
+  background-color: #005F6B;
+  background-color: transparent;
+}
+
+.city-research .global-nav__wrapper--active .header__util__misc__item,
+.city-research .no-js .header__util__misc__item {
+  background-color: #005F6B;
+}
+
+.city-research .global-nav__wrapper--active .navigation-wrapper,
+.city-research .no-js .navigation-wrapper {
+  background-color: #00444d;
+}
+
+.city-research .global-nav__drop {
+  background: #005F6B;
+}
+
+.city-research .footer2016__social,
+.city-research .footer2016__location {
+  background: #666666;
+}
+
+.city-research .footer2016 .social-panel {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
 .icons-finance .fa,
 .icons-finance .ui-accordion .ui-accordion-header .ui-icon,
 .ui-accordion .ui-accordion-header .icons-finance .ui-icon,
