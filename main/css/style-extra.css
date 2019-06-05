@@ -7903,7 +7903,7 @@ body#library {
 }
 
 .calendar.calendar--loading {
-  background: url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/cityr/i/ajax-loader-small-red.gif) no-repeat center center #FFF;
+  background: url(https://libraryservices.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/ajax-loader-small-red.gif) no-repeat center center #FFF;
   height: 480px;
 }
 
@@ -7913,7 +7913,7 @@ body#library {
 }
 
 .calendar.calendar--empty:after {
-  content: "No library id supplied.";
+  content: 'No library id supplied.';
   display: block;
 }
 
@@ -7992,7 +7992,7 @@ body#library {
 
 .calendar td.today .dateLink:after,
 .calendar td.today .event-day:after {
-  content: " (Today)";
+  content: ' (Today)';
   color: #c33;
 }
 
@@ -8215,7 +8215,7 @@ body#library {
 
 .modal__box--loading.modal__box--delete,
 .modal__box.modal__box--loading {
-  background: url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/cityr/i/ajax-loader-small-red.gif) no-repeat center center #FFF;
+  background: url(https://libraryservices.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/ajax-loader-small-red.gif) no-repeat center center #FFF;
 }
 
 .modal__box--loading.modal__box--delete fieldset,
