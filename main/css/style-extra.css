@@ -3452,9 +3452,11 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
   color: #b91b1b;
 }
 
-.course-finder__filter--clearing {
+.course-finder__filter--clearing div {
+  background-color: #0377a0;
+  color: #fff;
   font-weight: 600;
-  color: #0377a0;
+  padding: 8px;
 }
 
 .course-finder-test #primary-nav-toggler,
