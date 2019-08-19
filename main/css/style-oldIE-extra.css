@@ -994,7 +994,7 @@
 }
 
 .course__subheader:after {
-  content: "";
+  content: '';
   display: block;
   width: 160px;
   height: 6px;
@@ -1182,7 +1182,7 @@
 }
 
 .course__contact__item__tel a:before {
-  content: "";
+  content: '';
   width: 100%;
   display: block;
 }
@@ -1223,6 +1223,34 @@
 
 .course__kis--vertical .course__kis__content iframe {
   margin-left: -95px;
+}
+
+.kis-widget {
+  overflow: hidden;
+  border: 0 none transparent;
+  max-width: 615px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width:768px) {
+  .kis-widget--vertical {
+    display: block;
+  }
+
+  .kis-widget--horizontal {
+    display: none;
+  }
+}
+
+@media only screen and (min-width:769px) {
+  .kis-widget--vertical {
+    display: none;
+  }
+
+  .kis-widget--horizontal {
+    display: block;
+  }
 }
 
 .course__news-item__cat {
@@ -1832,7 +1860,7 @@
   line-height: 1.4em;
   margin: -22px 0 -7px;
   display: block;
-  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-family: ff-meta-web,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 
 .course .fw-section-wrapper .section-heading .section-break {
