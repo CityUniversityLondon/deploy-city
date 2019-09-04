@@ -16,17 +16,15 @@ module.exports = (function() {
             var root = gallery.attr('id').replace('gallery-', ''),
                 galleryInner = gallery.find('.gallery-inner');
 
-            $.getJSON(
-                'https://www.city.ac.uk/apis/galleries/galleria-json?root=' +
-                    root,
-                function(data) {
-                    //remove loader
-                    gallery.find('span.loading').hide();
-                    gallery.css('opacity', '1');
-                    options.data_source = data;
-                    galleryInner.galleria(options);
-                }
-            );
+            $.getJSON('/apis/galleries/galleria-json?root=' + root, function(
+                data
+            ) {
+                //remove loader
+                gallery.find('span.loading').hide();
+                gallery.css('opacity', '1');
+                options.data_source = data;
+                galleryInner.galleria(options);
+            });
 
             return galleryInner;
         },
