@@ -5196,11 +5196,11 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 }
 
 .city-research .header__util__item--active {
-  background-color: #005F6B;
+  background-color: #005f6b;
 }
 
 .city-research .header__util__staff__list {
-  background-color: #005F6B;
+  background-color: #005f6b;
 }
 
 .city-research .header__util__staff,
@@ -5229,13 +5229,13 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 }
 
 .city-research .global-nav__menu-item .global-nav__menu-item__toggle-icon {
-  background-color: #005F6B;
+  background-color: #005f6b;
   background-color: transparent;
 }
 
 .city-research .global-nav__wrapper--active .header__util__misc__item,
 .city-research .no-js .header__util__misc__item {
-  background-color: #005F6B;
+  background-color: #005f6b;
 }
 
 .city-research .global-nav__wrapper--active .navigation-wrapper,
@@ -5245,16 +5245,16 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 }
 
 .city-research .global-nav__drop {
-  background: #005F6B;
+  background: #005f6b;
 }
 
 .city-research .header-nav-wrapper .global-nav__menu-item--active {
-  background: #005F6B;
+  background: #005f6b;
   background: #f5f7f7;
 }
 
 .city-research .global-nav__drop {
-  background: #005F6B;
+  background: #005f6b;
   background: #f5f7f7;
 }
 
@@ -5283,6 +5283,50 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 
 .city-research .global-nav__menu-item:hover .global-nav__menu-item__link {
   border-bottom: 1px solid #003237;
+}
+
+.city-research .header__logo-nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.city-research .header__logo-nav-wrapper .header__home-link {
+  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-left: 1em;
+}
+
+.city-research .header__logo-nav-wrapper .header__home-link a {
+  font-size: 1.8em;
+  margin-bottom: .5em;
+  text-decoration: none;
+}
+
+.city-research .header__logo-nav-wrapper .header__home-link a:link,
+.city-research .header__logo-nav-wrapper .header__home-link a:visited {
+  color: #333;
+  border: none;
+}
+
+.city-research .header__logo-nav-wrapper .header__home-link a:hover {
+  border-bottom: 1px solid #96190b;
+  color: #96190b;
+}
+
+.city-research .header__logo-nav-wrapper .header__home-link a:active,
+.city-research .header__logo-nav-wrapper .header__home-link a:focus {
+  color: #FFF;
 }
 
 #courses-widget .widget-content .ui-accordion-header .icons-finance .ui-icon,
