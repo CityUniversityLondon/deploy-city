@@ -193,7 +193,7 @@
 }
 
 #social-list a.osw {
-  background: transparent url("//s1.dev.city.ac.uk/cityr/i/vector-social-media-icons/social-list.png") no-repeat 0 0;
+  background: transparent url("//s1.dev.city.ac.uk/i/vector-social-media-icons/social-list.png") no-repeat 0 0;
   line-height: 32px;
   height: 32px;
 }
@@ -2475,7 +2475,7 @@ or until modernizr tests for it (version 3?).
 
 .search #fb-results .fb-filetype.fb-pdf {
   display: block;
-  background: url("//s1.dev.city.ac.uk/cityr/i/icon-pdf.gif") no-repeat center center;
+  background: url("//s1.dev.city.ac.uk/i/icon-pdf.gif") no-repeat center center;
   text-indent: -9999px;
   width: 18px;
 }
@@ -4550,7 +4550,7 @@ or until modernizr tests for it (version 3?).
 .tweet-meta-reply,
 .tweet-meta-favorite,
 .tweet-meta-retweet {
-  background-image: url("//s1.dev.city.ac.uk/cityr/i/everything-sprite.png");
+  background-image: url("//s1.dev.city.ac.uk/i/everything-sprite.png");
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
@@ -8589,7 +8589,7 @@ aside .news-article-widget:last-child {
 
 .job-outlook:before {
   content: "";
-  background-image: url("//s1.dev.city.ac.uk/cityr/i/cityventures/progress-bg");
+  background-image: url("//s1.dev.city.ac.uk/i/cityventures/progress-bg");
   opacity: 0.5;
   width: 100%;
   height: 100%;
@@ -8605,7 +8605,7 @@ aside .news-article-widget:last-child {
 
 .job-outlook::-webkit-progress-value {
   background-color: transparent;
-  background-image: url("//s1.dev.city.ac.uk/cityr/i/cityventures/progress-bg");
+  background-image: url("//s1.dev.city.ac.uk/i/cityventures/progress-bg");
 }
 
 .widget .job-outlook + h2 {
@@ -13635,7 +13635,7 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
 .visit #filter li a {
   padding: 10px 0 10px 40px;
   margin: 5px 0;
-  background: transparent url("//s1.dev.city.ac.uk/cityr/i/skin/map-icons/university.png") no-repeat left center;
+  background: transparent url("//s1.dev.city.ac.uk/i/skin/map-icons/university.png") no-repeat left center;
   display: block;
   border: none;
 }
@@ -14351,7 +14351,7 @@ migrated from static for http://www.city.ac.uk/research/research-publications/se
 
 #fb-queryform-publications .large-search #search-button,
 #fb-queryform-publications .large-search .s-button {
-  background: url("//s1.dev.city.ac.uk/cityr/i/skin/search-red.png") no-repeat scroll center center #f7f7f7;
+  background: url("//s1.dev.city.ac.uk/i/skin/search-red.png") no-repeat scroll center center #f7f7f7;
   border: medium none;
   cursor: pointer;
   display: inline;
@@ -14422,7 +14422,7 @@ migrated from static for http://www.city.ac.uk/research/research-publications/se
 #fb-advanced-publications .s-button {
   height: 33px;
   width: 33px;
-  background: url("//s1.dev.city.ac.uk/cityr/i/skin/search-red.png") no-repeat scroll center center #f7f7f7;
+  background: url("//s1.dev.city.ac.uk/i/skin/search-red.png") no-repeat scroll center center #f7f7f7;
   border: medium none;
   cursor: pointer;
   display: inline;

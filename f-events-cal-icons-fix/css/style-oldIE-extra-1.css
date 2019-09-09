@@ -2659,7 +2659,7 @@ pre code {
 .ui-state-error,
 .ui-widget-content .ui-state-error {
   border: 1px solid #cd0a0a;
-  background: #b81900 url("//s1.dev.city.ac.uk/cityr/i/ui-bg_diagonals-thick_18_b81900_40x40.png") 50% 50% repeat;
+  background: #b81900 url("//s1.dev.city.ac.uk/i/ui-bg_diagonals-thick_18_b81900_40x40.png") 50% 50% repeat;
   color: white;
 }
 
@@ -2692,31 +2692,31 @@ pre code {
 .ui-icon {
   width: 18px;
   height: 18px;
-  background-image: url("//s1.dev.city.ac.uk/cityr/i/ui-icons_222222_256x240.png");
+  background-image: url("//s1.dev.city.ac.uk/i/ui-icons_222222_256x240.png");
 }
 
 .ui-widget-content .ui-icon {
-  background-image: url("//s1.dev.city.ac.uk/cityr/i/ui-icons_222222_256x240.png");
+  background-image: url("//s1.dev.city.ac.uk/i/ui-icons_222222_256x240.png");
 }
 
 .ui-widget-header .ui-icon {
-  background-image: url("//s1.dev.city.ac.uk/cityr/i/ui-icons_ffffff_256x240.png");
+  background-image: url("//s1.dev.city.ac.uk/i/ui-icons_ffffff_256x240.png");
 }
 
 .ui-state-default .ui-icon,
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon,
 .ui-state-active .ui-icon {
-  background-image: url("//s1.dev.city.ac.uk/cityr/i/ui-icons_222222_256x240.png");
+  background-image: url("//s1.dev.city.ac.uk/i/ui-icons_222222_256x240.png");
 }
 
 .ui-state-highlight .ui-icon {
-  background-image: url("//s1.dev.city.ac.uk/cityr/i/ui-icons_228ef1_256x240.png");
+  background-image: url("//s1.dev.city.ac.uk/i/ui-icons_228ef1_256x240.png");
 }
 
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-  background-image: url("//s1.dev.city.ac.uk/cityr/i/ui-icons_ffd27a_256x240.png");
+  background-image: url("//s1.dev.city.ac.uk/i/ui-icons_ffd27a_256x240.png");
 }
 
 .ui-icon-carat-1-n {
@@ -3432,7 +3432,7 @@ pre code {
 .ui-widget-shadow {
   margin: -5px 0 0 -5px;
   padding: 5px;
-  background: black url("//s1.dev.city.ac.uk/cityr/i/ui-bg_flat_10_000000_40x100.png") 50% 50% repeat-x;
+  background: black url("//s1.dev.city.ac.uk/i/ui-bg_flat_10_000000_40x100.png") 50% 50% repeat-x;
   opacity: 0.2;
   filter: Alpha(Opacity=20);
   border-radius: 5px;
@@ -3571,7 +3571,7 @@ pre code {
 }
 
 li.ui-menu-item:first-child {
-  background: #333 url("//s1.dev.city.ac.uk/cityr/i/autocomplete-down.png") no-repeat 25px 0;
+  background: #333 url("//s1.dev.city.ac.uk/i/autocomplete-down.png") no-repeat 25px 0;
   padding-top: 15px;
 }
 
@@ -3707,7 +3707,7 @@ button.ui-button::-moz-focus-inner {
   width: 80px;
   height: 20px;
   right: 0;
-  background: transparent url("//s1.dev.city.ac.uk/cityr/i/modal-close.png") no-repeat right top;
+  background: transparent url("//s1.dev.city.ac.uk/i/modal-close.png") no-repeat right top;
   color: #b02a1a;
   cursor: pointer;
   border: none;
@@ -3955,7 +3955,7 @@ button.ui-button::-moz-focus-inner {
 
 .ui-datepicker .ui-datepicker-prev-hover span,
 .ui-datepicker .ui-datepicker-next-hover span {
-  background-image: url("//s1.dev.city.ac.uk/cityr/i/ui-icons_ffffff_256x240.png");
+  background-image: url("//s1.dev.city.ac.uk/i/ui-icons_ffffff_256x240.png");
 }
 
 .ui-datepicker .ui-datepicker-prev-hover span {
@@ -8090,7 +8090,7 @@ input[type="submit"].btn.btn-mini {
 
 .int-social-list li a {
   padding: 0 0 0 45px;
-  background: transparent url("//s1.dev.city.ac.uk/cityr/i/icon-weibosocial.png") no-repeat center 2px;
+  background: transparent url("//s1.dev.city.ac.uk/i/icon-weibosocial.png") no-repeat center 2px;
   display: block;
   line-height: 32px;
   height: 32px;
@@ -8852,7 +8852,7 @@ blockquote {
   color: #666666;
   padding: 0 0 0 40px;
   margin: 20px 0 20px 0;
-  background: transparent url("//s1.dev.city.ac.uk/cityr/i/quote.png") no-repeat left top;
+  background: transparent url("//s1.dev.city.ac.uk/i/quote.png") no-repeat left top;
   clear: both;
   border: none;
 }
@@ -10153,7 +10153,7 @@ a:focus {
 /*pdf icons for links with class pdf*/
 
 .pdf {
-  background: transparent url("//s1.dev.city.ac.uk/cityr/i/icon-pdf.gif") no-repeat 0 center;
+  background: transparent url("//s1.dev.city.ac.uk/i/icon-pdf.gif") no-repeat 0 center;
   padding-left: 20px;
 }
 
@@ -10255,7 +10255,7 @@ a:focus {
 .back-button,
 .action-button,
 .back-button {
-  background: #b02a1a url("//s1.dev.city.ac.uk/cityr/i/icon-action-arrow.png") no-repeat right center;
+  background: #b02a1a url("//s1.dev.city.ac.uk/i/icon-action-arrow.png") no-repeat right center;
   padding: 8px 20px 8px 8px;
   color: #ffffff;
   font-weight: bold !important;
@@ -10290,7 +10290,7 @@ a:focus {
 }
 
 #content .back-button {
-  background: #b02a1a url("//s1.dev.city.ac.uk/cityr/i/icon-action-back-arrow.png") no-repeat 6px center;
+  background: #b02a1a url("//s1.dev.city.ac.uk/i/icon-action-back-arrow.png") no-repeat 6px center;
   padding: 4px 5px 4px 20px;
   border: none;
   font-size: 0.9em;
@@ -10301,7 +10301,7 @@ a:focus {
 #content a.big-action-button {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  background: #b02a1a url("//s1.dev.city.ac.uk/cityr/i/icon-action-arrow.png") no-repeat scroll 195px 50%;
+  background: #b02a1a url("//s1.dev.city.ac.uk/i/icon-action-arrow.png") no-repeat scroll 195px 50%;
   background-image: -webkit-linear-gradient(top, #b02a1a 0%, #96190b 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#b02a1a), to(#96190b));
   background-image: linear-gradient(to bottom, #b02a1a 0%, #96190b 100%);
@@ -10325,7 +10325,7 @@ a:focus {
 }
 
 #content a.big-action-button:hover {
-  background: #96190b url("//s1.dev.city.ac.uk/cityr/i/icon-action-arrow.png") no-repeat scroll 195px 50%;
+  background: #96190b url("//s1.dev.city.ac.uk/i/icon-action-arrow.png") no-repeat scroll 195px 50%;
   background-image: -webkit-linear-gradient(top, #96190b 0%, #b02a1a 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#96190b), to(#b02a1a));
   background-image: linear-gradient(to bottom, #96190b 0%, #b02a1a 100%);
@@ -10811,7 +10811,7 @@ td select {
   border: none;
   display: inline;
   /* verbatim from compass generated website.css */
-  background: #b02a1a url("//s1.dev.city.ac.uk/cityr/i/icon-action-arrow.png") no-repeat right center;
+  background: #b02a1a url("//s1.dev.city.ac.uk/i/icon-action-arrow.png") no-repeat right center;
   padding: 5px 20px 5px 5px !important;
   color: #ffffff !important;
   font-weight: bold;
@@ -11160,9 +11160,9 @@ input[type="checkbox"]:disabled {
 #cff-single-donation .donation-submit,
 #cff-regular-donation .donation-submit {
   background-color: #B02A1A;
-  background: url("//s1.dev.city.ac.uk/cityr/i/icon-action-arrow.png") no-repeat 77px center, -webkit-gradient(linear, left top, left bottom, from(#B02A1A), to(#96190B));
-  background: url("//s1.dev.city.ac.uk/cityr/i/icon-action-arrow.png") no-repeat 77px center, -webkit-linear-gradient(top, #B02A1A 0%, #96190B 100%);
-  background: url("//s1.dev.city.ac.uk/cityr/i/icon-action-arrow.png") no-repeat 77px center, linear-gradient(to bottom, #B02A1A 0%, #96190B 100%);
+  background: url("//s1.dev.city.ac.uk/i/icon-action-arrow.png") no-repeat 77px center, -webkit-gradient(linear, left top, left bottom, from(#B02A1A), to(#96190B));
+  background: url("//s1.dev.city.ac.uk/i/icon-action-arrow.png") no-repeat 77px center, -webkit-linear-gradient(top, #B02A1A 0%, #96190B 100%);
+  background: url("//s1.dev.city.ac.uk/i/icon-action-arrow.png") no-repeat 77px center, linear-gradient(to bottom, #B02A1A 0%, #96190B 100%);
   border-bottom: medium none;
   border-radius: 4px;
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
@@ -11212,9 +11212,9 @@ input[type="checkbox"]:disabled {
 
 #wow-widget #submit-nomination {
   background-color: #B02A1A;
-  background: url("//s1.dev.city.ac.uk/cityr/i/icon-action-arrow.png") no-repeat 120px center, -webkit-gradient(linear, left top, left bottom, from(#B02A1A), to(#96190B));
-  background: url("//s1.dev.city.ac.uk/cityr/i/icon-action-arrow.png") no-repeat 120px center, -webkit-linear-gradient(top, #B02A1A 0%, #96190B 100%);
-  background: url("//s1.dev.city.ac.uk/cityr/i/icon-action-arrow.png") no-repeat 120px center, linear-gradient(to bottom, #B02A1A 0%, #96190B 100%);
+  background: url("//s1.dev.city.ac.uk/i/icon-action-arrow.png") no-repeat 120px center, -webkit-gradient(linear, left top, left bottom, from(#B02A1A), to(#96190B));
+  background: url("//s1.dev.city.ac.uk/i/icon-action-arrow.png") no-repeat 120px center, -webkit-linear-gradient(top, #B02A1A 0%, #96190B 100%);
+  background: url("//s1.dev.city.ac.uk/i/icon-action-arrow.png") no-repeat 120px center, linear-gradient(to bottom, #B02A1A 0%, #96190B 100%);
   border-bottom: medium none;
   border-radius: 4px;
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
@@ -15272,7 +15272,7 @@ body {
   font-style: italic;
   padding: 0 0 0 40px;
   margin: 10px 0 20px 0;
-  background: transparent url("//s1.dev.city.ac.uk/cityr/i/quote.png") no-repeat left top;
+  background: transparent url("//s1.dev.city.ac.uk/i/quote.png") no-repeat left top;
   clear: both;
   border: none;
   text-indent: 0;
@@ -16018,7 +16018,7 @@ a.city-vision-widget:hover hr {
 }
 
 #social-list a.osw {
-  background: transparent url("//s1.dev.city.ac.uk/cityr/i/vector-social-media-icons/social-list.png") no-repeat 0 0;
+  background: transparent url("//s1.dev.city.ac.uk/i/vector-social-media-icons/social-list.png") no-repeat 0 0;
   line-height: 32px;
   height: 32px;
 }
