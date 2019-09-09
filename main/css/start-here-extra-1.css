@@ -5877,7 +5877,7 @@ blockquote {
   color: #666;
   padding: 0 0 0 40px;
   margin: 20px 0 20px 0;
-  background: transparent url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/cityr/i/quote.png) no-repeat left top;
+  background: transparent url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/quote.png) no-repeat left top;
   clear: both;
   border: none;
 }
@@ -11880,7 +11880,7 @@ body {
   font-style: italic;
   padding: 0 0 0 40px;
   margin: 10px 0 20px 0;
-  background: transparent url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/cityr/i/quote.png) no-repeat left top;
+  background: transparent url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/quote.png) no-repeat left top;
   clear: both;
   border: none;
   text-indent: 0;
@@ -12656,7 +12656,7 @@ a.city-vision-widget:hover hr {
 }
 
 #social-list a.osw {
-  background: transparent url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/cityr/i/vector-social-media-icons/social-list.png) no-repeat 0 0;
+  background: transparent url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/vector-social-media-icons/social-list.png) no-repeat 0 0;
   line-height: 32px;
   height: 32px;
 }
@@ -14952,7 +14952,7 @@ a:focus {
 }
 
 .pdf {
-  background: transparent url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/cityr/i/icon-pdf.gif) no-repeat 0 center;
+  background: transparent url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/icon-pdf.gif) no-repeat 0 center;
   padding-left: 20px;
 }
 
@@ -15050,7 +15050,7 @@ a:focus {
 
 .action-button,
 .back-button {
-  background: #b02a1a url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/cityr/i/icon-action-arrow.png) no-repeat right center;
+  background: #b02a1a url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/icon-action-arrow.png) no-repeat right center;
   padding: 8px 20px 8px 8px;
   color: #FFF;
   font-weight: 700!important;
@@ -15079,7 +15079,7 @@ a:focus {
 }
 
 #content .back-button {
-  background: #b02a1a url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/cityr/i/icon-action-back-arrow.png) no-repeat 6px center;
+  background: #b02a1a url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/icon-action-back-arrow.png) no-repeat 6px center;
   padding: 4px 5px 4px 20px;
   border: none;
   font-size: .9em;
@@ -15088,7 +15088,7 @@ a:focus {
 #content a.big-action-button {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  background: #b02a1a url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/cityr/i/icon-action-arrow.png) no-repeat scroll 195px 50%;
+  background: #b02a1a url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/icon-action-arrow.png) no-repeat scroll 195px 50%;
   background-image: -webkit-linear-gradient(top,#b02a1a 0,#96190b 100%);
   background-image: -webkit-gradient(linear,left top,left bottom,from(#b02a1a),to(#96190b));
   background-image: linear-gradient(to bottom,#b02a1a 0,#96190b 100%);
@@ -15112,7 +15112,7 @@ a:focus {
 }
 
 #content a.big-action-button:hover {
-  background: #96190b url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/cityr/i/icon-action-arrow.png) no-repeat scroll 195px 50%;
+  background: #96190b url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/icon-action-arrow.png) no-repeat scroll 195px 50%;
   background-image: -webkit-linear-gradient(top,#96190b 0,#b02a1a 100%);
   background-image: -webkit-gradient(linear,left top,left bottom,from(#96190b),to(#b02a1a));
   background-image: linear-gradient(to bottom,#96190b 0,#b02a1a 100%);
