@@ -492,8 +492,8 @@ hr {
 .promo-wrapper--clearing .image-under,
 .home .home-studying-clearing,
 .intranet-home h1,
-.modal:not([class*="active"]),
-.modal--delete:not([class*="active"]),
+.modal:not([class*='active']),
+.modal--delete:not([class*='active']),
 .social-media-hub h1 {
   width: 1px !important;
   height: 1px !important;
@@ -7261,8 +7261,8 @@ button.ui-button::-moz-focus-inner {
 .promo-wrapper--clearing .image-under,
 .home .home-studying-clearing,
 .intranet-home h1,
-.modal:not([class*="active"]),
-.modal--delete:not([class*="active"]),
+.modal:not([class*='active']),
+.modal--delete:not([class*='active']),
 .social-media-hub h1 {
   position: absolute;
   width: 1px;
@@ -14490,6 +14490,7 @@ body {
   padding: 0;
   margin: 0;
   height: auto;
+  width: auto;
 }
 
 #promo-wrapper .carousel-media a,

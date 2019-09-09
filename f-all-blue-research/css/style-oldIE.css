@@ -344,7 +344,7 @@ hr {
   border: 0;
   border-top: 1px solid #eeeeee; }
 
-.sr-only, .promo-wrapper--clearing .image-under, .home .home-studying-clearing, .intranet-home h1, .modal:not([class*="active"]), .modal--delete:not([class*="active"]), .social-media-hub h1 {
+.sr-only, .promo-wrapper--clearing .image-under, .home .home-studying-clearing, .intranet-home h1, .modal:not([class*='active']), .modal--delete:not([class*='active']), .social-media-hub h1 {
   width: 1px !important;
   height: 1px !important;
   padding: 0 !important;
@@ -4992,7 +4992,7 @@ button.ui-button::-moz-focus-inner {
 .fa-meetup:before {
   content: ""; }
 
-.sr-only, .promo-wrapper--clearing .image-under, .home .home-studying-clearing, .intranet-home h1, .modal:not([class*="active"]), .modal--delete:not([class*="active"]), .social-media-hub h1 {
+.sr-only, .promo-wrapper--clearing .image-under, .home .home-studying-clearing, .intranet-home h1, .modal:not([class*='active']), .modal--delete:not([class*='active']), .social-media-hub h1 {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -9849,7 +9849,8 @@ body {
     #promo-wrapper .carousel-media img, .no-js #promo-wrapper .carousel-media img {
       padding: 0;
       margin: 0;
-      height: auto; }
+      height: auto;
+      width: auto; }
     #promo-wrapper .carousel-media a, .no-js #promo-wrapper .carousel-media a {
       border: none;
       background-color: transparent; }
@@ -15097,28 +15098,28 @@ or until modernizr tests for it (version 3?).
 
 .coloured-action-box.coloured-action-box--start .coloured-action-box__title {
   background-color: #dc1a30;
-  background-image: url("//s1.dev.city.ac.uk/cityr/i/cityventures/start.png"); }
+  background-image: url("https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/cityventures/start.png"); }
 
 .coloured-action-box.coloured-action-box--start a span {
   color: #dc1a30; }
 
 .coloured-action-box.coloured-action-box--launch .coloured-action-box__title {
   background-color: #7e1e91;
-  background-image: url("//s1.dev.city.ac.uk/cityr/i/cityventures/launch.png"); }
+  background-image: url("https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/cityventures/launch.png"); }
 
 .coloured-action-box.coloured-action-box--launch a span {
   color: #7e1e91; }
 
 .coloured-action-box.coloured-action-box--scale .coloured-action-box__title {
   background-color: #18739f;
-  background-image: url("//s1.dev.city.ac.uk/cityr/i/cityventures/scale.png"); }
+  background-image: url("https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/cityventures/scale.png"); }
 
 .coloured-action-box.coloured-action-box--scale a span {
   color: #18739f; }
 
 .coloured-action-box.coloured-action-box--connect .coloured-action-box__title {
   background-color: #a39995;
-  background-image: url("//s1.dev.city.ac.uk/cityr/i/cityventures/connect.png"); }
+  background-image: url("https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/cityventures/connect.png"); }
 
 .coloured-action-box.coloured-action-box--connect a span {
   color: #a39995; }
@@ -22025,7 +22026,7 @@ p.left-float-image {
   position: relative;
   margin-bottom: 24px; }
   .course__subheader:after {
-    content: "";
+    content: '';
     display: block;
     width: 160px;
     height: 6px;
@@ -22155,7 +22156,7 @@ p.left-float-image {
     margin-left: 21px;
     clear: both; }
     .course__contact__item__tel a:before {
-      content: "";
+      content: '';
       width: 100%;
       display: block; }
 
@@ -22186,6 +22187,25 @@ p.left-float-image {
     display: block; }
   .course__kis--vertical .course__kis__content iframe {
     margin-left: -95px; }
+
+.kis-widget {
+  overflow: hidden;
+  border: 0 none transparent;
+  max-width: 615px;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media only screen and (max-width: 768px) {
+  .kis-widget--vertical {
+    display: block; }
+  .kis-widget--horizontal {
+    display: none; } }
+
+@media only screen and (min-width: 769px) {
+  .kis-widget--vertical {
+    display: none; }
+  .kis-widget--horizontal {
+    display: block; } }
 
 .course__news-item__cat {
   color: #FFFFFF;
@@ -22568,7 +22588,7 @@ p.left-float-image {
 
 .course__employment__main__text {
   color: #555555;
-  font-size: .9em;
+  font-size: 0.9em;
   font-weight: 600; }
 
 .course__employment__chart {
@@ -22620,7 +22640,7 @@ p.left-float-image {
       line-height: 1.4em;
       margin: -22px 0 -7px;
       display: block;
-      font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif; }
+      font-family: 'ff-meta-web', 'Helvetica Neue', Arial, Helvetica, sans-serif; }
     .course .fw-section-wrapper .section-heading .section-break {
       background: #b92a26;
       height: 4px;
@@ -22724,7 +22744,8 @@ p.left-float-image {
       border-bottom: 1px dotted; }
     .course__white-box__read-more a:hover span {
       border-bottom: 1px solid #670003; }
-    .course__white-box__read-more a:link span, .course__white-box__read-more a:visited span {
+    .course__white-box__read-more a:link span,
+    .course__white-box__read-more a:visited span {
       border: none; }
 
 .course__white-box__media {
@@ -23321,9 +23342,11 @@ a.course__red-links__link.course__red-links__link--apply {
     background: #eee;
     color: #b91b1b; }
 
-.course-finder__filter--clearing {
+.course-finder__filter--clearing div {
+  background-color: #0377a0;
+  color: white;
   font-weight: 600;
-  color: #0377a0; }
+  padding: 8px; }
 
 .course-finder-test #primary-nav-toggler,
 .course-finder-test #slice-navigation {
@@ -26243,9 +26266,9 @@ body#library {
   color: #FFFFFF;
   display: block;
   margin: 0 auto;
-  padding: .5em;
+  padding: 0.5em;
   border: 0;
-  border-radius: .25em;
+  border-radius: 0.25em;
   cursor: pointer; }
   .modal__box--delete button:hover, .modal__box--delete button:focus, .modal__box--delete button:active,
   .event__add-exception:hover,
@@ -26258,7 +26281,7 @@ body#library {
   .modal__box--delete button[disabled],
   .event__add-exception[disabled],
   .event__edit-exception[disabled] {
-    opacity: .25; }
+    opacity: 0.25; }
 
 /**
  * Main Calendar Layout
@@ -26269,13 +26292,13 @@ body#library {
     border-collapse: separate;
     border-spacing: 0 0; }
   .calendar.calendar--loading {
-    background: url("//s1.dev.city.ac.uk/cityr/i/ajax-loader-small-red.gif") no-repeat center center #FFFFFF;
+    background: url("https://libraryservices.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/ajax-loader-small-red.gif") no-repeat center center #FFFFFF;
     height: 480px; }
     .calendar.calendar--loading #calendarTable,
     .calendar.calendar--loading .prev-next-month {
       display: none; }
   .calendar.calendar--empty:after {
-    content: "No library id supplied.";
+    content: 'No library id supplied.';
     display: block; }
   .calendar.calendar--empty #calendarTable {
     display: none; }
@@ -26297,40 +26320,40 @@ body#library {
     .calendar td.hover, .calendar td.active {
       -webkit-box-shadow: inset 0 0 0 4px rgba(51, 51, 51, 0.5);
               box-shadow: inset 0 0 0 4px rgba(51, 51, 51, 0.5); }
-    .calendar td[data-special="closed"].hover, .calendar td[data-special="closed"].active {
+    .calendar td[data-special='closed'].hover, .calendar td[data-special='closed'].active {
       -webkit-box-shadow: inset 0 0 0 4px rgba(150, 25, 11, 0.75);
               box-shadow: inset 0 0 0 4px rgba(150, 25, 11, 0.75); }
-    .calendar td[data-special="open24hours"].hover, .calendar td[data-special="open24hours"].active {
+    .calendar td[data-special='open24hours'].hover, .calendar td[data-special='open24hours'].active {
       -webkit-box-shadow: inset 0 0 0 4px rgba(102, 153, 51, 0.75);
               box-shadow: inset 0 0 0 4px rgba(102, 153, 51, 0.75); }
-    .calendar td[data-label="bank-holiday"] {
+    .calendar td[data-label='bank-holiday'] {
       background-image: -webkit-repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255, 255, 255, 0.5) 35px, rgba(255, 255, 255, 0.5) 70px);
       background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255, 255, 255, 0.5) 35px, rgba(255, 255, 255, 0.5) 70px); }
-    .calendar td[data-label="christmas-holiday"] {
+    .calendar td[data-label='christmas-holiday'] {
       background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 0.25)), color-stop(50%, transparent)), -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(255, 255, 255, 0.25)), color-stop(50%, transparent));
       background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 50%, transparent 50%);
       background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(rgba(255, 255, 255, 0.25) 50%, transparent 50%);
       -webkit-background-size: 50px 50px;
               background-size: 50px 50px; }
-    .calendar td[data-label="easter-holiday"] {
+    .calendar td[data-label='easter-holiday'] {
       background-image: -webkit-radial-gradient(rgba(255, 255, 255, 0.35) 15%, transparent 16%), -webkit-radial-gradient(rgba(255, 255, 255, 0.35) 15%, transparent 16%);
       background-image: radial-gradient(rgba(255, 255, 255, 0.35) 15%, transparent 16%), radial-gradient(rgba(255, 255, 255, 0.35) 15%, transparent 16%);
       -webkit-background-size: 50px 50px;
               background-size: 50px 50px;
       background-position: 0 0, 25px 25px; }
-    .calendar td[data-label="exam-period"] {
+    .calendar td[data-label='exam-period'] {
       background-image: -webkit-linear-gradient(45deg, rgba(51, 51, 51, 0.1) 25%, transparent 25%, transparent 75%, rgba(51, 51, 51, 0.1) 75%, rgba(51, 51, 51, 0.1)), -webkit-linear-gradient(135deg, rgba(51, 51, 51, 0.1) 25%, transparent 25%, transparent 75%, rgba(51, 51, 51, 0.1) 75%, rgba(51, 51, 51, 0.1));
       background-image: linear-gradient(45deg, rgba(51, 51, 51, 0.1) 25%, transparent 25%, transparent 75%, rgba(51, 51, 51, 0.1) 75%, rgba(51, 51, 51, 0.1)), linear-gradient(-45deg, rgba(51, 51, 51, 0.1) 25%, transparent 25%, transparent 75%, rgba(51, 51, 51, 0.1) 75%, rgba(51, 51, 51, 0.1));
       -webkit-background-size: 50px 50px;
               background-size: 50px 50px; }
     .calendar td.today .dateLink:after,
     .calendar td.today .event-day:after {
-      content: " (Today)";
+      content: ' (Today)';
       color: #cc3333; }
     .calendar td .event-day,
     .calendar td .dateLink {
       position: absolute;
-      top: .5em;
+      top: 0.5em;
       left: 1em;
       font-weight: 600;
       font-style: normal; }
@@ -26341,7 +26364,7 @@ body#library {
     .calendar td .event__add-exception,
     .calendar td .event__edit-exception {
       margin-top: 1em;
-      font-size: .857em; }
+      font-size: 0.857em; }
     .calendar td br {
       display: none; }
   .calendar .dayLabel {
@@ -26379,7 +26402,7 @@ body#library {
     background-color: #df9f9f; }
   .calendar .event__add-exception,
   .calendar .event__edit-exception {
-    opacity: .5; }
+    opacity: 0.5; }
     .calendar .event__add-exception:hover, .calendar .event__add-exception:focus, .calendar .event__add-exception:active,
     .calendar .event__edit-exception:hover,
     .calendar .event__edit-exception:focus,
@@ -26413,7 +26436,7 @@ body#library {
   width: 100%;
   max-width: 28em;
   max-height: 100%;
-  border-radius: .25em;
+  border-radius: 0.25em;
   position: relative;
   overflow-y: auto;
   -webkit-box-shadow: 0 0 0.5em rgba(51, 51, 51, 0.5);
@@ -26424,7 +26447,7 @@ body#library {
     width: 100%;
     display: block;
     padding: 1.5em;
-    border-radius: .25em .25em 0 0;
+    border-radius: 0.25em 0.25em 0 0;
     font-style: italic;
     text-align: center; }
     .modal__box legend.event--existing, .modal__box--delete legend.event--existing {
@@ -26458,9 +26481,9 @@ body#library {
   .modal__box label + select, .modal__box--delete label + select {
     float: right; }
   .modal__box.modal__box--loading, .modal__box--loading.modal__box--delete {
-    background: url("//s1.dev.city.ac.uk/cityr/i/ajax-loader-small-red.gif") no-repeat center center #FFFFFF; }
+    background: url("https://libraryservices.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/ajax-loader-small-red.gif") no-repeat center center #FFFFFF; }
     .modal__box.modal__box--loading fieldset, .modal__box--loading.modal__box--delete fieldset {
-      opacity: .1; }
+      opacity: 0.1; }
 
 .modal__close, .modal__close--delete {
   width: 100%;

@@ -6505,7 +6505,8 @@ body {
     #promo-wrapper .carousel-media img, .no-js #promo-wrapper .carousel-media img {
       padding: 0;
       margin: 0;
-      height: auto; }
+      height: auto;
+      width: auto; }
     #promo-wrapper .carousel-media a, .no-js #promo-wrapper .carousel-media a {
       border: none;
       background-color: transparent; }

@@ -10744,6 +10744,7 @@ body {
   padding: 0;
   margin: 0;
   height: auto;
+  width: auto;
 }
 
 #promo-wrapper .carousel-media a,
