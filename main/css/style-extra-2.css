@@ -3469,7 +3469,7 @@
   text-align: center;
   background: #fff;
   margin: 0 10px 0 0;
-  width: 70px;
+  width: auto;
 }
 
 .date abbr {
@@ -3504,7 +3504,7 @@
 
 .date .date-day {
   font: .9em Georgia,serif;
-  padding: 0 0 5px 0;
+  padding: 0 10px 5px 10px;
   margin: 0;
   border: 1px solid #ccc;
   border-width: 0 1px 1px 1px;
@@ -10737,7 +10737,11 @@ a.ghost-cta .white-card__media .embed-container a:before {
 .single-event .from-start-end {
   float: left;
   display: inline;
-  margin: 20px 14px 0 0;
+  margin: 40px 20px 0 0;
+}
+
+.single-event .end-date {
+  margin-top: 11px;
 }
 
 .single-event .event-title {
@@ -10955,6 +10959,10 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 .single-event .event-detail .date-time .full-date {
   margin: 5px 0 0 5px;
+}
+
+.single-event .event-detail .date-time .end-date {
+  margin: 11px 0 0 0;
 }
 
 .single-event .event-detail .location {

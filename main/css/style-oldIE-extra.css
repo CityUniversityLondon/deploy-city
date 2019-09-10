@@ -1,3 +1,8 @@
+.project-finder__bottom-banner,
+.service-finder__bottom-banner {
+  max-height: 250px;
+}
+
 .project-finder__bottom-banner__img,
 .service-finder__bottom-banner__img {
   width: 100%;
