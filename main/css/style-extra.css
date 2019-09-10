@@ -8975,6 +8975,15 @@ body#library {
   background-position: -92px 0;
 }
 
+.smh-accounts .smh-account__type--weibo {
+  background-position: -129px -30px;
+}
+
+.smh-accounts .smh-account__type--weibo:focus,
+.smh-accounts .smh-account__type--weibo:hover {
+  background-position: -129px 0;
+}
+
 .smh-accounts .smh-account__type--instagram {
   background-position: -312px -30px;
 }
