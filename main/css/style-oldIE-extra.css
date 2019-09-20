@@ -6542,7 +6542,7 @@ dl.staffhub-dl dd {
 
 .library-home-background {
   position: relative;
-  background: #eee;
+  background: #f0f0f0;
   padding: 2px 10px 0;
   margin: -15px -10px 20px 0;
   padding: 2px 0 0;
@@ -6998,7 +6998,7 @@ dl.staffhub-dl dd {
 
 .full-width-background:after,
 .full-width-background:before {
-  content: "";
+  content: '';
   background-color: inherit;
   width: 9600px;
   position: absolute;
