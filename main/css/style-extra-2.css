@@ -2564,7 +2564,7 @@
 
 .search-feedback-survey a:link,
 .search-feedback-survey a:visited {
-  color: #eee;
+  color: #f0f0f0;
   border-bottom-color: #ccc;
 }
 
@@ -3431,7 +3431,7 @@
 }
 
 .social-flat-links .facebook {
-  background: #3B5998;
+  background: #3b5998;
 }
 
 .social-flat-links .facebook a:hover {
@@ -4052,7 +4052,7 @@
 }
 
 .news-articles-container .news-articles-title {
-  border-top: 5px solid #eee;
+  border-top: 5px solid #f0f0f0;
   padding-top: 1em;
   -webkit-box-shadow: inset 0 1px #ccc;
   box-shadow: inset 0 1px #ccc;
@@ -4575,7 +4575,7 @@
 
   .see-all-wrapper:before {
     content: "";
-    background-color: #eee;
+    background-color: #f0f0f0;
     height: .25em;
     display: block;
     position: absolute;
@@ -4847,7 +4847,7 @@
 
 .news-author-info .fa-user,
 .news-author-list .fa-user {
-  background-color: #eee;
+  background-color: #f0f0f0;
   width: 100%;
   height: 0;
   display: block;
@@ -4880,7 +4880,7 @@
   max-width: 257px;
   padding: .5em 0;
   margin: -1.5em auto 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #f0f0f0;
   position: relative;
   line-height: 1em;
   text-align: center;
@@ -5006,8 +5006,8 @@
   color: #333!important;
   display: block;
   padding: 20px;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee!important;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0!important;
   margin-bottom: 1em;
   position: relative;
   font-size: 16px;
@@ -5047,7 +5047,7 @@
 
 .news-article-widget {
   padding: 0 20px 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #f0f0f0;
   margin-bottom: 2em;
 }
 
@@ -5245,7 +5245,7 @@ aside .news-article-widget:last-child {
 .news-date-list li+li,
 .related-articles-list li+li,
 .related-experts-list li+li {
-  border-top: 1px solid #eee;
+  border-top: 1px solid #f0f0f0;
 }
 
 .related-articles-list a,
@@ -5290,7 +5290,7 @@ aside .news-article-widget:last-child {
 .news-article-widget-related-courses,
 .news-article-widget-related-subjects,
 .news-article-widget-text {
-  background: #eee;
+  background: #f0f0f0;
   padding: 20px;
   border-bottom: 0;
 }
@@ -5302,7 +5302,7 @@ aside .news-article-widget:last-child {
 }
 
 .news-article-widget-related-articles {
-  border-top: 5px solid #eee;
+  border-top: 5px solid #f0f0f0;
   padding: .5em 0 20px;
 }
 
@@ -15393,7 +15393,7 @@ table.visa-event-table tr th {
 .project .service__team a,
 .service .project__team a,
 .service .service__team a {
-  background-color: #eee;
+  background-color: #f0f0f0;
   padding: 5px 10px;
   border-radius: 6px;
   font-weight: 500;

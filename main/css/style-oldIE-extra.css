@@ -232,7 +232,7 @@
 }
 
 .scholarship .scholarship__school a {
-  background-color: #eee;
+  background-color: #f0f0f0;
   padding: 5px 10px;
   border-radius: 6px;
   font-weight: 500;
@@ -859,7 +859,7 @@
 }
 
 .course .course__school a {
-  background-color: #eee;
+  background-color: #f0f0f0;
   padding: 5px 10px;
   border-radius: 6px;
   font-weight: 500;
@@ -2046,7 +2046,7 @@
 .course .accordion.ui-accordion .ui-accordion-header {
   color: #333;
   font-size: 16px;
-  background-color: #eee!important;
+  background-color: #f0f0f0!important;
   border-bottom: 2px solid #ccc!important;
   margin-bottom: 5px;
   border-top: 0;
@@ -4164,7 +4164,7 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 .subject-areas-lp #subject-area-list2 {
   list-style-type: none;
   margin: 0 0 60px;
-  border-top: 4px solid #eee;
+  border-top: 4px solid #f0f0f0;
   padding-top: 12px;
 }
 
@@ -4189,7 +4189,7 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 
 .subject-areas-lp #subject-area-list2 li {
   padding-bottom: 12px;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid #f0f0f0;
   margin-bottom: 12px;
 }
 
@@ -6542,7 +6542,7 @@ dl.staffhub-dl dd {
 
 .library-home-background {
   position: relative;
-  background: #eee;
+  background: #f0f0f0;
   padding: 2px 10px 0;
   margin: -15px -10px 20px 0;
   padding: 2px 0 0;
@@ -6990,7 +6990,7 @@ dl.staffhub-dl dd {
 }
 
 .full-width-background {
-  background-color: #eee;
+  background-color: #f0f0f0;
   padding-left: 0;
   padding-right: 0;
   position: relative;
@@ -7089,7 +7089,7 @@ dl.staffhub-dl dd {
 
 .library-aside-call-to-action a:link,
 .library-aside-call-to-action a:visited {
-  color: #eee;
+  color: #f0f0f0;
   border-bottom-color: #ccc;
 }
 
@@ -9698,7 +9698,7 @@ fieldset .col-xs-24 {
 .survey-message .survey-message__accept a:visited,
 .survey-message .survey-message__refuse:link,
 .survey-message .survey-message__refuse:visited {
-  color: #eee;
+  color: #f0f0f0;
   border-bottom-color: #ccc;
 }
 

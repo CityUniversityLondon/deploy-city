@@ -474,7 +474,7 @@ hr {
   margin-top: 21px;
   margin-bottom: 21px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #f0f0f0;
 }
 
 .home .home-studying-clearing,
@@ -8742,7 +8742,7 @@ blockquote.pull-right {
   float: right;
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eee;
+  border-right: 5px solid #f0f0f0;
   border-left: 0;
 }
 
@@ -10470,9 +10470,9 @@ a:focus {
 }
 
 .facebook-cta a {
-  border: 1px solid #3B5998;
+  border: 1px solid #3b5998;
   border-radius: 4px;
-  background: #3B5998;
+  background: #3b5998;
   color: #fff;
   -webkit-transition-property: background-color;
   transition-property: background-color;
@@ -12988,7 +12988,7 @@ body {
 
 .gray-section {
   position: relative;
-  background: #eee;
+  background: #f0f0f0;
   padding: 2px 10px 0;
   margin: 0 -10px;
 }
@@ -13512,7 +13512,7 @@ body {
 .ui-accordion .ui-accordion-header {
   color: #333;
   font-size: 16px;
-  background-color: #eee!important;
+  background-color: #f0f0f0!important;
   border-bottom: 2px solid #ccc!important;
   margin-bottom: 5px;
   border-top: 0;
@@ -14895,7 +14895,7 @@ body {
 .ui-accordion .ui-accordion-header {
   color: #333;
   font-size: 16px;
-  background-color: #eee!important;
+  background-color: #f0f0f0!important;
   border-bottom: 2px solid #ccc!important;
   margin-bottom: 5px;
   border-top: 0;
@@ -15450,7 +15450,7 @@ body {
 #courses-widget .widget-content .ui-accordion-header {
   color: #333;
   font-size: 12px;
-  background-color: #eee!important;
+  background-color: #f0f0f0!important;
   border-bottom: 2px solid #ccc!important;
   margin-bottom: 5px;
   border-top: 0;
