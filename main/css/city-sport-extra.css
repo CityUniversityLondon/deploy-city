@@ -9303,16 +9303,16 @@ footer .footer-links span.separator,
 footer .footer-terms span.separator {
   padding-right: 10px;
   margin-right: 10px;
-  border-right: 1px solid #858687;
+  border-right: 1px solid #666;
 }
 
 footer .footer-copyright {
-  color: #858687;
+  color: #666;
   margin-bottom: 20px;
 }
 
 footer .footer-terms {
-  color: #858687;
+  color: #666;
 }
 
 footer .footer-terms .footer-termslinks {
