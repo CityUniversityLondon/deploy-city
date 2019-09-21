@@ -6750,7 +6750,7 @@ dl.staffhub-dl dd {
 
 .js .opening-times--home-list .opening-times-busy,
 .js .opening-times-list .opening-times-busy {
-  opacity: .5;
+  opacity: .65;
 }
 
 .js .opening-times--home-list .opening-times-busy .calendarNavLink,
@@ -6759,7 +6759,7 @@ dl.staffhub-dl dd {
 }
 
 .js .library-aside-call-to-action.opening-times-busy {
-  opacity: .5;
+  opacity: .65;
 }
 
 .js .library-aside-call-to-action.opening-times-busy .calendarNavLink {
