@@ -9072,20 +9072,20 @@ footer .footer-info {
 }
 
 footer .footer-info a {
-  color: #eee;
+  color: #fff;
   text-decoration: none;
   background-color: transparent;
   border: 0;
 }
 
 footer .footer-info a:link {
-  color: #eee;
-  border-bottom: 1px dotted #eee;
+  color: #fff;
+  border-bottom: 1px dotted #fff;
 }
 
 footer .footer-info a:visited {
-  color: #eee;
-  border-bottom: 1px dotted #eee;
+  color: #fff;
+  border-bottom: 1px dotted #fff;
 }
 
 footer .footer-info a:hover {
