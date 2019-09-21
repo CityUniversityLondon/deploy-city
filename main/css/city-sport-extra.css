@@ -9059,33 +9059,33 @@ header .city-member-links .class-link aactive {
 
 footer {
   font-family: Arial,sans-serif;
-  background-color: #FFF;
+  background-color: #fff;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 footer .footer-info {
   margin-bottom: 20px;
-  background-color: #DB2E42;
+  background-color: #db2e42;
   color: #fff;
   padding: 20px;
 }
 
 footer .footer-info a {
-  color: #EEE;
+  color: #eee;
   text-decoration: none;
   background-color: transparent;
   border: 0;
 }
 
 footer .footer-info a:link {
-  color: #EEE;
-  border-bottom: 1px dotted #CCC;
+  color: #eee;
+  border-bottom: 1px dotted #eee;
 }
 
 footer .footer-info a:visited {
-  color: #EEE;
-  border-bottom: 1px dotted #CCC;
+  color: #eee;
+  border-bottom: 1px dotted #eee;
 }
 
 footer .footer-info a:hover {
@@ -9140,7 +9140,7 @@ footer .footer-info .city-member-links--sub img {
 footer .footer-info .member-link {
   margin-right: 10px;
   color: #000;
-  background-color: #E5E6E7;
+  background-color: #e5e6e7;
 }
 
 @media only screen and (min-width:768px) {
@@ -9150,7 +9150,7 @@ footer .footer-info .member-link {
 }
 
 footer .footer-info .member-link .member-links--pointer {
-  color: #D31330;
+  color: #d31330;
   float: right;
   padding-top: 5px;
 }
@@ -9178,46 +9178,46 @@ footer .footer-info .member-link a:hover {
 footer .footer-info .member-link a:focus,
 footer .footer-info .member-link aactive {
   background-color: #b91b1b;
-  color: #FFF;
-  border: 1px dotted #FFF;
+  color: #fff;
+  border: 1px dotted #fff;
 }
 
 footer .footer-info .class-link {
   background-color: #380431;
-  color: #FFF;
+  color: #fff;
 }
 
 footer .footer-info .class-link .class-links--pointer {
-  color: #FFF;
+  color: #fff;
   float: right;
   padding-top: 5px;
 }
 
 footer .footer-info .class-link a {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
   border: 0;
 }
 
 footer .footer-info .class-link a:link {
-  color: #FFF;
+  color: #fff;
 }
 
 footer .footer-info .class-link a:visited {
-  color: #FFF;
+  color: #fff;
 }
 
 footer .footer-info .class-link a:hover {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
-  border-bottom: 1px dotted #FFF;
+  border-bottom: 1px dotted #fff;
 }
 
 footer .footer-info .class-link a:active,
 footer .footer-info .class-link a:focus {
   background-color: #b91b1b;
-  color: #FFF;
-  border: 1px dotted #FFF;
+  color: #fff;
+  border: 1px dotted #fff;
 }
 
 footer .footer-info .footer-social {
@@ -9229,7 +9229,7 @@ footer .footer-info .footer-social span.fa {
 }
 
 footer .footer-info .footer-social a {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
   background-color: transparent;
   border-bottom: 0;
@@ -9239,7 +9239,7 @@ footer .footer-info .footer-social a {
 
 footer .footer-info .footer-social a:link,
 footer .footer-info .footer-social a:visited {
-  color: #FFF;
+  color: #fff;
   border-bottom: 0;
 }
 
@@ -9256,7 +9256,7 @@ footer .footer-info .footer-social a:focus {
 }
 
 footer .footer-links {
-  border-bottom: dotted 1px #858687;
+  border-bottom: dotted 1px #666;
   padding-bottom: 10px;
   margin-bottom: 20px;
   font-size: 1.05em;
@@ -9264,7 +9264,7 @@ footer .footer-links {
 
 footer .footer-links a,
 footer .footer-terms a {
-  color: #858687;
+  color: #666;
   text-decoration: none;
   border: 0;
   background-color: transparent;
@@ -9272,20 +9272,20 @@ footer .footer-terms a {
 
 footer .footer-links a:link,
 footer .footer-terms a:link {
-  color: #858687;
+  color: #666;
 }
 
 footer .footer-links a:visited,
 footer .footer-terms a:visited {
-  color: #858687;
+  color: #666;
 }
 
 footer .footer-links a:focus,
 footer .footer-links a:hover,
 footer .footer-terms a:focus,
 footer .footer-terms a:hover {
-  color: #858687;
-  border-bottom: 1px dotted #858687;
+  color: #666;
+  border-bottom: 1px dotted #666;
 }
 
 footer .footer-links a:focus,
@@ -9296,7 +9296,7 @@ footer .footer-terms a:focus {
 
 footer .footer-links a:active,
 footer .footer-terms a:active {
-  border: 1px dotted #858687;
+  border: 1px dotted #666;
 }
 
 footer .footer-links span.separator,
