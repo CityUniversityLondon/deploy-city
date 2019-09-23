@@ -157,7 +157,8 @@ var defer = require('./utils/defer'),
                         nextText: '<i class="fa fa-chevron-right"></i>',
                         prevText: '<i class="fa fa-chevron-left"></i>',
                         adaptiveHeight: true,
-                        slideMargin: 0
+                        slideMargin: 0,
+                        touchEnabled: false
                     });
     
                     $('.shortcourse-tutor-wrapper').addClass('shortcourse-tutor-selection');
