@@ -1746,6 +1746,7 @@
 .course__kis__content a:hover,
 .course__kis__content a:link,
 .course__kis__content a:visited {
+  background-color: initial;
   border-bottom-color: initial;
   border-bottom-style: initial;
   border-bottom-width: initial;
@@ -1754,9 +1755,13 @@
   display: initial;
   font-weight: initial;
   margin: initial;
+  outline: initial;
   padding: initial;
+  position: initial;
   text-align: initial;
   text-decoration: initial;
+  -webkit-transition: initial;
+  transition: initial;
 }
 
 .kis-widget {
