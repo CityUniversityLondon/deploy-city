@@ -1741,31 +1741,8 @@
 }
 
 .kis-widget {
-  overflow: hidden;
-  border: 0 none transparent;
-  max-width: 615px;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media only screen and (max-width:768px) {
-  .kis-widget--vertical {
-    display: block;
-  }
-
-  .kis-widget--horizontal {
-    display: none;
-  }
-}
-
-@media only screen and (min-width:769px) {
-  .kis-widget--vertical {
-    display: none;
-  }
-
-  .kis-widget--horizontal {
-    display: block;
-  }
 }
 
 .course__news-item__cat {
