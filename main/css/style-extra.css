@@ -1740,6 +1740,25 @@
   margin-left: -95px;
 }
 
+.course__kis__content a,
+.course__kis__content a:active,
+.course__kis__content a:focus,
+.course__kis__content a:hover,
+.course__kis__content a:link,
+.course__kis__content a:visited {
+  border-bottom-color: initial;
+  border-bottom-style: initial;
+  border-bottom-width: initial;
+  border-radius: initial;
+  color: initial;
+  display: initial;
+  font-weight: initial;
+  margin: initial;
+  padding: initial;
+  text-align: initial;
+  text-decoration: initial;
+}
+
 .kis-widget {
   margin-left: auto;
   margin-right: auto;
