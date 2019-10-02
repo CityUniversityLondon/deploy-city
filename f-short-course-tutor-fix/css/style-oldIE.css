@@ -27310,7 +27310,7 @@ option[data-startdatevis='hide-date'] {
     width: 100%;
     height: 35px;
     position: absolute;
-    background: inherit;
+    background: white;
     z-index: 1;
     bottom: -35px;
     -webkit-transform-origin: left top;
@@ -27354,9 +27354,6 @@ option[data-startdatevis='hide-date'] {
 .shortcourse-tutor-block a:focus {
   background: #FFFFFF;
   color: #333; }
-
-.shortcourse-tutor-block .bx-viewport {
-  height: auto !important; }
 
 .shortcourse-tutor-block .bx-controls {
   display: block; }
