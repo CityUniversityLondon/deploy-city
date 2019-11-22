@@ -5975,23 +5975,18 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 
 .city-research .header__logo-nav-wrapper .header__home-link {
   font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
-  display: none;
-}
-
-@media only screen and (min-width:980px) {
-  .city-research .header__logo-nav-wrapper .header__home-link {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    padding-left: 1em;
-  }
+  clear: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-left: 1em;
 }
 
 .city-research .header__logo-nav-wrapper .header__home-link a {

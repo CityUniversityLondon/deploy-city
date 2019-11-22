@@ -5303,7 +5303,7 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
 
 .city-research .header__logo-nav-wrapper .header__home-link {
   font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
-  display: none;
+  clear: left;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
