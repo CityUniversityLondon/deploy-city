@@ -11572,12 +11572,14 @@ input[type=checkbox]:disabled {
   }
 }
 
-.header__logo {
-  margin-top: 0;
-}
+@media only screen and (min-width:980px) {
+  .header__logo {
+    margin-top: 1em;
+  }
 
-.header__logo.header__logo--law {
-  margin-top: 1em;
+  .header__logo__img {
+    width: 214px;
+  }
 }
 
 .header__search .header__search__toggle {
