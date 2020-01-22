@@ -144,7 +144,7 @@ CITY.events = (function(window) {
 
                     url: function() {
                         var url =
-                            "/fb/search.json?collection=city-events&meta_P_orsand=%22Yes%22&landing=true&sort=adate&_=1373022367687";
+                            "/fb/s/search.json?collection=city-events&meta_P_orsand=%22Yes%22&landing=true&sort=adate&_=1373022367687";
                         var dept = $("div.event-calendar-wrap").data("department");
                         var category = $("div.event-calendar-wrap").data("category");
 
@@ -324,7 +324,7 @@ CITY.events = (function(window) {
 
                         this.calendar = calendarObj;
                         this.fbUrl =
-                            "/fb/search.json?collection=city-events&sort=adate&meta_P_orsand=%22Yes%22&form=calendar&date=all&landing=true";
+                            "/fb/s/search.json?collection=city-events&sort=adate&meta_P_orsand=%22Yes%22&form=calendar&date=all&landing=true";
                         this.noOfDaysFromNow = new Date();
                         this.today = new Date();
                         this.endOfMonthObj = new Date(
@@ -471,7 +471,7 @@ CITY.events = (function(window) {
 
                     paginator_core: {
                         dataType: "json",
-                        url: "/fb/search.json"
+                        url: "/fb/s/search.json"
                     },
 
                     paginator_ui: {

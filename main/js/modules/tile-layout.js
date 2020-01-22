@@ -298,7 +298,7 @@ CITY.tileLayout = (function() {
                 }
             }
 
-            var url = "https://www.city.ac.uk/fb/search.json";
+            var url = "https://www.city.ac.uk/fb/s/search.json";
             $.get(url, params)
                 .done(function(data) {
                     var html = processResults(data);
