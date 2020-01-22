@@ -1,33 +1,3 @@
-/**
- * Custom AJAX Method
- *
- * // Success
- * customAJAX('//www.city.ac.uk/fb/search.html', {'somekey': 'somevalue'})
- * .done(
- *     function(data)) {
- *         doSomething();
- *     }
- * );
- *
- * // Failure
- * customAJAX('//www.city.ac.uk/fb/search.html', {'somekey': 'somevalue'})
- * .fail(
- *     function(xhr, status, err)) {
- *         console.log(status, err);
- *     }
- * );
- *
- * // Success or Failure
- * customAJAX('//www.city.ac.uk/fb/search.html', {'somekey': 'somevalue'})
- * .then(
- *     function(data)) {
- *         doSomething();
- *     },
- *     function(xhr, status, err) {
- *         console.log(status, err);
- *     }
- * );
- */
 module.exports = function () {
     'use strict';
 

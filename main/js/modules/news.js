@@ -69,7 +69,7 @@ $(function () {
             }
         });
 
-        customAJAX('//www.city.ac.uk/fb/search.html', params)
+        customAJAX('//www.city.ac.uk/api/search.html', params)
             .done(function (data) {
                 contentWrapper.html(data);
                 // Re-initalise pagination for the new content

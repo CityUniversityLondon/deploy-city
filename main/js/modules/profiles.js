@@ -39,7 +39,7 @@ CITY.profiles = (function () {
                 //cases: hash empty and not page load, hash not empty and page load, hash not empty and not page load
                 //ajax call to funnelback. call returns the filtered profiles, the callback function removes the current profiles and replaces them with result from the call
                 $.ajax({
-                    url: "/fb/search.html?" + hashString + "&collection=" + fbCollection + "&form=" + fbForm + "&meta_B_orsand=" + familyType + "&simpleResults=true&sort=metaK&bustCache=" + Math.random(),
+                    url: "/api/search.html?" + hashString + "&collection=" + fbCollection + "&form=" + fbForm + "&meta_B_orsand=" + familyType + "&simpleResults=true&sort=metaK&bustCache=" + Math.random(),
                     success: function (data) {
 
                         //replace the current list of results with the results from the ajax call

@@ -4,7 +4,7 @@ var Mustache = require("mustache"),
     query = $moreButton.attr("data-query"),
     perPage = $moreButton.attr("data-per-page"),
     $userList = $(".directory-users"),
-    ajaxUrl = "//www.city.ac.uk/fb/search.html",
+    ajaxUrl = "https://www.city.ac.uk/api/search.html",
     $resultMsgDisplayed = $(".directory-results-msg__displayed"),
     startRank,
     ajaxCall = function () {

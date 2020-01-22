@@ -248,7 +248,7 @@ CITY.indexPage = (function (CITY, $) {
                 dataType:  'xml',        // 'xml', 'script', or 'json' (expected server response type)
                 clearForm: false,       // clear all form fields after successful submit
                 resetForm: false,        // reset the form after successful submit
-                url: '//www.city.ac.uk/fb/search.xml?'
+                url: '//www.city.ac.uk/api/search.xml?'
             };
 
             //this is in here to stop form submission before page is ready
