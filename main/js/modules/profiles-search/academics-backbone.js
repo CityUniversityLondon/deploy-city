@@ -72,7 +72,7 @@
 
       paginator_core: {
         dataType: "json",
-        url: "/fb/s/search.json"
+        url: "/api/search.json"
       },
 
       paginator_ui: {
