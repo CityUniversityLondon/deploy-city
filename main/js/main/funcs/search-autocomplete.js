@@ -24,7 +24,7 @@ module.exports = function () {
             source: function (request, response) {
                 var fbcollection = collection || "main-all";
                 $.ajax({
-                    url: "/fb/suggest.json?collection=" + fbcollection + "&fmt=json",
+                    url: "/api/suggest.json?collection=" + fbcollection + "&fmt=json",
                     dataType: "json",
                     data: {
                         partial_query: request.term
