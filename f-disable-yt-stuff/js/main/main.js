@@ -333,21 +333,21 @@ module.exports = (function() {
                 );
 
                 // catch any videos that have been manually input
-                $("iframe[src*='youtube']").each(function() {
-                    var $element = $(this),
-                        vidWidth = $element.outerWidth(),
-                        $parent = $element.parent();
+                // $("iframe[src*='youtube']").each(function() {
+                //     var $element = $(this),
+                //         vidWidth = $element.outerWidth(),
+                //         $parent = $element.parent();
 
-                    // don't double wrap an iframe
-                    if (!$parent.hasClass('embed-container')) {
-                        // for elastic objects, we need 2 (!) wrappers
-                        $element.wrap(
-                            '<div class="embed-wrapper" style="width:' +
-                                vidWidth +
-                                'px"><div class="embed-container"></div></div>'
-                        );
-                    }
-                });
+                //     // don't double wrap an iframe
+                //     if (!$parent.hasClass('embed-container')) {
+                //         // for elastic objects, we need 2 (!) wrappers
+                //         $element.wrap(
+                //             '<div class="embed-wrapper" style="width:' +
+                //                 vidWidth +
+                //                 'px"><div class="embed-container"></div></div>'
+                //         );
+                //     }
+                // });
 
                 initDynamicGmap($('#dynamic-gmap'));
 
