@@ -9,12 +9,12 @@
 
 var $ = require('./libs/jquery'),
     defer = require('./utils/defer'),
-    init = function() {
+    init = function () {
         var strTouchX;
         var endTouchX;
 
         // records touch coordinates for determining swipe or touch
-        document.addEventListener('touchstart', function(e) {
+        document.addEventListener('touchstart', function (e) {
             strTouchX = e.touches[0].clientX;
 
             // re-instates controls after being deactivated by bxslider node module
@@ -24,16 +24,15 @@ var $ = require('./libs/jquery'),
         });
 
         // determines if touch is click or swipe by comparing start touch and end values
-        isTouchClick = endTouchX => (endTouchX == strTouchX ? true : false);
+        isTouchClick = (endTouchX) => (endTouchX == strTouchX ? true : false);
 
         /**** Home page top slider ****/
-
-        var i;
-        for (i = 0; i < $('.banner-content a').length; i++) {
+        var bannerAnchors = document.querySelectorAll('.banner-content a');
+        for (var i = 0; i < bannerAnchors.length; i++) {
             document
                 .getElementsByClassName('banner-content')
                 [i].getElementsByTagName('a')[0]
-                .addEventListener('touchend', function(e) {
+                .addEventListener('touchend', function (e) {
                     e.preventDefault();
                     $('.bx-controls').removeClass('disabled');
                     endTouchX = e.changedTouches[0].pageX;
@@ -43,14 +42,14 @@ var $ = require('./libs/jquery'),
                         location.href = this.href;
                     }
                 });
-        } // end for loop
+        }
 
         /**** Home page news slider (only on mobiles) ****/
-
-        for (i = 0; i < $('.news-card-content__title').length; i++) {
+        var title = document.getElementsByClassName('news-card-content__title');
+        for (var i = 0; i < title.length; i++) {
             document
                 .getElementsByClassName('news-card-content__title')
-                [i].addEventListener('touchend', function(e) {
+                [i].addEventListener('touchend', function (e) {
                     $('.bx-controls').removeClass('disabled');
                     endTouchX = e.changedTouches[0].pageX;
 
@@ -59,7 +58,7 @@ var $ = require('./libs/jquery'),
                         location.href = this.parentNode.href;
                     }
                 });
-        } // end for loop
-    }; // end init func
+        }
+    };
 
 defer(init);
