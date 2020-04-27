@@ -27,7 +27,7 @@ var $ = require('./libs/jquery'),
         isTouchClick = (endTouchX) => (endTouchX == strTouchX ? true : false);
 
         /**** Home page top slider ****/
-        var bannerAnchors = document.querySelectorAll('.banner-content a');
+        var bannerAnchors = Array.from(document.querySelectorAll('.banner-content a'));
         for (var i = 0; i < bannerAnchors.length; i++) {
             document
                 .getElementsByClassName('banner-content')
