@@ -125,10 +125,10 @@ $(function () {
     };
 
     var initSeriesLinks = function () {
-        var seriesPrefix = '//city.ac.uk/news/search?meta_i_orsand=',
+        var seriesPrefix = 'https://www.city.ac.uk/news/search?meta_i_orsand=',
             seriesName,
-            tagsPrefix = '//city.ac.uk/news/search?all=1&meta_l_orsand="',
-            tagsSuffix = '"',
+            tagsPrefix = 'https://www.city.ac.uk/news/search?all=1&meta_l_orsand=',
+            tagsSuffix = '',
             tagsName;
         $('.news-article-series-family').each(function () {
             seriesName = $(this).text().toLowerCase().replace(' ', '-').replace('&', 'and');
