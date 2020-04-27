@@ -10,8 +10,7 @@
 var $ = require('./libs/jquery'),
     defer = require('./utils/defer'),
     init = function () {
-        var strTouchX;
-        var endTouchX;
+        var strTouchX, endTouchX;
 
         // records touch coordinates for determining swipe or touch
         document.addEventListener('touchstart', function (e) {
@@ -24,10 +23,15 @@ var $ = require('./libs/jquery'),
         });
 
         // determines if touch is click or swipe by comparing start touch and end values
-        isTouchClick = (endTouchX) => (endTouchX == strTouchX ? true : false);
+        function isTouchClick(endTouchX) {
+            return endTouchX === strTouchX ? true : false;
+        }
 
         /**** Home page top slider ****/
-        var bannerAnchors = Array.from(document.querySelectorAll('.banner-content a'));
+        var bannerAnchors = Array.from(
+            document.querySelectorAll('.banner-content a')
+        );
+
         for (var i = 0; i < bannerAnchors.length; i++) {
             document
                 .getElementsByClassName('banner-content')
@@ -46,6 +50,7 @@ var $ = require('./libs/jquery'),
 
         /**** Home page news slider (only on mobiles) ****/
         var title = document.getElementsByClassName('news-card-content__title');
+
         for (var i = 0; i < title.length; i++) {
             document
                 .getElementsByClassName('news-card-content__title')
