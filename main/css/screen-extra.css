@@ -89,3 +89,13 @@ i {
 iframe[src*=prezi] {
   display: none!important;
 }
+
+#CybotCookiebotDialog .CybotCookiebotDialogBodyLink {
+  border-bottom: none;
+  -webkit-transition: none;
+  transition: none;
+}
+
+#CybotCookiebotDialog .CybotCookiebotDialogBodyLink:focus {
+  background-color: unset;
+}
