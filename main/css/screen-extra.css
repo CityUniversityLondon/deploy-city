@@ -85,3 +85,7 @@ i {
 .js #promo-area #slide-1 {
   display: block;
 }
+
+iframe[src*=prezi] {
+  display: none!important;
+}
