@@ -90,12 +90,14 @@ iframe[src*=prezi] {
   display: none!important;
 }
 
-#CybotCookiebotDialog .CybotCookiebotDialogBodyLink {
+#CybotCookiebotDialog .CybotCookiebotDialogBodyLink,
+#CybotCookiebotDialogDetail a {
   border-bottom: none;
   -webkit-transition: none;
   transition: none;
 }
 
-#CybotCookiebotDialog .CybotCookiebotDialogBodyLink:focus {
+#CybotCookiebotDialog .CybotCookiebotDialogBodyLink:focus,
+#CybotCookiebotDialogDetail a:focus {
   background-color: unset;
 }
