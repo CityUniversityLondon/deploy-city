@@ -14955,3 +14955,19 @@ fieldset .col-xs-24 {
     display: none!important;
   }
 }
+
+iframe[src*=prezi] {
+  display: none!important;
+}
+
+#CybotCookiebotDialog .CybotCookiebotDialogBodyLink,
+#CybotCookiebotDialogDetail a {
+  border-bottom: none;
+  -webkit-transition: none;
+  transition: none;
+}
+
+#CybotCookiebotDialog .CybotCookiebotDialogBodyLink:focus,
+#CybotCookiebotDialogDetail a:focus {
+  background-color: unset;
+}

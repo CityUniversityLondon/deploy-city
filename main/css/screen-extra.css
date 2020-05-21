@@ -85,19 +85,3 @@ i {
 .js #promo-area #slide-1 {
   display: block;
 }
-
-iframe[src*=prezi] {
-  display: none!important;
-}
-
-#CybotCookiebotDialog .CybotCookiebotDialogBodyLink,
-#CybotCookiebotDialogDetail a {
-  border-bottom: none;
-  -webkit-transition: none;
-  transition: none;
-}
-
-#CybotCookiebotDialog .CybotCookiebotDialogBodyLink:focus,
-#CybotCookiebotDialogDetail a:focus {
-  background-color: unset;
-}
