@@ -17,7 +17,6 @@ module.exports = (function() {
         initWhiteCards = require('./funcs/init-white-cards'),
         searchAutoComplete = require('./funcs/search-autocomplete'),
         initNewsEventsStrip = require('./funcs/init-news-events-strip'),
-        initCookieNotice = require('../utils/init-cookie-notice'),
         headerPrimaryNav = require('./funcs/header-primary-nav'),
         headerNavs = require('./funcs/header-navs'),
         footer = require('./funcs/footer'),
@@ -202,7 +201,6 @@ module.exports = (function() {
                 createSlider($carouselObj);
                 initPlaceholderHallback();
                 initImageCarousel();
-                initCookieNotice($);
                 popupDialog();
                 responsiveTables();
                 cyclicPopup();
