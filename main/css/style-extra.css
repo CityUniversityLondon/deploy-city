@@ -14956,7 +14956,8 @@ fieldset .col-xs-24 {
   }
 }
 
-iframe[src*=prezi] {
+iframe[src*=prezi],
+iframe[src*=issuu] {
   display: none!important;
 }
 
