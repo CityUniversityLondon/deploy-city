@@ -158,7 +158,7 @@ module.exports = (function() {
                     indexQuery = $('#search-query', indexForm),
                     searchPageAutoCompleteCollection =
                         $body.attr('id') === 'intranet'
-                            ? 'intranet'
+                            ? 'staff-intranet-matrix'
                             : 'main-all',
                     $galleries = $('#content').find('.gallery'),
                     azListings = $('.az-single-page'),
