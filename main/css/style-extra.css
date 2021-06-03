@@ -5159,6 +5159,38 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
   line-height: inherit;
 }
 
+.academic-unit #publications p {
+  overflow: visible;
+}
+
+.academic-unit #publications .orcid-tooltip {
+  visibility: hidden;
+  position: absolute;
+  left: -85px;
+  bottom: -35px;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+  background-color: #A6CE39;
+  border: 1px solid #333;
+  white-space: pre;
+  max-width: none;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.academic-unit #publications .orcid {
+  position: relative;
+}
+
+.academic-unit #publications .orcid:hover .orcid-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
 .academic-unit .social-widget {
   padding: 5px 15px;
   background-color: #FFF;
