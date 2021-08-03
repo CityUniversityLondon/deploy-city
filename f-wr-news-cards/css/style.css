@@ -11804,13 +11804,7 @@ or until modernizr tests for it (version 3?).
       margin-left: -16px; }
   .article-listing .spotlight-on-research .title, .article-listing .city-news .title {
     margin: 10px; }
-  .article-listing .thumbnail {
-    display: block;
-    margin: 0;
-    width: 100%; }
-  .article-listing img {
-    margin-bottom: 0; }
-  .article-listing .fa-newspaper-o {
+  .article-listing .spotlight-on-research .fa-newspaper-o, .article-listing .city-news .fa-newspaper-o {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -11820,8 +11814,14 @@ or until modernizr tests for it (version 3?).
         -ms-flex-pack: center;
             justify-content: center;
     background: blue; }
-    .article-listing .fa-newspaper-o ::before {
+    .article-listing .spotlight-on-research .fa-newspaper-o::before, .article-listing .city-news .fa-newspaper-o::before {
       font-size: 240px; }
+  .article-listing .thumbnail {
+    display: block;
+    margin: 0;
+    width: 100%; }
+  .article-listing img {
+    margin-bottom: 0; }
   .article-listing .title {
     font-size: 1.15em;
     margin: 0;
