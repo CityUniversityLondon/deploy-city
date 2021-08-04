@@ -924,6 +924,11 @@ or until modernizr tests for it (version 3?).
   margin-left: -16px;
 }
 
+.article-listing .spotlight-on-research .detail .city-news__date,
+.article-listing .city-news .detail .city-news__date {
+  margin-left: 10px;
+}
+
 .article-listing .spotlight-on-research .title,
 .article-listing .city-news .title {
   margin: 10px;
@@ -939,12 +944,15 @@ or until modernizr tests for it (version 3?).
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: blue;
+  background: #00444d;
 }
 
 .article-listing .spotlight-on-research .fa-newspaper-o::before,
 .article-listing .city-news .fa-newspaper-o::before {
-  font-size: 240px;
+  font-size: 120px;
+  margin-top: 3.5rem;
+  margin-bottom: 9.5rem;
+  color: white;
 }
 
 .article-listing .thumbnail {
