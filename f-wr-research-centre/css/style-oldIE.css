@@ -25564,6 +25564,27 @@ dl.staffhub-dl dd {
 #library .site-home {
   margin-top: 44px; }
 
+#library #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper .CybotCookiebotDialogBodyButton {
+  padding: 0.5rem; }
+
+#library #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll,
+#library #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
+  border: 1px solid transparent;
+  color: #d61726;
+  background-color: transparent;
+  -webkit-transition: border 0.6s ease;
+  transition: border 0.6s ease; }
+  #library #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover, #library #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:focus,
+  #library #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover,
+  #library #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:focus {
+    border: 1px solid #d61726; }
+
+#library #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease; }
+  #library #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover, #library #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:focus {
+    background-color: #a8121e; }
+
 #library #announcements {
   background: #E3F0FD;
   list-style: none;
