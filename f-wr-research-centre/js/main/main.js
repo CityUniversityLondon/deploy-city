@@ -24,7 +24,7 @@ module.exports = (function() {
         scrollTo = require('../utils/scroll-to'),
         responsiveTables = require('./funcs/responsive-tables'),
         cyclicPopup = require('./funcs/cyclic-popup'),
-        correct = require('./funcs/correct');
+        researchPubs = require('./funcs/research-publications');
 
     /**
      * The main CITY wrapper object
@@ -208,7 +208,7 @@ module.exports = (function() {
                 // We need to wait for the DOM to be modified before
                 // traversing for Image Credits
                 imageCreditation();
-                correct();
+                researchPubs();
 
                 $galleries.each(function() {
                     createGallery($(this));
