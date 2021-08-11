@@ -23,7 +23,7 @@ module.exports = (function() {
         popupDialog = require('./funcs/popup-dialog'),
         scrollTo = require('../utils/scroll-to'),
         responsiveTables = require('./funcs/responsive-tables'),
-        cyclicPopup = require('./funcs/cyclic-popup'),
+        cyclicPopup = require('./funcs/cyclic-popup');
         //researchPubs = require('./funcs/research-publications');
 
     /**
