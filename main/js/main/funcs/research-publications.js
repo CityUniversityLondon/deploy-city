@@ -6,10 +6,15 @@
  */
 
 module.exports = (function () {
-    return function () {
-        var string ='"},"staticData":false,"fixedProperties":{"divisions":"IICSWR"}}';
-        var editedText = document.getElementById('content').innerHTML.replace(string, '');
+    'use strict';
 
-        document.getElementById('content').innerHTML = editedText;
+    var $ = require('../jquery');
+    return function () {
+
+        //checks if ID exists: publications-search-react
+        if($('#publications-search-react').length){
+            var string ='"},"staticData":false,"fixedProperties":{"divisions":"IICSWR"}}';
+            $('#content').html($('#content').html().replace(string,''));
+        }
     };
 })();
