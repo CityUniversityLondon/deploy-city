@@ -39,6 +39,7 @@ module.exports = (function() {
         request = function(gallery) {
             var galleryInner = gallery && gallery.find('.gallery-inner');
             console.log('test');
+            console.log('test message 2');
 
             if (!galleryInner || galleryInner.length === 0) {
                 debug('no gallery found');
