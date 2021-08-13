@@ -847,9 +847,35 @@
   margin-left: -16px;
 }
 
+.article-listing .city-news .detail .city-news__date,
+.article-listing .spotlight-on-research .detail .city-news__date {
+  margin-left: 10px;
+}
+
 .article-listing .city-news .title,
 .article-listing .spotlight-on-research .title {
   margin: 10px;
+}
+
+.article-listing .city-news .fa-newspaper-o,
+.article-listing .spotlight-on-research .fa-newspaper-o {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #00444d;
+}
+
+.article-listing .city-news .fa-newspaper-o::before,
+.article-listing .spotlight-on-research .fa-newspaper-o::before {
+  font-size: 120px;
+  margin-top: 3.5rem;
+  margin-bottom: 9.5rem;
+  color: #fff;
 }
 
 .article-listing .thumbnail {
@@ -15464,15 +15490,4 @@ table.visa-event-table tr th {
 .service .service__bottom-ctas a:link {
   color: #eee;
   border-bottom-color: #ccc;
-}
-
-.project .project__bottom-ctas #contact-widget a:visited,
-.project .project__bottom-ctas a:visited,
-.project .service__bottom-ctas #contact-widget a:visited,
-.project .service__bottom-ctas a:visited,
-.service .project__bottom-ctas #contact-widget a:visited,
-.service .project__bottom-ctas a:visited,
-.service .service__bottom-ctas #contact-widget a:visited,
-.service .service__bottom-ctas a:visited {
-  color: #eee;
 }

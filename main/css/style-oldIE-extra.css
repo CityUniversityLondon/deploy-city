@@ -1,3 +1,16 @@
+.project-finder__results__item__info-toggle:hover,
+.service-finder__results__item__info-toggle:hover {
+  background: #eee;
+  color: #b91b1b;
+}
+
+.project-finder-test #primary-nav-toggler,
+.project-finder-test #slice-navigation,
+.service-finder-test #primary-nav-toggler,
+.service-finder-test #slice-navigation {
+  display: none;
+}
+
 .project-finder__bottom-banner,
 .service-finder__bottom-banner {
   max-height: 250px;

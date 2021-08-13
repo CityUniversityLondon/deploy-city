@@ -1,3 +1,14 @@
+.project .project__bottom-ctas #contact-widget a:visited,
+.project .project__bottom-ctas a:visited,
+.project .service__bottom-ctas #contact-widget a:visited,
+.project .service__bottom-ctas a:visited,
+.service .project__bottom-ctas #contact-widget a:visited,
+.service .project__bottom-ctas a:visited,
+.service .service__bottom-ctas #contact-widget a:visited,
+.service .service__bottom-ctas a:visited {
+  color: #eee;
+}
+
 .project .project__bottom-ctas #contact-widget a:hover,
 .project .project__bottom-ctas a:hover,
 .project .service__bottom-ctas #contact-widget a:hover,
