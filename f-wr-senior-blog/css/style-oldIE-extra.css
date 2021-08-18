@@ -1,3 +1,8 @@
+.service-finder__results__item__md > div,
+.project-finder__results__item__md > div {
+  margin-left: 22px;
+}
+
 .service-finder__results__item__info,
 .project-finder__results__item__info {
   display: none;

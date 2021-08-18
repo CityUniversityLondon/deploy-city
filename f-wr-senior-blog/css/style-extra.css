@@ -1,3 +1,12 @@
+.service a.service__cta:active,
+.service a.project__cta:active,
+.project a.service__cta:active,
+.project a.project__cta:active {
+  background-color: #b91b1b;
+  color: #FFFFFF;
+  border-bottom-color: transparent;
+}
+
 .service .service__team a,
 .service .project__team a,
 .project .service__team a,

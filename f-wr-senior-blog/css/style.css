@@ -18101,6 +18101,22 @@ a.ghost-cta {
   .blog--st__article .blog--st__article__press-officer a:active {
     color: #FFFFFF; }
 
+.blog--st__article .blog--st__article__topics {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0; }
+  .blog--st__article .blog--st__article__topics .blog--st__article__topics__topic {
+    border: thin solid #666;
+    margin-right: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .blog--st__article .blog--st__article__topics .blog--st__article__topics__topic a {
+      border-bottom: none;
+      padding: 15px 10px; }
+
 .buildingthevision #mapCanvas {
   height: 600px; }
   .buildingthevision #mapCanvas img {
