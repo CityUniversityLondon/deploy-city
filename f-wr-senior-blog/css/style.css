@@ -18035,8 +18035,8 @@ a.ghost-cta {
 
 .blog--st__finder {
   background: #eee;
-  padding: 0px 10px;
-  display: inline-block; }
+  padding: 10px 10px;
+  display: block; }
 
 .blog--st__article .blog--st__article__hero {
   min-height: 2.5em;

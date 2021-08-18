@@ -9481,8 +9481,8 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
 
 .blog--st__finder {
   background: #eee;
-  padding: 0px 10px;
-  display: inline-block;
+  padding: 10px 10px;
+  display: block;
 }
 
 .blog--st__article .blog--st__article__hero {
