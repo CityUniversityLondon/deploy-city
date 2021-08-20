@@ -9983,6 +9983,119 @@ a.ghost-cta .white-card__media .embed-container a:before {
   opacity: 1;
 }
 
+.blog--st__finder {
+  background: #eee;
+  padding: 10px 10px;
+  display: block;
+}
+
+.blog--st__article .blog--st__article__hero {
+  min-height: 2.5em;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.blog--st__article .blog--st__article__hero img {
+  display: block;
+  margin-bottom: 0;
+  border-radius: .357em;
+}
+
+.blog--st__article .blog--st__article__categories {
+  background-color: #FFF;
+  color: #666;
+  padding-right: .75em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: 2.5em;
+  word-spacing: .25em;
+  border-radius: 0 .357em 0 0;
+}
+
+.blog--st__article .blog--st__article__categories .blog--st__article__series__family,
+.blog--st__article .blog--st__article__categories a {
+  font-weight: 600;
+  border-bottom: 0;
+  word-spacing: normal;
+}
+
+.blog--st__article .blog--st__article__categories .blog--st__article__series__family {
+  color: #666;
+}
+
+.blog--st__article .blog--st__article__categories .blog--st__article__series__family:active,
+.blog--st__article .blog--st__article__categories .blog--st__article__series__family:focus,
+.blog--st__article .blog--st__article__categories .blog--st__article__series__family:hover {
+  text-decoration: underline;
+}
+
+.blog--st__article .blog--st__article__categories span {
+  display: inline-block;
+  position: relative;
+}
+
+.blog--st__article .blog--st__article__title {
+  font-family: sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.blog--st__article .blog--st__article__standfirst {
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+  margin-bottom: 8px;
+}
+
+.blog--st__article .blog--st__article__standfirst p {
+  margin: 0;
+}
+
+.blog--st__article .blog--st__article__date,
+.blog--st__article .blog--st__article__date a,
+.blog--st__article .blog--st__article__date+span:not([class]),
+.blog--st__article .blog--st__article__press-officer,
+.blog--st__article .blog--st__article__press-officer a,
+.blog--st__article .blog--st__article__press-officer+span:not([class]) {
+  color: #666;
+}
+
+.blog--st__article .blog--st__article__date a,
+.blog--st__article .blog--st__article__press-officer a {
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  padding: 0 .25em;
+}
+
+.blog--st__article .blog--st__article__date a:active,
+.blog--st__article .blog--st__article__date a:focus,
+.blog--st__article .blog--st__article__press-officer a:active,
+.blog--st__article .blog--st__article__press-officer a:focus {
+  color: #FFF;
+}
+
+.blog--st__article .blog--st__article__topics {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0;
+}
+
+.blog--st__article .blog--st__article__topics .blog--st__article__topics__topic {
+  border: thin solid #666;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog--st__article .blog--st__article__topics .blog--st__article__topics__topic a {
+  border-bottom: none;
+  padding: 15px 10px;
+}
+
 .buildingthevision #mapCanvas {
   height: 600px;
 }
@@ -15438,56 +15551,4 @@ table.visa-event-table tr th {
 .service .project__team a:visited,
 .service .service__team a:visited {
   color: #333;
-}
-
-.project .project__team a:hover,
-.project .service__team a:hover,
-.service .project__team a:hover,
-.service .service__team a:hover {
-  background-color: #666;
-  color: #FFF;
-  border-color: #b91b1b;
-}
-
-.project .project__team a:focus,
-.project .service__team a:focus,
-.service .project__team a:focus,
-.service .service__team a:focus {
-  background-color: #b91b1b;
-  color: #FFF;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-.project .project__team a:active,
-.project .service__team a:active,
-.service .project__team a:active,
-.service .service__team a:active {
-  background-color: #b91b1b;
-  color: #FFF;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-.project .project__bottom-ctas #contact-widget a,
-.project .project__bottom-ctas a,
-.project .service__bottom-ctas #contact-widget a,
-.project .service__bottom-ctas a,
-.service .project__bottom-ctas #contact-widget a,
-.service .project__bottom-ctas a,
-.service .service__bottom-ctas #contact-widget a,
-.service .service__bottom-ctas a {
-  border-bottom-width: 1px;
-  -webkit-transition: none;
-  transition: none;
-}
-
-.project .project__bottom-ctas #contact-widget a:link,
-.project .project__bottom-ctas a:link,
-.project .service__bottom-ctas #contact-widget a:link,
-.project .service__bottom-ctas a:link,
-.service .project__bottom-ctas #contact-widget a:link,
-.service .project__bottom-ctas a:link,
-.service .service__bottom-ctas #contact-widget a:link,
-.service .service__bottom-ctas a:link {
-  color: #eee;
-  border-bottom-color: #ccc;
 }

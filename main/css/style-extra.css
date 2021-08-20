@@ -1,3 +1,55 @@
+.project .project__team a:hover,
+.project .service__team a:hover,
+.service .project__team a:hover,
+.service .service__team a:hover {
+  background-color: #666;
+  color: #FFF;
+  border-color: #b91b1b;
+}
+
+.project .project__team a:focus,
+.project .service__team a:focus,
+.service .project__team a:focus,
+.service .service__team a:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.project .project__team a:active,
+.project .service__team a:active,
+.service .project__team a:active,
+.service .service__team a:active {
+  background-color: #b91b1b;
+  color: #FFF;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.project .project__bottom-ctas #contact-widget a,
+.project .project__bottom-ctas a,
+.project .service__bottom-ctas #contact-widget a,
+.project .service__bottom-ctas a,
+.service .project__bottom-ctas #contact-widget a,
+.service .project__bottom-ctas a,
+.service .service__bottom-ctas #contact-widget a,
+.service .service__bottom-ctas a {
+  border-bottom-width: 1px;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.project .project__bottom-ctas #contact-widget a:link,
+.project .project__bottom-ctas a:link,
+.project .service__bottom-ctas #contact-widget a:link,
+.project .service__bottom-ctas a:link,
+.service .project__bottom-ctas #contact-widget a:link,
+.service .project__bottom-ctas a:link,
+.service .service__bottom-ctas #contact-widget a:link,
+.service .service__bottom-ctas a:link {
+  color: #eee;
+  border-bottom-color: #ccc;
+}
+
 .project .project__bottom-ctas #contact-widget a:visited,
 .project .project__bottom-ctas a:visited,
 .project .service__bottom-ctas #contact-widget a:visited,
