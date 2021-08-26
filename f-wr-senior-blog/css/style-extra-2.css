@@ -10324,6 +10324,11 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
 }
 
 .blog--st__article .blog--st__article__date,
+.blog--st__article .blog--st__article__press-officer {
+  margin-bottom: 14px;
+}
+
+.blog--st__article .blog--st__article__date,
 .blog--st__article .blog--st__article__date a,
 .blog--st__article .blog--st__article__date + span:not([class]),
 .blog--st__article .blog--st__article__press-officer,
@@ -15808,12 +15813,4 @@ table.visa-event-table tr td {
 .project a.project__cta:visited {
   color: #670003;
   border-bottom-color: #999999;
-}
-
-.service a.service__cta:hover,
-.service a.project__cta:hover,
-.project a.service__cta:hover,
-.project a.project__cta:hover {
-  border-bottom-color: #670003;
-  border-bottom-style: solid;
 }

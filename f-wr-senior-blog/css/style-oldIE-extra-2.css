@@ -9577,6 +9577,11 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
 }
 
 .blog--st__article .blog--st__article__date,
+.blog--st__article .blog--st__article__press-officer {
+  margin-bottom: 14px;
+}
+
+.blog--st__article .blog--st__article__date,
 .blog--st__article .blog--st__article__date a,
 .blog--st__article .blog--st__article__date + span:not([class]),
 .blog--st__article .blog--st__article__press-officer,
@@ -15341,9 +15346,4 @@ p.left-float-image {
 .course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__md > .ui-icon {
   float: left;
   line-height: 21px;
-}
-
-.service-finder__results__item__md > .fa-check-circle,
-.project-finder__results__item__md > .fa-check-circle {
-  color: #6c953c;
 }
