@@ -10053,6 +10053,11 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 .blog--st__article .blog--st__article__date,
+.blog--st__article .blog--st__article__press-officer {
+  margin-bottom: 14px;
+}
+
+.blog--st__article .blog--st__article__date,
 .blog--st__article .blog--st__article__date a,
 .blog--st__article .blog--st__article__date+span:not([class]),
 .blog--st__article .blog--st__article__press-officer,
@@ -15544,11 +15549,4 @@ table.visa-event-table tr th {
 .service .service__team a:link {
   color: #333;
   border-bottom-width: 0;
-}
-
-.project .project__team a:visited,
-.project .service__team a:visited,
-.service .project__team a:visited,
-.service .service__team a:visited {
-  color: #333;
 }

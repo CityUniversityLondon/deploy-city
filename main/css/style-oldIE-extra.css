@@ -1,3 +1,8 @@
+.project-finder__results__item__info-toggle,
+.service-finder__results__item__info-toggle {
+  display: none;
+}
+
 .project-finder__results__item__info,
 .service-finder__results__item__info {
   display: block;

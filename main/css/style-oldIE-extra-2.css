@@ -9282,6 +9282,11 @@ a.ghost-cta .white-card__media .embed-container a:before {
 }
 
 .blog--st__article .blog--st__article__date,
+.blog--st__article .blog--st__article__press-officer {
+  margin-bottom: 14px;
+}
+
+.blog--st__article .blog--st__article__date,
 .blog--st__article .blog--st__article__date a,
 .blog--st__article .blog--st__article__date+span:not([class]),
 .blog--st__article .blog--st__article__press-officer,
@@ -15058,9 +15063,4 @@ p.left-float-image {
 .project-finder__results__item__md__label,
 .service-finder__results__item__md__label {
   font-weight: 600;
-}
-
-.project-finder__results__item__info-toggle,
-.service-finder__results__item__info-toggle {
-  display: none;
 }
