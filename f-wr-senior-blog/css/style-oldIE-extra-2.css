@@ -6825,6 +6825,7 @@ aside .news-article-widget:last-child {
 
 .tile-wrapper .tile-listing .tile .tile-content {
   position: relative;
+  background: white;
 }
 
 .tile-wrapper .tile-listing .tile .tile-subject {
@@ -6867,6 +6868,33 @@ aside .news-article-widget:last-child {
   padding: 0 10px 10px;
   font-size: 15px;
   color: #444;
+}
+
+.tile-wrapper .tile-listing .tile .tile-topics {
+  padding: 5px 10px 10px;
+}
+
+.tile-wrapper .tile-listing .tile .tile-topics ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0;
+}
+
+.tile-wrapper .tile-listing .tile .tile-topics ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.tile-wrapper .tile-listing .tile .tile-topics ul li a {
+  padding: 15px 10px;
+  border: thin solid #666;
+  margin-right: 20px;
+  text-align: center;
 }
 
 .tile-wrapper .tile-listing .tile .tile-time {
@@ -15318,14 +15346,4 @@ p.left-float-image {
 .service-finder__results__item__md > .fa-check-circle,
 .project-finder__results__item__md > .fa-check-circle {
   color: #6c953c;
-}
-
-.service-finder__results__item__md > .fa-minus-circle,
-.project-finder__results__item__md > .fa-minus-circle {
-  color: #e55302;
-}
-
-.service-finder__results__item__md > .fa-exclamation-circle,
-.project-finder__results__item__md > .fa-exclamation-circle {
-  color: #b02a1a;
 }

@@ -15825,7 +15825,8 @@ or until modernizr tests for it (version 3?).
     overflow: hidden;
     position: relative; }
     .tile-wrapper .tile-listing .tile .tile-content {
-      position: relative; }
+      position: relative;
+      background: white; }
     .tile-wrapper .tile-listing .tile .tile-subject {
       background-color: #b81b1a;
       padding: 0.4em 0.9em;
@@ -15858,6 +15859,25 @@ or until modernizr tests for it (version 3?).
       padding: 0 10px 10px;
       font-size: 15px;
       color: #444; }
+    .tile-wrapper .tile-listing .tile .tile-topics {
+      padding: 5px 10px 10px; }
+      .tile-wrapper .tile-listing .tile .tile-topics ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: 0; }
+        .tile-wrapper .tile-listing .tile .tile-topics ul li {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: baseline;
+              -ms-flex-align: baseline;
+                  align-items: baseline; }
+          .tile-wrapper .tile-listing .tile .tile-topics ul li a {
+            padding: 15px 10px;
+            border: thin solid #666;
+            margin-right: 20px;
+            text-align: center; }
     .tile-wrapper .tile-listing .tile .tile-time {
       background: white;
       padding: 5px 10px 10px;

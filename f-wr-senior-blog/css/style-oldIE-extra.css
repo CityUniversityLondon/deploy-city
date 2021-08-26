@@ -1,3 +1,13 @@
+.service-finder__results__item__md > .fa-minus-circle,
+.project-finder__results__item__md > .fa-minus-circle {
+  color: #e55302;
+}
+
+.service-finder__results__item__md > .fa-exclamation-circle,
+.project-finder__results__item__md > .fa-exclamation-circle {
+  color: #b02a1a;
+}
+
 .service-finder__results__item__md > div,
 .project-finder__results__item__md > div {
   margin-left: 22px;

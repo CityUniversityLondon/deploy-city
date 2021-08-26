@@ -7287,6 +7287,7 @@ aside .news-article-widget:last-child {
 
 .tile-wrapper .tile-listing .tile .tile-content {
   position: relative;
+  background: white;
 }
 
 .tile-wrapper .tile-listing .tile .tile-subject {
@@ -7344,6 +7345,33 @@ aside .news-article-widget:last-child {
   padding: 0 10px 10px;
   font-size: 15px;
   color: #444;
+}
+
+.tile-wrapper .tile-listing .tile .tile-topics {
+  padding: 5px 10px 10px;
+}
+
+.tile-wrapper .tile-listing .tile .tile-topics ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0;
+}
+
+.tile-wrapper .tile-listing .tile .tile-topics ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.tile-wrapper .tile-listing .tile .tile-topics ul li a {
+  padding: 15px 10px;
+  border: thin solid #666;
+  margin-right: 20px;
+  text-align: center;
 }
 
 .tile-wrapper .tile-listing .tile .tile-time {
@@ -15788,13 +15816,4 @@ table.visa-event-table tr td {
 .project a.project__cta:hover {
   border-bottom-color: #670003;
   border-bottom-style: solid;
-}
-
-.service a.service__cta:focus,
-.service a.project__cta:focus,
-.project a.service__cta:focus,
-.project a.project__cta:focus {
-  background-color: #b91b1b;
-  color: #FFFFFF;
-  border-bottom-color: transparent;
 }
