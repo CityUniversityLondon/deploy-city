@@ -1,3 +1,18 @@
+.project-finder__results__item__description,
+.service-finder__results__item__description {
+  margin: 10px 0;
+}
+
+.project-finder__results__item__md span,
+.service-finder__results__item__md span {
+  color: #666;
+}
+
+.project-finder__results__item__md__label,
+.service-finder__results__item__md__label {
+  font-weight: 600;
+}
+
 .project-finder__results__item__info-toggle,
 .service-finder__results__item__info-toggle {
   display: none;

@@ -1,3 +1,11 @@
+.project .project__team a:link,
+.project .service__team a:link,
+.service .project__team a:link,
+.service .service__team a:link {
+  color: #333;
+  border-bottom-width: 0;
+}
+
 .project .project__team a:visited,
 .project .service__team a:visited,
 .service .project__team a:visited,
