@@ -9513,6 +9513,21 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
   display: block;
 }
 
+.blog--st__finder .tile-listing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.blog--st__finder .tile-listing .tile,
+.blog--st__finder .tile-listing .tile-type-image {
+  margin-bottom: 10px;
+  height: 100%;
+  background: white;
+}
+
 .blog--st__article .blog--st__article__hero {
   min-height: 2.5em;
   margin-bottom: 1em;
@@ -15330,20 +15345,4 @@ p.left-float-image {
 .service-finder__results__item__md,
 .project-finder__results__item__md {
   margin-bottom: 5px;
-}
-
-.service-finder__results__item__md > .fa,
-.ui-accordion .ui-accordion-header .service-finder__results__item__md > .ui-icon,
-#courses-widget .widget-content .ui-accordion-header .service-finder__results__item__md > .ui-icon,
-.dialog .service-finder__results__item__md > button,
-.white-card__media .embed-container .service-finder__results__item__md > a:before,
-.course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__md > .ui-icon,
-.project-finder__results__item__md > .fa,
-.ui-accordion .ui-accordion-header .project-finder__results__item__md > .ui-icon,
-#courses-widget .widget-content .ui-accordion-header .project-finder__results__item__md > .ui-icon,
-.dialog .project-finder__results__item__md > button,
-.white-card__media .embed-container .project-finder__results__item__md > a:before,
-.course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__md > .ui-icon {
-  float: left;
-  line-height: 21px;
 }

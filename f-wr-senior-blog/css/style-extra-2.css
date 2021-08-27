@@ -10260,6 +10260,21 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
   display: block;
 }
 
+.blog--st__finder .tile-listing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.blog--st__finder .tile-listing .tile,
+.blog--st__finder .tile-listing .tile-type-image {
+  margin-bottom: 10px;
+  height: 100%;
+  background: white;
+}
+
 .blog--st__article .blog--st__article__hero {
   min-height: 2.5em;
   margin-bottom: 1em;

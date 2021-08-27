@@ -18057,6 +18057,16 @@ a.ghost-cta {
   background: #eee;
   padding: 10px 10px;
   display: block; }
+  .blog--st__finder .tile-listing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .blog--st__finder .tile-listing .tile, .blog--st__finder .tile-listing .tile-type-image {
+      margin-bottom: 10px;
+      height: 100%;
+      background: white; }
 
 .blog--st__article .blog--st__article__hero {
   min-height: 2.5em;

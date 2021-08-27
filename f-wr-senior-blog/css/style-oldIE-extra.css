@@ -1,3 +1,19 @@
+.service-finder__results__item__md > .fa,
+.ui-accordion .ui-accordion-header .service-finder__results__item__md > .ui-icon,
+#courses-widget .widget-content .ui-accordion-header .service-finder__results__item__md > .ui-icon,
+.dialog .service-finder__results__item__md > button,
+.white-card__media .embed-container .service-finder__results__item__md > a:before,
+.course .accordion.ui-accordion .ui-accordion-header .service-finder__results__item__md > .ui-icon,
+.project-finder__results__item__md > .fa,
+.ui-accordion .ui-accordion-header .project-finder__results__item__md > .ui-icon,
+#courses-widget .widget-content .ui-accordion-header .project-finder__results__item__md > .ui-icon,
+.dialog .project-finder__results__item__md > button,
+.white-card__media .embed-container .project-finder__results__item__md > a:before,
+.course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__md > .ui-icon {
+  float: left;
+  line-height: 21px;
+}
+
 .service-finder__results__item__md > .fa-check-circle,
 .project-finder__results__item__md > .fa-check-circle {
   color: #6c953c;
