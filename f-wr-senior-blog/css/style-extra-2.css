@@ -10255,8 +10255,6 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
 }
 
 .blog--st__finder {
-  background: #eee;
-  padding: 10px 10px;
   display: block;
 }
 
@@ -10273,6 +10271,65 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
   margin-bottom: 10px;
   height: 100%;
   background: white;
+}
+
+.blog--st__finder .news-finder__main__left {
+  margin-bottom: 10px;
+}
+
+.blog--st__finder .news-finder__main__left .news-finder__query-wrapper {
+  margin-top: 0px;
+  background: none;
+  padding: 0;
+}
+
+.blog--st__finder .news-finder__main__left .news-finder__query-wrapper .container-multiple {
+  margin: 0;
+  width: auto;
+}
+
+.blog--st__finder .news-finder__main__left .news-finder__query {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog--st__finder .news-finder__main__left .news-finder__query .query-box {
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+  -webkit-box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15);
+  margin: 15px;
+}
+
+.blog--st__finder .news-finder__main__left .news-finder__query .query-box button {
+  background: #dd0036;
+  color: white;
+  border: none;
+}
+
+.blog--st__finder .news-finder__main__left .news-finder__query .filter-box {
+  -ms-flex-preferred-size: 75%;
+  flex-basis: 75%;
+  margin-top: 0;
+}
+
+.blog--st__finder .news-finder__main__left .news-finder__query .filter-box .row-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog--st__finder .news-finder__main__left .news-finder__query .filter-box .row-fluid .filter-box__filter {
+  -ms-flex-preferred-size: 33%;
+  flex-basis: 33%;
+  -webkit-box-shadow: 0 0 1.5rem 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 1.5rem 3px rgba(0, 0, 0, 0.15);
+  margin: 15px;
+}
+
+.blog--st__finder .news-finder__main__right .news-finder__form-wrapper {
+  padding: 0;
 }
 
 .blog--st__article .blog--st__article__hero {
@@ -15802,30 +15859,4 @@ table.visa-event-table tr td {
 .project a.service__header-link:active,
 .project a.project__header-link:active {
   background-color: #FFFFFF;
-}
-
-.service a.service__header-link i,
-.service a.project__header-link i,
-.project a.service__header-link i,
-.project a.project__header-link i {
-  font-size: .8em;
-  margin-left: .3em;
-}
-
-.service a.service__cta:link,
-.service a.project__cta:link,
-.project a.service__cta:link,
-.project a.project__cta:link {
-  color: #b91b1b;
-  border-bottom-width: 2px;
-  border-bottom-style: dotted;
-  border-bottom-color: #999999;
-}
-
-.service a.service__cta:visited,
-.service a.project__cta:visited,
-.project a.service__cta:visited,
-.project a.project__cta:visited {
-  color: #670003;
-  border-bottom-color: #999999;
 }
