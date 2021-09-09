@@ -18100,11 +18100,14 @@ a.ghost-cta {
           .blog--st__finder .news-finder__main__left .news-finder__query .filter-box .row-fluid .filter-box__filter {
             -ms-flex-preferred-size: 33%;
                 flex-basis: 33%;
-            -webkit-box-shadow: 0 0 1.5rem 3px rgba(0, 0, 0, 0.15);
-                    box-shadow: 0 0 1.5rem 3px rgba(0, 0, 0, 0.15);
+            -webkit-box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15);
+                    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15);
             margin: 15px; }
   .blog--st__finder .news-finder__main__right .news-finder__form-wrapper {
     padding: 0; }
+
+.blog--st__author-profile .blog--st__finder {
+  background: red; }
 
 .blog--st__article .blog--st__article__hero {
   min-height: 2.5em;
