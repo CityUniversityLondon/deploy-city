@@ -17734,7 +17734,7 @@ a.ghost-cta {
 .blog--st__author-profile .blog--st__finder {
   background: #eeeeee;
   padding: 0 20px; }
-  .blog--st__author-profile .blog--st__finder tile-listing {
+  .blog--st__author-profile .blog--st__finder .tile-listing {
     margin: 0; }
 
 .blog--st__article .blog--st__article__hero {
