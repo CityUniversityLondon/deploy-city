@@ -9586,7 +9586,12 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
 }
 
 .blog--st__author-profile .blog--st__finder {
-  background: red;
+  background: #eeeeee;
+  padding: 0 20px;
+}
+
+.blog--st__author-profile .blog--st__finder tile-listing {
+  margin: 0;
 }
 
 .blog--st__article .blog--st__article__hero {
@@ -15394,11 +15399,4 @@ p.left-float-image {
   background-color: #b91b1b;
   color: #FFFFFF;
   border-bottom-color: transparent;
-}
-
-.service-finder__results__item__status,
-.project-finder__results__item__progress {
-  padding: 3px 0;
-  font-weight: 600;
-  color: #666;
 }

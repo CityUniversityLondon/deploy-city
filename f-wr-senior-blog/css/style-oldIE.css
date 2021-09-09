@@ -17732,7 +17732,10 @@ a.ghost-cta {
     padding: 0; }
 
 .blog--st__author-profile .blog--st__finder {
-  background: red; }
+  background: #eeeeee;
+  padding: 0 20px; }
+  .blog--st__author-profile .blog--st__finder tile-listing {
+    margin: 0; }
 
 .blog--st__article .blog--st__article__hero {
   min-height: 2.5em;
