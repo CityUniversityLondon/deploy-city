@@ -10342,6 +10342,8 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
 
 .blog--st__author-profile .blog--st__finder .tile-wrapper {
   width: 100%;
+  margin-bottom: 0;
+  margin-top: 40px;
 }
 
 .blog--st__author-profile .blog--st__finder .tile-wrapper .tile-listing {
