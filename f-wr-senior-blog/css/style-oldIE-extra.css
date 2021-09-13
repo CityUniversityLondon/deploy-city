@@ -1,3 +1,10 @@
+.service-finder__results__item h2 a:active,
+.project-finder__results__item h2 a:active {
+  background-color: #b91b1b;
+  color: #FFFFFF;
+  border-bottom-color: transparent;
+}
+
 .service-finder__results__item__status,
 .project-finder__results__item__progress {
   padding: 3px 0;

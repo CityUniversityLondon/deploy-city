@@ -17689,8 +17689,11 @@ a.ghost-cta {
     .blog--st__finder .tile-listing .tile,
     .blog--st__finder .tile-listing .tile-type-image {
       margin-bottom: 10px;
+      padding-bottom: 10px;
       height: 100%;
       background: white; }
+    .blog--st__finder .tile-listing .tile .tile-text {
+      padding: 0 10px; }
   .blog--st__finder .news-finder__main__left {
     margin-bottom: 10px; }
     .blog--st__finder .news-finder__main__left .news-finder__query-wrapper {
@@ -17823,7 +17826,7 @@ a.ghost-cta {
     display: flex; }
     .blog--st__article .blog--st__article__topics .blog--st__article__topics__topic a {
       border-bottom: none;
-      padding: 15px 10px; }
+      padding: 5px 10px; }
 
 .buildingthevision #mapCanvas {
   height: 600px; }
