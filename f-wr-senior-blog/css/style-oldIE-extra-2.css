@@ -9616,7 +9616,7 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
 }
 
 .blog--st__author-profile .blog--st__author-profile__hero {
-  height: 280px;
+  max-height: 280px;
   overflow: hidden;
 }
 
@@ -9642,7 +9642,7 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
   min-height: 2.5em;
   margin-bottom: 1em;
   position: relative;
-  height: 280px;
+  max-height: 280px;
   overflow: hidden;
 }
 

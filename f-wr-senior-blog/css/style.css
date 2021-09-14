@@ -18129,7 +18129,7 @@ a.ghost-cta {
       width: 100%; }
 
 .blog--st__author-profile .blog--st__author-profile__hero {
-  height: 280px;
+  max-height: 280px;
   overflow: hidden; }
 
 .blog--st__author-profile .blog--st__finder {
@@ -18149,7 +18149,7 @@ a.ghost-cta {
   min-height: 2.5em;
   margin-bottom: 1em;
   position: relative;
-  height: 280px;
+  max-height: 280px;
   overflow: hidden; }
   .blog--st__article .blog--st__article__hero img {
     display: block;
