@@ -18069,7 +18069,10 @@ a.ghost-cta {
       display: flex;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
       .blog--st__finder .tile-wrapper .tile-listing .tile,
       .blog--st__finder .tile-wrapper .tile-listing .tile-type-image {
         margin-bottom: 10px;
@@ -18125,6 +18128,10 @@ a.ghost-cta {
       margin-right: 0;
       width: 100%; }
 
+.blog--st__author-profile .blog--st__author-profile__hero {
+  height: 280px;
+  overflow: hidden; }
+
 .blog--st__author-profile .blog--st__finder {
   background: #eeeeee;
   padding: 0 20px;
@@ -18141,7 +18148,9 @@ a.ghost-cta {
 .blog--st__article .blog--st__article__hero {
   min-height: 2.5em;
   margin-bottom: 1em;
-  position: relative; }
+  position: relative;
+  height: 280px;
+  overflow: hidden; }
   .blog--st__article .blog--st__article__hero img {
     display: block;
     margin-bottom: 0;

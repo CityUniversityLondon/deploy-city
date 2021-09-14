@@ -1,3 +1,9 @@
+.service-finder__results__item h2 a:hover,
+.project-finder__results__item h2 a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #670003;
+}
+
 .service-finder__results__item h2 a:focus,
 .project-finder__results__item h2 a:focus {
   background-color: #b91b1b;
