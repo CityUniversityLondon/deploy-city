@@ -1,3 +1,10 @@
+.service-finder__results__item h2 a:focus,
+.project-finder__results__item h2 a:focus {
+  background-color: #b91b1b;
+  color: #FFFFFF;
+  border-bottom-color: transparent;
+}
+
 .service-finder__results__item h2 a:active,
 .project-finder__results__item h2 a:active {
   background-color: #b91b1b;
