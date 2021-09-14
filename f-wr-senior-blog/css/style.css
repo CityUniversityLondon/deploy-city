@@ -18055,22 +18055,31 @@ a.ghost-cta {
 
 .blog--st__finder {
   display: block; }
-  .blog--st__finder .tile-listing {
+  .blog--st__finder .tile-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
-    .blog--st__finder .tile-listing .tile,
-    .blog--st__finder .tile-listing .tile-type-image {
-      margin-bottom: 10px;
-      padding-bottom: 10px;
-      height: 100%;
-      background: white; }
-    .blog--st__finder .tile-listing .tile .tile-text {
-      padding: 0 10px; }
-    .blog--st__finder .tile-listing .tile .tile-topics a {
-      padding: 5px 10px; }
+    background: #eee;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0; }
+    .blog--st__finder .tile-wrapper .tile-listing {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin-bottom: 0; }
+      .blog--st__finder .tile-wrapper .tile-listing .tile,
+      .blog--st__finder .tile-wrapper .tile-listing .tile-type-image {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        height: 100%;
+        background: white; }
+      .blog--st__finder .tile-wrapper .tile-listing .tile .tile-text {
+        padding: 0 10px; }
+      .blog--st__finder .tile-wrapper .tile-listing .tile .tile-topics a {
+        padding: 5px 10px; }
   .blog--st__finder .news-finder__main__left {
     margin-bottom: 10px; }
     .blog--st__finder .news-finder__main__left .news-finder__query-wrapper {
@@ -18109,19 +18118,12 @@ a.ghost-cta {
                     box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15);
             margin: 15px; }
   .blog--st__finder .news-finder__main__right .news-finder__form-wrapper {
-    padding: 0; }
+    padding: 0;
+    background: none; }
     .blog--st__finder .news-finder__main__right .news-finder__form-wrapper .container-multiple {
       margin-left: 0;
       margin-right: 0;
       width: 100%; }
-      .blog--st__finder .news-finder__main__right .news-finder__form-wrapper .container-multiple .tile-wrapper {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        background: #eee;
-        padding: 10px;
-        margin-top: 0;
-        margin-bottom: 40px; }
 
 .blog--st__author-profile .blog--st__finder {
   background: #eeeeee;
