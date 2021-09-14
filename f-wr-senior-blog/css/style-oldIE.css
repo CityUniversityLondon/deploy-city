@@ -17756,10 +17756,13 @@ a.ghost-cta {
 .blog--st__author-profile .blog--st__author-profile__hero {
   max-height: 280px;
   overflow: hidden; }
+  .blog--st__author-profile .blog--st__author-profile__hero img {
+    display: block;
+    margin-bottom: 0;
+    border-radius: 0.357em; }
 
 .blog--st__author-profile .blog--st__finder {
   background: #eeeeee;
-  padding: 0 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
