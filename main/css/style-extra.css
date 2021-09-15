@@ -1,3 +1,47 @@
+.project a.project__cta:visited,
+.project a.service__cta:visited,
+.service a.project__cta:visited,
+.service a.service__cta:visited {
+  color: #670003;
+  border-bottom-color: #999;
+}
+
+.project a.project__cta:hover,
+.project a.service__cta:hover,
+.service a.project__cta:hover,
+.service a.service__cta:hover {
+  border-bottom-color: #670003;
+  border-bottom-style: solid;
+}
+
+.project a.project__cta:focus,
+.project a.service__cta:focus,
+.service a.project__cta:focus,
+.service a.service__cta:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.project a.project__cta:active,
+.project a.service__cta:active,
+.service a.project__cta:active,
+.service a.service__cta:active {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.project .project__team a,
+.project .service__team a,
+.service .project__team a,
+.service .service__team a {
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
 .project .project__team a:link,
 .project .service__team a:link,
 .service .project__team a:link,
