@@ -1,3 +1,8 @@
+.service-finder__results__item h2 a:visited,
+.project-finder__results__item h2 a:visited {
+  color: #670003;
+}
+
 .service-finder__results__item h2 a:hover,
 .project-finder__results__item h2 a:hover {
   border-bottom-style: solid;

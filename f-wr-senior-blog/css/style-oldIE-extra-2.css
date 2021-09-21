@@ -9541,6 +9541,12 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
   background: white;
 }
 
+.blog--st__finder .tile-wrapper .tile-listing .tile .tile-img-heading {
+  max-height: 17rem;
+  overflow: hidden;
+  display: block;
+}
+
 .blog--st__finder .tile-wrapper .tile-listing .tile .tile-text {
   padding: 0 10px;
 }
@@ -15425,9 +15431,4 @@ p.left-float-image {
 .project-finder__results__item h2 a:link {
   color: #b91b1b;
   border-bottom-color: #999999;
-}
-
-.service-finder__results__item h2 a:visited,
-.project-finder__results__item h2 a:visited {
-  color: #670003;
 }

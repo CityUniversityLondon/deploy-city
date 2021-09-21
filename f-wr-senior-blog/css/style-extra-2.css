@@ -10288,6 +10288,12 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
   background: white;
 }
 
+.blog--st__finder .tile-wrapper .tile-listing .tile .tile-img-heading {
+  max-height: 17rem;
+  overflow: hidden;
+  display: block;
+}
+
 .blog--st__finder .tile-wrapper .tile-listing .tile .tile-text {
   padding: 0 10px;
 }

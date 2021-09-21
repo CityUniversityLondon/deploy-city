@@ -17704,6 +17704,10 @@ a.ghost-cta {
         padding-bottom: 10px;
         height: 100%;
         background: white; }
+      .blog--st__finder .tile-wrapper .tile-listing .tile .tile-img-heading {
+        max-height: 17rem;
+        overflow: hidden;
+        display: block; }
       .blog--st__finder .tile-wrapper .tile-listing .tile .tile-text {
         padding: 0 10px; }
       .blog--st__finder .tile-wrapper .tile-listing .tile .tile-topics a {
