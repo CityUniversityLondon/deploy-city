@@ -10288,10 +10288,22 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
   background: white;
 }
 
-.blog--st__finder .tile-wrapper .tile-listing .tile .tile-img-heading {
-  max-height: 17rem;
-  overflow: hidden;
-  display: block;
+@media only screen and (min-width: 600px) {
+  .blog--st__finder .tile-wrapper .tile-listing .tile .tile-img-heading {
+    max-height: 17rem;
+    overflow: hidden;
+    display: block;
+    padding-top: 60%;
+    /* aspect ratio */
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .blog--st__finder .tile-wrapper .tile-listing .tile .tile-img-heading .tile-image {
+    position: absolute;
+    top: 0;
+  }
 }
 
 .blog--st__finder .tile-wrapper .tile-listing .tile .tile-text {
@@ -15899,13 +15911,4 @@ table.visa-event-table tr td {
 .project a.service__header-link:visited,
 .project a.project__header-link:visited {
   color: #333333;
-}
-
-.service a.service__header-link:hover,
-.service a.project__header-link:hover,
-.project a.service__header-link:hover,
-.project a.project__header-link:hover {
-  color: #b91b1b;
-  border-bottom-style: solid;
-  border-bottom-color: #b91b1b;
 }

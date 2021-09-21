@@ -9545,6 +9545,14 @@ a.ghost-cta .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
   max-height: 17rem;
   overflow: hidden;
   display: block;
+  padding-top: 60%;
+  /* aspect ratio */
+  position: relative;
+}
+
+.blog--st__finder .tile-wrapper .tile-listing .tile .tile-img-heading .tile-image {
+  position: absolute;
+  top: 0;
 }
 
 .blog--st__finder .tile-wrapper .tile-listing .tile .tile-text {
