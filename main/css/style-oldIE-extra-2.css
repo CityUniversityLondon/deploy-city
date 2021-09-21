@@ -9274,6 +9274,19 @@ a.ghost-cta .white-card__media .embed-container a:before {
   background: #fff;
 }
 
+.blog--st__finder .tile-wrapper .tile-listing .tile .tile-img-heading {
+  max-height: 17rem;
+  overflow: hidden;
+  display: block;
+  padding-top: 60%;
+  position: relative;
+}
+
+.blog--st__finder .tile-wrapper .tile-listing .tile .tile-img-heading .tile-image {
+  position: absolute;
+  top: 0;
+}
+
 .blog--st__finder .tile-wrapper .tile-listing .tile .tile-text {
   padding: 0 10px;
 }

@@ -1,3 +1,13 @@
+.project a.project__cta:link,
+.project a.service__cta:link,
+.service a.project__cta:link,
+.service a.service__cta:link {
+  color: #b91b1b;
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  border-bottom-color: #999;
+}
+
 .project a.project__cta:visited,
 .project a.service__cta:visited,
 .service a.project__cta:visited,
