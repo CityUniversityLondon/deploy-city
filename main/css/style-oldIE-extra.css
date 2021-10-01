@@ -5509,6 +5509,10 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
   color: #FFF;
 }
 
+.city-research .galleria-info {
+  display: none!important;
+}
+
 #courses-widget .widget-content .ui-accordion-header .icons-finance .ui-icon,
 #courses-widget .widget-content .ui-accordion-header .icons-hr .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .icons-finance .ui-icon,
