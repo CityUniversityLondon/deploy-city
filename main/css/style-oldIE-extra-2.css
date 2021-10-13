@@ -8634,6 +8634,36 @@ aside .news-article-widget:last-child {
   display: block;
 }
 
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper .CybotCookiebotDialogBodyButton {
+  padding: .5rem;
+}
+
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll {
+  border: 1px solid transparent;
+  color: #d61726;
+  background-color: transparent;
+  -webkit-transition: border .6s ease;
+  transition: border .6s ease;
+}
+
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:focus,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:focus,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover {
+  border: 1px solid #d61726;
+}
+
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+  -webkit-transition: background-color .6s ease;
+  transition: background-color .6s ease;
+}
+
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:focus,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover {
+  background-color: #a8121e;
+}
+
 i.loading-fa-icon {
   display: none;
 }
@@ -15152,23 +15182,4 @@ p.left-float-image {
   background-color: #b91b1b;
   color: #FFF;
   border-bottom-color: transparent;
-}
-
-.project-finder__results__item h2 a:active,
-.service-finder__results__item h2 a:active {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
-}
-
-.project-finder__results__item__progress,
-.service-finder__results__item__status {
-  padding: 3px 0;
-  font-weight: 600;
-  color: #666;
-}
-
-.project-finder__results__item__md,
-.service-finder__results__item__md {
-  margin-bottom: 5px;
 }

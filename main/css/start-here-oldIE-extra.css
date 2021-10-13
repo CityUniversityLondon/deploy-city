@@ -1,3 +1,48 @@
+.home .image-banner#promo-wrapper .banner.open .banner-toggle .fa-angle-down {
+  display: none;
+}
+
+.home .image-banner#promo-wrapper .banner.open .banner-toggle .fa-angle-up {
+  display: block;
+}
+
+.home .image-banner#promo-wrapper .banner.open .line-m-s {
+  padding-top: 123%;
+}
+
+.home .image-banner#promo-wrapper .banner .line-d-w {
+  float: right;
+  width: 460px;
+  width: 625px;
+  padding-top: 15px;
+}
+
+.home .image-banner#promo-wrapper .banner .line-d-w img {
+  margin: 0;
+  width: 100%;
+}
+
+.home #slice-navigation {
+  display: none;
+}
+
+.white-box--cards-intro {
+  background-color: #3e1031;
+  color: #FFF;
+}
+
+.white-box--cards-intro h2 {
+  font-weight: 300;
+}
+
+.white-box--cards-intro h2 b {
+  font-weight: 700;
+}
+
+.lt-ie9 .tube-map-svg {
+  display: none;
+}
+
 .lt-ie9 .tube-map-img {
   display: block;
 }

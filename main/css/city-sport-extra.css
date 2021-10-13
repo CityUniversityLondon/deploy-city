@@ -8717,6 +8717,36 @@ body {
   display: block;
 }
 
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper .CybotCookiebotDialogBodyButton {
+  padding: .5rem;
+}
+
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll {
+  border: 1px solid transparent;
+  color: #d61726;
+  background-color: transparent;
+  -webkit-transition: border .6s ease;
+  transition: border .6s ease;
+}
+
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:focus,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:focus,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover {
+  border: 1px solid #d61726;
+}
+
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+  -webkit-transition: background-color .6s ease;
+  transition: background-color .6s ease;
+}
+
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:focus,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover {
+  background-color: #a8121e;
+}
+
 .people-listing {
   display: -webkit-box;
   display: -ms-flexbox;

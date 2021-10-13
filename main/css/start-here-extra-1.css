@@ -14035,6 +14035,36 @@ img[align=right] {
   display: block;
 }
 
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper .CybotCookiebotDialogBodyButton {
+  padding: .5rem;
+}
+
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll {
+  border: 1px solid transparent;
+  color: #d61726;
+  background-color: transparent;
+  -webkit-transition: border .6s ease;
+  transition: border .6s ease;
+}
+
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:focus,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:focus,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover {
+  border: 1px solid #d61726;
+}
+
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+  -webkit-transition: background-color .6s ease;
+  transition: background-color .6s ease;
+}
+
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:focus,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover {
+  background-color: #a8121e;
+}
+
 .js .responsive-tabs {
   margin-bottom: 20px;
 }
@@ -15436,26 +15466,4 @@ a:focus {
   display: inline-block;
   vertical-align: middle;
   width: 0;
-}
-
-#courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
-#courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon,
-.hallway-new .hallway-item a h2 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon,
-.hallway-new .hallway-item a h2 .title-icon .ui-accordion .ui-accordion-header span.ui-icon,
-.hallway-new .hallway-item a h2 .title-icon span.fa,
-.hallway-new .hallway-item a h3 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon,
-.hallway-new .hallway-item a h3 .title-icon .ui-accordion .ui-accordion-header span.ui-icon,
-.hallway-new .hallway-item a h3 .title-icon span.fa,
-.ui-accordion .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
-.ui-accordion .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon {
-  display: inline-block;
-  margin: 0 auto;
-  vertical-align: middle;
-  border-bottom-color: transparent!important;
-}
-
-.hallway-new .hallway-item a p {
-  font-size: 15px;
-  color: #444;
-  display: none;
 }

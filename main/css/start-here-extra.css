@@ -1,3 +1,25 @@
+#courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
+#courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon,
+.hallway-new .hallway-item a h2 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.hallway-new .hallway-item a h2 .title-icon .ui-accordion .ui-accordion-header span.ui-icon,
+.hallway-new .hallway-item a h2 .title-icon span.fa,
+.hallway-new .hallway-item a h3 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.hallway-new .hallway-item a h3 .title-icon .ui-accordion .ui-accordion-header span.ui-icon,
+.hallway-new .hallway-item a h3 .title-icon span.fa,
+.ui-accordion .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
+.ui-accordion .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon {
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: middle;
+  border-bottom-color: transparent!important;
+}
+
+.hallway-new .hallway-item a p {
+  font-size: 15px;
+  color: #444;
+  display: none;
+}
+
 @media only screen and (min-width:980px) {
   .hallway-new .hallway-item a p {
     display: block;

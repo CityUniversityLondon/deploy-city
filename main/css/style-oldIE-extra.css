@@ -1,3 +1,22 @@
+.project-finder__results__item h2 a:active,
+.service-finder__results__item h2 a:active {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.project-finder__results__item__progress,
+.service-finder__results__item__status {
+  padding: 3px 0;
+  font-weight: 600;
+  color: #666;
+}
+
+.project-finder__results__item__md,
+.service-finder__results__item__md {
+  margin-bottom: 5px;
+}
+
 #courses-widget .widget-content .ui-accordion-header .project-finder__results__item__md>.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .service-finder__results__item__md>.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .project-finder__results__item__md>.ui-icon,
