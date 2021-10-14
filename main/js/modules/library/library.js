@@ -45,9 +45,36 @@ CITY.library = (function($) {
             }
         },
         setRelativeDate = function(startDate, howFurther) {
+            var millisecondsInHour = howFurther ? 3600000 : -3600000, //gtm time zone diffences
+                yearMarchLastSunday = getLastSundayMarch(startDate.getFullYear()),
+                yearOctoberLastSunday = getLastSundayOctober(startDate.getFullYear()),
+                dateArray = [];
+
+            if(howFurther > 0){
+                for(var i = 0; i < howFurther; i++){
+                    var d = startDate.getDate() + i + 1;
+                    dateArray.push(new Date(startDate.getFullYear(), startDate.getMonth(), d));
+                }
+            }
+            else{
+                for(var i = 0; i > howFurther; i--){
+                    var d = startDate.getDate() + i - 1;
+                    dateArray.push(new Date(startDate.getFullYear(), startDate.getMonth(), d));
+                }
+            }
+            
+            if((isDateInArray(dateArray, yearOctoberLastSunday)) || (isDateInArray(dateArray, yearMarchLastSunday))){
+                return new Date(
+                    startDate.getTime() + howFurther * 24 * 60 * 60 * 1000 + millisecondsInHour 
+                );
+            }
+
             return new Date(
-                startDate.getTime() + howFurther * 24 * 60 * 60 * 1000
+                startDate.getTime() + howFurther * 24 * 60 * 60 * 1000 
             );
+        },
+        isDateInArray = function(array, value) {
+            return !!array.find(function (item) {return item.getTime() == value.getTime()});
         },
         matrixFormatDate = function(date) {
             var dateD = date.getDate(),
@@ -144,6 +171,20 @@ CITY.library = (function($) {
             request = null;
 
             options.updateElements.addClass('opening-times-busy');
+        },
+        getLastSundayMarch = function(year) {
+            // Create date for last day in month
+            var d = new Date(year, 3, 0);
+            // Adjust to previous Sunday
+            d.setDate(d.getDate() - d.getDay());
+            return d;
+        },
+        getLastSundayOctober = function(year) {
+            // Create date for last day in month
+            var d = new Date(year, 10, 0);
+            // Adjust to previous Sunday
+            d.setDate(d.getDate() - d.getDay());
+            return d;
         },
         updateLibraryTime = function(response, libraries) {
             // libraries === response.targetLibraries
