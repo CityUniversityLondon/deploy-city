@@ -1,3 +1,13 @@
+.project a.project__header-link:focus,
+.project a.service__header-link:focus,
+.service a.project__header-link:focus,
+.service a.service__header-link:focus {
+  background-color: #FFF;
+  color: #b91b1b;
+  border-bottom-style: dotted;
+  border-bottom-color: #555;
+}
+
 .project a.project__header-link:active,
 .project a.service__header-link:active,
 .service a.project__header-link:active,

@@ -9272,6 +9272,8 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 .blog--st__finder {
   display: block;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .blog--st__finder .tile-wrapper {
@@ -9333,6 +9335,7 @@ a.ghost-cta .white-card__media .embed-container a:before {
   margin-top: 0;
   background: 0 0;
   padding: 0;
+  margin: 0;
 }
 
 .blog--st__finder .news-finder__main__left .news-finder__query-wrapper .container-multiple {
@@ -9344,6 +9347,13 @@ a.ghost-cta .white-card__media .embed-container a:before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .blog--st__finder .news-finder__main__left .news-finder__query .query-box {
@@ -9370,6 +9380,11 @@ a.ghost-cta .white-card__media .embed-container a:before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  flex-direction: row;
 }
 
 .blog--st__finder .news-finder__main__left .news-finder__query .filter-box .row-fluid .filter-box__filter {

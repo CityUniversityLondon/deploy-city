@@ -10043,6 +10043,8 @@ a.ghost-cta .white-card__media .embed-container a:before {
 
 .blog--st__finder {
   display: block;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .blog--st__finder .tile-wrapper {
@@ -10108,6 +10110,7 @@ a.ghost-cta .white-card__media .embed-container a:before {
   margin-top: 0;
   background: 0 0;
   padding: 0;
+  margin: 0;
 }
 
 .blog--st__finder .news-finder__main__left .news-finder__query-wrapper .container-multiple {
@@ -10119,6 +10122,10 @@ a.ghost-cta .white-card__media .embed-container a:before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .blog--st__finder .news-finder__main__left .news-finder__query .query-box {
@@ -10145,6 +10152,19 @@ a.ghost-cta .white-card__media .embed-container a:before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media only screen and (min-width:480px) {
+  .blog--st__finder .news-finder__main__left .news-finder__query .filter-box .row-fluid {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
 }
 
 .blog--st__finder .news-finder__main__left .news-finder__query .filter-box .row-fluid .filter-box__filter {
@@ -10153,6 +10173,18 @@ a.ghost-cta .white-card__media .embed-container a:before {
   -webkit-box-shadow: 0 0 15px 3px rgba(0,0,0,.15);
   box-shadow: 0 0 15px 3px rgba(0,0,0,.15);
   margin: 15px;
+}
+
+@media only screen and (min-width:600px) {
+  .blog--st__finder .news-finder__main__left .news-finder__query {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
 }
 
 .blog--st__finder .news-finder__main__right .news-finder__form-wrapper {
@@ -15669,14 +15701,4 @@ table.visa-event-table tr th {
   color: #b91b1b;
   border-bottom-style: solid;
   border-bottom-color: #b91b1b;
-}
-
-.project a.project__header-link:focus,
-.project a.service__header-link:focus,
-.service a.project__header-link:focus,
-.service a.service__header-link:focus {
-  background-color: #FFF;
-  color: #b91b1b;
-  border-bottom-style: dotted;
-  border-bottom-color: #555;
 }
