@@ -1,3 +1,21 @@
+.project-finder__results__item h2 a:visited,
+.service-finder__results__item h2 a:visited {
+  color: #670003;
+}
+
+.project-finder__results__item h2 a:hover,
+.service-finder__results__item h2 a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #670003;
+}
+
+.project-finder__results__item h2 a:focus,
+.service-finder__results__item h2 a:focus {
+  background-color: #b91b1b;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
 .project-finder__results__item h2 a:active,
 .service-finder__results__item h2 a:active {
   background-color: #b91b1b;

@@ -18,6 +18,41 @@
   content: ' ';
 }
 
+#research-case-studies-widget .widget-content ul {
+  margin: 0;
+}
+
+#research-case-studies-widget .widget-content ul li {
+  list-style-type: none;
+}
+
+#research-case-studies-widget .widget-content ul li a {
+  background: #FFF;
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  color: #333;
+}
+
+#research-case-studies-widget .widget-content ul li a:focus {
+  background: #b02a1a;
+}
+
+#research-case-studies-widget .widget-content ul li a:hover {
+  color: #333;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #b02a1a;
+  -moz-text-decoration-color: #b02a1a;
+  text-decoration-color: #b02a1a;
+}
+
+#research-case-studies-widget .widget-content ul li a:active,
+#research-case-studies-widget .widget-content ul li a:focus {
+  -webkit-text-decoration-color: #FFF;
+  -moz-text-decoration-color: #FFF;
+  text-decoration-color: #FFF;
+}
+
 .js .widget-loading .widget-content {
   visibility: hidden;
   max-height: 50px;
@@ -15179,22 +15214,4 @@ p.left-float-image {
 .service-finder__results__item h2 a:link {
   color: #b91b1b;
   border-bottom-color: #999;
-}
-
-.project-finder__results__item h2 a:visited,
-.service-finder__results__item h2 a:visited {
-  color: #670003;
-}
-
-.project-finder__results__item h2 a:hover,
-.service-finder__results__item h2 a:hover {
-  border-bottom-style: solid;
-  border-bottom-color: #670003;
-}
-
-.project-finder__results__item h2 a:focus,
-.service-finder__results__item h2 a:focus {
-  background-color: #b91b1b;
-  color: #FFF;
-  border-bottom-color: transparent;
 }

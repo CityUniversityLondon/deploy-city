@@ -11641,6 +11641,41 @@ a.city-vision-widget:hover hr {
   content: ' ';
 }
 
+#research-case-studies-widget .widget-content ul {
+  margin: 0;
+}
+
+#research-case-studies-widget .widget-content ul li {
+  list-style-type: none;
+}
+
+#research-case-studies-widget .widget-content ul li a {
+  background: #FFF;
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  color: #333;
+}
+
+#research-case-studies-widget .widget-content ul li a:focus {
+  background: #b02a1a;
+}
+
+#research-case-studies-widget .widget-content ul li a:hover {
+  color: #333;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #b02a1a;
+  -moz-text-decoration-color: #b02a1a;
+  text-decoration-color: #b02a1a;
+}
+
+#research-case-studies-widget .widget-content ul li a:active,
+#research-case-studies-widget .widget-content ul li a:focus {
+  -webkit-text-decoration-color: #FFF;
+  -moz-text-decoration-color: #FFF;
+  text-decoration-color: #FFF;
+}
+
 .js .widget-loading .widget-content {
   visibility: hidden;
   max-height: 50px;
@@ -15509,53 +15544,4 @@ a:focus {
 .home .image-banner#promo-wrapper .banner .line-m-w {
   padding-top: 150px;
   text-align: center;
-}
-
-.home .image-banner#promo-wrapper .banner .line-m-c {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 400px;
-  overflow: hidden;
-}
-
-.home .image-banner#promo-wrapper .banner .line-m-s {
-  position: relative;
-  padding-top: 35%;
-  -webkit-transition: padding-top .2s ease;
-  transition: padding-top .2s ease;
-}
-
-.home .image-banner#promo-wrapper .banner .line-m-s img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
-}
-
-.home .image-banner#promo-wrapper .banner .line-m {
-  margin-top: 20px;
-  width: 400px;
-  max-width: 100%;
-}
-
-.home .image-banner#promo-wrapper .banner .banner-toggle {
-  position: absolute;
-  bottom: 5px;
-  left: 5px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  border-radius: 15px;
-  background: #3e1031;
-  color: #fff;
-  cursor: pointer;
-  display: none;
-}
-
-.home .image-banner#promo-wrapper .banner .banner-toggle i {
-  line-height: 30px;
-}
-
-.home .image-banner#promo-wrapper .banner .banner-toggle .fa-angle-up {
-  display: none;
 }

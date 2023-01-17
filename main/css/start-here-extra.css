@@ -1,3 +1,27 @@
+.hallway-new .hallway-item a h2 span,
+.hallway-new .hallway-item a h3 span {
+  border-bottom: dotted 2px transparent;
+}
+
+.hallway-new .hallway-item a h2 .title-icon,
+.hallway-new .hallway-item a h3 .title-icon {
+  height: 100%;
+  right: -15px;
+  top: 0;
+  position: absolute;
+  vertical-align: middle;
+  width: auto;
+}
+
+.hallway-new .hallway-item a h2 .title-icon:before,
+.hallway-new .hallway-item a h3 .title-icon:before {
+  height: 100%;
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+}
+
 #courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon,
 .hallway-new .hallway-item a h2 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon,

@@ -275,6 +275,41 @@
   content: ' ';
 }
 
+#research-case-studies-widget .widget-content ul {
+  margin: 0;
+}
+
+#research-case-studies-widget .widget-content ul li {
+  list-style-type: none;
+}
+
+#research-case-studies-widget .widget-content ul li a {
+  background: #FFF;
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  color: #333;
+}
+
+#research-case-studies-widget .widget-content ul li a:focus {
+  background: #b02a1a;
+}
+
+#research-case-studies-widget .widget-content ul li a:hover {
+  color: #333;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #b02a1a;
+  -moz-text-decoration-color: #b02a1a;
+  text-decoration-color: #b02a1a;
+}
+
+#research-case-studies-widget .widget-content ul li a:active,
+#research-case-studies-widget .widget-content ul li a:focus {
+  -webkit-text-decoration-color: #FFF;
+  -moz-text-decoration-color: #FFF;
+  text-decoration-color: #FFF;
+}
+
 .js .widget-loading .widget-content {
   visibility: hidden;
   max-height: 50px;
@@ -15692,13 +15727,4 @@ table.visa-event-table tr th {
 .service a.project__header-link:visited,
 .service a.service__header-link:visited {
   color: #333;
-}
-
-.project a.project__header-link:hover,
-.project a.service__header-link:hover,
-.service a.project__header-link:hover,
-.service a.service__header-link:hover {
-  color: #b91b1b;
-  border-bottom-style: solid;
-  border-bottom-color: #b91b1b;
 }

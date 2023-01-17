@@ -12771,6 +12771,41 @@ a.city-vision-widget:hover hr {
   content: ' ';
 }
 
+#research-case-studies-widget .widget-content ul {
+  margin: 0;
+}
+
+#research-case-studies-widget .widget-content ul li {
+  list-style-type: none;
+}
+
+#research-case-studies-widget .widget-content ul li a {
+  background: #FFF;
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  color: #333;
+}
+
+#research-case-studies-widget .widget-content ul li a:focus {
+  background: #b02a1a;
+}
+
+#research-case-studies-widget .widget-content ul li a:hover {
+  color: #333;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #b02a1a;
+  -moz-text-decoration-color: #b02a1a;
+  text-decoration-color: #b02a1a;
+}
+
+#research-case-studies-widget .widget-content ul li a:active,
+#research-case-studies-widget .widget-content ul li a:focus {
+  -webkit-text-decoration-color: #FFF;
+  -moz-text-decoration-color: #FFF;
+  text-decoration-color: #FFF;
+}
+
 .js .widget-loading .widget-content {
   visibility: hidden;
   max-height: 50px;
@@ -15442,28 +15477,4 @@ a:focus {
   position: relative;
   padding: 0;
   background: 0 0;
-}
-
-.hallway-new .hallway-item a h2 span,
-.hallway-new .hallway-item a h3 span {
-  border-bottom: dotted 2px transparent;
-}
-
-.hallway-new .hallway-item a h2 .title-icon,
-.hallway-new .hallway-item a h3 .title-icon {
-  height: 100%;
-  right: -15px;
-  top: 0;
-  position: absolute;
-  vertical-align: middle;
-  width: auto;
-}
-
-.hallway-new .hallway-item a h2 .title-icon:before,
-.hallway-new .hallway-item a h3 .title-icon:before {
-  height: 100%;
-  content: '';
-  display: inline-block;
-  vertical-align: middle;
-  width: 0;
 }
