@@ -10375,6 +10375,20 @@ a.ghost-cta .white-card__media .embed-container a:before {
   padding: 15px 10px;
 }
 
+.list-style-counter ol {
+  counter-reset: index;
+  list-style-type: none;
+}
+
+.list-style-counter li {
+  list-style-type: none;
+}
+
+.list-style-counter li::before {
+  counter-increment: index;
+  content: counters(index,".",decimal) ". ";
+}
+
 .buildingthevision #mapCanvas {
   height: 600px;
 }
@@ -15720,11 +15734,4 @@ table.visa-event-table tr th {
 .service a.service__header-link:link {
   color: #333;
   border-bottom-color: transparent;
-}
-
-.project a.project__header-link:visited,
-.project a.service__header-link:visited,
-.service a.project__header-link:visited,
-.service a.service__header-link:visited {
-  color: #333;
 }

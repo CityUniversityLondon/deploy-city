@@ -1,3 +1,18 @@
+.project-finder__results__item h2 a,
+.project-finder__results__item h2 a:focus,
+.project-finder__results__item h2 a:hover,
+.service-finder__results__item h2 a,
+.service-finder__results__item h2 a:focus,
+.service-finder__results__item h2 a:hover {
+  text-decoration: none;
+}
+
+.project-finder__results__item h2 a:link,
+.service-finder__results__item h2 a:link {
+  color: #b91b1b;
+  border-bottom-color: #999;
+}
+
 .project-finder__results__item h2 a:visited,
 .service-finder__results__item h2 a:visited {
   color: #670003;

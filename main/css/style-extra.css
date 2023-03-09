@@ -1,3 +1,10 @@
+.project a.project__header-link:visited,
+.project a.service__header-link:visited,
+.service a.project__header-link:visited,
+.service a.service__header-link:visited {
+  color: #333;
+}
+
 .project a.project__header-link:hover,
 .project a.service__header-link:hover,
 .service a.project__header-link:hover,

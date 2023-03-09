@@ -9583,6 +9583,20 @@ a.ghost-cta .white-card__media .embed-container a:before {
   padding: 15px 10px;
 }
 
+.list-style-counter ol {
+  counter-reset: index;
+  list-style-type: none;
+}
+
+.list-style-counter li {
+  list-style-type: none;
+}
+
+.list-style-counter li::before {
+  counter-increment: index;
+  content: counters(index,".",decimal) ". ";
+}
+
 .buildingthevision #mapCanvas {
   height: 600px;
 }
@@ -15199,19 +15213,4 @@ p.left-float-image {
   border-bottom-width: 1px;
   border-bottom-style: dotted;
   position: relative;
-}
-
-.project-finder__results__item h2 a,
-.project-finder__results__item h2 a:focus,
-.project-finder__results__item h2 a:hover,
-.service-finder__results__item h2 a,
-.service-finder__results__item h2 a:focus,
-.service-finder__results__item h2 a:hover {
-  text-decoration: none;
-}
-
-.project-finder__results__item h2 a:link,
-.service-finder__results__item h2 a:link {
-  color: #b91b1b;
-  border-bottom-color: #999;
 }
