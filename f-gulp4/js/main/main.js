@@ -150,7 +150,6 @@ module.exports = (function() {
              * Stuff needed on everypage - explore city, login etc.
              */
             initPage = function() {
-                console.log('Gulp 4');
                 var $body = $('body'),
                     $form = $body.find('#search, #header__search__form'),
                     $searchForm = $body.find(
