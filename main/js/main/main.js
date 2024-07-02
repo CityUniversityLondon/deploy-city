@@ -25,6 +25,7 @@ module.exports = (function() {
         responsiveTables = require('./funcs/responsive-tables'),
         cyclicPopup = require('./funcs/cyclic-popup'),
         researchPubs = require('./funcs/research-publications');
+        accordion2024 = require('./funcs/accordion-2024');
 
 
     /**
@@ -296,21 +297,13 @@ module.exports = (function() {
                         }
                     }
                 }
-
-                // initalise any accordions found
-                $accordions.accordion({
-                    heightStyle: 'content',
-                    collapsible: true,
-                    active: false,
-                    animate: false,
-                    icons: {
-                        header: 'ui-icon-triangle-1-s',
-                        headerSelected: 'ui-icon-triangle-1-n',
-                    },
-                    activate: function(event, ui) {
-                        scrollTo(ui.newHeader);
-                    },
-                });
+                
+                if($accordions.length > 0) {
+                    // initalise any accordions found
+                    Array.from($accordions).forEach( accordion => {
+                        accordion.children.length && accordion2024(accordion)
+                    });
+                }
 
                 //set up autocomplete on search box
                 searchAutoComplete(

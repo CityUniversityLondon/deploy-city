@@ -2491,6 +2491,8 @@ pre code {
 #courses-widget .widget-content .ui-accordion-header .ui-icon,
 #courses-widget .widget-content .ui-accordion-header.ui-accordion-header-active .ui-icon,
 .fa,
+.js .accordion .accordion__heading[data-open=true] .accordion__heading__indicator,
+.js .accordion .accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .ui-icon,
 .ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
 .white-card__media .embed-container a:before {
@@ -2567,6 +2569,8 @@ pre code {
 
 #courses-widget .widget-content .ui-accordion-header .fa-pull-left.ui-icon,
 .fa.fa-pull-left,
+.js .accordion .accordion__heading[data-open=true] .fa-pull-left.accordion__heading__indicator,
+.js .accordion .fa-pull-left.accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .fa-pull-left.ui-icon,
 .white-card__media .embed-container a.fa-pull-left:before {
   margin-right: .3em;
@@ -2574,6 +2578,8 @@ pre code {
 
 #courses-widget .widget-content .ui-accordion-header .fa-pull-right.ui-icon,
 .fa.fa-pull-right,
+.js .accordion .accordion__heading[data-open=true] .fa-pull-right.accordion__heading__indicator,
+.js .accordion .fa-pull-right.accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .fa-pull-right.ui-icon,
 .white-card__media .embed-container a.fa-pull-right:before {
   margin-left: .3em;
@@ -2589,6 +2595,8 @@ pre code {
 
 #courses-widget .widget-content .ui-accordion-header .pull-left.ui-icon,
 .fa.pull-left,
+.js .accordion .accordion__heading[data-open=true] .pull-left.accordion__heading__indicator,
+.js .accordion .pull-left.accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .pull-left.ui-icon,
 .white-card__media .embed-container a.pull-left:before {
   margin-right: .3em;
@@ -2596,6 +2604,8 @@ pre code {
 
 #courses-widget .widget-content .ui-accordion-header .pull-right.ui-icon,
 .fa.pull-right,
+.js .accordion .accordion__heading[data-open=true] .pull-right.accordion__heading__indicator,
+.js .accordion .pull-right.accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .pull-right.ui-icon,
 .white-card__media .embed-container a.pull-right:before {
   margin-left: .3em;
@@ -2644,6 +2654,7 @@ pre code {
 
 #courses-widget .widget-content .ui-accordion-header.ui-accordion-header-active .ui-icon,
 .fa-rotate-180,
+.js .accordion .accordion__heading[data-open=true] .accordion__heading__indicator,
 .ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   -webkit-transform: rotate(180deg);
@@ -2673,6 +2684,7 @@ pre code {
 }
 
 #courses-widget .widget-content .ui-accordion-header.ui-accordion-header-active :root .ui-icon,
+.js .accordion .accordion__heading[data-open=true] :root .accordion__heading__indicator,
 .ui-accordion .ui-accordion-header.ui-accordion-header-active :root .ui-icon,
 :root #courses-widget .widget-content .ui-accordion-header.ui-accordion-header-active .ui-icon,
 :root .fa-flip-horizontal,
@@ -2680,6 +2692,7 @@ pre code {
 :root .fa-rotate-180,
 :root .fa-rotate-270,
 :root .fa-rotate-90,
+:root .js .accordion .accordion__heading[data-open=true] .accordion__heading__indicator,
 :root .ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon {
   -webkit-filter: none;
   filter: none;
@@ -3180,6 +3193,8 @@ pre code {
 #courses-widget .widget-content .ui-accordion-header .ui-icon:before,
 #courses-widget .widget-content .ui-accordion-header.ui-accordion-header-active .ui-icon:before,
 .fa-chevron-down:before,
+.js .accordion .accordion__heading[data-open=true] .accordion__heading__indicator:before,
+.js .accordion .accordion__heading__indicator:before,
 .ui-accordion .ui-accordion-header .ui-icon:before,
 .ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon:before {
   content: "";
@@ -9856,8 +9871,12 @@ body {
 }
 
 #courses-widget .widget-content .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon,
+.js .accordion .accordion__heading[data-open=true] .thisiscity-media-ribbon-wrapper .accordion__heading__indicator,
+.js .accordion .thisiscity-media-ribbon-wrapper .accordion__heading__indicator,
 .thisiscity-media-ribbon-wrapper #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .thisiscity-media-ribbon-wrapper .fa,
+.thisiscity-media-ribbon-wrapper .js .accordion .accordion__heading[data-open=true] .accordion__heading__indicator,
+.thisiscity-media-ribbon-wrapper .js .accordion .accordion__heading__indicator,
 .thisiscity-media-ribbon-wrapper .ui-accordion .ui-accordion-header .ui-icon,
 .thisiscity-media-ribbon-wrapper .white-card__media .embed-container a:before,
 .ui-accordion .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon,
@@ -10545,10 +10564,14 @@ body {
 #courses-widget .widget-content .ui-accordion-header #promo-wrapper .bx-controls-auto a span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .no-js #promo-wrapper .bx-controls-auto a span.ui-icon,
 #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+#promo-wrapper .bx-controls-auto a .js .accordion span.accordion__heading__indicator,
 #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon,
 #promo-wrapper .bx-controls-auto a i,
 #promo-wrapper .bx-controls-auto a span.fa,
+.js .accordion #promo-wrapper .bx-controls-auto a span.accordion__heading__indicator,
+.js .accordion .no-js #promo-wrapper .bx-controls-auto a span.accordion__heading__indicator,
 .no-js #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.no-js #promo-wrapper .bx-controls-auto a .js .accordion span.accordion__heading__indicator,
 .no-js #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon,
 .no-js #promo-wrapper .bx-controls-auto a i,
 .no-js #promo-wrapper .bx-controls-auto a span.fa,
@@ -11503,6 +11526,141 @@ body {
 
 .strategic .accordion tr:first-child td {
   border: none;
+}
+
+.js .accordion .accordion__heading__indicator {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s,-webkit-transform .2s;
+  position: absolute;
+  right: .5em;
+  top: 50%;
+  margin-top: -8px;
+}
+
+@media only screen {
+  .js .accordion>.accordion__body {
+    background-color: #f7f7f7;
+    padding: 1rem;
+  }
+
+  .js .accordion>.accordion__heading {
+    color: #333;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 5px;
+    border-top: 0;
+    padding: 0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: initial;
+  }
+
+  .js .accordion>.accordion__heading button {
+    background-color: initial;
+    background-image: initial;
+    -webkit-background-size: initial initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    text-align: inherit;
+    font-weight: inherit;
+    list-style: inherit;
+    border: none;
+    border-bottom-width: 0;
+    border-bottom-color: transparent;
+    border-bottom-style: none;
+    width: 100%;
+    padding: 12px 1rem 12px 14px!important;
+  }
+}
+
+@media only screen and (hover:hover) {
+  .js .accordion>.accordion__heading button:hover {
+    background-color: initial;
+    background-image: initial;
+    -webkit-background-size: initial initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    text-align: inherit;
+    font-weight: inherit;
+    list-style: inherit;
+  }
+}
+
+@media only screen {
+  .js .accordion>.accordion__heading button:active,
+  .js .accordion>.accordion__heading button:focus {
+    background-color: initial;
+    background-image: initial;
+    -webkit-background-size: initial initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    text-align: inherit;
+    font-weight: inherit;
+    list-style: inherit;
+  }
+
+  .js .accordion>.accordion__heading button:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
+  .js .accordion>.accordion__heading button div {
+    position: relative;
+  }
+
+  .js .accordion>.accordion__heading[data-open=true] button {
+    background: #f7f7f7;
+  }
+
+  .js .accordion>.accordion__heading[data-open=true]+.accordion__body {
+    margin-bottom: 1rem;
+  }
+
+  .js .accordion>.accordion__heading+.accordion__body {
+    overflow-y: hidden;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-property: height;
+    transition-property: height;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+
+  .js .accordion>.accordion__heading+.accordion__body[data-closed=true] {
+    display: none;
+  }
 }
 
 #contact-widget {
@@ -14871,8 +15029,12 @@ img[align=right] {
 #courses-widget .widget-content .ui-accordion-header .filter-box__open .ui-icon,
 .filter-box__open #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .filter-box__open .fa,
+.filter-box__open .js .accordion .accordion__heading[data-open=true] .accordion__heading__indicator,
+.filter-box__open .js .accordion .accordion__heading__indicator,
 .filter-box__open .ui-accordion .ui-accordion-header .ui-icon,
 .filter-box__open .white-card__media .embed-container a:before,
+.js .accordion .accordion__heading[data-open=true] .filter-box__open .accordion__heading__indicator,
+.js .accordion .filter-box__open .accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .filter-box__open .ui-icon,
 .white-card__media .embed-container .filter-box__open a:before {
   float: right;
@@ -14938,8 +15100,12 @@ img[align=right] {
 #courses-widget .widget-content .ui-accordion-header .filter-box__filter__header .ui-icon,
 .filter-box__filter__header #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .filter-box__filter__header .fa,
+.filter-box__filter__header .js .accordion .accordion__heading[data-open=true] .accordion__heading__indicator,
+.filter-box__filter__header .js .accordion .accordion__heading__indicator,
 .filter-box__filter__header .ui-accordion .ui-accordion-header .ui-icon,
 .filter-box__filter__header .white-card__media .embed-container a:before,
+.js .accordion .accordion__heading[data-open=true] .filter-box__filter__header .accordion__heading__indicator,
+.js .accordion .filter-box__filter__header .accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .filter-box__filter__header .ui-icon,
 .white-card__media .embed-container .filter-box__filter__header a:before {
   display: none;
@@ -14950,7 +15116,11 @@ img[align=right] {
 }
 
 #courses-widget .widget-content .ui-accordion-header .js .filter-box__filter__header .ui-icon,
+.js .accordion .accordion__heading[data-open=true] .filter-box__filter__header .accordion__heading__indicator,
+.js .accordion .filter-box__filter__header .accordion__heading__indicator,
 .js .filter-box__filter__header #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.js .filter-box__filter__header .accordion .accordion__heading[data-open=true] .accordion__heading__indicator,
+.js .filter-box__filter__header .accordion .accordion__heading__indicator,
 .js .filter-box__filter__header .fa,
 .js .filter-box__filter__header .ui-accordion .ui-accordion-header .ui-icon,
 .js .filter-box__filter__header .white-card__media .embed-container a:before,
@@ -15241,240 +15411,4 @@ a:focus {
     padding: 8px 0 8px 0;
     margin-bottom: 0;
   }
-}
-
-@media only screen and (min-width:768px) {
-  #content .button-list.two-columns li {
-    width: 39%;
-  }
-
-  #content .button-list.two-columns li a {
-    width: 86%;
-  }
-}
-
-@media only screen and (min-width:980px) {
-  #content .button-list li a {
-    float: left;
-    width: 23%;
-    margin-right: 10px;
-  }
-}
-
-.action-p-button {
-  overflow: visible;
-  margin: 2px 0 15px;
-}
-
-.action-p-button a {
-  color: #FFF;
-}
-
-.bordered-links:nth-of-type(1) {
-  border-top: 1px solid #ccc;
-}
-
-.bordered-links {
-  color: #333!important;
-  border-bottom: 1px solid #ccc!important;
-  display: table;
-  font-size: 16px;
-  font-weight: 700;
-  text-decoration: none!important;
-  padding: 20px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-.bordered-links .icon {
-  color: #999;
-  font-size: 2em;
-  line-height: 1em;
-  left: 20px;
-  position: relative;
-  -webkit-transition: left .2s ease;
-  transition: left .2s ease;
-}
-
-.bordered-links:hover .icon {
-  left: 30px;
-}
-
-.cta {
-  display: inline-block;
-}
-
-.cta a {
-  text-align: center;
-  margin: 0 auto;
-  display: inline-block;
-  padding: 5px 10px;
-  color: #fff;
-  border-radius: 4px;
-  font-weight: 700;
-}
-
-#courses-widget .widget-content .ui-accordion-header .cta a span.ui-icon,
-.cta a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
-.cta a .ui-accordion .ui-accordion-header span.ui-icon,
-.cta a i,
-.cta a span.fa,
-.ui-accordion .ui-accordion-header .cta a span.ui-icon {
-  float: right;
-  background-color: transparent;
-  vertical-align: middle;
-  line-height: 1.5em;
-  color: #fff;
-}
-
-.cta a:focus {
-  text-decoration: underline;
-}
-
-.cta a:focus i {
-  text-decoration: none;
-}
-
-.cta a:active {
-  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.5);
-  box-shadow: inset 0 1px 2px rgba(0,0,0,.5);
-}
-
-.cta.display-block {
-  display: block;
-}
-
-.cta.display-block a {
-  display: block;
-}
-
-.soft-cta a {
-  background-image: -webkit-linear-gradient(top,#f5f5f5 0,#f1f1f1 100%);
-  background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
-  background-image: linear-gradient(to bottom,#f5f5f5 0,#f1f1f1 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF5F5F5', endColorstr='#FFF1F1F1', GradientType=0);
-  color: #444;
-  border: 1px solid #dcdcdc;
-  border: 1px solid rgba(0,0,0,.1);
-  font-weight: 700;
-}
-
-#courses-widget .widget-content .ui-accordion-header .soft-cta a span.ui-icon,
-.soft-cta a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
-.soft-cta a .ui-accordion .ui-accordion-header span.ui-icon,
-.soft-cta a i,
-.soft-cta a span.fa,
-.ui-accordion .ui-accordion-header .soft-cta a span.ui-icon {
-  color: #444;
-}
-
-.soft-cta a:hover {
-  border: 1px solid #c6c6c6;
-}
-
-.soft-cta a:active {
-  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
-  box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
-}
-
-.soft-cta a:focus {
-  border: 1px solid #4d90fe;
-}
-
-.mid-cta a {
-  background-color: #009bce;
-  border: 1px solid #009bce;
-}
-
-.mid-cta a:hover {
-  border: 1px solid #00759b;
-}
-
-.hard-cta a {
-  background-image: -webkit-linear-gradient(top,#b02a1a 0,#a0271f 100%);
-  background-image: -webkit-gradient(linear,left top,left bottom,from(#b02a1a),to(#a0271f));
-  background-image: linear-gradient(to bottom,#b02a1a 0,#a0271f 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFB02A1A', endColorstr='#FFA0271F', GradientType=0);
-  border: 1px solid #a0271f;
-}
-
-.hard-cta a:hover {
-  border: 1px solid #670003;
-}
-
-.twitter-cta a {
-  border: 1px solid #00aced;
-  border-radius: 4px;
-  background: #00aced;
-  color: #fff;
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
-  -webkit-transition-duration: .5s;
-  transition-duration: .5s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-
-.twitter-cta a:hover {
-  background: #21c2ff;
-}
-
-.facebook-cta a {
-  border: 1px solid #3b5998;
-  border-radius: 4px;
-  background: #3b5998;
-  color: #fff;
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
-  -webkit-transition-duration: .3s;
-  transition-duration: .3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-
-.facebook-cta a:hover {
-  background: #4c70ba;
-}
-
-.hallway-new {
-  margin-top: 30px;
-}
-
-.hallway-new .hallway-item {
-  height: auto;
-  margin-bottom: 30px;
-}
-
-@media only screen and (min-width:980px) {
-  .hallway-new .hallway-item {
-    margin-bottom: 45px;
-  }
-}
-
-.hallway-new .hallway-item a {
-  display: block;
-  border: none;
-  text-decoration: none;
-}
-
-.hallway-new .hallway-item a h2,
-.hallway-new .hallway-item a h3,
-.hallway-new .hallway-item a img {
-  margin: 0;
-}
-
-.hallway-new .hallway-item a h2,
-.hallway-new .hallway-item a h3 {
-  font-family: ff-meta-web,Arial,Helvetica,sans-serif;
-  font-weight: 500;
-  color: #000;
-  -webkit-transition: color .2s;
-  transition: color .2s;
-  font-size: 20px;
-  margin-right: 15px;
-  position: relative;
-  padding: 0;
-  background: 0 0;
 }

@@ -4134,6 +4134,8 @@ button.ui-button::-moz-focus-inner {
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
 .dialog button,
 .fa,
+.js .accordion .accordion__heading[data-open=true] .accordion__heading__indicator,
+.js .accordion .accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .ui-icon,
 .ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
 .white-card__media .embed-container a:before {
@@ -4212,6 +4214,8 @@ button.ui-button::-moz-focus-inner {
 .course .accordion.ui-accordion .ui-accordion-header .fa-pull-left.ui-icon,
 .dialog button.fa-pull-left,
 .fa.fa-pull-left,
+.js .accordion .accordion__heading[data-open=true] .fa-pull-left.accordion__heading__indicator,
+.js .accordion .fa-pull-left.accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .fa-pull-left.ui-icon,
 .white-card__media .embed-container a.fa-pull-left:before {
   margin-right: .3em;
@@ -4221,6 +4225,8 @@ button.ui-button::-moz-focus-inner {
 .course .accordion.ui-accordion .ui-accordion-header .fa-pull-right.ui-icon,
 .dialog button.fa-pull-right,
 .fa.fa-pull-right,
+.js .accordion .accordion__heading[data-open=true] .fa-pull-right.accordion__heading__indicator,
+.js .accordion .fa-pull-right.accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .fa-pull-right.ui-icon,
 .white-card__media .embed-container a.fa-pull-right:before {
   margin-left: .3em;
@@ -4238,6 +4244,8 @@ button.ui-button::-moz-focus-inner {
 .course .accordion.ui-accordion .ui-accordion-header .pull-left.ui-icon,
 .dialog button.pull-left,
 .fa.pull-left,
+.js .accordion .accordion__heading[data-open=true] .pull-left.accordion__heading__indicator,
+.js .accordion .pull-left.accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .pull-left.ui-icon,
 .white-card__media .embed-container a.pull-left:before {
   margin-right: .3em;
@@ -4247,6 +4255,8 @@ button.ui-button::-moz-focus-inner {
 .course .accordion.ui-accordion .ui-accordion-header .pull-right.ui-icon,
 .dialog button.pull-right,
 .fa.pull-right,
+.js .accordion .accordion__heading[data-open=true] .pull-right.accordion__heading__indicator,
+.js .accordion .pull-right.accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .pull-right.ui-icon,
 .white-card__media .embed-container a.pull-right:before {
   margin-left: .3em;
@@ -4296,6 +4306,7 @@ button.ui-button::-moz-focus-inner {
 #courses-widget .widget-content .ui-accordion-header.ui-accordion-header-active .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
 .fa-rotate-180,
+.js .accordion .accordion__heading[data-open=true] .accordion__heading__indicator,
 .ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   -webkit-transform: rotate(180deg);
@@ -4326,6 +4337,7 @@ button.ui-button::-moz-focus-inner {
 
 #courses-widget .widget-content .ui-accordion-header.ui-accordion-header-active :root .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active :root .ui-icon,
+.js .accordion .accordion__heading[data-open=true] :root .accordion__heading__indicator,
 .ui-accordion .ui-accordion-header.ui-accordion-header-active :root .ui-icon,
 :root #courses-widget .widget-content .ui-accordion-header.ui-accordion-header-active .ui-icon,
 :root .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
@@ -4334,6 +4346,7 @@ button.ui-button::-moz-focus-inner {
 :root .fa-rotate-180,
 :root .fa-rotate-270,
 :root .fa-rotate-90,
+:root .js .accordion .accordion__heading[data-open=true] .accordion__heading__indicator,
 :root .ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon {
   -webkit-filter: none;
   filter: none;
@@ -4837,6 +4850,8 @@ button.ui-button::-moz-focus-inner {
 .course .accordion.ui-accordion .ui-accordion-header .ui-icon:before,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon:before,
 .fa-chevron-down:before,
+.js .accordion .accordion__heading[data-open=true] .accordion__heading__indicator:before,
+.js .accordion .accordion__heading__indicator:before,
 .ui-accordion .ui-accordion-header .ui-icon:before,
 .ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon:before {
   content: "";
@@ -10362,9 +10377,13 @@ a:focus {
 .course .accordion.ui-accordion .ui-accordion-header .cta a span.ui-icon,
 .cta a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .cta a .course .accordion.ui-accordion .ui-accordion-header span.ui-icon,
+.cta a .js .accordion .accordion__heading[data-open=true] span.accordion__heading__indicator,
+.cta a .js .accordion span.accordion__heading__indicator,
 .cta a .ui-accordion .ui-accordion-header span.ui-icon,
 .cta a i,
 .cta a span.fa,
+.js .accordion .accordion__heading[data-open=true] .cta a span.accordion__heading__indicator,
+.js .accordion .cta a span.accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .cta a span.ui-icon {
   float: right;
   background-color: transparent;
@@ -10408,8 +10427,12 @@ a:focus {
 
 #courses-widget .widget-content .ui-accordion-header .soft-cta a span.ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .soft-cta a span.ui-icon,
+.js .accordion .accordion__heading[data-open=true] .soft-cta a span.accordion__heading__indicator,
+.js .accordion .soft-cta a span.accordion__heading__indicator,
 .soft-cta a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
 .soft-cta a .course .accordion.ui-accordion .ui-accordion-header span.ui-icon,
+.soft-cta a .js .accordion .accordion__heading[data-open=true] span.accordion__heading__indicator,
+.soft-cta a .js .accordion span.accordion__heading__indicator,
 .soft-cta a .ui-accordion .ui-accordion-header span.ui-icon,
 .soft-cta a i,
 .soft-cta a span.fa,
@@ -11445,14 +11468,18 @@ input[type=checkbox]:disabled {
 .header__util__audience .header__util__staff__list .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
 .header__util__audience .header__util__staff__list .dialog button,
 .header__util__audience .header__util__staff__list .fa,
+.header__util__audience .header__util__staff__list .js .accordion .accordion__heading__indicator,
 .header__util__audience .header__util__staff__list .ui-accordion .ui-accordion-header .ui-icon,
 .header__util__audience .header__util__staff__list .white-card__media .embed-container a:before,
 .header__util__audience .header__util__students__list #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .header__util__audience .header__util__students__list .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
 .header__util__audience .header__util__students__list .dialog button,
 .header__util__audience .header__util__students__list .fa,
+.header__util__audience .header__util__students__list .js .accordion .accordion__heading__indicator,
 .header__util__audience .header__util__students__list .ui-accordion .ui-accordion-header .ui-icon,
 .header__util__audience .header__util__students__list .white-card__media .embed-container a:before,
+.js .accordion .header__util__audience .header__util__staff__list .accordion__heading__indicator,
+.js .accordion .header__util__audience .header__util__students__list .accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .header__util__audience .header__util__staff__list .ui-icon,
 .ui-accordion .ui-accordion-header .header__util__audience .header__util__students__list .ui-icon,
 .white-card__media .embed-container .header__util__audience .header__util__staff__list a:before,
@@ -11604,8 +11631,10 @@ input[type=checkbox]:disabled {
 .header__search .header__search__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
 .header__search .header__search__toggle .dialog button,
 .header__search .header__search__toggle .fa,
+.header__search .header__search__toggle .js .accordion .accordion__heading__indicator,
 .header__search .header__search__toggle .ui-accordion .ui-accordion-header .ui-icon,
 .header__search .header__search__toggle .white-card__media .embed-container a:before,
+.js .accordion .header__search .header__search__toggle .accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .header__search .header__search__toggle .ui-icon,
 .white-card__media .embed-container .header__search .header__search__toggle a:before {
   font-size: 3em;
@@ -11779,8 +11808,10 @@ input[type=checkbox]:disabled {
 .global-nav__wrapper .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
 .global-nav__wrapper .global-nav__toggle .dialog button,
 .global-nav__wrapper .global-nav__toggle .fa,
+.global-nav__wrapper .global-nav__toggle .js .accordion .accordion__heading__indicator,
 .global-nav__wrapper .global-nav__toggle .ui-accordion .ui-accordion-header .ui-icon,
 .global-nav__wrapper .global-nav__toggle .white-card__media .embed-container a:before,
+.js .accordion .global-nav__wrapper .global-nav__toggle .accordion__heading__indicator,
 .ui-accordion .ui-accordion-header .global-nav__wrapper .global-nav__toggle .ui-icon,
 .white-card__media .embed-container .global-nav__wrapper .global-nav__toggle a:before {
   font-size: 3em;
@@ -11921,12 +11952,16 @@ input[type=checkbox]:disabled {
 .global-nav__wrapper--active .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon:before,
 .global-nav__wrapper--active .global-nav__toggle .dialog button:before,
 .global-nav__wrapper--active .global-nav__toggle .fa:before,
+.global-nav__wrapper--active .global-nav__toggle .js .accordion .accordion__heading__indicator:before,
 .global-nav__wrapper--active .global-nav__toggle .ui-accordion .ui-accordion-header .ui-icon:before,
 .global-nav__wrapper--active .global-nav__toggle .white-card__media .embed-container a:before,
+.js .accordion .global-nav__wrapper--active .global-nav__toggle .accordion__heading__indicator:before,
+.js .accordion .no-js .global-nav__toggle .accordion__heading__indicator:before,
 .no-js .global-nav__toggle #courses-widget .widget-content .ui-accordion-header .ui-icon:before,
 .no-js .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon:before,
 .no-js .global-nav__toggle .dialog button:before,
 .no-js .global-nav__toggle .fa:before,
+.no-js .global-nav__toggle .js .accordion .accordion__heading__indicator:before,
 .no-js .global-nav__toggle .ui-accordion .ui-accordion-header .ui-icon:before,
 .no-js .global-nav__toggle .white-card__media .embed-container a:before,
 .ui-accordion .ui-accordion-header .global-nav__wrapper--active .global-nav__toggle .ui-icon:before,
@@ -13381,10 +13416,14 @@ body {
 #courses-widget .widget-content .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon,
 .course .accordion.ui-accordion .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon,
 .dialog .thisiscity-media-ribbon-wrapper button,
+.js .accordion .accordion__heading[data-open=true] .thisiscity-media-ribbon-wrapper .accordion__heading__indicator,
+.js .accordion .thisiscity-media-ribbon-wrapper .accordion__heading__indicator,
 .thisiscity-media-ribbon-wrapper #courses-widget .widget-content .ui-accordion-header .ui-icon,
 .thisiscity-media-ribbon-wrapper .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
 .thisiscity-media-ribbon-wrapper .dialog button,
 .thisiscity-media-ribbon-wrapper .fa,
+.thisiscity-media-ribbon-wrapper .js .accordion .accordion__heading[data-open=true] .accordion__heading__indicator,
+.thisiscity-media-ribbon-wrapper .js .accordion .accordion__heading__indicator,
 .thisiscity-media-ribbon-wrapper .ui-accordion .ui-accordion-header .ui-icon,
 .thisiscity-media-ribbon-wrapper .white-card__media .embed-container a:before,
 .ui-accordion .ui-accordion-header .thisiscity-media-ribbon-wrapper .ui-icon,
@@ -13657,6 +13696,141 @@ body {
 
 .strategic .accordion tr:first-child td {
   border: none;
+}
+
+.js .accordion .accordion__heading__indicator {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s,-webkit-transform .2s;
+  position: absolute;
+  right: .5em;
+  top: 50%;
+  margin-top: -8px;
+}
+
+@media only screen {
+  .js .accordion>.accordion__body {
+    background-color: #f7f7f7;
+    padding: 1rem;
+  }
+
+  .js .accordion>.accordion__heading {
+    color: #333;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 5px;
+    border-top: 0;
+    padding: 0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: initial;
+  }
+
+  .js .accordion>.accordion__heading button {
+    background-color: initial;
+    background-image: initial;
+    -webkit-background-size: initial initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    text-align: inherit;
+    font-weight: inherit;
+    list-style: inherit;
+    border: none;
+    border-bottom-width: 0;
+    border-bottom-color: transparent;
+    border-bottom-style: none;
+    width: 100%;
+    padding: 12px 1rem 12px 14px!important;
+  }
+}
+
+@media only screen and (hover:hover) {
+  .js .accordion>.accordion__heading button:hover {
+    background-color: initial;
+    background-image: initial;
+    -webkit-background-size: initial initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    text-align: inherit;
+    font-weight: inherit;
+    list-style: inherit;
+  }
+}
+
+@media only screen {
+  .js .accordion>.accordion__heading button:active,
+  .js .accordion>.accordion__heading button:focus {
+    background-color: initial;
+    background-image: initial;
+    -webkit-background-size: initial initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    text-align: inherit;
+    font-weight: inherit;
+    list-style: inherit;
+  }
+
+  .js .accordion>.accordion__heading button:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
+  .js .accordion>.accordion__heading button div {
+    position: relative;
+  }
+
+  .js .accordion>.accordion__heading[data-open=true] button {
+    background: #f7f7f7;
+  }
+
+  .js .accordion>.accordion__heading[data-open=true]+.accordion__body {
+    margin-bottom: 1rem;
+  }
+
+  .js .accordion>.accordion__heading+.accordion__body {
+    overflow-y: hidden;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-property: height;
+    transition-property: height;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+
+  .js .accordion>.accordion__heading+.accordion__body[data-closed=true] {
+    display: none;
+  }
 }
 
 .js .responsive-tabs {
@@ -14082,10 +14256,14 @@ body {
 #courses-widget .widget-content .ui-accordion-header #promo-wrapper .bx-controls-auto a span.ui-icon,
 #courses-widget .widget-content .ui-accordion-header .no-js #promo-wrapper .bx-controls-auto a span.ui-icon,
 #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+#promo-wrapper .bx-controls-auto a .js .accordion span.accordion__heading__indicator,
 #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon,
 #promo-wrapper .bx-controls-auto a i,
 #promo-wrapper .bx-controls-auto a span.fa,
+.js .accordion #promo-wrapper .bx-controls-auto a span.accordion__heading__indicator,
+.js .accordion .no-js #promo-wrapper .bx-controls-auto a span.accordion__heading__indicator,
 .no-js #promo-wrapper .bx-controls-auto a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
+.no-js #promo-wrapper .bx-controls-auto a .js .accordion span.accordion__heading__indicator,
 .no-js #promo-wrapper .bx-controls-auto a .ui-accordion .ui-accordion-header span.ui-icon,
 .no-js #promo-wrapper .bx-controls-auto a i,
 .no-js #promo-wrapper .bx-controls-auto a span.fa,
@@ -15042,6 +15220,141 @@ body {
   border: none;
 }
 
+.js .accordion .accordion__heading__indicator {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s,-webkit-transform .2s;
+  position: absolute;
+  right: .5em;
+  top: 50%;
+  margin-top: -8px;
+}
+
+@media only screen {
+  .js .accordion>.accordion__body {
+    background-color: #f7f7f7;
+    padding: 1rem;
+  }
+
+  .js .accordion>.accordion__heading {
+    color: #333;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 5px;
+    border-top: 0;
+    padding: 0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: initial;
+  }
+
+  .js .accordion>.accordion__heading button {
+    background-color: initial;
+    background-image: initial;
+    -webkit-background-size: initial initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    text-align: inherit;
+    font-weight: inherit;
+    list-style: inherit;
+    border: none;
+    border-bottom-width: 0;
+    border-bottom-color: transparent;
+    border-bottom-style: none;
+    width: 100%;
+    padding: 12px 1rem 12px 14px!important;
+  }
+}
+
+@media only screen and (hover:hover) {
+  .js .accordion>.accordion__heading button:hover {
+    background-color: initial;
+    background-image: initial;
+    -webkit-background-size: initial initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    text-align: inherit;
+    font-weight: inherit;
+    list-style: inherit;
+  }
+}
+
+@media only screen {
+  .js .accordion>.accordion__heading button:active,
+  .js .accordion>.accordion__heading button:focus {
+    background-color: initial;
+    background-image: initial;
+    -webkit-background-size: initial initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    text-align: inherit;
+    font-weight: inherit;
+    list-style: inherit;
+  }
+
+  .js .accordion>.accordion__heading button:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
+  .js .accordion>.accordion__heading button div {
+    position: relative;
+  }
+
+  .js .accordion>.accordion__heading[data-open=true] button {
+    background: #f7f7f7;
+  }
+
+  .js .accordion>.accordion__heading[data-open=true]+.accordion__body {
+    margin-bottom: 1rem;
+  }
+
+  .js .accordion>.accordion__heading+.accordion__body {
+    overflow-y: hidden;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-property: height;
+    transition-property: height;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+
+  .js .accordion>.accordion__heading+.accordion__body[data-closed=true] {
+    display: none;
+  }
+}
+
 #contact-widget {
   font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
   background-color: #eae9e7;
@@ -15741,292 +16054,4 @@ li.with-pic p {
 #testimonials-widget ul li {
   padding: 0;
   margin: 0;
-}
-
-#testimonials-widget ul li:after,
-#testimonials-widget ul li:before {
-  content: " ";
-  display: table;
-}
-
-#testimonials-widget ul li:after {
-  clear: both;
-}
-
-#testimonials-widget .fa-quote-left {
-  color: #666;
-  font-size: 1.6em;
-}
-
-#testimonials-widget .details {
-  margin: 0 0 10px 0;
-  overflow: hidden;
-}
-
-#testimonials-widget .name {
-  font-weight: 700;
-  margin-bottom: 0;
-}
-
-#testimonials-widget .course,
-#testimonials-widget .position,
-#testimonials-widget .year {
-  margin-bottom: 0;
-}
-
-#testimonials-widget .course {
-  margin-top: 0;
-}
-
-#testimonials-widget img {
-  float: left;
-  display: inline;
-  padding: 0 10px 0 0;
-}
-
-#testimonial-dialog .details {
-  margin: 0 0 10px 0;
-  overflow: hidden;
-  width: auto;
-  float: none;
-}
-
-#testimonial-dialog .details p {
-  margin: 0 0 5px 0;
-}
-
-#testimonial-dialog .details .name {
-  font-weight: 700;
-}
-
-#testimonial-dialog .details img {
-  float: left;
-  display: inline;
-  margin: 0 10px 0 0;
-}
-
-#profiles-widget .widget-content {
-  padding: 10px 0;
-}
-
-#profiles-widget ul {
-  padding: 0 10px;
-  margin: 0;
-  list-style-type: none;
-}
-
-#profiles-widget li>a {
-  display: block;
-  border: none;
-}
-
-#profiles-widget li>a span {
-  border-bottom: 1px solid #ccc;
-}
-
-#profiles-widget li>a:hover span {
-  border: none;
-}
-
-#profiles-widget li>a:active,
-#profiles-widget li>a:focus {
-  background: 0 0;
-}
-
-#profiles-widget li>a:active span,
-#profiles-widget li>a:focus span {
-  border: none;
-  background: #b02a1a;
-}
-
-#profiles-widget .thumbnail-wrapper {
-  background-color: #F9F9F9;
-  display: block;
-  margin: 0 10px 10px;
-}
-
-#profiles-widget .thumbnail-wrapper:hover {
-  border: 1px solid #CCC;
-}
-
-@media only screen and (min-width:320px) {
-  #profiles-widget .thumbnail-wrapper {
-    width: 50%;
-  }
-}
-
-@media only screen and (min-width:480px) {
-  #profiles-widget .thumbnail-wrapper {
-    float: left;
-  }
-}
-
-@media only screen and (min-width:500px) {
-  #profiles-widget .thumbnail-wrapper {
-    width: 40%;
-  }
-}
-
-@media only screen and (min-width:768px) {
-  #profiles-widget .thumbnail-wrapper {
-    width: auto;
-    float: none;
-  }
-}
-
-#profiles-widget .person {
-  margin-bottom: 15px;
-  overflow: hidden;
-}
-
-#profiles-widget .thumbnail {
-  width: 100%;
-  vertical-align: middle;
-  margin-bottom: 0;
-}
-
-#profiles-widget .name {
-  font-size: 1.2em;
-  margin: 0 10px;
-}
-
-#profiles-widget .description,
-#profiles-widget .email,
-#profiles-widget .job-title,
-#profiles-widget .role-description,
-#profiles-widget .tel {
-  font-size: 1.2em;
-  margin: 10px 10px 0 10px;
-}
-
-#profiles-widget .job-title {
-  font-weight: 600;
-}
-
-.free-html {
-  background-color: transparent;
-}
-
-.city-vision-widget {
-  background-color: #B02A1A;
-  display: block;
-  color: #FFF;
-  text-align: center;
-  padding: 20px 15px 30px;
-  font-family: Georgia,"Times New Roman",Times,serif;
-  font-size: 2.8em;
-  font-weight: 400;
-  line-height: .9em;
-}
-
-.city-vision-widget.city-vision-widget-alternate {
-  background-color: #00284D;
-}
-
-.city-vision-widget span {
-  display: block;
-  color: #FFF;
-}
-
-.city-vision-widget hr {
-  position: relative;
-  top: 8px;
-  border-color: #cb8880;
-}
-
-.city-vision-widget .year {
-  background-color: #B02A1A;
-  color: #fff;
-  margin: -34px auto 0;
-  position: relative;
-  width: 120px;
-}
-
-@media only screen and (min-width:768px) {
-  .city-vision-widget {
-    padding: 50px 15px 60px;
-  }
-}
-
-a.city-vision-widget:hover hr {
-  border-color: #B02A1A;
-}
-
-.free-widget-standard {
-  display: block;
-  color: #FFF;
-  text-align: center;
-  padding: 20px 15px 30px;
-  font-family: Arial,Helvetica,sans-serif;
-  font-size: 2.8em;
-  font-weight: 400;
-  line-height: .9em;
-  text-transform: uppercase;
-}
-
-.free-widget-standard a {
-  color: #FFF;
-  text-decoration: none;
-  border: none;
-}
-
-#spotlight-research-widget .widget-content {
-  padding-left: 5px;
-}
-
-#spotlight-research-widget li {
-  background: #fff;
-}
-
-#spotlight-research-widget li:after,
-#spotlight-research-widget li:before {
-  content: " ";
-  display: table;
-}
-
-#spotlight-research-widget li:after {
-  clear: both;
-}
-
-#spotlight-research-widget .bx-wrapper {
-  margin: 0 5px 0 0;
-}
-
-#spotlight-research-widget h3 {
-  margin: 0 5px 0 5px;
-}
-
-#spotlight-research-widget h3 a {
-  font-weight: 700;
-}
-
-#spotlight-research-widget .thumbnail {
-  display: block;
-  margin: 6px auto 5px;
-  width: 97%;
-}
-
-#spotlight-research-widget .summary {
-  margin: 5px 5px 10px 5px;
-}
-
-#spotlight-research-widget.widget-one-item .widget-content {
-  padding: 5px;
-}
-
-#spotlight-research-widget.widget-one-item ul {
-  margin: 0;
-}
-
-#spotlight-research-widget.widget-one-item li {
-  display: block;
-}
-
-#events-widget .widget-content ol,
-#events-widget .widget-content ul,
-#news-widget .widget-content ol,
-#news-widget .widget-content ul,
-#rss-widget .widget-content ol,
-#rss-widget .widget-content ul {
-  margin: 5px 0;
 }
