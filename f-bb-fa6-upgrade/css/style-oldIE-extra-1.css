@@ -6404,6 +6404,14 @@ readers do not read off random characters that represent icons */
   content: "\f044";
 }
 
+.fa-pencil::before {
+  content: "\f303";
+}
+
+.fa-pencil-alt::before {
+  content: "\f303";
+}
+
 .fa-person-walking-with-cane::before {
   content: "\f29d";
 }
@@ -16495,14 +16503,4 @@ a.city-vision-widget:hover hr {
 .widget.navigation-widget h2,
 .widget.navigation-widget .widget-content {
   background: none;
-}
-
-.widget.navigation-widget h2 {
-  border-bottom: 2px solid #ddd;
-  padding: 0;
-}
-
-.widget.navigation-widget ul {
-  list-style-type: none;
-  margin: 0;
 }

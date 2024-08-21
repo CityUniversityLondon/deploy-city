@@ -1,3 +1,7 @@
+#spotlight-research-widget.widget-one-item li {
+  display: block;
+}
+
 #news-widget .widget-content ul,
 #news-widget .widget-content ol,
 #events-widget .widget-content ul,

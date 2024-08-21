@@ -14863,6 +14863,14 @@ readers do not read off random characters that represent icons */
   content: "\f044";
 }
 
+.fa-pencil::before {
+  content: "\f303";
+}
+
+.fa-pencil-alt::before {
+  content: "\f303";
+}
+
 .fa-person-walking-with-cane::before {
   content: "\f29d";
 }
@@ -15973,9 +15981,4 @@ readers do not read off random characters that represent icons */
   z-index: 2;
   -webkit-transition: opacity 0.2s ease;
   transition: opacity 0.2s ease;
-}
-
-.hallway-new .hallway-item a:hover h2,
-.hallway-new .hallway-item a:hover h3 {
-  color: #b91b1b;
 }

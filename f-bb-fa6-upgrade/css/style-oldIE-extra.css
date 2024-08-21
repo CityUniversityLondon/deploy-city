@@ -1,3 +1,10 @@
+.service a.service__header-link:active,
+.service a.project__header-link:active,
+.project a.service__header-link:active,
+.project a.project__header-link:active {
+  background-color: #FFFFFF;
+}
+
 .service a.service__header-link i,
 .service a.project__header-link i,
 .project a.service__header-link i,

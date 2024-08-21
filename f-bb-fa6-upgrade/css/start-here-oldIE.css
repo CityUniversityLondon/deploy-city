@@ -8952,6 +8952,12 @@ readers do not read off random characters that represent icons */
 .fa-edit::before {
   content: "\f044"; }
 
+.fa-pencil::before {
+  content: "\f303"; }
+
+.fa-pencil-alt::before {
+  content: "\f303"; }
+
 .fa-person-walking-with-cane::before {
   content: "\f29d"; }
 

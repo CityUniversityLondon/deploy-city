@@ -1,3 +1,8 @@
+.hallway-new .hallway-item a:hover h2,
+.hallway-new .hallway-item a:hover h3 {
+  color: #b91b1b;
+}
+
 .hallway-new .hallway-item a:hover h2 span,
 .hallway-new .hallway-item a:hover h3 span {
   border-bottom-color: #b91b1b;
