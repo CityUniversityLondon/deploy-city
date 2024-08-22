@@ -1,291 +1,3 @@
-#testimonials-widget ul li:after,
-#testimonials-widget ul li:before {
-  content: " ";
-  display: table;
-}
-
-#testimonials-widget ul li:after {
-  clear: both;
-}
-
-#testimonials-widget .fa-quote-left {
-  color: #666;
-  font-size: 1.6em;
-}
-
-#testimonials-widget .details {
-  margin: 0 0 10px 0;
-  overflow: hidden;
-}
-
-#testimonials-widget .name {
-  font-weight: 700;
-  margin-bottom: 0;
-}
-
-#testimonials-widget .course,
-#testimonials-widget .position,
-#testimonials-widget .year {
-  margin-bottom: 0;
-}
-
-#testimonials-widget .course {
-  margin-top: 0;
-}
-
-#testimonials-widget img {
-  float: left;
-  display: inline;
-  padding: 0 10px 0 0;
-}
-
-#testimonial-dialog .details {
-  margin: 0 0 10px 0;
-  overflow: hidden;
-  width: auto;
-  float: none;
-}
-
-#testimonial-dialog .details p {
-  margin: 0 0 5px 0;
-}
-
-#testimonial-dialog .details .name {
-  font-weight: 700;
-}
-
-#testimonial-dialog .details img {
-  float: left;
-  display: inline;
-  margin: 0 10px 0 0;
-}
-
-#profiles-widget .widget-content {
-  padding: 10px 0;
-}
-
-#profiles-widget ul {
-  padding: 0 10px;
-  margin: 0;
-  list-style-type: none;
-}
-
-#profiles-widget li>a {
-  display: block;
-  border: none;
-}
-
-#profiles-widget li>a span {
-  border-bottom: 1px solid #ccc;
-}
-
-#profiles-widget li>a:hover span {
-  border: none;
-}
-
-#profiles-widget li>a:active,
-#profiles-widget li>a:focus {
-  background: 0 0;
-}
-
-#profiles-widget li>a:active span,
-#profiles-widget li>a:focus span {
-  border: none;
-  background: #b02a1a;
-}
-
-#profiles-widget .thumbnail-wrapper {
-  background-color: #F9F9F9;
-  display: block;
-  margin: 0 10px 10px;
-}
-
-#profiles-widget .thumbnail-wrapper:hover {
-  border: 1px solid #CCC;
-}
-
-@media only screen and (min-width:320px) {
-  #profiles-widget .thumbnail-wrapper {
-    width: 50%;
-  }
-}
-
-@media only screen and (min-width:480px) {
-  #profiles-widget .thumbnail-wrapper {
-    float: left;
-  }
-}
-
-@media only screen and (min-width:500px) {
-  #profiles-widget .thumbnail-wrapper {
-    width: 40%;
-  }
-}
-
-@media only screen and (min-width:768px) {
-  #profiles-widget .thumbnail-wrapper {
-    width: auto;
-    float: none;
-  }
-}
-
-#profiles-widget .person {
-  margin-bottom: 15px;
-  overflow: hidden;
-}
-
-#profiles-widget .thumbnail {
-  width: 100%;
-  vertical-align: middle;
-  margin-bottom: 0;
-}
-
-#profiles-widget .name {
-  font-size: 1.2em;
-  margin: 0 10px;
-}
-
-#profiles-widget .description,
-#profiles-widget .email,
-#profiles-widget .job-title,
-#profiles-widget .role-description,
-#profiles-widget .tel {
-  font-size: 1.2em;
-  margin: 10px 10px 0 10px;
-}
-
-#profiles-widget .job-title {
-  font-weight: 600;
-}
-
-.free-html {
-  background-color: transparent;
-}
-
-.city-vision-widget {
-  background-color: #B02A1A;
-  display: block;
-  color: #FFF;
-  text-align: center;
-  padding: 20px 15px 30px;
-  font-family: Georgia,"Times New Roman",Times,serif;
-  font-size: 2.8em;
-  font-weight: 400;
-  line-height: .9em;
-}
-
-.city-vision-widget.city-vision-widget-alternate {
-  background-color: #00284D;
-}
-
-.city-vision-widget span {
-  display: block;
-  color: #FFF;
-}
-
-.city-vision-widget hr {
-  position: relative;
-  top: 8px;
-  border-color: #cb8880;
-}
-
-.city-vision-widget .year {
-  background-color: #B02A1A;
-  color: #fff;
-  margin: -34px auto 0;
-  position: relative;
-  width: 120px;
-}
-
-@media only screen and (min-width:768px) {
-  .city-vision-widget {
-    padding: 50px 15px 60px;
-  }
-}
-
-a.city-vision-widget:hover hr {
-  border-color: #B02A1A;
-}
-
-.free-widget-standard {
-  display: block;
-  color: #FFF;
-  text-align: center;
-  padding: 20px 15px 30px;
-  font-family: Arial,Helvetica,sans-serif;
-  font-size: 2.8em;
-  font-weight: 400;
-  line-height: .9em;
-  text-transform: uppercase;
-}
-
-.free-widget-standard a {
-  color: #FFF;
-  text-decoration: none;
-  border: none;
-}
-
-#spotlight-research-widget .widget-content {
-  padding-left: 5px;
-}
-
-#spotlight-research-widget li {
-  background: #fff;
-}
-
-#spotlight-research-widget li:after,
-#spotlight-research-widget li:before {
-  content: " ";
-  display: table;
-}
-
-#spotlight-research-widget li:after {
-  clear: both;
-}
-
-#spotlight-research-widget .bx-wrapper {
-  margin: 0 5px 0 0;
-}
-
-#spotlight-research-widget h3 {
-  margin: 0 5px 0 5px;
-}
-
-#spotlight-research-widget h3 a {
-  font-weight: 700;
-}
-
-#spotlight-research-widget .thumbnail {
-  display: block;
-  margin: 6px auto 5px;
-  width: 97%;
-}
-
-#spotlight-research-widget .summary {
-  margin: 5px 5px 10px 5px;
-}
-
-#spotlight-research-widget.widget-one-item .widget-content {
-  padding: 5px;
-}
-
-#spotlight-research-widget.widget-one-item ul {
-  margin: 0;
-}
-
-#spotlight-research-widget.widget-one-item li {
-  display: block;
-}
-
-#events-widget .widget-content ol,
-#events-widget .widget-content ul,
-#news-widget .widget-content ol,
-#news-widget .widget-content ul,
-#rss-widget .widget-content ol,
-#rss-widget .widget-content ul {
-  margin: 5px 0;
-}
-
 #events-widget .widget-content ol div,
 #events-widget .widget-content ul div,
 #news-widget .widget-content ol div,
@@ -15545,4 +15257,197 @@ table.visa-event-table tr th {
 
 .link-list--school-landing-page h2 {
   font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
+#courses-widget .widget-content .ui-accordion-header .link-list--school-landing-page h2 .ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .link-list--school-landing-page h2 .ui-icon,
+.dialog .link-list--school-landing-page h2 button,
+.js .accordion .accordion__heading[data-open=true] .link-list--school-landing-page h2 .accordion__heading__indicator,
+.js .accordion .link-list--school-landing-page h2 .accordion__heading__indicator,
+.link-list--school-landing-page h2 #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.link-list--school-landing-page h2 .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.link-list--school-landing-page h2 .dialog button,
+.link-list--school-landing-page h2 .fa,
+.link-list--school-landing-page h2 .js .accordion .accordion__heading[data-open=true] .accordion__heading__indicator,
+.link-list--school-landing-page h2 .js .accordion .accordion__heading__indicator,
+.link-list--school-landing-page h2 .ui-accordion .ui-accordion-header .ui-icon,
+.link-list--school-landing-page h2 .white-card__media .embed-container a:before,
+.ui-accordion .ui-accordion-header .link-list--school-landing-page h2 .ui-icon,
+.white-card__media .embed-container .link-list--school-landing-page h2 a:before {
+  margin-left: 20px;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--sass h2 a:link,
+.link-list--school-landing-page.link-list--school-landing-page--sass h2 a:visited {
+  color: #333;
+  border-bottom: 2px solid #f15f22;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--sass h2:first-child a:link,
+.link-list--school-landing-page.link-list--school-landing-page--sass h2:first-child a:visited {
+  border-bottom-color: #f8b141;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--sass h2:first-child a:hover {
+  border-bottom-color: #000;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--sass h2:first-child a:active,
+.link-list--school-landing-page.link-list--school-landing-page--sass h2:first-child a:focus {
+  border-bottom-color: #999;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--sass h2 a:hover {
+  color: #333;
+  border-bottom-color: #f8b141;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--sass h2 a:active,
+.link-list--school-landing-page.link-list--school-landing-page--sass h2 a:focus {
+  border-bottom: #999 dotted 2px;
+  background: 0 0;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--health h2 a:link,
+.link-list--school-landing-page.link-list--school-landing-page--health h2 a:visited {
+  color: #333;
+  border-bottom: 2px solid #00284c;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--health h2:first-child a:link,
+.link-list--school-landing-page.link-list--school-landing-page--health h2:first-child a:visited {
+  border-bottom-color: #0077a0;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--health h2:first-child a:hover {
+  border-bottom-color: #000;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--health h2:first-child a:active,
+.link-list--school-landing-page.link-list--school-landing-page--health h2:first-child a:focus {
+  border-bottom-color: #999;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--health h2 a:hover {
+  color: #333;
+  border-bottom-color: #0077a0;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--health h2 a:active,
+.link-list--school-landing-page.link-list--school-landing-page--health h2 a:focus {
+  border-bottom: #999 dotted 2px;
+  background: 0 0;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:link,
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:visited {
+  color: #333;
+  border-bottom: 2px solid #00444d;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:link,
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:visited {
+  border-bottom-color: #649a44;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:hover {
+  border-bottom-color: #000;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:active,
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:focus {
+  border-bottom-color: #999;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:hover {
+  color: #333;
+  border-bottom-color: #649a44;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:active,
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:focus {
+  border-bottom: #999 dotted 2px;
+  background: 0 0;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--law h2 a:link,
+.link-list--school-landing-page.link-list--school-landing-page--law h2 a:visited {
+  color: #333;
+  border-bottom: 2px solid #401663;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--law h2:first-child a:link,
+.link-list--school-landing-page.link-list--school-landing-page--law h2:first-child a:visited {
+  border-bottom-color: #842b91;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--law h2:first-child a:hover {
+  border-bottom-color: #000;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--law h2:first-child a:active,
+.link-list--school-landing-page.link-list--school-landing-page--law h2:first-child a:focus {
+  border-bottom-color: #999;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--law h2 a:hover {
+  color: #333;
+  border-bottom-color: #842b91;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--law h2 a:active,
+.link-list--school-landing-page.link-list--school-landing-page--law h2 a:focus {
+  border-bottom: #999 dotted 2px;
+  background: 0 0;
+}
+
+.link-list--school-landing-page ul:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.school-landing-ctas {
+  padding: 10px 20px 10px;
+  background: #eee;
+}
+
+.school-landing-ctas h2 {
+  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  margin-bottom: 20px;
+}
+
+.school-landing-ctas.school-landing-ctas--sass a {
+  display: block;
+  margin-bottom: 16px;
+  padding: 8px;
+  font-size: 1.1em;
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: 500;
+  background: #fff;
+  border: 2px solid #fff;
+}
+
+#courses-widget .widget-content .ui-accordion-header .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
+.dialog .school-landing-ctas.school-landing-ctas--sass a button,
+.js .accordion .school-landing-ctas.school-landing-ctas--sass a .accordion__heading__indicator,
+.school-landing-ctas.school-landing-ctas--sass a #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.school-landing-ctas.school-landing-ctas--sass a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.school-landing-ctas.school-landing-ctas--sass a .dialog button,
+.school-landing-ctas.school-landing-ctas--sass a .fa,
+.school-landing-ctas.school-landing-ctas--sass a .js .accordion .accordion__heading__indicator,
+.school-landing-ctas.school-landing-ctas--sass a .ui-accordion .ui-accordion-header .ui-icon,
+.school-landing-ctas.school-landing-ctas--sass a .white-card__media .embed-container a:before,
+.ui-accordion .ui-accordion-header .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
+.white-card__media .embed-container .school-landing-ctas.school-landing-ctas--sass a a:before {
+  color: #f15f22;
+  margin-right: 10px;
+}
+
+.school-landing-ctas.school-landing-ctas--sass a:link,
+.school-landing-ctas.school-landing-ctas--sass a:visited {
+  color: #333;
+}
+
+.school-landing-ctas.school-landing-ctas--sass a:hover .label {
+  border-bottom: #000 solid 1px;
 }

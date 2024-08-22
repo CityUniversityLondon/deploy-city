@@ -1,247 +1,3 @@
-#events-widget .widget-content li:hover,
-#news-widget .widget-content li:hover,
-#rss-widget .widget-content li:hover {
-  background-color: #f7f7f7;
-  cursor: pointer;
-}
-
-#events-widget .widget-content li h3,
-#events-widget .widget-content li h4,
-#news-widget .widget-content li h3,
-#news-widget .widget-content li h4,
-#rss-widget .widget-content li h3,
-#rss-widget .widget-content li h4 {
-  margin: 0;
-  overflow: hidden;
-}
-
-#events-widget .widget-content li h3 a,
-#events-widget .widget-content li h4 a,
-#news-widget .widget-content li h3 a,
-#news-widget .widget-content li h4 a,
-#rss-widget .widget-content li h3 a,
-#rss-widget .widget-content li h4 a {
-  font-weight: 700;
-}
-
-#events-widget .widget-content li h3 a strong,
-#events-widget .widget-content li h4 a strong,
-#news-widget .widget-content li h3 a strong,
-#news-widget .widget-content li h4 a strong,
-#rss-widget .widget-content li h3 a strong,
-#rss-widget .widget-content li h4 a strong {
-  font-weight: 700;
-}
-
-#events-widget .widget-content li img,
-#news-widget .widget-content li img,
-#rss-widget .widget-content li img {
-  float: left;
-  margin: 0 10px 0 0;
-  display: inline;
-}
-
-#events-widget .widget-content li p,
-#news-widget .widget-content li p,
-#rss-widget .widget-content li p {
-  margin: 0;
-  overflow: hidden;
-}
-
-#events-widget .widget-content .bx-wrapper ol,
-#events-widget .widget-content .bx-wrapper ul,
-#news-widget .widget-content .bx-wrapper ol,
-#news-widget .widget-content .bx-wrapper ul,
-#rss-widget .widget-content .bx-wrapper ol,
-#rss-widget .widget-content .bx-wrapper ul,
-#spotlight-research-widget .widget-content .bx-wrapper ol,
-#spotlight-research-widget .widget-content .bx-wrapper ul {
-  margin: 0;
-}
-
-#business-case-studies-widget .widget-content ul {
-  margin: 0 10px;
-  list-style-type: none;
-}
-
-#business-case-studies-widget .widget-content li {
-  clear: both;
-}
-
-#business-case-studies-widget .widget-content li a {
-  border: none;
-  color: #000;
-  display: block;
-}
-
-#business-case-studies-widget .widget-content li a:hover {
-  color: #b02a1a;
-  -webkit-transition: color .2s;
-  transition: color .2s;
-  text-decoration: underline;
-}
-
-#business-case-studies-widget .widget-content li a:active,
-#business-case-studies-widget .widget-content li a:focus {
-  color: #fff;
-}
-
-#business-case-studies-widget .widget-content li a img {
-  width: 30%;
-  margin-right: 10px;
-  float: left;
-}
-
-#business-case-studies-widget .widget-content li a h3 {
-  font-size: 1.3em;
-  font-weight: 400;
-  line-height: 1.3em;
-  margin: 6px 0 14px;
-}
-
-#gallery-widget .widget-content {
-  padding: 5px;
-}
-
-#social-widget .widget-content {
-  padding: 10px;
-}
-
-#social-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#social-list li {
-  margin: 0 0 10px 0;
-  min-height: 30px;
-}
-
-#social-list a {
-  padding: 0;
-  border-bottom: none;
-  display: block;
-  float: none;
-  min-height: 30px;
-}
-
-#social-list a.osw {
-  background: transparent url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/vector-social-media-icons/social-list.png) no-repeat 0 0;
-  line-height: 32px;
-  height: 32px;
-}
-
-#social-list a.osw.twitter {
-  background-position: 0 -52px;
-}
-
-#social-list a.osw.google {
-  background-position: 0 -104px;
-}
-
-#social-list a.osw.youtube {
-  background-position: 0 -156px;
-}
-
-#social-list a.osw.linkedin {
-  background-position: 0 -208px;
-}
-
-#social-list a.osw.pinterest {
-  background-position: 0 -260px;
-}
-
-#social-list a.osw.instagram {
-  background-position: 0 -312px;
-}
-
-#social-list a span {
-  border-bottom: 1px solid #ccc;
-  line-height: 28px;
-}
-
-#social-list a:hover {
-  text-decoration: none;
-}
-
-#social-list a:hover span {
-  border-bottom: none;
-}
-
-#social-list a:focus span {
-  background: #B02A1A;
-}
-
-.widget.navigation-widget .widget-content,
-.widget.navigation-widget h2 {
-  background: 0 0;
-}
-
-.widget.navigation-widget h2 {
-  border-bottom: 2px solid #ddd;
-  padding: 0;
-}
-
-.widget.navigation-widget ul {
-  list-style-type: none;
-  margin: 0;
-}
-
-.widget.navigation-widget li {
-  border-bottom: 1px solid #ddd;
-}
-
-.widget.navigation-widget a {
-  display: block;
-  padding: 5px 10px;
-  position: relative;
-  border: none;
-}
-
-.widget.navigation-widget a::before {
-  position: absolute;
-  top: 2px;
-  left: 0;
-  height: 26px;
-  width: 4px;
-  background: #b02a1a;
-}
-
-.widget.navigation-widget a:hover {
-  background: #eee;
-  color: #b02a1a;
-}
-
-.widget.navigation-widget a:visited {
-  color: #b02a1a;
-}
-
-.widget.navigation-widget a:focus {
-  background: #b02a1a;
-  color: #fff;
-}
-
-.widget.navigation-widget a:active {
-  background: #eee;
-  color: #333;
-  border: none;
-}
-
-.widget.navigation-widget a:active::before {
-  content: ' ';
-}
-
-.widget.navigation-widget li.selected a {
-  background: #eee;
-  color: #333;
-  border: none;
-}
-
-.widget.navigation-widget li.selected a::before {
-  content: ' ';
-}
-
 #research-case-studies-widget .widget-content ul {
   margin: 0;
 }
@@ -15059,4 +14815,171 @@ p.left-float-image {
   background-color: #FFF;
   color: #555;
   border-bottom-color: transparent;
+}
+
+.project .dark-background a:active,
+.service .dark-background a:active {
+  background-color: #FFF;
+  color: #555;
+  border-bottom-color: transparent;
+}
+
+.project .footer a:link,
+.project a.simple:link,
+.service .footer a:link,
+.service a.simple:link {
+  color: #333;
+  border-bottom-color: transparent;
+}
+
+.project .footer a:visited,
+.project a.simple:visited,
+.service .footer a:visited,
+.service a.simple:visited {
+  color: #333;
+}
+
+.project .footer a:hover,
+.project a.simple:hover,
+.service .footer a:hover,
+.service a.simple:hover {
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color: #333;
+}
+
+.project .footer a:focus,
+.project a.simple:focus,
+.service .footer a:focus,
+.service a.simple:focus {
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color: #333;
+}
+
+.project .footer a:active,
+.project a.simple:active,
+.service .footer a:active,
+.service a.simple:active {
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color: #333;
+}
+
+.project a.hallway,
+.service a.hallway {
+  font-weight: 600;
+}
+
+.project a.hallway:link,
+.service a.hallway:link {
+  color: #333;
+  border-bottom-color: transparent;
+}
+
+.project a.hallway:visited,
+.service a.hallway:visited {
+  color: #333;
+}
+
+.project a.hallway:hover,
+.service a.hallway:hover {
+  color: #b91b1b;
+  border-bottom-style: solid;
+  border-bottom-color: #b91b1b;
+}
+
+.project a.hallway:focus,
+.service a.hallway:focus {
+  background-color: #FFF;
+  color: #b91b1b;
+  border-bottom-style: dotted;
+  border-bottom-color: #555;
+}
+
+.project a.hallway:active,
+.service a.hallway:active {
+  background-color: #FFF;
+}
+
+.project a.project__header-link,
+.project a.service__header-link,
+.service a.project__header-link,
+.service a.service__header-link {
+  font-weight: 500;
+}
+
+.project a.project__header-link:link,
+.project a.service__header-link:link,
+.service a.project__header-link:link,
+.service a.service__header-link:link {
+  color: #333;
+  border-bottom-color: transparent;
+}
+
+.project a.project__header-link:visited,
+.project a.service__header-link:visited,
+.service a.project__header-link:visited,
+.service a.service__header-link:visited {
+  color: #333;
+}
+
+.project a.project__header-link:hover,
+.project a.service__header-link:hover,
+.service a.project__header-link:hover,
+.service a.service__header-link:hover {
+  color: #b91b1b;
+  border-bottom-style: solid;
+  border-bottom-color: #b91b1b;
+}
+
+.project a.project__header-link:focus,
+.project a.service__header-link:focus,
+.service a.project__header-link:focus,
+.service a.service__header-link:focus {
+  background-color: #FFF;
+  color: #b91b1b;
+  border-bottom-style: dotted;
+  border-bottom-color: #555;
+}
+
+.project a.project__header-link:active,
+.project a.service__header-link:active,
+.service a.project__header-link:active,
+.service a.service__header-link:active {
+  background-color: #FFF;
+}
+
+.project a.project__header-link i,
+.project a.service__header-link i,
+.service a.project__header-link i,
+.service a.service__header-link i {
+  font-size: .8em;
+  margin-left: .3em;
+}
+
+.project a.project__cta:link,
+.project a.service__cta:link,
+.service a.project__cta:link,
+.service a.service__cta:link {
+  color: #b91b1b;
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  border-bottom-color: #999;
+}
+
+.project a.project__cta:visited,
+.project a.service__cta:visited,
+.service a.project__cta:visited,
+.service a.service__cta:visited {
+  color: #670003;
+  border-bottom-color: #999;
+}
+
+.project a.project__cta:hover,
+.project a.service__cta:hover,
+.service a.project__cta:hover,
+.service a.service__cta:hover {
+  border-bottom-color: #670003;
+  border-bottom-style: solid;
 }
