@@ -6964,6 +6964,10 @@ button.ui-button::-moz-focus-inner {
   font-weight: 400;
 }
 
+.fa-facebook-f:before {
+  content: "\f39e";
+}
+
 .fa-instagram:before {
   content: "\f16d";
 }
@@ -16198,8 +16202,4 @@ a.city-vision-widget:hover hr {
   background: #eee;
   color: #333;
   border: none;
-}
-
-.widget.navigation-widget li.selected a::before {
-  content: ' ';
 }

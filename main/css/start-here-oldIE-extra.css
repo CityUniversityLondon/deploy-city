@@ -13762,6 +13762,10 @@ a:focus {
   font-weight: 400;
 }
 
+.fa-facebook-f:before {
+  content: "\f39e";
+}
+
 .fa-instagram:before {
   content: "\f16d";
 }
