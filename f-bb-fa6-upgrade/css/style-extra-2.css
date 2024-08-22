@@ -1,3 +1,7 @@
+#spotlight-research-widget.widget-one-item ul {
+  margin: 0;
+}
+
 #spotlight-research-widget.widget-one-item li {
   display: block;
 }

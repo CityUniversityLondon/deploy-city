@@ -7034,6 +7034,10 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.fa-facebook-f:before {
+  content: "\f39e";
+}
+
 .fa-instagram:before {
   content: "\f16d";
 }
@@ -16498,9 +16502,4 @@ a.city-vision-widget:hover hr {
 
 #social-list a:focus span {
   background: #B02A1A;
-}
-
-.widget.navigation-widget h2,
-.widget.navigation-widget .widget-content {
-  background: none;
 }

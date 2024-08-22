@@ -13888,6 +13888,10 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.fa-facebook-f:before {
+  content: "\f39e";
+}
+
 .fa-instagram:before {
   content: "\f16d";
 }

@@ -1,3 +1,8 @@
+.widget.navigation-widget h2,
+.widget.navigation-widget .widget-content {
+  background: none;
+}
+
 .widget.navigation-widget h2 {
   border-bottom: 2px solid #ddd;
   padding: 0;
