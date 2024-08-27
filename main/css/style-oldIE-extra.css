@@ -7641,10 +7641,9 @@ dl.staffhub-dl dd {
 }
 
 .opening-times-navigation .opening-times-navigation-previous .calendarNavLink:before {
-  content: "";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: 400;
+  content: "\f053";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 900;
 }
 
 .opening-times-navigation .opening-times-navigation-next .calendarNavLink {
@@ -7653,10 +7652,9 @@ dl.staffhub-dl dd {
 }
 
 .opening-times-navigation .opening-times-navigation-next .calendarNavLink:before {
-  content: "";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: 400;
+  content: "\f054";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 900;
 }
 
 .opening-times-navigation .opening-times-navigation-date-range {
