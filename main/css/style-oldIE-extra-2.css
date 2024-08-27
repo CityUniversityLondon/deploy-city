@@ -1,3 +1,9 @@
+.widget.navigation-widget li.selected a {
+  background: #eee;
+  color: #333;
+  border: none;
+}
+
 .widget.navigation-widget li.selected a::before {
   content: ' ';
 }

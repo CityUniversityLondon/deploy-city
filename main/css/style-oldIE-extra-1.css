@@ -5168,6 +5168,10 @@ button.ui-button::-moz-focus-inner {
   content: "\f032";
 }
 
+.fa-book::before {
+  content: "\f02d";
+}
+
 .fa-bookmark::before {
   content: "\f02e";
 }
@@ -16196,10 +16200,4 @@ a.city-vision-widget:hover hr {
 
 .widget.navigation-widget a:active::before {
   content: ' ';
-}
-
-.widget.navigation-widget li.selected a {
-  background: #eee;
-  color: #333;
-  border: none;
 }
