@@ -5569,7 +5569,7 @@ input[type="submit"].btn {
   .see-all-button:after {
     content: "\00a0\f105";
     padding-left: .2em;
-    font-family: FontAwesome;
+    font-family: "Font Awesome 6 Pro";
     font-size: 1.25em;
     line-height: .8em; }
 
@@ -8003,7 +8003,7 @@ input[type="checkbox"]:disabled {
       z-index: 10;
       text-align: center;
       text-decoration: none;
-      font-family: FontAwesome;
+      font-family: "Font Awesome 6 Pro";
       font-size: 2.4em;
       font-weight: bold;
       background: #fff;
@@ -8479,7 +8479,7 @@ input[type="checkbox"]:disabled {
     border-bottom: 1px solid #ffffff; }
 
 .global-nav__menu-item .global-nav__menu-item__toggle-icon {
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 6 Pro';
   display: block;
   float: right;
   background-color: #c00f22;
@@ -8490,7 +8490,8 @@ input[type="checkbox"]:disabled {
   margin-top: -0.25em;
   font-size: 2.4em; }
   .global-nav__menu-item .global-nav__menu-item__toggle-icon:before {
-    content: '\f107'; }
+    content: '\f107';
+    font-family: 'Font Awesome 6 Pro'; }
 
 .global-nav__menu-item .global-nav__menu-item__toggle {
   outline: none; }
@@ -8519,7 +8520,7 @@ input[type="checkbox"]:disabled {
   .no-js .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon:before,
   .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .no-js .global-nav__toggle .ui-icon:before {
     content: '\f00d';
-    font-family: 'FontAwesome'; }
+    font-family: 'Font Awesome 6 Pro'; }
 
 .global-nav__wrapper--active .global-nav__toggle,
 .no-js .global-nav__toggle {
@@ -8696,7 +8697,8 @@ input[type="checkbox"]:disabled {
   border: none; }
 
 .global-nav__menu-item--active .global-nav__menu-item__toggle-icon:before {
-  content: '\f106'; }
+  content: '\f106';
+  font-family: 'Font Awesome 6 Pro'; }
 
 .global-nav__menu-item--active .global-nav__drop {
   display: block; }
@@ -12097,7 +12099,7 @@ or until modernizr tests for it (version 3?).
     .image-credit .image-credit__button .fa-info {
       color: inherit;
       font-size: 1.357em;
-      font-family: "FontAwesome";
+      font-family: 'Font Awesome 6 Pro';
       -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease; }
     .image-credit .image-credit__button[aria-pressed="false"] .fa-info-circle {
@@ -12170,7 +12172,7 @@ or until modernizr tests for it (version 3?).
   .credits-title .fa-info-circle {
     margin-right: .2em; }
   .credits-title:after {
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 6 Pro';
     content: "\f0d7";
     display: inline-block;
     width: auto;
@@ -12218,13 +12220,13 @@ or until modernizr tests for it (version 3?).
     color: #666; }
   .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(1) span:before {
     content: "\f060";
-    font-family: FontAwesome;
+    font-family: 'Font Awesome 6 Pro';
     padding-right: 10px; }
   .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(2) {
     float: right; }
     .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(2) span:after {
       content: "\f061";
-      font-family: FontAwesome;
+      font-family: 'Font Awesome 6 Pro';
       padding-left: 10px; }
 
 .js .cyclic-popup-item__detail {
@@ -14131,7 +14133,7 @@ or until modernizr tests for it (version 3?).
       top: 0;
       left: 0;
       border-radius: 50%;
-      font-family: "FontAwesome";
+      font-family: 'Font Awesome 6 Pro';
       font-size: 1.250em;
       line-height: 1.5;
       text-align: center; }
@@ -27575,7 +27577,7 @@ body#library {
   background-color: #f2f2f2; }
   .smh-accounts .smh-account__type--tumblr:before {
     content: '\f174';
-    font-family: FontAwesome;
+    font-family: 'Font Awesome 6 Pro';
     color: #444; }
   .smh-accounts .smh-account__type--tumblr:hover:before {
     color: #e2992e; }
@@ -27591,7 +27593,7 @@ body#library {
   background-color: #f2f2f2; }
   .smh-accounts .smh-account__type--flickr:before {
     content: '\f16e';
-    font-family: FontAwesome;
+    font-family: 'Font Awesome 6 Pro';
     color: #444; }
   .smh-accounts .smh-account__type--flickr:hover:before {
     color: #128fdc; }

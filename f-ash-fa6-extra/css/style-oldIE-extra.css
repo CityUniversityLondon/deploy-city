@@ -8977,7 +8977,7 @@ body#library {
 
 .smh-accounts .smh-account__type--tumblr:before {
   content: '\f174';
-  font-family: FontAwesome;
+  font-family: 'Font Awesome 6 Pro';
   color: #444;
 }
 
@@ -9002,7 +9002,7 @@ body#library {
 
 .smh-accounts .smh-account__type--flickr:before {
   content: '\f16e';
-  font-family: FontAwesome;
+  font-family: 'Font Awesome 6 Pro';
   color: #444;
 }
 

@@ -8112,7 +8112,7 @@ input[type="submit"].btn.btn-mini {
 .see-all-button:after {
   content: "\00a0\f105";
   padding-left: .2em;
-  font-family: FontAwesome;
+  font-family: "Font Awesome 6 Pro";
   font-size: 1.25em;
   line-height: .8em;
 }
@@ -11577,7 +11577,7 @@ input[type="checkbox"]:disabled {
   z-index: 10;
   text-align: center;
   text-decoration: none;
-  font-family: FontAwesome;
+  font-family: "Font Awesome 6 Pro";
   font-size: 2.4em;
   font-weight: bold;
   background: #fff;
@@ -12308,7 +12308,7 @@ input[type="checkbox"]:disabled {
 }
 
 .global-nav__menu-item .global-nav__menu-item__toggle-icon {
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 6 Pro';
   display: block;
   float: right;
   background-color: #c00f22;
@@ -12322,6 +12322,7 @@ input[type="checkbox"]:disabled {
 
 .global-nav__menu-item .global-nav__menu-item__toggle-icon:before {
   content: '\f107';
+  font-family: 'Font Awesome 6 Pro';
 }
 
 .global-nav__menu-item .global-nav__menu-item__toggle {
@@ -12368,7 +12369,7 @@ input[type="checkbox"]:disabled {
 .no-js .global-nav__toggle .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon:before,
 .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .no-js .global-nav__toggle .ui-icon:before {
   content: '\f00d';
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 6 Pro';
 }
 
 @media only screen and (min-width: 480px) {
@@ -12619,6 +12620,7 @@ input[type="checkbox"]:disabled {
 
 .global-nav__menu-item--active .global-nav__menu-item__toggle-icon:before {
   content: '\f106';
+  font-family: 'Font Awesome 6 Pro';
 }
 
 .global-nav__menu-item--active .global-nav__drop {

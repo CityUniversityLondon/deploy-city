@@ -1246,7 +1246,7 @@
 
 .slick-prev:before,
 .slick-next:before {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 6 Pro";
   font-size: 20px;
   line-height: 1;
   color: #3e1031;
@@ -1341,7 +1341,7 @@
   content: \f111;
   width: 20px;
   height: 20px;
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 6 Pro";
   font-size: 6px;
   line-height: 20px;
   text-align: center;

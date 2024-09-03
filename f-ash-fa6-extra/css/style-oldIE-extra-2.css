@@ -997,7 +997,7 @@ or until modernizr tests for it (version 3?).
 .image-credit .image-credit__button .fa-info {
   color: inherit;
   font-size: 1.357em;
-  font-family: "FontAwesome";
+  font-family: 'Font Awesome 6 Pro';
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
@@ -1097,7 +1097,7 @@ or until modernizr tests for it (version 3?).
 }
 
 .credits-title:after {
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 6 Pro';
   content: "\f0d7";
   display: inline-block;
   width: auto;
@@ -1166,7 +1166,7 @@ or until modernizr tests for it (version 3?).
 
 .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(1) span:before {
   content: "\f060";
-  font-family: FontAwesome;
+  font-family: 'Font Awesome 6 Pro';
   padding-right: 10px;
 }
 
@@ -1176,7 +1176,7 @@ or until modernizr tests for it (version 3?).
 
 .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(2) span:after {
   content: "\f061";
-  font-family: FontAwesome;
+  font-family: 'Font Awesome 6 Pro';
   padding-left: 10px;
 }
 
@@ -4000,7 +4000,7 @@ or until modernizr tests for it (version 3?).
   top: 0;
   left: 0;
   border-radius: 50%;
-  font-family: "FontAwesome";
+  font-family: 'Font Awesome 6 Pro';
   font-size: 1.250em;
   line-height: 1.5;
   text-align: center;
