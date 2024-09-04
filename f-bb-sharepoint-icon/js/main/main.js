@@ -24,6 +24,7 @@ module.exports = (function() {
         scrollTo = require('../utils/scroll-to'),
         responsiveTables = require('./funcs/responsive-tables'),
         cyclicPopup = require('./funcs/cyclic-popup'),
+        linkFinder = require('./funcs/link-finder'),
         researchPubs = require('./funcs/research-publications');
         accordion2024 = require('./funcs/accordion-2024');
 
@@ -211,6 +212,7 @@ module.exports = (function() {
                 // traversing for Image Credits
                 imageCreditation();
                 researchPubs();
+                linkFinder();
 
                 $galleries.each(function() {
                     createGallery($(this));
