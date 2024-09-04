@@ -5336,6 +5336,25 @@ aside .news-article-widget:last-child {
   color: #b02a1a;
 }
 
+.library-services-feed {
+  padding: 1em 0;
+}
+
+.library-services-feed__item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.library-services-feed__item-heading {
+  font-size: 17.5px;
+  margin-bottom: 0;
+}
+
+.library-services-feed__list {
+  list-style: none;
+  margin: 0;
+}
+
 .research-outcomes blockquote {
   margin: 20px 0;
 }
@@ -14975,13 +14994,5 @@ p.left-float-image {
   color: #b91b1b;
   border-bottom-width: 2px;
   border-bottom-style: dotted;
-  border-bottom-color: #999;
-}
-
-.project a.project__cta:visited,
-.project a.service__cta:visited,
-.service a.project__cta:visited,
-.service a.service__cta:visited {
-  color: #670003;
   border-bottom-color: #999;
 }

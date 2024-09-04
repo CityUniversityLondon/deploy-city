@@ -5809,6 +5809,25 @@ aside .news-article-widget:last-child {
   color: #b02a1a;
 }
 
+.library-services-feed {
+  padding: 1em 0;
+}
+
+.library-services-feed__item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.library-services-feed__item-heading {
+  font-size: 17.5px;
+  margin-bottom: 0;
+}
+
+.library-services-feed__list {
+  list-style: none;
+  margin: 0;
+}
+
 .research-outcomes blockquote {
   margin: 20px 0;
 }
@@ -15424,30 +15443,4 @@ table.visa-event-table tr th {
   font-weight: 500;
   background: #fff;
   border: 2px solid #fff;
-}
-
-#courses-widget .widget-content .ui-accordion-header .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
-.course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
-.dialog .school-landing-ctas.school-landing-ctas--sass a button,
-.js .accordion .school-landing-ctas.school-landing-ctas--sass a .accordion__heading__indicator,
-.school-landing-ctas.school-landing-ctas--sass a #courses-widget .widget-content .ui-accordion-header .ui-icon,
-.school-landing-ctas.school-landing-ctas--sass a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
-.school-landing-ctas.school-landing-ctas--sass a .dialog button,
-.school-landing-ctas.school-landing-ctas--sass a .fa,
-.school-landing-ctas.school-landing-ctas--sass a .js .accordion .accordion__heading__indicator,
-.school-landing-ctas.school-landing-ctas--sass a .ui-accordion .ui-accordion-header .ui-icon,
-.school-landing-ctas.school-landing-ctas--sass a .white-card__media .embed-container a:before,
-.ui-accordion .ui-accordion-header .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
-.white-card__media .embed-container .school-landing-ctas.school-landing-ctas--sass a a:before {
-  color: #f15f22;
-  margin-right: 10px;
-}
-
-.school-landing-ctas.school-landing-ctas--sass a:link,
-.school-landing-ctas.school-landing-ctas--sass a:visited {
-  color: #333;
-}
-
-.school-landing-ctas.school-landing-ctas--sass a:hover .label {
-  border-bottom: #000 solid 1px;
 }

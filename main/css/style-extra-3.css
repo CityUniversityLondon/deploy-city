@@ -1,3 +1,29 @@
+#courses-widget .widget-content .ui-accordion-header .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
+.dialog .school-landing-ctas.school-landing-ctas--sass a button,
+.js .accordion .school-landing-ctas.school-landing-ctas--sass a .accordion__heading__indicator,
+.school-landing-ctas.school-landing-ctas--sass a #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.school-landing-ctas.school-landing-ctas--sass a .course .accordion.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-icon,
+.school-landing-ctas.school-landing-ctas--sass a .dialog button,
+.school-landing-ctas.school-landing-ctas--sass a .fa,
+.school-landing-ctas.school-landing-ctas--sass a .js .accordion .accordion__heading__indicator,
+.school-landing-ctas.school-landing-ctas--sass a .ui-accordion .ui-accordion-header .ui-icon,
+.school-landing-ctas.school-landing-ctas--sass a .white-card__media .embed-container a:before,
+.ui-accordion .ui-accordion-header .school-landing-ctas.school-landing-ctas--sass a .ui-icon,
+.white-card__media .embed-container .school-landing-ctas.school-landing-ctas--sass a a:before {
+  color: #f15f22;
+  margin-right: 10px;
+}
+
+.school-landing-ctas.school-landing-ctas--sass a:link,
+.school-landing-ctas.school-landing-ctas--sass a:visited {
+  color: #333;
+}
+
+.school-landing-ctas.school-landing-ctas--sass a:hover .label {
+  border-bottom: #000 solid 1px;
+}
+
 .school-landing-ctas.school-landing-ctas--sass a:active,
 .school-landing-ctas.school-landing-ctas--sass a:focus {
   border-color: #f15f22;
