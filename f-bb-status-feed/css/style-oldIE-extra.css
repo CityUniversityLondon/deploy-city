@@ -1,165 +1,3 @@
-.service .hard-cta a:link,
-.service .hard-cta a:visited,
-.project .hard-cta a:link,
-.project .hard-cta a:visited {
-  color: #fff;
-  border: 1px solid #a0271f;
-}
-
-.service .hard-cta a:hover,
-.project .hard-cta a:hover {
-  border: 1px solid #670003;
-}
-
-.service .dark-background a:link,
-.service .widget a:link,
-.service [class*="widget-"] a:link,
-.project .dark-background a:link,
-.project .widget a:link,
-.project [class*="widget-"] a:link {
-  border-bottom-width: 2px;
-}
-
-.service .dark-background a:link,
-.project .dark-background a:link {
-  color: #eeeeee;
-  border-bottom-color: #cccccc;
-}
-
-.service .dark-background a:visited,
-.project .dark-background a:visited {
-  color: #eeeeee;
-}
-
-.service .dark-background a:hover,
-.project .dark-background a:hover {
-  color: #FFFFFF;
-  border-bottom-color: #FFFFFF;
-}
-
-.service .dark-background a:focus,
-.project .dark-background a:focus {
-  background-color: #FFFFFF;
-  color: #555555;
-  border-bottom-color: transparent;
-}
-
-.service .dark-background a:active,
-.project .dark-background a:active {
-  background-color: #FFFFFF;
-  color: #555555;
-  border-bottom-color: transparent;
-}
-
-.service a.simple:link,
-.service .footer a:link,
-.project a.simple:link,
-.project .footer a:link {
-  color: #333333;
-  border-bottom-color: transparent;
-}
-
-.service a.simple:visited,
-.service .footer a:visited,
-.project a.simple:visited,
-.project .footer a:visited {
-  color: #333333;
-}
-
-.service a.simple:hover,
-.service .footer a:hover,
-.project a.simple:hover,
-.project .footer a:hover {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333333;
-}
-
-.service a.simple:focus,
-.service .footer a:focus,
-.project a.simple:focus,
-.project .footer a:focus {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333333;
-}
-
-.service a.simple:active,
-.service .footer a:active,
-.project a.simple:active,
-.project .footer a:active {
-  background-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-color: #333333;
-}
-
-.service a.hallway,
-.project a.hallway {
-  font-weight: 600;
-}
-
-.service a.hallway:link,
-.project a.hallway:link {
-  color: #333333;
-  border-bottom-color: transparent;
-}
-
-.service a.hallway:visited,
-.project a.hallway:visited {
-  color: #333333;
-}
-
-.service a.hallway:hover,
-.project a.hallway:hover {
-  color: #b91b1b;
-  border-bottom-style: solid;
-  border-bottom-color: #b91b1b;
-}
-
-.service a.hallway:focus,
-.project a.hallway:focus {
-  background-color: #FFFFFF;
-  color: #b91b1b;
-  border-bottom-style: dotted;
-  border-bottom-color: #555555;
-}
-
-.service a.hallway:active,
-.project a.hallway:active {
-  background-color: #FFFFFF;
-}
-
-.service a.service__header-link,
-.service a.project__header-link,
-.project a.service__header-link,
-.project a.project__header-link {
-  font-weight: 500;
-}
-
-.service a.service__header-link:link,
-.service a.project__header-link:link,
-.project a.service__header-link:link,
-.project a.project__header-link:link {
-  color: #333333;
-  border-bottom-color: transparent;
-}
-
-.service a.service__header-link:visited,
-.service a.project__header-link:visited,
-.project a.service__header-link:visited,
-.project a.project__header-link:visited {
-  color: #333333;
-}
-
-.service a.service__header-link:hover,
-.service a.project__header-link:hover,
-.project a.service__header-link:hover,
-.project a.project__header-link:hover {
-  color: #b91b1b;
-  border-bottom-style: solid;
-  border-bottom-color: #b91b1b;
-}
-
 .service a.service__header-link:focus,
 .service a.project__header-link:focus,
 .project a.service__header-link:focus,
@@ -7960,10 +7798,9 @@ dl.staffhub-dl dd {
 }
 
 .opening-times-navigation .opening-times-navigation-previous .calendarNavLink:before {
-  content: "";
-  font-family: "FontAwesome";
-  font-style: normal;
-  font-weight: normal;
+  content: "\f053";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 900;
 }
 
 .opening-times-navigation .opening-times-navigation-next .calendarNavLink {
@@ -7972,10 +7809,9 @@ dl.staffhub-dl dd {
 }
 
 .opening-times-navigation .opening-times-navigation-next .calendarNavLink:before {
-  content: "";
-  font-family: "FontAwesome";
-  font-style: normal;
-  font-weight: normal;
+  content: "\f054";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 900;
 }
 
 .opening-times-navigation .opening-times-navigation-date-range {
@@ -9151,7 +8987,7 @@ body#library {
 
 .smh-accounts .smh-account__type--tumblr:before {
   content: '\f174';
-  font-family: FontAwesome;
+  font-family: 'Font Awesome 6 Pro';
   color: #444;
 }
 
@@ -9176,7 +9012,7 @@ body#library {
 
 .smh-accounts .smh-account__type--flickr:before {
   content: '\f16e';
-  font-family: FontAwesome;
+  font-family: 'Font Awesome 6 Pro';
   color: #444;
 }
 

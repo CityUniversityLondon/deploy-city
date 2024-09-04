@@ -1,366 +1,3 @@
-#content .button-list li p {
-  margin: 0 auto;
-}
-
-#content .button-list li a {
-  width: 89%;
-  margin: 0 0 10px 0;
-  display: block;
-}
-
-#content .button-list.two-columns li {
-  margin-bottom: 10px;
-}
-
-@media only screen and (min-width: 480px) {
-  #content .button-list li a {
-    width: 40%;
-  }
-
-  #content .button-list.two-columns li {
-    width: 48%;
-    float: left;
-    margin-right: 10px;
-  }
-
-  #content .button-list.two-columns li a {
-    width: auto;
-  }
-}
-
-@media only screen and (min-width: 500px) {
-  #content .button-list .big-action-button {
-    width: 192px;
-    padding: 8px 0px 8px 0px;
-    margin-bottom: 0;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  #content .button-list.two-columns li {
-    width: 39%;
-  }
-
-  #content .button-list.two-columns li a {
-    width: 86%;
-  }
-}
-
-@media only screen and (min-width: 980px) {
-  #content .button-list li a {
-    float: left;
-    width: 23%;
-    margin-right: 10px;
-  }
-}
-
-.action-p-button {
-  overflow: visible;
-  margin: 2px 0 15px;
-}
-
-.action-p-button a {
-  color: #FFFFFF;
-}
-
-.bordered-links:nth-of-type(1) {
-  border-top: 1px solid #ccc;
-}
-
-.bordered-links {
-  color: #333333 !important;
-  border-bottom: 1px solid #ccc !important;
-  display: table;
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none !important;
-  padding: 20px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-.bordered-links .icon {
-  color: #999999;
-  font-size: 2em;
-  line-height: 1em;
-  left: 20px;
-  position: relative;
-  -webkit-transition: left 0.2s ease;
-  transition: left 0.2s ease;
-}
-
-.bordered-links:hover .icon {
-  left: 30px;
-}
-
-.cta {
-  display: inline-block;
-}
-
-.cta a {
-  text-align: center;
-  margin: 0 auto;
-  display: inline-block;
-  padding: 5px 10px;
-  color: #fff;
-  border-radius: 4px;
-  font-weight: bold;
-}
-
-.cta a i,
-.cta a span.fa,
-.cta a .ui-accordion .ui-accordion-header span.ui-icon,
-.ui-accordion .ui-accordion-header .cta a span.ui-icon,
-.cta a .js .accordion .accordion__heading[data-open='true'] span.accordion__heading__indicator,
-.js .accordion .accordion__heading[data-open='true'] .cta a span.accordion__heading__indicator,
-.cta a .js .accordion span.accordion__heading__indicator,
-.js .accordion .cta a span.accordion__heading__indicator,
-.cta a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
-#courses-widget .widget-content .ui-accordion-header .cta a span.ui-icon {
-  float: right;
-  background-color: transparent;
-  vertical-align: middle;
-  line-height: 1.5em;
-  color: #fff;
-}
-
-.cta a:focus {
-  text-decoration: underline;
-}
-
-.cta a:focus i {
-  text-decoration: none;
-}
-
-.cta a:active {
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-.cta.display-block {
-  display: block;
-}
-
-.cta.display-block a {
-  display: block;
-}
-
-.soft-cta a {
-  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #f1f1f1 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#f1f1f1));
-  background-image: linear-gradient(to bottom, #f5f5f5 0%, #f1f1f1 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF5F5F5', endColorstr='#FFF1F1F1', GradientType=0);
-  color: #444;
-  border: 1px solid #dcdcdc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  font-weight: bold;
-}
-
-.soft-cta a i,
-.soft-cta a span.fa,
-.soft-cta a .ui-accordion .ui-accordion-header span.ui-icon,
-.ui-accordion .ui-accordion-header .soft-cta a span.ui-icon,
-.soft-cta a .js .accordion .accordion__heading[data-open='true'] span.accordion__heading__indicator,
-.js .accordion .accordion__heading[data-open='true'] .soft-cta a span.accordion__heading__indicator,
-.soft-cta a .js .accordion span.accordion__heading__indicator,
-.js .accordion .soft-cta a span.accordion__heading__indicator,
-.soft-cta a #courses-widget .widget-content .ui-accordion-header span.ui-icon,
-#courses-widget .widget-content .ui-accordion-header .soft-cta a span.ui-icon {
-  color: #444;
-}
-
-.soft-cta a:hover {
-  border: 1px solid #c6c6c6;
-}
-
-.soft-cta a:active {
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-.soft-cta a:focus {
-  border: 1px solid #4d90fe;
-}
-
-.mid-cta a {
-  background-color: #009bce;
-  border: 1px solid #009bce;
-}
-
-.mid-cta a:hover {
-  border: 1px solid #00759b;
-}
-
-.hard-cta a {
-  background-image: -webkit-linear-gradient(top, #b02a1a 0%, #a0271f 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#b02a1a), to(#a0271f));
-  background-image: linear-gradient(to bottom, #b02a1a 0%, #a0271f 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFB02A1A', endColorstr='#FFA0271F', GradientType=0);
-  border: 1px solid #a0271f;
-}
-
-.hard-cta a:hover {
-  border: 1px solid #670003;
-}
-
-.twitter-cta a {
-  border: 1px solid #00aced;
-  border-radius: 4px;
-  background: #00aced;
-  color: #fff;
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-
-.twitter-cta a:hover {
-  background: #21c2ff;
-}
-
-.facebook-cta a {
-  border: 1px solid #3b5998;
-  border-radius: 4px;
-  background: #3b5998;
-  color: #fff;
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-
-.facebook-cta a:hover {
-  background: #4c70ba;
-}
-
-.hallway-new {
-  margin-top: 30px;
-}
-
-.hallway-new .hallway-item {
-  height: auto;
-  margin-bottom: 30px;
-}
-
-@media only screen and (min-width: 980px) {
-  .hallway-new .hallway-item {
-    margin-bottom: 45px;
-  }
-}
-
-.hallway-new .hallway-item a {
-  display: block;
-  border: none;
-  text-decoration: none;
-}
-
-.hallway-new .hallway-item a img,
-.hallway-new .hallway-item a h2,
-.hallway-new .hallway-item a h3 {
-  margin: 0;
-}
-
-.hallway-new .hallway-item a h2,
-.hallway-new .hallway-item a h3 {
-  font-family: "ff-meta-web", Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  color: black;
-  -webkit-transition: color 200ms;
-  transition: color 200ms;
-  font-size: 20px;
-  margin-right: 15px;
-  position: relative;
-  padding: 0;
-  background: none;
-}
-
-.hallway-new .hallway-item a h2 span,
-.hallway-new .hallway-item a h3 span {
-  border-bottom: dotted 2px transparent;
-}
-
-.hallway-new .hallway-item a h2 .title-icon,
-.hallway-new .hallway-item a h3 .title-icon {
-  height: 100%;
-  right: -15px;
-  top: 0;
-  position: absolute;
-  vertical-align: middle;
-  width: auto;
-}
-
-.hallway-new .hallway-item a h2 .title-icon:before,
-.hallway-new .hallway-item a h3 .title-icon:before {
-  height: 100%;
-  content: '';
-  display: inline-block;
-  vertical-align: middle;
-  width: 0;
-}
-
-.hallway-new .hallway-item a h2 .title-icon span.fa,
-.hallway-new .hallway-item a h2 .title-icon .ui-accordion .ui-accordion-header span.ui-icon,
-.ui-accordion .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
-.hallway-new .hallway-item a h2 .title-icon .js .accordion span.accordion__heading__indicator,
-.js .accordion .hallway-new .hallway-item a h2 .title-icon span.accordion__heading__indicator,
-.hallway-new .hallway-item a h2 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon,
-#courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h2 .title-icon span.ui-icon,
-.hallway-new .hallway-item a h3 .title-icon span.fa,
-.hallway-new .hallway-item a h3 .title-icon .ui-accordion .ui-accordion-header span.ui-icon,
-.ui-accordion .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon,
-.hallway-new .hallway-item a h3 .title-icon .js .accordion span.accordion__heading__indicator,
-.js .accordion .hallway-new .hallway-item a h3 .title-icon span.accordion__heading__indicator,
-.hallway-new .hallway-item a h3 .title-icon #courses-widget .widget-content .ui-accordion-header span.ui-icon,
-#courses-widget .widget-content .ui-accordion-header .hallway-new .hallway-item a h3 .title-icon span.ui-icon {
-  display: inline-block;
-  margin: 0 auto;
-  vertical-align: middle;
-  border-bottom-color: transparent !important;
-}
-
-.hallway-new .hallway-item a p {
-  font-size: 15px;
-  color: #444;
-  display: none;
-}
-
-@media only screen and (min-width: 980px) {
-  .hallway-new .hallway-item a p {
-    display: block;
-  }
-}
-
-.hallway-new .hallway-item a .content {
-  position: relative;
-  z-index: 2;
-  margin: -30px 14px 0;
-  padding: 10px 14px 0;
-  background: white;
-}
-
-.hallway-new .hallway-item a .content p {
-  margin-right: 15px;
-  margin-bottom: 0;
-}
-
-.hallway-new .hallway-item a .image {
-  position: relative;
-}
-
-.hallway-new .hallway-item a .image img {
-  width: 100%;
-  opacity: 1;
-  -webkit-transition: opacity 0.2s ease;
-  transition: opacity 0.2s ease;
-  -webkit-backface-visibility: hidden;
-}
-
 .hallway-new .hallway-item a .image:after {
   content: "";
   background: #FFFFFF;
@@ -1609,7 +1246,7 @@
 
 .slick-prev:before,
 .slick-next:before {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 6 Pro";
   font-size: 20px;
   line-height: 1;
   color: #3e1031;
@@ -1628,11 +1265,11 @@
 }
 
 .slick-prev:before {
-  content: "";
+  content: \f137;
 }
 
 [dir='rtl'] .slick-prev:before {
-  content: "";
+  content: \f138;
 }
 
 .slick-next {
@@ -1645,11 +1282,11 @@
 }
 
 .slick-next:before {
-  content: "";
+  content: \f138;
 }
 
 [dir='rtl'] .slick-next:before {
-  content: "";
+  content: \f137;
 }
 
 /* Dots */
@@ -1701,10 +1338,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  content: "";
+  content: \f111;
   width: 20px;
   height: 20px;
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 6 Pro";
   font-size: 6px;
   line-height: 20px;
   text-align: center;

@@ -1,334 +1,3 @@
-#flickr-widget li {
-  background: #FFFFFF;
-  margin: 0;
-  padding: 0 5px;
-}
-
-#flickr-widget .imageurl {
-  display: none;
-}
-
-#flickr-widget li > a,
-#flickr-widget li > a img {
-  display: block;
-  margin: 0 auto;
-  border: 2px solid #FFFFFF;
-  background-color: transparent;
-  float: none;
-}
-
-#flickr-widget .image-meta {
-  min-height: 50px;
-  padding: 10px 10px 10px 70px;
-  margin: 0;
-  background: #FFFFFF no-repeat 10px 10px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: none;
-  opacity: 0.95;
-  filter: alpha(opacity=95);
-}
-
-#flickr-widget li {
-  position: relative;
-}
-
-#flickr-widget li:hover {
-  z-index: 99;
-}
-
-#flickr-widget li:hover .image-meta {
-  display: block;
-}
-
-#testimonials-widget.widget-one-item .widget-content {
-  padding: 10px;
-}
-
-#testimonials-widget .bx-wrapper {
-  padding: 0;
-  margin: 0 10px;
-}
-
-#testimonials-widget ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-#testimonials-widget ul li {
-  padding: 0;
-  margin: 0;
-}
-
-#testimonials-widget ul li:before,
-#testimonials-widget ul li:after {
-  content: " ";
-  display: table;
-}
-
-#testimonials-widget ul li:after {
-  clear: both;
-}
-
-#testimonials-widget .fa-quote-left {
-  color: #666666;
-  font-size: 1.6em;
-}
-
-#testimonials-widget .details {
-  margin: 0 0 10px 0;
-  overflow: hidden;
-}
-
-#testimonials-widget .name {
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-#testimonials-widget .position,
-#testimonials-widget .course,
-#testimonials-widget .year {
-  margin-bottom: 0;
-}
-
-#testimonials-widget .course {
-  margin-top: 0;
-}
-
-#testimonials-widget img {
-  float: left;
-  display: inline;
-  padding: 0 10px 0 0;
-}
-
-#testimonial-dialog .details {
-  margin: 0 0 10px 0;
-  overflow: hidden;
-  width: auto;
-  float: none;
-}
-
-#testimonial-dialog .details p {
-  margin: 0 0 5px 0;
-}
-
-#testimonial-dialog .details .name {
-  font-weight: bold;
-}
-
-#testimonial-dialog .details img {
-  float: left;
-  display: inline;
-  margin: 0 10px 0 0;
-}
-
-#profiles-widget .widget-content {
-  padding: 10px 0;
-}
-
-#profiles-widget ul {
-  padding: 0 10px;
-  margin: 0;
-  list-style-type: none;
-}
-
-#profiles-widget li > a {
-  display: block;
-  border: none;
-}
-
-#profiles-widget li > a span {
-  border-bottom: 1px solid #cccccc;
-}
-
-#profiles-widget li > a:hover span {
-  border: none;
-}
-
-#profiles-widget li > a:active,
-#profiles-widget li > a:focus {
-  background: none;
-}
-
-#profiles-widget li > a:active span,
-#profiles-widget li > a:focus span {
-  border: none;
-  background: #b02a1a;
-}
-
-#profiles-widget .thumbnail-wrapper {
-  background-color: #F9F9F9;
-  display: block;
-  margin: 0 10px 10px;
-}
-
-#profiles-widget .thumbnail-wrapper:hover {
-  border: 1px solid #CCCCCC;
-}
-
-@media only screen and (min-width: 320px) {
-  #profiles-widget .thumbnail-wrapper {
-    width: 50%;
-  }
-}
-
-@media only screen and (min-width: 480px) {
-  #profiles-widget .thumbnail-wrapper {
-    float: left;
-  }
-}
-
-@media only screen and (min-width: 500px) {
-  #profiles-widget .thumbnail-wrapper {
-    width: 40%;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  #profiles-widget .thumbnail-wrapper {
-    width: auto;
-    float: none;
-  }
-}
-
-#profiles-widget .person {
-  margin-bottom: 15px;
-  overflow: hidden;
-}
-
-#profiles-widget .thumbnail {
-  width: 100%;
-  vertical-align: middle;
-  margin-bottom: 0;
-}
-
-#profiles-widget .name {
-  font-size: 1.2em;
-  margin: 0 10px;
-}
-
-#profiles-widget .description,
-#profiles-widget .job-title,
-#profiles-widget .role-description,
-#profiles-widget .email,
-#profiles-widget .tel {
-  font-size: 1.2em;
-  margin: 10px 10px 0 10px;
-}
-
-#profiles-widget .job-title {
-  font-weight: 600;
-}
-
-.free-html {
-  background-color: transparent;
-}
-
-.city-vision-widget {
-  background-color: #B02A1A;
-  display: block;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 20px 15px 30px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 2.8em;
-  font-weight: normal;
-  line-height: 0.9em;
-}
-
-.city-vision-widget.city-vision-widget-alternate {
-  background-color: #00284D;
-}
-
-.city-vision-widget span {
-  display: block;
-  color: #FFFFFF;
-}
-
-.city-vision-widget hr {
-  position: relative;
-  top: 8px;
-  border-color: #cb8880;
-}
-
-.city-vision-widget .year {
-  background-color: #B02A1A;
-  color: white;
-  margin: -34px auto 0;
-  position: relative;
-  width: 120px;
-}
-
-@media only screen and (min-width: 768px) {
-  .city-vision-widget {
-    padding: 50px 15px 60px;
-  }
-}
-
-a.city-vision-widget:hover hr {
-  border-color: #B02A1A;
-}
-
-.free-widget-standard {
-  display: block;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 20px 15px 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.8em;
-  font-weight: normal;
-  line-height: 0.9em;
-  text-transform: uppercase;
-}
-
-.free-widget-standard a {
-  color: #FFFFFF;
-  text-decoration: none;
-  border: none;
-}
-
-#spotlight-research-widget .widget-content {
-  padding-left: 5px;
-}
-
-#spotlight-research-widget li {
-  background: #fff;
-}
-
-#spotlight-research-widget li:before,
-#spotlight-research-widget li:after {
-  content: " ";
-  display: table;
-}
-
-#spotlight-research-widget li:after {
-  clear: both;
-}
-
-#spotlight-research-widget .bx-wrapper {
-  margin: 0 5px 0 0;
-}
-
-#spotlight-research-widget h3 {
-  margin: 0 5px 0 5px;
-}
-
-#spotlight-research-widget h3 a {
-  font-weight: bold;
-}
-
-#spotlight-research-widget .thumbnail {
-  display: block;
-  margin: 6px auto 5px;
-  width: 97%;
-}
-
-#spotlight-research-widget .summary {
-  margin: 5px 5px 10px 5px;
-}
-
 #spotlight-research-widget.widget-one-item .widget-content {
   padding: 5px;
 }
@@ -1619,7 +1288,7 @@ or until modernizr tests for it (version 3?).
 .image-credit .image-credit__button .fa-info {
   color: inherit;
   font-size: 1.357em;
-  font-family: "FontAwesome";
+  font-family: 'Font Awesome 6 Pro';
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
@@ -1719,7 +1388,7 @@ or until modernizr tests for it (version 3?).
 }
 
 .credits-title:after {
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 6 Pro';
   content: "\f0d7";
   display: inline-block;
   width: auto;
@@ -1788,7 +1457,7 @@ or until modernizr tests for it (version 3?).
 
 .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(1) span:before {
   content: "\f060";
-  font-family: FontAwesome;
+  font-family: 'Font Awesome 6 Pro';
   padding-right: 10px;
 }
 
@@ -1798,7 +1467,7 @@ or until modernizr tests for it (version 3?).
 
 .cyclic-popup.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:nth-child(2) span:after {
   content: "\f061";
-  font-family: FontAwesome;
+  font-family: 'Font Awesome 6 Pro';
   padding-left: 10px;
 }
 
@@ -4734,7 +4403,7 @@ or until modernizr tests for it (version 3?).
   top: 0;
   left: 0;
   border-radius: 50%;
-  font-family: "FontAwesome";
+  font-family: 'Font Awesome 6 Pro';
   font-size: 1.250em;
   line-height: 1.5;
   text-align: center;
@@ -15814,4 +15483,232 @@ table.visa-event-table tr td {
 
 .destinations__charts__chart {
   padding: 0 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .destinations__course__charts > .row div:not(:last-child) .destinations__charts__chart__wrapper {
+    position: relative;
+  }
+
+  .destinations__course__charts > .row div:not(:last-child) .destinations__charts__chart__wrapper:after {
+    content: ' ';
+    position: absolute;
+    height: 60%;
+    top: 20%;
+    right: -21px;
+    width: 2px;
+    background: #ccc;
+  }
+
+  .destinations__course__charts > .row .destinations__charts__chart {
+    padding: 0 10px;
+  }
+
+  .destinations__course__charts > .row div:first-child .destinations__charts__chart {
+    padding-left: 20px;
+  }
+
+  .destinations__course__charts > .row div:last-child .destinations__charts__chart {
+    padding-right: 20px;
+  }
+}
+
+.js .destinations__charts__chart__table,
+.js .destinations__submit {
+  display: none;
+}
+
+.destinations__charts__chart__title {
+  color: #888;
+  margin: 0;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.destinations__course__tables {
+  margin-top: 30px;
+}
+
+.destinations__course__salary {
+  margin-top: 40px;
+}
+
+.destinations__course__salary span {
+  color: #666;
+}
+
+.link-list--school-landing-page {
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+.link-list--school-landing-page h2 {
+  font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.link-list--school-landing-page h2 .fa,
+.link-list--school-landing-page h2 .ui-accordion .ui-accordion-header .ui-icon,
+.ui-accordion .ui-accordion-header .link-list--school-landing-page h2 .ui-icon,
+.link-list--school-landing-page h2 .js .accordion .accordion__heading[data-open='true'] .accordion__heading__indicator,
+.js .accordion .accordion__heading[data-open='true'] .link-list--school-landing-page h2 .accordion__heading__indicator,
+.link-list--school-landing-page h2 .js .accordion .accordion__heading__indicator,
+.js .accordion .link-list--school-landing-page h2 .accordion__heading__indicator,
+.link-list--school-landing-page h2 #courses-widget .widget-content .ui-accordion-header .ui-icon,
+#courses-widget .widget-content .ui-accordion-header .link-list--school-landing-page h2 .ui-icon,
+.link-list--school-landing-page h2 .dialog button,
+.dialog .link-list--school-landing-page h2 button,
+.link-list--school-landing-page h2 .white-card__media .embed-container a:before,
+.white-card__media .embed-container .link-list--school-landing-page h2 a:before,
+.link-list--school-landing-page h2 .course .accordion.ui-accordion .ui-accordion-header .ui-icon,
+.course .accordion.ui-accordion .ui-accordion-header .link-list--school-landing-page h2 .ui-icon {
+  margin-left: 20px;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--sass h2 a:link,
+.link-list--school-landing-page.link-list--school-landing-page--sass h2 a:visited {
+  color: #333;
+  border-bottom: 2px solid #f15f22;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--sass h2:first-child a:link,
+.link-list--school-landing-page.link-list--school-landing-page--sass h2:first-child a:visited {
+  border-bottom-color: #f8b141;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--sass h2:first-child a:hover {
+  border-bottom-color: #000;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--sass h2:first-child a:focus,
+.link-list--school-landing-page.link-list--school-landing-page--sass h2:first-child a:active {
+  border-bottom-color: #999;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--sass h2 a:hover {
+  color: #333;
+  border-bottom-color: #f8b141;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--sass h2 a:focus,
+.link-list--school-landing-page.link-list--school-landing-page--sass h2 a:active {
+  border-bottom: #999 dotted 2px;
+  background: none;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--health h2 a:link,
+.link-list--school-landing-page.link-list--school-landing-page--health h2 a:visited {
+  color: #333;
+  border-bottom: 2px solid #00284c;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--health h2:first-child a:link,
+.link-list--school-landing-page.link-list--school-landing-page--health h2:first-child a:visited {
+  border-bottom-color: #0077a0;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--health h2:first-child a:hover {
+  border-bottom-color: #000;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--health h2:first-child a:focus,
+.link-list--school-landing-page.link-list--school-landing-page--health h2:first-child a:active {
+  border-bottom-color: #999;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--health h2 a:hover {
+  color: #333;
+  border-bottom-color: #0077a0;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--health h2 a:focus,
+.link-list--school-landing-page.link-list--school-landing-page--health h2 a:active {
+  border-bottom: #999 dotted 2px;
+  background: none;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:link,
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:visited {
+  color: #333;
+  border-bottom: 2px solid #00444d;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:link,
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:visited {
+  border-bottom-color: #649a44;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:hover {
+  border-bottom-color: #000;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:focus,
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:active {
+  border-bottom-color: #999;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:hover {
+  color: #333;
+  border-bottom-color: #649a44;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:focus,
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:active {
+  border-bottom: #999 dotted 2px;
+  background: none;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--law h2 a:link,
+.link-list--school-landing-page.link-list--school-landing-page--law h2 a:visited {
+  color: #333;
+  border-bottom: 2px solid #401663;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--law h2:first-child a:link,
+.link-list--school-landing-page.link-list--school-landing-page--law h2:first-child a:visited {
+  border-bottom-color: #842b91;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--law h2:first-child a:hover {
+  border-bottom-color: #000;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--law h2:first-child a:focus,
+.link-list--school-landing-page.link-list--school-landing-page--law h2:first-child a:active {
+  border-bottom-color: #999;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--law h2 a:hover {
+  color: #333;
+  border-bottom-color: #842b91;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--law h2 a:focus,
+.link-list--school-landing-page.link-list--school-landing-page--law h2 a:active {
+  border-bottom: #999 dotted 2px;
+  background: none;
+}
+
+.link-list--school-landing-page ul:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.school-landing-ctas {
+  padding: 10px 20px 10px;
+  background: #eee;
+}
+
+.school-landing-ctas h2 {
+  font-family: "ff-meta-web", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.school-landing-ctas.school-landing-ctas--sass a {
+  display: block;
+  margin-bottom: 16px;
+  padding: 8px;
+  font-size: 1.1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  background: #fff;
+  border: 2px solid #fff;
 }
