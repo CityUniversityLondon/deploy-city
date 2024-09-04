@@ -5523,12 +5523,12 @@ aside .news-article-widget:last-child {
 }
 
 .library-services-feed__item {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #cccccc;
   margin-bottom: 20px;
 }
 
 .library-services-feed__item-heading {
-  font-size: 16px;
+  font-size: 17.5px;
   margin-bottom: 0;
 }
 
