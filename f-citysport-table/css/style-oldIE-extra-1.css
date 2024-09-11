@@ -2492,6 +2492,23 @@ pre code {
   visibility: hidden !important;
 }
 
+.sr-only,
+.promo-wrapper--clearing .image-under,
+.home .home-studying-clearing,
+.intranet-home h1,
+.modal:not([class*='active']),
+.modal--delete:not([class*='active']),
+.social-media-hub h1 {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 .affix {
   position: fixed;
   -webkit-transform: translate3d(0, 0, 0);
@@ -16477,33 +16494,4 @@ a.city-vision-widget:hover hr {
 
 #social-list a.osw.youtube {
   background-position: 0 -156px;
-}
-
-#social-list a.osw.linkedin {
-  background-position: 0 -208px;
-}
-
-#social-list a.osw.pinterest {
-  background-position: 0 -260px;
-}
-
-#social-list a.osw.instagram {
-  background-position: 0 -312px;
-}
-
-#social-list a span {
-  border-bottom: 1px solid #ccc;
-  line-height: 28px;
-}
-
-#social-list a:hover {
-  text-decoration: none;
-}
-
-#social-list a:hover span {
-  border-bottom: none;
-}
-
-#social-list a:focus span {
-  background: #B02A1A;
 }

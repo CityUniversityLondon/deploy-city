@@ -1404,6 +1404,16 @@ pre {
   display: none !important;
   visibility: hidden !important; }
 
+.sr-only, .promo-wrapper--clearing .image-under, .home .home-studying-clearing, .intranet-home h1, .modal:not([class*='active']), .modal--delete:not([class*='active']), .social-media-hub h1 {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
 .affix {
   position: fixed;
   -webkit-transform: translate3d(0, 0, 0);

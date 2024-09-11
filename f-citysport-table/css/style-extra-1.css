@@ -2492,6 +2492,23 @@ pre code {
   visibility: hidden !important;
 }
 
+.sr-only,
+.promo-wrapper--clearing .image-under,
+.home .home-studying-clearing,
+.intranet-home h1,
+.modal:not([class*='active']),
+.modal--delete:not([class*='active']),
+.social-media-hub h1 {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 .affix {
   position: fixed;
   -webkit-transform: translate3d(0, 0, 0);
@@ -16730,36 +16747,4 @@ a.city-vision-widget:hover hr {
 
 #spotlight-research-widget li {
   background: #fff;
-}
-
-#spotlight-research-widget li:before,
-#spotlight-research-widget li:after {
-  content: " ";
-  display: table;
-}
-
-#spotlight-research-widget li:after {
-  clear: both;
-}
-
-#spotlight-research-widget .bx-wrapper {
-  margin: 0 5px 0 0;
-}
-
-#spotlight-research-widget h3 {
-  margin: 0 5px 0 5px;
-}
-
-#spotlight-research-widget h3 a {
-  font-weight: bold;
-}
-
-#spotlight-research-widget .thumbnail {
-  display: block;
-  margin: 6px auto 5px;
-  width: 97%;
-}
-
-#spotlight-research-widget .summary {
-  margin: 5px 5px 10px 5px;
 }

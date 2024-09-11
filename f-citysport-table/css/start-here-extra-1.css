@@ -2486,6 +2486,17 @@ pre code {
   visibility: hidden !important;
 }
 
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 .affix {
   position: fixed;
   -webkit-transform: translate3d(0, 0, 0);
@@ -15967,12 +15978,4 @@ readers do not read off random characters that represent icons */
 
 .hallway-new .hallway-item a .image {
   position: relative;
-}
-
-.hallway-new .hallway-item a .image img {
-  width: 100%;
-  opacity: 1;
-  -webkit-transition: opacity 0.2s ease;
-  transition: opacity 0.2s ease;
-  -webkit-backface-visibility: hidden;
 }

@@ -1,3 +1,32 @@
+#social-list a.osw.linkedin {
+  background-position: 0 -208px;
+}
+
+#social-list a.osw.pinterest {
+  background-position: 0 -260px;
+}
+
+#social-list a.osw.instagram {
+  background-position: 0 -312px;
+}
+
+#social-list a span {
+  border-bottom: 1px solid #ccc;
+  line-height: 28px;
+}
+
+#social-list a:hover {
+  text-decoration: none;
+}
+
+#social-list a:hover span {
+  border-bottom: none;
+}
+
+#social-list a:focus span {
+  background: #B02A1A;
+}
+
 .widget.navigation-widget h2,
 .widget.navigation-widget .widget-content {
   background: none;
@@ -15241,23 +15270,4 @@ p.left-float-image {
 .project a.service__header-link:visited,
 .project a.project__header-link:visited {
   color: #333333;
-}
-
-.service a.service__header-link:hover,
-.service a.project__header-link:hover,
-.project a.service__header-link:hover,
-.project a.project__header-link:hover {
-  color: #b91b1b;
-  border-bottom-style: solid;
-  border-bottom-color: #b91b1b;
-}
-
-.service a.service__header-link:focus,
-.service a.project__header-link:focus,
-.project a.service__header-link:focus,
-.project a.project__header-link:focus {
-  background-color: #FFFFFF;
-  color: #b91b1b;
-  border-bottom-style: dotted;
-  border-bottom-color: #555555;
 }
