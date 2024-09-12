@@ -16,7 +16,6 @@ module.exports = function () {
  * addIcon(element, ['fa-kit', 'fa-share'], false); // Prepends multiple classes
  */
     function addIcon(element, classes, append = false) {
-        console.log('ddd')
         if (element && classes) {
             // Create span for FA icon
             const spanNode = document.createElement('span');
@@ -41,18 +40,23 @@ module.exports = function () {
  * Checks if provided element is a sharepoint link and if so adds the fa-sharepoint icon.
  *
 */
-    function findSharepointLink(anchor){
+    function findSharepointLink(anchor) {
         const url = new URL(anchor.href);
-        if (url.hostname.endsWith('sharepoint.com')) {
+        const excludedExtensions = ['.pdf', '.docx', '.xlsx', '.pptx', '.xls', '.doc']; 
+        const pathname = url.pathname.toLowerCase();
+
+        // Check if the URL hostname ends with sharepoint.com and does not have an excluded extension
+        const hasExcludedExtension = excludedExtensions.some(ext => pathname.endsWith(ext));
+
+        if (url.hostname.endsWith('sharepoint.com') && !hasExcludedExtension) {
             const firstChild = anchor.firstChild;
             if (firstChild && firstChild.nodeType === 3) {
-                //Only add the icon if first child of anchor is a text node, this will avoid adding an icon when one is already in place.
-                addIcon(anchor,['fa-kit','fa-sharepoint']);
-
-                addIcon(anchor,['fa','fa-external-link'], true);
-              }   
+                // Only add the icon if the first child of anchor is a text node, avoiding duplicate icons
+                addIcon(anchor, ['fa-kit', 'fa-sharepoint']);
+            }
         }
     }
+
 
 
     /**
