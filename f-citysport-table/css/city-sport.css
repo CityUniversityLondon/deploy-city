@@ -6615,7 +6615,7 @@ h1, h2, h3 {
     border: 1px solid #dddddd;
     text-align: left; }
   .citysport__table thead th {
-    background-color: #A42619;
+    background-color: #D61726;
     /* AAA color*/
     color: #FFFFFF; }
   .citysport__table td {
@@ -6651,7 +6651,7 @@ h1, h2, h3 {
       .citysport__table td[data-label]:before {
         content: attr(data-label); }
       .citysport__table tbody th {
-        background-color: #A42619;
+        background-color: #D61726;
         /* AAA color*/
         color: #FFFFFF;
         font-weight: bold;
