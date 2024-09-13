@@ -1,4 +1,4 @@
-module.exports = function () {
+module.exports = function (bodyElement) {
 
 
 /**
@@ -64,7 +64,7 @@ module.exports = function () {
      *
      */
     function findLinks() {
-        const anchors = document.querySelectorAll('a');
+        const anchors = bodyElement.querySelectorAll('a');
 
         anchors.forEach(function (anchor) {
             findSharepointLink(anchor);

@@ -152,6 +152,7 @@ module.exports = (function() {
              */
             initPage = function() {
                 var $body = $('body'),
+                    bodyElement = document.querySelector('body'), //Vanilla JS reference to the body tag
                     $form = $body.find('#search, #header__search__form'),
                     $searchForm = $body.find(
                         ".search-form[data-autocomplete-status!='off']"
@@ -181,6 +182,8 @@ module.exports = (function() {
                     // misc.
                     currentUrl = $primaryNav.data('url') || '',
                     modifySecNav = currentUrl.indexOf('/my-country/') < 0;
+
+                    
                 //end initPage vars
 
                 // svg fallback
@@ -212,7 +215,7 @@ module.exports = (function() {
                 // traversing for Image Credits
                 imageCreditation();
                 researchPubs();
-                linkFinder();
+                linkFinder(bodyElement);
 
                 $galleries.each(function() {
                     createGallery($(this));
