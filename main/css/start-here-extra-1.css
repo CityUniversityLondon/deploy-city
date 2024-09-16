@@ -2474,6 +2474,17 @@ pre code {
   visibility: hidden!important;
 }
 
+.sr-only {
+  border: 0;
+  clip: rect(0,0,0,0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 .affix {
   position: fixed;
   -webkit-transform: translate3d(0,0,0);
@@ -15823,9 +15834,4 @@ a:focus {
 
 .hallway-new .hallway-item a:hover .image img {
   opacity: .75;
-}
-
-.hallway-new .hallway-item a:active,
-.hallway-new .hallway-item a:focus {
-  background: 0 0;
 }

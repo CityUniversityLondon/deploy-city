@@ -2480,6 +2480,23 @@ pre code {
   visibility: hidden!important;
 }
 
+.home .home-studying-clearing,
+.intranet-home h1,
+.modal--delete:not([class*=active]),
+.modal:not([class*=active]),
+.promo-wrapper--clearing .image-under,
+.social-media-hub h1,
+.sr-only {
+  border: 0;
+  clip: rect(0,0,0,0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 .affix {
   position: fixed;
   -webkit-transform: translate3d(0,0,0);
@@ -7182,6 +7199,30 @@ button.ui-button::-moz-focus-inner {
 .fa-thin,
 .fast {
   font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Font Awesome Kit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(../fonts/fontawesome/custom-icons.woff2) format("woff2"),url(../fonts/fontawesome/custom-icons.ttf) format("truetype");
+}
+
+.fa-kit,
+.fak {
+  font-family: "Font Awesome Kit";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display,inline-block);
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+}
+
+.fa-kit.fa-sharepoint:before,
+.fak.fa-sharepoint:before {
+  content: "";
 }
 
 #courses-widget .widget-content .ui-accordion-header .fa-building-o.ui-icon,
@@ -16143,63 +16184,4 @@ a.city-vision-widget:hover hr {
 
 #social-list a:focus span {
   background: #B02A1A;
-}
-
-.widget.navigation-widget .widget-content,
-.widget.navigation-widget h2 {
-  background: 0 0;
-}
-
-.widget.navigation-widget h2 {
-  border-bottom: 2px solid #ddd;
-  padding: 0;
-}
-
-.widget.navigation-widget ul {
-  list-style-type: none;
-  margin: 0;
-}
-
-.widget.navigation-widget li {
-  border-bottom: 1px solid #ddd;
-}
-
-.widget.navigation-widget a {
-  display: block;
-  padding: 5px 10px;
-  position: relative;
-  border: none;
-}
-
-.widget.navigation-widget a::before {
-  position: absolute;
-  top: 2px;
-  left: 0;
-  height: 26px;
-  width: 4px;
-  background: #b02a1a;
-}
-
-.widget.navigation-widget a:hover {
-  background: #eee;
-  color: #b02a1a;
-}
-
-.widget.navigation-widget a:visited {
-  color: #b02a1a;
-}
-
-.widget.navigation-widget a:focus {
-  background: #b02a1a;
-  color: #fff;
-}
-
-.widget.navigation-widget a:active {
-  background: #eee;
-  color: #333;
-  border: none;
-}
-
-.widget.navigation-widget a:active::before {
-  content: ' ';
 }

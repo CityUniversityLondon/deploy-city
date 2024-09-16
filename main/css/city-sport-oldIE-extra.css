@@ -2472,6 +2472,17 @@ pre code {
   visibility: hidden!important;
 }
 
+.sr-only {
+  border: 0;
+  clip: rect(0,0,0,0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 .affix {
   position: fixed;
   -webkit-transform: translate3d(0,0,0);
@@ -7139,6 +7150,96 @@ h3 {
 
 .responsive-map-wrapper {
   max-width: 640px;
+}
+
+.citysport__table {
+  width: 100%;
+  display: block;
+}
+
+.citysport__table table {
+  border-collapse: collapse;
+  margin: 1.25rem 0;
+}
+
+.citysport__table td,
+.citysport__table th {
+  padding: .75rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.citysport__table thead th {
+  background-color: #D61726;
+  color: #FFF;
+}
+
+.citysport__table td {
+  white-space: nowrap;
+}
+
+@media screen and (max-width:979px) {
+  .citysport__table table,
+  .citysport__table tbody,
+  .citysport__table td,
+  .citysport__table th,
+  .citysport__table thead,
+  .citysport__table tr {
+    display: block;
+  }
+
+  .citysport__table thead tr {
+    display: none;
+  }
+
+  .citysport__table tr {
+    margin-bottom: 1rem;
+  }
+
+  .citysport__table td {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-left: initial;
+    text-align: right;
+    position: relative;
+    white-space: initial;
+  }
+
+  .citysport__table td::before {
+    content: attr(data-label);
+    position: relative;
+    left: 0;
+    width: 50%;
+    padding-left: 1rem;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .citysport__table td[data-label]:before {
+    content: attr(data-label);
+  }
+
+  .citysport__table tbody th {
+    background-color: #D61726;
+    color: #FFF;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 1rem;
+  }
+
+  .citysport__table td:first-child::before {
+    content: none;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .citysport__table td {
+    margin-bottom: .5rem;
+  }
 }
 
 .home .content .content-links {

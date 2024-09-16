@@ -2480,6 +2480,23 @@ pre code {
   visibility: hidden!important;
 }
 
+.home .home-studying-clearing,
+.intranet-home h1,
+.modal--delete:not([class*=active]),
+.modal:not([class*=active]),
+.promo-wrapper--clearing .image-under,
+.social-media-hub h1,
+.sr-only {
+  border: 0;
+  clip: rect(0,0,0,0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 .affix {
   position: fixed;
   -webkit-transform: translate3d(0,0,0);
@@ -7182,6 +7199,30 @@ button.ui-button::-moz-focus-inner {
 .fa-thin,
 .fast {
   font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Font Awesome Kit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(../fonts/fontawesome/custom-icons.woff2) format("woff2"),url(../fonts/fontawesome/custom-icons.ttf) format("truetype");
+}
+
+.fa-kit,
+.fak {
+  font-family: "Font Awesome Kit";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display,inline-block);
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+}
+
+.fa-kit.fa-sharepoint:before,
+.fak.fa-sharepoint:before {
+  content: "";
 }
 
 #courses-widget .widget-content .ui-accordion-header .fa-building-o.ui-icon,
@@ -16405,21 +16446,4 @@ a.city-vision-widget:hover hr {
 
 #spotlight-research-widget.widget-one-item .widget-content {
   padding: 5px;
-}
-
-#spotlight-research-widget.widget-one-item ul {
-  margin: 0;
-}
-
-#spotlight-research-widget.widget-one-item li {
-  display: block;
-}
-
-#events-widget .widget-content ol,
-#events-widget .widget-content ul,
-#news-widget .widget-content ol,
-#news-widget .widget-content ul,
-#rss-widget .widget-content ol,
-#rss-widget .widget-content ul {
-  margin: 5px 0;
 }

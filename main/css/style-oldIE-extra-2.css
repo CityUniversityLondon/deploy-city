@@ -1,3 +1,62 @@
+.widget.navigation-widget .widget-content,
+.widget.navigation-widget h2 {
+  background: 0 0;
+}
+
+.widget.navigation-widget h2 {
+  border-bottom: 2px solid #ddd;
+  padding: 0;
+}
+
+.widget.navigation-widget ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.widget.navigation-widget li {
+  border-bottom: 1px solid #ddd;
+}
+
+.widget.navigation-widget a {
+  display: block;
+  padding: 5px 10px;
+  position: relative;
+  border: none;
+}
+
+.widget.navigation-widget a::before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 26px;
+  width: 4px;
+  background: #b02a1a;
+}
+
+.widget.navigation-widget a:hover {
+  background: #eee;
+  color: #b02a1a;
+}
+
+.widget.navigation-widget a:visited {
+  color: #b02a1a;
+}
+
+.widget.navigation-widget a:focus {
+  background: #b02a1a;
+  color: #fff;
+}
+
+.widget.navigation-widget a:active {
+  background: #eee;
+  color: #333;
+  border: none;
+}
+
+.widget.navigation-widget a:active::before {
+  content: ' ';
+}
+
 .widget.navigation-widget li.selected a {
   background: #eee;
   color: #333;
@@ -14970,29 +15029,4 @@ p.left-float-image {
   color: #b91b1b;
   border-bottom-style: dotted;
   border-bottom-color: #555;
-}
-
-.project a.project__header-link:active,
-.project a.service__header-link:active,
-.service a.project__header-link:active,
-.service a.service__header-link:active {
-  background-color: #FFF;
-}
-
-.project a.project__header-link i,
-.project a.service__header-link i,
-.service a.project__header-link i,
-.service a.service__header-link i {
-  font-size: .8em;
-  margin-left: .3em;
-}
-
-.project a.project__cta:link,
-.project a.service__cta:link,
-.service a.project__cta:link,
-.service a.service__cta:link {
-  color: #b91b1b;
-  border-bottom-width: 2px;
-  border-bottom-style: dotted;
-  border-bottom-color: #999;
 }

@@ -1,3 +1,8 @@
+.hallway-new .hallway-item a:active,
+.hallway-new .hallway-item a:focus {
+  background: 0 0;
+}
+
 .hallway-new .hallway-item a:active h2,
 .hallway-new .hallway-item a:active h3,
 .hallway-new .hallway-item a:focus h2,
