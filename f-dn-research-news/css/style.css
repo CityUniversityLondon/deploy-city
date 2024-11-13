@@ -12042,6 +12042,7 @@ or until modernizr tests for it (version 3?).
     position: relative; } }
 
 .article-listing {
+  background-color: black;
   overflow: hidden; }
   .article-listing.ul {
     list-style-type: none; }
