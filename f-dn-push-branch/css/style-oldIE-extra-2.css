@@ -624,6 +624,7 @@ or until modernizr tests for it (version 3?).
 }
 
 .article-listing {
+  background-color: red;
   overflow: hidden;
 }
 

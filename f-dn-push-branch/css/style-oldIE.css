@@ -11868,6 +11868,7 @@ or until modernizr tests for it (version 3?).
   width: auto; }
 
 .article-listing {
+  background-color: red;
   overflow: hidden; }
   .article-listing.ul {
     list-style-type: none; }
