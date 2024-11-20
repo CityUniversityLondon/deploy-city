@@ -753,31 +753,7 @@
 @media only screen and (min-width:320px) {
   .news-events-aggregate .city-news .detail,
   .news-events-aggregate .spotlight-on-research .detail {
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-  }
-
-  .news-events-aggregate .city-news .description,
-  .news-events-aggregate .spotlight-on-research .description {
-    border: 0 none;
-    clip: rect(0,0,0,0);
-    display: block;
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    position: absolute;
-    width: 1px;
-  }
-
-  .news-events-aggregate .city-news a:hover .description,
-  .news-events-aggregate .spotlight-on-research a:hover .description {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+    position: relative;
   }
 }
 
