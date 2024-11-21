@@ -1,3 +1,13 @@
+.conference-listing .conference-listing__anchor .conference-listing__date,
+.conference-listing .conference-listing__anchor .conference-listing__description {
+  color: #444444;
+}
+
+.conference-listing .conference-listing__image {
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+}
+
 .conference-listing .conference-listing__image img {
   height: auto;
   width: auto;

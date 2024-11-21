@@ -27360,9 +27360,12 @@ dl.staffhub-dl dd {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
-  grid-template-areas: 'header header' 'main side'; }
+  grid-template-areas: 'header header' 'main main' 'side side'; }
   .opening-times-list-card h2 {
     grid-area: header; }
+  @media only screen and (min-width: 768px) {
+    .opening-times-list-card {
+      grid-template-areas: 'header header' 'main side'; } }
 
 .opening-times-weeks {
   grid-area: main; }
@@ -27399,9 +27402,11 @@ dl.staffhub-dl dd {
       padding-left: 0.75em; } }
 
 .opening-times-info {
-  margin-top: 1.5em;
   border: 1px solid #999999;
   padding: 0.75em; }
+  @media only screen and (min-width: 768px) {
+    .opening-times-info {
+      margin-top: 1.5em; } }
   .opening-times-info h3 {
     border-bottom: 1px solid #999999; }
     .opening-times-info h3:not(:first-of-type) {
