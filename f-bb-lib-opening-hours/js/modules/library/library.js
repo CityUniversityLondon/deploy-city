@@ -465,7 +465,6 @@ CITY.library = (function($) {
             }
         },
         init = function() {
-            console.log('test libraryww')
             $emptyHeadings.remove();
             $dropdown.on('click', toggleOption);
             $('.library-search__content-type').change(selectChange);
@@ -499,4 +498,6 @@ CITY.library = (function($) {
 })($);
 
 //call init fn
-//CITY.library.init();
+CITY.library.init();
+
+

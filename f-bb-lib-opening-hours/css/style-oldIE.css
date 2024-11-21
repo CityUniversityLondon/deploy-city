@@ -26754,6 +26754,18 @@ dl.staffhub-dl dd {
   grid-area: side;
   margin-bottom: auto; }
 
+.opening-times-panel {
+  display: none; }
+  .opening-times-panel--active {
+    display: block; }
+
+.opening-times-table {
+  opacity: 0;
+  -webkit-transition: opacity .5s ease-in;
+  transition: opacity .5s ease-in; }
+  .opening-times-panel--fade-in .opening-times-table {
+    opacity: 1; }
+
 .opening-times-panel--right {
   padding-top: 1.5em;
   padding-top: 0;
@@ -26829,6 +26841,7 @@ dl.staffhub-dl dd {
     height: 2.429em;
     display: block;
     padding: 0.5em 1.25em;
+    border: none;
     border-bottom-width: 0 !important;
     position: relative;
     overflow-x: hidden;
@@ -26838,6 +26851,9 @@ dl.staffhub-dl dd {
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none; }
+    .opening-times-navigation .calendarNavLink[disabled] {
+      opacity: .2;
+      cursor: none; }
     .opening-times-navigation .calendarNavLink:hover, .opening-times-navigation .calendarNavLink:focus {
       background-color: #96190b;
       cursor: pointer; }

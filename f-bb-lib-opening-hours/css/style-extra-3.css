@@ -8571,6 +8571,24 @@ dl.staffhub-dl dd {
   margin-bottom: auto;
 }
 
+.opening-times-panel {
+  display: none;
+}
+
+.opening-times-panel--active {
+  display: block;
+}
+
+.opening-times-table {
+  opacity: 0;
+  -webkit-transition: opacity .5s ease-in;
+  transition: opacity .5s ease-in;
+}
+
+.opening-times-panel--fade-in .opening-times-table {
+  opacity: 1;
+}
+
 .opening-times-panel--right {
   padding-top: 1.5em;
 }
@@ -8700,6 +8718,7 @@ dl.staffhub-dl dd {
   height: 2.429em;
   display: block;
   padding: 0.5em 1.25em;
+  border: none;
   border-bottom-width: 0 !important;
   position: relative;
   overflow-x: hidden;
@@ -8709,6 +8728,11 @@ dl.staffhub-dl dd {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.opening-times-navigation .calendarNavLink[disabled] {
+  opacity: .2;
+  cursor: none;
 }
 
 .opening-times-navigation .calendarNavLink:hover,
@@ -15773,20 +15797,4 @@ fieldset .col-xs-24 {
 .conference-listing .conference-listing__image {
   -ms-flex-preferred-size: 25%;
   flex-basis: 25%;
-}
-
-.conference-listing .conference-listing__image img {
-  height: auto;
-  width: auto;
-}
-
-.conference-listing .conference-listing__details {
-  -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
-}
-
-.conference-listing .conference-listing__image + .conference-listing__details {
-  -ms-flex-preferred-size: 75%;
-  flex-basis: 75%;
-  margin-left: 1em;
 }

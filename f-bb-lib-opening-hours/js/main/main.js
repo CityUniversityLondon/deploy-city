@@ -1,4 +1,5 @@
 module.exports = (function() {
+    console.log('ssss');
     var $ = require('./jquery'),
         debug = require('../utils/debug'),
         customAJAX = require('./funcs/custom-ajax'),
@@ -27,8 +28,6 @@ module.exports = (function() {
         linkFinder = require('./funcs/link-finder'),
         researchPubs = require('./funcs/research-publications');
         accordion2024 = require('./funcs/accordion-2024');
-
-
     /**
      * The main CITY wrapper object
      * @version $Revision: 6291 $ ($Date: 2012-09-05 16:06:30 +0100 (Wed, 05 Sep 2012) $)
@@ -647,14 +646,15 @@ module.exports = (function() {
 
                 //// library home page opening times
                 if ($('#library').length !== 0) {
+                    console.log('tttt')
                     yepnope({
-                        load: 'modules/library/library.js',
+                        load: 'modules/library/library-opening-times.js',
                         callback: function() {
                             debug('loaded library datepicker');
                         },
                     });
                 }
-
+  
                 // the following needs domready
                 $(function() {
                     // set up any videos on page
