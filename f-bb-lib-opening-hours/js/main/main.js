@@ -104,7 +104,7 @@ module.exports = (function() {
                     'citysport.org.uk',
                     'city.ac.uk'
                 ) +
-                '/__data/assets/git_bridge/0018/344007/main/js/',
+                '/__data/assets/git_bridge/0004/841405/main/js/',
             /**
              * The version number to prepend to the file name, set in page
              * @var String
