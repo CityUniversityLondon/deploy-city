@@ -21,7 +21,7 @@ CITY.clearingTimeline = (function () {
 
     if ($clearingTable.length) {
         yepnope({
-            load: "https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/js/lib/jquery/plugins/dataTables/jquery.dataTables.min.js",
+            load: "https://www.city.ac.uk/__data/assets/git_bridge/0004/841405/main/js/lib/jquery/plugins/dataTables/jquery.dataTables.min.js",
             complete : function() {
 
                 /**

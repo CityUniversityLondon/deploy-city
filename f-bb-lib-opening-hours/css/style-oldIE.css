@@ -8928,7 +8928,7 @@ input[type="checkbox"]:disabled {
     color: #555; }
 
 .connect-with-us .social-icon {
-  background: url("https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/home/social.png") no-repeat 0 -30px;
+  background: url("https://www.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/home/social.png") no-repeat 0 -30px;
   display: block;
   line-height: 27px;
   height: 27px;
@@ -15465,28 +15465,28 @@ or until modernizr tests for it (version 3?).
 
 .coloured-action-box.coloured-action-box--start .coloured-action-box__title {
   background-color: #dc1a30;
-  background-image: url("https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/cityventures/start.png"); }
+  background-image: url("https://www.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/cityventures/start.png"); }
 
 .coloured-action-box.coloured-action-box--start a span {
   color: #dc1a30; }
 
 .coloured-action-box.coloured-action-box--launch .coloured-action-box__title {
   background-color: #7e1e91;
-  background-image: url("https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/cityventures/launch.png"); }
+  background-image: url("https://www.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/cityventures/launch.png"); }
 
 .coloured-action-box.coloured-action-box--launch a span {
   color: #7e1e91; }
 
 .coloured-action-box.coloured-action-box--scale .coloured-action-box__title {
   background-color: #18739f;
-  background-image: url("https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/cityventures/scale.png"); }
+  background-image: url("https://www.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/cityventures/scale.png"); }
 
 .coloured-action-box.coloured-action-box--scale a span {
   color: #18739f; }
 
 .coloured-action-box.coloured-action-box--connect .coloured-action-box__title {
   background-color: #a39995;
-  background-image: url("https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/cityventures/connect.png"); }
+  background-image: url("https://www.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/cityventures/connect.png"); }
 
 .coloured-action-box.coloured-action-box--connect a span {
   color: #a39995; }
@@ -20544,7 +20544,7 @@ a.ghost-cta {
     .election-microsite .election-microsite__tweets .city-press-office-tweeter > a:hover {
       text-decoration: underline; }
   .election-microsite .election-microsite__tweets .tweeter-icon {
-    background: url("https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/home/social.png") no-repeat -32px 0;
+    background: url("https://www.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/home/social.png") no-repeat -32px 0;
     float: left;
     width: 30px;
     height: 27px;
@@ -27065,7 +27065,7 @@ body#library {
     border-collapse: separate;
     border-spacing: 0 0; }
   .calendar.calendar--loading {
-    background: url("https://libraryservices.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/ajax-loader-small-red.gif") no-repeat center center #FFFFFF;
+    background: url("https://libraryservices.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/ajax-loader-small-red.gif") no-repeat center center #FFFFFF;
     height: 480px; }
     .calendar.calendar--loading #calendarTable,
     .calendar.calendar--loading .prev-next-month {
@@ -27254,7 +27254,7 @@ body#library {
   .modal__box label + select, .modal__box--delete label + select {
     float: right; }
   .modal__box.modal__box--loading, .modal__box--loading.modal__box--delete {
-    background: url("https://libraryservices.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/ajax-loader-small-red.gif") no-repeat center center #FFFFFF; }
+    background: url("https://libraryservices.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/ajax-loader-small-red.gif") no-repeat center center #FFFFFF; }
     .modal__box.modal__box--loading fieldset, .modal__box--loading.modal__box--delete fieldset {
       opacity: 0.1; }
 
@@ -27596,7 +27596,7 @@ body#library {
   font-size: 1.7em; }
 
 .smh-accounts .smh-account__type {
-  background: url("https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/home/social.png") no-repeat scroll 0 -30px rgba(0, 0, 0, 0);
+  background: url("https://www.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/home/social.png") no-repeat scroll 0 -30px rgba(0, 0, 0, 0);
   border-bottom: none;
   display: block;
   float: left;

@@ -8145,7 +8145,7 @@ body#library {
 }
 
 .calendar.calendar--loading {
-  background: url("https://libraryservices.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/ajax-loader-small-red.gif") no-repeat center center #FFFFFF;
+  background: url("https://libraryservices.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/ajax-loader-small-red.gif") no-repeat center center #FFFFFF;
   height: 480px;
 }
 
@@ -8461,7 +8461,7 @@ body#library {
 
 .modal__box.modal__box--loading,
 .modal__box--loading.modal__box--delete {
-  background: url("https://libraryservices.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/ajax-loader-small-red.gif") no-repeat center center #FFFFFF;
+  background: url("https://libraryservices.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/ajax-loader-small-red.gif") no-repeat center center #FFFFFF;
 }
 
 .modal__box.modal__box--loading fieldset,
@@ -8963,7 +8963,7 @@ body#library {
 }
 
 .smh-accounts .smh-account__type {
-  background: url("https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/home/social.png") no-repeat scroll 0 -30px rgba(0, 0, 0, 0);
+  background: url("https://www.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/home/social.png") no-repeat scroll 0 -30px rgba(0, 0, 0, 0);
   border-bottom: none;
   display: block;
   float: left;
