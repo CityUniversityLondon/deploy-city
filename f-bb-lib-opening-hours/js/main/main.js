@@ -98,6 +98,9 @@ module.exports = (function() {
              * The location of external scripts (with trailing slash)
              * @var String
              */
+            gitBridgeLoc = document.currentScript,
+
+
             srcPrefix =
                 'https://' +
                 document.location.hostname.replace(
@@ -150,6 +153,7 @@ module.exports = (function() {
              * Stuff needed on everypage - explore city, login etc.
              */
             initPage = function() {
+                console.log(`loc is ${gitBridgeLoc}`);
                 var $body = $('body'),
                     bodyElement = document.querySelector('body'), //Vanilla JS reference to the body tag
                     $form = $body.find('#search, #header__search__form'),
