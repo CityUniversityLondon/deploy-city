@@ -104,7 +104,7 @@ module.exports = (function() {
                     'citysport.org.uk',
                     'city.ac.uk'
                 ) +
-                '/__data/assets/git_bridge/0004/841405/main/js/',
+                '/__data/assets/git_bridge/0004/841405c/main/js/',
             /**
              * The version number to prepend to the file name, set in page
              * @var String
@@ -646,7 +646,6 @@ module.exports = (function() {
 
                 //// library home page opening times
                 if ($('#library').length !== 0) {
-                    console.log('tttt')
                     yepnope({
                         load: 'modules/library/library-opening-times.js',
                         callback: function() {
