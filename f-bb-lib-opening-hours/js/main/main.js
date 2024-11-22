@@ -106,7 +106,7 @@ module.exports = (function() {
                 // Get the source of the script file
                 const currentScriptSrc = currentScriptPath ? currentScriptPath.src : null;
                 // regex to extract path between "git_bridge" and "js"
-                const matchGitBridgePath = str.match(/git_bridge\/(.*?)\/js/); 
+                const matchGitBridgePath = currentScriptSrc.match(/git_bridge\/(.*?)\/js/); 
 
                     if (matchGitBridgePath && matchGitBridgePath[1]) {
                         const extractedGitBridgePath = match[1];
@@ -169,7 +169,7 @@ module.exports = (function() {
              * Stuff needed on everypage - explore city, login etc.
              */
             initPage = function() {
-                console.log(`loc is ${getGitBridgePath()}`);
+                console.log(`git bridge path is ${getGitBridgePath()}`);
                 var $body = $('body'),
                     bodyElement = document.querySelector('body'), //Vanilla JS reference to the body tag
                     $form = $body.find('#search, #header__search__form'),
