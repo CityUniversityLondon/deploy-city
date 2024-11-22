@@ -109,7 +109,7 @@ module.exports = (function() {
                 const matchGitBridgePath = currentScriptSrc.match(/git_bridge\/(.*?)\/js/); 
 
                     if (matchGitBridgePath && matchGitBridgePath[1]) {
-                        const extractedGitBridgePath = match[1];
+                        const extractedGitBridgePath = matchGitBridgePath[1];
                         return extractedGitBridgePath;
                     } else {
                         return '0004/841405c/main';
@@ -118,12 +118,10 @@ module.exports = (function() {
 
 
             srcPrefix =
-                'https://' +
-                document.location.hostname.replace(
+                `https://${document.location.hostname.replace(
                     'citysport.org.uk',
                     'city.ac.uk'
-                ) +
-                '/__data/assets/git_bridge/0004/841405c/main/js/',
+                )}/__data/assets/git_bridge/${getGitBridgePath()}/main/js/`,
             /**
              * The version number to prepend to the file name, set in page
              * @var String

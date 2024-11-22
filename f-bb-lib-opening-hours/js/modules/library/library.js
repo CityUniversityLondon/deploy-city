@@ -498,6 +498,6 @@ CITY.library = (function($) {
 })($);
 
 //call init fn
-CITY.library.init();
+//CITY.library.init();
 
 
