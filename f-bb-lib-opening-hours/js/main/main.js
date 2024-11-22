@@ -98,7 +98,23 @@ module.exports = (function() {
              * The location of external scripts (with trailing slash)
              * @var String
              */
-            gitBridgeLoc = document.currentScript.src,
+            getGitBridgePath = function() {
+
+                // Get the current script element
+                const currentScriptPath = document.currentScript;
+
+                // Get the source of the script file
+                const currentScriptSrc = currentScriptPath ? currentScriptPath.src : null;
+                // regex to extract path between "git_bridge" and "js"
+                const matchGitBridgePath = str.match(/git_bridge\/(.*?)\/js/); 
+
+                    if (matchGitBridgePath && matchGitBridgePath[1]) {
+                        const extractedGitBridgePath = match[1];
+                        return extractedGitBridgePath;
+                    } else {
+                        return '0004/841405c/main';
+                    }
+            },
 
 
             srcPrefix =
@@ -153,7 +169,7 @@ module.exports = (function() {
              * Stuff needed on everypage - explore city, login etc.
              */
             initPage = function() {
-                console.log(`loc is ${gitBridgeLoc}`);
+                console.log(`loc is ${getGitBridgePath()}`);
                 var $body = $('body'),
                     bodyElement = document.querySelector('body'), //Vanilla JS reference to the body tag
                     $form = $body.find('#search, #header__search__form'),
