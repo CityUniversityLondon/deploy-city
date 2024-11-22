@@ -98,7 +98,7 @@ module.exports = (function() {
              * The location of external scripts (with trailing slash)
              * @var String
              */
-            gitBridgeLoc = document.currentScript,
+            gitBridgeLoc = document.currentScript.src,
 
 
             srcPrefix =
