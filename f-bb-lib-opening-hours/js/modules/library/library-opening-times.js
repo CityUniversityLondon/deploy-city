@@ -41,7 +41,6 @@ CITY.library = (function($) {
     },
 
     init = function() {
-        console.log(libraries);
         libraries.forEach(lib => {
             const panels = lib.querySelectorAll('.opening-times-panel');
             //activate the first week/panel

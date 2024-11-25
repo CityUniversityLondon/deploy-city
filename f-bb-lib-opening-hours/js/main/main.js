@@ -121,7 +121,7 @@ module.exports = (function() {
                 `https://${document.location.hostname.replace(
                     'citysport.org.uk',
                     'city.ac.uk'
-                )}/__data/assets/git_bridge/${getGitBridgePath()}/main/js/`,
+                )}/__data/assets/git_bridge/${getGitBridgePath()}/js/`,
             /**
              * The version number to prepend to the file name, set in page
              * @var String
