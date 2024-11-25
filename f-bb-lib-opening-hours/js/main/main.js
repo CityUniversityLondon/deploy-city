@@ -167,7 +167,6 @@ module.exports = (function() {
              * Stuff needed on everypage - explore city, login etc.
              */
             initPage = function() {
-                console.log(`git bridge path is ${getGitBridgePath()}`);
                 var $body = $('body'),
                     bodyElement = document.querySelector('body'), //Vanilla JS reference to the body tag
                     $form = $body.find('#search, #header__search__form'),
