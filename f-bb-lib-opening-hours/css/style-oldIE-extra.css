@@ -7607,18 +7607,20 @@ dl.staffhub-dl dd {
 }
 
 .opening-times-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
   list-style: none;
   margin: 0;
+  grid-template-columns: 1fr 1fr;
 }
 
 .opening-times-list .opening-times-list-card {
   width: 100%;
   padding: 1em 1em 1.5em;
-  margin-bottom: 2em;
   border-radius: 0.25em;
   -webkit-box-shadow: 0 0 0.5em rgba(51, 51, 51, 0.25);
   box-shadow: 0 0 0.5em rgba(51, 51, 51, 0.25);
-  float: left;
 }
 
 .opening-times-list h2 {
@@ -7664,6 +7666,7 @@ dl.staffhub-dl dd {
   gap: 1.5rem;
   grid-template-areas: 'header header' 'main main' 'side side';
   grid-template-areas: 'header header' 'main side';
+  grid-template-areas: 'header header' 'main main' 'side side';
 }
 
 .opening-times-list-card h2 {

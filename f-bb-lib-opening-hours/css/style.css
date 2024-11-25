@@ -27317,21 +27317,20 @@ dl.staffhub-dl dd {
   color: #444; }
 
 .opening-times-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
   list-style: none;
   margin: 0; }
+  @media only screen and (min-width: 768px) {
+    .opening-times-list {
+      grid-template-columns: 1fr 1fr; } }
   .opening-times-list .opening-times-list-card {
     width: 100%;
     padding: 1em 1em 1.5em;
-    margin-bottom: 2em;
     border-radius: 0.25em;
     -webkit-box-shadow: 0 0 0.5em rgba(51, 51, 51, 0.25);
             box-shadow: 0 0 0.5em rgba(51, 51, 51, 0.25); }
-    @media only screen and (min-width: 600px) {
-      .opening-times-list .opening-times-list-card {
-        float: left; } }
-    @media only screen and (min-width: 1035px) {
-      .opening-times-list .opening-times-list-card {
-        float: left; } }
   .opening-times-list h2 {
     margin: 0 0 0.75em; }
   .opening-times-list h3 {
@@ -27363,7 +27362,13 @@ dl.staffhub-dl dd {
   grid-template-areas: 'header header' 'main main' 'side side'; }
   .opening-times-list-card h2 {
     grid-area: header; }
+  @media only screen and (min-width: 600px) {
+    .opening-times-list-card {
+      grid-template-areas: 'header header' 'main side'; } }
   @media only screen and (min-width: 768px) {
+    .opening-times-list-card {
+      grid-template-areas: 'header header' 'main main' 'side side'; } }
+  @media only screen and (min-width: 1035px) {
     .opening-times-list-card {
       grid-template-areas: 'header header' 'main side'; } }
 
