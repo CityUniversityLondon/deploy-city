@@ -27375,6 +27375,9 @@ dl.staffhub-dl dd {
 .opening-times-weeks {
   grid-area: main; }
 
+.opening-times-status {
+  text-transform: capitalize; }
+
 .opening-times-info {
   grid-area: side;
   margin-bottom: auto; }

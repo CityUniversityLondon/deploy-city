@@ -7677,6 +7677,10 @@ dl.staffhub-dl dd {
   grid-area: main;
 }
 
+.opening-times-status {
+  text-transform: capitalize;
+}
+
 .opening-times-info {
   grid-area: side;
   margin-bottom: auto;
