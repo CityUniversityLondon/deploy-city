@@ -8741,12 +8741,16 @@ aside .news-article-widget:last-child {
   display: block;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper .CybotCookiebotDialogBodyButton {
+body>#CybotCookiebotDialog {
+  font-family: 'Plex Sans',Tahoma,Verdana;
+}
+
+body>#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper .CybotCookiebotDialogBodyButton {
   padding: .5rem;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll {
+body>#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection,
+body>#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll {
   border: 1px solid transparent;
   color: #d61726;
   background-color: transparent;
@@ -8754,21 +8758,26 @@ aside .news-article-widget:last-child {
   transition: border .6s ease;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:focus,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:focus,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover {
+body>#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:focus,
+body>#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover,
+body>#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:focus,
+body>#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover {
   border: 1px solid #d61726;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+body>#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
   -webkit-transition: background-color .6s ease;
   transition: background-color .6s ease;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:focus,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover {
+body>#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:focus,
+body>#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover {
   background-color: #a8121e;
+}
+
+a#CybotCookiebotDialogPoweredbyCybot,
+div#CybotCookiebotDialogPoweredByText {
+  display: none;
 }
 
 i.loading-fa-icon {
@@ -15005,11 +15014,4 @@ p.left-float-image {
   color: #b91b1b;
   border-bottom-style: dotted;
   border-bottom-color: #555;
-}
-
-.project a.project__header-link:active,
-.project a.service__header-link:active,
-.service a.project__header-link:active,
-.service a.service__header-link:active {
-  background-color: #FFF;
 }

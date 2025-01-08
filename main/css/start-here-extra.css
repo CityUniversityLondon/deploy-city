@@ -1,3 +1,13 @@
+.hallway-new .hallway-item a:hover h2 span,
+.hallway-new .hallway-item a:hover h3 span {
+  border-bottom-color: #b91b1b;
+  border-bottom-style: solid;
+}
+
+.hallway-new .hallway-item a:hover .image img {
+  opacity: .75;
+}
+
 .hallway-new .hallway-item a:active,
 .hallway-new .hallway-item a:focus {
   background: 0 0;
