@@ -1,5 +1,4 @@
 module.exports = (function() {
-    console.log('ssss');
     var $ = require('./jquery'),
         debug = require('../utils/debug'),
         customAJAX = require('./funcs/custom-ajax'),
