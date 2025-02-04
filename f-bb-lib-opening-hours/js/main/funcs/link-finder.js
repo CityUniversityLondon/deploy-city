@@ -44,13 +44,12 @@ module.exports = function (bodyElement) {
         const url = new URL(anchor.href);
         const excludedExtensions = ['.pdf', '.docx', '.xlsx', '.pptx', '.xls', '.doc']; 
         const pathname = url.pathname.toLowerCase();
-
         // Check if the URL hostname ends with sharepoint.com and does not have an excluded extension
         const hasExcludedExtension = excludedExtensions.some(ext => pathname.endsWith(ext));
 
         if (url.hostname.endsWith('sharepoint.com') && !hasExcludedExtension) {
             const firstChild = anchor.firstChild;
-            if (firstChild && firstChild.nodeType === 3) {
+            if (firstChild && firstChild.nodeType === 3 && firstChild.nodeValue.trim() !== '') {
                 // Only add the icon if the first child of anchor is a text node, avoiding duplicate icons
                 addIcon(anchor, ['fa-kit', 'fa-sharepoint']);
             }

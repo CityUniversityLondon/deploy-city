@@ -1,8 +1,3 @@
-.conference-listing .conference-listing__anchor:hover .conference-listing__heading span,
-.conference-listing .conference-listing__anchor:active .conference-listing__heading span {
-  border-bottom: 2px solid #ef383f;
-}
-
 .conference-listing .conference-listing__anchor .conference-listing__date,
 .conference-listing .conference-listing__anchor .conference-listing__description {
   color: #444444;

@@ -11248,12 +11248,16 @@ img[align="right"] {
   display: block;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper .CybotCookiebotDialogBodyButton {
+body > #CybotCookiebotDialog {
+  font-family: 'Plex Sans', Tahoma, Verdana;
+}
+
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper .CybotCookiebotDialogBodyButton {
   padding: 0.5rem;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
   border: 1px solid transparent;
   color: #d61726;
   background-color: transparent;
@@ -11261,21 +11265,28 @@ img[align="right"] {
   transition: border 0.6s ease;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:focus,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:focus {
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:focus,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:focus {
   border: 1px solid #d61726;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
   -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:focus {
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:focus {
   background-color: #a8121e;
+}
+
+/* Branding on the banner */
+
+a#CybotCookiebotDialogPoweredbyCybot,
+div#CybotCookiebotDialogPoweredByText {
+  display: none;
 }
 
 .js .responsive-tabs {
@@ -15961,21 +15972,4 @@ readers do not read off random characters that represent icons */
   .hallway-new .hallway-item a p {
     display: block;
   }
-}
-
-.hallway-new .hallway-item a .content {
-  position: relative;
-  z-index: 2;
-  margin: -30px 14px 0;
-  padding: 10px 14px 0;
-  background: white;
-}
-
-.hallway-new .hallway-item a .content p {
-  margin-right: 15px;
-  margin-bottom: 0;
-}
-
-.hallway-new .hallway-item a .image {
-  position: relative;
 }

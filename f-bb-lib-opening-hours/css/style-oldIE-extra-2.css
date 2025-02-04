@@ -596,31 +596,7 @@ or until modernizr tests for it (version 3?).
 
 .news-events-aggregate .spotlight-on-research .detail,
 .news-events-aggregate .city-news .detail {
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-}
-
-.news-events-aggregate .spotlight-on-research .description,
-.news-events-aggregate .city-news .description {
-  border: 0 none;
-  clip: rect(0px, 0px, 0px, 0px);
-  display: block;
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  position: absolute;
-  width: 1px;
-}
-
-.news-events-aggregate .spotlight-on-research a:hover .description,
-.news-events-aggregate .city-news a:hover .description {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
+  position: relative;
 }
 
 .article-listing {
@@ -9020,12 +8996,16 @@ aside .news-article-widget:last-child {
   display: block;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper .CybotCookiebotDialogBodyButton {
+body > #CybotCookiebotDialog {
+  font-family: 'Plex Sans', Tahoma, Verdana;
+}
+
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper .CybotCookiebotDialogBodyButton {
   padding: 0.5rem;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
   border: 1px solid transparent;
   color: #d61726;
   background-color: transparent;
@@ -9033,21 +9013,28 @@ aside .news-article-widget:last-child {
   transition: border 0.6s ease;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:focus,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:focus {
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:focus,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:focus {
   border: 1px solid #d61726;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
   -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:focus {
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:focus {
   background-color: #a8121e;
+}
+
+/* Branding on the banner */
+
+a#CybotCookiebotDialogPoweredbyCybot,
+div#CybotCookiebotDialogPoweredByText {
+  display: none;
 }
 
 i.loading-fa-icon {

@@ -8911,12 +8911,16 @@ body {
   display: block;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper .CybotCookiebotDialogBodyButton {
+body > #CybotCookiebotDialog {
+  font-family: 'Plex Sans', Tahoma, Verdana;
+}
+
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper .CybotCookiebotDialogBodyButton {
   padding: 0.5rem;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
   border: 1px solid transparent;
   color: #d61726;
   background-color: transparent;
@@ -8924,21 +8928,28 @@ body {
   transition: border 0.6s ease;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:focus,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:focus {
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:focus,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:focus {
   border: 1px solid #d61726;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
   -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
 }
 
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover,
-#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:focus {
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover,
+body > #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:focus {
   background-color: #a8121e;
+}
+
+/* Branding on the banner */
+
+a#CybotCookiebotDialogPoweredbyCybot,
+div#CybotCookiebotDialogPoweredByText {
+  display: none;
 }
 
 /* TODO rewrite anchors mixins; copied from city course anchors temporary mixins */
