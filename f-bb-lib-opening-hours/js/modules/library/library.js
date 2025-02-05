@@ -1,6 +1,8 @@
 CITY.library = (function($) {
     'use strict';
 
+    console.log('inside lib')
+   
     /// Private
     var $formWrapper = $('.library-search'),
         $dropdown = $formWrapper.find('.dropdown-select'),
@@ -498,6 +500,4 @@ CITY.library = (function($) {
 })($);
 
 //call init fn
-//CITY.library.init();
-
-
+CITY.library.init();

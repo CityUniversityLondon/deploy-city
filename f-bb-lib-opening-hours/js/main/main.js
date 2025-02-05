@@ -660,11 +660,21 @@ module.exports = (function() {
 
                 initPage();
 
+
                 //// library home page opening times
                 if ($('#library').length !== 0) {
+                    console.log('tests')
+                    const libContentContainer = document.getElementById('content');
+                    let libJsFile = 'library.js';
+                    if (libContentContainer && libContentContainer.classList.contains('library-2025')) {
+                        libJsFile = 'library-opening-times.js';
+                    }
+
+
                     yepnope({
-                        load: 'modules/library/library-opening-times.js',
+                        load: `modules/library/${libJsFile}`,
                         callback: function() {
+                            console.log('test 3')
                             debug('loaded library datepicker');
                         },
                     });
