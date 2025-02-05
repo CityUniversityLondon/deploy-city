@@ -35,7 +35,7 @@ var libraryAdmin = (function($) {
 
             $noticeTextActionButton.hide();
             $noticeMessage.after(
-                '<img class="ajax-loader-notice" src="https://libraryservices.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/ajax-loader-small-red.gif">'
+                '<img class="ajax-loader-notice" src="https://libraryservices.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/ajax-loader-small-red.gif">'
             );
             jsApi.setMetadataAllFields({
                 asset_id: $libraryId,

@@ -27,8 +27,6 @@ module.exports = (function() {
         linkFinder = require('./funcs/link-finder'),
         researchPubs = require('./funcs/research-publications');
         accordion2024 = require('./funcs/accordion-2024');
-
-
     /**
      * The main CITY wrapper object
      * @version $Revision: 6291 $ ($Date: 2012-09-05 16:06:30 +0100 (Wed, 05 Sep 2012) $)
@@ -99,13 +97,30 @@ module.exports = (function() {
              * The location of external scripts (with trailing slash)
              * @var String
              */
+            getGitBridgePath = function() {
+
+                // Get the current script element
+                const currentScriptPath = document.currentScript;
+
+                // Get the source of the script file
+                const currentScriptSrc = currentScriptPath ? currentScriptPath.src : null;
+                // regex to extract path between "git_bridge" and "js"
+                const matchGitBridgePath = currentScriptSrc.match(/git_bridge\/(.*?)\/js/); 
+
+                    if (matchGitBridgePath && matchGitBridgePath[1]) {
+                        const extractedGitBridgePath = matchGitBridgePath[1];
+                        return extractedGitBridgePath;
+                    } else {
+                        return '0004/841405c/main';
+                    }
+            },
+
+
             srcPrefix =
-                'https://' +
-                document.location.hostname.replace(
+                `https://${document.location.hostname.replace(
                     'citysport.org.uk',
                     'city.ac.uk'
-                ) +
-                '/__data/assets/git_bridge/0018/344007/main/js/',
+                )}/__data/assets/git_bridge/${getGitBridgePath()}/js/`,
             /**
              * The version number to prepend to the file name, set in page
              * @var String
@@ -645,16 +660,25 @@ module.exports = (function() {
 
                 initPage();
 
+
                 //// library home page opening times
                 if ($('#library').length !== 0) {
+                    console.log('tests')
+                    const libContentContainer = document.getElementById('content');
+                    let libJsFile = 'library.js';
+                    if (libContentContainer && libContentContainer.classList.contains('library-2025')) {
+                        libJsFile = 'library-opening-times.js';
+                    }
+
+
                     yepnope({
-                        load: 'modules/library/library.js',
+                        load: `modules/library/${libJsFile}`,
                         callback: function() {
                             debug('loaded library datepicker');
                         },
                     });
                 }
-
+  
                 // the following needs domready
                 $(function() {
                     // set up any videos on page
@@ -687,3 +711,5 @@ module.exports = (function() {
 
     return CITY;
 })();
+
+

@@ -1,6 +1,6 @@
 CITY.library = (function($) {
     'use strict';
-
+   
     /// Private
     var $formWrapper = $('.library-search'),
         $dropdown = $formWrapper.find('.dropdown-select'),

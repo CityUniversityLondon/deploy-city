@@ -7243,46 +7243,624 @@ dl.staffhub-dl dd {
   box-shadow: 0 0 5px rgba(0,0,0,.2);
 }
 
-.library-useful-links-list.library-useful-links-list h2 a,
-.library-useful-links-list.library-useful-links-list h3 a,
-.library-useful-links-list.library-useful-links-list h4 a,
-.opening-times--home-controls-link h2 a,
-.opening-times--home-controls-link h3 a,
-.opening-times--home-controls-link h4 a,
-.search-section-links h2 a,
-.search-section-links h3 a,
-.search-section-links h4 a,
-[id=library] .library-news-campaign-item h2 a,
-[id=library] .library-news-campaign-item h3 a,
-[id=library] .library-news-campaign-item h4 a,
-[id=library] [id=content] h2 a,
-[id=library] [id=content] h3 a,
-[id=library] [id=content] h4 a {
+.library-2015 .library-useful-links-list.library-useful-links-list h2 a,
+.library-2015 .library-useful-links-list.library-useful-links-list h3 a,
+.library-2015 .library-useful-links-list.library-useful-links-list h4 a,
+.library-2015 .opening-times--home-controls-link h2 a,
+.library-2015 .opening-times--home-controls-link h3 a,
+.library-2015 .opening-times--home-controls-link h4 a,
+.library-2015 .search-section-links h2 a,
+.library-2015 .search-section-links h3 a,
+.library-2015 .search-section-links h4 a,
+.library-2015 [id=library] .library-news-campaign-item h2 a,
+.library-2015 [id=library] .library-news-campaign-item h3 a,
+.library-2015 [id=library] .library-news-campaign-item h4 a,
+.library-2015 [id=library] [id=content] h2 a,
+.library-2015 [id=library] [id=content] h3 a,
+.library-2015 [id=library] [id=content] h4 a {
   border-bottom-width: 2px;
 }
 
-.library-useful-links-list.library-useful-links-list .ui-accordion-header a,
-.opening-times--home-controls-link .ui-accordion-header a,
-.search-section-links .ui-accordion-header a,
-[id=library] .library-news-campaign-item .ui-accordion-header a,
-[id=library] [id=content] .ui-accordion-header a {
+.library-2015 .library-useful-links-list.library-useful-links-list .ui-accordion-header a,
+.library-2015 .opening-times--home-controls-link .ui-accordion-header a,
+.library-2015 .search-section-links .ui-accordion-header a,
+.library-2015 [id=library] .library-news-campaign-item .ui-accordion-header a,
+.library-2015 [id=library] [id=content] .ui-accordion-header a {
   border-bottom-width: 0;
 }
 
-.library-lede p:empty {
+.library-2015 .library-lede p:empty {
   display: none;
 }
 
-#library .hallway-new {
+.library-2015 #library .hallway-new {
   margin-top: 0;
 }
 
-.no-js #library .dropdown-select {
+.library-2015 .no-js #library .dropdown-select {
   display: none;
 }
 
-.js .search-refine-wrapper {
+.library-2015 .js .search-refine-wrapper {
   display: none;
+}
+
+.library-2015 .opening-times--home-controls {
+  display: block;
+  text-align: center;
+  text-align: left;
+}
+
+.library-2015 .opening-times--home-controls form,
+.library-2015 .opening-times--home-controls h2 {
+  display: inline-block;
+}
+
+.library-2015 .opening-times--home-controls h2 {
+  margin: 0;
+}
+
+.library-2015 .opening-times--home-controls form {
+  width: 118px;
+  padding-left: 2em;
+  vertical-align: top;
+}
+
+.library-2015 .opening-times--home-controls form select {
+  font-size: 1.5em;
+  padding: .167em 0;
+}
+
+.library-2015 .opening-times--home-controls time {
+  color: #444;
+  margin-left: .5em;
+  display: block;
+  font-size: .8em;
+  display: inline;
+}
+
+.library-2015 .opening-times--home-controls .opening-times--home-controls-link {
+  clear: both;
+  float: right;
+  margin-top: 10px;
+}
+
+.library-2015 .opening-times--home-list {
+  width: 100%;
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  display: table;
+  table-layout: fixed;
+  text-align: left;
+}
+
+.opening-times--home-controls+.library-2015 .opening-times--home-list {
+  padding-top: .5em;
+}
+
+.library-2015 .opening-times--home-list li {
+  background-color: transparent;
+  display: block;
+  padding: 1.5em 0;
+  border: 0;
+  vertical-align: top;
+  margin-bottom: 1em;
+  width: 20%;
+  display: table-cell;
+}
+
+.library-2015 .opening-times--home-list li:nth-child(odd) {
+  background-color: transparent;
+}
+
+.library-2015 .opening-times--home-list h3 {
+  font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  padding-bottom: .4em;
+  margin: 0;
+  font-size: 1.143em;
+  font-weight: 600;
+  width: 80%;
+}
+
+.library-2015 .opening-times--home-list h3 a {
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  text-decoration: none;
+}
+
+.library-2015 .opening-times--home-list h3 a:link,
+.library-2015 .opening-times--home-list h3 a:visited {
+  border-bottom-color: #999;
+}
+
+.library-2015 .opening-times--home-list h3 a:link {
+  color: #c33;
+}
+
+.library-2015 .opening-times--home-list h3 a:visited {
+  color: #670003;
+}
+
+.library-2015 .opening-times--home-list h3 a:hover {
+  color: #c33;
+  border-bottom-color: #670003;
+  border-bottom-style: solid;
+}
+
+.library-2015 .opening-times--home-list h3 a:active,
+.library-2015 .opening-times--home-list h3 a:focus {
+  background-color: #c33;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.library-2015 .opening-times--home-list span,
+.library-2015 .opening-times--home-list time {
+  font-size: 1.1em;
+}
+
+.library-2015 .opening-times--home-list-item-times {
+  color: #444;
+}
+
+.library-2015 .opening-times-list {
+  list-style: none;
+  margin: 0;
+}
+
+.library-2015 .opening-times-list .opening-times-list-card {
+  width: 100%;
+  padding: 1em 1em 1.5em;
+  margin-bottom: 2em;
+  border-radius: .25em;
+  -webkit-box-shadow: 0 0 .5em rgba(51,51,51,.25);
+  box-shadow: 0 0 .5em rgba(51,51,51,.25);
+  float: left;
+}
+
+.library-2015 .opening-times-list h2 {
+  margin: 0 0 .75em;
+}
+
+.library-2015 .opening-times-list h3 {
+  margin: 14px 0;
+}
+
+.library-2015 .opening-times-list h3:first-of-type {
+  margin-top: 0;
+}
+
+.library-2015 .opening-times-list img {
+  width: 100%;
+  height: auto;
+  display: none;
+  margin-bottom: 1em;
+}
+
+.library-2015 .js .opening-times--home-list .opening-times-busy,
+.library-2015 .js .opening-times-list .opening-times-busy {
+  opacity: .65;
+}
+
+.library-2015 .js .opening-times--home-list .opening-times-busy .calendarNavLink,
+.library-2015 .js .opening-times-list .opening-times-busy .calendarNavLink {
+  cursor: default;
+}
+
+.library-2015 .js .library-aside-call-to-action.opening-times-busy {
+  opacity: .65;
+}
+
+.library-2015 .js .library-aside-call-to-action.opening-times-busy .calendarNavLink {
+  cursor: default;
+}
+
+.library-2015 .opening-times-panel {
+  width: 100%;
+  display: block;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  width: 100%;
+  display: block;
+}
+
+.library-2015 .opening-times-panel--left {
+  padding-right: .75em;
+  padding-right: 0;
+}
+
+.library-2015 .opening-times-panel--left>h3 {
+  display: none;
+}
+
+.library-2015 .opening-times-panel--right {
+  padding-top: 1.5em;
+  padding-top: 0;
+  padding-left: .75em;
+  padding-top: 1.5em;
+  padding-left: 0;
+}
+
+.library-2015 .opening-times-info {
+  margin-top: 1.5em;
+  border: 1px solid #999;
+  padding: .75em;
+}
+
+.library-2015 .opening-times-info h3 {
+  border-bottom: 1px solid #999;
+}
+
+.library-2015 .opening-times-info h3:not(:first-of-type) {
+  margin-top: 1em;
+}
+
+.library-2015 .opening-times-info p {
+  margin-bottom: 0;
+}
+
+.library-2015 .opening-times-table {
+  margin-bottom: 0;
+}
+
+.library-2015 .opening-times-table tbody {
+  width: 100%;
+  display: table;
+}
+
+.library-2015 .opening-times-table tr {
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
+}
+
+.library-2015 .opening-times-table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.library-2015 .opening-times-table .is-today {
+  border: 2px solid #c33;
+  position: relative;
+}
+
+.library-2015 .opening-times-table .is-today td {
+  padding: .5em .786em;
+}
+
+.library-2015 .opening-times-table td {
+  padding: .643em .786em;
+  border: 0;
+}
+
+.library-2015 .opening-times-table td:last-child {
+  text-align: right;
+}
+
+.library-2015 .opening-times-table td,
+.library-2015 .opening-times-table td::-moz-selection {
+  background-color: transparent!important;
+}
+
+.library-2015 .opening-times-table td,
+.library-2015 .opening-times-table td::selection {
+  background-color: transparent!important;
+}
+
+.library-2015 .opening-times-table td span em::-moz-selection,
+.library-2015 .opening-times-table td span::-moz-selection,
+.library-2015 .opening-times-table td time em::-moz-selection,
+.library-2015 .opening-times-table td time::-moz-selection {
+  background: #333!important;
+  color: #FFF!important;
+}
+
+.library-2015 .opening-times-table td span em::selection,
+.library-2015 .opening-times-table td span::selection,
+.library-2015 .opening-times-table td time em::selection,
+.library-2015 .opening-times-table td time::selection {
+  background: #333!important;
+  color: #FFF!important;
+}
+
+.library-2015 .opening-times-navigation {
+  width: 100%;
+  display: table;
+  margin-bottom: .643em;
+  line-height: 1;
+}
+
+.library-2015 .opening-times-navigation .calendarNavLink,
+.library-2015 .opening-times-navigation .opening-times-navigation-date-range {
+  background-color: #c33;
+  color: #FFF!important;
+  text-align: center;
+  -webkit-transition: all .15s ease;
+  transition: all .15s ease;
+}
+
+.library-2015 .opening-times-navigation .calendarNavLink {
+  width: 2.429em;
+  height: 2.429em;
+  display: block;
+  padding: .5em 1.25em;
+  border-bottom-width: 0!important;
+  position: relative;
+  overflow-x: hidden;
+  text-indent: 10em;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.library-2015 .opening-times-navigation .calendarNavLink:focus,
+.library-2015 .opening-times-navigation .calendarNavLink:hover {
+  background-color: #96190b;
+  cursor: pointer;
+}
+
+.library-2015 .opening-times-navigation .calendarNavLink:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  text-indent: 0;
+}
+
+.library-2015 .opening-times-navigation .opening-times-navigation-previous .calendarNavLink {
+  border-radius: .25em 0 0 .25em;
+  border-right: 1px solid #FFF;
+}
+
+.library-2015 .opening-times-navigation .opening-times-navigation-previous .calendarNavLink:before {
+  content: "\f053";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 900;
+}
+
+.library-2015 .opening-times-navigation .opening-times-navigation-next .calendarNavLink {
+  border-radius: 0 .25em .25em 0;
+  border-left: 1px solid #FFF;
+}
+
+.library-2015 .opening-times-navigation .opening-times-navigation-next .calendarNavLink:before {
+  content: "\f054";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 900;
+}
+
+.library-2015 .opening-times-navigation .opening-times-navigation-date-range {
+  width: 100%;
+  display: table-cell;
+  overflow: hidden;
+  font-weight: 600;
+  vertical-align: middle;
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
+}
+
+.library-2015 .opening-times-navigation .opening-times-navigation-date-range::-moz-selection {
+  background-color: transparent!important;
+}
+
+.library-2015 .opening-times-navigation .opening-times-navigation-date-range::selection {
+  background-color: transparent!important;
+}
+
+.library-2015 .opening-times-navigation .opening-times-navigation-date-range time::-moz-selection {
+  background-color: #333!important;
+}
+
+.library-2015 .opening-times-navigation .opening-times-navigation-date-range time::selection {
+  background-color: #333!important;
+}
+
+.js .library-2015 .opening-times-navigation .opening-times-navigation-date-range time {
+  color: transparent;
+  -webkit-transition: color .15s ease;
+  transition: color .15s ease;
+}
+
+.js .library-2015 .opening-times-navigation .opening-times-navigation-date-range time[data-toggle=on] {
+  color: #FFF;
+}
+
+.js .library-2015 .opening-times-navigation .opening-times-navigation-date-range time span {
+  display: none;
+}
+
+.library-2015 .full-width-background {
+  background-color: #f0f0f0;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+}
+
+.library-2015 .full-width-background:after,
+.library-2015 .full-width-background:before {
+  content: '';
+  background-color: inherit;
+  width: 9600px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+}
+
+.library-2015 .full-width-background:after {
+  left: 100%;
+}
+
+.library-2015 .library-focus-container {
+  float: left;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.library-2015 .library-focus-list {
+  width: 100%;
+  float: left;
+  margin: 0;
+  list-style: none;
+}
+
+.library-2015 .library-focus-list h2 {
+  display: inline-block;
+  font-size: 22px;
+}
+
+.library-2015 .library-focus-list h2 a {
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  text-decoration: none;
+}
+
+.library-2015 .library-focus-list h2 a:link,
+.library-2015 .library-focus-list h2 a:visited {
+  border-bottom-color: #999;
+}
+
+.library-2015 .library-focus-list h2 a:link {
+  color: #c33;
+}
+
+.library-2015 .library-focus-list h2 a:visited {
+  color: #670003;
+}
+
+.library-2015 .library-focus-list h2 a:hover {
+  color: #c33;
+  border-bottom-color: #670003;
+  border-bottom-style: solid;
+}
+
+.library-2015 .library-focus-list h2 a:active,
+.library-2015 .library-focus-list h2 a:focus {
+  background-color: #c33;
+  color: #FFF;
+  border-bottom-color: transparent;
+}
+
+.library-2015 .library-focus-list p {
+  color: #333;
+}
+
+.library-2015 .connect-with-us {
+  margin-bottom: 2em;
+}
+
+.library-2015 .library-aside-call-to-action {
+  background-color: #3a0133;
+  color: #FFF;
+  display: block;
+  padding: 2em 1em;
+  margin-bottom: .667em;
+  font-size: 1.5em;
+  font-family: ff-meta-web,Arial,Helvetica,sans-serif;
+}
+
+.library-2015 .library-aside-call-to-action a {
+  display: inline-block;
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  text-decoration: none;
+}
+
+.library-2015 .library-aside-call-to-action a:link,
+.library-2015 .library-aside-call-to-action a:visited {
+  color: #f0f0f0;
+  border-bottom-color: #ccc;
+}
+
+.library-2015 .library-aside-call-to-action a:hover {
+  color: #FFF;
+  border-bottom-color: #FFF;
+  border-bottom-style: solid;
+}
+
+.library-2015 .library-aside-call-to-action a:active,
+.library-2015 .library-aside-call-to-action a:focus {
+  background-color: #FFF;
+  color: #666;
+  border-bottom-color: transparent;
+}
+
+.library-2015 .library-aside-call-to-action p {
+  margin-top: .667em;
+  font-size: .667em;
+}
+
+.library-2015 .library-news-campaign-item {
+  background-color: #FFF;
+  padding: 1em 0;
+}
+
+.library-2015 .library-news-campaign-item .thumbnail {
+  text-align: center;
+}
+
+.library-2015 .library-hallway-list {
+  width: 100%;
+  margin: 0;
+}
+
+.library-2015 .library-hallway-list,
+.library-2015 .library-hallway-list li {
+  list-style: none;
+}
+
+.library-2015 .library-hallway-list li {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 1.5em;
+  float: left;
+  clear: both;
+}
+
+.library-2015 .library-hallway-list h3 {
+  margin-top: 0;
+  margin-bottom: .75em;
+  line-height: 1;
+}
+
+.library-2015 .library-hallway-list img {
+  display: block;
+  margin-right: 1.5em;
+  margin-bottom: 1.25em;
+  display: inline-block;
+  float: left;
+  margin-bottom: .75em;
+}
+
+.library-2015 .library-search .search-section-button {
+  font-size: 1.2em;
+  height: 3em;
+  line-height: 3em;
+}
+
+#courses-widget .widget-content .ui-accordion-header .library-2015 .library-search .search-section-button .ui-icon,
+.dialog .library-2015 .library-search .search-section-button button,
+.js .accordion .library-2015 .library-search .search-section-button .accordion__heading__indicator,
+.library-2015 .library-search .search-section-button #courses-widget .widget-content .ui-accordion-header .ui-icon,
+.library-2015 .library-search .search-section-button .dialog button,
+.library-2015 .library-search .search-section-button .fa,
+.library-2015 .library-search .search-section-button .js .accordion .accordion__heading__indicator,
+.library-2015 .library-search .search-section-button .ui-accordion .ui-accordion-header .ui-icon,
+.library-2015 .library-search .search-section-button .white-card__media .embed-container a:before,
+.ui-accordion .ui-accordion-header .library-2015 .library-search .search-section-button .ui-icon,
+.white-card__media .embed-container .library-2015 .library-search .search-section-button a:before {
+  padding-left: 8px;
 }
 
 .library-home-background {
@@ -7338,33 +7916,37 @@ dl.staffhub-dl dd {
   padding-bottom: 1.5em;
 }
 
-.opening-times--home-controls {
+body#library {
+  overflow-x: hidden;
+}
+
+.library-2025 .opening-times--home-controls {
   display: block;
   text-align: center;
   text-align: left;
 }
 
-.opening-times--home-controls form,
-.opening-times--home-controls h2 {
+.library-2025 .opening-times--home-controls form,
+.library-2025 .opening-times--home-controls h2 {
   display: inline-block;
 }
 
-.opening-times--home-controls h2 {
+.library-2025 .opening-times--home-controls h2 {
   margin: 0;
 }
 
-.opening-times--home-controls form {
+.library-2025 .opening-times--home-controls form {
   width: 118px;
   padding-left: 2em;
   vertical-align: top;
 }
 
-.opening-times--home-controls form select {
+.library-2025 .opening-times--home-controls form select {
   font-size: 1.5em;
   padding: .167em 0;
 }
 
-.opening-times--home-controls time {
+.library-2025 .opening-times--home-controls time {
   color: #444;
   margin-left: .5em;
   display: block;
@@ -7372,13 +7954,13 @@ dl.staffhub-dl dd {
   display: inline;
 }
 
-.opening-times--home-controls .opening-times--home-controls-link {
+.library-2025 .opening-times--home-controls .opening-times--home-controls-link {
   clear: both;
   float: right;
   margin-top: 10px;
 }
 
-.opening-times--home-list {
+.library-2025 .opening-times--home-list {
   width: 100%;
   display: block;
   padding: 0;
@@ -7390,11 +7972,11 @@ dl.staffhub-dl dd {
   text-align: left;
 }
 
-.opening-times--home-controls+.opening-times--home-list {
+.opening-times--home-controls+.library-2025 .opening-times--home-list {
   padding-top: .5em;
 }
 
-.opening-times--home-list li {
+.library-2025 .opening-times--home-list li {
   background-color: transparent;
   display: block;
   padding: 1.5em 0;
@@ -7405,11 +7987,11 @@ dl.staffhub-dl dd {
   display: table-cell;
 }
 
-.opening-times--home-list li:nth-child(odd) {
+.library-2025 .opening-times--home-list li:nth-child(odd) {
   background-color: transparent;
 }
 
-.opening-times--home-list h3 {
+.library-2025 .opening-times--home-list h3 {
   font-family: ff-meta-web,"Helvetica Neue",Arial,Helvetica,sans-serif;
   padding-bottom: .4em;
   margin: 0;
@@ -7418,119 +8000,132 @@ dl.staffhub-dl dd {
   width: 80%;
 }
 
-.opening-times--home-list h3 a {
+.library-2025 .opening-times--home-list h3 a {
   border-bottom-width: 2px;
   border-bottom-style: dotted;
   text-decoration: none;
 }
 
-.opening-times--home-list h3 a:link,
-.opening-times--home-list h3 a:visited {
+.library-2025 .opening-times--home-list h3 a:link,
+.library-2025 .opening-times--home-list h3 a:visited {
   border-bottom-color: #999;
 }
 
-.opening-times--home-list h3 a:link {
+.library-2025 .opening-times--home-list h3 a:link {
   color: #c33;
 }
 
-.opening-times--home-list h3 a:visited {
+.library-2025 .opening-times--home-list h3 a:visited {
   color: #670003;
 }
 
-.opening-times--home-list h3 a:hover {
+.library-2025 .opening-times--home-list h3 a:hover {
   color: #c33;
   border-bottom-color: #670003;
   border-bottom-style: solid;
 }
 
-.opening-times--home-list h3 a:active,
-.opening-times--home-list h3 a:focus {
+.library-2025 .opening-times--home-list h3 a:active,
+.library-2025 .opening-times--home-list h3 a:focus {
   background-color: #c33;
   color: #FFF;
   border-bottom-color: transparent;
 }
 
-.opening-times--home-list span,
-.opening-times--home-list time {
+.library-2025 .opening-times--home-list span,
+.library-2025 .opening-times--home-list time {
   font-size: 1.1em;
 }
 
-.opening-times--home-list-item-times {
+.library-2025 .opening-times--home-list-item-times {
   color: #444;
 }
 
-.opening-times-list {
+.library-2025 .opening-times-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
   list-style: none;
   margin: 0;
+  grid-template-columns: 1fr 1fr;
 }
 
-.opening-times-list .opening-times-list-card {
+.library-2025 .opening-times-list .opening-times-list-card {
   width: 100%;
   padding: 1em 1em 1.5em;
-  margin-bottom: 2em;
   border-radius: .25em;
   -webkit-box-shadow: 0 0 .5em rgba(51,51,51,.25);
   box-shadow: 0 0 .5em rgba(51,51,51,.25);
-  float: left;
 }
 
-.opening-times-list h2 {
+.library-2025 .opening-times-list h2 {
   margin: 0 0 .75em;
 }
 
-.opening-times-list h3 {
+.library-2025 .opening-times-list h3 {
   margin: 14px 0;
 }
 
-.opening-times-list h3:first-of-type {
+.library-2025 .opening-times-list h3:first-of-type {
   margin-top: 0;
 }
 
-.opening-times-list img {
+.library-2025 .opening-times-list img {
   width: 100%;
   height: auto;
   display: none;
   margin-bottom: 1em;
 }
 
-.js .opening-times--home-list .opening-times-busy,
-.js .opening-times-list .opening-times-busy {
+.library-2025 .js .opening-times--home-list .opening-times-busy,
+.library-2025 .js .opening-times-list .opening-times-busy {
   opacity: .65;
 }
 
-.js .opening-times--home-list .opening-times-busy .calendarNavLink,
-.js .opening-times-list .opening-times-busy .calendarNavLink {
+.library-2025 .js .opening-times--home-list .opening-times-busy .calendarNavLink,
+.library-2025 .js .opening-times-list .opening-times-busy .calendarNavLink {
   cursor: default;
 }
 
-.js .library-aside-call-to-action.opening-times-busy {
-  opacity: .65;
+.library-2025 .opening-times-list-card {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5rem;
+  grid-template-areas: 'header header' 'main main' 'side side';
+  grid-template-areas: 'header header' 'main side';
+  grid-template-areas: 'header header' 'main main' 'side side';
 }
 
-.js .library-aside-call-to-action.opening-times-busy .calendarNavLink {
-  cursor: default;
+.library-2025 .opening-times-list-card h2 {
+  grid-area: header;
 }
 
-.opening-times-panel {
-  width: 100%;
-  display: block;
-  width: 50%;
-  display: inline-block;
-  float: left;
-  width: 100%;
-  display: block;
+.library-2025 .opening-times-weeks {
+  grid-area: main;
 }
 
-.opening-times-panel--left {
-  padding-right: .75em;
-  padding-right: 0;
+.library-2025 .opening-times-status {
+  text-transform: capitalize;
 }
 
-.opening-times-panel--left>h3 {
+.library-2025 .opening-times-info {
+  grid-area: side;
+  margin-bottom: auto;
+}
+
+.library-2025 .opening-times-panel {
   display: none;
 }
 
-.opening-times-panel--right {
+.library-2025 .opening-times-panel--active {
+  display: block;
+}
+
+.opening-times-panel--fade-in .library-2025 .opening-times-table {
+  opacity: 1;
+}
+
+.library-2025 .opening-times-panel--right {
   padding-top: 1.5em;
   padding-top: 0;
   padding-left: .75em;
@@ -7538,97 +8133,97 @@ dl.staffhub-dl dd {
   padding-left: 0;
 }
 
-.opening-times-info {
-  margin-top: 1.5em;
+.library-2025 .opening-times-info {
   border: 1px solid #999;
   padding: .75em;
+  margin-top: 1.5em;
 }
 
-.opening-times-info h3 {
+.library-2025 .opening-times-info h3 {
   border-bottom: 1px solid #999;
 }
 
-.opening-times-info h3:not(:first-of-type) {
+.library-2025 .opening-times-info h3:not(:first-of-type) {
   margin-top: 1em;
 }
 
-.opening-times-info p {
+.library-2025 .opening-times-info p {
   margin-bottom: 0;
 }
 
-.opening-times-table {
+.library-2025 .opening-times-table {
   margin-bottom: 0;
 }
 
-.opening-times-table tbody {
+.library-2025 .opening-times-table tbody {
   width: 100%;
   display: table;
 }
 
-.opening-times-table tr {
+.library-2025 .opening-times-table tr {
   -webkit-user-select: all;
   -moz-user-select: all;
   -ms-user-select: all;
   user-select: all;
 }
 
-.opening-times-table tr:nth-child(even) {
+.library-2025 .opening-times-table tr:nth-child(even) {
   background-color: #f7f7f7;
 }
 
-.opening-times-table .is-today {
+.library-2025 .opening-times-table .is-today {
   border: 2px solid #c33;
   position: relative;
 }
 
-.opening-times-table .is-today td {
+.library-2025 .opening-times-table .is-today td {
   padding: .5em .786em;
 }
 
-.opening-times-table td {
+.library-2025 .opening-times-table td {
   padding: .643em .786em;
   border: 0;
 }
 
-.opening-times-table td:last-child {
+.library-2025 .opening-times-table td:last-child {
   text-align: right;
 }
 
-.opening-times-table td,
-.opening-times-table td::-moz-selection {
+.library-2025 .opening-times-table td,
+.library-2025 .opening-times-table td::-moz-selection {
   background-color: transparent!important;
 }
 
-.opening-times-table td,
-.opening-times-table td::selection {
+.library-2025 .opening-times-table td,
+.library-2025 .opening-times-table td::selection {
   background-color: transparent!important;
 }
 
-.opening-times-table td span em::-moz-selection,
-.opening-times-table td span::-moz-selection,
-.opening-times-table td time em::-moz-selection,
-.opening-times-table td time::-moz-selection {
+.library-2025 .opening-times-table td span em::-moz-selection,
+.library-2025 .opening-times-table td span::-moz-selection,
+.library-2025 .opening-times-table td time em::-moz-selection,
+.library-2025 .opening-times-table td time::-moz-selection {
   background: #333!important;
   color: #FFF!important;
 }
 
-.opening-times-table td span em::selection,
-.opening-times-table td span::selection,
-.opening-times-table td time em::selection,
-.opening-times-table td time::selection {
+.library-2025 .opening-times-table td span em::selection,
+.library-2025 .opening-times-table td span::selection,
+.library-2025 .opening-times-table td time em::selection,
+.library-2025 .opening-times-table td time::selection {
   background: #333!important;
   color: #FFF!important;
 }
 
-.opening-times-navigation {
+.library-2025 .opening-times-navigation {
   width: 100%;
   display: table;
   margin-bottom: .643em;
   line-height: 1;
 }
 
-.opening-times-navigation .calendarNavLink,
-.opening-times-navigation .opening-times-navigation-date-range {
+.library-2025 .opening-times-navigation .calendarNavLink,
+.library-2025 .opening-times-navigation .opening-times-navigation-date-range {
   background-color: #c33;
   color: #FFF!important;
   text-align: center;
@@ -7636,11 +8231,12 @@ dl.staffhub-dl dd {
   transition: all .15s ease;
 }
 
-.opening-times-navigation .calendarNavLink {
+.library-2025 .opening-times-navigation .calendarNavLink {
   width: 2.429em;
   height: 2.429em;
   display: block;
   padding: .5em 1.25em;
+  border: none;
   border-bottom-width: 0!important;
   position: relative;
   overflow-x: hidden;
@@ -7652,13 +8248,18 @@ dl.staffhub-dl dd {
   user-select: none;
 }
 
-.opening-times-navigation .calendarNavLink:focus,
-.opening-times-navigation .calendarNavLink:hover {
+.library-2025 .opening-times-navigation .calendarNavLink[disabled] {
+  opacity: .2;
+  cursor: none;
+}
+
+.library-2025 .opening-times-navigation .calendarNavLink:focus,
+.library-2025 .opening-times-navigation .calendarNavLink:hover {
   background-color: #96190b;
   cursor: pointer;
 }
 
-.opening-times-navigation .calendarNavLink:before {
+.library-2025 .opening-times-navigation .calendarNavLink:before {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -7668,29 +8269,29 @@ dl.staffhub-dl dd {
   text-indent: 0;
 }
 
-.opening-times-navigation .opening-times-navigation-previous .calendarNavLink {
+.library-2025 .opening-times-navigation .opening-times-navigation-previous .calendarNavLink {
   border-radius: .25em 0 0 .25em;
   border-right: 1px solid #FFF;
 }
 
-.opening-times-navigation .opening-times-navigation-previous .calendarNavLink:before {
+.library-2025 .opening-times-navigation .opening-times-navigation-previous .calendarNavLink:before {
   content: "\f053";
   font-family: "Font Awesome 6 Pro";
   font-weight: 900;
 }
 
-.opening-times-navigation .opening-times-navigation-next .calendarNavLink {
+.library-2025 .opening-times-navigation .opening-times-navigation-next .calendarNavLink {
   border-radius: 0 .25em .25em 0;
   border-left: 1px solid #FFF;
 }
 
-.opening-times-navigation .opening-times-navigation-next .calendarNavLink:before {
+.library-2025 .opening-times-navigation .opening-times-navigation-next .calendarNavLink:before {
   content: "\f054";
   font-family: "Font Awesome 6 Pro";
   font-weight: 900;
 }
 
-.opening-times-navigation .opening-times-navigation-date-range {
+.library-2025 .opening-times-navigation .opening-times-navigation-date-range {
   width: 100%;
   display: table-cell;
   overflow: hidden;
@@ -7702,33 +8303,75 @@ dl.staffhub-dl dd {
   user-select: all;
 }
 
-.opening-times-navigation .opening-times-navigation-date-range::-moz-selection {
+.library-2025 .opening-times-navigation .opening-times-navigation-date-range::-moz-selection {
   background-color: transparent!important;
 }
 
-.opening-times-navigation .opening-times-navigation-date-range::selection {
+.library-2025 .opening-times-navigation .opening-times-navigation-date-range::selection {
   background-color: transparent!important;
 }
 
-.opening-times-navigation .opening-times-navigation-date-range time::-moz-selection {
+.library-2025 .opening-times-navigation .opening-times-navigation-date-range time::-moz-selection {
   background-color: #333!important;
 }
 
-.opening-times-navigation .opening-times-navigation-date-range time::selection {
+.library-2025 .opening-times-navigation .opening-times-navigation-date-range time::selection {
   background-color: #333!important;
 }
 
-.js .opening-times-navigation .opening-times-navigation-date-range time {
+.js .library-2025 .opening-times-navigation .opening-times-navigation-date-range time {
   color: transparent;
   -webkit-transition: color .15s ease;
   transition: color .15s ease;
 }
 
-.js .opening-times-navigation .opening-times-navigation-date-range time[data-toggle=on] {
+.js .library-2025 .opening-times-navigation .opening-times-navigation-date-range time[data-toggle=on] {
   color: #FFF;
 }
 
-.js .opening-times-navigation .opening-times-navigation-date-range time span {
+.js .library-2025 .opening-times-navigation .opening-times-navigation-date-range time span {
+  display: none;
+}
+
+.library-useful-links-list.library-useful-links-list h2 a,
+.library-useful-links-list.library-useful-links-list h3 a,
+.library-useful-links-list.library-useful-links-list h4 a,
+.opening-times--home-controls-link h2 a,
+.opening-times--home-controls-link h3 a,
+.opening-times--home-controls-link h4 a,
+.search-section-links h2 a,
+.search-section-links h3 a,
+.search-section-links h4 a,
+[id=library] .library-news-campaign-item h2 a,
+[id=library] .library-news-campaign-item h3 a,
+[id=library] .library-news-campaign-item h4 a,
+[id=library] [id=content] h2 a,
+[id=library] [id=content] h3 a,
+[id=library] [id=content] h4 a {
+  border-bottom-width: 2px;
+}
+
+.library-useful-links-list.library-useful-links-list .ui-accordion-header a,
+.opening-times--home-controls-link .ui-accordion-header a,
+.search-section-links .ui-accordion-header a,
+[id=library] .library-news-campaign-item .ui-accordion-header a,
+[id=library] [id=content] .ui-accordion-header a {
+  border-bottom-width: 0;
+}
+
+.library-lede p:empty {
+  display: none;
+}
+
+#library .hallway-new {
+  margin-top: 0;
+}
+
+.no-js #library .dropdown-select {
+  display: none;
+}
+
+.js .search-refine-wrapper {
   display: none;
 }
 
@@ -7922,6 +8565,71 @@ body#library {
   overflow-x: hidden;
 }
 
+.opening-times-panel--fade-in .opening-times-table {
+  opacity: 1;
+}
+
+.library-home-background {
+  position: relative;
+  background: #f0f0f0;
+  padding: 2px 10px 0;
+  margin: -15px -10px 20px 0;
+  padding: 2px 0 0;
+  margin: 0 0 20px 0;
+}
+
+.library-home-background--search {
+  margin-top: -35px;
+}
+
+.library-login {
+  text-align: center;
+}
+
+.library-login p {
+  text-align: left;
+}
+
+.library-login-link,
+.library-login-link:link {
+  background-color: #c33;
+  color: #FFF;
+  height: 3.5em;
+  display: inline-block;
+  margin: 0 auto 0;
+  padding: 0 1em;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  line-height: 3.4em;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  margin: 2em auto 0;
+  margin: 5em auto;
+}
+
+.library-login-link:active,
+.library-login-link:focus,
+.library-login-link:hover {
+  text-decoration: underline;
+}
+
+.opening-times--home {
+  padding: 0;
+  padding-bottom: 1.5em;
+}
+
+.js .library-aside-call-to-action.opening-times-busy {
+  opacity: .65;
+}
+
+.js .library-aside-call-to-action.opening-times-busy .calendarNavLink {
+  cursor: default;
+}
+
 .event__add-exception,
 .event__edit-exception,
 .modal__box--delete button {
@@ -7963,7 +8671,7 @@ body#library {
 }
 
 .calendar.calendar--loading {
-  background: url(https://libraryservices.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/ajax-loader-small-red.gif) no-repeat center center #FFF;
+  background: url(https://libraryservices.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/ajax-loader-small-red.gif) no-repeat center center #FFF;
   height: 480px;
 }
 
@@ -8275,7 +8983,7 @@ body#library {
 
 .modal__box--loading.modal__box--delete,
 .modal__box.modal__box--loading {
-  background: url(https://libraryservices.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/ajax-loader-small-red.gif) no-repeat center center #FFF;
+  background: url(https://libraryservices.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/ajax-loader-small-red.gif) no-repeat center center #FFF;
 }
 
 .modal__box--loading.modal__box--delete fieldset,
@@ -8761,7 +9469,7 @@ body#library {
 }
 
 .smh-accounts .smh-account__type {
-  background: url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/home/social.png) no-repeat scroll 0 -30px rgba(0,0,0,0);
+  background: url(https://www.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/home/social.png) no-repeat scroll 0 -30px rgba(0,0,0,0);
   border-bottom: none;
   display: block;
   float: left;
