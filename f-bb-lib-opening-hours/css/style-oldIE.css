@@ -26664,6 +26664,8 @@ dl.staffhub-dl dd {
 .opening-times-table {
   margin-bottom: 0;
   /*tr*/ }
+  .opening-times-panel--fade-in .opening-times-table {
+    opacity: 1; }
   .opening-times-table tbody {
     width: 100%;
     display: table; }
@@ -26940,9 +26942,6 @@ dl.staffhub-dl dd {
 
 body#library {
   overflow-x: hidden; }
-
-.opening-times-panel--fade-in .opening-times-table {
-  opacity: 1; }
 
 .library-home-background {
   position: relative;
