@@ -674,7 +674,6 @@ module.exports = (function() {
                     yepnope({
                         load: `modules/library/${libJsFile}`,
                         callback: function() {
-                            console.log('test 3')
                             debug('loaded library datepicker');
                         },
                     });

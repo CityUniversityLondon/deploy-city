@@ -1,7 +1,5 @@
 CITY.library = (function($) {
     'use strict';
-
-    console.log('inside lib')
    
     /// Private
     var $formWrapper = $('.library-search'),
