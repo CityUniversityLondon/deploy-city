@@ -4,6 +4,7 @@ CITY.library = (function($) {
 
     const   libraries = document.querySelectorAll('.opening-times-list > li'),
             formWrapper = document.querySelector('.library-search'),
+            dropdowns = formWrapper.querySelectorAll('.dropdown-select'),
             optionSelect = formWrapper.querySelector('.library-search__content-type'),
             optionFields = formWrapper.querySelectorAll('.search-refine-wrapper input'),
 
@@ -14,6 +15,34 @@ CITY.library = (function($) {
         });
         optionFields[index].checked = true;
     },
+
+    toggleOption = function(e) {
+        e.preventDefault();
+        const dropdown = e.currentTarget;
+        const optionEl = e.target.closest('.option');
+      
+        dropdown.classList.toggle('active');
+      
+        if (!optionEl || !dropdown.contains(optionEl)) {
+          // clicked outside an actual .option
+          return;
+        }
+      
+        const selectedValue = optionEl.dataset.value;
+        const text = optionEl.innerHTML;
+      
+        const options = Array.from(dropdown.querySelectorAll('.option'));
+        const inputs  = dropdown.querySelectorAll('input[type="radio"]');
+        const display = dropdown.querySelector('.display-span');
+      
+        inputs.forEach(inp => inp.checked = false);
+        const idx = options.indexOf(optionEl);
+        if (inputs[idx]) inputs[idx].checked = true;
+      
+        if (display) display.innerHTML = text;
+      
+        dropdown.classList.remove('active');
+      },
 
     setupPanel = function(panel, index, panels){
         const prevBtn = panel.querySelector('.opening-times-navigation-previous .calendarNavLink');
@@ -53,7 +82,9 @@ CITY.library = (function($) {
 
     init = function() {
         optionSelect.addEventListener('change', selectChange);
-
+        dropdowns.forEach(dropdown => {
+            dropdown.addEventListener('click', toggleOption);
+        });
         libraries.forEach(lib => {
             const panels = lib.querySelectorAll('.opening-times-panel');
             //activate the first week/panel
