@@ -2,12 +2,14 @@
 CITY.library = (function($) {
     'use strict';
 
-    const   libraries = document.querySelectorAll('.opening-times-list > li'),
-            formWrapper = document.querySelector('.library-search'),
-            dropdowns = formWrapper.querySelectorAll('.dropdown-select'),
-            optionSelect = formWrapper.querySelector('.library-search__content-type'),
-            optionFields = formWrapper.querySelectorAll('.search-refine-wrapper input'),
 
+    const libraries = document.querySelectorAll('.opening-times-list > li'),
+        formWrapper = document.querySelector('.library-search'),
+        dropdowns = formWrapper ? formWrapper.querySelectorAll('.dropdown-select') : [],
+        optionSelect = formWrapper ? formWrapper.querySelector('.library-search__content-type') : null,
+        optionFields = formWrapper ? formWrapper.querySelectorAll('.search-refine-wrapper input') : [],
+
+        
     selectChange = function(e) {
         const index = e.target.selectedIndex;
         optionFields.forEach(function(field) {
@@ -81,10 +83,14 @@ CITY.library = (function($) {
     },
 
     init = function() {
-        optionSelect.addEventListener('change', selectChange);
-        dropdowns.forEach(dropdown => {
-            dropdown.addEventListener('click', toggleOption);
-        });
+        if (optionSelect) {
+            optionSelect.addEventListener('change', selectChange);
+            }
+        if (dropdowns.length) {
+            dropdowns.forEach(dropdown => {
+                dropdown.addEventListener('click', toggleOption);
+            });
+        }
         libraries.forEach(lib => {
             const panels = lib.querySelectorAll('.opening-times-panel');
             //activate the first week/panel

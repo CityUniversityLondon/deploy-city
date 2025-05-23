@@ -663,8 +663,9 @@ module.exports = (function() {
 
                 //// library home page opening times
                 if ($('#library').length !== 0) {
+
                     yepnope({
-                        load: `modules/library/library.js?v=21020`,
+                        load: `modules/library/library.js?v=${cityVersion}`,
                         callback: function() {
                             debug('loaded library datepicker');
                         },
