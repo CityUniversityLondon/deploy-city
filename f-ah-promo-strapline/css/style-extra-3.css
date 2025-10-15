@@ -1,3 +1,8 @@
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:focus,
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:active {
+  border-bottom-color: #999;
+}
+
 .link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:hover {
   color: #333;
   border-bottom-color: #649a44;
@@ -15783,9 +15788,4 @@ fieldset .col-xs-24 {
 
 .conference-listing .conference-listing__anchor:active {
   outline-offset: 0;
-}
-
-.conference-listing .conference-listing__anchor:hover .conference-listing__heading,
-.conference-listing .conference-listing__anchor:active .conference-listing__heading {
-  color: #ef383f;
 }

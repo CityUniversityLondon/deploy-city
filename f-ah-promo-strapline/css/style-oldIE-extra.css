@@ -1,3 +1,8 @@
+.service a.hallway:active,
+.project a.hallway:active {
+  background-color: #FFFFFF;
+}
+
 .service a.service__header-link,
 .service a.project__header-link,
 .project a.service__header-link,

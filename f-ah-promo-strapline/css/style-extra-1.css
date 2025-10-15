@@ -13000,10 +13000,15 @@ input[type="checkbox"]:disabled {
 }
 
 .global-header__ribbon {
-  padding: 1rem 0;
-  background: #1e1e1e;
+  padding: 0.5rem 0;
+  background: #333333;
   color: #ffffff;
   text-align: center;
+}
+
+.global-header__ribbon p {
+  margin: 0.75rem 0;
+  font-size: 1.75rem;
 }
 
 .global-header__ribbon a {
@@ -16743,16 +16748,4 @@ li.with-pic p {
 
 .free-html {
   background-color: transparent;
-}
-
-.city-vision-widget {
-  background-color: #B02A1A;
-  display: block;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 20px 15px 30px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 2.8em;
-  font-weight: normal;
-  line-height: 0.9em;
 }

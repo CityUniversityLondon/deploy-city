@@ -12781,10 +12781,15 @@ input[type="checkbox"]:disabled {
 }
 
 .global-header__ribbon {
-  padding: 1rem 0;
-  background: #1e1e1e;
+  padding: 0.5rem 0;
+  background: #333333;
   color: #ffffff;
   text-align: center;
+}
+
+.global-header__ribbon p {
+  margin: 0.75rem 0;
+  font-size: 1.75rem;
 }
 
 .global-header__ribbon a {
@@ -16496,9 +16501,4 @@ a.city-vision-widget:hover hr {
   -webkit-transition: color .2s;
   transition: color .2s;
   text-decoration: underline;
-}
-
-#business-case-studies-widget .widget-content li a:active,
-#business-case-studies-widget .widget-content li a:focus {
-  color: white;
 }

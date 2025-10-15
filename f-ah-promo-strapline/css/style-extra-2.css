@@ -1,3 +1,15 @@
+.city-vision-widget {
+  background-color: #B02A1A;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 15px 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2.8em;
+  font-weight: normal;
+  line-height: 0.9em;
+}
+
 .city-vision-widget.city-vision-widget-alternate {
   background-color: #00284D;
 }
@@ -15717,9 +15729,4 @@ table.visa-event-table tr td {
 
 .link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:hover {
   border-bottom-color: #000;
-}
-
-.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:focus,
-.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:active {
-  border-bottom-color: #999;
 }

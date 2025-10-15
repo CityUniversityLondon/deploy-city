@@ -1,3 +1,8 @@
+#business-case-studies-widget .widget-content li a:active,
+#business-case-studies-widget .widget-content li a:focus {
+  color: white;
+}
+
 #business-case-studies-widget .widget-content li a img {
   width: 30%;
   margin-right: 10px;
@@ -15309,9 +15314,4 @@ p.left-float-image {
   color: #b91b1b;
   border-bottom-style: dotted;
   border-bottom-color: #555555;
-}
-
-.service a.hallway:active,
-.project a.hallway:active {
-  background-color: #FFFFFF;
 }
