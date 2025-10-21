@@ -1,3 +1,11 @@
+.service a.hallway:focus,
+.project a.hallway:focus {
+  background-color: #FFFFFF;
+  color: #b91b1b;
+  border-bottom-style: dotted;
+  border-bottom-color: #555555;
+}
+
 .service a.hallway:active,
 .project a.hallway:active {
   background-color: #FFFFFF;

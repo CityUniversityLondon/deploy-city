@@ -1,3 +1,24 @@
+.link-list--school-landing-page.link-list--school-landing-page--health h2 a:focus,
+.link-list--school-landing-page.link-list--school-landing-page--health h2 a:active {
+  border-bottom: #999 dotted 2px;
+  background: none;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:link,
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:visited {
+  color: #333;
+  border-bottom: 2px solid #00444d;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:link,
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:visited {
+  border-bottom-color: #649a44;
+}
+
+.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:hover {
+  border-bottom-color: #000;
+}
+
 .link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:focus,
 .link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:active {
   border-bottom-color: #999;
@@ -15757,35 +15778,4 @@ fieldset .col-xs-24 {
 
 .conference-listing .conference-listing__card:last-of-type {
   margin-bottom: 0;
-}
-
-.conference-listing .conference-listing__anchor {
-  background-color: #f2f2f2;
-  border-bottom: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  padding: 1em;
-}
-
-.conference-listing .conference-listing__anchor:focus .conference-listing__heading {
-  color: #b02a1a;
-}
-
-.conference-listing .conference-listing__anchor:focus .conference-listing__heading span {
-  border-bottom: 2px solid #b02a1a;
-}
-
-.conference-listing .conference-listing__anchor:focus,
-.conference-listing .conference-listing__anchor:active {
-  outline: 2px dotted #444444;
-  outline-offset: 3px;
-}
-
-.conference-listing .conference-listing__anchor:active {
-  outline-offset: 0;
 }

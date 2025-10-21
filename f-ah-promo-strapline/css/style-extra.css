@@ -1,3 +1,34 @@
+.conference-listing .conference-listing__anchor {
+  background-color: #f2f2f2;
+  border-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 1em;
+}
+
+.conference-listing .conference-listing__anchor:focus .conference-listing__heading {
+  color: #b02a1a;
+}
+
+.conference-listing .conference-listing__anchor:focus .conference-listing__heading span {
+  border-bottom: 2px solid #b02a1a;
+}
+
+.conference-listing .conference-listing__anchor:focus,
+.conference-listing .conference-listing__anchor:active {
+  outline: 2px dotted #444444;
+  outline-offset: 3px;
+}
+
+.conference-listing .conference-listing__anchor:active {
+  outline-offset: 0;
+}
+
 .conference-listing .conference-listing__anchor:hover .conference-listing__heading,
 .conference-listing .conference-listing__anchor:active .conference-listing__heading {
   color: #ef383f;

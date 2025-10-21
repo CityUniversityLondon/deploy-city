@@ -13000,6 +13000,7 @@ input[type="checkbox"]:disabled {
 }
 
 .global-header__ribbon {
+  display: none;
   padding: 0.5rem 0;
   background: #333333;
   color: #ffffff;
@@ -13037,6 +13038,21 @@ input[type="checkbox"]:disabled {
   background-color: #ffffff;
   color: #666666;
   border-bottom-color: transparent;
+}
+
+.global-header__ribbon--body {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+@media only screen and (min-width: 980px) {
+  .global-header__ribbon {
+    display: block;
+  }
+
+  .global-header__ribbon--body {
+    display: none;
+  }
 }
 
 .connect-with-us .social-icon {
@@ -16731,21 +16747,4 @@ li.with-pic p {
 #profiles-widget .name {
   font-size: 1.2em;
   margin: 0 10px;
-}
-
-#profiles-widget .description,
-#profiles-widget .job-title,
-#profiles-widget .role-description,
-#profiles-widget .email,
-#profiles-widget .tel {
-  font-size: 1.2em;
-  margin: 10px 10px 0 10px;
-}
-
-#profiles-widget .job-title {
-  font-weight: 600;
-}
-
-.free-html {
-  background-color: transparent;
 }

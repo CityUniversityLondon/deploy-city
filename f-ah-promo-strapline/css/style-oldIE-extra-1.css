@@ -12781,6 +12781,7 @@ input[type="checkbox"]:disabled {
 }
 
 .global-header__ribbon {
+  display: none;
   padding: 0.5rem 0;
   background: #333333;
   color: #ffffff;
@@ -12818,6 +12819,19 @@ input[type="checkbox"]:disabled {
   background-color: #ffffff;
   color: #666666;
   border-bottom-color: transparent;
+}
+
+.global-header__ribbon--body {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.global-header__ribbon {
+  display: block;
+}
+
+.global-header__ribbon--body {
+  display: none;
 }
 
 .connect-with-us .social-icon {
@@ -16488,17 +16502,4 @@ a.city-vision-widget:hover hr {
 
 #business-case-studies-widget .widget-content li {
   clear: both;
-}
-
-#business-case-studies-widget .widget-content li a {
-  border: none;
-  color: black;
-  display: block;
-}
-
-#business-case-studies-widget .widget-content li a:hover {
-  color: #b02a1a;
-  -webkit-transition: color .2s;
-  transition: color .2s;
-  text-decoration: underline;
 }

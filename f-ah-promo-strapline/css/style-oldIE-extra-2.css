@@ -1,3 +1,16 @@
+#business-case-studies-widget .widget-content li a {
+  border: none;
+  color: black;
+  display: block;
+}
+
+#business-case-studies-widget .widget-content li a:hover {
+  color: #b02a1a;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+  text-decoration: underline;
+}
+
 #business-case-studies-widget .widget-content li a:active,
 #business-case-studies-widget .widget-content li a:focus {
   color: white;
@@ -15306,12 +15319,4 @@ p.left-float-image {
   color: #b91b1b;
   border-bottom-style: solid;
   border-bottom-color: #b91b1b;
-}
-
-.service a.hallway:focus,
-.project a.hallway:focus {
-  background-color: #FFFFFF;
-  color: #b91b1b;
-  border-bottom-style: dotted;
-  border-bottom-color: #555555;
 }

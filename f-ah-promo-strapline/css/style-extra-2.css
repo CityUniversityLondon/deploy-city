@@ -1,3 +1,20 @@
+#profiles-widget .description,
+#profiles-widget .job-title,
+#profiles-widget .role-description,
+#profiles-widget .email,
+#profiles-widget .tel {
+  font-size: 1.2em;
+  margin: 10px 10px 0 10px;
+}
+
+#profiles-widget .job-title {
+  font-weight: 600;
+}
+
+.free-html {
+  background-color: transparent;
+}
+
 .city-vision-widget {
   background-color: #B02A1A;
   display: block;
@@ -15708,25 +15725,4 @@ table.visa-event-table tr td {
 .link-list--school-landing-page.link-list--school-landing-page--health h2 a:hover {
   color: #333;
   border-bottom-color: #0077a0;
-}
-
-.link-list--school-landing-page.link-list--school-landing-page--health h2 a:focus,
-.link-list--school-landing-page.link-list--school-landing-page--health h2 a:active {
-  border-bottom: #999 dotted 2px;
-  background: none;
-}
-
-.link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:link,
-.link-list--school-landing-page.link-list--school-landing-page--smcse h2 a:visited {
-  color: #333;
-  border-bottom: 2px solid #00444d;
-}
-
-.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:link,
-.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:visited {
-  border-bottom-color: #649a44;
-}
-
-.link-list--school-landing-page.link-list--school-landing-page--smcse h2:first-child a:hover {
-  border-bottom-color: #000;
 }

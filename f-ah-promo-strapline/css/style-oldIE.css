@@ -8928,6 +8928,7 @@ input[type="checkbox"]:disabled {
     color: #555; }
 
 .global-header__ribbon {
+  display: none;
   padding: 0.5rem 0;
   background: #333333;
   color: #ffffff;
@@ -8953,6 +8954,16 @@ input[type="checkbox"]:disabled {
       background-color: #ffffff;
       color: #666666;
       border-bottom-color: transparent; }
+
+.global-header__ribbon--body {
+  display: block;
+  margin: 0.5rem 0; }
+
+.global-header__ribbon {
+  display: block; }
+
+.global-header__ribbon--body {
+  display: none; }
 
 .connect-with-us .social-icon {
   background: url("https://www.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/home/social.png") no-repeat 0 -30px;
