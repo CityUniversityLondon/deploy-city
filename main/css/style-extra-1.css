@@ -12672,6 +12672,62 @@ input[type=checkbox]:disabled {
   color: #555;
 }
 
+.global-header__ribbon {
+  display: none;
+  padding: .5rem 0;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.global-header__ribbon p {
+  margin: .75rem 0;
+  font-size: 1.75rem;
+}
+
+.global-header__ribbon a {
+  display: inline-block;
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  border-bottom-color: #fff;
+  text-decoration: none;
+  color: #fff;
+}
+
+.global-header__ribbon a:link,
+.global-header__ribbon a:visited {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.global-header__ribbon a:hover {
+  color: #fff;
+  border-bottom-color: #fff;
+  border-bottom-style: solid;
+}
+
+.global-header__ribbon a:active,
+.global-header__ribbon a:focus {
+  background-color: #fff;
+  color: #666;
+  border-bottom-color: transparent;
+}
+
+.global-header__ribbon--body {
+  display: block;
+  margin: .5rem 0;
+}
+
+@media only screen and (min-width:980px) {
+  .global-header__ribbon {
+    display: block;
+  }
+
+  .global-header__ribbon--body {
+    display: none;
+  }
+}
+
 .connect-with-us .social-icon {
   background: url(https://www.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/home/social.png) no-repeat 0 -30px;
   display: block;
@@ -16402,48 +16458,4 @@ a.city-vision-widget:hover hr {
   color: #FFF;
   text-decoration: none;
   border: none;
-}
-
-#spotlight-research-widget .widget-content {
-  padding-left: 5px;
-}
-
-#spotlight-research-widget li {
-  background: #fff;
-}
-
-#spotlight-research-widget li:after,
-#spotlight-research-widget li:before {
-  content: " ";
-  display: table;
-}
-
-#spotlight-research-widget li:after {
-  clear: both;
-}
-
-#spotlight-research-widget .bx-wrapper {
-  margin: 0 5px 0 0;
-}
-
-#spotlight-research-widget h3 {
-  margin: 0 5px 0 5px;
-}
-
-#spotlight-research-widget h3 a {
-  font-weight: 700;
-}
-
-#spotlight-research-widget .thumbnail {
-  display: block;
-  margin: 6px auto 5px;
-  width: 97%;
-}
-
-#spotlight-research-widget .summary {
-  margin: 5px 5px 10px 5px;
-}
-
-#spotlight-research-widget.widget-one-item .widget-content {
-  padding: 5px;
 }

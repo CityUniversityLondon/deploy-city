@@ -12453,6 +12453,60 @@ input[type=checkbox]:disabled {
   color: #555;
 }
 
+.global-header__ribbon {
+  display: none;
+  padding: .5rem 0;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.global-header__ribbon p {
+  margin: .75rem 0;
+  font-size: 1.75rem;
+}
+
+.global-header__ribbon a {
+  display: inline-block;
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  border-bottom-color: #fff;
+  text-decoration: none;
+  color: #fff;
+}
+
+.global-header__ribbon a:link,
+.global-header__ribbon a:visited {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.global-header__ribbon a:hover {
+  color: #fff;
+  border-bottom-color: #fff;
+  border-bottom-style: solid;
+}
+
+.global-header__ribbon a:active,
+.global-header__ribbon a:focus {
+  background-color: #fff;
+  color: #666;
+  border-bottom-color: transparent;
+}
+
+.global-header__ribbon--body {
+  display: block;
+  margin: .5rem 0;
+}
+
+.global-header__ribbon {
+  display: block;
+}
+
+.global-header__ribbon--body {
+  display: none;
+}
+
 .connect-with-us .social-icon {
   background: url(https://www.city.ac.uk/__data/assets/git_bridge/0004/841405/main/i/home/social.png) no-repeat 0 -30px;
   display: block;
@@ -16143,45 +16197,4 @@ a.city-vision-widget:hover hr {
   background: transparent url(https://www.city.ac.uk/__data/assets/git_bridge/0018/344007/main/i/vector-social-media-icons/social-list.png) no-repeat 0 0;
   line-height: 32px;
   height: 32px;
-}
-
-#social-list a.osw.twitter {
-  background-position: 0 -52px;
-}
-
-#social-list a.osw.google {
-  background-position: 0 -104px;
-}
-
-#social-list a.osw.youtube {
-  background-position: 0 -156px;
-}
-
-#social-list a.osw.linkedin {
-  background-position: 0 -208px;
-}
-
-#social-list a.osw.pinterest {
-  background-position: 0 -260px;
-}
-
-#social-list a.osw.instagram {
-  background-position: 0 -312px;
-}
-
-#social-list a span {
-  border-bottom: 1px solid #ccc;
-  line-height: 28px;
-}
-
-#social-list a:hover {
-  text-decoration: none;
-}
-
-#social-list a:hover span {
-  border-bottom: none;
-}
-
-#social-list a:focus span {
-  background: #B02A1A;
 }
